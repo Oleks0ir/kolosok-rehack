@@ -56,6 +56,21 @@ External enrichment is allowed _(PDF)_: competitor information, reviews, market 
 - _(PDF)_ Valued: trustworthy sources, transparent reasoning, thoughtful prioritization, clear handling of uncertainty and conflicting evidence, and a view on how the concept scales across vehicle lines and markets.
 - _(PDF)_ Focus on customer value, not engineering specs, regulation or detailed business cases.
 
+## Organiser clarifications (from the hackathon announcement)
+
+**Common pain points of product managers:**
+- Balancing customer requirements across different markets and regions, because preferences differ (climate, customer usage, culture).
+- Getting early customer feedback (e.g. on predecessor vehicles) and extracting future customer requirements from it.
+
+**It is a process, not a one-off list:** requirements are not defined once. PMs prioritize the most relevant ones over roughly **two years**. The app should therefore support revisiting, re-scoring and updating requirements over time (this ties into the audit trail).
+
+**Suggested external source — BMW Group Report 2025:**
+https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/ir/downloads/en/2026/bericht/BMW-Group-Report-2025-en.pdf
+
+Only two areas are worth extracting (no need to read the financials):
+- **Market and sales data:** regional growth trends, model-series deliveries (e.g. X Series vs. sedans), latest EV adoption rates. Use for target personas, proving demand and deciding where a feature has the most impact.
+- **Product strategy and R&D:** R&D investment priorities, ConnectedDrive and My BMW App metrics, the "Neue Klasse" platform strategy. Use to align with current engineering investments and the future vehicle architecture.
+
 ## Expected deliverables
 
 1. **Concept and demonstrable prototype** of an AI-powered product-requirements application that processes heterogeneous inputs, derives requirements, supports prioritization and integrates human review.
