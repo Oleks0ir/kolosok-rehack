@@ -39,3 +39,50 @@ In that setup the chain also becomes a control mechanism, not only a record:
 
 **Open question:** we don't know yet how feasible this is in the hackathon time frame, or which part of it we should build.
 Treat this section as the direction, not a committed scope.
+
+## Data model (agreed)
+
+**Core rule:** the graph does no work; it only stores results.
+All work happens in **processing steps** (LLM agent, formula, PM action).
+**Each step run writes one new node, plus edges to the nodes it used as input.**
+
+### Node types
+
+| Type | What it is | Typically made by |
+|---|---|---|
+| **Source** | One input data file / document (e.g. "G70 feedback.xlsx") | import step |
+| **Signal** | A finding: complaint, unmet need, competitor gap, trend. Stores the exact quotes/rows it is based on | LLM agent or analysis |
+| **Requirement** | A customer requirement proposal | LLM agent or PM |
+| **Score** | Priority score with its formula breakdown | scoring formula |
+| **Decision** | PM approves / rejects / postpones / edits, with reason | PM |
+| **Note** | Free input: meeting outcome, expert opinion, PM comment | PM / team |
+
+### Fields
+
+```
+Node
+  id           e.g. "SIG-012"
+  type         Source | Signal | Requirement | Score | Decision | Note
+  content      the result itself
+  created_by   "agent:<name>" | "tool:<name>" | "PM:<name>"
+  method       prompt or formula used
+  rationale    why (LLM explanation or PM comment)
+  timestamp
+  version      1, 2, 3 …
+  replaces     id of the previous version (empty for v1)
+  status       ok | stale
+
+Edge
+  from, to, relation: derived_from | supports | contradicts | scores | decides
+```
+
+### Write rules
+
+1. **Only one write function** (`add_node(type, content, inputs, created_by, method, rationale)`). Nothing else writes to the graph.
+2. **Append-only:** nodes are never changed or deleted. An edit creates a new version that points to the old one (`replaces`). The full history is therefore always kept, and that history is the audit trail.
+3. **Every node except a Source must have inputs**, so nothing is untraceable.
+4. **Readable over exhaustive:** one Source node per file, not per row. A Signal keeps its supporting quotes inside its content, so the graph stays small enough for a person to keep an overview.
+
+### Propagation
+
+Edges mean "B was built from A". When a node gets a new version, everything downstream is marked **stale**.
