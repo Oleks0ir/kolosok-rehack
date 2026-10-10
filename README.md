@@ -118,3 +118,4 @@ _TBD — add install + start commands as soon as there is runnable code._
 | `CLAUDE.md`, `AGENTS.md` | Auto-loaded agent entry points; they point here |
 | `README-Human` | Human onboarding: GitHub token & credential setup |
 | `Concept/root.drawio` | Architecture / concept diagram |
+
