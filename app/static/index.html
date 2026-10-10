@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101c2d">
+    <title>BMW Product Decision Workbench</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script defer src="/static/app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="/" aria-label="Product Decision Workbench home">
+          <span class="brand-mark"><span></span><span></span><span></span><span></span></span>
+          <span class="brand-copy"><b>BMW Group</b><small>PRODUCT INTELLIGENCE</small></span>
+        </a>
+        <div class="side-label">WORKSPACE</div>
+        <nav class="side-nav" aria-label="Workspace sections">
+          <button class="nav-item active" data-view="requirements"><span class="nav-icon">▤</span>Requirements<span class="nav-count" id="navReqCount">0</span></button>
+          <button class="nav-item" data-view="evidence"><span class="nav-icon">⌕</span>Evidence explorer</button>
+          <button class="nav-item" data-view="audit"><span class="nav-icon">◷</span>Audit timeline</button>
+          <button class="nav-item" data-view="simulation"><span class="nav-icon">⇄</span>Compare A / B / C</button>
+        </nav>
+        <div class="side-bottom">
+          <div class="side-label">ACTIVE PROFILE</div>
+          <div class="profile-card"><span class="profile-dot"></span><div><b>BMW 5 Series</b><small>Germany · Successor</small></div><span class="chevron">⌄</span></div>
+          <div class="sidebar-note"><span class="status-dot"></span><span id="systemStatus">Local-first workspace</span></div>
+          <div class="sidebar-foot">Evidence in. Better decisions out.</div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="crumb"><span>Product strategy</span><i>/</i><b>Decision workbench</b></div>
+          <div class="top-actions">
+            <span class="env-pill" id="envPill"><span class="status-dot"></span>Checking services</span>
+            <button class="button button-quiet" id="openImport">＋ Add evidence</button>
+            <button class="button button-primary" id="runDemo">Run demo pipeline <span>↗</span></button>
+          </div>
+        </header>
+
+        <section class="page-heading">
+          <div>
+            <div class="eyebrow">BMW 5 SERIES · CUSTOMER EVIDENCE</div>
+            <h1>Product decision workbench</h1>
+            <p>Turn customer signals into traceable requirements. Your team makes the call.</p>
+          </div>
+          <div class="heading-meta"><span class="meta-label">CURRENT RUN</span><b id="runLabel">No run yet</b><small id="runDate">Start with the demo dataset or add your own evidence.</small><button class="text-button" id="openHistory">Run history ↗</button></div>
+        </section>
+
+        <section id="emptyState" class="empty-state hidden">
+          <div class="empty-art"><span>↗</span><span>▤</span><span>⌕</span></div>
+          <div class="eyebrow">YOUR WORKSPACE IS READY</div>
+          <h2>Start with customer evidence</h2>
+          <p>Try the included demo dataset, or bring feedback, sales, equipment, study or web evidence.</p>
+          <div class="empty-actions"><button class="button button-primary" id="emptyDemo">Run demo pipeline <span>↗</span></button><button class="button button-quiet" id="emptyImport">Upload evidence</button></div>
+          <small>Runs are saved locally. OpenAI and web search are optional.</small>
+        </section>
+
+        <div id="workspace" class="hidden">
+          <section class="metric-grid" aria-label="Run summary">
+            <article class="metric-card"><div class="metric-top"><span>Evidence items</span><span class="metric-icon blue">⌕</span></div><div class="metric-value" id="metricEvidence">—</div><div class="metric-foot"><span id="metricEvidenceMeta">Across all sources</span></div></article>
+            <article class="metric-card"><div class="metric-top"><span>Signals extracted</span><span class="metric-icon violet">✳</span></div><div class="metric-value" id="metricSignals">—</div><div class="metric-foot">Clustered findings with source links</div></article>
+            <article class="metric-card"><div class="metric-top"><span>Draft requirements</span><span class="metric-icon teal">▤</span></div><div class="metric-value" id="metricRequirements">—</div><div class="metric-foot"><span id="metricApproved">0 approved</span><span class="foot-sep">·</span><span id="metricOpen">0 for review</span></div></article>
+            <article class="metric-card"><div class="metric-top"><span>Audit events</span><span class="metric-icon amber">◷</span></div><div class="metric-value" id="metricAudit">—</div><div class="metric-foot">Append-only decision history</div></article>
+          </section>
+
+          <section class="pipeline-card">
+            <div class="pipeline-head"><div><div class="eyebrow">EVIDENCE TO DECISION</div><h2>Pipeline progress</h2></div><button class="text-button" id="openReplay">Replay from a step <span>↻</span></button></div>
+            <div class="pipeline-track">
+              <div class="pipe-step complete"><span class="pipe-node">✓</span><div><b>M1</b><small>Ingest</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step" data-pipe="M2"><span class="pipe-node">2</span><div><b>M2</b><small>Web</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step" data-pipe="M3"><span class="pipe-node">3</span><div><b>M3</b><small>Signals</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step" data-pipe="M4"><span class="pipe-node">4</span><div><b>M4</b><small>Draft</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step" data-pipe="M5"><span class="pipe-node">5</span><div><b>M5</b><small>Rank</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step gate" data-gate="M6"><span class="pipe-node">6</span><div><b>M6</b><small>PM review</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step" data-gate="M7"><span class="pipe-node">7</span><div><b>M7</b><small>Spec</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step optional" data-gate="M8"><span class="pipe-node">8</span><div><b>M8</b><small>Personas</small></div></div><span class="pipe-line"></span>
+              <div class="pipe-step gate" data-gate="M9"><span class="pipe-node">9</span><div><b>M9</b><small>Sign-off</small></div></div>
+            </div>
+            <div class="pipeline-foot"><span><i class="legend-dot ai"></i>AI proposes</span><span><i class="legend-dot human"></i>Mandatory PM decision</span><span><i class="legend-dot optional-dot"></i>Optional simulation</span><span class="pipeline-audit">M0 · Every step is recorded</span></div>
+          </section>
+
+          <div class="view-tabs" role="tablist">
+            <button class="view-tab active" data-view="requirements">Requirement board <span id="tabReqCount">0</span></button>
+            <button class="view-tab" data-view="evidence">Evidence explorer</button>
+            <button class="view-tab" data-view="audit">Audit timeline</button>
+            <button class="view-tab" data-view="simulation">Compare A / B / C</button>
+            <span class="tab-spacer"></span>
+            <a class="text-button export-link" id="exportLink" href="#">Export CSV ↓</a>
+          </div>
+
+          <section class="view-panel" id="view-requirements">
+            <div class="section-head"><div><h2>Prioritized requirements</h2><p>Every score has a factor breakdown and a path back to the source.</p></div><div class="section-tools"><select id="categoryFilter" aria-label="Filter by category"><option value="">All categories</option></select><select id="statusFilter" aria-label="Filter by decision status"><option value="">All statuses</option><option value="proposed">Proposed</option><option value="approved">Approved</option><option value="rejected">Rejected</option><option value="challenged">Challenged</option><option value="edited">Edited</option></select><button class="button button-quiet" id="openFinal">M9 · Sign off</button></div></div>
+            <div class="board-header"><span>REQUIREMENT / CATEGORY</span><span>PRIORITY</span><span>EVIDENCE</span><span>PM STATUS</span><span></span></div>
+            <div id="requirementList" class="requirement-list"></div>
+          </section>
+
+          <section class="view-panel hidden" id="view-evidence">
+            <div class="section-head"><div><h2>Evidence explorer</h2><p>Filter by source and reliability. Excluded out-of-scope items stay visible.</p></div><div class="section-tools"><input id="evidenceSearch" type="search" placeholder="Search evidence…"><select id="sourceFilter"><option value="">All source types</option><option>feedback</option><option>sales</option><option>equipment</option><option>study</option><option>web</option></select></div></div>
+            <div class="evidence-summary" id="evidenceSummary"></div>
+            <div id="evidenceList" class="evidence-list"></div>
+          </section>
+
+          <section class="view-panel hidden" id="view-audit">
+            <div class="section-head"><div><h2>Decision history</h2><p>Append-only record of what changed, who acted and why.</p></div><div class="section-tools"><input id="auditSearch" type="search" placeholder="Filter by action or requirement"><span class="immutable-pill">⌁ IMMUTABLE LOG</span></div></div>
+            <div id="auditList" class="audit-list"></div>
+          </section>
+
+          <section class="view-panel hidden" id="view-simulation">
+            <div class="section-head"><div><h2>Compare requirement sets</h2><p>Synthetic personas can compare A / B / C. Results are always labelled low evidence.</p></div><span class="low-evidence-pill">SIMULATED · LOW EVIDENCE</span></div>
+            <div class="simulation-grid">
+              <label class="option-card"><span class="option-label">OPTION A</span><input id="optionA" value="Improve connected services and natural voice interaction."><small>Describe a customer-facing option set</small></label>
+              <label class="option-card"><span class="option-label">OPTION B</span><input id="optionB" value="Improve cabin comfort, seating and passenger controls."><small>Describe a customer-facing option set</small></label>
+              <label class="option-card"><span class="option-label">OPTION C</span><input id="optionC" value="Improve journey planning, charging and driver assistance."><small>Describe a customer-facing option set</small></label>
+            </div>
+            <div class="simulation-controls"><label class="checkbox-line"><input id="includeSimulation" type="checkbox"><span>Include simulation as a 10% low-evidence score factor</span></label><button class="button button-primary" id="runSimulation">Run persona comparison <span>↗</span></button></div>
+            <div id="simulationResults" class="simulation-results"><div class="placeholder-box">Run the optional simulation to compare the three option sets.</div></div>
+          </section>
+        </div>
+
+        <footer class="main-footer"><span>BMW product decision workbench <i>·</i> Evidence first. Human in control.</span><span id="footerRun">Local data · no run</span></footer>
+      </main>
+    </div>
+
+    <dialog id="importDialog" class="modal">
+      <form method="dialog" class="modal-top"><div><div class="eyebrow">M1 · INGEST & SCOPING</div><h2>Add customer evidence</h2></div><button class="icon-button" value="cancel" aria-label="Close">×</button></form>
+      <div class="modal-body">
+        <p class="modal-intro">Upload CSV or JSON, or paste one customer statement per line. Source, market and reliability fields are preserved.</p>
+        <label class="form-label">Evidence file <input id="evidenceFile" type="file" accept=".csv,.json,.txt,.md"></label>
+        <div class="form-row"><label class="form-label">Source type<select id="importSource"><option value="feedback">Customer feedback</option><option value="sales">Sales data</option><option value="equipment">Equipment data</option><option value="study">Customer study</option></select></label><label class="form-label">Web enrichment<select id="includeWeb"><option value="false">Skip web search</option><option value="true">Include Tavily search</option></select></label></div>
+        <label class="form-label">Model / market profile<select id="profileSelect"><option value="bmw_5_series_germany">BMW 5 Series · Germany</option></select></label>
+        <label class="form-label">Or paste evidence<textarea id="rawEvidence" rows="5" placeholder="The voice assistant often misunderstands place names…"></textarea></label>
+        <div class="info-banner">Out-of-scope engineering, regulatory and business-case content is flagged, not silently deleted. When API keys are configured, run data may be sent to those providers.</div>
+        <div class="modal-actions"><button class="button button-quiet" id="cancelImport" type="button">Cancel</button><button class="button button-primary" id="submitImport" type="button">Run pipeline <span>↗</span></button></div>
+        <div class="form-error" id="importError"></div>
+      </div>
+    </dialog>
+
+    <dialog id="detailDialog" class="modal detail-modal">
+      <form method="dialog" class="modal-top"><div><div class="eyebrow" id="detailEyebrow">REQUIREMENT DETAIL</div><h2 id="detailTitle">Requirement</h2></div><button class="icon-button" value="cancel" aria-label="Close">×</button></form>
+      <div class="modal-body" id="detailBody"></div>
+    </dialog>
+
+    <dialog id="replayDialog" class="modal">
+      <form method="dialog" class="modal-top"><div><div class="eyebrow">VERSIONING & REPLAY</div><h2>Replay this run</h2></div><button class="icon-button" value="cancel" aria-label="Close">×</button></form>
+      <div class="modal-body">
+        <p class="modal-intro">A new branch is created. The current run stays in history.</p>
+        <label class="form-label">Recompute from<select id="replayStage"><option value="M1">M1 · Ingest & scoping</option><option value="M2">M2 · Web enrichment</option><option value="M3" selected>M3 · Signal extraction</option><option value="M4">M4 · Requirement drafting</option><option value="M5">M5 · Scoring & ranking</option></select></label>
+        <div class="weight-editor" id="weightEditor"></div>
+        <div class="modal-actions"><button class="button button-quiet" id="cancelReplay" type="button">Cancel</button><button class="button button-primary" id="submitReplay" type="button">Create replay branch ↻</button></div>
+        <div class="form-error" id="replayError"></div>
+      </div>
+    </dialog>
+
+    <dialog id="finalDialog" class="modal">
+      <form method="dialog" class="modal-top"><div><div class="eyebrow">M9 · FINAL PM GATE</div><h2>Sign off final requirements</h2></div><button class="icon-button" value="cancel" aria-label="Close">×</button></form>
+      <div class="modal-body">
+        <p class="modal-intro">Only PM-approved requirements can be included in the final list.</p>
+        <div id="finalRequirementList" class="final-checklist"></div>
+        <label class="form-label">Sign-off comment<textarea id="finalComment" rows="3" placeholder="Why is this final list ready for the next planning step?"></textarea></label>
+        <div class="modal-actions"><button class="button button-quiet" id="cancelFinal" type="button">Cancel</button><button class="button button-primary" id="submitFinal" type="button">Sign off final list ✓</button></div>
+        <div class="form-error" id="finalError"></div>
+      </div>
+    </dialog>
+    <dialog id="historyDialog" class="modal">
+      <form method="dialog" class="modal-top"><div><div class="eyebrow">VERSIONING · REPLAY BRANCHES</div><h2>Run history</h2></div><button class="icon-button" value="cancel" aria-label="Close">×</button></form>
+      <div class="modal-body"><p class="modal-intro">Every run and replay branch is kept with its own evidence, requirements and audit trail.</p><div id="historyList" class="final-checklist"></div></div>
+    </dialog>
+    <div class="toast" id="toast" role="status"></div>
+  </body>
+</html>

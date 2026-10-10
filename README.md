@@ -110,7 +110,40 @@ If you don't see that line, stop and fix Entire before writing more code.
 
 ### How to run
 
-_TBD — add install + start commands as soon as there is runnable code._
+Prerequisites: Python 3.10+.
+
+```powershell
+python -m venv .venv
+./.venv/Scripts/Activate.ps1
+python -m pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+```
+
+Open `http://127.0.0.1:8000`. The app stores runs in `data/workbench.sqlite3` and includes a small synthetic BMW 5 Series demo dataset. The interactive API is at `http://127.0.0.1:8000/docs`.
+
+Optional integrations are configured through environment variables or a local `.env` file:
+
+| Variable | Purpose |
+|---|---|
+| `OPENAI_API_KEY` | LLM signal classification, requirement drafting and embeddings |
+| `OPENAI_MODEL` | OpenAI model name; defaults to `gpt-6-luna` |
+| `TAVILY_API_KEY` | Live web search and source enrichment |
+| `DATABASE_PATH` | SQLite file path; defaults to `data/workbench.sqlite3` |
+
+Without API keys, the pipeline runs locally with rule-based extraction, hashed text vectors and explainable scoring. When a key is configured, relevant evidence is sent to that provider. Never put a real key in a committed file.
+
+To enable an integration, copy `.env.example` to `.env`, fill only the key(s) you want to use, and restart the app.
+
+### Demo script
+
+1. Select **Run demo pipeline** to load the included evidence and run M1–M5.
+2. Open the highest-ranked requirement and follow its signal and source links.
+3. Approve, reject, edit or challenge a requirement at the M6 PM gate; each action needs a comment.
+4. Propose a measurable customer-facing target and approve it at M7.
+5. Optionally compare A/B/C persona scenarios at M8. Results are labelled simulated and low evidence; the PM must opt in before they affect the score.
+6. Sign off approved requirements at M9. Use **Replay from a step** to create a new run branch; previous runs and their audit records remain available.
+
+Imports accept CSV, JSON or plain text. CSV works best with columns such as `source_type`, `source_ref`, `market`, `model`, `date`, `reliability` and `text_or_value`. Export prioritized requirements from the **Export CSV** control.
 
 ## 7. Repo map
 

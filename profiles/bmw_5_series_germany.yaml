@@ -1,0 +1,48 @@
+id: bmw_5_series_germany
+label: BMW 5 Series · Germany
+model: BMW 5 Series
+market: Germany
+categories:
+  - Infotainment & digital services
+  - Comfort & convenience
+  - Driver assistance
+  - Vehicle dynamics
+  - Charging & energy
+  - Practicality & storage
+  - Ownership experience
+weights:
+  reach: 0.24
+  severity: 0.22
+  evidence_quality: 0.22
+  strategic_fit: 0.18
+  feasibility: 0.14
+search_queries:
+  - BMW 5 Series owner review infotainment comfort Germany
+  - BMW 5 Series competitor review customer experience
+scope_exclusions:
+  - homologation
+  - regulatory compliance
+  - supplier selection
+  - bill of materials
+  - production cost
+  - manufacturing process
+  - engineering feasibility
+  - investment case
+  - business case
+  - profit margin
+  - wholesale price
+context_rules:
+  - id: vehicle_weight_context
+    description: Interpret high vehicle-weight concerns in the context of vehicle size and drivetrain.
+    trigger_terms: [weight, mass, heavy]
+    context_terms: [large, awd]
+    factor: feasibility
+    adjustment: 0.08
+    pm_confirmed: false
+  - id: market_expectations
+    description: Treat market-specific expectations as hypotheses until supported by evidence from that market.
+    trigger_terms: [market, regional, language]
+    context_terms: [germany, german]
+    factor: evidence_quality
+    adjustment: 0.05
+    pm_confirmed: false
