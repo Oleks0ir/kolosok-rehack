@@ -88,6 +88,20 @@ Only two areas are worth extracting (no need to read the financials):
 
 **Important:** teams are free to choose technical approach, architecture, prioritization logic and UX. The deliverables describe capabilities and outcomes to demonstrate, not a prescribed design. They may be one integrated solution or a combination of connected concepts, prototypes, models and visualizations.
 
+## Evaluation criteria
+
+| Criterion | What is judged |
+|---|---|
+| **Decision and scoring logic** | Quality, consistency and explainability of the method used to derive, evaluate, score and prioritize requirements. Must show which factors influence decisions, how evidence and data sources are weighted and combined, and how trade-offs, uncertainties and conflicting signals are resolved. |
+| **Workflow and human decision-making** | Quality and completeness of the end-to-end workflow from heterogeneous findings to prioritized requirements: clearly defined roles, decision gates, review steps, and the boundaries between AI-supported, autonomous and human decisions. |
+| **Traceability and auditability** | Every requirement, score, modification and decision can be traced back to its originating evidence and sources, with a complete, reconstructable history of approvals, modifications, postponements and rejections. |
+| **Solution quality, usability and feasibility** | Quality of the concept or prototype, usefulness of the generated requirements, ease of use for product managers and engineering teams, and realistic applicability in a complex enterprise product development environment. |
+| **Innovation, scalability and business impact** | Originality and effectiveness, potential to scale across products, markets and data volumes, and expected contribution to less manual effort and rework, shorter decision cycles, and better requirement and decision quality. |
+
+**We reward honesty.** Trustworthy AI acknowledges uncertainty. Show where the app lacks evidence, meets conflicting signals, or reaches uncertain conclusions, and how this is surfaced to the PM. Honest limitations are a strength, not a weakness.
+
+Note: "postponements" appears in the traceability criterion, so the decision status needs more than approve/reject (e.g. a "postponed" state).
+
 ## What to demonstrate (short form)
 
 - A working prototype showing how AI supports identifying, formulating and prioritizing requirements from the provided data and external sources.
