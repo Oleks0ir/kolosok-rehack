@@ -1,0 +1,62 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4K2JE8MRM75B1XDGMRPK3P0",
+  "session_id": "468e6aa5-4297-4a9b-b37b-c7ad53f8a4cd",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T14:13:19.00531Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "save_step_count": 1,
+  "files_touched": [
+    "BMW-Challenge.md",
+    "README.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "334bf8634cf1",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 20,
+    "cache_creation_tokens": 49591,
+    "cache_read_tokens": 574379,
+    "output_tokens": 6994,
+    "api_call_count": 10
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T14:13:18.958823Z",
+    "agent_lines": 66,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 8,
+    "human_removed": 16,
+    "total_committed": 70,
+    "total_lines_changed": 90,
+    "agent_percentage": 73.33333333333333,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 4,
+      "user_lines_removed": 12,
+      "agent_lines_added": 90,
+      "agent_lines_removed": 1,
+      "user_added_per_file": {
+        "BMW-Challenge.md": 4
+      },
+      "user_removed_per_file": {
+        "BMW-Challenge.md": 12
+      }
+    }
+  ]
+}
