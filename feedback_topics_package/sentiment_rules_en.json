@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "language": "en",
+  "description": "Handwritten English phrase and word rules. Scores are rule weights, not probabilities. Validate and extend for your domain.",
+  "negation_window": 3,
+  "negations": ["not", "no", "never", "without", "neither", "nor", "nothing", "hardly"],
+  "request_pattern": "\\b(?:i wish|we wish|would like|would prefer|should have|could have|please add|please provide|i want|we want|needs? to be|would be better)\\b",
+  "rules": [
+    {"id": "request_not_praise", "pattern": "\\b(?:would like|would love|should be good|could be good)\\b", "score": 0, "allow_negation": false},
+    {"id": "comparison_not_praise", "pattern": "\\b(?:feels? like|looks? like|seems? like|something like|just like)\\b", "score": 0, "allow_negation": false},
+    {"id": "positive_general", "pattern": "\\b(?:good|great|excellent|fantastic|amazing|brilliant|wonderful|superb|lovely|perfect|best|impressive|impressed|satisfied|happy|pleased|enjoy|enjoys|enjoyed|enjoying|enjoyable|fun|pleasure|pleasant|beautiful|stylish|nimble|supportive|refined|love|loves|loved|like|likes|liked|recommend|recommended)\\b", "score": 1},
+    {"id": "positive_function", "pattern": "\\b(?:comfortable|comfy|quiet|smooth|easy|intuitive|reliable|powerful|responsive|stable|solid|economical|efficient|spacious|safe|helpful|excellent)\\b", "score": 1},
+    {"id": "positive_phrases", "pattern": "\\b(?:well built|well made|high quality|fuel efficient|easy to use|easy to drive|works well|work well|good support|joy to drive|value for money|attention to detail)\\b", "score": 2},
+    {"id": "negative_general", "pattern": "\\b(?:bad|poor|terrible|awful|worst|rubbish|disappointing|disappointed|disappointment|frustrating|frustrated|annoying|annoyed|unhappy|dissatisfied|hate|hates|dislike|dislikes|nightmare|unacceptable|ridiculous)\\b", "score": -1},
+    {"id": "negative_function", "pattern": "\\b(?:uncomfortable|confusing|difficult|complicated|awkward|unreliable|unstable|unresponsive|dangerous|noisy|expensive|clunky|jerky|unprogressive|laggy|painful|inconvenient|impossible)\\b", "score": -1},
+    {"id": "negative_faults", "pattern": "\\b(?:problems?|issues?|faults?|defects?|malfunctions?|failures?|damage|damaged|broken|crashes|crashing|freezes|freezing|rattles|rattling|squeaks|squeaking|creaks|creaking|lag|leaks?|leaking|deteriorated|deteriorating|unpleasant|discomfort|distracting|sluggish|unintuitive)\\b", "score": -1},
+    {"id": "negative_lack", "pattern": "\\b(?:lacks?|lacking|missing|removed|stripped out)\\b", "score": -1},
+    {"id": "negative_phrases", "pattern": "\\b(?:too hard|too firm|too small|too complicated|too expensive|too noisy|poor support|back pain|broke down|broken down|stopped working|stops working|not user friendly|not user-friendly|does not work|do not work|does not function|do not function|fails to|failed to)\\b", "score": -2},
+    {"id": "missing_feature", "pattern": "\\bno (?:proper |paper |printed |written |leather |rear |physical |spare |visible |fog |charging |climate |phone |12v )*(?:seats?|manual|handbook|buttons?|controls?|wheel|tyre|exhaust|lights?|sockets?|points?|ports?)\\b", "score": -1, "allow_negation": false},
+    {"id": "no_support", "pattern": "\\b(?:do not|does not) (?:give|provide|offer) (?:the |enough |adequate |proper )?support\\b", "score": -2, "allow_negation": false}
+  ]
+}

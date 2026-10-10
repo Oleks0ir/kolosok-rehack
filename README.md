@@ -110,7 +110,27 @@ If you don't see that line, stop and fix Entire before writing more code.
 
 ### How to run
 
-_TBD — add install + start commands as soon as there is runnable code._
+The feedback analysis package extracts topics from an Excel workbook, computes
+sentiment statistics, and optionally generates AI summaries.
+
+Requires Python 3.10 or newer. From the repository root:
+
+```bash
+cd feedback_topics_package
+python -m pip install -r requirements.txt
+python feedback_topics.py "path/to/input.xlsx" --output topics.json
+python summarize_topics.py topics.json --output topics_stats.json --stats-only
+python -m unittest test_feedback_topics test_summarize_topics
+```
+
+For AI summaries, configure `OPENAI_API_KEY` (or enter it at the hidden terminal
+prompt) and run `python summarize_topics.py topics.json --output topics_summary.json`.
+This sends selected feedback excerpts to the OpenAI API and incurs API charges.
+
+See [topic extraction](feedback_topics_package/README_RU.md) and
+[statistics and AI summaries](feedback_topics_package/README_SUMMARIES_RU.md)
+for input columns, settings, and output formats. Supply your own workbook;
+generated reports, local environments, and caches are not committed.
 
 ## 7. Repo map
 
