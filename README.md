@@ -30,7 +30,7 @@ Source: [EHL Finale – All you need to know](https://tum-ai.notion.site/EHL-Fin
 Internal targets: **feature freeze Sun 10:00**, first full submission by **Sun 10:30**, final re-submission by **11:45**.
 Submissions can be repeated as often as we like before the deadline, so submit early and update.
 
-**Challenge:** _TBD — BMW Group / Atira / tacto. Update this line once the captain has selected._
+**Challenge:** BMW Group. _Brief details TBD; add a one-line summary of the task here._
 
 ## 2. Setup checklist (each machine, once)
 
