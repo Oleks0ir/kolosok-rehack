@@ -112,6 +112,17 @@ If you don't see that line, stop and fix Entire before writing more code.
 
 _TBD — add install + start commands as soon as there is runnable code._
 
+CSV preparation: put the feedback CSV files directly in `data_preparation/`.
+From the repository root, install pandas with `python3 -m pip install pandas`, then run:
+
+```bash
+python3 -c 'from data_preparation.preparation import read_csv_files, build_criticism_matrix; print(build_criticism_matrix(read_csv_files()).to_string())'
+```
+
+The matrix has vehicle parts as rows, vehicle models as columns, and distinct feedback
+ID counts for `Defect` and `Difficult to Use`. Likes, wishes and unclassified parts are excluded.
+Run its check with `python3 -m unittest data_preparation.test_preparation`.
+
 ## 7. Repo map
 
 | Path | Purpose |
