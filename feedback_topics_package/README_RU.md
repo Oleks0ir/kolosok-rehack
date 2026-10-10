@@ -19,7 +19,7 @@ python -m pip install -r requirements.txt
 Запуск для исходной таблицы:
 
 ```powershell
-python feedback_topics.py "C:\Users\Alex Sporik\Documents\F70_feedback_hackathon.xlsx" --output topics.json
+python feedback_topics.py "input.xlsx" --output topics.json
 ```
 
 Файл `sentiment_rules_en.json` должен находиться рядом с программой. Можно указать другой файл через `--rules`.

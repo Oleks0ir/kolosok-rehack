@@ -110,27 +110,25 @@ If you don't see that line, stop and fix Entire before writing more code.
 
 ### How to run
 
-The feedback analysis package extracts topics from an Excel workbook, computes
-sentiment statistics, and optionally generates AI summaries.
-
+Feedback analysis is available in [`feedback_topics_package/`](feedback_topics_package/README.md).
+It extracts topics from Excel feedback locally with TF-IDF and average linkage,
+computes deterministic sentiment statistics, and optionally adds English AI summaries.
 Requires Python 3.10 or newer. From the repository root:
 
-```bash
+```powershell
 cd feedback_topics_package
 python -m pip install -r requirements.txt
 python feedback_topics.py "path/to/input.xlsx" --output topics.json
 python summarize_topics.py topics.json --output topics_stats.json --stats-only
-python -m unittest test_feedback_topics test_summarize_topics
+python summarize_topics.py topics.json --output topics_summary.json --model gpt-5.4 --workers 5 --language en
+python -m unittest discover -p "test_*.py"
 ```
 
-For AI summaries, configure `OPENAI_API_KEY` (or enter it at the hidden terminal
-prompt) and run `python summarize_topics.py topics.json --output topics_summary.json`.
-This sends selected feedback excerpts to the OpenAI API and incurs API charges.
-
-See [topic extraction](feedback_topics_package/README_RU.md) and
-[statistics and AI summaries](feedback_topics_package/README_SUMMARIES_RU.md)
-for input columns, settings, and output formats. Supply your own workbook;
-generated reports, local environments, and caches are not committed.
+The second stage reads `OPENAI_API_KEY` or prompts for it with hidden input.
+AI summaries send selected feedback excerpts to the OpenAI API and incur API charges.
+Keep source data and generated reports local. See [topic extraction](feedback_topics_package/README_RU.md)
+and [statistics and AI summaries](feedback_topics_package/README_SUMMARIES_RU.md)
+for input columns, settings, and output formats.
 
 ## 7. Repo map
 
