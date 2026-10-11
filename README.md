@@ -15,6 +15,7 @@ Source: [EHL Finale – All you need to know](https://tum-ai.notion.site/EHL-Fin
 3. **`main` must always be demo-able.** We have a strict 6-minute slot for pitch + demo + questions.
 4. **Never commit secrets** (API keys, tokens, `.env`). Entire redacts secrets in session logs, but do not rely on that.
 5. **Never rewrite pushed history** (no `push --force`, no amending/rebasing pushed commits, no deleting `entire/*` branches or refs). Checkpoints are tied to commits; rewriting history can orphan them.
+6. **Use English for code text and website copy.** Write comments, UI labels, and generated report prose in English. Preserve customer quotes and source fields verbatim as evidence.
 
 ## 1. Key times (Munich local time)
 
@@ -121,6 +122,7 @@ python -m pip install -r requirements.txt
 python feedback_topics.py "path/to/input.xlsx" --output topics.json
 python summarize_topics.py topics.json --output topics_stats.json --stats-only
 python summarize_topics.py topics.json --output topics_summary.json --model gpt-5.4 --workers 5 --language en
+python export_topics.py topics_summary.json
 python -m unittest discover -p "test_*.py"
 ```
 
@@ -129,6 +131,18 @@ AI summaries send selected feedback excerpts to the OpenAI API and incur API cha
 Keep source data and generated reports local. See [topic extraction](feedback_topics_package/README_RU.md)
 and [statistics and AI summaries](feedback_topics_package/README_SUMMARIES_RU.md)
 for input columns, settings, and output formats.
+
+The optional third stage creates `<input_stem>.readable/` with a self-contained
+`report.html`, Markdown overview, compact JSONL catalog, complete per-topic JSON
+records, and a data-reading guide. Open the HTML directly in a browser. Export is
+fully local, uses only the standard library, preserves the source and requires no
+new AI calls. See [readable exports](feedback_topics_package/README.md#readable-report-and-ai-exports-stage-3).
+
+The [local data library](feedback_topics_package/DATA_LIBRARY.md) imports XLSX and
+PDF sources into versioned SQLite storage and exports portable JSONL/schema/source
+bundles. From `feedback_topics_package`, run `python data_library.py ingest-all .`,
+then `python data_library.py status` to list completed and pending analyses separately.
+This reuses existing analyses and does not start new AI calls.
 
 ## 7. Repo map
 

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Feedback Atlas · Review overview</title>
+<style>
+:root{--ink:#182c37;--muted:#61727a;--paper:#f4f5f1;--line:#dce3de;--green:#187b68;--red:#c55347;--amber:#c78b28;--neutral:#6e8aaf;--unknown:#b7c1c6}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 "Segoe UI",system-ui,sans-serif}button,input,select{font:inherit}button,a,input,select,summary{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:#126958;text-underline-offset:3px}:focus-visible{outline:3px solid #d49228;outline-offset:3px}h1,h2,h3,p{margin:0}h2{font-size:23px;line-height:1.3;letter-spacing:-.5px}h3{font-size:15px;margin:24px 0 9px}ul{padding-left:20px}small,.muted{color:var(--muted)}.wrap{max-width:1440px;margin:auto;padding:0 36px}.hero{background:#152e35;color:#f7f9f5;padding:29px 0 35px;border-bottom:5px solid #c5dc70}.brand{letter-spacing:3px;text-transform:uppercase;font-size:11px;font-weight:700;color:#c5dc70}.headrow{display:flex;justify-content:space-between;align-items:start;gap:28px;margin-top:14px}h1{font-size:clamp(28px,4vw,47px);letter-spacing:-1.6px;line-height:1.15}.subtitle{color:#b7cbc9;margin-top:11px;max-width:760px}.links{display:flex;gap:10px;flex-wrap:wrap;flex-shrink:0}.links a{padding:7px 12px;border:1px solid #55706e;border-radius:7px;color:#eaf3ef;font-size:12px;text-decoration:none}.hero .status{margin-top:18px;font-size:12px;color:#c7d7d2}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:26px 0}.stat{background:white;padding:21px 24px}.stat strong{display:block;font-size:31px;line-height:1.3;letter-spacing:-1px}.stat span{font-size:12px;color:var(--muted)}.overview{display:grid;grid-template-columns:1.15fr 1fr;gap:32px;background:white;border:1px solid var(--line);border-radius:12px;padding:25px;margin-bottom:25px}.eyebrow{font-size:10px;letter-spacing:1.8px;font-weight:700;text-transform:uppercase;color:var(--green);margin-bottom:10px}.summary{line-height:1.75;white-space:pre-line}.note{font-size:12px;color:var(--muted);margin-top:10px}.bar{height:13px;display:flex;border-radius:4px;overflow:hidden;background:#eef0ee;margin:14px 0}.bar span{display:block;min-width:0}.legend{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;font-size:12px}.legend div{display:flex;gap:7px;align-items:center}.dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}.pos{background:var(--green)}.neg{background:var(--red)}.mix{background:var(--amber)}.neu{background:var(--neutral)}.unk{background:var(--unknown)}.guide{margin-bottom:25px;border:1px solid var(--line);border-radius:9px;padding:12px 17px;font-size:12px}.guide summary{cursor:pointer;font-weight:600}.guide li{margin:5px 0}.explore-title{display:flex;justify-content:space-between;align-items:end;margin:25px 0 15px;gap:20px}.toolbar{display:grid;grid-template-columns:minmax(200px,1fr) 175px 190px;gap:12px;margin-bottom:14px}.field label{display:block;font-size:11px;font-weight:600;margin-bottom:5px}.field input,.field select{width:100%;background:white;border:1px solid #cbd6cf;border-radius:7px;padding:10px 12px;color:var(--ink)}.filterrow{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:12px;margin-bottom:18px;flex-wrap:wrap}.filterrow input{accent-color:var(--green)}.filterrow button{background:transparent;border:0;color:var(--green);text-decoration:underline}.workspace{display:grid;grid-template-columns:minmax(340px,.85fr) minmax(420px,1.35fr);gap:20px;align-items:start;margin-bottom:40px}.catalog{background:#fff;border:1px solid var(--line);border-radius:11px;overflow:hidden}.listhead{display:flex;justify-content:space-between;padding:13px 16px;background:#eaf0eb;font-size:11px;font-weight:600}.topiclist{max-height:850px;overflow:auto}.topic{width:100%;border:0;border-bottom:1px solid #e6ebe7;text-align:left;display:block;padding:17px 18px;background:white;color:var(--ink)}.topic:hover{background:#f4f8f3}.topic[aria-pressed=true]{background:#eaf4ed;box-shadow:inset 4px 0 var(--green)}.topic .id{font-size:10px;letter-spacing:.8px;color:var(--muted)}.topic .title{display:block;font-weight:650;font-size:14px;line-height:1.4;margin:3px 0 9px}.topic .counts{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--muted)}.topic .mini{height:4px;margin:9px 0 0}.badge{display:inline-block;font-size:10px;font-weight:600;background:#f8efd9;color:#795b1e;border-radius:4px;padding:2px 7px;margin-left:7px}.detail{background:white;border:1px solid var(--line);border-radius:11px;padding:27px;min-width:0;scroll-margin-top:16px}.detail .titleline{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px}.detail .titleline a{font-size:11px;white-space:nowrap}.detail h2{font-size:27px;margin-bottom:13px;overflow-wrap:anywhere}.metricrow{display:grid;grid-template-columns:repeat(3,1fr);margin:21px 0;border-block:1px solid var(--line)}.metricrow>div{padding:13px 7px 13px 0}.metricrow strong{display:block;font-size:24px;line-height:1.4}.metricrow small{font-size:10px;display:block}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:12px;margin-top:8px}th{text-align:left;font-weight:600;color:var(--muted);background:#f4f6f3}th,td{padding:9px;border-bottom:1px solid var(--line)}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}.callout{background:#faf4e7;border-left:3px solid #c99636;padding:13px 15px;font-size:12px;margin:14px 0}.callout ul{margin:7px 0;padding-left:17px}.quote{border:1px solid var(--line);border-radius:7px;padding:15px;margin:11px 0}.quote blockquote{margin:6px 0 9px;font-size:13px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}.quote .meta{font-size:10px;color:var(--muted)}.quote .label{font-size:11px;font-weight:600;color:var(--green)}.disclosure{border-top:1px solid var(--line);padding:13px 0;font-size:12px}.disclosure summary{cursor:pointer;font-weight:600}.disclosure p{margin:9px 0}.empty{padding:35px 22px;color:var(--muted)}footer{border-top:1px solid var(--line);font-size:11px;padding:18px 0 26px;overflow-wrap:anywhere}noscript{display:block;padding:25px;background:#fff0d8}
+@media(max-width:1050px){.wrap{padding:0 22px}.workspace{grid-template-columns:minmax(280px,.8fr) minmax(360px,1.2fr)}.headrow{display:block}.links{margin-top:20px}.detail{padding:20px}.legend{grid-template-columns:1fr}.stat{padding:18px}}
+@media(max-width:760px){.wrap{padding:0 16px}.stats{grid-template-columns:1fr 1fr}.overview,.workspace{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr 1fr}.field:first-child{grid-column:1/-1}.topiclist{max-height:380px}.overview{gap:23px;padding:20px}.legend{grid-template-columns:1fr 1fr}.metricrow strong{font-size:21px}.headrow{margin-top:16px}.hero{padding-top:23px}.explore-title{align-items:start}.explore-title p{max-width:160px;text-align:right}.detail h2{font-size:24px}}
+@media print{.hero{background:white;color:#182c37}.subtitle,.hero .status{color:#61727a}.toolbar,.filterrow,.catalog,.links{display:none}.workspace{display:block}.detail{break-inside:auto}.stats{grid-template-columns:repeat(4,1fr)}body{background:white}.wrap{padding:0}.guide{display:none}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="brand">Feedback Atlas / Customer insights</div>
+<div class="headrow"><div><h1 id="heading">Customer voices</h1><p class="subtitle">From the overall picture to individual reviews. Topics, sentiment, and evidence in one place.</p></div>
+<nav class="links" aria-label="Report sections"><a href="#overview">Overview ↓</a><a href="#topic-list">Explore topics ↓</a><a href="#data-guide">Reading guide ↓</a></nav></div>
+<p class="status" id="source-status"></p></div></header>
+<noscript>Enable JavaScript to use the interactive report, or open the adjacent overview.md file.</noscript>
+<p id="template-notice" class="callout" hidden>This is the source template. Run export_topics.py and open the generated &lt;input_stem&gt;.readable/report.html file.</p>
+<main class="wrap">
+<section class="stats" id="stats" aria-label="Overall statistics"></section>
+<section class="overview" id="overview"><div><div class="eyebrow">Overall picture</div><p class="summary" id="global-summary"></p><p class="note">Summary text comes from the source. Statistics use all reviews.</p></div><div><div class="eyebrow">Sentiment across all reviews</div><div id="global-sentiment"></div><p class="note">Each source review is counted once. Undetermined is separate from neutral.</p></div></section>
+<details class="guide" id="data-guide"><summary>How to read these numbers and their limitations</summary><ul id="global-limitations"></ul></details>
+<div class="explore-title"><div><div class="eyebrow">Explore reviews</div><h2>Topic catalog</h2></div><p class="note">Select a topic to see<br>sentiment, countries, and quotes.</p></div>
+<div class="toolbar">
+<div class="field"><label for="search">Search IDs, titles, summaries, and quotes</label><input type="search" id="search" placeholder="For example, comfort or T0001" autocomplete="off"></div>
+<div class="field"><label for="min-reviews">Minimum reviews per topic</label><input type="number" id="min-reviews" min="0" step="1" value="0"></div>
+<div class="field"><label for="sort">Sort topics</label><select id="sort"><option value="count">By review count</option><option value="bad_count">By negative + mixed count</option><option value="bad_rate">By negative + mixed share</option><option value="title">By title</option></select></div>
+</div>
+<div class="filterrow"><label><input type="checkbox" id="signals-only"> Only topics with subgroup signals</label><div><span id="result-count" role="status" aria-live="polite"></span> · <button id="reset" type="button">Reset filters</button></div></div>
+<div class="workspace"><section class="catalog" aria-label="Topic list"><div class="listhead"><span>TOPIC / UNIQUE REVIEWS</span><span>SENTIMENT</span></div><div id="topic-list" class="topiclist"></div></section><article class="detail" id="detail" aria-label="Topic details" tabindex="-1"></article></div>
+<footer><p>Local report · Original text and labels preserved · Topics may overlap</p><p id="provenance"></p></footer>
+</main>
+<script type="application/json" id="report-data">__REPORT_DATA__</script>
+<script>
+'use strict';
+const embeddedReport=document.getElementById('report-data').textContent.trim();
+if(embeddedReport==='__REPORT'+'_DATA__'){
+ document.getElementById('template-notice').hidden=false;
+ document.querySelector('main').hidden=true;
+}else{
+const data=JSON.parse(embeddedReport);
+const {metadata,topics,details}=data, overview=metadata.overview;
+const keys=['positive','negative','mixed','neutral','undetermined'];
+const labels=['Positive','Negative','Mixed','Neutral','Undetermined'];
+const colors=['pos','neg','mix','neu','unk'];
+const $=id=>document.getElementById(id);
+const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num=value=>Number(value).toLocaleString('en-US');
+const pct=(n,d)=>d?`${(100*n/d).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1})}%`:'—';
+const statusNames={complete:'Summaries complete',partial:'Summaries partially complete',statistics_only:'Statistics only'};
+function bar(counts,n,mini=false){return `<div class="bar ${mini?'mini':''}" aria-hidden="true">${keys.map((k,i)=>`<span class="${colors[i]}" style="width:${n?100*counts[k]/n:0}%"></span>`).join('')}</div>`;}
+function legend(counts,n){return bar(counts,n)+`<div class="legend">${keys.map((k,i)=>`<div><span class="dot ${colors[i]}"></span><span>${labels[i]} · ${num(counts[k])} (${pct(counts[k],n)})</span></div>`).join('')}</div>`;}
+const globalCounts=Object.fromEntries(keys.map(k=>[k,overview.sentiment[k].count]));
+const models=Object.keys(overview.model||{}).filter(x=>!x.startsWith('__'));
+if(models.length)$('heading').textContent=`${models.join(' / ')} · Customer voices`;
+document.title=`${models.join(' / ')||'Feedback'} · Review overview`;
+$('source-status').textContent=`${metadata.source_summary.filename} · ${statusNames[metadata.status]||metadata.status}`;
+$('stats').innerHTML=[
+ [num(overview.review_count),'unique source reviews'],
+ [num(topics.length),'topics in the catalog'],
+ [pct(globalCounts.positive,overview.review_count),'positive reviews'],
+ [num(topics.filter(t=>t.small_sample).length),`topics with fewer than ${metadata.small_sample_threshold} reviews`]
+].map(([v,l])=>`<div class="stat"><strong>${v}</strong><span>${l}</span></div>`).join('');
+$('global-summary').textContent=overview.summary||'No AI summary is available yet. Numerical statistics are available for every topic.';
+$('global-sentiment').innerHTML=legend(globalCounts,overview.review_count);
+$('global-limitations').innerHTML=[
+ 'The unit of analysis is a review, not a vehicle or an owner. One review can belong to multiple topics; do not sum topic counts.',
+ 'Within-topic sentiment shares use all reviews of that topic as the denominator. Topic prevalence uses all source reviews.',
+ 'Counts use all review assignments, while AI summaries describe selected examples. Examples are not a random representative sample.',
+ 'Signals describe subgroup differences; they do not establish causality, statistical significance, or vehicle defect rates.',
+ ...(metadata.warnings||[]),...(overview.limitations||[])
+].map(x=>`<li>${esc(x)}</li>`).join('');
+$('provenance').textContent=`Source: ${metadata.source_summary.filename} · SHA-256: ${metadata.source_summary.sha256}`;
+let selected=null;
+const searchable=new Map(topics.map(t=>[t.topic_id,[t.topic_id,t.title,t.summary,...t.keywords,...(details[t.topic_id].evidence||[]).map(e=>e.text)].join(' ').toLocaleLowerCase()]));
+function countryTable(entry){
+ const groups=entry.segments?.country||{};
+ const rows=Object.entries(groups).sort((a,b)=>b[1].review_count-a[1].review_count);
+ if(!rows.length)return '<p class="note">No country breakdown is available.</p>';
+ return `<div class="tablewrap"><table><thead><tr><th>Country</th><th class="num">Topic reviews</th><th class="num">Share of topic</th><th class="num">Negative + mixed within country</th></tr></thead><tbody>${rows.map(([country,g])=>{
+ const bad=g.sentiment_counts.negative+g.sentiment_counts.mixed;
+ return `<tr><td>${esc(country)}${g.review_count<metadata.small_sample_threshold?' <span title="Small sample">*</span>':''}</td><td class="num">${num(g.review_count)}</td><td class="num">${pct(g.review_count,entry.review_count)}</td><td class="num">${num(bad)} / ${num(g.review_count)} · ${pct(bad,g.review_count)}</td></tr>`;
+ }).join('')}</tbody></table></div><p class="note">* Fewer than ${metadata.small_sample_threshold} reviews in this group. The last two columns use different denominators.</p>`;
+}
+function renderDetail(){
+ const t=topics.find(t=>t.topic_id===selected);
+ if(!t){$('detail').innerHTML='<div class="empty">No topics match these filters. Change your search or reset the filters.</div>';return;}
+ const e=details[t.topic_id], evidence=e.evidence||[];
+ const sentiments=keys.map((k,i)=>`<details class="disclosure"><summary>${labels[i]} · ${num(t.sentiment_counts[k])} / ${num(t.review_count)} (${pct(t.sentiment_counts[k],t.review_count)})</summary><p>${esc(e.sentiment[k].summary||'No summary is available for this category.')}</p><p class="note">Fragments: ${esc((e.sentiment[k].evidence_fragment_ids||[]).join(', ')||'no references')}</p></details>`).join('');
+ const quotes=evidence.map(q=>`<div class="quote"><div class="label">${esc(q.fragment_id)} · ${esc(q.review_id)}</div><blockquote>${esc(q.text)}</blockquote><div class="meta">${esc(q.metadata?.country||'Country not specified')} · ${esc(q.metadata?.model||'')} · ${esc(q.metadata?.engine_type||'')}<br>Review sentiment in topic: ${esc(labels[keys.indexOf(q.assigned_sentiment)]||q.assigned_sentiment)} · Fragment sentiment: ${esc(labels[keys.indexOf(q.fragment_sentiment)]||q.fragment_sentiment)}${q.text_truncated?' · Text truncated in source':''}</div></div>`).join('');
+ $('detail').innerHTML=`
+ <div class="titleline"><span class="eyebrow">${esc(t.topic_id)}${t.small_sample?'<span class="badge">Small sample</span>':''}</span><span class="muted">${esc(t.details_file)}</span></div>
+ <h2>${esc(t.title)}</h2><p class="summary">${esc(t.summary||'No AI summary is available yet.')}</p>
+ <p class="note">Summary status: ${esc(t.summary_status)} · Reviews with requests or suggestions: ${num(t.request_review_count)}</p>
+ <div class="metricrow"><div><strong>${num(t.review_count)}</strong><small>unique topic reviews</small></div><div><strong>${pct(t.review_count,t.source_review_count)}</strong><small>of all ${num(t.source_review_count)} source reviews</small></div><div><strong>${pct(t.negative_or_mixed_count,t.review_count)}</strong><small>negative + mixed: ${num(t.negative_or_mixed_count)} of ${num(t.review_count)}</small></div></div>
+ ${legend(t.sentiment_counts,t.review_count)}
+ ${t.small_sample?`<p class="callout">This topic has fewer than ${metadata.small_sample_threshold} reviews. A high percentage may represent only one case.</p>`:''}
+ ${t.limitations.length?`<div class="callout"><strong>Interpretation limits</strong><ul>${t.limitations.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
+ <h3>Countries and sentiment</h3>${countryTable(e)}
+ <h3>Signals to inspect</h3>${t.signals.length?t.signals.map(s=>`<div class="callout"><strong>${esc(s.signal_id)} · ${esc(s.dimension)}: ${esc(s.value)}</strong><p>${esc(s.statement)}</p>${s.interpretation?`<p>${esc(s.interpretation)}</p>`:''}<p class="note">Descriptive comparison. Fragments: ${esc((s.evidence_fragment_ids||[]).join(', ')||'not specified')}</p></div>`).join(''):'<p class="note">No automated subgroup signals were flagged. This does not establish that there are no problems.</p>'}
+ <h3>Sentiment summaries</h3>${sentiments}
+ <h3>Source examples · ${num(evidence.length)}</h3><p class="note">${esc(e.sampling?.method||'Sampling method not specified')}. Selected examples: ${num(e.sampling?.selected_fragments??evidence.length)} of ${num(e.sampling?.total_topic_fragments??evidence.length)} topic fragments. This is not a random sample.</p>
+ <details class="disclosure"><summary>Show all selected quotes (${num(evidence.length)})</summary>${quotes||'<p>No examples are available in the source.</p>'}</details>
+ <p class="note">Keywords: ${esc(t.keywords.join(' · ')||'not specified')}</p>`;
+}
+function refresh(){
+ const term=$('search').value.trim().toLocaleLowerCase(), min=Math.max(0,Number($('min-reviews').value)||0), signalsOnly=$('signals-only').checked;
+ const visible=topics.filter(t=>t.review_count>=min&&(!signalsOnly||t.signals.length)&&(!term||searchable.get(t.topic_id).includes(term)));
+ const sort=$('sort').value;
+ visible.sort((a,b)=>(sort==='title'?a.title.localeCompare(b.title):sort==='bad_count'?b.negative_or_mixed_count-a.negative_or_mixed_count:sort==='bad_rate'?(b.negative_or_mixed_rate??-1)-(a.negative_or_mixed_rate??-1):b.review_count-a.review_count)||a.topic_id.localeCompare(b.topic_id));
+ if(!visible.some(t=>t.topic_id===selected))selected=visible[0]?.topic_id??null;
+ $('result-count').textContent=`Showing ${num(visible.length)} of ${num(topics.length)}`;
+ $('topic-list').innerHTML=visible.map(t=>`<button type="button" class="topic" data-id="${esc(t.topic_id)}" aria-pressed="${t.topic_id===selected}"><span class="id">${esc(t.topic_id)}${t.small_sample?'<span class="badge">Small sample</span>':''}</span><span class="title">${esc(t.title)}</span><span class="counts"><span>${num(t.review_count)} reviews</span><span>Negative + mixed: ${num(t.negative_or_mixed_count)} · ${pct(t.negative_or_mixed_count,t.review_count)}</span></span>${bar(t.sentiment_counts,t.review_count,true)}</button>`).join('')||'<p class="empty">No topics match these filters.</p>';
+ renderDetail();
+}
+$('topic-list').addEventListener('click',event=>{const b=event.target.closest('button[data-id]');if(!b)return;selected=b.dataset.id;for(const item of $('topic-list').querySelectorAll('button'))item.setAttribute('aria-pressed',String(item.dataset.id===selected));renderDetail();if(window.matchMedia('(max-width:760px)').matches){$('detail').scrollIntoView({behavior:'smooth',block:'start'});$('detail').focus({preventScroll:true});}});
+for(const id of ['search','min-reviews'])$(id).addEventListener('input',refresh);
+for(const id of ['sort','signals-only'])$(id).addEventListener('change',refresh);
+$('reset').addEventListener('click',()=>{$('search').value='';$('min-reviews').value='0';$('sort').value='count';$('signals-only').checked=false;refresh();});
+refresh();
+}
+</script>
+</body>
+</html>

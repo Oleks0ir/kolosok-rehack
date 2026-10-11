@@ -44,10 +44,10 @@ class FakeClient:
         self.usage["requests"] += 1
         self.successful_responses += 1
         if name == "corpus_summary":
-            return {"summary": "Отзывы содержат как похвалу, так и жалобы.", "key_topic_ids": list(payload["topics"])[:1],
+            return {"summary": "Reviews contain both praise and complaints.", "key_topic_ids": list(payload["topics"])[:1],
                     "signal_notes": [], "limitations": []}
-        return {"title": "Комфорт сидений", "summary": "Мнения о комфорте сидений различаются.",
-                "sentiments": {s: {"summary": "Есть соответствующие отзывы." if payload["sentiment"][s]["count"] else "Таких отзывов нет.",
+        return {"title": "Seat comfort", "summary": "Views on seat comfort differ.",
+                "sentiments": {s: {"summary": "Relevant reviews are present." if payload["sentiment"][s]["count"] else "No such reviews are present.",
                                    "evidence_fragment_ids": [e["fragment_id"] for e in payload["examples"] if e["assigned_sentiment"] == s][:1]}
                                for s in m.SENTIMENTS},
                 "signal_notes": [], "limitations": []}
@@ -176,9 +176,15 @@ class SummaryTests(unittest.TestCase):
         report = m.build_statistics(fixture(), self.args())
         payload = m.topic_payload("T1", report["topics"]["T1"])
         data = FakeClient().complete("", payload, m.TOPIC_SCHEMA, "topic_summary")
-        data["summary"] = "80% машин неисправны."
+        data["summary"] = "80% of cars are defective."
         with self.assertRaises(ValueError):
             m.validate_narrative(data, payload)
+
+    def test_only_english_output_is_accepted(self):
+        with self.assertRaises(SystemExit):
+            m.parse_args([str(self.input), "--language", "ru"])
+        with self.assertRaisesRegex(ValueError, "Only English"):
+            m.instructions("ru")
 
     def test_duplicate_assignments_rejected(self):
         source = fixture()
@@ -187,7 +193,7 @@ class SummaryTests(unittest.TestCase):
             m.build_statistics(source, self.args(source))
 
     def test_http_structured_output_contract(self):
-        answer = {"summary": "Общая ситуация неоднородна.", "key_topic_ids": [], "signal_notes": [], "limitations": []}
+        answer = {"summary": "Overall feedback is mixed.", "key_topic_ids": [], "signal_notes": [], "limitations": []}
         response = {"status": "completed", "usage": {"input_tokens": 10, "output_tokens": 20},
                     "output": [{"type": "message", "content": [{"type": "output_text", "text": json.dumps(answer)}]}]}
         captured = []
