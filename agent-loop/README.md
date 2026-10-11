@@ -35,6 +35,15 @@ Look → Decide → Act → Pause
   resume re-runs Look from scratch, which is why stale/open-question signals must be computed
   from the graph, not from loop memory.
 
+## Known limitation (observed in a live test run)
+
+With `gpt-4o-mini`, Decide sometimes keeps calling `query_data` for the same source instead of
+moving on to `add_claim` once evidence already exists — the `evidence_without_claim` signal is
+there, but the model doesn't always act on it. The loop itself doesn't break (a rejected call
+now logs an error and lets Decide try again, see `act()`), so this is prompt-quality tuning,
+not a correctness bug. Worth revisiting the system prompt or trying a stronger model if it
+matters for the demo.
+
 ## What's intentionally not here (teammate's call)
 
 - The real Decide step (LLM prompt, tool-call parsing) — `loop.py`'s `decide()` is a stub, see

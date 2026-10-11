@@ -4,7 +4,11 @@ See README.md in this directory for the design. Talks to the backend only
 over HTTP (never imports backend/app/), so it runs as an independent module.
 """
 
+import os
+
 import requests
+
+from llm import decide_with_llm
 
 API_BASE = "http://localhost:8000"
 
@@ -29,9 +33,18 @@ def look() -> dict:
             for d in requests.get(f"{API_BASE}/nodes/{c['id']}/dependents").json()
         )
     ]
+    evidence_without_claim = [
+        e
+        for e in by_type.get("Evidence", [])
+        if not any(
+            d["type"] == "Claim"
+            for d in requests.get(f"{API_BASE}/nodes/{e['id']}/dependents").json()
+        )
+    ]
 
     return {
         "sources_without_evidence": sources_without_evidence,
+        "evidence_without_claim": evidence_without_claim,
         "claims_without_requirement": claims_without_requirement,
         "stale": [n for n in nodes if n["status"] == "stale"],
         "open_questions": by_type.get("Question", []),
@@ -41,10 +54,18 @@ def look() -> dict:
 def decide(signals: dict) -> tuple[str, dict]:
     """Pick the next tool call and its arguments.
 
-    shortcut: fixed priority rule instead of an LLM choosing the action and
-    writing the rationale. Swap this function out for a real model call;
-    look()/act()/run() don't need to change when you do.
+    Uses a real LLM (see llm.py) when OPENAI_API_KEY is set, otherwise falls
+    back to decide_rule_based() below — keeps tests and offline runs working
+    without network/API-key access.
     """
+    if os.environ.get("OPENAI_API_KEY"):
+        return decide_with_llm(signals)
+    return decide_rule_based(signals)
+
+
+def decide_rule_based(signals: dict) -> tuple[str, dict]:
+    """Deterministic placeholder Decide step: fixed priority rule instead of
+    an LLM choosing the action. Used as a fallback and in tests."""
     if signals["sources_without_evidence"]:
         src = signals["sources_without_evidence"][0]
         return "query_data", {
@@ -52,6 +73,14 @@ def decide(signals: dict) -> tuple[str, dict]:
             "source_ids": [src["id"]],
             "created_by": "agent:loop",
             "rationale": "source has no evidence yet",
+        }
+    if signals["evidence_without_claim"]:
+        evidence = signals["evidence_without_claim"][0]
+        return "add_claim", {
+            "content": {"text": f"TODO: claim derived from {evidence['id']}"},
+            "evidence_ids": [evidence["id"]],
+            "created_by": "agent:loop",
+            "rationale": "evidence has no claim built on it yet",
         }
     if signals["claims_without_requirement"]:
         claim = signals["claims_without_requirement"][0]
@@ -70,18 +99,24 @@ def decide(signals: dict) -> tuple[str, dict]:
 
 
 def act(tool: str, args: dict) -> dict:
+    """Call the chosen tool. A 400 means Decide's choice was invalid (e.g. a
+    dangling input id) — return it as an error result instead of raising, so
+    run() can let Decide try something else next iteration instead of dying."""
     resp = requests.post(f"{API_BASE}/tools/{tool}", json=args)
+    if resp.status_code == 400:
+        return {"error": resp.json().get("detail", resp.text), "tool": tool}
     resp.raise_for_status()
     return resp.json()
 
 
 def run(max_actions: int = 5) -> list[dict]:
-    """Look -> Decide -> Act up to max_actions times, or until ask_pm fires."""
+    """Look -> Decide -> Act up to max_actions times, or until ask_pm succeeds."""
     summary = []
     for _ in range(max_actions):
         tool, args = decide(look())
-        summary.append(act(tool, args))
-        if tool == "ask_pm":
+        result = act(tool, args)
+        summary.append(result)
+        if tool == "ask_pm" and "error" not in result:
             break
     return summary
 
