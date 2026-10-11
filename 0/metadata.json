@@ -1,0 +1,83 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4MACXSWZWHTCWV3F6JN6E60",
+  "session_id": "131737e0-3883-4510-907b-2ed4c8f8750c",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T01:49:32.9321888Z",
+  "branch": "dev",
+  "checkpoints_count": 5,
+  "save_step_count": 2,
+  "files_touched": [
+    "backend/app/main.py",
+    "backend/tests/test_graph.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "9c4a566f9f00",
+  "checkpoint_transcript_start": 1248,
+  "transcript_lines_at_start": 1248,
+  "compact_transcript_start": 242,
+  "token_usage": {
+    "input_tokens": 50,
+    "cache_creation_tokens": 16364,
+    "cache_read_tokens": 5305140,
+    "output_tokens": 11605,
+    "api_call_count": 25
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-ponytail-audit-2026-10-11T01:22:20.0392986Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ponytail-audit"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "58ce1d5eae05",
+      "timestamp": "2026-10-11T01:22:20.0392986Z",
+      "native": {
+        "command": "/ponytail-audit"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ponytail-audit",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 29
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T01:49:32.8050625Z",
+    "agent_lines": 40,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 40,
+    "total_lines_changed": 40,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 40,
+      "agent_lines_removed": 0
+    }
+  ]
+}
