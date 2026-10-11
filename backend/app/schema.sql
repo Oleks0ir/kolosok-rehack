@@ -28,6 +28,19 @@ CREATE TABLE IF NOT EXISTS edges (
 CREATE INDEX IF NOT EXISTS idx_edges_from ON edges(from_id);
 CREATE INDEX IF NOT EXISTS idx_edges_to ON edges(to_id);
 
+-- Atomic per-type id counters: a row-level UPDATE lock makes concurrent
+-- add_node() calls for the same type get distinct, gapless ids instead of
+-- racing on a SELECT count(*) in application code.
+CREATE TABLE IF NOT EXISTS node_counters (
+    type TEXT PRIMARY KEY,
+    next INTEGER NOT NULL DEFAULT 1
+);
+
+INSERT INTO node_counters (type) VALUES
+    ('Source'), ('Evidence'), ('Claim'), ('Assumption'), ('Question'),
+    ('Requirement'), ('Score'), ('Decision'), ('Note')
+ON CONFLICT (type) DO NOTHING;
+
 -- Append-only enforcement: nodes can never be deleted; the only column an
 -- UPDATE may ever touch is `status` (stale propagation, see VISION.md
 -- "Going back (propagation)"). Everything else is a new row via add_node.

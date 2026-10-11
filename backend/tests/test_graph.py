@@ -61,6 +61,11 @@ def test_stale_propagates_to_dependents():
     assert get_node(claim.id).status == "stale"
 
 
+def test_add_claim_rejects_missing_input():
+    with pytest.raises(ValueError):
+        tools.add_claim({"text": "x"}, ["EVD-999"], "agent:researcher")
+
+
 def test_end_to_end_requirement_traces_to_source():
     src = add_node(NodeType.SOURCE, {"file": "G70 feedback.xlsx"}, [], "tool:import")
     evidence = tools.query_data({"row": "seat too narrow"}, [src.id], "agent:researcher")

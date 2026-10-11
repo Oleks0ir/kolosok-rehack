@@ -6,6 +6,7 @@ independently against this API, see VISION.md).
 from typing import Any, Optional
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from . import tools
@@ -14,6 +15,7 @@ from .graph import get_dependents, get_inputs, get_node, list_nodes
 from .models import Node, NodeType
 
 app = FastAPI(title="Decision Graph API")
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 
 @app.on_event("startup")

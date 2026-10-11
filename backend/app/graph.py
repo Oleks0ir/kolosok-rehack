@@ -4,9 +4,9 @@ Nothing else is allowed to write nodes or edges — every agent tool and PM
 action goes through add_node().
 """
 
-import json
 from typing import Any, Optional
 
+import psycopg
 from psycopg.types.json import Json
 
 from .db import dict_cursor, get_conn
@@ -15,14 +15,15 @@ from .models import ID_PREFIX, NO_INPUT_REQUIRED, Node, NodeType, Relation
 
 def _next_id(cur, node_type: NodeType) -> str:
     prefix = ID_PREFIX[node_type]
-    cur.execute("SELECT count(*) AS n FROM nodes WHERE type = %s", (node_type.value,))
-    n = cur.fetchone()["n"] + 1
+    cur.execute(
+        "UPDATE node_counters SET next = next + 1 WHERE type = %s RETURNING next - 1 AS n",
+        (node_type.value,),
+    )
+    n = cur.fetchone()["n"]
     return f"{prefix}-{n:03d}"
 
 
 def _row_to_node(row: dict[str, Any]) -> Node:
-    row = dict(row)
-    row["content"] = row["content"] if isinstance(row["content"], dict) else json.loads(row["content"])
     return Node(**row)
 
 
@@ -72,10 +73,13 @@ def add_node(
             row = cur.fetchone()
 
             for input_id in inputs:
-                cur.execute(
-                    "INSERT INTO edges (from_id, to_id, relation) VALUES (%s, %s, %s)",
-                    (node_id, input_id, relation.value),
-                )
+                try:
+                    cur.execute(
+                        "INSERT INTO edges (from_id, to_id, relation) VALUES (%s, %s, %s)",
+                        (node_id, input_id, relation.value),
+                    )
+                except psycopg.errors.ForeignKeyViolation:
+                    raise ValueError(f"input node {input_id} does not exist")
 
             if replaces:
                 _mark_stale(cur, replaces)
