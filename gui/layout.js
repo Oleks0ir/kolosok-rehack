@@ -3,8 +3,10 @@
 export const STAGE = {
   Source: 0, Evidence: 1, Claim: 2, Assumption: 2, Requirement: 3, Score: 4, Question: 5, Note: 5,
 };
-export const DX = 260;
-export const DY = 90;
+export const CARD_W = 220; // node card size (app.js)
+export const CARD_H = 86;
+export const DX = 310; // leaves ~90 px between columns for the flow's S-bends
+export const DY = 110;
 
 /** {id: {x, y}}: each node sits at the mean height of its inputs, pushed down to avoid overlaps. */
 export function layout(nodes, edges) {

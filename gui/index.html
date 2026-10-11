@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Decision Graph</title>
+  <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="start.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
@@ -11,47 +12,22 @@
 </head>
 <body>
   <header class="topbar">
-    <h1>Decision Graph</h1>
+    <div class="brand"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><h1>Decision Graph</h1></div>
     <div class="viewswitch" role="group" aria-label="View">
       <button type="button" data-view="graph" aria-pressed="true">Graph</button>
-      <button type="button" data-view="timeline" aria-pressed="false">Audit timeline</button>
+      <button type="button" data-view="timeline" aria-pressed="false">Audit trail</button>
     </div>
-    <span id="stats" class="stats"></span>
-    <label>Jump to <select id="jump"><option value="">—</option></select></label>
-    <label>PM name <input id="pm" size="10" autocomplete="name"></label>
-    <button id="refresh" type="button">Refresh</button>
+    <label class="field">Jump to <select id="jump"><option value="">—</option></select></label>
+    <label class="field">PM <input id="pm" size="8" autocomplete="name"></label>
+    <div class="agentbar">
+      <label class="field">Steps <input type="number" id="actions" min="1" max="20" value="5"></label>
+      <button id="run" type="button" class="primary">Run agent</button>
+      <details id="agentLog"><summary id="agentStatus"></summary><pre></pre></details>
+    </div>
   </header>
-  <div id="briefbar" class="briefbar"></div>
-  <div class="legend">
-    <span class="legend-key" aria-hidden="true">
-      <span class="sw Source">Source</span><span class="sw Evidence">Evidence</span><span class="sw Claim">Claim</span>
-      <span class="sw Assumption">Assumption</span><span class="sw Requirement">Requirement</span><span class="sw Score">Score</span>
-      <span class="sw Question">Question</span><span class="sw Note">Note</span>
-      <span class="sw approve">approved</span><span class="sw reject">rejected</span>
-      <span class="sw postpone">postponed</span><span class="sw stale">stale</span><span class="sw awaiting">waiting</span>
-    </span>
-    <details class="palette">
-      <summary>Build by hand</summary>
-      <span class="meta">Drag onto the graph (or onto a node to build on it), or click:</span>
-      <button type="button" class="sw Source" draggable="true" data-new="Source">Source</button>
-      <button type="button" class="sw Evidence" draggable="true" data-new="Evidence">Evidence</button>
-      <button type="button" class="sw Claim" draggable="true" data-new="Claim">Claim</button>
-      <button type="button" class="sw Assumption" draggable="true" data-new="Assumption">Assumption</button>
-      <button type="button" class="sw Requirement" draggable="true" data-new="Requirement">Requirement</button>
-      <button type="button" class="sw Question" draggable="true" data-new="Question">Question</button>
-      <button type="button" class="sw Note" draggable="true" data-new="Note">Note</button>
-    </details>
-  </div>
-  <div class="agentbar">
-    <button id="importBtn" type="button">Import CSV…</button>
-    <input type="file" id="csv" accept=".csv,text/csv" hidden>
-    <label>Actions <input type="number" id="actions" min="1" max="20" value="5"></label>
-    <button id="run" type="button" class="primary">Run agent</button>
-    <span id="agentStatus" class="meta"></span>
-    <details id="agentLog"><summary>Agent log</summary><pre></pre></details>
-  </div>
   <main>
     <nav id="work" aria-label="Work lists">
+      <div id="briefbar" class="briefbar"></div>
       <div class="tabs" role="tablist">
         <button type="button" role="tab" data-tab="inbox" aria-selected="true">Inbox <span id="inboxCount" class="count"></span></button>
         <button type="button" role="tab" data-tab="reqs" aria-selected="false">Requirements <span id="reqCount" class="count"></span></button>
@@ -60,15 +36,37 @@
       <div id="reqs" role="tabpanel" hidden></div>
     </nav>
     <div id="graphwrap">
-      <div id="focusbar" class="focusbar"></div>
-      <div id="graph" role="img" aria-label="Decision graph; use 'Jump to' to select nodes by keyboard. Right-click for actions, drag a node onto another to connect them."></div>
+      <div class="graphbar">
+        <div id="focusbar" class="focusbar"></div>
+        <button id="refresh" type="button" class="link">Refresh</button>
+        <button id="importBtn" type="button" class="link">Import CSV</button>
+        <input type="file" id="csv" accept=".csv,text/csv" hidden>
+        <details class="palette">
+          <summary>Build by hand</summary>
+          <div class="palette-items">
+            <span class="meta">Drag onto the graph (or onto a node to build on it), or click:</span>
+            <button type="button" draggable="true" data-new="Source">Source</button>
+            <button type="button" draggable="true" data-new="Evidence">Evidence</button>
+            <button type="button" draggable="true" data-new="Claim">Claim</button>
+            <button type="button" draggable="true" data-new="Assumption">Assumption</button>
+            <button type="button" draggable="true" data-new="Requirement">Requirement</button>
+            <button type="button" draggable="true" data-new="Question">Question</button>
+            <button type="button" draggable="true" data-new="Note">Note</button>
+          </div>
+        </details>
+      </div>
+      <div id="canvas">
+        <svg id="flow" class="graphflow" aria-hidden="true"><g></g></svg>
+        <div id="graph" role="img" aria-label="Decision graph; use 'Jump to' to select nodes by keyboard. Right-click for actions, drag a node onto another to connect them."></div>
+      </div>
+      <p id="stats" class="stats"></p>
     </div>
-    <section id="timeline" aria-label="Audit timeline" hidden>
+    <section id="timeline" aria-label="Audit trail" hidden>
       <div class="trail-filters">
-        <label>Who <select id="trailActor">
+        <label class="field">Who <select id="trailActor">
           <option value="">everyone</option><option value="PM:">PM</option><option value="agent:">agent</option>
           <option value="other">import / tools</option></select></label>
-        <label>Type <select id="trailType"><option value="">all</option></select></label>
+        <label class="field">Type <select id="trailType"><option value="">all</option></select></label>
         <label><input type="checkbox" id="trailChain"> only the selected node's chain</label>
         <span class="meta">newest first · every entry is a node, nothing is ever deleted</span>
       </div>

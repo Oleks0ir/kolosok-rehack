@@ -1,5 +1,5 @@
 // Graph-first PM view over the decision-graph API (served by the backend at /ui, same origin).
-import { layout, STAGE } from "./layout.js";
+import { layout, STAGE, CARD_W, CARD_H } from "./layout.js";
 import { createStart } from "./start.js";
 
 const $ = (sel) => document.querySelector(sel);
@@ -28,37 +28,26 @@ const store = {
 let lastSeen = store.get("lastSeen"); // ISO time of the PM's last "mark as seen"; null = first visit
 const isBrief = (n) => n.type === "Note" && n.content?.kind === "brief";
 
-const COLORS = Object.fromEntries(
-  Object.keys(STAGE).map((t) => [t, getComputedStyle(document.documentElement).getPropertyValue(`--${t}`).trim()]),
-);
+const token = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const INK = token("--ink"), PAPER = token("--paper"), MUTED = token("--muted"), GHOST = token("--ghost");
+const M_LIGHT = token("--m-light"), M_RED = token("--m-red");
 
+// Nodes are ink-on-paper cards (DESIGN.md), drawn as SVG images: cytoscape labels can't mix an
+// uppercase type line with a 2-line title. Edges stay in cytoscape (for chain lookups) but are
+// invisible; the flow layer (#flow, under the canvas) draws them as ghost lines and M stripes.
 const cy = cytoscape({
   container: $("#graph"),
   minZoom: 0.2,
   maxZoom: 2.5,
   style: [
     { selector: "node", style: {
-      shape: "round-rectangle", width: 210, height: 64, "background-color": (n) => COLORS[n.data("type")],
-      label: "data(label)", "text-wrap": "wrap", "text-max-width": 196, "font-size": 11,
-      "text-valign": "center", color: "#0f172a", "border-width": 1, "border-color": "#cbd5e1",
+      shape: "rectangle", width: CARD_W, height: CARD_H, "background-color": PAPER,
+      "background-image": "data(card)", "background-fit": "contain", "border-width": 0,
     } },
-    { selector: "node.stale", style: { "border-width": 3, "border-style": "dashed", "border-color": "#f97316" } },
-    { selector: "node.superseded", style: { opacity: 0.45 } },
-    { selector: "node.approve", style: { "border-width": 4, "border-color": "#16a34a" } },
-    { selector: "node.reject", style: { "border-width": 4, "border-color": "#dc2626" } },
-    { selector: "node.postpone", style: { "border-width": 4, "border-color": "#a16207" } },
-    { selector: "node.awaiting", style: { "border-width": 4, "border-style": "double", "border-color": "#7c3aed" } },
-    { selector: "node.picked", style: { "border-width": 5, "border-style": "solid", "border-color": "#2563eb" } },
-    { selector: "node:selected", style: { "overlay-color": "#2563eb", "overlay-opacity": 0.15, "overlay-padding": 6 } },
-    { selector: "edge", style: {
-      width: 1.5, "line-color": "#94a3b8", "target-arrow-color": "#94a3b8", "target-arrow-shape": "triangle",
-      "curve-style": "bezier", "font-size": 9, color: "#64748b", "text-background-color": "#f8fafc",
-      "text-background-opacity": 1,
-    } },
-    { selector: "edge.contradicts", style: { "line-color": "#dc2626", "target-arrow-color": "#dc2626", label: "contradicts" } },
-    { selector: "edge.supports", style: { "line-color": "#16a34a", "target-arrow-color": "#16a34a", label: "supports" } },
-    { selector: "edge.scores", style: { "line-style": "dashed", label: "scores" } },
-    { selector: "edge.version", style: { "line-style": "dotted", "line-color": "#f97316", "target-arrow-color": "#f97316", label: "new version" } },
+    { selector: "node:selected", style: { "background-image": "data(cardOn)", "border-width": 3, "border-color": M_LIGHT } },
+    { selector: "node.picked", style: { "border-width": 3, "border-style": "dashed", "border-color": M_LIGHT } },
+    { selector: "node:active", style: { "overlay-opacity": 0 } },
+    { selector: "edge", style: { opacity: 0, events: "no" } },
     { selector: ".faded", style: { opacity: 0.12 } },
   ],
 });
@@ -195,10 +184,8 @@ function renderGraph() {
   cy.elements().remove();
   cy.add(drawn.map((n) => ({
     group: "nodes",
-    data: { id: n.id, type: n.type, label: `${n.id}${n.version > 1 ? ` v${n.version}` : ""}\n${short(summary(n), 70)}` },
+    data: { id: n.id, type: n.type, card: card(n, false), cardOn: card(n, true) },
     position: pos[n.id],
-    classes: [n.status === "stale" && "stale", view.supersededBy[n.id] && "superseded", verdictOf(n.id),
-      waitingOn(n) && "awaiting"].filter(Boolean).join(" "),
   })));
   const isDrawn = (id) => id in pos;
   // arrows follow the chain (input -> derived), except "X supports/contradicts Y", which points at Y
@@ -212,12 +199,151 @@ function renderGraph() {
     group: "edges", data: { id: `v-${n.id}`, source: n.replaces, target: n.id }, classes: "version",
   })));
   renderFocusbar(drawn.length);
+  drawFlow();
   if (changed) requestAnimationFrame(fitView); // after the page layout settled (first load, focus bar height)
 }
 
+// ---- cards: ink on paper ----------------------------------------------------
+// A 2px rule on top, an uppercase "CLAIM · CLM-001" line with a state tag, a 2-line title.
+// Chosen (approved, or selected) = solid ink with white text; rejected / old = muted.
+
+const FONT = `'BMW Type Next', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif`;
+
+/** Word-wrap text into at most `lines` lines of about `width` characters, ellipsis at the end. */
+function wrap(text, width, lines) {
+  const out = [];
+  let line = "";
+  for (const word of text.replace(/\s+/g, " ").trim().split(" ")) {
+    if ((line + " " + word).trim().length <= width) { line = (line + " " + word).trim(); continue; }
+    if (line) out.push(line);
+    line = word.length > width ? word.slice(0, width - 1) + "…" : word;
+    if (out.length === lines) break;
+  }
+  if (out.length < lines && line) out.push(line);
+  const all = out.length === lines && out.join(" ").length < text.trim().length;
+  if (all) out[lines - 1] = short(out[lines - 1], width - 1) + (out[lines - 1].endsWith("…") ? "" : "…");
+  return out.slice(0, lines);
+}
+
+/** {tag, rule, muted, dark} for a node: its state in the design language (no tinted fills). */
+function cardState(n) {
+  const verdict = verdictOf(n.id);
+  const waiting = waitingOn(n);
+  const old = Boolean(view.supersededBy[n.id]);
+  const tag = old ? "old version" : n.status === "stale" ? "stale" : waiting === "pm" ? "needs you"
+    : waiting === "agent" ? "agent next" : verdict ? { approve: "approved", reject: "rejected", postpone: "postponed" }[verdict] : "";
+  return {
+    tag,
+    rule: old || verdict === "reject" ? GHOST : n.status === "stale" ? M_RED : INK,
+    dashed: verdict === "postpone",
+    muted: old || verdict === "reject",
+    dark: verdict === "approve",
+  };
+}
+
+function card(n, on) {
+  const s = cardState(n);
+  const dark = on || s.dark;
+  const bg = dark ? INK : PAPER;
+  const fg = dark ? "#fff" : s.muted ? MUTED : INK;
+  const sub = dark ? "#b9b6ae" : MUTED;
+  const tagColor = dark ? "#fff" : s.tag === "stale" ? M_RED : s.muted ? MUTED : INK;
+  // ~7.6 px per uppercase character at 11px bold: the type line gives way to the state tag
+  const room = Math.floor((CARD_W - 28) / 7.6) - (s.tag ? s.tag.length + 1 : 0);
+  const idv = `${n.id}${n.version > 1 ? ` v${n.version}` : ""}`;
+  const head = (`${n.type} · ${idv}`.length <= room ? `${n.type} · ${idv}` : idv).toUpperCase();
+  const lines = wrap(summary(n), 24, 2);
+  const x = (s) => esc(s);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_W}" height="${CARD_H}" viewBox="0 0 ${CARD_W} ${CARD_H}">
+    <rect width="${CARD_W}" height="${CARD_H}" fill="${bg}"/>
+    <line x1="0" y1="1" x2="${CARD_W}" y2="1" stroke="${dark ? INK : s.rule}" stroke-width="${s.dashed ? 2 : 3}" ${s.dashed && !dark ? `stroke-dasharray="6 4"` : ""}/>
+    <text x="10" y="22" font-family="${FONT}" font-size="11" font-weight="700" letter-spacing="0.9" fill="${sub}">${x(head)}</text>
+    ${s.tag ? `<text x="${CARD_W - 10}" y="22" text-anchor="end" font-family="${FONT}" font-size="11" font-weight="700" letter-spacing="0.9" fill="${tagColor}">${x(s.tag.toUpperCase())}</text>` : ""}
+    ${lines.map((l, i) => `<text x="10" y="${48 + i * 22}" font-family="${FONT}" font-size="17.5" fill="${fg}" ${s.muted && !dark && verdictOf(n.id) === "reject" ? `text-decoration="line-through"` : ""}>${x(l)}</text>`).join("")}
+  </svg>`;
+  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+// ---- the flow: ghost lines for every link, M stripes on the active chain ------------------
+// Drawn in graph coordinates in an SVG under the (transparent) cytoscape canvas and moved with
+// the viewport, so the stripes stay parallel at any zoom and the cards hide them as they pass.
+
+const SW = 6; // one stripe's width in graph units (3 touching stripes = one bundle)
+const BEND = 24; // samples per S-bend
+
+/** Path of a horizontal S-bend from (x1,y1) to (x2,y2), offset by `o` along its normal. */
+function sbend(x1, y1, x2, y2, o = 0) {
+  if (Math.abs(x2 - x1) < 1) { // same column: loop out to the right and back
+    const r = Math.max(48, Math.abs(y2 - y1) / 3);
+    const d = Math.sign(y2 - y1) || 1;
+    return `M${x1},${y1 - o * d}C${x1 + r + o},${y1 - o * d} ${x2 + r + o},${y2 + o * d} ${x2},${y2 + o * d}`;
+  }
+  const k = (x2 - x1) / 2;
+  let d = "";
+  for (let j = 0; j <= BEND; j++) {
+    const t = j / BEND, u = 1 - t;
+    // cubic Bézier P0=(x1,y1) P1=(x1+k,y1) P2=(x2-k,y2) P3=(x2,y2) and its derivative
+    const bx = u * u * u * x1 + 3 * u * u * t * (x1 + k) + 3 * u * t * t * (x2 - k) + t * t * t * x2;
+    const by = (u * u * u + 3 * u * u * t) * y1 + (3 * u * t * t + t * t * t) * y2;
+    const dx = 3 * u * u * k + 6 * u * t * (x2 - k - x1 - k) + 3 * t * t * k;
+    const dy = 6 * u * t * (y2 - y1);
+    const len = Math.hypot(dx, dy) || 1;
+    d += `${j ? "L" : "M"}${(bx - (dy / len) * o).toFixed(1)},${(by + (dx / len) * o).toFixed(1)}`;
+  }
+  return d;
+}
+
+function setFlowViewport() {
+  const { x, y } = cy.pan();
+  $("#flow g").setAttribute("transform", `translate(${x},${y}) scale(${cy.zoom()})`);
+}
+
+function drawFlow() {
+  setFlowViewport();
+  const sel = selected && cy.getElementById(selected);
+  const chain = sel?.nonempty() ? sel.predecessors().union(sel.successors()).edges() : cy.collection();
+  const active = new Set(chain.filter((e) => !e.hasClass("contradicts")).map((e) => e.id()));
+  const fade = sel?.nonempty() && !focusId;
+  // each edge runs from the right side of its left end to the left side of its right end
+  const links = cy.edges().map((e) => {
+    let a = e.source(), b = e.target();
+    if (a.position().x > b.position().x) [a, b] = [b, a];
+    const same = Math.abs(a.position().x - b.position().x) < 1;
+    return { e, a, b, same, on: active.has(e.id()) };
+  });
+  // Sankey ports: the active bundles on one side of a card stack up, ordered by where they go
+  const ports = {};
+  const side = (node, key, other, l, end) => (ports[node.id() + key] ??= []).push({ l, end, y: other.position().y });
+  for (const l of links.filter((l) => l.on)) {
+    l.off = [0, 0];
+    side(l.a, "R", l.b, l, 0);
+    side(l.b, l.same ? "R" : "L", l.a, l, 1);
+  }
+  for (const list of Object.values(ports)) {
+    list.sort((p, q) => p.y - q.y);
+    const step = Math.min(3 * SW, (CARD_H - 14) / list.length);
+    list.forEach((p, j) => { p.l.off[p.end] = (j - (list.length - 1) / 2) * step; p.l.w = Math.min(p.l.w ?? SW, step / 3); });
+  }
+  const ghosts = [], stripes = [];
+  for (const l of links) {
+    const pa = l.a.position(), pb = l.b.position();
+    const x1 = pa.x + CARD_W / 2, x2 = l.same ? pb.x + CARD_W / 2 : pb.x - CARD_W / 2;
+    const cls = [...["contradicts", "version"].filter((c) => l.e.hasClass(c)), fade && !l.on && "faded"].filter(Boolean).join(" ");
+    if (!l.on) { ghosts.push(`<path class="ghost ${cls}" d="${sbend(x1, pa.y, x2, pb.y)}"/>`); continue; }
+    const [oa, ob] = l.off;
+    for (let i = 0; i < 3; i++) {
+      const o = (i - 1) * l.w; // stripe i of the bundle, along the curve's normal
+      stripes.push(`<path class="stripe s${i}" stroke-width="${(l.w + 0.4).toFixed(2)}" d="${sbend(x1, pa.y + oa, x2, pb.y + ob, o)}"/>`);
+    }
+  }
+  $("#flow g").innerHTML = ghosts.join("") + stripes.join("");
+}
+cy.on("viewport resize", setFlowViewport);
+cy.on("position", "node", () => { cancelAnimationFrame(drawFlow.raf); drawFlow.raf = requestAnimationFrame(drawFlow); });
+
 function fitView() {
   cy.resize();
-  cy.fit(undefined, 40);
+  cy.fit(undefined, 28);
   if (cy.zoom() > 1) { cy.zoom(1); cy.center(); } // a 2-node graph shouldn't fill the screen
 }
 
@@ -349,8 +475,8 @@ function markSeen() {
 function renderBrief() {
   const b = view.brief;
   $("#briefbar").innerHTML = !graph.nodes.length ? "" : b
-    ? `<b>Brief</b><span>${esc(b.content.vehicle ?? "")} · ${esc(b.content.market ?? "")}</span>
-       <span class="goal">${esc(b.content.text ?? "")}</span>
+    ? `<span class="eyebrow">${esc(b.content.vehicle ?? "")} · ${esc(b.content.market ?? "")}</span>
+       <span class="goal" title="${esc(b.content.text ?? "")}">${esc(b.content.text ?? "")}</span>
        <button type="button" id="editBrief">Edit brief</button>`
     : `<span class="meta">No brief yet: the agent doesn't know your goal.</span>
        <button type="button" id="editBrief">Set a brief</button>`;
@@ -434,6 +560,7 @@ function highlight() {
     }
     el.select();
   }
+  drawFlow(); // the selected node's chain lights up as the M stripes
   $("#jump").value = id;
   history.replaceState(null, "", `#${id}`); // shareable link to this node
   showDetail(view.byId[id]);
@@ -455,7 +582,7 @@ function showHint(redraw = true) {
   $("#detail").dataset.node = "";
   $("#detail").innerHTML = `<p class="hint">Select a node, or an item in your inbox, to see its chain, content and decisions.</p>`;
   if (redraw && focusId) { focusId = null; renderGraph(); }
-  else renderFocusbar(cy.nodes().length);
+  else { renderFocusbar(cy.nodes().length); drawFlow(); }
   if (redraw) renderSide();
 }
 

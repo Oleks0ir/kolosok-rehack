@@ -1,0 +1,22 @@
+/* Shared design tokens for every page: "M stripes as flow" (see DESIGN.md). */
+
+/* BMW's brand face is licensed, so it isn't shipped here: it's used when installed on the machine
+   or when its files are put in gui/fonts/ (gitignored); otherwise the system font (SF on a Mac). */
+@font-face { font-family: "BMW Type Next"; font-weight: 300; font-display: swap;
+  src: local("BMW Type Next Latin Light"), local("BMWTypeNextLatin-Light"), url("fonts/BMWTypeNextLatin-Light.woff2") format("woff2"); }
+@font-face { font-family: "BMW Type Next"; font-weight: 400; font-display: swap;
+  src: local("BMW Type Next Latin"), local("BMWTypeNextLatin-Regular"), url("fonts/BMWTypeNextLatin-Regular.woff2") format("woff2"); }
+@font-face { font-family: "BMW Type Next"; font-weight: 700; font-display: swap;
+  src: local("BMW Type Next Latin Bold"), local("BMWTypeNextLatin-Bold"), url("fonts/BMWTypeNextLatin-Bold.woff2") format("woff2"); }
+
+:root {
+  --paper: #f4f3ef; --ink: #111111; --muted: #77746c; --hair: #d9d6ce; --ghost: #c9c5bb;
+  --hover: #e9e7e1;
+  --m-light: #1ea7e8; --m-dark: #1d2a8c; --m-red: #e4161f;
+  --type: "BMW Type Next", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* the three stripes as a small skewed mark */
+.mark { display: inline-flex; height: 14px; transform: skewX(-20deg); }
+.mark i { width: 4px; } .mark i:nth-child(1) { background: var(--m-light); }
+.mark i:nth-child(2) { background: var(--m-dark); } .mark i:nth-child(3) { background: var(--m-red); }

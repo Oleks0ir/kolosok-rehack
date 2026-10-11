@@ -92,6 +92,19 @@ always means "this came from that", the same meaning as an edge in the decision 
 - Keyboard: real `<button>`s with `aria-pressed`, a visible `--m-light` focus ring, and `inert`
   on everything hidden or behind an overlay.
 
+## Graph view (`app.js`)
+
+- **Columns flow left to right** (Source → Evidence → Claim → Requirement), like a Sankey.
+- **Every link is a thin `--ghost` S-curve.** The selected node's chain lights up as the three
+  stripes. Bundles stack on a card's side in the order they go (no crossings) and narrow when
+  many share a side.
+- **Nodes are ink-on-paper cards:** a top rule, then `TYPE · ID` in uppercase with a state tag on
+  the right, then a 2-line title. Selected or approved: solid ink. States have no tinted fills:
+  - stale: `--m-red` rule and tag;
+  - postponed: dashed rule;
+  - rejected or old version: muted, with a ghost rule;
+  - waiting: a `NEEDS YOU` or `AGENT NEXT` tag.
+
 ## Don't
 
 - Don't use the BMW roundel or the M logo. The brand is evoked by the stripe colors only.

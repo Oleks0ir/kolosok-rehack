@@ -8,8 +8,9 @@ the graph in the browser console for debugging.
 
 | File | What |
 |---|---|
-| `index.html`, `style.css` | Layout: top bar, legend, graph canvas, detail panel |
-| `app.js` | Loads the graph, renders it, detail panel, PM actions |
+| `index.html`, `style.css` | Layout: one top bar, brief + inbox (left), graph canvas, detail panel (right) |
+| `theme.css` | Shared design tokens (`--paper`, `--ink`, `--m-*`, `--type`) and the font, used by every page |
+| `app.js` | Loads the graph, renders it, detail panel, PM actions. Nodes are ink-on-paper cards (SVG images in cytoscape); edges are drawn by the flow layer (`#flow`, an SVG under the canvas): ghost lines, and the selected node's chain as the three M stripes, Sankey-style |
 | `DESIGN.md` | **Design language** ("M stripes as flow"): colors, type, stripes, motion. New pages follow it |
 | `start.js`, `start.css` | Start screen: choices drawn as M stripes on spring-animated Sankey curves. Uses BMW Type Next if installed or put in `gui/fonts/` (gitignored, licensed), else the system font |
 | `layout.js` | Column-per-stage layout (Source → Evidence → Claim → Requirement → Score). Self-check: `node gui/layout.test.mjs` |
