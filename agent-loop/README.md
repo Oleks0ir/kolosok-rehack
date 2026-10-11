@@ -61,6 +61,60 @@ so the model guessed ids. Fixed by real rows in Sources (`seed.py`), the `source
 the fix: 8/8 actions without errors, Source → Evidence → Claim → Requirement → Score, then the
 next finding.
 
+## Evaluation (2026-10-11) — 1 run per model × mode
+
+Setup: fresh DB, `seed.py sample_data/demo_feedback.csv`, `run(max_actions=8)`.
+
+| Model · mode | Actions | Graph built | Tokens in / out | Cost |
+|---|---|---|---|---|
+| gpt-4o-mini · llm | 8 | 3 EVD → 2 CLM → 2 REQ → 1 SCR | 21,177 / 720 | $0.0036 |
+| gpt-4o-mini · hybrid | 4 | 1 EVD → 1 CLM → 1 REQ → QST | 10,907 / 342 | $0.0018 |
+| **gpt-6-luna · llm** | 8 | 3 EVD → 3 CLM → 2 REQ | 22,487 / 878 | **$0.0027** |
+| gpt-6-luna · hybrid | 4 | 1 EVD → 1 CLM → 1 REQ → QST | 11,326 / 425 | $0.0013 |
+
+Prices: gpt-6-luna $0.10 / $0.50 per M tokens in/out, gpt-4o-mini $0.15 / $0.60 (third-party
+listings — check OpenAI's pricing page). One run each, so indicative, not statistical.
+
+What works: no stalls, 0 errors and 0 guessed ids in 24 actions; 7/8 evidence quotes match a
+CSV row exactly; both models walk the chain unprompted and pick a new row each time.
+
+Quality: **gpt-6-luna is clearly better** — testable requirements ("…validate recognition
+performance with representative in-car utterances") and rationales that cite ids. gpt-4o-mini
+writes vague requirements ("needs improvement…"), overclaims ("growing customer concern" from a
+single row), and in hybrid mode copied the evidence verbatim into the claim.
+
+**Recommendation:** default to gpt-6-luna in `llm` mode. It needs `reasoning_effort="none"`
+on the `chat.completions.create()` call in `llm.py` (otherwise OpenAI rejects tool calls with
+a 400) — not in the code yet; the evaluation passed it from a throwaway runner.
+
+## Open problems (for whoever picks this up)
+
+Ordered by impact on the demo. 1–2 decide whether the output looks like prioritized
+requirements or a list of one-verbatim paraphrases.
+
+1. **Scoring isn't defined.** `score` takes a free-text `formula` and nothing computes a
+   score — 4o-mini's SCR node just restated the requirement, and both hybrid runs paused to ask
+   the PM "what scoring criteria?". Needs a real formula (VISION.md: "fixed scoring formula"),
+   ideally backend-side. The CSV's `reliability` column (0.72–0.92) is a ready input that no run
+   used.
+2. **No consolidation — every requirement rests on one row.** Each claim links exactly one
+   evidence node. Rows 2, 8 and 11 are all about charging; luna noticed the connection but still
+   made a separate claim. Options: prompt rule "if a finding supports an existing claim's theme,
+   claim across several evidence_ids", or a two-phase run (extract all evidence, then group).
+3. **`quote` field misused outside Evidence.** Requirements and Questions sometimes put the
+   model's own text in `quote`, which reads like a citation. Fix: separate `_CONTENT` schemas —
+   `quote`/`source_ref` only on `query_data`.
+4. **Questions aren't linked to what they ask about.** Both QST-001 nodes have no inputs
+   though they ask about REQ-001. Fix: `decide_rule_based()`'s `ask_pm` passes the relevant ids,
+   or hybrid lets the LLM fill `inputs`.
+5. **Hybrid extracts one finding per file**, because `sources_without_evidence` empties after
+   the first `query_data`. Needs a "rows left unprocessed" signal if hybrid should go deeper.
+6. **Prompt size grows with the source.** ~2.7k input tokens per call for 12 rows, mostly the
+   CSV (`sources` signal in `look()`, marked `shortcut:`). Real verbatim files need chunking or
+   per-call row selection before they're seeded.
+7. **Unused tools.** No run called `web_search`, `challenge` or `add_assumption` — Look has no
+   signal that would trigger them (e.g. "requirement with only one evidence" → `challenge`).
+
 ## What's intentionally not here (teammate's call)
 
 - Any UI/CLI for the PM to review a pause's summary — that's the GUI module's job; this loop
