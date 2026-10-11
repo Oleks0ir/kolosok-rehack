@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Decision Graph</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Decision Graph</h1>
+    <span id="stats" class="stats"></span>
+    <label>Jump to <select id="jump"><option value="">—</option></select></label>
+    <label>PM name <input id="pm" size="10" autocomplete="name"></label>
+    <button id="refresh" type="button">Refresh</button>
+  </header>
+  <div class="legend">
+    <span class="meta">Add — drag onto the graph (or onto a node to build on it), or click:</span>
+    <button type="button" class="sw Source" draggable="true" data-new="Source">Source</button>
+    <button type="button" class="sw Evidence" draggable="true" data-new="Evidence">Evidence</button>
+    <button type="button" class="sw Claim" draggable="true" data-new="Claim">Claim</button>
+    <button type="button" class="sw Assumption" draggable="true" data-new="Assumption">Assumption</button>
+    <button type="button" class="sw Requirement" draggable="true" data-new="Requirement">Requirement</button>
+    <button type="button" class="sw Question" draggable="true" data-new="Question">Question</button>
+    <button type="button" class="sw Note" draggable="true" data-new="Note">Note</button>
+    <span class="legend-key" aria-hidden="true">
+      <span class="sw Score">Score</span><span class="sw approve">approved</span><span class="sw reject">rejected</span>
+      <span class="sw postpone">postponed</span><span class="sw stale">stale</span>
+    </span>
+  </div>
+  <div class="agentbar">
+    <button id="importBtn" type="button">Import CSV…</button>
+    <input type="file" id="csv" accept=".csv,text/csv" hidden>
+    <label>Actions <input type="number" id="actions" min="1" max="20" value="5"></label>
+    <button id="run" type="button" class="primary">Run agent</button>
+    <span id="agentStatus" class="meta"></span>
+    <details id="agentLog"><summary>Agent log</summary><pre></pre></details>
+  </div>
+  <main>
+    <div id="graph" role="img" aria-label="Decision graph; use 'Jump to' to select nodes by keyboard. Right-click for actions, drag a node onto another to connect them."></div>
+    <div id="menu" class="menu" role="menu" hidden></div>
+    <div id="empty" class="empty" hidden>
+      <h2>The graph is empty</h2>
+      <p>Import a CSV (e.g. <code>agent-loop/sample_data/demo_feedback.csv</code>), then run the agent.</p>
+    </div>
+    <aside id="detail" aria-live="polite">
+      <p class="hint">Select a node to see its chain, content and decisions.</p>
+    </aside>
+  </main>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

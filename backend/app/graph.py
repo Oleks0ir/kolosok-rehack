@@ -87,8 +87,8 @@ def add_node(
     return _row_to_node(row)
 
 
-def _mark_stale(cur, node_id: str) -> None:
-    """Propagate staleness to every node that (transitively) depends on node_id."""
+def _downstream(cur, node_id: str) -> set[str]:
+    """node_id plus every node that (transitively) depends on it."""
     seen = {node_id}
     frontier = [node_id]
     while frontier:
@@ -99,11 +99,21 @@ def _mark_stale(cur, node_id: str) -> None:
         next_frontier = [r["from_id"] for r in cur.fetchall() if r["from_id"] not in seen]
         seen.update(next_frontier)
         frontier = next_frontier
+    return seen
 
+
+def _mark_stale(cur, node_id: str) -> None:
+    """Propagate staleness to every node that (transitively) depends on node_id."""
     cur.execute(
         "UPDATE nodes SET status = 'stale' WHERE id = ANY(%s)",
-        (list(seen),),
+        (list(_downstream(cur, node_id)),),
     )
+
+
+def downstream_ids(node_id: str) -> set[str]:
+    with get_conn() as conn:
+        with dict_cursor(conn) as cur:
+            return _downstream(cur, node_id)
 
 
 def get_node(node_id: str) -> Optional[Node]:
@@ -123,6 +133,16 @@ def list_nodes(type: Optional[NodeType] = None) -> list[Node]:
                 cur.execute("SELECT * FROM nodes ORDER BY timestamp")
             rows = cur.fetchall()
     return [_row_to_node(r) for r in rows]
+
+
+def list_edges(from_id: Optional[str] = None) -> list[dict[str, Any]]:
+    with get_conn() as conn:
+        with dict_cursor(conn) as cur:
+            if from_id:
+                cur.execute("SELECT from_id, to_id, relation FROM edges WHERE from_id = %s ORDER BY id", (from_id,))
+            else:
+                cur.execute("SELECT from_id, to_id, relation FROM edges ORDER BY id")
+            return cur.fetchall()
 
 
 def get_inputs(node_id: str) -> list[Node]:

@@ -47,7 +47,7 @@ Until the ingestion module exists, seed one from a CSV (backend running):
 
 ```bash
 python seed.py sample_data/demo_feedback.csv   # 12 synthetic 5 Series rows (from alex_demo1)
-python loop.py                                 # needs OPENAI_API_KEY in the env for the LLM
+python loop.py 8                               # max actions (default 5); needs OPENAI_API_KEY for the LLM
 ```
 
 ## Why it used to stall (fixed)

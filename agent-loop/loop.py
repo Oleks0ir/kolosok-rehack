@@ -5,6 +5,7 @@ over HTTP (never imports backend/app/), so it runs as an independent module.
 """
 
 import os
+import sys
 
 import requests
 
@@ -131,12 +132,12 @@ def run(max_actions: int = 5) -> list[dict]:
         summary.append(result)
         history.append({"tool": tool, "content": args.get("content"),
                         "result": result.get("error") or result.get("id")})
+        # one line per action as it happens: the live log the GUI shows (GET /agent/status)
+        print(result.get("id", "ERROR"), tool, result.get("rationale") or result.get("error"), flush=True)
         if tool == "ask_pm" and "error" not in result:
             break
     return summary
 
 
 if __name__ == "__main__":
-    for node in run():
-        print(node.get("id", "ERROR"), node.get("type", node.get("tool")),
-              node.get("rationale") or node.get("error"))
+    run(int(sys.argv[1]) if len(sys.argv) > 1 else 5)

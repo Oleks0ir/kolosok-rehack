@@ -163,3 +163,63 @@ def test_end_to_end_requirement_traces_to_source():
     assert get_inputs(evidence.id)[0].id == src.id
     assert scored.type == NodeType.SCORE
     assert decision.created_by.startswith("PM:")
+
+
+def test_pm_edit_creates_new_version_with_same_inputs_and_marks_dependents_stale():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    evidence = tools.query_data({"row": "complaint"}, [src.id], "agent:researcher")
+    claim = tools.add_claim({"text": "v1"}, [evidence.id], "agent:researcher")
+    requirement = tools.propose_requirement({"text": "req"}, [claim.id], "agent:researcher")
+
+    edited = tools.edit({"text": "v2"}, claim.id, "PM:alex", rationale="sharper wording")
+
+    from app.graph import list_edges
+
+    assert edited.type == NodeType.CLAIM
+    assert edited.version == 2 and edited.replaces == claim.id
+    assert list_edges(edited.id) == [{"from_id": edited.id, "to_id": evidence.id, "relation": "derived_from"}]
+    assert get_node(requirement.id).status == "stale"
+    assert get_node(edited.id).status == "ok"
+
+
+def test_connect_adds_input_as_new_version_and_rejects_loops():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    e1 = tools.query_data({"row": "a"}, [src.id], "agent:researcher")
+    e2 = tools.query_data({"row": "b"}, [src.id], "agent:researcher")
+    claim = tools.add_claim({"text": "c"}, [e1.id], "agent:researcher")
+
+    connected = tools.edit(claim.content, claim.id, "PM:alex", "e2 supports it too", add_inputs=[e2.id])
+
+    from app.graph import list_edges
+
+    assert [e["to_id"] for e in list_edges(connected.id)] == [e1.id, e2.id]
+    assert get_node(claim.id).status == "stale"
+    with pytest.raises(ValueError, match="loop"):
+        tools.edit(e1.content, e1.id, "PM:alex", add_inputs=[connected.id])
+
+
+def test_pm_create_enforces_pm_types_and_input_rules():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    claim = tools.create(NodeType.CLAIM, {"text": "c"}, [src.id], "PM:alex")
+    counter = tools.create(NodeType.EVIDENCE, {"text": "no"}, [claim.id], "PM:alex", relation=Relation.CONTRADICTS)
+
+    from app.graph import list_edges
+
+    assert claim.created_by == "PM:alex"
+    assert list_edges(counter.id)[0]["relation"] == "contradicts"
+    assert tools.create(NodeType.NOTE, {"text": "workshop"}, [], "PM:alex").type == NodeType.NOTE
+    with pytest.raises(PermissionError):
+        tools.create(NodeType.CLAIM, {"text": "c"}, [src.id], "agent:x")
+    with pytest.raises(ValueError):
+        tools.create(NodeType.CLAIM, {"text": "c"}, [], "PM:alex")  # claims need inputs
+    with pytest.raises(ValueError):
+        tools.create(NodeType.DECISION, {"verdict": "approve"}, [src.id], "PM:alex")
+
+
+def test_edit_rejects_non_pm_and_already_replaced_nodes():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    with pytest.raises(PermissionError):
+        tools.edit({"file": "y.csv"}, src.id, "agent:researcher")
+    tools.edit({"file": "y.csv"}, src.id, "PM:alex")
+    with pytest.raises(ValueError):
+        tools.edit({"file": "z.csv"}, src.id, "PM:alex")

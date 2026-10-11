@@ -3,16 +3,22 @@ Python core and the GUI / agent-loop / ingestion modules (each built
 independently against this API, see VISION.md).
 """
 
+import csv
+import io
+import mimetypes
+from pathlib import Path
 from typing import Any, Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from fastapi.responses import RedirectResponse
+from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel, Field
 
-from . import tools
+from . import agent_runner, tools
 from .db import init_db
-from .graph import get_dependents, get_inputs, get_node, list_nodes
-from .models import Node, NodeType
+from .graph import get_dependents, get_inputs, get_node, list_edges, list_nodes
+from .models import Node, NodeType, Relation
 
 app = FastAPI(title="Decision Graph API")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
@@ -46,6 +52,12 @@ def api_get_inputs(node_id: str):
 @app.get("/nodes/{node_id}/dependents", response_model=list[Node])
 def api_get_dependents(node_id: str):
     return get_dependents(node_id)
+
+
+@app.get("/edges")
+def api_list_edges():
+    """All edges as {from_id, to_id, relation}; from_id is the newer node, to_id its input."""
+    return list_edges()
 
 
 # ---- writes: the 8 agent tools + PM decide ----------------------------
@@ -188,3 +200,79 @@ def api_import_source(req: ImportSourceRequest):
 @app.post("/decide", response_model=Node)
 def api_decide(req: DecideRequest):
     return _handle(tools.decide, **req.model_dump())
+
+
+class EditRequest(DecideRequest):
+    add_inputs: list[str] = []
+
+
+@app.post("/edit", response_model=Node)
+def api_edit(req: EditRequest):
+    """PM only: new version of target_id with new content and optionally extra inputs
+    (connecting nodes); marks everything built on the old version stale."""
+    return _handle(tools.edit, **req.model_dump())
+
+
+class CreateRequest(BaseModel):
+    type: NodeType
+    content: dict[str, Any]
+    inputs: list[str] = []
+    created_by: str
+    rationale: Optional[str] = None
+    relation: Relation = Relation.DERIVED_FROM
+
+
+@app.post("/nodes", response_model=Node)
+def api_create(req: CreateRequest):
+    """PM only: create a Source/Evidence/Claim/Assumption/Requirement/Question/Note by hand."""
+    return _handle(tools.create, **req.model_dump())
+
+
+# ---- GUI helpers: CSV import + starting the agent -----------------------
+
+class ImportCsvRequest(BaseModel):
+    filename: str
+    text: str
+    created_by: str
+
+
+@app.post("/import/csv", response_model=Node)
+def api_import_csv(req: ImportCsvRequest):
+    """Record an uploaded CSV as one Source node with its rows (VISION.md: one Source per file)."""
+    rows = list(csv.DictReader(io.StringIO(req.text.lstrip("﻿"))))  # Excel adds a BOM
+    if not rows:
+        raise HTTPException(400, "the CSV has no data rows")
+    return _handle(tools.import_source, content={"file": req.filename, "rows": rows},
+                   created_by=req.created_by, rationale="imported from the GUI")
+
+
+class AgentRunRequest(BaseModel):
+    max_actions: int = Field(5, ge=1, le=20)
+
+
+@app.post("/agent/run")
+def api_agent_run(req: AgentRunRequest):
+    """Start agent-loop/loop.py in the background; 409 if a run is already going."""
+    try:
+        agent_runner.start(req.max_actions)
+    except RuntimeError as e:
+        raise HTTPException(409, str(e))
+    return agent_runner.status()
+
+
+@app.get("/agent/status")
+def api_agent_status():
+    """{running, exit_code, llm, log}: llm is false when OPENAI_API_KEY isn't set (rule-based run)."""
+    return agent_runner.status()
+
+
+# ---- GUI (gui/ at the repo root), same origin so no CORS needed --------
+
+# Windows' registry can map .js to text/plain, which browsers refuse for module scripts.
+mimetypes.add_type("text/javascript", ".js")
+app.mount("/ui", StaticFiles(directory=Path(__file__).resolve().parents[2] / "gui", html=True), name="ui")
+
+
+@app.get("/", include_in_schema=False)
+def root():
+    return RedirectResponse("/ui/")
