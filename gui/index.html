@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Decision Graph</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="start.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
   <script type="module" src="app.js"></script>
 </head>
@@ -73,41 +74,13 @@
       </div>
       <ol id="trail"></ol>
     </section>
-    <section id="start" class="start" aria-labelledby="startTitle" hidden>
-      <form id="startForm">
-        <h2 id="startTitle">New decision project</h2>
-        <p class="meta">Say what you want to decide and which data to use. The agent then builds the
-          reasoning step by step; you review and steer it from your inbox.</p>
-        <fieldset>
-          <legend><span class="step">1</span> Brief</legend>
-          <div class="row">
-            <label>Vehicle <select id="startVehicle">
-              <option>BMW 5 Series</option><option>BMW 1 Series</option><option>BMW 7 Series</option></select></label>
-            <label>Market <select id="startMarket">
-              <option>Europe</option><option>China</option><option>United States</option></select></label>
-          </div>
-          <label for="startGoal">What should the agent work out?</label>
-          <textarea id="startGoal" rows="3">Which customer requirements should the successor generation fulfil, based on what customers say about the current model?</textarea>
-        </fieldset>
-        <fieldset>
-          <legend><span class="step">2</span> Sources</legend>
-          <div id="startSources" class="sources"><span class="meta">loading…</span></div>
-        </fieldset>
-        <fieldset>
-          <legend><span class="step">3</span> Start</legend>
-          <div class="row">
-            <label>Your PM name <input id="startPm" size="12" autocomplete="name" required></label>
-            <label>Agent steps <input type="number" id="startSteps" min="1" max="20" value="8"></label>
-            <button type="submit" class="primary">Start agent ▶</button>
-          </div>
-        </fieldset>
-      </form>
-    </section>
     <div id="menu" class="menu" role="menu" hidden></div>
     <aside id="detail" aria-live="polite">
       <p class="hint">Select a node to see its chain, content and decisions.</p>
     </aside>
   </main>
+  <!-- start screen (start.js): full-screen, shown while the graph is empty or with ?start -->
+  <section id="start" class="start" aria-labelledby="startTitle" hidden></section>
   <div id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

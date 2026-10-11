@@ -10,12 +10,15 @@ the graph in the browser console for debugging.
 |---|---|
 | `index.html`, `style.css` | Layout: top bar, legend, graph canvas, detail panel |
 | `app.js` | Loads the graph, renders it, detail panel, PM actions |
+| `start.js`, `start.css` | Start screen: choices drawn as M stripes on spring-animated Sankey curves. Uses BMW Type Next if installed or put in `gui/fonts/` (gitignored, licensed), else the system font |
 | `layout.js` | Column-per-stage layout (Source → Evidence → Claim → Requirement → Score). Self-check: `node gui/layout.test.mjs` |
 
 ## The PM's loop
 
-1. **Empty graph → start screen:** brief (vehicle, market, what to work out), tick the data files
-   (`GET /datasets`, `POST /import/dataset`), Start. The brief is a PM Note with
+1. **Empty graph → start screen** (`start.js`, `start.css`; `/ui/?start` shows it over an existing
+   graph too, to demo or design it): the three M stripes flow down and fan out to each choice —
+   vehicle, market, data files (`GET /datasets`, `POST /import/dataset`, or your own CSV via
+   `POST /import/csv`) — then through the brief into **Start agent**. The brief is a PM Note with
    `content.kind = "brief"`; it is shown in the brief bar, not drawn, and the agent reads it every run.
 2. **Inbox** (left): only what needs the PM — *the agent asks you*, *broken by an edit* (with the
    edit that caused it), *waiting for your decision* (undecided requirements), *waiting for the

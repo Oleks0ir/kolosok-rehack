@@ -1,0 +1,113 @@
+/* Start screen: M stripes flowing like a Sankey diagram on warm paper (see start.js). */
+
+/* BMW's brand face is licensed, so it isn't shipped here: it's used when installed on the machine
+   or when its files are put in gui/fonts/ (gitignored); otherwise the system font (SF on a Mac). */
+@font-face { font-family: "BMW Type Next"; font-weight: 300; font-display: swap;
+  src: local("BMW Type Next Latin Light"), local("BMWTypeNextLatin-Light"), url("fonts/BMWTypeNextLatin-Light.woff2") format("woff2"); }
+@font-face { font-family: "BMW Type Next"; font-weight: 400; font-display: swap;
+  src: local("BMW Type Next Latin"), local("BMWTypeNextLatin-Regular"), url("fonts/BMWTypeNextLatin-Regular.woff2") format("woff2"); }
+@font-face { font-family: "BMW Type Next"; font-weight: 700; font-display: swap;
+  src: local("BMW Type Next Latin Bold"), local("BMWTypeNextLatin-Bold"), url("fonts/BMWTypeNextLatin-Bold.woff2") format("woff2"); }
+
+.start {
+  --paper: #f4f3ef; --ink: #111111; --muted: #77746c; --hair: #d9d6ce; --ghost: #c9c5bb;
+  --m-light: #1ea7e8; --m-dark: #1d2a8c; --m-red: #e4161f;
+  --type: "BMW Type Next", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  position: fixed; inset: 0; z-index: 50; overflow-y: auto; overscroll-behavior: contain;
+  background: var(--paper); color: var(--ink); font-family: var(--type);
+  -webkit-font-smoothing: antialiased;
+  transition: opacity 450ms cubic-bezier(.2, .8, .2, 1), transform 450ms cubic-bezier(.2, .8, .2, 1), filter 450ms;
+}
+.start[hidden] { display: none; }
+.start.leaving { opacity: 0; transform: scale(1.015); filter: blur(6px); pointer-events: none; }
+
+.start-inner {
+  position: relative; max-width: 1160px; margin: 0 auto; padding: 0 40px 35vh;
+  display: grid; grid-template-columns: 280px minmax(0, 1fr); column-gap: 48px;
+}
+.flow { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.flow .stripe { fill: none; stroke-width: 10; stroke-linecap: butt; stroke-linejoin: round; }
+.flow .s0 { stroke: var(--m-light); } .flow .s1 { stroke: var(--m-dark); } .flow .s2 { stroke: var(--m-red); }
+.flow .ghost { fill: none; stroke: var(--ghost); stroke-width: 1.5; }
+
+/* ---- intro: editorial title block between hairlines (left), the stripes run down beside it */
+.intro { grid-column: 1; padding: 56px 0 8px; }
+.kicker { display: flex; align-items: center; gap: 10px; margin: 0; padding-bottom: 14px; border-bottom: 1px solid var(--ink);
+  font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.mark { display: inline-flex; height: 14px; transform: skewX(-20deg); }
+.mark i { width: 4px; } .mark i:nth-child(1) { background: var(--m-light); }
+.mark i:nth-child(2) { background: var(--m-dark); } .mark i:nth-child(3) { background: var(--m-red); }
+.start h1 { margin: 22px 0 18px; font-size: 44px; font-weight: 300; line-height: 1.04; letter-spacing: -.025em; }
+.lede { margin: 0; padding-top: 14px; border-top: 1px solid var(--hair); font-size: 14px; line-height: 1.55; color: var(--muted); }
+
+/* ---- rows: the label sits left, its choice sits on the stripes' path (right) */
+.row { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; padding-top: 96px; /* = FORK in start.js */ }
+.row:not(.shown) { opacity: 0; transform: translateY(14px); visibility: hidden; }
+.row.shown { transition: opacity 500ms cubic-bezier(.2, .8, .2, 1) 140ms, transform 500ms cubic-bezier(.2, .8, .2, 1) 140ms; }
+.label { display: flex; gap: 12px; align-items: flex-start; }
+.num { flex: none; display: grid; place-items: center; width: 22px; height: 22px; margin-top: 2px; border-radius: 50%;
+  background: var(--ink); color: var(--paper); font-size: 12px; font-weight: 700; }
+.label h2 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.01em; line-height: 1.3; }
+.label p { margin: 2px 0 0; font-size: 13px; line-height: 1.45; color: var(--muted); }
+.body { position: relative; display: flex; flex-direction: column; align-items: center; min-width: 0; }
+
+/* cards sit above the stripes and hide them where they flow through */
+.card { position: relative; z-index: 1; background: var(--paper); }
+.options { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px 56px; }
+.opt {
+  min-width: 150px; padding: 12px 18px 11px; border: 0; border-top: 2px solid var(--ink); border-radius: 0;
+  font: inherit; color: var(--ink); text-align: center; cursor: pointer;
+  display: flex; flex-direction: column; gap: 1px;
+  transition: background-color 180ms ease, color 180ms ease, transform 100ms ease-out, opacity 180ms ease;
+}
+.opt b { font-size: 15px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.opt span { font-size: 12px; color: var(--muted); letter-spacing: .01em; }
+.opt:hover { background: #e9e7e1; }
+.opt:active { transform: scale(.97); }
+.opt.on { background: var(--ink); color: #fff; border-top-color: var(--ink); }
+.opt.on span { color: #b9b6ae; }
+.opt.off { color: var(--muted); border-top-color: var(--ghost); }
+.opt.off:hover { color: var(--ink); }
+.opt:focus-visible, .go:focus-visible, .brief textarea:focus-visible, .field input:focus-visible {
+  outline: 2px solid var(--m-light); outline-offset: 3px;
+}
+.loading { color: var(--muted); font-size: 13px; }
+
+.brief { display: block; width: min(560px, 100%); padding: 14px 18px 12px; border-top: 2px solid var(--ink); }
+.eyebrow { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.brief textarea { display: block; width: 100%; margin-top: 6px; padding: 0; border: 0; resize: none; background: none;
+  font: 300 19px/1.4 var(--type); letter-spacing: -.01em; color: var(--ink); }
+.brief textarea:focus { outline: none; }
+
+.launch { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: center; gap: 16px 28px; }
+.field { display: flex; flex-direction: column; gap: 4px; position: relative; z-index: 1; }
+.field span { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.field input { width: 180px; padding: 6px 0; border: 0; border-bottom: 1px solid var(--ink); border-radius: 0; background: none;
+  font: 400 16px var(--type); color: var(--ink); }
+.field.steps input { width: 72px; }
+.field input:focus { outline: none; border-bottom-color: var(--m-light); }
+.go {
+  position: relative; z-index: 1; min-width: 180px; padding: 15px 28px; border: 0; border-radius: 0;
+  background: var(--ink); color: #fff; font: 700 14px var(--type); letter-spacing: .08em; text-transform: uppercase; cursor: pointer;
+  transition: transform 100ms ease-out, background-color 180ms ease;
+}
+.go:hover { background: #2a2a2a; }
+.go:active { transform: scale(.97); }
+.go:disabled { cursor: progress; }
+.error { min-height: 1.4em; margin: 14px 0 0; font-size: 13px; color: var(--m-red); text-align: center; }
+
+@media (max-width: 800px) {
+  .start-inner { grid-template-columns: minmax(0, 1fr); padding: 0 16px 35vh; }
+  /* the stripes come out from under the title; each label sits left of them, above the bend */
+  .row { grid-template-columns: minmax(0, 1fr); padding-top: 28px; row-gap: 96px; /* = FORK */ }
+  .label { max-width: calc(50% - 28px); }
+  .intro { position: relative; z-index: 2; padding: 32px 0 24px; background: var(--paper); }
+  .start h1 { font-size: 34px; }
+  .options { gap: 12px 16px; }
+  .opt { min-width: 120px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .start, .row.shown, .opt, .go { transition: opacity 200ms ease; }
+  .row:not(.shown) { transform: none; }
+  .start.leaving { transform: none; filter: none; }
+}

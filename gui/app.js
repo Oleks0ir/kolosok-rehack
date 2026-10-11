@@ -1,5 +1,6 @@
 // Graph-first PM view over the decision-graph API (served by the backend at /ui, same origin).
 import { layout, STAGE } from "./layout.js";
+import { createStart } from "./start.js";
 
 const $ = (sel) => document.querySelector(sel);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
@@ -172,8 +173,8 @@ function render() {
   if (focusMode && selected && view.byId[selected]) focusId = selected;
   else if (!draft && !linking) focusId = null;
   renderGraph();
-  $("#start").hidden = graph.nodes.length > 0;
-  if (!graph.nodes.length) guard(renderStart)();
+  if (!graph.nodes.length || forceStart) guard(start.show)({ name: $("#pm").value });
+  else start.hide();
   renderStats();
   renderJump();
   renderBrief();
@@ -388,31 +389,21 @@ async function saveBrief() {
   await load();
 }
 
-async function renderStart() {
-  if (renderStart.done) return;
-  renderStart.done = true;
-  $("#startPm").value = $("#pm").value;
-  const datasets = await api("/datasets");
-  $("#startSources").innerHTML = datasets.map((d) => `
-    <label><input type="checkbox" name="dataset" value="${esc(d.name)}" checked> ${esc(d.name)}
-      <span class="meta">${d.rows} rows</span></label>`).join("")
-    + `<p class="meta">Other files: use “Import CSV…” above.</p>`;
-}
+// The start screen (start.js) collects the choices; this writes them: brief, sources, first run.
+// ?start in the URL shows it over an existing graph too (to demo or design it).
+let forceStart = new URLSearchParams(location.search).has("start");
+const start = createStart($("#start"), { loadDatasets: () => api("/datasets"), onStart: startProject });
 
-async function startProject() {
-  const name = $("#startPm").value.trim();
-  if (!name) throw new Error("Enter your PM name: every step you take is recorded under it.");
+async function startProject({ vehicle, market, goal, name, datasets, file, steps }) {
   $("#pm").value = name;
   store.set("pmName", name);
-  const files = [...document.querySelectorAll("#startSources input[name=dataset]:checked")].map((i) => i.value);
-  if (!files.length) throw new Error("Pick at least one source.");
-  const text = $("#startGoal").value.trim();
-  if (!text) throw new Error("Write what the agent should work out.");
   const by = `PM:${name}`;
   await api("/nodes", { type: "Note", inputs: [], created_by: by, rationale: "project brief from the start screen",
-    content: { kind: "brief", vehicle: $("#startVehicle").value, market: $("#startMarket").value, text } });
-  for (const f of files) await api("/import/dataset", { name: f, created_by: by });
-  $("#actions").value = $("#startSteps").value;
+    content: { kind: "brief", vehicle, market, text: goal } });
+  for (const f of datasets) await api("/import/dataset", { name: f, created_by: by });
+  if (file) await api("/import/csv", { filename: file.name, text: await file.text(), created_by: by });
+  $("#actions").value = steps;
+  forceStart = false;
   await load();
   await runAgent();
   toast("Agent started: its work appears live; what needs you lands in your inbox.");
@@ -1017,7 +1008,6 @@ $("#focusbar").addEventListener("change", (ev) => {
   if (selected) highlight();
 });
 $("#briefbar").addEventListener("click", (ev) => { if (ev.target.id === "editBrief") openBrief(); });
-$("#startForm").addEventListener("submit", (ev) => { ev.preventDefault(); guard(startProject)(); });
 $("#importBtn").addEventListener("click", () => $("#csv").click());
 $("#csv").addEventListener("change", guard(async (ev) => {
   const file = ev.target.files[0];
