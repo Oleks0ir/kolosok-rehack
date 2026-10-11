@@ -138,9 +138,10 @@ requirements or a list of one-verbatim paraphrases.
 3. **`quote` field misused outside Evidence.** Requirements and Questions sometimes put the
    model's own text in `quote`, which reads like a citation. Fix: separate `_CONTENT` schemas —
    `quote`/`source_ref` only on `query_data`.
-4. **Questions aren't linked to what they ask about.** Both QST-001 nodes have no inputs
-   though they ask about REQ-001. Fix: `decide_rule_based()`'s `ask_pm` passes the relevant ids,
-   or hybrid lets the LLM fill `inputs`.
+4. **Unprompted questions aren't always linked to what they ask about.** Questions answering
+   PM input are linked (`link_pm_input()`), but the agent's own `ask_pm` (and the rule-based
+   "ran out of steps" one) can still have no inputs. Fix: require `inputs` in the `ask_pm`
+   schema when it asks about a node.
 5. **Hybrid extracts one finding per file**, because `sources_without_evidence` empties after
    the first `query_data`. Needs a "rows left unprocessed" signal if hybrid should go deeper.
 6. **Prompt size grows with the source.** ~2.7k input tokens per call for 12 rows, mostly the
@@ -152,9 +153,14 @@ requirements or a list of one-verbatim paraphrases.
    steering (below); unprompted, Look still has no signal for them (e.g. "requirement with only
    one evidence" → `challenge`).
 
-## What's intentionally not here (teammate's call)
+8. **Default model is still gpt-4o-mini.** It fabricated on PM requests before the gates;
+   gpt-6-luna passed every live check. Switch the `MODEL` default in `llm.py` (or set
+   `OPENAI_MODEL=gpt-6-luna` wherever the loop is started — for GUI runs that's the backend).
+9. **Gated retries cost actions.** A rejected call (`check()`) uses one of the run's
+   `max_actions`; luna needed one retry in some runs.
 
-- Any UI/CLI for the PM to review a pause's summary — that's the GUI module's job; this loop
-  just returns/prints the summary.
-- Detecting "PM answered a Question" to resume faster — out of scope for the first pass; Look
-  re-reading the whole graph each time covers it for now.
+## What's intentionally not here
+
+- PM review UI: that's `gui/` (it starts this loop via `POST /agent/run`).
+- Resuming on its own when the PM answers: each run re-reads the whole graph, so PM answers
+  and requests are picked up by the next run (`pm_input`); nothing triggers a run by itself.

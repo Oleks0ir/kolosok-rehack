@@ -110,7 +110,7 @@ If you don't see that line, stop and fix Entire before writing more code.
 
 ### How to run
 
-Decision graph API (Phase 1 — Postgres + the `add_node` core + the 8 agent tools from `VISION.md`):
+Decision graph API (Postgres + the `add_node` core + the agent tools from `VISION.md`) — also serves the GUI:
 
 ```bash
 docker compose up -d                 # Postgres on localhost:5432
@@ -127,7 +127,7 @@ API docs once running: http://localhost:8000/docs. Endpoints: `GET /nodes`, `GET
 **GUI:** with the backend running, open http://localhost:8000/ (redirects to `/ui/`): import a CSV, run the agent, review. Details and phase plan: [`gui/README.md`](gui/README.md).
 "Run agent" starts `agent-loop/loop.py` with the backend's environment, so for LLM runs start uvicorn with the key loaded — bash: `set -a; . ../.env; set +a` first; PowerShell: `Get-Content ..\.env | % { $k,$v = $_ -split '=',2; if ($k -and $v) { Set-Item "env:$k" $v } }`. Without it the run is rule-based (the GUI says which). The agent-loop venv must exist (see below).
 
-### Agent loop (concept + runnable skeleton)
+### Agent loop
 
 `agent-loop/README.md` has the design for the Look → Decide → Act → Pause loop from `VISION.md`.
 `agent-loop/loop.py` runs it against the real API; `llm.py` is the OpenAI-backed Decide step
@@ -142,12 +142,58 @@ python seed.py sample_data/demo_feedback.csv   # a Source with real rows to work
 python loop.py          # or: pytest (no server or API key needed)
 ```
 
+### Status & hand-off (Sun 11 Oct, 06:45)
+
+**What works end to end (on `dev`):** import a CSV → **Run agent** builds Evidence → Claim →
+Requirement live in the GUI → the PM approves / rejects / postpones / edits with reasons, builds
+or connects nodes by hand, asks the agent to *challenge* or *dig deeper*, answers its questions →
+the agent handles PM input first and never invents counter-evidence (gated) → every step is in
+the **Audit timeline** with who / when / what / why. Tests: backend 23, agent-loop 14, all green.
+
+**Demo setup:** start the backend with the key and the better model loaded, then open
+http://localhost:8000/:
+
+```bash
+set -a; . ./.env; set +a; export OPENAI_MODEL=gpt-6-luna   # PowerShell: see "How to run" above
+cd backend && python -m uvicorn app.main:app --port 8000
+```
+
+Demo flow that worked live: PM name → Import `agent-loop/sample_data/demo_feedback.csv` → Run
+agent (5) → click a requirement (chain lights up) → approve with a reason → right-click a claim →
+"Ask the agent to challenge" → Run agent → its honest answer → Audit timeline.
+
+**TODO — ordered for the 10:00 feature freeze / 12:00 submission** (nothing assigned yet):
+
+| # | What | Where | Why it matters |
+|---|---|---|---|
+| 1 | Merge `dev` → `main` once someone ran the demo flow on a second laptop | git | Rule: `main` must be demo-able; judges see `main` |
+| 2 | Define the scoring formula and compute it (`score` is free text today) | backend `tools.score` + agent prompt | BMW deliverable "priority/score + rationale"; GUI phase 5 shows it |
+| 3 | Real BMW data in: run `alex_table_ai`'s topic extraction / `artems-branch`'s preparation, POST the results as Sources (`/import/csv` or `/tools/import_source`) | ingestion | Demo on demo CSV only so far; real verbatims need chunking (agent-loop open problem 6) |
+| 4 | Make gpt-6-luna the default (`OPENAI_MODEL` default in `agent-loop/llm.py`) | agent-loop | gpt-4o-mini fabricated before the gates; luna passed every live check |
+| 5 | Demo script + fallback screenshots/video | docs | 6-minute slot; live LLM calls can be slow or fail |
+| 6 | Consolidation: claims across several evidence rows instead of one each | agent-loop prompt (open problem 2) | Requirements with n=1 evidence look weak to judges |
+| 7 | Restrict CORS to the GUI origin | `backend/app/main.py` | Open CORS lets any website start agent runs (spends OpenAI credits) |
+
+**Known problems** (details in the module READMEs):
+
+- Agent: no scoring, no consolidation, no real web search (tool withheld so it can't invent
+  results), prompt grows with the source size, `quote` field sometimes misused outside
+  Evidence → `agent-loop/README.md` → "Open problems".
+- Agent quality depends on the model: gpt-4o-mini fabricated counter-evidence before the gates;
+  luna sometimes needs one gated retry (costs one action).
+- GUI: auto-refresh only during agent runs; column layout gets crowded past ~100 nodes; new
+  nodes land in their column, not where dropped → `gui/README.md` → "Known limits".
+- Re-review flag only reacts to counter-evidence aimed at the decided node itself, not further
+  up its chain.
+- Backend: `@app.on_event("startup")` is deprecated in FastAPI (works, warns).
+
 ### For teammates building GUI / agent-loop / ingestion
 
 Build against the HTTP API above, not against `backend/app/` directly — it's the one shared contract, so all three modules can be developed independently without colliding on the same Python code.
 
 - **Base URL:** `http://localhost:8000` once the steps above are running. CORS is open (`allow_origins=["*"]`), so a browser-based GUI can call it directly.
-- **Every write goes through one of the `/tools/*` endpoints or `/decide`** — there is no other way to write to the graph, by design (see `VISION.md` → "Write rules").
+- **Every write goes through an endpoint that calls `add_node()`** — the `/tools/*` agent tools, `/decide`, `/edit` and `/nodes` (PM only), `/import/csv` — there is no other way to write to the graph, by design (see `VISION.md` → "Write rules").
+- **Ingestion:** one Source per file with its rows in `content` (`POST /import/csv` with `{filename, text, created_by}`, or `POST /tools/import_source` with your own `content`). The agent reads `content.rows`.
 - **Errors:** `400` with a `{"detail": "..."}` body means a rule was rejected (missing required input, input id doesn't exist, non-PM caller on `/decide`). `404` means a `GET` asked for a node id that doesn't exist. Anything else is a bug — report it.
 - **Node types, edge relations, and which tool writes what** are specified in `VISION.md` → "Data model" and "Agent tools"; the API enforces those rules server-side, so you don't need to re-check them client-side.
 - **Example** (turn evidence into a claim):
@@ -155,7 +201,7 @@ Build against the HTTP API above, not against `backend/app/` directly — it's t
   curl -X POST localhost:8000/tools/add_claim -H "Content-Type: application/json" \
     -d '{"content":{"text":"seats too narrow"},"evidence_ids":["EVD-001"],"created_by":"agent:researcher"}'
   ```
-- Tests in `backend/tests/test_graph.py` double as runnable examples of every tool's expected inputs/outputs.
+- Tests in `backend/tests/test_graph.py` and `test_api.py` double as runnable examples of every tool's expected inputs/outputs.
 
 ## 7. Repo map
 

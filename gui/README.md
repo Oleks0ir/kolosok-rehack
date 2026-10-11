@@ -85,6 +85,14 @@ A PM decision shows **re-review** when what it rests on changed afterwards: an e
 | 4b. Audit timeline | Who / when / what / why for every node, filters (who, type, selected node's chain), edits list what they made stale; approvals flagged "re-review" when counter-evidence arrives later | ✅ done |
 | 5. Demo polish | Requirement scores in the graph once scoring exists (agent-loop open problem #1), demo script, screenshots as fallback | planned |
 
-Known limits: the graph only auto-refreshes during an agent run (use **Refresh** after
-changes made elsewhere); layout is deterministic columns, fine for tens of nodes, crowded for
-hundreds; the agent's API base is hardcoded to `localhost:8000`.
+Known limits:
+- The graph only auto-refreshes during an agent run (use **Refresh** after changes made
+  elsewhere, e.g. by a teammate's script).
+- Layout is deterministic columns: fine for tens of nodes, crowded past ~100. New nodes land in
+  their column, not where they were dropped.
+- Scores can't be created by hand and aren't shown yet — blocked on a scoring formula.
+- The agent's API base is hardcoded to `localhost:8000`, so "Run agent" only works when the
+  backend listens there.
+- Phone width was checked down to 600px only (headless Edge can't go narrower).
+- UI flows were verified with throwaway puppeteer scripts that aren't in the repo (they'd need
+  Node packages the team hasn't agreed on); re-test by hand after GUI changes.
