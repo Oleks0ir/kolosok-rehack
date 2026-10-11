@@ -10,6 +10,7 @@ the graph in the browser console for debugging.
 |---|---|
 | `index.html`, `style.css` | Layout: top bar, legend, graph canvas, detail panel |
 | `app.js` | Loads the graph, renders it, detail panel, PM actions |
+| `DESIGN.md` | **Design language** ("M stripes as flow"): colors, type, stripes, motion. New pages follow it |
 | `start.js`, `start.css` | Start screen: choices drawn as M stripes on spring-animated Sankey curves. Uses BMW Type Next if installed or put in `gui/fonts/` (gitignored, licensed), else the system font |
 | `layout.js` | Column-per-stage layout (Source → Evidence → Claim → Requirement → Score). Self-check: `node gui/layout.test.mjs` |
 
