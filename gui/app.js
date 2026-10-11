@@ -18,7 +18,9 @@ let linking = null; // {from, to}: connect `from` as a new input of `to`
 let focusMode = true;
 let focusId = null;
 let showOld = false; // old versions are hidden unless something current still builds on them
+let showDead = false; // dead ends (rejected, and the branch that only led there) are hidden unless asked for
 let drawnSig = ""; // which nodes are drawn: refit the view only when that changes
+let lastRun = new Set(); // ids the last agent run wrote (from its log): drawn as NEW until the next run
 let sideTab = "inbox";
 
 const store = {
@@ -30,7 +32,7 @@ const isBrief = (n) => n.type === "Note" && n.content?.kind === "brief";
 
 const token = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 const INK = token("--ink"), PAPER = token("--paper"), MUTED = token("--muted"), GHOST = token("--ghost");
-const M_LIGHT = token("--m-light"), M_RED = token("--m-red");
+const M_LIGHT = token("--m-light"), M_DARK = token("--m-dark"), M_RED = token("--m-red");
 
 // Nodes are ink-on-paper cards (DESIGN.md), drawn as SVG images: cytoscape labels can't mix an
 // uppercase type line with a 2-line title. Edges stay in cytoscape (for chain lookups) but are
@@ -101,7 +103,33 @@ function derive(nodes, edges) {
   }
   for (const n of nodes) if (n.replaces) supersededBy[n.replaces] = n.id;
   const brief = nodes.filter((n) => isBrief(n) && !supersededBy[n.id]).at(-1) ?? null;
-  return { byId, decisionsFor, supersededBy, inputs, dependents, brief };
+  return { byId, decisionsFor, supersededBy, inputs, dependents, brief,
+    dead: deadEnds(nodes, { byId, decisionsFor, supersededBy, inputs, dependents }) };
+}
+
+/** Dead ends: what the PM rejected, what rests only on rejected nodes, and the branch that only
+ *  led to them (a claim whose only requirement was rejected). A question or challenge aimed at a
+ *  node doesn't keep it alive or kill it; Sources, approved nodes and old versions never die. */
+function deadEnds(nodes, d) {
+  const verdict = (id) => (d.decisionsFor[id] || []).at(-1)?.content?.verdict;
+  const side = (id) => ["Question", "Note"].includes(d.byId[id]?.type);
+  const counts = (n) => n && n.type !== "Source" && n.type !== "Decision" && !isBrief(n) && !d.supersededBy[n.id];
+  const live = nodes.filter((n) => counts(n) && verdict(n.id) !== "approve");
+  const dead = new Set(live.filter((n) => verdict(n.id) === "reject").map((n) => n.id));
+  for (let changed = true; changed;) {
+    changed = false;
+    for (const n of live) {
+      if (dead.has(n.id)) continue;
+      const ins = (d.inputs[n.id] || []).map((e) => e.to_id).filter((id) => counts(d.byId[id]));
+      const outs = (d.dependents[n.id] || []).filter((e) => counts(d.byId[e.from_id])
+        && (side(n.id) || (["derived_from", "supports"].includes(e.relation) && !side(e.from_id))));
+      if ((ins.length && ins.every((id) => dead.has(id))) || (outs.length && outs.every((e) => dead.has(e.from_id)))) {
+        dead.add(n.id);
+        changed = true;
+      }
+    }
+  }
+  return dead;
 }
 
 const latestOf = (id) => { while (view.supersededBy[id]) id = view.supersededBy[id]; return id; };
@@ -151,6 +179,7 @@ function visibleNodes() {
     ns = ns.filter((n) => !view.supersededBy[n.id] || n.id === focusId
       || (view.dependents[n.id] || []).some((e) => !view.supersededBy[e.from_id]));
   }
+  if (!showDead) ns = ns.filter((n) => !view.dead.has(n.id) || n.id === focusId || n.id === selected);
   if (focusId && view.byId[focusId]) {
     const chain = chainIds(focusId);
     ns = ns.filter((n) => chain.has(n.id));
@@ -230,13 +259,18 @@ function cardState(n) {
   const verdict = verdictOf(n.id);
   const waiting = waitingOn(n);
   const old = Boolean(view.supersededBy[n.id]);
-  const tag = old ? "old version" : n.status === "stale" ? "stale" : waiting === "pm" ? "needs you"
-    : waiting === "agent" ? "agent next" : verdict ? { approve: "approved", reject: "rejected", postpone: "postponed" }[verdict] : "";
+  const dead = view.dead.has(n.id);
+  const finished = verdict === "approve" && n.type === "Requirement"; // an approved requirement ends its chain
+  const fresh = lastRun.has(n.id) && !old && n.status !== "stale" && !dead;
+  const tag = old ? "old version" : n.status === "stale" ? "stale" : verdict === "reject" ? "rejected" : dead ? "dead end"
+    : waiting === "pm" ? "needs you" : waiting === "agent" ? "agent next" : finished ? "finished"
+    : verdict ? { approve: "approved", postpone: "postponed" }[verdict] : fresh ? "new" : "";
   return {
     tag,
-    rule: old || verdict === "reject" ? GHOST : n.status === "stale" ? M_RED : INK,
-    dashed: verdict === "postpone",
-    muted: old || verdict === "reject",
+    fresh, // written by the last agent run: the M stripes as its top rule
+    rule: old || dead ? GHOST : n.status === "stale" ? M_RED : INK,
+    dashed: verdict === "postpone" || (dead && verdict !== "reject"),
+    muted: old || dead,
     dark: verdict === "approve",
   };
 }
@@ -256,7 +290,8 @@ function card(n, on) {
   const x = (s) => esc(s);
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_W}" height="${CARD_H}" viewBox="0 0 ${CARD_W} ${CARD_H}">
     <rect width="${CARD_W}" height="${CARD_H}" fill="${bg}"/>
-    <line x1="0" y1="1" x2="${CARD_W}" y2="1" stroke="${dark ? INK : s.rule}" stroke-width="${s.dashed ? 2 : 3}" ${s.dashed && !dark ? `stroke-dasharray="6 4"` : ""}/>
+    ${s.fresh ? [M_LIGHT, M_DARK, M_RED].map((c, i) => `<rect y="${i * 3}" width="${CARD_W}" height="3" fill="${c}"/>`).join("")
+      : `<line x1="0" y1="1" x2="${CARD_W}" y2="1" stroke="${dark ? INK : s.rule}" stroke-width="${s.dashed ? 2 : 3}" ${s.dashed && !dark ? `stroke-dasharray="6 4"` : ""}/>`}
     <text x="10" y="22" font-family="${FONT}" font-size="11" font-weight="700" letter-spacing="0.9" fill="${sub}">${x(head)}</text>
     ${s.tag ? `<text x="${CARD_W - 10}" y="22" text-anchor="end" font-family="${FONT}" font-size="11" font-weight="700" letter-spacing="0.9" fill="${tagColor}">${x(s.tag.toUpperCase())}</text>` : ""}
     ${lines.map((l, i) => `<text x="10" y="${48 + i * 22}" font-family="${FONT}" font-size="17.5" fill="${fg}" ${s.muted && !dark && verdictOf(n.id) === "reject" ? `text-decoration="line-through"` : ""}>${x(l)}</text>`).join("")}
@@ -345,10 +380,16 @@ function fitView() {
   cy.resize();
   cy.fit(undefined, 28);
   if (cy.zoom() > 1) { cy.zoom(1); cy.center(); } // a 2-node graph shouldn't fill the screen
+  else if (focusId && cy.zoom() < 0.7) { // a long chain stays readable: show the selected node, drag for the rest
+    cy.zoom(0.7);
+    const n = cy.getElementById(selected || focusId);
+    n.length ? cy.center(n) : cy.center();
+  }
 }
 
 function renderFocusbar(count) {
-  const old = `<label><input type="checkbox" id="showOld" ${showOld ? "checked" : ""}> show old versions</label>`;
+  const old = `<label><input type="checkbox" id="showOld" ${showOld ? "checked" : ""}> show old versions</label>`
+    + `<label><input type="checkbox" id="showDead" ${showDead ? "checked" : ""}> show dead ends (${view.dead.size})</label>`;
   $("#focusbar").innerHTML = focusId
     ? `<span>Chain of <b>${esc(focusId)}</b>: what it's built on and what's built on it (${count} nodes)</span>
        <button type="button" data-focus="off">Show whole graph</button>${old}`
@@ -365,8 +406,9 @@ function renderStats() {
     `${count((n) => n.type === "Requirement" && !view.supersededBy[n.id])} requirements`,
     `${decided} decided`,
     `${count((n) => n.status === "stale" && !view.supersededBy[n.id])} stale`,
-    `${count((n) => waitingOn(n) === "pm")} questions for you`,
-    `${count((n) => waitingOn(n) === "agent")} waiting for the agent`,
+    `${count((n) => waitingOn(n) === "pm" && !view.dead.has(n.id))} questions for you`,
+    `${count((n) => waitingOn(n) === "agent" && !view.dead.has(n.id))} waiting for the agent`,
+    `${view.dead.size} dead ends`,
   ].join(" · ");
 }
 
@@ -388,6 +430,7 @@ function renderJump() {
 
 function inboxGroups() {
   const live = graph.nodes.filter((n) => !view.supersededBy[n.id] && !isBrief(n) && n.type !== "Decision");
+  const open = live.filter((n) => !view.dead.has(n.id)); // a dead end needs nothing from anyone
   const seen = new Date(lastSeen || 0);
   const broke = (n) => {
     const b = brokenBy(n.id);
@@ -395,14 +438,14 @@ function inboxGroups() {
   };
   return [
     { key: "asks", title: "The agent asks you", hint: "Answer so it can continue.",
-      items: live.filter((n) => waitingOn(n) === "pm") },
+      items: open.filter((n) => waitingOn(n) === "pm") },
     { key: "broken", title: "Broken by an edit", hint: "Built on something that changed. The agent redoes them on its next run.",
       items: live.filter((n) => n.status === "stale"), why: broke,
       action: { label: "Let the agent redo these", run: runAgent, primary: true } },
     { key: "decide", title: "Waiting for your decision", hint: "Proposed requirements: approve, reject or postpone.",
-      items: live.filter((n) => n.type === "Requirement" && n.status !== "stale" && !verdictOf(n.id)) },
+      items: open.filter((n) => n.type === "Requirement" && n.status !== "stale" && !verdictOf(n.id)) },
     { key: "agent", title: "Waiting for the agent", hint: "Your requests; handled first on the next run.",
-      items: live.filter((n) => waitingOn(n) === "agent"), action: { label: "Run agent", run: runAgent } },
+      items: open.filter((n) => waitingOn(n) === "agent"), action: { label: "Run agent", run: runAgent } },
     { key: "new", title: "New since your last visit",
       items: live.filter((n) => !n.created_by.startsWith("PM:") && new Date(n.timestamp) > seen),
       why: (n) => esc(n.rationale ? short(n.rationale, 90) : ""), action: { label: "Mark all as seen", run: markSeen } },
@@ -857,7 +900,7 @@ function openDraft(type, inputs = [], { relation = "derived_from", request = nul
       ${request ? `<span class="pill awaiting">request to the agent: ${esc(REQUESTS[request])}</span>` : ""}</h2>
     <p class="meta">${request ? "The next agent run handles this before anything else. " : ""}
       ${NO_INPUTS.has(type) ? "Inputs are optional." : "Needs at least one input."}
-      Click nodes in the graph to add or remove inputs. It appears in the ${esc(type)} column.</p>
+      Click nodes in the graph to add or remove inputs. It appears right after what it is built on.</p>
     <div class="actions">
       <label for="draftText">Text</label>
       <textarea id="draftText" rows="3">${esc(text)}</textarea>
@@ -1001,6 +1044,7 @@ function showAgent(st) {
     : st.exit_code === 0 ? "last run finished" : `last run failed (exit ${st.exit_code}), see log`;
   $("#agentStatus").textContent = `Agent: ${state} · ${st.llm ? "LLM" : "rule-based (no OPENAI_API_KEY on the backend)"}`;
   $("#agentLog pre").textContent = st.log || "(no output yet)";
+  lastRun = new Set([...(st.log || "").matchAll(/^([A-Z]+-\d+) /gm)].map((m) => m[1])); // one line per written node
 }
 
 async function runAgent() {
@@ -1129,8 +1173,9 @@ $("#focusbar").addEventListener("click", (ev) => {
   if (selected) highlight();
 });
 $("#focusbar").addEventListener("change", (ev) => {
-  if (ev.target.id !== "showOld") return;
-  showOld = ev.target.checked;
+  if (ev.target.id === "showOld") showOld = ev.target.checked;
+  else if (ev.target.id === "showDead") showDead = ev.target.checked;
+  else return;
   renderGraph();
   if (selected) highlight();
 });
@@ -1148,9 +1193,9 @@ try { pm.value = localStorage.getItem("pmName") || ""; } catch { /* storage bloc
 pm.addEventListener("change", () => { try { localStorage.setItem("pmName", pm.value.trim()); } catch { /* ignore */ } });
 
 selected = decodeURIComponent(location.hash.slice(1)) || null;
-guard(load)();
-guard(async () => { // a run may already be going (page reloaded mid-run)
-  const st = await api("/agent/status");
-  showAgent(st);
-  if (st.running) poll();
+guard(async () => { // status first: it says which nodes the last run wrote (NEW) and whether a run is going
+  let st = null;
+  try { st = await api("/agent/status"); showAgent(st); } catch { /* the graph still loads */ }
+  await load();
+  if (st?.running) poll();
 })();

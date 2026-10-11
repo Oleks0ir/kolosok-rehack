@@ -13,7 +13,7 @@ the graph in the browser console for debugging.
 | `app.js` | Loads the graph, renders it, detail panel, PM actions. Nodes are ink-on-paper cards (SVG images in cytoscape); edges are drawn by the flow layer (`#flow`, an SVG under the canvas): ghost lines, and the selected node's chain as the three M stripes, Sankey-style |
 | `DESIGN.md` | **Design language** ("M stripes as flow"): colors, type, stripes, motion. New pages follow it |
 | `start.js`, `start.css` | Start screen: choices drawn as M stripes on spring-animated Sankey curves. Uses BMW Type Next if installed or put in `gui/fonts/` (gitignored, licensed), else the system font |
-| `layout.js` | Column-per-stage layout (Source → Evidence → Claim → Requirement → Score). Self-check: `node gui/layout.test.mjs` |
+| `layout.js` | Chain layout: each node sits one column right of the deepest node it's built on, so the chain grows left to right the way it is stored (a PM question mid-chain stays in the chain). Self-check: `node gui/layout.test.mjs` |
 
 ## The PM's loop
 
@@ -40,6 +40,13 @@ the graph in the browser console for debugging.
   one run at a time). The GUI polls every 1.5 s, adds new nodes as they appear and refits the
   view; the status says whether the run uses the LLM or the rule-based fallback, and
   **Agent log** shows one line per action.
+- **Finished / dead ends:** an approved requirement is **FINISHED** (its chain is done). A rejected
+  node is a **dead end**, and so is what rests only on rejected nodes and the branch that only led
+  there (e.g. the claim and evidence under a rejected duplicate requirement); a question or
+  challenge aimed at a node neither keeps it alive nor kills it. Dead ends are faded, hidden
+  unless **show dead ends** is ticked, and leave the inbox; they stay in the data and the Audit trail.
+- Nodes the **last run** wrote are marked **NEW** (the three M stripes as the card's top rule),
+  read from the run's log; the marks clear when the next run starts.
 - Click a node (or pick it in **Jump to**, keyboard-accessible) to highlight its whole chain —
   everything it is built on and everything built on it — and open its details.
 - `#NODE-ID` in the URL selects that node, so a link like `/ui/#REQ-001` can be shared.
@@ -66,7 +73,7 @@ the graph in the browser console for debugging.
   connecting writes a **new version** of the target with the extra input (`POST /edit` with
   `add_inputs`); the old version and everything built on it turn stale. Connections that would
   create a loop are refused.
-- New nodes land in their type's column, not where they were dropped (the layout is computed).
+- New nodes land one column right of what they're built on, not where they were dropped (the layout is computed).
 
 ### Audit timeline
 
@@ -109,8 +116,8 @@ A PM decision shows **re-review** when what it rests on changed afterwards: an e
 Known limits:
 - The graph only auto-refreshes during an agent run (use **Refresh** after changes made
   elsewhere, e.g. by a teammate's script).
-- Layout is deterministic columns: fine for tens of nodes, crowded past ~100. New nodes land in
-  their column, not where they were dropped.
+- Layout is deterministic columns by chain depth: fine for tens of nodes, crowded past ~100. Long
+  chains get wide; focus mode keeps zoom ≥ 0.7 and centres the selected node (drag to see the rest).
 - Scores can't be created by hand and aren't shown yet — blocked on a scoring formula.
 - The agent's API base is hardcoded to `localhost:8000`, so "Run agent" only works when the
   backend listens there.

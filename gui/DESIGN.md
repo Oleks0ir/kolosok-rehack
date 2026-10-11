@@ -94,7 +94,8 @@ always means "this came from that", the same meaning as an edge in the decision 
 
 ## Graph view (`app.js`)
 
-- **Columns flow left to right** (Source → Evidence → Claim → Requirement), like a Sankey.
+- **Columns flow left to right** in the order the chain was built (each node one column right of
+  what it's built on), like a Sankey.
 - **Every link is a thin `--ghost` S-curve.** The selected node's chain lights up as the three
   stripes. Bundles stack on a card's side in the order they go (no crossings) and narrow when
   many share a side.

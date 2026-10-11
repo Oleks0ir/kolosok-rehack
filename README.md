@@ -158,9 +158,12 @@ set -a; . ./.env; set +a; export OPENAI_MODEL=gpt-6-luna   # PowerShell: see "Ho
 cd backend && python -m uvicorn app.main:app --port 8000
 ```
 
-Demo flow that worked live: PM name → Import `agent-loop/sample_data/demo_feedback.csv` → Run
-agent (5) → click a requirement (chain lights up) → approve with a reason → right-click a claim →
-"Ask the agent to challenge" → Run agent → its honest answer → Audit timeline.
+Demo flow (checked end to end Sun 11:15, empty DB, gpt-6-luna): start screen → **5 Series +
+Europe** (the sample data is 5 Series owners in Germany; other choices make the agent honestly
+refuse) → Demo feedback → name → Start agent (8) → chains grow left to right, marked NEW → click a
+claim → "Ask the agent to dig deeper" → Run agent → its answer grows right of the question (it
+found the dealer row and built a requirement on two claims) → approve with a reason (FINISHED) →
+reject a duplicate (DEAD END, hidden) → Audit trail.
 
 **TODO — ordered for the 10:00 feature freeze / 12:00 submission** (nothing assigned yet):
 
@@ -173,6 +176,9 @@ agent (5) → click a requirement (chain lights up) → approve with a reason �
 | 5 | Demo script + fallback screenshots/video | docs | 6-minute slot; live LLM calls can be slow or fail |
 | 6 | Consolidation: claims across several evidence rows instead of one each | agent-loop prompt (open problem 2) | Requirements with n=1 evidence look weak to judges |
 | 7 | Restrict CORS to the GUI origin | `backend/app/main.py` | Open CORS lets any website start agent runs (spends OpenAI credits) |
+| 8 | ✅ done: nodes written by the last agent run get the M stripes as top rule + a "NEW" tag, cleared when the next run starts | `gui/app.js` (`lastRun`, card drawing) | After "Run agent" the PM sees at a glance what the agent just did |
+| 9 | ✅ done: finished chains (approved requirement → FINISHED) and dead ends (rejected + the branch that only led there: faded, hidden behind "show dead ends", out of the inbox) | `gui/app.js` (`deadEnds`, card drawing) | The PM sees what is settled and what was dropped without losing the audit trail |
+| 10 | The agent can re-use a source row it already used (EVD-004 repeated EVD-002's quote → a duplicate chain) | agent-loop prompt / signals | Duplicate requirements look careless in the demo |
 
 **Known problems** (details in the module READMEs):
 
