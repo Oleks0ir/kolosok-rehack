@@ -124,6 +124,21 @@ Run tests (needs the Postgres container up): `cd backend && pytest`.
 
 API docs once running: http://localhost:8000/docs. Endpoints: `GET /nodes`, `GET /nodes/{id}`, `GET /nodes/{id}/inputs`, `GET /nodes/{id}/dependents`, `POST /tools/{query_data,web_search,add_claim,add_assumption,propose_requirement,score,challenge,ask_pm}`, `POST /decide` (PM only). This is the data-transit contract for the GUI, agent-loop and ingestion modules.
 
+### For teammates building GUI / agent-loop / ingestion
+
+Build against the HTTP API above, not against `backend/app/` directly — it's the one shared contract, so all three modules can be developed independently without colliding on the same Python code.
+
+- **Base URL:** `http://localhost:8000` once the steps above are running. CORS is open (`allow_origins=["*"]`), so a browser-based GUI can call it directly.
+- **Every write goes through one of the `/tools/*` endpoints or `/decide`** — there is no other way to write to the graph, by design (see `VISION.md` → "Write rules").
+- **Errors:** `400` with a `{"detail": "..."}` body means a rule was rejected (missing required input, input id doesn't exist, non-PM caller on `/decide`). `404` means a `GET` asked for a node id that doesn't exist. Anything else is a bug — report it.
+- **Node types, edge relations, and which tool writes what** are specified in `VISION.md` → "Data model" and "Agent tools"; the API enforces those rules server-side, so you don't need to re-check them client-side.
+- **Example** (turn evidence into a claim):
+  ```bash
+  curl -X POST localhost:8000/tools/add_claim -H "Content-Type: application/json" \
+    -d '{"content":{"text":"seats too narrow"},"evidence_ids":["EVD-001"],"created_by":"agent:researcher"}'
+  ```
+- Tests in `backend/tests/test_graph.py` double as runnable examples of every tool's expected inputs/outputs.
+
 ## 7. Repo map
 
 | Path | Purpose |
