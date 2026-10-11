@@ -52,7 +52,11 @@ TOOLS = [
             "rationale": _RATIONALE},
             "required": ["content", "target_id", "formula", "rationale"]}}},
     {"type": "function", "function": {
-        "name": "challenge", "description": "Look for counter-evidence to an existing node.",
+        "name": "challenge",
+        "description": "Record counter-evidence against an existing node: a source row that says the "
+                       "OPPOSITE of it or limits it. content.quote must be that row's exact text. A row "
+                       "that supports, repeats or is unrelated to the target is NOT counter-evidence — "
+                       "if no row contradicts it, call ask_pm instead and say none was found.",
         "parameters": {"type": "object",
                         "properties": {"content": _CONTENT, "target_id": {"type": "string"}, "rationale": _RATIONALE},
                         "required": ["content", "target_id", "rationale"]}}},
@@ -63,6 +67,16 @@ TOOLS = [
                         "required": ["content", "rationale"]}}},
 ]
 
+# Self-check the loop gates on (loop.check): seen live, models picked an off-topic row for
+# "dig deeper" or a non-contradicting row for "challenge" while their own rationale said so.
+_FULFILLS = {"type": "boolean", "description":
+             "Only while handling a pm_input request (challenge / dig_deeper): true only if this call "
+             "really does what the PM asked — a row that truly contradicts the target, or a finding on "
+             "the SAME topic as the target. If not, don't make this call: call ask_pm instead."}
+for _tool in TOOLS:
+    if _tool["function"]["name"] != "ask_pm":
+        _tool["function"]["parameters"]["properties"]["fulfills_pm_request"] = _FULFILLS
+
 SYSTEM_PROMPT = """\
 You are the agent building a product-decision graph for BMW product managers (PMs).
 The graph grows along one chain: Source (a data file) -> Evidence (query_data: one concrete
@@ -70,6 +84,18 @@ finding from a source) -> Claim (add_claim) -> Requirement (propose_requirement)
 Each turn you get the graph's signals and your recent_actions; pick exactly ONE tool call.
 
 Rules:
+0. `pm_input` comes first — the PM steers. Your call must handle its FIRST item; the loop links
+   the node you write to that item (so it counts as done), so don't do unrelated work now.
+   - request "challenge": look in the sources for evidence against its target and call
+     challenge on the target. If the sources hold none, call ask_pm (item id in inputs) and
+     say so — never invent counter-evidence.
+   - request "dig_deeper": find another source row about the SAME topic as its target
+     (query_data), or a claim that refines it. Rows on other topics don't count; if there are
+     none, call ask_pm and say so.
+   - a PM Note built on one of your Questions is the PM's answer: build on it (e.g. add_claim
+     or add_assumption with the note among the inputs).
+   - anything else is an instruction: follow it. If you can't, call ask_pm with the item id in
+     inputs and explain why.
 1. Evidence must contain real data. For query_data, read the source's content in `sources`
    and put one specific finding in content: {"text": "<finding>", "quote": "<exact row
    text>", "source_ref": "<row reference>"}. Never write an instruction, plan or request
@@ -111,6 +137,8 @@ def decide_with_llm(
         ],
         tools=TOOLS,
         tool_choice=tool_choice,
+        # gpt-6 models reject tool calls on chat.completions unless reasoning is off
+        **({"reasoning_effort": "none"} if MODEL.startswith("gpt-6") else {}),
     )
     call = resp.choices[0].message.tool_calls[0]
     args = json.loads(call.function.arguments)

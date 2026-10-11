@@ -68,6 +68,8 @@ main { display: grid; grid-template-columns: 1fr 400px; min-height: 0; position:
 .pill.Question, .pill.Note { background: var(--Question); }
 .pill.approve { background: #dcfce7; color: var(--ok); } .pill.reject { background: #fee2e2; color: var(--bad); }
 .pill.postpone { background: #fef9c3; color: var(--wait); } .pill.stale { background: #ffedd5; color: var(--stale); }
+.pill.awaiting { background: #ede9fe; color: #7c3aed; }
+.sw.awaiting { border: 3px double #7c3aed; }
 blockquote { margin: 6px 0; padding: 4px 10px; border-left: 3px solid var(--line); color: #334155; }
 pre.json { white-space: pre-wrap; word-break: break-word; background: var(--bg); padding: 8px; border-radius: 6px; font-size: 12px; max-height: 240px; overflow: auto; }
 

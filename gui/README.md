@@ -47,6 +47,17 @@ the graph in the browser console for debugging.
   `add_inputs`); the old version and everything built on it turn stale. Connections that would
   create a loop are refused.
 - New nodes land in their type's column, not where they were dropped (the layout is computed).
+
+### Steering the agent
+
+- **Ask the agent to challenge / dig deeper** on any node (right-click, or the buttons in its
+  detail panel): writes a PM Question with `content.request` built on that node. The next
+  agent run handles PM input before anything else.
+- The agent's own questions show **needs your answer**; **Answer** writes a Note built on the
+  question, which the agent uses on its next run.
+- Purple double border / "waiting" = someone has to act: an open PM request (the agent) or an
+  unanswered agent question (you). The top bar counts both. "Handled by" / "Answered" link to
+  the node that closed it.
 - Esc closes menus and cancels a form.
 
 ## Phase plan
@@ -57,7 +68,8 @@ the graph in the browser console for debugging.
 | 2. PM review | Approve / reject / postpone / edit with reason, stale + re-review flags | ✅ done |
 | 3. Agent control | Import CSV, Run agent (backend starts `agent-loop` as a subprocess), live status + log, auto-refresh while it runs | ✅ done |
 | 3b. Build by hand | Palette drag & drop, right-click menus, new-node form with click-to-pick inputs, connecting nodes (drag onto / menu / panel) as new versions | ✅ done |
-| 4. PM steering + audit | Answering a Question already works as a Note built on it (right-click → "New Note from…"); left: make the agent read those answers and PM "challenge this" / "dig deeper" requests, audit timeline view (who / when / why, chronological) | next |
+| 4. PM steering | "Ask the agent to challenge / dig deeper" (right-click or detail panel), answering agent questions, "waiting for the agent" / "needs your answer" status in graph, panel and stats; the agent handles PM input first (`agent-loop/README.md` → PM steering) | ✅ done |
+| 4b. Audit timeline | Chronological who / when / what / why view, filterable by type and actor | next |
 | 5. Demo polish | Requirement scores in the graph once scoring exists (agent-loop open problem #1), demo script, screenshots as fallback | planned |
 
 Known limits: the graph only auto-refreshes during an agent run (use **Refresh** after

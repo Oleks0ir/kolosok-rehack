@@ -32,6 +32,7 @@ const cy = cytoscape({
     { selector: "node.approve", style: { "border-width": 4, "border-color": "#16a34a" } },
     { selector: "node.reject", style: { "border-width": 4, "border-color": "#dc2626" } },
     { selector: "node.postpone", style: { "border-width": 4, "border-color": "#a16207" } },
+    { selector: "node.awaiting", style: { "border-width": 4, "border-style": "double", "border-color": "#7c3aed" } },
     { selector: "node.picked", style: { "border-width": 5, "border-style": "solid", "border-color": "#2563eb" } },
     { selector: "node:selected", style: { "overlay-color": "#2563eb", "overlay-opacity": 0.15, "overlay-padding": 6 } },
     { selector: "edge", style: {
@@ -113,7 +114,8 @@ function render() {
     group: "nodes",
     data: { id: n.id, type: n.type, label: `${n.id}${n.version > 1 ? ` v${n.version}` : ""}\n${short(summary(n), 70)}` },
     position: pos[n.id],
-    classes: [n.status === "stale" && "stale", view.supersededBy[n.id] && "superseded", verdictOf(n.id)].filter(Boolean).join(" "),
+    classes: [n.status === "stale" && "stale", view.supersededBy[n.id] && "superseded", verdictOf(n.id),
+      waitingOn(n) && "awaiting"].filter(Boolean).join(" "),
   })));
   const isDrawn = (id) => id in pos;
   // arrows follow the chain (input -> derived), except "X supports/contradicts Y", which points at Y
@@ -147,7 +149,8 @@ function renderStats() {
     `${count((n) => n.type === "Requirement" && !view.supersededBy[n.id])} requirements`,
     `${decided} decided`,
     `${count((n) => n.status === "stale" && !view.supersededBy[n.id])} stale`,
-    `${count((n) => n.type === "Question")} questions`,
+    `${count((n) => waitingOn(n) === "pm")} questions for you`,
+    `${count((n) => waitingOn(n) === "agent")} waiting for the agent`,
   ].join(" · ");
 }
 
@@ -213,6 +216,21 @@ function contentHtml(n) {
   return html || `<p class="meta">(empty)</p>`;
 }
 
+/** Who-acts-next line for questions / PM input, plus the ask-the-agent buttons. */
+function steeringHtml(n) {
+  const waiting = waitingOn(n);
+  const request = n.content?.request && REQUESTS[n.content.request];
+  let html = "";
+  if (waiting === "agent") html = `<p><span class="pill awaiting">waiting for the agent</span> ${request ? `request: ${esc(request)}` : ""} — handled on the next agent run.</p>`;
+  else if (waiting === "pm") html = `<p><span class="pill awaiting">needs your answer</span> <button type="button" class="chip" data-answer="${esc(n.id)}">Answer</button></p>`;
+  else if (n.created_by.startsWith("PM:") && ["Question", "Note"].includes(n.type)) html = `<p class="meta">Handled by the agent: ${chip(pmInputDoneBy(n))}</p>`;
+  else if (n.type === "Question") html = `<p class="meta">Answered: ${(view.dependents[n.id] || []).map((e) => chip(e.from_id)).join(" ")}</p>`;
+  if (n.type === "Decision" || view.supersededBy[n.id]) return html;
+  return `${html}<div class="row chips">
+    <button type="button" class="chip" data-request="challenge">Ask the agent to challenge this</button>
+    <button type="button" class="chip" data-request="dig_deeper">Ask the agent to dig deeper</button></div>`;
+}
+
 function showDetail(n) {
   const decisions = view.decisionsFor[n.id] || [];
   const verdict = verdictOf(n.id);
@@ -231,6 +249,7 @@ function showDetail(n) {
     ${newer ? `<p class="warn">Superseded by ${chip(newer)}</p>` : ""}
     ${n.replaces ? `<p class="meta">Previous version: ${chip(n.replaces)}</p>` : ""}
     ${n.status === "stale" && !newer ? `<p class="warn">Something this is built on changed — the agent should redo or confirm it.</p>` : ""}
+    ${steeringHtml(n)}
 
     <h3>Content</h3>${contentHtml(n)}
     ${n.rationale ? `<h3>Why (rationale)</h3><p>${esc(n.rationale)}</p>` : ""}
@@ -304,8 +323,33 @@ const CREATABLE = ["Source", "Evidence", "Claim", "Assumption", "Requirement", "
 const NO_INPUTS = new Set(["Source", "Question", "Note"]); // backend rule: everything else needs inputs
 const NEXT = { // what a PM typically builds on a node of this type (right-click menu)
   Source: ["Evidence"], Evidence: ["Claim"], Claim: ["Requirement", "Assumption"],
-  Assumption: ["Requirement"], Question: ["Note"], Note: ["Claim"],
+  Assumption: ["Requirement"], Note: ["Claim"],
 };
+const REQUESTS = { challenge: "challenge", dig_deeper: "dig deeper" };
+const requestDraft = (id, request) => openDraft("Question", [id], {
+  request,
+  text: request === "challenge"
+    ? `Challenge ${id}: look for evidence against it in the sources.`
+    : `Dig deeper on ${id}: find more, different evidence about it.`,
+});
+
+// The agent-loop's handled() rule, mirrored: a PM Question/Note is done once the agent built
+// on it, or — for "challenge" — once the agent built on its target after it was asked.
+function pmInputDoneBy(n) {
+  const agentDeps = (id) => (view.dependents[id] || []).map((e) => view.byId[e.from_id])
+    .filter((d) => d.created_by.startsWith("agent:"));
+  const own = agentDeps(n.id)[0];
+  if (own || n.content?.request !== "challenge") return own?.id;
+  return (view.inputs[n.id] || []).flatMap((e) => agentDeps(e.to_id))
+    .find((d) => new Date(d.timestamp) > new Date(n.timestamp))?.id;
+}
+
+/** Who has to act: "agent" (open PM input), "pm" (unanswered agent question), else null. */
+function waitingOn(n) {
+  if (!["Question", "Note"].includes(n.type)) return null;
+  if (n.created_by.startsWith("PM:")) return pmInputDoneBy(n) ? null : "agent";
+  return n.type === "Question" && !(view.dependents[n.id] || []).length ? "pm" : null;
+}
 
 function enterMode() {
   hideMenu();
@@ -326,17 +370,20 @@ function markPicked() {
   for (const id of ids) cy.getElementById(id).addClass("picked");
 }
 
-function openDraft(type, inputs = [], relation = "derived_from") {
+// request: "challenge" | "dig_deeper" turns a PM Question into an instruction the agent handles first
+function openDraft(type, inputs = [], { relation = "derived_from", request = null, text = "" } = {}) {
   enterMode();
   linking = null;
-  draft = { type, inputs: [...inputs], relation };
+  draft = { type, inputs: [...inputs], relation, request };
   $("#detail").innerHTML = `
-    <h2>New <span class="pill ${esc(type)}">${esc(type)}</span></h2>
-    <p class="meta">${NO_INPUTS.has(type) ? "Inputs are optional." : "Needs at least one input."}
+    <h2>New <span class="pill ${esc(type)}">${esc(type)}</span>
+      ${request ? `<span class="pill awaiting">request to the agent: ${esc(REQUESTS[request])}</span>` : ""}</h2>
+    <p class="meta">${request ? "The next agent run handles this before anything else. " : ""}
+      ${NO_INPUTS.has(type) ? "Inputs are optional." : "Needs at least one input."}
       Click nodes in the graph to add or remove inputs. It appears in the ${esc(type)} column.</p>
     <div class="actions">
       <label for="draftText">Text</label>
-      <textarea id="draftText" rows="3"></textarea>
+      <textarea id="draftText" rows="3">${esc(text)}</textarea>
       <h3>Built on</h3>
       <div class="chips" id="draftInputs"></div>
       <label>Add input <select id="draftPick">${nodeOptions()}</select></label>
@@ -369,10 +416,11 @@ async function createNode() {
   const text = $("#draftText").value.trim();
   if (!text) throw new Error("Write the node's text first.");
   const created = await api("/nodes", {
-    type: draft.type, content: { text }, inputs: draft.inputs, created_by: pmName(),
-    rationale: $("#reason").value.trim() || null, relation: draft.relation,
+    type: draft.type, content: draft.request ? { text, request: draft.request } : { text },
+    inputs: draft.inputs, created_by: pmName(), rationale: $("#reason").value.trim() || null,
+    relation: draft.relation,
   });
-  toast(`${created.id} created`);
+  toast(draft.request ? `${created.id} created — Run agent to have it handled` : `${created.id} created`);
   draft = null;
   selected = created.id;
   await load();
@@ -444,9 +492,12 @@ function hideMenu() {
 function nodeMenu(id) {
   const n = view.byId[id];
   return [
+    ...(waitingOn(n) === "pm" ? [{ label: `Answer ${id}`, run: () => openDraft("Note", [id]) }] : []),
     ...(NEXT[n.type] || []).map((t) => ({ label: `New ${t} from ${id}`, run: () => openDraft(t, [id]) })),
-    { label: `Supporting evidence for ${id}`, run: () => openDraft("Evidence", [id], "supports") },
-    { label: `Counter-evidence (challenge ${id})`, run: () => openDraft("Evidence", [id], "contradicts") },
+    { label: `Ask the agent to challenge ${id}`, run: () => requestDraft(id, "challenge") },
+    { label: `Ask the agent to dig deeper on ${id}`, run: () => requestDraft(id, "dig_deeper") },
+    { label: `Supporting evidence for ${id}`, run: () => openDraft("Evidence", [id], { relation: "supports" }) },
+    { label: `Counter-evidence for ${id} (by hand)`, run: () => openDraft("Evidence", [id], { relation: "contradicts" }) },
     { label: `Ask a question about ${id}`, run: () => openDraft("Question", [id]) },
     { label: `Add a note to ${id}`, run: () => openDraft("Note", [id]) },
     ...(view.supersededBy[id] ? [] : [{ label: `Connect: add an input to ${id}…`, run: () => openLink(null, id) }]),
@@ -498,6 +549,8 @@ $("#detail").addEventListener("click", guard(async (ev) => {
   if (t.dataset.goto) select(t.dataset.goto);
   else if (t.dataset.verdict) await decide(t.dataset.verdict);
   else if (t.dataset.unpick) togglePick(t.dataset.unpick);
+  else if (t.dataset.request) requestDraft(selected, t.dataset.request);
+  else if (t.dataset.answer) openDraft("Note", [t.dataset.answer]);
   else if (t.id === "saveEdit") await saveEdit();
   else if (t.id === "createNode") await createNode();
   else if (t.id === "doLink") await doLink();

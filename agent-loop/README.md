@@ -83,9 +83,37 @@ performance with representative in-car utterances") and rationales that cite ids
 writes vague requirements ("needs improvement…"), overclaims ("growing customer concern" from a
 single row), and in hybrid mode copied the evidence verbatim into the claim.
 
-**Recommendation:** default to gpt-6-luna in `llm` mode. It needs `reasoning_effort="none"`
-on the `chat.completions.create()` call in `llm.py` (otherwise OpenAI rejects tool calls with
-a 400) — not in the code yet; the evaluation passed it from a throwaway runner.
+**Recommendation:** use gpt-6-luna in `llm` mode: `OPENAI_MODEL=gpt-6-luna` in the env of
+whatever starts the loop (the backend, for GUI runs). `llm.py` sends `reasoning_effort="none"`
+for gpt-6 models, which OpenAI requires for tool calls on chat.completions. The default stays
+gpt-4o-mini until the team switches it.
+
+## PM steering (PM input comes first)
+
+VISION.md: "PM input becomes the agent's next priority." Convention in the graph:
+
+| PM writes (via the GUI) | Meaning |
+|---|---|
+| Question with `content.request = "challenge"`, built on node X | find real counter-evidence against X |
+| Question with `content.request = "dig_deeper"`, built on X | find more evidence on X's topic |
+| Note built on an agent Question | the PM's answer |
+| any other PM Question / Note | an instruction |
+
+- `look()` puts every PM Question/Note the agent hasn't acted on into `pm_input`; Decide must
+  handle the first item before anything else (prompt rule 0, rule-based: `ask_pm`).
+- **Handled** (`handled()`) = an agent node is built on it. `link_pm_input()` adds the item to
+  the new node's inputs deterministically (not left to the LLM). `challenge` takes a single
+  target id, so a challenge request also counts as handled by agent work on its target after
+  it was asked.
+- **Gates** (`check()`, seen necessary live): while a request is first, calls must set
+  `fulfills_pm_request: true` — models otherwise grabbed off-topic rows for "dig deeper" while
+  their own rationale said so. `challenge` must quote a real source row that isn't the
+  target's own row — gpt-4o-mini recorded the claim's own row as counter-evidence, luna
+  recorded "none found". A rejected call lands in history; the model then hands back via
+  `ask_pm` ("no counter-evidence found"), which pauses the run.
+- Live (gpt-6-luna, demo CSV): challenge → honest "none found" question to the PM; dig deeper
+  → one gated off-topic attempt, then an honest question; PM answer Note → `add_assumption`
+  built on it. gpt-4o-mini fabricated on both requests before the gates.
 
 ## Open problems (for whoever picks this up)
 
