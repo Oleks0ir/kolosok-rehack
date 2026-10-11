@@ -13,6 +13,11 @@ from .graph import add_node
 from .models import Node, NodeType, Relation
 
 
+def import_source(content: dict[str, Any], created_by: str, method: Optional[str] = None, rationale: Optional[str] = None) -> Node:
+    """Record one input data file/document as a Source node (used by ingestion)."""
+    return add_node(NodeType.SOURCE, content, [], created_by, method, rationale)
+
+
 def query_data(content: dict[str, Any], source_ids: list[str], created_by: str, method: Optional[str] = None, rationale: Optional[str] = None) -> Node:
     return add_node(NodeType.EVIDENCE, content, source_ids, created_by, method, rationale)
 

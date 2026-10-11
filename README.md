@@ -122,7 +122,21 @@ python -m uvicorn app.main:app --reload --port 8000   # creates tables on startu
 
 Run tests (needs the Postgres container up): `cd backend && pytest`.
 
-API docs once running: http://localhost:8000/docs. Endpoints: `GET /nodes`, `GET /nodes/{id}`, `GET /nodes/{id}/inputs`, `GET /nodes/{id}/dependents`, `POST /tools/{query_data,web_search,add_claim,add_assumption,propose_requirement,score,challenge,ask_pm}`, `POST /decide` (PM only). This is the data-transit contract for the GUI, agent-loop and ingestion modules.
+API docs once running: http://localhost:8000/docs. Endpoints: `GET /nodes`, `GET /nodes/{id}`, `GET /nodes/{id}/inputs`, `GET /nodes/{id}/dependents`, `POST /tools/{import_source,query_data,web_search,add_claim,add_assumption,propose_requirement,score,challenge,ask_pm}`, `POST /decide` (PM only). This is the data-transit contract for the GUI, agent-loop and ingestion modules.
+
+### Agent loop (concept + runnable skeleton)
+
+`agent-loop/README.md` has the design for the Look → Decide → Act → Pause loop from `VISION.md`.
+`agent-loop/loop.py` is a thin, runnable skeleton of it: `decide()` is a stubbed rule-based
+placeholder (clearly marked) for where a real LLM call goes; the rest already talks to the
+real API. Run it with the backend up:
+
+```bash
+cd agent-loop
+python -m venv .venv && .venv/Scripts/activate
+pip install -r requirements.txt
+python loop.py          # or: pytest (tests decide()'s logic without a server)
+```
 
 ### For teammates building GUI / agent-loop / ingestion
 

@@ -24,6 +24,11 @@ def test_source_needs_no_inputs():
     assert node.status == "ok"
 
 
+def test_import_source_tool_creates_source():
+    node = tools.import_source({"file": "G70 feedback.xlsx"}, "tool:ingestion")
+    assert node.type == NodeType.SOURCE
+
+
 def test_claim_requires_inputs():
     with pytest.raises(ValueError):
         add_node(NodeType.CLAIM, {"text": "unmet need"}, [], "agent:researcher")

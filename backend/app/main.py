@@ -114,6 +114,13 @@ class AskPmRequest(BaseModel):
     rationale: Optional[str] = None
 
 
+class ImportSourceRequest(BaseModel):
+    content: dict[str, Any]
+    created_by: str
+    method: Optional[str] = None
+    rationale: Optional[str] = None
+
+
 class DecideRequest(BaseModel):
     content: dict[str, Any]
     target_id: str
@@ -171,6 +178,11 @@ def api_challenge(req: ChallengeRequest):
 def api_ask_pm(req: AskPmRequest):
     """Stop and ask the PM a question; writes a Question node (no inputs required)."""
     return _handle(tools.ask_pm, **req.model_dump())
+
+
+@app.post("/tools/import_source", response_model=Node)
+def api_import_source(req: ImportSourceRequest):
+    return _handle(tools.import_source, **req.model_dump())
 
 
 @app.post("/decide", response_model=Node)
