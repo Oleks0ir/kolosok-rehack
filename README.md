@@ -110,7 +110,19 @@ If you don't see that line, stop and fix Entire before writing more code.
 
 ### How to run
 
-_TBD — add install + start commands as soon as there is runnable code._
+Decision graph API (Phase 1 — Postgres + the `add_node` core + the 8 agent tools from `VISION.md`):
+
+```bash
+docker compose up -d                 # Postgres on localhost:5432
+cd backend
+python -m venv .venv && .venv/Scripts/activate   # (or `source .venv/bin/activate` on Linux/macOS)
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload --port 8000   # creates tables on startup
+```
+
+Run tests (needs the Postgres container up): `cd backend && pytest`.
+
+API docs once running: http://localhost:8000/docs. Endpoints: `GET /nodes`, `GET /nodes/{id}`, `GET /nodes/{id}/inputs`, `GET /nodes/{id}/dependents`, `POST /tools/{query_data,web_search,add_claim,add_assumption,propose_requirement,score,challenge,ask_pm}`, `POST /decide` (PM only). This is the data-transit contract for the GUI, agent-loop and ingestion modules.
 
 ## 7. Repo map
 
