@@ -1,0 +1,175 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4M7B5H21X3HWQE70ATW4W7E",
+  "session_id": "28173898-baa3-4959-acd5-a1ba5403dae0",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T00:56:16.9712881Z",
+  "branch": "dev",
+  "checkpoints_count": 13,
+  "save_step_count": 9,
+  "files_touched": [
+    "README.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "6abcc821910c",
+  "checkpoint_transcript_start": 406,
+  "transcript_lines_at_start": 406,
+  "compact_transcript_start": 77,
+  "token_usage": {
+    "input_tokens": 90,
+    "cache_creation_tokens": 120685,
+    "cache_read_tokens": 3321995,
+    "output_tokens": 17896,
+    "api_call_count": 44
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-ponytail-2026-10-10T13:20:22.1476619Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ponytail"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "cbb156b9ca72",
+      "timestamp": "2026-10-10T13:20:22.1476619Z",
+      "native": {
+        "command": "/ponytail"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ponytail",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "prompt-skill-claude-code-ponytail-audit-2026-10-10T13:20:51.5195801Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ponytail-audit"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "3c767b59f4f7",
+      "timestamp": "2026-10-10T13:20:51.5195801Z",
+      "native": {
+        "command": "/ponytail-audit"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ponytail-audit",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "prompt-skill-claude-code-ponytail-2026-10-10T14:08:29.2216589Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ponytail"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "05a784ac3b02",
+      "timestamp": "2026-10-10T14:08:29.2216589Z",
+      "native": {
+        "command": "/ponytail"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ponytail",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 23
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T00:56:16.8717224Z",
+    "agent_lines": 0,
+    "agent_removed": 3,
+    "human_added": 651,
+    "human_modified": 123,
+    "human_removed": 0,
+    "total_committed": 774,
+    "total_lines_changed": 777,
+    "agent_percentage": 0.3861003861003861,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 123,
+      "agent_lines_removed": 123
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 123,
+      "agent_lines_removed": 123
+    },
+    {
+      "checkpoint_number": 5,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 123,
+      "agent_lines_removed": 123
+    },
+    {
+      "checkpoint_number": 6,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 7,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 8,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 9,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 123,
+      "agent_lines_removed": 123
+    }
+  ]
+}

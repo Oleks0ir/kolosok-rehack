@@ -1,0 +1,41 @@
+now push the repo
+
+---
+
+/ponytail full
+
+---
+
+1. 
+
+<pasted_content id="1096">
+Your mission
+
+Build an AI-powered application that ingests heterogeneous data, derives customer requirements for a vehicle, prioritizes them, and puts a product manager in the loop at the decisions that matter.
+
+Your app should be able to:
+•    Ingest the provided data and enrich it with structured knowledge from the web.
+•    Extract signals such as recurring complaints, unmet needs, competitor advantages and market trends, each linked to its sources.
+•    Derive requirements from those findings: clear, actionable, customer-facing and realistic.
+•    Prioritize them with a logic you define and can explain.
+•    Involve the PM to approve, reject, edit or challenge requirements and their rationale and evidence behind them. 
+•    Record everything in an audit trail (is a complete, chronological record of all actions, changes, and access events within a system or data environment).
+</pasted_content id="1096">
+
+How we do it exactly - I will discuss in another branch. For now do not concentrate on it.
+
+---
+
+For now we test the GUI. What I want is a split screen. Realize it through a webapp. A screen split in two horizontaly. For now the top part remains free and not modified. The sizes can be changed by dragging the separation. The buttom part is what we will try to do now. The buttom part is the flowchart editor. I want the following to be possible: I want you to create a toolbox on the left out of which I can drag and drop "tools" into the working area. Make 3  "tools": a box with 1 in and one out; 2 ins and one out; input: 1 out and a text field in it for integers. Inspire yourself from how Simulink displays operators, or blender approach. Add a button "build workflow" in the right left corner in the flowchart part of screen. When this button is pressed it should compile it into a que datastruct called "tasks" datastruct inside a que should be a 3-tupple ((from_a, from_b), what, flag). For now set flag always to 1, "what" should correspond to the id of the tool. from_a, from_b is relevant to the other list that should be generated when pressing "build workflow". An indexed list called resps indicates the outputs of the tools starting from the input and following. Ask clarifying questions
+
+---
+
+winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements
+
+---
+
+How about you just give me commands that I should run through terminal and Ill do it manually
+
+---
+
+Dont use shell yourself. Give me what I should execute myself
