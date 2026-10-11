@@ -1,0 +1,39 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4M7B5H21X3HWQE70ATW4W7E",
+  "strategy": "manual-commit",
+  "branch": "dev",
+  "checkpoints_count": 5,
+  "files_touched": [
+    ".env.example",
+    "README.md",
+    "backend/app/__init__.py",
+    "backend/app/db.py",
+    "backend/app/graph.py",
+    "backend/app/main.py",
+    "backend/app/models.py",
+    "backend/app/schema.sql",
+    "backend/app/tools.py",
+    "backend/pytest.ini",
+    "backend/requirements.txt",
+    "backend/tests/__init__.py",
+    "backend/tests/test_graph.py",
+    "docker-compose.yml"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 160,
+    "cache_creation_tokens": 131338,
+    "cache_read_tokens": 6699201,
+    "output_tokens": 40984,
+    "api_call_count": 80
+  }
+}
