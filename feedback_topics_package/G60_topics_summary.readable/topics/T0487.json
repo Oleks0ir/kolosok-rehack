@@ -1,0 +1,404 @@
+{
+  "topic_id": "T0487",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.2,
+      "ICE": 0.8
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The positive example still describes disappointing electric range, so the positive signal is weak and may reflect broader review context not shown in the fragment.",
+        "evidence_fragment_ids": [
+          "F003590"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The negative review focuses on the owner having barely driven the vehicle and finding the features difficult to learn.",
+        "evidence_fragment_ids": [
+          "F006395"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.6,
+        "summary": "Undetermined reviews mention barely using or driving the vehicle, poor cleaning when spraying water, and a vague statement that it \"sucks\" without enough context to classify sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F005847",
+          "F007703",
+          "F010370"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001108,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.000734,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-1287",
+      "G60-2087",
+      "G60-2282",
+      "G60-2758",
+      "G60-3714"
+    ],
+    "summary": "This topic combines unrelated complaints and remarks about lower-than-expected driving range, difficulty learning vehicle functions, infrequent use, and poor spray or cleaning performance.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Low range, learning difficulty, and weak spray cleaning",
+    "source_title": "barely / sucks / spray",
+    "keywords": [
+      {
+        "term": "barely",
+        "weight": 0.400191
+      },
+      {
+        "term": "sucks",
+        "weight": 0.339402
+      },
+      {
+        "term": "barely drive",
+        "weight": 0.2196
+      },
+      {
+        "term": "spray",
+        "weight": 0.112665
+      },
+      {
+        "term": "anymore",
+        "weight": 0.099763
+      },
+      {
+        "term": "water",
+        "weight": 0.097366
+      },
+      {
+        "term": "technically",
+        "weight": 0.093857
+      },
+      {
+        "term": "place",
+        "weight": 0.086838
+      },
+      {
+        "term": "miles",
+        "weight": 0.084308
+      },
+      {
+        "term": "drive",
+        "weight": 0.082736
+      },
+      {
+        "term": "learning",
+        "weight": 0.072601
+      },
+      {
+        "term": "difficult",
+        "weight": 0.06109
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003590",
+        "review_id": "G60-1287",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i barely get like 230 miles, which really sucks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006395",
+        "review_id": "G60-2282",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported he has barely driven the vehicle yet and that learning everything is difficult because he is technically challenged",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005847",
+        "review_id": "G60-2087",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "really have not used it, and also stated they barely drive anymore",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007703",
+        "review_id": "G60-2758",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it barely cleans when you spray water and it just drips all over the place",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010370",
+        "review_id": "G60-3714",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it sucks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes unrelated subjects, including EV range, user learning difficulty, usage frequency, and spray or cleaning behavior.",
+      "Most examples are undetermined or too short to support a clear sentiment interpretation.",
+      "The positive example contains negative wording, so fragment-level wording does not clearly align with the assigned review sentiment."
+    ]
+  }
+}

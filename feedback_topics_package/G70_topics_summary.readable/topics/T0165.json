@@ -1,0 +1,668 @@
+{
+  "topic_id": "T0165",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.125,
+      "KR": 0.0625,
+      "US": 0.8125
+    },
+    "engine_type": {
+      "BEVE": 0.3125,
+      "ICE": 0.625,
+      "PHEV": 0.0625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.0625,
+        "summary": "One negative review says a problem has gone away now, but the fragment is too brief to identify the underlying issue clearly.",
+        "evidence_fragment_ids": [
+          "F004683"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 15,
+        "share": 0.9375,
+        "summary": "Undetermined fragments mention unrelated contexts such as dealer visits, troubleshooting, missing features, salesperson interactions, prior vehicles, and wording where “gone” does not express a clear sentiment about the G70.",
+        "evidence_fragment_ids": [
+          "F005155",
+          "F001351",
+          "F004998",
+          "F005056",
+          "F007663",
+          "F005265",
+          "F000340",
+          "F002265",
+          "F006533",
+          "F006983",
+          "F000935",
+          "F000352",
+          "F008424",
+          "F009147",
+          "F000591"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 16,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.004,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0625,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9375
+          },
+          "negative_rate": 0.0625,
+          "negative_or_mixed_rate": 0.0625,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.0625
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003428,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.923077
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.076923
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.004429,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003894,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.066667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002875,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.142857
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0146",
+      "G70-0149",
+      "G70-0223",
+      "G70-0350",
+      "G70-0506",
+      "G70-0840",
+      "G70-1707",
+      "G70-1820",
+      "G70-1840",
+      "G70-1881",
+      "G70-1910",
+      "G70-2349",
+      "G70-2502",
+      "G70-2756",
+      "G70-3032",
+      "G70-3285"
+    ],
+    "summary": "This topic is mostly a loose cluster of fragments using words like “gone,” “salesperson,” and “Alpina,” with only limited evidence about an actual vehicle issue or customer evaluation.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Feature gone and salesperson mentions",
+    "source_title": "gone / salesperson / alpina",
+    "keywords": [
+      {
+        "term": "gone",
+        "weight": 0.422826
+      },
+      {
+        "term": "stated gone",
+        "weight": 0.123136
+      },
+      {
+        "term": "salesperson",
+        "weight": 0.106411
+      },
+      {
+        "term": "gone dealer",
+        "weight": 0.102281
+      },
+      {
+        "term": "alpina",
+        "weight": 0.098861
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.055695
+      },
+      {
+        "term": "stated",
+        "weight": 0.054776
+      },
+      {
+        "term": "dealer",
+        "weight": 0.048891
+      },
+      {
+        "term": "troubleshooting",
+        "weight": 0.046349
+      },
+      {
+        "term": "satisfaction",
+        "weight": 0.045979
+      },
+      {
+        "term": "object",
+        "weight": 0.044793
+      },
+      {
+        "term": "reached",
+        "weight": 0.043635
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004683",
+        "review_id": "G70-1707",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the problem is gone now",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005155",
+        "review_id": "G70-1881",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i've gone through the 7 series over the years with e38, e65, e66, f01, another f01, alpina, and now g70,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001351",
+        "review_id": "G70-0506",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has not gone to the dealer about this yet",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004998",
+        "review_id": "G70-1820",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has gone over 40 years without an accident",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005056",
+        "review_id": "G70-1840",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "has not gone to the dealer yet",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007663",
+        "review_id": "G70-2756",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my satisfaction has gone up even more now",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005265",
+        "review_id": "G70-1910",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "weve gone through months of troubleshooting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000340",
+        "review_id": "G70-0146",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they had just gone out of their lane about 20 minutes earlier and did not feel any vibration",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002265",
+        "review_id": "G70-0840",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has gone to the dealership Genius multiple times and that the Genius adjusts something in the myBMW app to get it working again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006533",
+        "review_id": "G70-2349",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "that side of the vehicle had gone over an object",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006983",
+        "review_id": "G70-2502",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "for some reason that feature is gone now, and oddly the salesperson said they had never heard of it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000935",
+        "review_id": "G70-0350",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the traditional change lever is gone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000352",
+        "review_id": "G70-0149",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "It does a pop/clunk sound twice and then it is gone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008424",
+        "review_id": "G70-3032",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his salesperson had also explained this and several other details about the range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009147",
+        "review_id": "G70-3285",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he disliked the Alpina because it was hard to get in and out,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000591",
+        "review_id": "G70-0223",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i reached out to that salesperson",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes several unrelated subjects tied together mainly by repeated words rather than a single coherent customer issue.",
+      "Most fragments are assigned undetermined sentiment, so the evidence is insufficient to draw a clear conclusion about customer satisfaction with a specific aspect.",
+      "Some fragments refer to other vehicles, dealership interactions, or incidental wording rather than a direct evaluation of the G70."
+    ]
+  }
+}

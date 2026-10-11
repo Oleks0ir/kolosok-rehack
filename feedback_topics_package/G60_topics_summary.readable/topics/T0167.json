@@ -1,0 +1,594 @@
+{
+  "topic_id": "T0167",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.117647,
+      "US": 0.882353
+    },
+    "engine_type": {
+      "BEVE": 0.470588,
+      "ICE": 0.529412
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.117647,
+        "summary": "Positive reviews praise the switch from run-flat tires to regular tires and describe prior run-flat experiences unfavorably.",
+        "evidence_fragment_ids": [
+          "F000467",
+          "F002068"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.294118,
+        "summary": "Negative reviews focus mostly on software, app, charging, and general vehicle problems rather than a consistent complaint about run-flat tires themselves.",
+        "evidence_fragment_ids": [
+          "F003409",
+          "F008473",
+          "F004420",
+          "F006399",
+          "F006578"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.588235,
+        "summary": "Undetermined reviews mention the absence of run-flats, lack of a spare, product availability, and several unrelated uses of the word \"run\" without a clear evaluative stance.",
+        "evidence_fragment_ids": [
+          "F008338",
+          "F003880",
+          "F005835",
+          "F008295",
+          "F001134",
+          "F010256",
+          "F000782",
+          "F009060",
+          "F003164"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 17,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00425,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.117647,
+            "negative": 0.294118,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.588235
+          },
+          "negative_rate": 0.294118,
+          "negative_or_mixed_rate": 0.294118,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.411765
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 15,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004155,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.533333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.466667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.8,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003984,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.222222,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 19,
+          "topic_prevalence_in_source_segment": 0.052632,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.005507,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.8,
+          "known_sentiment_share": 0.571429
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003966,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.375
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0179",
+      "G60-0274",
+      "G60-0401",
+      "G60-0735",
+      "G60-1136",
+      "G60-1219",
+      "G60-1397",
+      "G60-1539",
+      "G60-1579",
+      "G60-2081",
+      "G60-2285",
+      "G60-2351",
+      "G60-2977",
+      "G60-2991",
+      "G60-3039",
+      "G60-3245",
+      "G60-3685"
+    ],
+    "summary": "This topic mainly combines reactions to BMW using regular tires instead of run-flats with a separate set of comments about software, app, and reliability problems that happen to use the word \"run.\"",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Run-flat tires and related issues",
+    "source_title": "run / flats / problem",
+    "keywords": [
+      {
+        "term": "run",
+        "weight": 0.417748
+      },
+      {
+        "term": "flats",
+        "weight": 0.16417
+      },
+      {
+        "term": "run flats",
+        "weight": 0.16417
+      },
+      {
+        "term": "problem",
+        "weight": 0.085551
+      },
+      {
+        "term": "tyre",
+        "weight": 0.073187
+      },
+      {
+        "term": "run problem",
+        "weight": 0.067529
+      },
+      {
+        "term": "software",
+        "weight": 0.063274
+      },
+      {
+        "term": "stated run",
+        "weight": 0.058059
+      },
+      {
+        "term": "tyre run",
+        "weight": 0.055364
+      },
+      {
+        "term": "regular tyre",
+        "weight": 0.03973
+      },
+      {
+        "term": "stated regular",
+        "weight": 0.03973
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.039456
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000467",
+        "review_id": "G60-0179",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she is pleased to have regular tires now instead of run flats, since on her previous vehicle three run flats failed and had to be replaced",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003409",
+        "review_id": "G60-1219",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "and i've run into some software problems with the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010256",
+        "review_id": "G60-3685",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have never run into something like this before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002068",
+        "review_id": "G60-0735",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really likes that BMW is now using regular tires and has moved away from run-flats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008473",
+        "review_id": "G60-3039",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i have run into a lot of problems with my bmw i5",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008338",
+        "review_id": "G60-2991",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the tires on it are not run flats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003880",
+        "review_id": "G60-1397",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he appreciates that this vehicle comes without run flats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005835",
+        "review_id": "G60-2081",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that run flats are not available because of sustainability considerations and limited availability of that product",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008295",
+        "review_id": "G60-2977",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer stated this concerns him because the vehicle does not come with any emergency spare tire or run flats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001134",
+        "review_id": "G60-0401",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the b & w stereo, miles better than the karmon-hardin setup, plus this one came with normal tires instead of run flats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006578",
+        "review_id": "G60-2351",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they have not run into any significant problems with it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000782",
+        "review_id": "G60-0274",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the bmw software frequently doesn't run smoothly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004420",
+        "review_id": "G60-1579",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the car is pretty new in terms of electronic car evolution, so maybe bmw does not yet predict the problems customers run into",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009060",
+        "review_id": "G60-3245",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "One thing is getting SiriusXM to run reliably",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006399",
+        "review_id": "G60-2285",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he has run into problems when trying to set delayed charging through the app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003164",
+        "review_id": "G60-1136",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my temporary plates run out this month, may 2024",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes two unrelated subjects: tire type and unrelated software or reliability comments that include the word \"run.\"",
+      "Most sampled fragments are undetermined, which limits confidence in a single clear sentiment pattern.",
+      "At least one negative example appears inconsistent with its wording, so the negative evidence is limited to the assigned labels provided."
+    ]
+  }
+}

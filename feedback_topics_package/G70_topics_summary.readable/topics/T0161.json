@@ -1,0 +1,567 @@
+{
+  "topic_id": "T0161",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.0625,
+      "ICE": 0.875,
+      "PHEV": 0.0625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.0625,
+        "summary": "One positive review uses similar wording to request the return of a discontinued short-body variant rather than discussing a service problem.",
+        "evidence_fragment_ids": [
+          "F006878"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.1875,
+        "summary": "Negative reviews describe having to return the vehicle for diagnosis or repairs soon after purchase, including a parking brake defect and a cosmetic color issue.",
+        "evidence_fragment_ids": [
+          "F007132",
+          "F007485",
+          "F001332"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.75,
+        "summary": "Undetermined reviews mostly record procedural statements about bringing the vehicle to a dealer for diagnosis, service, prognosis, or follow-up, while a few refer to unrelated requests such as bringing back a feature.",
+        "evidence_fragment_ids": [
+          "F007089",
+          "F005592",
+          "F002066",
+          "F008839",
+          "F003958",
+          "F000886",
+          "F001052",
+          "F006203",
+          "F006667",
+          "F009687",
+          "F004646",
+          "F001625"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 16,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.004,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0625,
+            "negative": 0.1875,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.1875,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004219,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0625,
+            "negative": 0.1875,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.1875,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.000886,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005452,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.214286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.005749,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.214286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0331",
+      "G70-0398",
+      "G70-0497",
+      "G70-0589",
+      "G70-0769",
+      "G70-1452",
+      "G70-1697",
+      "G70-2005",
+      "G70-2231",
+      "G70-2384",
+      "G70-2464",
+      "G70-2551",
+      "G70-2569",
+      "G70-2694",
+      "G70-3179",
+      "G70-3487"
+    ],
+    "summary": "This topic mostly contains mentions of being told or planning to bring the vehicle back to a dealer or service department, with many fragments too procedural or varied to show clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Bringing the vehicle back for service",
+    "source_title": "bring / back / service",
+    "keywords": [
+      {
+        "term": "bring",
+        "weight": 0.363023
+      },
+      {
+        "term": "bring back",
+        "weight": 0.156997
+      },
+      {
+        "term": "bring service",
+        "weight": 0.136168
+      },
+      {
+        "term": "bring dealer",
+        "weight": 0.109956
+      },
+      {
+        "term": "back",
+        "weight": 0.098558
+      },
+      {
+        "term": "service",
+        "weight": 0.090998
+      },
+      {
+        "term": "stated bring",
+        "weight": 0.073302
+      },
+      {
+        "term": "dealer",
+        "weight": 0.06775
+      },
+      {
+        "term": "please bring",
+        "weight": 0.059573
+      },
+      {
+        "term": "dealer prognosis",
+        "weight": 0.055666
+      },
+      {
+        "term": "prognosis",
+        "weight": 0.055666
+      },
+      {
+        "term": "plan bring",
+        "weight": 0.053029
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006878",
+        "review_id": "G70-2464",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "bmw should bring back a shorter-body version like the old 740i",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007132",
+        "review_id": "G70-2569",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Writer advised he needs to bring the vehicle in for service so the issue can be diagnosed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007089",
+        "review_id": "G70-2551",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": \"I had to bring my 7 series back for repairs just a few days after buying it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007485",
+        "review_id": "G70-2694",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "plan to bring the vehicle back so the color issue can be addressed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005592",
+        "review_id": "G70-2005",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that he should bring the vehicle to the dealership as a precaution",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002066",
+        "review_id": "G70-0769",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the customer should bring the vehicle to service for diagnosis",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008839",
+        "review_id": "G70-3179",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after putting about 2600 miles on the car we already had to bring it in for service",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003958",
+        "review_id": "G70-1452",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "please bring back the handgesture controls",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000886",
+        "review_id": "G70-0331",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he will bring this up when he is in for servce",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001052",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the light did in fact come back on, and he then had to bring the vehicle back into the service department",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006203",
+        "review_id": "G70-2231",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he will bring it up with the dealership when he goes in for the mirror repair",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006667",
+        "review_id": "G70-2384",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said they plan to bring the vehicle to the dealership for a prognosis",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001332",
+        "review_id": "G70-0497",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported that a few weeks after buying the car they already had to bring it in for service due to a parking brake defect",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009687",
+        "review_id": "G70-3487",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he received an error message on the display and therefore had to bring the vehicle in for service",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004646",
+        "review_id": "G70-1697",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that shortly after purchasing the vehicle, they had to bring it to the dealership due to a wind noise",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001625",
+        "review_id": "G70-0589",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised bringing the vehicle to the dealership for a prognosis, and customer stated they will do so",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined procedural service notes, limiting clear sentiment interpretation.",
+      "The cluster mixes dealership service return visits with an unrelated product-feature request to bring back handgesture controls.",
+      "The positive example is about restoring a body style and does not align closely with the service-related meaning of most fragments."
+    ]
+  }
+}

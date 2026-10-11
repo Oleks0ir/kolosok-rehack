@@ -1,0 +1,845 @@
+{
+  "topic_id": "T0048",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 39,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "FI": 0.025641,
+      "FR": 0.025641,
+      "JP": 0.025641,
+      "KR": 0.051282,
+      "US": 0.846154,
+      "ZA": 0.025641
+    },
+    "engine_type": {
+      "BEVE": 0.205128,
+      "ICE": 0.692308,
+      "PHEV": 0.102564
+    },
+    "sentiment": {
+      "positive": {
+        "count": 19,
+        "share": 0.487179,
+        "summary": "Positive reviews praise the G70's styling, especially its exterior look, using strong approval such as liking, loving, or calling it excellent.",
+        "evidence_fragment_ids": [
+          "F003747",
+          "F007926",
+          "F001341",
+          "F005790",
+          "F006458",
+          "F009999",
+          "F010055",
+          "F006901"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.051282,
+        "summary": "Negative reviews are sparse and the sampled examples do not clearly describe exterior styling problems, so the specific styling complaint content is insufficient here.",
+        "evidence_fragment_ids": [
+          "F001551",
+          "F002620"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 18,
+        "share": 0.461538,
+        "summary": "Undetermined fragments mention styling or exterior styling, and some refer to possible improvement, but they do not provide enough context for a clear sentiment reading.",
+        "evidence_fragment_ids": [
+          "F003155",
+          "F003096",
+          "F003201",
+          "F001272",
+          "F001693",
+          "F008610"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 39,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00975,
+          "sentiment_counts": {
+            "positive": 19,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.487179,
+            "negative": 0.051282,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.461538
+          },
+          "negative_rate": 0.051282,
+          "negative_or_mixed_rate": 0.051282,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.538462
+        }
+      },
+      "country": {
+        "FI": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.014599,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 33,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.008703,
+          "sentiment_counts": {
+            "positive": 17,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.515152,
+            "negative": 0.030303,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.454545
+          },
+          "negative_rate": 0.030303,
+          "negative_or_mixed_rate": 0.030303,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.545455
+        },
+        "ZA": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007086,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 27,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.010514,
+          "sentiment_counts": {
+            "positive": 16,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.592593,
+            "negative": 0.037037,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.37037
+          },
+          "negative_rate": 0.037037,
+          "negative_or_mixed_rate": 0.037037,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.62963
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.013201,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "FI": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "FR": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.020408,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.006512,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.428571
+        },
+        "ICE": {
+          "review_count": 24,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.009856,
+          "sentiment_counts": {
+            "positive": 14,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.583333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.416667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.583333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "ZA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0471",
+      "G70-0502",
+      "G70-0572",
+      "G70-0624",
+      "G70-0720",
+      "G70-0735",
+      "G70-0903",
+      "G70-0952",
+      "G70-1121",
+      "G70-1130",
+      "G70-1148",
+      "G70-1164",
+      "G70-1316",
+      "G70-1367",
+      "G70-1473",
+      "G70-1563",
+      "G70-1711",
+      "G70-1903",
+      "G70-2080",
+      "G70-2164",
+      "G70-2326",
+      "G70-2346",
+      "G70-2352",
+      "G70-2474",
+      "G70-2634",
+      "G70-2698",
+      "G70-2702",
+      "G70-2847",
+      "G70-2857",
+      "G70-3117",
+      "G70-3137",
+      "G70-3189",
+      "G70-3228",
+      "G70-3405",
+      "G70-3566",
+      "G70-3589",
+      "G70-3607",
+      "G70-3676",
+      "G70-3810"
+    ],
+    "summary": "Feedback in this topic centers on exterior styling, with many clearly favorable comments but also many fragments that mention styling without enough context to determine a sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "G70 exterior styling impressions",
+    "source_title": "styling / exterior / okay",
+    "keywords": [
+      {
+        "term": "styling",
+        "weight": 0.448339
+      },
+      {
+        "term": "exterior styling",
+        "weight": 0.142476
+      },
+      {
+        "term": "exterior",
+        "weight": 0.107549
+      },
+      {
+        "term": "okay",
+        "weight": 0.088227
+      },
+      {
+        "term": "product",
+        "weight": 0.07638
+      },
+      {
+        "term": "interior styling",
+        "weight": 0.043845
+      },
+      {
+        "term": "stated styling",
+        "weight": 0.040616
+      },
+      {
+        "term": "customer",
+        "weight": 0.036299
+      },
+      {
+        "term": "stated exterior",
+        "weight": 0.033714
+      },
+      {
+        "term": "interior",
+        "weight": 0.030719
+      },
+      {
+        "term": "stated",
+        "weight": 0.029792
+      },
+      {
+        "term": "exhaust tailpipes",
+        "weight": 0.026886
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003747",
+        "review_id": "G70-1367",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "I really liked the styling on my 2020 750",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001551",
+        "review_id": "G70-0572",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it's not just the great product, tech and styling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003155",
+        "review_id": "G70-1148",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the styling of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007926",
+        "review_id": "G70-2857",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the styling is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002620",
+        "review_id": "G70-0952",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "performance of the product is not good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003096",
+        "review_id": "G70-1121",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the styling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001341",
+        "review_id": "G70-0502",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "fantastic styling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005790",
+        "review_id": "G70-2080",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "love the styling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003201",
+        "review_id": "G70-1164",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "its styling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006458",
+        "review_id": "G70-2326",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is one thing I love most about the exterior styling of my new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009999",
+        "review_id": "G70-3589",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is one thing I love most about the exterior styling of my new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010055",
+        "review_id": "G70-3607",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is one thing I love most about the exterior styling of my new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006901",
+        "review_id": "G70-2474",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i really liked the exterior styling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001272",
+        "review_id": "G70-0471",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "That is one thing could be most improved about the exterior styling of my new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001693",
+        "review_id": "G70-0624",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "That is one thing could be most improved about the exterior styling of my new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008610",
+        "review_id": "G70-3117",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "That is one thing could be most improved about the exterior styling of my new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 43,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are very short or formulaic, which limits detail about specific styling elements.",
+      "Some negative examples appear mismatched to the styling topic, so the exact nature of negative styling feedback cannot be reliably summarized from the sample.",
+      "Repeated near-duplicate fragments reduce the variety of concrete examples in the sample."
+    ]
+  }
+}

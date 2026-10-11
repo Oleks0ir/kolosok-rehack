@@ -1,0 +1,616 @@
+{
+  "topic_id": "T0186",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 14,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.071429,
+      "US": 0.928571
+    },
+    "engine_type": {
+      "BEVE": 0.142857,
+      "ICE": 0.285714,
+      "PHEV": 0.571429
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.214286,
+        "summary": "Negative reviews describe permanent failure of the hybrid high-voltage battery expansion valve and repeated low-voltage battery malfunction warnings.",
+        "evidence_fragment_ids": [
+          "F004886",
+          "F009244",
+          "F003387"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.071429,
+        "summary": "The mixed review mentions the same permanent failure wording for the hybrid high-voltage battery expansion valve, but the fragment alone does not show both positive and negative aspects clearly.",
+        "evidence_fragment_ids": [
+          "F009693"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.714286,
+        "summary": "Undetermined reviews include technical battery and voltage references, charging expectations, and service discussions that do not provide enough context to classify sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F002678",
+          "F008451",
+          "F003138",
+          "F005577",
+          "F010861",
+          "F009337",
+          "F000327",
+          "F002749",
+          "F010030",
+          "F001811",
+          "F002684",
+          "F003136"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 14,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0035,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.214286,
+            "mixed": 0.071429,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003428,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.230769,
+            "mixed": 0.076923,
+            "neutral": 0.0,
+            "undetermined": 0.692308
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.307692
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001558,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 8,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.026403,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.125,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.375,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.375
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001643,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.024823,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.285714,
+            "mixed": 0.142857,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.428571
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0143",
+      "G70-0667",
+      "G70-0971",
+      "G70-0993",
+      "G70-1140",
+      "G70-1223",
+      "G70-1787",
+      "G70-1999",
+      "G70-3049",
+      "G70-3329",
+      "G70-3353",
+      "G70-3487",
+      "G70-3593",
+      "G70-3907"
+    ],
+    "summary": "This topic mainly groups brief mentions of high-voltage battery behavior, charging, and cooling-system expansion valve issues, with only a few clearly negative examples and many fragments lacking enough context for firm sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "High-Voltage Battery and Expansion Valve Issues",
+    "source_title": "voltage / battery / valve",
+    "keywords": [
+      {
+        "term": "voltage",
+        "weight": 0.209469
+      },
+      {
+        "term": "battery",
+        "weight": 0.208916
+      },
+      {
+        "term": "voltage battery",
+        "weight": 0.154
+      },
+      {
+        "term": "high voltage",
+        "weight": 0.137112
+      },
+      {
+        "term": "valve",
+        "weight": 0.113534
+      },
+      {
+        "term": "high",
+        "weight": 0.109379
+      },
+      {
+        "term": "expansion",
+        "weight": 0.088085
+      },
+      {
+        "term": "expansion valve",
+        "weight": 0.088085
+      },
+      {
+        "term": "hybrid",
+        "weight": 0.047338
+      },
+      {
+        "term": "battery hybrid",
+        "weight": 0.045123
+      },
+      {
+        "term": "due",
+        "weight": 0.041945
+      },
+      {
+        "term": "valve high",
+        "weight": 0.039757
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004886",
+        "review_id": "G70-1787",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Expansion valve, high-voltage battery (hybrid) Permanently failed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009693",
+        "review_id": "G70-3487",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "Expansion valve, high-voltage battery (hybrid) Permanently failed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002678",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer indicated he took the car to the dealer, where they fully discharged the high voltage battery by driving the vehicle and then recharged the high voltage battery to full",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009244",
+        "review_id": "G70-3329",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Description: Expansion valve, high-voltage battery (hybrid) Permanently failed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008451",
+        "review_id": "G70-3049",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is aware that BMW has been developing a new High Voltage Battery for the new IX3 and asked if some of that technology might be used in our hybrid models as well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003138",
+        "review_id": "G70-1140",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the climate control draw power from the high-voltage battery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005577",
+        "review_id": "G70-1999",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the service technician sent her a text explaining the check engine light was due to a faulty expansion valve for the high voltage battery cooling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010861",
+        "review_id": "G70-3907",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the high voltage battery to charge more quickly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003387",
+        "review_id": "G70-1223",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported the vehicle showed a low voltage battery malfunction notification that came up two times and then disappeared on its own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009337",
+        "review_id": "G70-3353",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "was prohibited due to not enough voltage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000327",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Checked harness for voltage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002749",
+        "review_id": "G70-0993",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the battery lasts longer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010030",
+        "review_id": "G70-3593",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "much weaker when the battery is empty",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001811",
+        "review_id": "G70-0667",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the engine will turn back on to recharge the battery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002684",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "SME / BMU battery management electronics for high-voltage battery (hybrid / e-vehicle) Incorrect con",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003136",
+        "review_id": "G70-1140",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked whether the seat massage function is supplied by the high-voltage battery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 21,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are short technical notes or partial service descriptions, so sentiment is often unclear.",
+      "The topic mixes several related but distinct subjects, including high-voltage battery charging and use, low-voltage warnings, and expansion valve cooling faults.",
+      "One mixed example does not contain enough standalone evidence to explain why the full review was labeled mixed."
+    ]
+  }
+}

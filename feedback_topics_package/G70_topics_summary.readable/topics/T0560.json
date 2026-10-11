@@ -1,0 +1,364 @@
+{
+  "topic_id": "T0560",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 4,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 0.75,
+      "ZA": 0.25
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.75
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.25,
+        "summary": "The positive review praises a finance consultant for helping find the best financial option.",
+        "evidence_fragment_ids": [
+          "F009477"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.75,
+        "summary": "Undetermined fragments mention avoiding BMW Financial Services, a missed payment reminder that led to late fees, and the finance office, but the examples are too limited or ambiguously labeled to summarize them as a single clear sentiment.",
+        "evidence_fragment_ids": [
+          "F002611",
+          "F005230",
+          "F003466"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 4,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.001,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 3,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.000791,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ZA": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.000886,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001168,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001232,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "ZA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0949",
+      "G70-1256",
+      "G70-1899",
+      "G70-3405"
+    ],
+    "summary": "Feedback on financial services centers on one clearly positive finance-consultant experience, while most other fragments mention payment reminders, late fees, or the finance office without enough context for a firm sentiment classification.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Financial Services and Finance Office",
+    "source_title": "financial / finance / services",
+    "keywords": [
+      {
+        "term": "financial",
+        "weight": 0.346901
+      },
+      {
+        "term": "finance",
+        "weight": 0.30934
+      },
+      {
+        "term": "financial services",
+        "weight": 0.244474
+      },
+      {
+        "term": "services",
+        "weight": 0.190204
+      },
+      {
+        "term": "office",
+        "weight": 0.16653
+      },
+      {
+        "term": "dealer team",
+        "weight": 0.122878
+      },
+      {
+        "term": "team",
+        "weight": 0.097473
+      },
+      {
+        "term": "fees",
+        "weight": 0.086267
+      },
+      {
+        "term": "reminder",
+        "weight": 0.086267
+      },
+      {
+        "term": "payment",
+        "weight": 0.081464
+      },
+      {
+        "term": "late",
+        "weight": 0.07975
+      },
+      {
+        "term": "option",
+        "weight": 0.078097
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009477",
+        "review_id": "G70-3405",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the bmw dealer team was fantastic -  the finance consultant who found the best financial option",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "ZA",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002611",
+        "review_id": "G70-0949",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have no intention of ever using bmw financial services again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005230",
+        "review_id": "G70-1899",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "bmw financial services did not send my payment reminder by email, which is how i prefer it, and that led to late fees",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003466",
+        "review_id": "G70-1256",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the finance office",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 4,
+      "total_topic_fragments": 4,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, which limits confident interpretation of overall sentiment.",
+      "The topic cluster includes both finance service interactions and a brief reference to the finance office, so the subject matter is only loosely connected.",
+      "Examples are few, and one undetermined fragment is extremely short and lacks enough context to interpret reliably."
+    ]
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "topic_id": "T0424",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 7,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "CA": 0.142857,
+      "KR": 0.142857,
+      "US": 0.714286
+    },
+    "engine_type": {
+      "BEVE": 0.285714,
+      "ICE": 0.714286
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.142857,
+        "summary": "The positive review says the car is great overall while setting aside an unspecified issue.",
+        "evidence_fragment_ids": [
+          "F003686"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.142857,
+        "summary": "The negative review mentions an issue but provides no concrete detail about the problem.",
+        "evidence_fragment_ids": [
+          "F001730"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 5,
+        "share": 0.714286,
+        "summary": "Most fragments are too short or vague to identify a clear sentiment, and one mentions design taste without enough context to classify confidently.",
+        "evidence_fragment_ids": [
+          "F002107",
+          "F002726",
+          "F006978",
+          "F002318",
+          "F004180"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 7,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00175,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 5,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001319,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001947,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001643,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0634",
+      "G70-0777",
+      "G70-0845",
+      "G70-0987",
+      "G70-1327",
+      "G70-1527",
+      "G70-2502"
+    ],
+    "summary": "This topic is dominated by brief “aside from” caveats, with one positive example framing the car favorably despite an issue and one negative example referring to an unspecified problem.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "“Aside from” caveats in G70 comments",
+    "source_title": "aside / small / taste",
+    "keywords": [
+      {
+        "term": "aside",
+        "weight": 0.839793
+      },
+      {
+        "term": "small",
+        "weight": 0.119815
+      },
+      {
+        "term": "taste",
+        "weight": 0.116799
+      },
+      {
+        "term": "issue",
+        "weight": 0.105018
+      },
+      {
+        "term": "slightly",
+        "weight": 0.095649
+      },
+      {
+        "term": "design",
+        "weight": 0.072325
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003686",
+        "review_id": "G70-1327",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "aside from that everything with the car is great",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "CA",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001730",
+        "review_id": "G70-0634",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "aside from that issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002107",
+        "review_id": "G70-0777",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "aside from that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002726",
+        "review_id": "G70-0987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "aside from that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006978",
+        "review_id": "G70-2502",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "aside from that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002318",
+        "review_id": "G70-0845",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "aside from those small things",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004180",
+        "review_id": "G70-1527",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "aside from the design being slightly out of taste",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 7,
+      "total_topic_fragments": 7,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most fragments are extremely short and omit the underlying issue or praised aspect, limiting concrete interpretation.",
+      "The cluster is centered on the phrase 'aside from' rather than a specific vehicle attribute, so topic coherence is limited.",
+      "Examples are insufficient to determine what specific small issues, design concerns, or strengths are being referenced."
+    ]
+  }
+}

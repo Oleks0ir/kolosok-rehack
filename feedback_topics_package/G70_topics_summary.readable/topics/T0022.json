@@ -1,0 +1,608 @@
+{
+  "topic_id": "T0022",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 57,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.385965,
+      "ICE": 0.561404,
+      "PHEV": 0.052632
+    },
+    "sentiment": {
+      "positive": {
+        "count": 12,
+        "share": 0.210526,
+        "summary": "Positive reviews praise overall ownership experience, in-car technology, appearance, comfort, and headlight visibility.",
+        "evidence_fragment_ids": [
+          "F004337",
+          "F000363",
+          "F000865",
+          "F000668",
+          "F008598",
+          "F003617"
+        ]
+      },
+      "negative": {
+        "count": 10,
+        "share": 0.175439,
+        "summary": "Negative reviews cite dissatisfaction with the missing MSA off button and problems using navigation, with limited examples beyond those issues.",
+        "evidence_fragment_ids": [
+          "F000146",
+          "F000307"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 35,
+        "share": 0.614035,
+        "summary": "Undetermined reviews are mostly incomplete or context-only statements that mention situations such as purchase timing, car washes, tire detection, climate use, or entering the car without enough detail to judge sentiment.",
+        "evidence_fragment_ids": [
+          "F002675",
+          "F007397",
+          "F001700",
+          "F007255",
+          "F008797",
+          "F004599",
+          "F010956",
+          "F006258"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 57,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01425,
+          "sentiment_counts": {
+            "positive": 12,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.210526,
+            "negative": 0.175439,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.614035
+          },
+          "negative_rate": 0.175439,
+          "negative_or_mixed_rate": 0.175439,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.385965
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 57,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.015032,
+          "sentiment_counts": {
+            "positive": 12,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.210526,
+            "negative": 0.175439,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.614035
+          },
+          "negative_rate": 0.175439,
+          "negative_or_mixed_rate": 0.175439,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.385965
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 22,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.019486,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.136364,
+            "negative": 0.272727,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.590909
+          },
+          "negative_rate": 0.272727,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.409091
+        },
+        "ICE": {
+          "review_count": 32,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.012461,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.28125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.59375
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.40625
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 22,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.020465,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.136364,
+            "negative": 0.272727,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.590909
+          },
+          "negative_rate": 0.272727,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.409091
+        },
+        "ICE": {
+          "review_count": 32,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.013142,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.28125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.59375
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.40625
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.010638,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0078",
+      "G70-0141",
+      "G70-0152",
+      "G70-0242",
+      "G70-0323",
+      "G70-0444",
+      "G70-0459",
+      "G70-0577",
+      "G70-0629",
+      "G70-0665",
+      "G70-0712",
+      "G70-0827",
+      "G70-0840",
+      "G70-0851",
+      "G70-0930",
+      "G70-0971",
+      "G70-0990",
+      "G70-1103",
+      "G70-1147",
+      "G70-1301",
+      "G70-1420",
+      "G70-1488",
+      "G70-1544",
+      "G70-1578",
+      "G70-1590",
+      "G70-1626",
+      "G70-1680",
+      "G70-1737",
+      "G70-1792",
+      "G70-1982",
+      "G70-1995",
+      "G70-2234",
+      "G70-2262",
+      "G70-2362",
+      "G70-2365",
+      "G70-2445",
+      "G70-2470",
+      "G70-2486",
+      "G70-2490",
+      "G70-2492",
+      "G70-2541",
+      "G70-2585",
+      "G70-2607",
+      "G70-2626",
+      "G70-2652",
+      "G70-2920",
+      "G70-2952",
+      "G70-3011",
+      "G70-3110",
+      "G70-3161",
+      "G70-3542",
+      "G70-3695",
+      "G70-3720",
+      "G70-3733",
+      "G70-3743",
+      "G70-3938",
+      "G70-3949"
+    ],
+    "summary": "This topic groups brief customer-reported statements that include praise for comfort, styling, technology, and visibility, complaints about specific controls and navigation, and many incomplete snippets without clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Customer-reported G70 experiences",
+    "source_title": "reported / customer / dealer",
+    "keywords": [
+      {
+        "term": "reported",
+        "weight": 0.298089
+      },
+      {
+        "term": "customer reported",
+        "weight": 0.280781
+      },
+      {
+        "term": "customer",
+        "weight": 0.107739
+      },
+      {
+        "term": "reported dealer",
+        "weight": 0.052531
+      },
+      {
+        "term": "reported comfort",
+        "weight": 0.035558
+      },
+      {
+        "term": "dealer",
+        "weight": 0.032743
+      },
+      {
+        "term": "reported drive",
+        "weight": 0.03086
+      },
+      {
+        "term": "adds",
+        "weight": 0.024943
+      },
+      {
+        "term": "showing",
+        "weight": 0.02387
+      },
+      {
+        "term": "issue",
+        "weight": 0.022766
+      },
+      {
+        "term": "stated reported",
+        "weight": 0.022438
+      },
+      {
+        "term": "couple",
+        "weight": 0.021256
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004337",
+        "review_id": "G70-1590",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported that his overall experience with the vehicle has been good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000146",
+        "review_id": "G70-0078",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported he is unhappy that the MSA off button is no longer there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002675",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he bought this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000363",
+        "review_id": "G70-0152",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported he is pleased with all the tech in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000307",
+        "review_id": "G70-0141",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported having issues with navigation use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007397",
+        "review_id": "G70-2652",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he does this",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000865",
+        "review_id": "G70-0323",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported that the vehicle's appearance is fantastic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001700",
+        "review_id": "G70-0629",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he first received the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003617",
+        "review_id": "G70-1301",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported that he loves every aspect of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007255",
+        "review_id": "G70-2607",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that each time they go through a car wash",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000668",
+        "review_id": "G70-0242",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported that the vehicle feels very comfortable",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008598",
+        "review_id": "G70-3110",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported they are very pleased with the new headlights and said the visibility is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008797",
+        "review_id": "G70-3161",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported she had a 2018 7 Series that came with surround view,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004599",
+        "review_id": "G70-1680",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the vehicle will not detect his tires",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010956",
+        "review_id": "G70-3949",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when Max A/C is activated",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006258",
+        "review_id": "G70-2262",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that a couple of times when he got into the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 57,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "A large share of the sampled fragments are incomplete and do not provide enough context to determine sentiment.",
+      "The topic is broad and loosely tied together by the phrasing 'customer reported' rather than one clearly defined vehicle issue or feature.",
+      "Negative examples are sparse, so the complaint summary is limited to the specific issues shown in the supplied fragments."
+    ]
+  }
+}

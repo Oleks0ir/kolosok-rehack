@@ -1,0 +1,684 @@
+{
+  "topic_id": "T0067",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 31,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "JP": 0.032258,
+      "KR": 0.032258,
+      "US": 0.935484
+    },
+    "engine_type": {
+      "BEVE": 0.516129,
+      "ICE": 0.258065,
+      "PHEV": 0.225806
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.096774,
+        "summary": "Positive reviews praise the convenience of charging at home and mention interest in or appreciation for the Exclude Home-related functionality.",
+        "evidence_fragment_ids": [
+          "F007177",
+          "F007360"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.032258,
+        "summary": "Negative reviews describe frustration with a full-screen station selection flow that makes returning from the home screen cumbersome.",
+        "evidence_fragment_ids": [
+          "F003640"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 27,
+        "share": 0.870968,
+        "summary": "Undetermined reviews often mention home charging, wallbox setup, or the Exclude Home feature descriptively, but the fragments usually do not provide enough context to assign a clear sentiment.",
+        "evidence_fragment_ids": [
+          "F005237",
+          "F009408",
+          "F001474",
+          "F002789",
+          "F009238",
+          "F009457",
+          "F002508",
+          "F005908",
+          "F003764",
+          "F001851",
+          "F003156",
+          "F004382",
+          "F001374"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 31,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00775,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 27
+          },
+          "sentiment_shares": {
+            "positive": 0.096774,
+            "negative": 0.032258,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.870968
+          },
+          "negative_rate": 0.032258,
+          "negative_or_mixed_rate": 0.032258,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.129032
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 29,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.008033,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 26
+          },
+          "sentiment_shares": {
+            "positive": 0.068966,
+            "negative": 0.034483,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.896552
+          },
+          "negative_rate": 0.034483,
+          "negative_or_mixed_rate": 0.034483,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.103448
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 16,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.011739,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.125
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003541,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.018519,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 11,
+          "topic_prevalence_in_source_segment": 0.090909,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.011802,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.933333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.066667
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.021739,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G60-0094",
+      "G60-0134",
+      "G60-0204",
+      "G60-0313",
+      "G60-0491",
+      "G60-0521",
+      "G60-0665",
+      "G60-0888",
+      "G60-0991",
+      "G60-1135",
+      "G60-1305",
+      "G60-1346",
+      "G60-1562",
+      "G60-1581",
+      "G60-1821",
+      "G60-1855",
+      "G60-2105",
+      "G60-2409",
+      "G60-2497",
+      "G60-2563",
+      "G60-2628",
+      "G60-2680",
+      "G60-2782",
+      "G60-2966",
+      "G60-3100",
+      "G60-3306",
+      "G60-3359",
+      "G60-3382",
+      "G60-3401",
+      "G60-3565",
+      "G60-3636"
+    ],
+    "summary": "This topic combines comments about convenient home charging with a smaller set of remarks about the Exclude Home setting and one infotainment navigation frustration, while most sampled mentions lack enough context for a firm sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Home charging convenience and Exclude Home feature",
+    "source_title": "home / charge / exclude",
+    "keywords": [
+      {
+        "term": "home",
+        "weight": 0.33587
+      },
+      {
+        "term": "charge",
+        "weight": 0.129301
+      },
+      {
+        "term": "charge home",
+        "weight": 0.106024
+      },
+      {
+        "term": "exclude",
+        "weight": 0.066456
+      },
+      {
+        "term": "exclude home",
+        "weight": 0.066456
+      },
+      {
+        "term": "home charge",
+        "weight": 0.065379
+      },
+      {
+        "term": "customer",
+        "weight": 0.064225
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.060838
+      },
+      {
+        "term": "stated",
+        "weight": 0.059713
+      },
+      {
+        "term": "stated charge",
+        "weight": 0.058704
+      },
+      {
+        "term": "convenient",
+        "weight": 0.05584
+      },
+      {
+        "term": "stated home",
+        "weight": 0.054223
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007177",
+        "review_id": "G60-2563",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he would like this vehicle to have the exclude home feature like the i7, so that when he heads to the airport at 4 a",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003640",
+        "review_id": "G60-1305",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated it is also frustrating that the selected station takes over the full screen, and he has to work back through the home screen to return, since he cannot just go back one step",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004382",
+        "review_id": "G60-1562",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "most of the time when i come home",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007360",
+        "review_id": "G60-2628",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "quiet car, strong acceleration, and charging at home is convenient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001374",
+        "review_id": "G60-0491",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after i got it home",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005237",
+        "review_id": "G60-1855",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when charging to 100% at home",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009408",
+        "review_id": "G60-3382",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he does not charge at home",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001474",
+        "review_id": "G60-0521",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that charging the vehicle at home is working very well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002789",
+        "review_id": "G60-0991",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he mainly charges at home, and said that charging away from home could be challenging because there are very few commercial stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009238",
+        "review_id": "G60-3306",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated home charging feels like a dream because of how convenient it is",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009457",
+        "review_id": "G60-3401",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated home charging with their wallbox has been very convenient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002508",
+        "review_id": "G60-0888",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted this only seems to happen when he is charging at home",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005908",
+        "review_id": "G60-2105",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the wallbox setup in his home was straightforward and now charging a few times per week is very convenient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003764",
+        "review_id": "G60-1346",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he just had a charger put in at his home",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001851",
+        "review_id": "G60-0665",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer commented that charging the vehicle at home has been very convenient and has been enough to support all of their driving locally in the north suburbs of Austin as well as trips into Austin",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003156",
+        "review_id": "G60-1135",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked the customer some questions about the situation and explained that the vehicle should have a feature called Exclude Home, and verified in the current software that this setting can turn off comfort access only when the car is at the home location",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 32,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most reviews in this topic are undetermined, so the available evidence for clear sentiment is limited.",
+      "The topic mixes related but distinct subjects, including home charging convenience, Exclude Home functionality, and a separate home-screen navigation complaint.",
+      "Examples are fragment-level and often truncated or incomplete, which limits confidence in interpreting the full customer experience."
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Intended use and train-track signal context",
+  "summary": "The examples are mostly descriptive fragments about intended use, stated purpose, and one train-track signal-reading scenario, so no clear evaluative sentiment can be determined overall.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples describe intended purpose, unspecified customer intent, and a train-crossing light being interpreted in a road context without enough information to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F002301",
+        "F005788",
+        "F002211",
+        "F003261",
+        "F008286",
+        "F002210",
+        "F005546"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled examples are labeled undetermined, so the topic cannot support sentiment-specific conclusions.",
+    "The cluster mixes unrelated subjects, including intended-use statements, camera purpose, collision-language context, and a train-crossing signal scenario.",
+    "Several fragments are short or incomplete, which limits interpretation of the underlying issue or opinion."
+  ]
+}

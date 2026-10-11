@@ -1,0 +1,414 @@
+{
+  "topic_id": "T0338",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 9,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "AU": 0.111111,
+      "US": 0.888889
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.222222,
+        "summary": "Negative reviews mention warranty problems and a defect case where warranty coverage was needed for the glass.",
+        "evidence_fragment_ids": [
+          "F002242",
+          "F010258"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 7,
+        "share": 0.777778,
+        "summary": "Undetermined fragments mention warranty expiration concerns, uncovered stress or expenses, administrative warranty notices, and unrelated running or battery remarks without clear evaluative sentiment.",
+        "evidence_fragment_ids": [
+          "F007439",
+          "F001729",
+          "F008568",
+          "F001655",
+          "F007741",
+          "F007616",
+          "F007692"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 9,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00225,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.222222,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.222222,
+          "negative_or_mixed_rate": 0.222222,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "country": {
+        "AU": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.125
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003505,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.222222,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.222222,
+          "negative_or_mixed_rate": 0.222222,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      }
+    },
+    "country_engine_type": {
+      "AU": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.003285,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.125
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0606",
+      "G70-0634",
+      "G70-0830",
+      "G70-2676",
+      "G70-2735",
+      "G70-2768",
+      "G70-2786",
+      "G70-3096",
+      "G70-3695"
+    ],
+    "summary": "This topic centers on warranty coverage questions, a few reported warranty-related problems, and several fragments whose meaning or sentiment is unclear or mixed across unrelated subjects.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Warranty coverage and ownership concerns",
+    "source_title": "warranty / runs / stress",
+    "keywords": [
+      {
+        "term": "warranty",
+        "weight": 0.411768
+      },
+      {
+        "term": "runs",
+        "weight": 0.174165
+      },
+      {
+        "term": "stress",
+        "weight": 0.073107
+      },
+      {
+        "term": "battery",
+        "weight": 0.067516
+      },
+      {
+        "term": "backed",
+        "weight": 0.063296
+      },
+      {
+        "term": "behaved",
+        "weight": 0.059772
+      },
+      {
+        "term": "interest",
+        "weight": 0.058824
+      },
+      {
+        "term": "tied",
+        "weight": 0.058467
+      },
+      {
+        "term": "cover",
+        "weight": 0.054589
+      },
+      {
+        "term": "problem",
+        "weight": 0.053816
+      },
+      {
+        "term": "defect glass",
+        "weight": 0.052457
+      },
+      {
+        "term": "determined",
+        "weight": 0.052457
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002242",
+        "review_id": "G70-0830",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there have been some warranty problems",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "AU",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007439",
+        "review_id": "G70-2676",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have no interest in keeping it once the warranty runs out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010258",
+        "review_id": "G70-3695",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "they determined it was a defect in the glass and that the warranty covers it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001729",
+        "review_id": "G70-0634",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the warranty does not cover the stress or expenses from all of that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008568",
+        "review_id": "G70-3096",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the profile she is using is probably tied to the vehicle warranty",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001655",
+        "review_id": "G70-0606",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "bmw fully backed the warranty and behaved honorably",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007741",
+        "review_id": "G70-2786",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he had received a notice about an alarm warranty with a thirteen day deadline and assumed the coverage had already lapsed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007616",
+        "review_id": "G70-2735",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer then asked how long it would stay running, and writer advised it runs for about 10-15 minutes and will shut off if nobody enters the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007692",
+        "review_id": "G70-2768",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle runs only on that battery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is dominated by undetermined fragments, so clear sentiment evidence is limited.",
+      "The cluster mixes warranty coverage, ownership intent, service communication, remote running behavior, and battery remarks rather than one fully coherent issue.",
+      "Some undetermined fragments contain ambiguous wording or references that do not clearly describe a customer evaluation of the vehicle or warranty experience."
+    ]
+  }
+}

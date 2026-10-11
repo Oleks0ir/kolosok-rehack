@@ -1,0 +1,38 @@
+{
+  "title": "Event Recording and Star Ratings Mentions",
+  "summary": "The sampled fragments combine event-recording feature descriptions with isolated star-rating comments, so a single coherent customer stance is not identifiable.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention automatic or event-triggered recording behavior and also include standalone star-rating remarks without enough context to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F002466",
+        "F000599",
+        "F008358",
+        "F006461",
+        "F000243"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so no sentiment-bearing pattern can be established.",
+    "The cluster mixes at least two subjects—event recording behavior and generic star-rating statements—rather than a clearly unified topic.",
+    "Several fragments are too short or lack context to determine whether the writer viewed the feature or experience favorably or unfavorably."
+  ]
+}

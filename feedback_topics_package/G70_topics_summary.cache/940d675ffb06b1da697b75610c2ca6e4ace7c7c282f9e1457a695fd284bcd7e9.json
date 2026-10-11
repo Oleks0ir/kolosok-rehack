@@ -1,0 +1,42 @@
+{
+  "title": "Unclear answers across diagnostics and voice destination prompts",
+  "summary": "This topic combines unrelated mentions of unclear answers in dealer diagnostics, unanswered customer communication, and voice navigation asking about intermediate destinations.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative feedback describes a dealer identifying an air-fuel mixture issue but not providing a clear explanation of the root cause.",
+      "evidence_fragment_ids": [
+        "F001040",
+        "F001039"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined mentions include unanswered calls, customers not answering, and voice-system prompts about final versus intermediate destinations without enough context to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F005010",
+        "F010399",
+        "F005891",
+        "F008126",
+        "F004396",
+        "F010398"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The sample is dominated by undetermined fragments, so the interpretable sentiment evidence is limited.",
+    "This cluster mixes unrelated subjects such as engine diagnostics, customer communication, and navigation voice prompts.",
+    "Several fragments are too brief to determine whether they reflect satisfaction, dissatisfaction, or simple factual context."
+  ]
+}

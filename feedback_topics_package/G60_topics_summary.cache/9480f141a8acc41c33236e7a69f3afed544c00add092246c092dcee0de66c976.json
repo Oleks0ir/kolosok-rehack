@@ -1,0 +1,39 @@
+{
+  "title": "Sales and sold-item mentions",
+  "summary": "The topic consists of disparate mentions of vehicles or add-ons being sold, sold-out items, dealer references, and online parts listings without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention a car sold as a hybrid, add-ons sold at purchase, sold-out items, contacting the selling salesperson, dealer diagnostics, and online parts sold by other dealers without clear evaluative sentiment.",
+      "evidence_fragment_ids": [
+        "F009658",
+        "F002976",
+        "F000738",
+        "F000415",
+        "F000302",
+        "F005399",
+        "F005447"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so there is not enough context to identify clear positive, negative, mixed, or neutral sentiment.",
+    "The cluster mixes unrelated subjects such as sales descriptions, sold-out inventory, dealer support, diagnostics, and online parts pricing, limiting a single coherent interpretation."
+  ]
+}

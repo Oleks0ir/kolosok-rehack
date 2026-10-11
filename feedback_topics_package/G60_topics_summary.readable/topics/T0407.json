@@ -1,0 +1,432 @@
+{
+  "topic_id": "T0407",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 7,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.142857,
+      "ICE": 0.571429,
+      "PHEV": 0.285714
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.285714,
+        "summary": "Positive reviews mention a smooth, EV-like driving sensation and note a range-indicator behavior without clearly framing it as a complaint.",
+        "evidence_fragment_ids": [
+          "F003691",
+          "F005797"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.142857,
+        "summary": "Negative reviews report the system wrongly detecting vehicles in adjacent lanes on curvy roads.",
+        "evidence_fragment_ids": [
+          "F007125"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.571429,
+        "summary": "Undetermined reviews describe straightforward app use, expected parking alerts near pedestrians, unexplained activation when keys or a phone are nearby, and a visible white mark without a clear sentiment.",
+        "evidence_fragment_ids": [
+          "F006577",
+          "F005619",
+          "F008940",
+          "F007652"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 7,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00175,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.428571
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 7,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001939,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.428571
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.000734,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001983,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-1321",
+      "G60-1996",
+      "G60-2065",
+      "G60-2351",
+      "G60-2547",
+      "G60-2741",
+      "G60-3199"
+    ],
+    "summary": "This topic combines customer-described impressions of driving feel, a driver-assistance detection complaint, and several ambiguous observations about app, parking, activation, and surface-mark behavior.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Customer-described driving feel, detection issues, and app behavior",
+    "source_title": "customer described / techie / fairly",
+    "keywords": [
+      {
+        "term": "customer described",
+        "weight": 0.363909
+      },
+      {
+        "term": "described",
+        "weight": 0.333538
+      },
+      {
+        "term": "customer",
+        "weight": 0.088003
+      },
+      {
+        "term": "techie",
+        "weight": 0.070927
+      },
+      {
+        "term": "fairly",
+        "weight": 0.064382
+      },
+      {
+        "term": "parking situations",
+        "weight": 0.064155
+      },
+      {
+        "term": "pedestrians",
+        "weight": 0.064155
+      },
+      {
+        "term": "adjacent",
+        "weight": 0.062502
+      },
+      {
+        "term": "virginia",
+        "weight": 0.062502
+      },
+      {
+        "term": "sensation",
+        "weight": 0.059857
+      },
+      {
+        "term": "range indicator",
+        "weight": 0.057359
+      },
+      {
+        "term": "somewhat",
+        "weight": 0.055411
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003691",
+        "review_id": "G60-1321",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer described the engine as somewhat slow and stated the car has a wispy sensation that feels almost like an electric vehicle even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007125",
+        "review_id": "G60-2547",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer described problems with the system wrongly detecting vehicles in adjacent lanes on curvy Virginia roads",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006577",
+        "review_id": "G60-2351",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer described themselves as a techie and said the app is fairly straightforward to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005797",
+        "review_id": "G60-2065",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer also described confusion about the range indicator that only shows up in efficient mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005619",
+        "review_id": "G60-1996",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer described parking situations where he thought it should come on when pedestrians were close",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008940",
+        "review_id": "G60-3199",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer described it as something moving or being activated and noted it happens in the mornings or when the keys or cell phone are near the car, which seems to activate it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007652",
+        "review_id": "G60-2741",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer described the mark as deep, white in color, and highly visible when the sun shines on it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 7,
+      "total_topic_fragments": 7,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled fragments cover several loosely related subjects rather than a single coherent feature area.",
+      "Most examples are undetermined, which limits confidence in interpreting the overall customer stance.",
+      "Some excerpts are too brief or ambiguous to tell whether the customer is praising, criticizing, or simply describing behavior."
+    ]
+  }
+}

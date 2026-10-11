@@ -1,0 +1,686 @@
+{
+  "topic_id": "T0065",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 33,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "ES": 0.030303,
+      "JP": 0.030303,
+      "US": 0.939394
+    },
+    "engine_type": {
+      "BEVE": 0.30303,
+      "ICE": 0.606061,
+      "PHEV": 0.090909
+    },
+    "sentiment": {
+      "positive": {
+        "count": 10,
+        "share": 0.30303,
+        "summary": "Positive reviews praise the vehicle for a roomy cabin, generous overall interior space, and excellent trunk capacity.",
+        "evidence_fragment_ids": [
+          "F005727",
+          "F002707",
+          "F004414",
+          "F001681"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.030303,
+        "summary": "Negative reviews specifically criticize the glove compartment latch as too hard to find and operate.",
+        "evidence_fragment_ids": [
+          "F010879"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 22,
+        "share": 0.666667,
+        "summary": "Undetermined fragments mention both larger trunk space and complaints about limited storage, insufficient trunk room, and cramped footwells, but the sample does not support a single clear sentiment summary beyond those observations.",
+        "evidence_fragment_ids": [
+          "F010337",
+          "F007416",
+          "F001132",
+          "F003108",
+          "F000947",
+          "F000296",
+          "F008433",
+          "F007836",
+          "F005233",
+          "F007449",
+          "F000567"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 33,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00825,
+          "sentiment_counts": {
+            "positive": 10,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.30303,
+            "negative": 0.030303,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.030303,
+          "negative_or_mixed_rate": 0.030303,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "country": {
+        "ES": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 31,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.008175,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.290323,
+            "negative": 0.032258,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.677419
+          },
+          "negative_rate": 0.032258,
+          "negative_or_mixed_rate": 0.032258,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.322581
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.008857,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.007788,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.35,
+            "negative": 0.05,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.05,
+          "negative_or_mixed_rate": 0.05,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "ES": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.009302,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 19,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.007803,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.315789,
+            "negative": 0.052632,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.631579
+          },
+          "negative_rate": 0.052632,
+          "negative_or_mixed_rate": 0.052632,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.368421
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 6,
+    "review_ids": [
+      "G70-0136",
+      "G70-0213",
+      "G70-0350",
+      "G70-0353",
+      "G70-0419",
+      "G70-0501",
+      "G70-0619",
+      "G70-0920",
+      "G70-0921",
+      "G70-0976",
+      "G70-1130",
+      "G70-1291",
+      "G70-1328",
+      "G70-1384",
+      "G70-1445",
+      "G70-1614",
+      "G70-1877",
+      "G70-1900",
+      "G70-2059",
+      "G70-2449",
+      "G70-2552",
+      "G70-2659",
+      "G70-2663",
+      "G70-2679",
+      "G70-2824",
+      "G70-2977",
+      "G70-3038",
+      "G70-3471",
+      "G70-3719",
+      "G70-3783",
+      "G70-3896",
+      "G70-3916",
+      "G70-3927"
+    ],
+    "summary": "Feedback on space and storage centers on roomy interiors and strong trunk capacity in some reviews, while many other fragments mention limited storage or cramped areas without a clearly resolved sentiment label.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Interior and trunk storage space",
+    "source_title": "space / storage / compartment",
+    "keywords": [
+      {
+        "term": "space",
+        "weight": 0.261317
+      },
+      {
+        "term": "storage",
+        "weight": 0.129382
+      },
+      {
+        "term": "trunk space",
+        "weight": 0.086384
+      },
+      {
+        "term": "compartment",
+        "weight": 0.078274
+      },
+      {
+        "term": "trunk",
+        "weight": 0.077678
+      },
+      {
+        "term": "storage space",
+        "weight": 0.070073
+      },
+      {
+        "term": "space inside",
+        "weight": 0.066033
+      },
+      {
+        "term": "customer",
+        "weight": 0.064471
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.056155
+      },
+      {
+        "term": "stated storage",
+        "weight": 0.055624
+      },
+      {
+        "term": "stated",
+        "weight": 0.055229
+      },
+      {
+        "term": "storage compartment",
+        "weight": 0.050469
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005727",
+        "review_id": "G70-2059",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the trunk space is fantastic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010879",
+        "review_id": "G70-3916",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he would prefer a glove compartment latch that feels more prominent and substantial, explaining that the current latch is not easy for him to find or to operate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010337",
+        "review_id": "G70-3719",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated there is not enough storage space in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002707",
+        "review_id": "G70-0976",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer loves how much space there is inside the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000567",
+        "review_id": "G70-0213",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is still space",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007416",
+        "review_id": "G70-2663",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted that the trunk space in this car is much larger compared to the trunk space in his previous 2018 740i",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001132",
+        "review_id": "G70-0419",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated there is just not enough storage space anywhere in this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003108",
+        "review_id": "G70-1130",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the trunk space is really underwhelming",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000947",
+        "review_id": "G70-0353",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said he would like to have that tray back as extra storage space in the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000296",
+        "review_id": "G70-0136",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the front cabin storage space is limited, especially compared to his BMW X3, X5, and X7",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004414",
+        "review_id": "G70-1614",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that having a lot of space in the vehicle is great",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008433",
+        "review_id": "G70-3038",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer indicated the trunk space is insufficient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007836",
+        "review_id": "G70-2824",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the trunk space is clearly larger, which I really appreciate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005233",
+        "review_id": "G70-1900",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "could use extra storage space around the dash for random items",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007449",
+        "review_id": "G70-2679",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she clearly notices that this new 7 Series has less space inside, especially that the front footwells now feel more cramped and smaller",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001681",
+        "review_id": "G70-0619",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the vehicle offers a lot of space and feels very comfortable, with the customer particularly highlighting how roomy it is overall",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 35,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most topic fragments are labeled undetermined, which limits confidence in drawing a clear overall sentiment pattern from the examples.",
+      "Some undetermined examples contain sentiment-like wording about space or storage, so the labeled sample is internally mixed in clarity.",
+      "The topic combines several related but distinct areas, including trunk size, cabin roominess, footwell space, dashboard storage, and glove compartment usability."
+    ]
+  }
+}

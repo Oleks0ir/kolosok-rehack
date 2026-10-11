@@ -1,0 +1,774 @@
+{
+  "topic_id": "T0137",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "DK": 0.052632,
+      "FI": 0.052632,
+      "GB": 0.052632,
+      "KR": 0.052632,
+      "US": 0.789474
+    },
+    "engine_type": {
+      "BEVE": 0.263158,
+      "ICE": 0.631579,
+      "PHEV": 0.105263
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 7,
+        "share": 0.368421,
+        "summary": "Negative reviews describe in-car technology, gadgets, setup, and controls as distracting while driving, with one complaint about poor in-car call quality.",
+        "evidence_fragment_ids": [
+          "F010840",
+          "F004719",
+          "F005172",
+          "F010813",
+          "F008322",
+          "F000020"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.052632,
+        "summary": "The mixed review says the tech features feel excessive and distracting for safe driving while implying a broader feature-related tradeoff.",
+        "evidence_fragment_ids": [
+          "F006243"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.578947,
+        "summary": "Undetermined fragments are too varied to summarize cleanly, touching on regret, battery drain, timing, feature customization, and stopping behavior without a consistent evaluable sentiment for this topic.",
+        "evidence_fragment_ids": [
+          "F001727",
+          "F001601",
+          "F008778",
+          "F001950",
+          "F001260",
+          "F004809",
+          "F007199",
+          "F003268",
+          "F003079"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.368421,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.578947
+          },
+          "negative_rate": 0.368421,
+          "negative_or_mixed_rate": 0.421053,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.421053
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 1,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "FI": {
+          "review_count": 1,
+          "source_segment_review_count": 9,
+          "topic_prevalence_in_source_segment": 0.111111,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.125,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 15,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004155,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.066667,
+            "neutral": 0.0,
+            "undetermined": 0.533333
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.466667,
+          "share_of_all_topic_negative_reviews": 0.857143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.875,
+          "known_sentiment_share": 0.466667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.003668,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.285714,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.4
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005312,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.416667,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.416667,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "FI": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 5,
+          "topic_prevalence_in_source_segment": 0.2,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.125,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003147,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.285714,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004958,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.571429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.625,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0008",
+      "G60-0446",
+      "G60-0566",
+      "G60-0614",
+      "G60-0695",
+      "G60-1106",
+      "G60-1172",
+      "G60-1682",
+      "G60-1709",
+      "G60-1827",
+      "G60-1835",
+      "G60-1948",
+      "G60-1993",
+      "G60-2241",
+      "G60-2567",
+      "G60-2984",
+      "G60-3131",
+      "G60-3884",
+      "G60-3894"
+    ],
+    "summary": "This topic mainly centers on complaints that the G60’s tech, setup, and controls can distract drivers, with a few unrelated fragments about battery drain, call quality, and other end-state remarks making the cluster less coherent.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Distracting in-car tech and controls",
+    "source_title": "end / distracting / drive",
+    "keywords": [
+      {
+        "term": "end",
+        "weight": 0.310088
+      },
+      {
+        "term": "distracting",
+        "weight": 0.168737
+      },
+      {
+        "term": "distracting drive",
+        "weight": 0.088686
+      },
+      {
+        "term": "drive",
+        "weight": 0.074291
+      },
+      {
+        "term": "end distracting",
+        "weight": 0.051069
+      },
+      {
+        "term": "right end",
+        "weight": 0.050369
+      },
+      {
+        "term": "battery end",
+        "weight": 0.049745
+      },
+      {
+        "term": "feature end",
+        "weight": 0.048998
+      },
+      {
+        "term": "people end",
+        "weight": 0.047247
+      },
+      {
+        "term": "regret",
+        "weight": 0.042882
+      },
+      {
+        "term": "end call",
+        "weight": 0.040413
+      },
+      {
+        "term": "taking",
+        "weight": 0.038405
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010840",
+        "review_id": "G60-3894",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the tech is distracting and most of it i won't end up using",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006243",
+        "review_id": "G60-2241",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "the tech features are too much and end up distracting from safe driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001727",
+        "review_id": "G60-0614",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it can end up taking more than a week",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004719",
+        "review_id": "G60-1682",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there are now too many gadgets that end up being distracting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001601",
+        "review_id": "G60-0566",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "so in the end i actually regret buying it, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "DK",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008778",
+        "review_id": "G60-3131",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i would not be able to leave the car outside for a week without driving it, because the battery would end up drained",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001950",
+        "review_id": "G60-0695",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i don't want it at all and end up switching it off every single drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001260",
+        "review_id": "G60-0446",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "in the end i managed to arrange the time on my own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "FI",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005172",
+        "review_id": "G60-1835",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "at times i find it distracting when i am driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004809",
+        "review_id": "G60-1709",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "right at the very end, just before the vehicle fully stops",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007199",
+        "review_id": "G60-2567",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "plus, when other people get in, they might end up hearing something that is not appropriate for them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003268",
+        "review_id": "G60-1172",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "That's important because in personal mode the system controls battery use so you don't end up out of charge before the trip is finished",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003079",
+        "review_id": "G60-1106",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it is constructed with layer upon layer of features that may or may not end up customized",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010813",
+        "review_id": "G60-3884",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that when she places calls in the car, people on the other end say the call quality is poor",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008322",
+        "review_id": "G60-2984",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the setup is very distracting while driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000020",
+        "review_id": "G60-0008",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "thankfully there are still some manual push buttons and wheel controls, because without them using the car functions and entertainment would be even more distracting while driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 19,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes the main theme of distracting technology with unrelated fragments about battery behavior, call context, scheduling, and other uses of the word 'end'.",
+      "Most sampled fragments are undetermined, so the evidence for a single coherent topic is limited.",
+      "The available examples are insufficient to determine whether all mentions of distraction refer to the same feature or interface element."
+    ]
+  }
+}

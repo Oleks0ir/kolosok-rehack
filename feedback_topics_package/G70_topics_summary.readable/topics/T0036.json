@@ -1,0 +1,669 @@
+{
+  "topic_id": "T0036",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 47,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.021277,
+      "US": 0.978723
+    },
+    "engine_type": {
+      "BEVE": 0.276596,
+      "ICE": 0.638298,
+      "PHEV": 0.085106
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.042553,
+        "summary": "Positive reviews mention acceptable brake behavior or parking brake functionality, but the examples are sparse and partly procedural rather than strongly favorable.",
+        "evidence_fragment_ids": [
+          "F002923",
+          "F007360"
+        ]
+      },
+      "negative": {
+        "count": 14,
+        "share": 0.297872,
+        "summary": "Negative reviews describe poor brake quality, grabby or unsmooth pedal response, and difficulty modulating braking.",
+        "evidence_fragment_ids": [
+          "F008948",
+          "F009033",
+          "F002385"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 31,
+        "share": 0.659574,
+        "summary": "Undetermined reviews include ambiguous statements about brakes operating fine, hard or rough braking feel, parking brake instructions, and sudden braking events without enough context to classify sentiment reliably.",
+        "evidence_fragment_ids": [
+          "F006471",
+          "F006195",
+          "F003352",
+          "F003006",
+          "F004641",
+          "F005798"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 47,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01175,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 14,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 31
+          },
+          "sentiment_shares": {
+            "positive": 0.042553,
+            "negative": 0.297872,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.659574
+          },
+          "negative_rate": 0.297872,
+          "negative_or_mixed_rate": 0.297872,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.340426
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 46,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.012131,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 14,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.043478,
+            "negative": 0.304348,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.652174
+          },
+          "negative_rate": 0.304348,
+          "negative_or_mixed_rate": 0.304348,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.347826
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.011515,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.923077
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 0.076923
+        },
+        "ICE": {
+          "review_count": 30,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.011682,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.433333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.433333,
+          "negative_or_mixed_rate": 0.433333,
+          "share_of_all_topic_negative_reviews": 0.928571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.928571,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.013201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.012093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.923077
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 0.076923
+        },
+        "ICE": {
+          "review_count": 29,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.01191,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.068966,
+            "negative": 0.448276,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.482759
+          },
+          "negative_rate": 0.448276,
+          "negative_or_mixed_rate": 0.448276,
+          "share_of_all_topic_negative_reviews": 0.928571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.928571,
+          "known_sentiment_share": 0.517241
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.014184,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0145",
+      "G70-0213",
+      "G70-0497",
+      "G70-0608",
+      "G70-0659",
+      "G70-0671",
+      "G70-0862",
+      "G70-0871",
+      "G70-0905",
+      "G70-0914",
+      "G70-0991",
+      "G70-1060",
+      "G70-1085",
+      "G70-1190",
+      "G70-1204",
+      "G70-1211",
+      "G70-1247",
+      "G70-1311",
+      "G70-1420",
+      "G70-1524",
+      "G70-1587",
+      "G70-1637",
+      "G70-1693",
+      "G70-1739",
+      "G70-1909",
+      "G70-1964",
+      "G70-1985",
+      "G70-2083",
+      "G70-2140",
+      "G70-2215",
+      "G70-2231",
+      "G70-2332",
+      "G70-2572",
+      "G70-2636",
+      "G70-2671",
+      "G70-2793",
+      "G70-2836",
+      "G70-2921",
+      "G70-3214",
+      "G70-3218",
+      "G70-3243",
+      "G70-3248",
+      "G70-3683",
+      "G70-3717",
+      "G70-3784",
+      "G70-3903",
+      "G70-3996"
+    ],
+    "summary": "Feedback on brakes centers on complaints about poor feel, grabbing, hardness, and rough operation, while many sampled mentions are service-style descriptions or operational notes with unclear sentiment.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "elevated_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 13,
+        "denominator": 30,
+        "rate": 0.433333,
+        "comparison_numerator": 1,
+        "comparison_denominator": 17,
+        "comparison_rate": 0.058824,
+        "gap_percentage_points": 37.451,
+        "statement": "In engine_type=ICE, 13 of 30 reviews (43.3%) are negative or mixed. The rest of this breakdown: 1 of 17 (5.9%).",
+        "interpretation": "The exploratory signal indicates ICE examples in this topic are more often labeled negative or mixed than the non-ICE examples within this dataset slice.",
+        "evidence_fragment_ids": [
+          "F008948",
+          "F009033",
+          "F006195",
+          "F005798"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Brake feel, grabbing, and parking brake operation",
+    "source_title": "brake / stated / customer",
+    "keywords": [
+      {
+        "term": "brake",
+        "weight": 0.317001
+      },
+      {
+        "term": "stated brake",
+        "weight": 0.086205
+      },
+      {
+        "term": "parking brake",
+        "weight": 0.055451
+      },
+      {
+        "term": "stated",
+        "weight": 0.054501
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.052681
+      },
+      {
+        "term": "customer",
+        "weight": 0.049953
+      },
+      {
+        "term": "parking",
+        "weight": 0.047873
+      },
+      {
+        "term": "pedal",
+        "weight": 0.047243
+      },
+      {
+        "term": "squeak",
+        "weight": 0.039335
+      },
+      {
+        "term": "brake pedal",
+        "weight": 0.034899
+      },
+      {
+        "term": "regeneration",
+        "weight": 0.02867
+      },
+      {
+        "term": "energy",
+        "weight": 0.02851
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002923",
+        "review_id": "G70-1060",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the brakes sound wet and crunchy, almost like the pads are slipping on the brake rotors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008948",
+        "review_id": "G70-3218",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the brakes are poor",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006471",
+        "review_id": "G70-2332",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the vehicle has very nice brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007761",
+        "review_id": "G70-2793",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the brakes themselves feel fine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007360",
+        "review_id": "G70-2636",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated that once this setting is on, either pressing the Engine Stop button or the Parking Brake button will place the car in Park and apply the Parking Brake",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009033",
+        "review_id": "G70-3243",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the brakes seem to grab a bit when he presses the pedal and are not as smooth as his previous BMW 7 Series",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002494",
+        "review_id": "G70-0914",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the brakes are just a bit too tight and they make braking feel kind of unpleasent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007874",
+        "review_id": "G70-2836",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car will still brake using the other radars and sensors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006195",
+        "review_id": "G70-2231",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the brakes themselves operate fine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002385",
+        "review_id": "G70-0871",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "and it is difficult to control or soften it just by using the brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005258",
+        "review_id": "G70-1909",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the braking system can be somewhat tricky at times because he has to press the gas pedal to release the brake when parking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003352",
+        "review_id": "G70-1211",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he was curious about how the parking brake operates, and Writer advised that pulling the latch will activate the parking brake",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003006",
+        "review_id": "G70-1085",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the vehicle's braking tends to be a bit on the hard side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004641",
+        "review_id": "G70-1693",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle suddenly slammed on the brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004489",
+        "review_id": "G70-1637",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "also, once i have already chosen \"brake\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005798",
+        "review_id": "G70-2083",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the braking feels very rough, and she is uneasy about pressing the pedal hard due to the vibration",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 65,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the observable sentiment pattern is based on limited clearly classified examples.",
+      "Several examples are service-writer notes or operational explanations about the parking brake rather than direct evaluations of brake quality.",
+      "The topic mixes driving feel complaints with parking brake operation and automated braking references, so it is not a fully uniform issue cluster."
+    ]
+  }
+}

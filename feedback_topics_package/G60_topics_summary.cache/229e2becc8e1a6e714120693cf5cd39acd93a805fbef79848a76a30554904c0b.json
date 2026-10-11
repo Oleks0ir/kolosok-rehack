@@ -1,0 +1,51 @@
+{
+  "title": "Customer Information and Feature Explanation",
+  "summary": "This topic mainly consists of advisor or writer statements informing customers about vehicle features, service details, dealership resources, and operating limitations, with very little explicit sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive example praises directing the customer to a local Live Genius for an in-person walkthrough of vehicle features.",
+      "evidence_fragment_ids": [
+        "F000618"
+      ]
+    },
+    "negative": {
+      "summary": "The negative example concerns the customer being told that Service Pack 22 was causing the observed behavior.",
+      "evidence_fragment_ids": [
+        "F004030"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples are mostly factual explanations about controls, feature availability, service intervals, dealership contact, and system behavior without clear approval or dissatisfaction.",
+      "evidence_fragment_ids": [
+        "F007314",
+        "F009868",
+        "F002940",
+        "F000226",
+        "F004318",
+        "F002112",
+        "F006998",
+        "F006889",
+        "F001768",
+        "F009451",
+        "F008975",
+        "F005359",
+        "F007216",
+        "F006449"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are undetermined, so explicit customer sentiment is limited.",
+    "The topic groups several different informational interactions, including feature education, service guidance, dealership referral, and explanation of system limitations, rather than one single issue.",
+    "Examples are insufficient to assess broader satisfaction with dealer communication beyond these sampled fragments."
+  ]
+}

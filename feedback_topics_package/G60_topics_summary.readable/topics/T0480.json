@@ -1,0 +1,394 @@
+{
+  "topic_id": "T0480",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.8,
+      "ICE": 0.2
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The positive review praises the vehicle purchase promotion as especially attractive.",
+        "evidence_fragment_ids": [
+          "F009530"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The negative review complains that charging electricity through one provider is costly compared with alternatives.",
+        "evidence_fragment_ids": [
+          "F003760"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.6,
+        "summary": "Undetermined fragments mention kWh amounts, promotion limits, and efficiency or range figures without enough context to determine sentiment.",
+        "evidence_fragment_ids": [
+          "F010012",
+          "F003801",
+          "F006909",
+          "F010011"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001108,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002935,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.000443,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003147,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-1343",
+      "G60-1361",
+      "G60-2467",
+      "G60-3425",
+      "G60-3598"
+    ],
+    "summary": "Feedback in this topic centers on charging promotions, electricity cost comparisons, and isolated kWh or mi/kWh efficiency figures, with many fragments too brief to support a clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Charging cost, promotions, and efficiency figures",
+    "source_title": "kwh / promotion / mi",
+    "keywords": [
+      {
+        "term": "kwh",
+        "weight": 0.458716
+      },
+      {
+        "term": "promotion",
+        "weight": 0.223061
+      },
+      {
+        "term": "mi",
+        "weight": 0.125097
+      },
+      {
+        "term": "maximum range",
+        "weight": 0.082618
+      },
+      {
+        "term": "maximum",
+        "weight": 0.074994
+      },
+      {
+        "term": "costly",
+        "weight": 0.065809
+      },
+      {
+        "term": "seeing",
+        "weight": 0.06469
+      },
+      {
+        "term": "providers",
+        "weight": 0.063747
+      },
+      {
+        "term": "electricity",
+        "weight": 0.062148
+      },
+      {
+        "term": "supposed",
+        "weight": 0.061899
+      },
+      {
+        "term": "advised current",
+        "weight": 0.058219
+      },
+      {
+        "term": "lasts",
+        "weight": 0.058219
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009530",
+        "review_id": "G60-3425",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the purchase promotion is really good~~",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003760",
+        "review_id": "G60-1343",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they are unhappy with how costly EA electricity is, noting it is 48c per kwh while other providers are closer to 20c",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010012",
+        "review_id": "G60-3598",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "8 kWh",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003801",
+        "review_id": "G60-1361",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised his current promotion provides up to 1000 kWh in total, regardless of how long each session lasts,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006909",
+        "review_id": "G60-2467",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "6 mi/kwh",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010011",
+        "review_id": "G60-3598",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "4 kWh he is supposed to get for maximum range, he is only seeing about 2",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 6,
+      "total_topic_fragments": 6,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several fragments are very short numeric statements, which limits reliable sentiment interpretation.",
+      "This topic mixes distinct subjects including purchase promotion, charging cost, and efficiency or range figures rather than one clearly unified issue.",
+      "Examples are few, so the available evidence is insufficient to support broader conclusions beyond these sampled fragments."
+    ]
+  }
+}

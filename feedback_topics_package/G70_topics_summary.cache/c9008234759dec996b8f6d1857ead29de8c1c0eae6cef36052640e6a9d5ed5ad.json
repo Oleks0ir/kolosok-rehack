@@ -1,0 +1,46 @@
+{
+  "title": "Road Attention and Eyes-Off-Road Mentions",
+  "summary": "This topic groups mixed road-visibility and driver-attention comments, with clear sentiment only in a few fragments and many examples too vague or unrelated to support a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention good road conditions or a generally good feeling while driving.",
+      "evidence_fragment_ids": [
+        "F010619",
+        "F006201"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback says the monitoring or interface behavior makes brief instrument checks feel too difficult without taking eyes off the road.",
+      "evidence_fragment_ids": [
+        "F010199"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention taking eyes off the road, visibility behind the vehicle, wind noise, or other road-related observations without a clear overall evaluation.",
+      "evidence_fragment_ids": [
+        "F001564",
+        "F003788",
+        "F002880",
+        "F003243",
+        "F007699",
+        "F000782",
+        "F008465",
+        "F002361"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes multiple subjects, including driver attention, control usability, rear visibility, road conditions, and wind noise, rather than one clearly defined theme.",
+    "Most fragments are undetermined, so the examples are insufficient to draw a clear sentiment pattern beyond the few explicitly labeled positive and negative comments.",
+    "Some positive examples are generic driving-context statements rather than direct evaluations of a specific feature."
+  ]
+}

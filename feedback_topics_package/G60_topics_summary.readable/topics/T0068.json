@@ -1,0 +1,830 @@
+{
+  "topic_id": "T0068",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 31,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.064516,
+      "JP": 0.032258,
+      "KR": 0.064516,
+      "US": 0.83871
+    },
+    "engine_type": {
+      "BEVE": 0.387097,
+      "ICE": 0.483871,
+      "PHEV": 0.129032
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.064516,
+        "summary": "Positive reviews mention enjoying the car and not having issues so far, but the examples are few and one fragment is only indirect context about prior vehicles.",
+        "evidence_fragment_ids": [
+          "F004898",
+          "F005145"
+        ]
+      },
+      "negative": {
+        "count": 25,
+        "share": 0.806452,
+        "summary": "Negative reviews describe multiple recurring problems, issues appearing early, concerns that remain unresolved, and scattered complaints about cost, features, or general dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F009779",
+          "F009342",
+          "F011087",
+          "F003588",
+          "F001394",
+          "F002492",
+          "F005396",
+          "F010898",
+          "F006288",
+          "F002963",
+          "F007066",
+          "F004378"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.129032,
+        "summary": "Undetermined reviews mention dealer resolution expectations or slow resolution timing without enough context to tell whether the customer viewed the outcome positively or negatively.",
+        "evidence_fragment_ids": [
+          "F009101",
+          "F009461"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 31,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00775,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 25,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.064516,
+            "negative": 0.806452,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.129032
+          },
+          "negative_rate": 0.806452,
+          "negative_or_mixed_rate": 0.806452,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.870968
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 2,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.08,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.08,
+          "known_sentiment_share": 1.0
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.08,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.08,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 26,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.007202,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 21,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.807692,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.115385
+          },
+          "negative_rate": 0.807692,
+          "negative_or_mixed_rate": 0.807692,
+          "share_of_all_topic_negative_reviews": 0.84,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.84,
+          "known_sentiment_share": 0.884615
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.008804,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.833333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.083333
+          },
+          "negative_rate": 0.833333,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.916667
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.00664,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 12,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.133333
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.48,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.48,
+          "known_sentiment_share": 0.866667
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.010582,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.75,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.75,
+          "negative_or_mixed_rate": 0.75,
+          "share_of_all_topic_negative_reviews": 0.12,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.12,
+          "known_sentiment_share": 0.75
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.086957,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.08,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.08,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 19,
+          "topic_prevalence_in_source_segment": 0.052632,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.04,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.04,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.04,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.04,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 11,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.008655,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.818182,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.090909
+          },
+          "negative_rate": 0.818182,
+          "negative_or_mixed_rate": 0.818182,
+          "share_of_all_topic_negative_reviews": 0.36,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.36,
+          "known_sentiment_share": 0.909091
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.005454,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.818182,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.090909
+          },
+          "negative_rate": 0.818182,
+          "negative_or_mixed_rate": 0.818182,
+          "share_of_all_topic_negative_reviews": 0.36,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.36,
+          "known_sentiment_share": 0.909091
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.012422,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.75,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.75,
+          "negative_or_mixed_rate": 0.75,
+          "share_of_all_topic_negative_reviews": 0.12,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.12,
+          "known_sentiment_share": 0.75
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0126",
+      "G60-0491",
+      "G60-0495",
+      "G60-0818",
+      "G60-0885",
+      "G60-0902",
+      "G60-1059",
+      "G60-1286",
+      "G60-1312",
+      "G60-1453",
+      "G60-1562",
+      "G60-1665",
+      "G60-1742",
+      "G60-1831",
+      "G60-1879",
+      "G60-1922",
+      "G60-2252",
+      "G60-2348",
+      "G60-2466",
+      "G60-2490",
+      "G60-2527",
+      "G60-2528",
+      "G60-2749",
+      "G60-3261",
+      "G60-3358",
+      "G60-3402",
+      "G60-3504",
+      "G60-3880",
+      "G60-3907",
+      "G60-3915",
+      "G60-3993"
+    ],
+    "summary": "Reviews in this topic mainly describe recurring or unresolved problems, with only a few examples saying there were no issues or that the owner was enjoying the car.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 10,
+        "denominator": 12,
+        "rate": 0.833333,
+        "comparison_numerator": 15,
+        "comparison_denominator": 19,
+        "comparison_rate": 0.789474,
+        "gap_percentage_points": 4.386,
+        "statement": "In engine_type=BEVE, 10 of 12 reviews (83.3%) are negative or mixed. The rest of this breakdown: 15 of 19 (78.9%).",
+        "interpretation": "BEVE examples in this topic are associated with unresolved or issue-focused language similar to the rest of the topic, with only a small difference from non-BEVE examples.",
+        "evidence_fragment_ids": [
+          "F002963",
+          "F010898"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      },
+      {
+        "dimension": "country",
+        "value": "US",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 21,
+        "denominator": 26,
+        "rate": 0.807692,
+        "comparison_numerator": 4,
+        "comparison_denominator": 5,
+        "comparison_rate": 0.8,
+        "gap_percentage_points": 0.769,
+        "statement": "In country=US, 21 of 26 reviews (80.8%) are negative or mixed. The rest of this breakdown: 4 of 5 (80.0%).",
+        "interpretation": "US examples dominate the sample and mostly contain issue-focused complaints, but the non-US comparison group is small.",
+        "evidence_fragment_ids": [
+          "F009779",
+          "F003588",
+          "F001394",
+          "F005396"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S002"
+      },
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 12,
+        "denominator": 15,
+        "rate": 0.8,
+        "comparison_numerator": 13,
+        "comparison_denominator": 16,
+        "comparison_rate": 0.8125,
+        "gap_percentage_points": -1.25,
+        "statement": "In engine_type=ICE, 12 of 15 reviews (80.0%) are negative or mixed. The rest of this breakdown: 13 of 16 (81.2%).",
+        "interpretation": "ICE examples show issue-focused complaints at a level similar to non-ICE examples rather than a distinct pattern.",
+        "evidence_fragment_ids": [
+          "F009779",
+          "F003588",
+          "F001394",
+          "F005396"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S003"
+      }
+    ],
+    "title": "Recurring issues and unresolved complaints",
+    "source_title": "issue / resolved / resolve",
+    "keywords": [
+      {
+        "term": "issue",
+        "weight": 0.345313
+      },
+      {
+        "term": "resolved",
+        "weight": 0.087922
+      },
+      {
+        "term": "stated issue",
+        "weight": 0.08308
+      },
+      {
+        "term": "resolve",
+        "weight": 0.068006
+      },
+      {
+        "term": "stated",
+        "weight": 0.056421
+      },
+      {
+        "term": "issue resolved",
+        "weight": 0.049613
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.048447
+      },
+      {
+        "term": "matters",
+        "weight": 0.047408
+      },
+      {
+        "term": "customer",
+        "weight": 0.045689
+      },
+      {
+        "term": "dealing",
+        "weight": 0.039787
+      },
+      {
+        "term": "recurring",
+        "weight": 0.038938
+      },
+      {
+        "term": "resolve issue",
+        "weight": 0.037749
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005145",
+        "review_id": "G60-1831",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated their previous 2024 BMW 540i and other BMW vehicles such as their X7 and X5 did not have this issue with the Spotify app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009779",
+        "review_id": "G60-3504",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the issue is still there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009101",
+        "review_id": "G60-3261",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it took the dealership about 4 weeks to come out and resolve it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009342",
+        "review_id": "G60-3358",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the cost is an issue,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011087",
+        "review_id": "G60-3993",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "my issues are:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003588",
+        "review_id": "G60-1286",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated this had been an issue with her previous BMW",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004898",
+        "review_id": "G60-1742",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported he is really enjoying the car and stated that there have been no issues so far",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001394",
+        "review_id": "G60-0495",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i have had several issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009461",
+        "review_id": "G60-3402",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "The customer exptected the dealer to resolve this isuue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002492",
+        "review_id": "G60-0885",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he has owned BMWs for many years and this has been a recurring issue on all his prior vehicles, including several 7 series and 5 series models",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005396",
+        "review_id": "G60-1922",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the issue began when the car was just about a month old",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010898",
+        "review_id": "G60-3915",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the issue was resolved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006288",
+        "review_id": "G60-2252",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the issue itself matters,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002963",
+        "review_id": "G60-1059",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i have been dealing with multiple issues that are still not resolved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007066",
+        "review_id": "G60-2528",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the reflections are much less of an issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004378",
+        "review_id": "G60-1562",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the second issue is with homelink",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 32,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic is somewhat heterogeneous because 'issue' language ranges from unresolved defects to cost concerns, feature-specific complaints, and vague mentions without enough detail.",
+      "Several fragments are too short or generic to identify the underlying product area, and one negative example says 'the issue was resolved' despite being sentiment-labeled negative.",
+      "The examples are sentiment-stratified and not a random sample, so they should not be treated as representative of all G60 feedback."
+    ]
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "topic_id": "T0106",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 23,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.043478,
+      "US": 0.956522
+    },
+    "engine_type": {
+      "BEVE": 0.26087,
+      "ICE": 0.652174,
+      "PHEV": 0.086957
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.043478,
+        "summary": "The positive feedback says the main screen controls are helpful.",
+        "evidence_fragment_ids": [
+          "F006603"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.086957,
+        "summary": "The negative feedback describes serious infotainment or display failures where the main screen went completely black and key functions became inaccessible, sometimes leading to dealer service.",
+        "evidence_fragment_ids": [
+          "F003989",
+          "F003660"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 20,
+        "share": 0.869565,
+        "summary": "The undetermined examples are dominated by vague uses of 'went' plus several screen blackout mentions, but the sample does not provide enough context to assign a clear sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F010448",
+          "F008161",
+          "F009267",
+          "F000241",
+          "F006942",
+          "F002585",
+          "F005588",
+          "F008454",
+          "F004435",
+          "F002443",
+          "F000878",
+          "F006102",
+          "F006805"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 23,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00575,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.043478,
+            "negative": 0.086957,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.869565
+          },
+          "negative_rate": 0.086957,
+          "negative_or_mixed_rate": 0.086957,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.130435
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 22,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.005802,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.045455,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.863636
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.136364
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.005314,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005841,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.866667
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.133333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.005581,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.005749,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.142857
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0103",
+      "G70-0119",
+      "G70-0331",
+      "G70-0404",
+      "G70-0891",
+      "G70-0942",
+      "G70-1318",
+      "G70-1459",
+      "G70-1620",
+      "G70-2005",
+      "G70-2105",
+      "G70-2194",
+      "G70-2369",
+      "G70-2432",
+      "G70-2488",
+      "G70-2934",
+      "G70-3015",
+      "G70-3050",
+      "G70-3219",
+      "G70-3335",
+      "G70-3379",
+      "G70-3420",
+      "G70-3746"
+    ],
+    "summary": "This topic is mostly an incoherent mix of generic 'went' phrases and display blackout mentions, with the clearest concrete issue being the main or dashboard screen suddenly going black or dark.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Screen suddenly went black",
+    "source_title": "went / screen / suddenly",
+    "keywords": [
+      {
+        "term": "went",
+        "weight": 0.25648
+      },
+      {
+        "term": "customer went",
+        "weight": 0.151565
+      },
+      {
+        "term": "went back",
+        "weight": 0.09021
+      },
+      {
+        "term": "screen",
+        "weight": 0.081447
+      },
+      {
+        "term": "suddenly",
+        "weight": 0.073956
+      },
+      {
+        "term": "black",
+        "weight": 0.066427
+      },
+      {
+        "term": "back",
+        "weight": 0.06405
+      },
+      {
+        "term": "suddenly went",
+        "weight": 0.0638
+      },
+      {
+        "term": "main screen",
+        "weight": 0.061327
+      },
+      {
+        "term": "customer",
+        "weight": 0.061082
+      },
+      {
+        "term": "screen suddenly",
+        "weight": 0.060598
+      },
+      {
+        "term": "went black",
+        "weight": 0.050915
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006603",
+        "review_id": "G70-2369",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the controls on the main screen are helpful,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003660",
+        "review_id": "G70-1318",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer went to the dealer, where they removed the flap and ordered a new cover",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010448",
+        "review_id": "G70-3746",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer went out to the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003989",
+        "review_id": "G70-1459",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Audio system - Broken/works inconsistently: \"Entire I Drive system screen has gone completely black and no functions work now (Copied from DRA97): black screen and unable to access driving assistance features (Copied from INFO97): Main screen is black and does not work\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008161",
+        "review_id": "G70-2934",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer went out to the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009267",
+        "review_id": "G70-3335",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said she went back to the dealership to ask if the massage seats could be added, and they told her it could not be upgraded at this point",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000241",
+        "review_id": "G70-0119",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer went out to the vehicle with the Writer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006942",
+        "review_id": "G70-2488",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the screens suddenly went black",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002585",
+        "review_id": "G70-0942",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "- vehicle had a breakdown on the day it was supposed to ship / dealer branch manager shows no proper work / dealer branch manager misled the customer and went back on the promise",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005588",
+        "review_id": "G70-2005",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the main screen suddenly went dark for a few minutes without warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008454",
+        "review_id": "G70-3050",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it eventually went back in on its own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004435",
+        "review_id": "G70-1620",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the screen still went black again about four days ago, so the vehicle is scheduled to go back to the dealer on Friday 10/24",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002443",
+        "review_id": "G70-0891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported he did all that, went back inside",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000878",
+        "review_id": "G70-0331",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the display suddenly went blank and nothing on the screen would operate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006102",
+        "review_id": "G70-2194",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer went to the service department to ask about ordering another key",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006805",
+        "review_id": "G70-2432",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports that on one occasion the dashboard display suddenly went totally dark for around 10-15 seconds, then came back on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 23,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confidence in a sentiment-level interpretation.",
+      "The cluster mixes unrelated subjects such as dealer visits, accessory questions, and generic 'went' phrasing with actual screen blackout complaints.",
+      "Several undetermined fragments mention screens going black or dark, but their assigned sentiment cannot be overridden from the fragment text alone.",
+      "Examples are insufficient to separate a single coherent issue from keyword-driven clustering noise."
+    ]
+  }
+}

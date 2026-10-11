@@ -1,0 +1,39 @@
+{
+  "title": "Steering Feedback and Road Grip",
+  "summary": "The topic centers on steering feel and road grip, but most sampled fragments are too ambiguous or use 'feedback' in unrelated ways to support a consistent sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive review praises strong steering feedback, precise handling, and confident road grip.",
+      "evidence_fragment_ids": [
+        "F005946"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments mix ambiguous driving comments with unrelated requests for a reply, so the topic lacks clear sentiment in most examples.",
+      "evidence_fragment_ids": [
+        "F000888",
+        "F000039",
+        "F002887",
+        "F000114"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined, limiting confidence in a clear sentiment summary.",
+    "The cluster mixes driving-related feedback with requests for customer-service feedback or replies, reducing topic coherence.",
+    "Some undetermined examples sound favorable but cannot be reclassified beyond the supplied sentiment labels."
+  ]
+}

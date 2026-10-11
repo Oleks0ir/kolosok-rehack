@@ -1,0 +1,654 @@
+{
+  "topic_id": "T0081",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 28,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.107143,
+      "US": 0.892857
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.607143,
+      "PHEV": 0.142857
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.25,
+        "summary": "Positive reviews praise seat comfort, ride comfort, and reduced fatigue during long trips.",
+        "evidence_fragment_ids": [
+          "F009440",
+          "F004529",
+          "F002506",
+          "F001165",
+          "F008963"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.071429,
+        "summary": "Negative reviews mention anxiety about taking long trips in the EV because of charging and frustration with a door opener that takes too long to respond.",
+        "evidence_fragment_ids": [
+          "F009646",
+          "F002812"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 19,
+        "share": 0.678571,
+        "summary": "Undetermined reviews mix several loosely related ideas, including vehicle length, long-trip fatigue, seat support, perceived safety, charger availability, and luxury impressions, so the examples are insufficient to resolve a single clear sentiment.",
+        "evidence_fragment_ids": [
+          "F000095",
+          "F001212",
+          "F007682",
+          "F006904",
+          "F006480",
+          "F002638",
+          "F005602",
+          "F007941",
+          "F004453"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 28,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.007,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.678571
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.321429
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 3,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.075,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        },
+        "US": {
+          "review_count": 25,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006593,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.24,
+            "negative": 0.08,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.68
+          },
+          "negative_rate": 0.08,
+          "negative_or_mixed_rate": 0.08,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.32
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0062,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.285714
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.00662,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.294118,
+            "negative": 0.058824,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.647059
+          },
+          "negative_rate": 0.058824,
+          "negative_or_mixed_rate": 0.058824,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.352941
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.013201,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 10,
+          "topic_prevalence_in_source_segment": 0.1,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.066667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.005581,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.00616,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.014184,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0048",
+      "G70-0201",
+      "G70-0434",
+      "G70-0450",
+      "G70-0917",
+      "G70-0957",
+      "G70-1019",
+      "G70-1204",
+      "G70-1623",
+      "G70-1647",
+      "G70-1697",
+      "G70-1790",
+      "G70-2009",
+      "G70-2010",
+      "G70-2338",
+      "G70-2474",
+      "G70-2722",
+      "G70-2764",
+      "G70-2863",
+      "G70-3078",
+      "G70-3208",
+      "G70-3223",
+      "G70-3390",
+      "G70-3468",
+      "G70-3583",
+      "G70-3757",
+      "G70-3797",
+      "G70-3826"
+    ],
+    "summary": "The examples center mainly on long-trip comfort and usability, with positive comments about seats and ride comfort but also a few concerns about charging confidence or slow access functions, while many fragments are too varied or ambiguously labeled to support a tighter conclusion.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Long-trip comfort and travel usability",
+    "source_title": "long / trips / takes",
+    "keywords": [
+      {
+        "term": "long",
+        "weight": 0.364189
+      },
+      {
+        "term": "trips",
+        "weight": 0.144319
+      },
+      {
+        "term": "long trips",
+        "weight": 0.143854
+      },
+      {
+        "term": "takes long",
+        "weight": 0.061052
+      },
+      {
+        "term": "takes",
+        "weight": 0.054953
+      },
+      {
+        "term": "nervous",
+        "weight": 0.042909
+      },
+      {
+        "term": "customer",
+        "weight": 0.038814
+      },
+      {
+        "term": "particularly",
+        "weight": 0.036746
+      },
+      {
+        "term": "long distance",
+        "weight": 0.034604
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.033757
+      },
+      {
+        "term": "stated",
+        "weight": 0.0332
+      },
+      {
+        "term": "tired",
+        "weight": 0.031973
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009440",
+        "review_id": "G70-3390",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted he likes the vehicle's comfort, particularly noticeable on long trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009646",
+        "review_id": "G70-3468",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer mentioned they feel nervous about going on a long trip and about charging the vehicle, and said that is mostly a personal issue rather than anything else",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000095",
+        "review_id": "G70-0048",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car overall seems too long",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004529",
+        "review_id": "G70-1647",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned the vehicle works very well on long trips and is just as good for short drives",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002812",
+        "review_id": "G70-1019",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "The push-button door opener is sluggish and it takes too long for the door to open when I press it to get in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001212",
+        "review_id": "G70-0450",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car feels a bit long",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007682",
+        "review_id": "G70-2764",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "even on long trips i dont get tired at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006904",
+        "review_id": "G70-2474",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "feels unsafe for long trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006480",
+        "review_id": "G70-2338",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the massage seats help make long trips feel less tiring and that with them you hardly notice the long distance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002638",
+        "review_id": "G70-0957",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i take it on long trips whenever i get the chance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005602",
+        "review_id": "G70-2009",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it really feels luxurious, particularly on long trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008963",
+        "review_id": "G70-3223",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i've stuck with the 7 series for a long time, and this one is a really good car overall",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002506",
+        "review_id": "G70-0917",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the seats stay very comfortable even on long trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007941",
+        "review_id": "G70-2863",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it is hard to find BMW-compatible chargers that actually work on long trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004453",
+        "review_id": "G70-1623",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer added that after long trips his back does not ache and his legs also do not hurt, specifically because of how these seats are designed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001165",
+        "review_id": "G70-0434",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they are very pleased with how comfortable the seats are, particularly on long distance trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, which limits confidence in a clear sentiment read for the topic.",
+      "The cluster mixes related but not fully consistent subjects, including long-trip comfort, charging on trips, vehicle length, and a slow door opener.",
+      "The sampled examples are stratified and not representative of the full population of reviews."
+    ]
+  }
+}

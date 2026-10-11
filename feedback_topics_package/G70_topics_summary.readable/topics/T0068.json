@@ -1,0 +1,634 @@
+{
+  "topic_id": "T0068",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 32,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.03125,
+      "US": 0.96875
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.59375,
+      "PHEV": 0.15625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.15625,
+        "summary": "Positive reviews describe testing and battery charging that found no faults or confirmed stable operation after checks.",
+        "evidence_fragment_ids": [
+          "F004447",
+          "F007011",
+          "F002691"
+        ]
+      },
+      "negative": {
+        "count": 10,
+        "share": 0.3125,
+        "summary": "Negative reviews pair the same diagnostic procedures with discovered faults, software-related error messages, debris, or follow-up repairs and corrections.",
+        "evidence_fragment_ids": [
+          "F008274",
+          "F010384",
+          "F004893",
+          "F009247",
+          "F004693",
+          "F000691",
+          "F009592",
+          "F000322",
+          "F010931"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 17,
+        "share": 0.53125,
+        "summary": "Undetermined reviews mostly record that a vehicle test, short test, or test plan was performed without enough outcome detail to judge sentiment.",
+        "evidence_fragment_ids": [
+          "F010702",
+          "F001069",
+          "F004226",
+          "F001505"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 32,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.008,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.15625,
+            "negative": 0.3125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.53125
+          },
+          "negative_rate": 0.3125,
+          "negative_or_mixed_rate": 0.3125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.46875
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 31,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.008175,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.16129,
+            "negative": 0.322581,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.516129
+          },
+          "negative_rate": 0.322581,
+          "negative_or_mixed_rate": 0.322581,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.483871
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007086,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 19,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.007399,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.157895,
+            "negative": 0.315789,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.526316
+          },
+          "negative_rate": 0.315789,
+          "negative_or_mixed_rate": 0.315789,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.473684
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.016502,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.007442,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.007392,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.01773,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0143",
+      "G70-0244",
+      "G70-0350",
+      "G70-0394",
+      "G70-0398",
+      "G70-0545",
+      "G70-0553",
+      "G70-0971",
+      "G70-1070",
+      "G70-1108",
+      "G70-1218",
+      "G70-1248",
+      "G70-1490",
+      "G70-1517",
+      "G70-1549",
+      "G70-1620",
+      "G70-1640",
+      "G70-1695",
+      "G70-1707",
+      "G70-1787",
+      "G70-1846",
+      "G70-2378",
+      "G70-2409",
+      "G70-2514",
+      "G70-2581",
+      "G70-2629",
+      "G70-2980",
+      "G70-3329",
+      "G70-3442",
+      "G70-3733",
+      "G70-3836",
+      "G70-3938"
+    ],
+    "summary": "Reviews in this topic center on routine diagnostic steps involving connecting a battery charger, running vehicle tests or test plans, and sometimes identifying or clearing faults.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Battery charger connection and vehicle test procedures",
+    "source_title": "test / charger / performed",
+    "keywords": [
+      {
+        "term": "test",
+        "weight": 0.200567
+      },
+      {
+        "term": "charger",
+        "weight": 0.130844
+      },
+      {
+        "term": "performed",
+        "weight": 0.127117
+      },
+      {
+        "term": "test plan",
+        "weight": 0.092993
+      },
+      {
+        "term": "battery charger",
+        "weight": 0.092727
+      },
+      {
+        "term": "performed test",
+        "weight": 0.085076
+      },
+      {
+        "term": "battery",
+        "weight": 0.084295
+      },
+      {
+        "term": "plan",
+        "weight": 0.080339
+      },
+      {
+        "term": "fault",
+        "weight": 0.070878
+      },
+      {
+        "term": "connected",
+        "weight": 0.061365
+      },
+      {
+        "term": "test drive",
+        "weight": 0.05727
+      },
+      {
+        "term": "connected battery",
+        "weight": 0.057242
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004447",
+        "review_id": "G70-1620",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "CONNECTED BATTERY CHARGER AND PERFORMED VEHICLE TEST, NO FAULTS FOUND RELATING TO CONCERN",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008274",
+        "review_id": "G70-2980",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Correction: CONNECTED BATTERY CHARGER ISTA PERFORMED VEHICLE TEST AND INSPECT FOR FAULTS",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010702",
+        "review_id": "G70-3836",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "CONNECT BATTERY CHARGER AND PERFORMED VEHICLE TEST",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007011",
+        "review_id": "G70-2514",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Performed function test, no fault found",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000322",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction: Connected battery charger and performed vehicle test",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001069",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "PERFORMED VEHICLE TEST",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010931",
+        "review_id": "G70-3938",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "PERFORMED TEST PLAN",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009592",
+        "review_id": "G70-3442",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "performed test plan test plan called to replaced paddle shift",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004226",
+        "review_id": "G70-1549",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "test plan inconclusive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010384",
+        "review_id": "G70-3733",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Cause: VERIFY CONCERN, VEHICLE TEST, CHARGE BATTERY, MANY VOLTAGE SUPPLY CC MESSAGES/ELECTROMECHANICAL HOLDING BRAKES FAULT DUE TO SOFTWARE UPGRADE, PER TEST PLAN DELETE FAULTS, VEHICLE WAS PROGRAMMED ON LINE 2, NOW OK",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004893",
+        "review_id": "G70-1787",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "PERFORMED TEST PLAN, EVAC A/V, REMOVED VALVE AND FOUND EVIDENCE OF DEBRIS IN THE LINES TO THE VALVE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009247",
+        "review_id": "G70-3329",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Correction: connected battery charger and scanned faults",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002691",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Performed vehicle test and charged vehicle battery, voltage stable at 13",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004693",
+        "review_id": "G70-1707",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "CONNECTED VEHICLE TO BATT CHARGER AND PERF SHORT TEST, FOUND FAULT B7F84C: NUMBER OF HUBS DIFFRENT THAN CODED HUBS",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001505",
+        "review_id": "G70-0553",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction: D1 CONNECTED BATTERY CHARGER AND SHORT TESTED VEHICLE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000691",
+        "review_id": "G70-0244",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Brought vehicle into service, connected battery charger and ran faults",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 48,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are terse service log entries that document diagnostic actions without customer outcome context.",
+      "Some assigned negative examples contain procedural wording with little explicit problem detail in the fragment itself, limiting precise aspect interpretation.",
+      "This topic is narrowly focused on diagnostic workflow language, so it may mix routine testing steps with distinct underlying repair issues rather than one coherent problem."
+    ]
+  }
+}

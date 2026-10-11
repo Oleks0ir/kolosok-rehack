@@ -1,0 +1,536 @@
+{
+  "topic_id": "T0213",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 14,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.285714,
+      "ICE": 0.5,
+      "PHEV": 0.214286
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.214286,
+        "summary": "Positive reviews praise long range per tank or the convenience of avoiding gas stations through plug-in charging.",
+        "evidence_fragment_ids": [
+          "F004745",
+          "F007610",
+          "F003037"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.214286,
+        "summary": "Negative reviews focus on fueling problems such as nozzle shutoff or overspill and dissatisfaction with fuel tank capacity for driver needs.",
+        "evidence_fragment_ids": [
+          "F010402",
+          "F010023",
+          "F008855"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 8,
+        "share": 0.571429,
+        "summary": "Undetermined fragments mention gas tanks, fuel range, gauges, pressurization, navigation, or prior gas costs without enough context to classify sentiment reliably.",
+        "evidence_fragment_ids": [
+          "F006041",
+          "F001218",
+          "F001638",
+          "F008905",
+          "F005825",
+          "F004207",
+          "F010608",
+          "F002716"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 14,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0035,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.214286,
+            "negative": 0.214286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.428571
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 14,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003878,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.214286,
+            "negative": 0.214286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.428571
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002935,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.428571,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.428571,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003147,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.428571,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.428571,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0431",
+      "G60-0582",
+      "G60-0964",
+      "G60-1088",
+      "G60-1514",
+      "G60-1690",
+      "G60-2080",
+      "G60-2153",
+      "G60-2723",
+      "G60-3164",
+      "G60-3185",
+      "G60-3604",
+      "G60-3727",
+      "G60-3811"
+    ],
+    "summary": "Feedback on fuel-related topics spans strong range and gas-station convenience comments alongside complaints about difficult fueling and tank-related concerns, with many fragments too descriptive or contextual to show clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Fuel tank range and fueling experience",
+    "source_title": "tank / gas / fuel",
+    "keywords": [
+      {
+        "term": "tank",
+        "weight": 0.258524
+      },
+      {
+        "term": "gas",
+        "weight": 0.22449
+      },
+      {
+        "term": "tank gas",
+        "weight": 0.118947
+      },
+      {
+        "term": "gas station",
+        "weight": 0.10657
+      },
+      {
+        "term": "fuel",
+        "weight": 0.089999
+      },
+      {
+        "term": "station",
+        "weight": 0.086365
+      },
+      {
+        "term": "gas tank",
+        "weight": 0.071503
+      },
+      {
+        "term": "fuel tank",
+        "weight": 0.061838
+      },
+      {
+        "term": "filled",
+        "weight": 0.058147
+      },
+      {
+        "term": "miles tank",
+        "weight": 0.057317
+      },
+      {
+        "term": "difficulty fueling",
+        "weight": 0.04846
+      },
+      {
+        "term": "fueling",
+        "weight": 0.04846
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004745",
+        "review_id": "G60-1690",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned being very pleased with the plug-in hybrid system, stating they managed roughly 1000 miles on their first tank of gas with over half the tank still left",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010402",
+        "review_id": "G60-3727",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Difficulty fueling vehicle: \"there is a small bit of fuel overspill when i use the gas station`s auto nozzle feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006041",
+        "review_id": "G60-2153",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my old bmw 540 could easily do over 500 miles on one tank of gas",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007610",
+        "review_id": "G60-2723",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "so far it seems to get good mileage on a tank of gas",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010023",
+        "review_id": "G60-3604",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Difficulty fueling vehicle: \"Fuel nozzle keeps clicking off before the tank is actually full",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001218",
+        "review_id": "G60-0431",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer advised that using both gas and electric lets him go farther on a tank than if he used gas alone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001638",
+        "review_id": "G60-0582",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the internal gas tank gauge seems to have been installed incorrectly, so i had to bring it back for service shortly after pickup because it was giving false, erratic warnings that the tank was nearly empty",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008905",
+        "review_id": "G60-3185",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the fuel range is strong when the gas tank is filled up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005825",
+        "review_id": "G60-2080",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i went to tesla in 2022 because i got tired of dropping about $90 every time i filled the gas tank",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004207",
+        "review_id": "G60-1514",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she appreciates that she no longer has to visit the gas station",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008855",
+        "review_id": "G60-3164",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer added that his prior car was a hybrid with a much smaller fuel tank, and that smaller capacity did not work well for his needs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010608",
+        "review_id": "G60-3811",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the fuel tank is pressurized",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003037",
+        "review_id": "G60-1088",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "love how quiet the ride is and how easy it is to just plug in at home instead of waiting around at a gas station",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002716",
+        "review_id": "G60-0964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it will ask if she wants to stop at a nearby gas station and then bring up directions to it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 14,
+      "total_topic_fragments": 14,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several undetermined fragments are descriptive, comparative, or about prior vehicles rather than clearly evaluative of the reviewed vehicle.",
+      "This topic mixes distinct subjects including fuel range, gas-station avoidance, fueling mechanics, tank hardware, and navigation prompts, so the cluster is not fully coherent."
+    ]
+  }
+}

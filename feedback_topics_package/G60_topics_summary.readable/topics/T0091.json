@@ -1,0 +1,780 @@
+{
+  "topic_id": "T0091",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 25,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "FR": 0.04,
+      "GB": 0.04,
+      "NO": 0.04,
+      "SE": 0.08,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.52,
+      "ICE": 0.12,
+      "PHEV": 0.36
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.12,
+        "summary": "Positive reviews praise good battery range in winter or on the PHEV and note preconditioning as helpful for optimizing electric range.",
+        "evidence_fragment_ids": [
+          "F001115",
+          "F010199",
+          "F010669"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.08,
+        "summary": "Negative reviews express dissatisfaction with battery range, describing it as disappointing or explicitly unsatisfactory.",
+        "evidence_fragment_ids": [
+          "F002409",
+          "F006363"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 20,
+        "share": 0.8,
+        "summary": "Undetermined mentions discuss charging habits, range display behavior, battery drain, preheating indication, regenerative charging, and discharged or maintenance-warning batteries without enough context to label sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F009006",
+          "F008776",
+          "F008876",
+          "F007503",
+          "F010819",
+          "F007688",
+          "F009275",
+          "F007331",
+          "F003389",
+          "F003602",
+          "F005647"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 25,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00625,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.12,
+            "negative": 0.08,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.08,
+          "negative_or_mixed_rate": 0.08,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "NO": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "SE": {
+          "review_count": 2,
+          "source_segment_review_count": 28,
+          "topic_prevalence_in_source_segment": 0.071429,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 20,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.00554,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.009538,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.153846,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.230769
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001328,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 9,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.222222,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.222222
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "NO": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 7,
+          "topic_prevalence_in_source_segment": 0.142857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "SE": {
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 13,
+          "topic_prevalence_in_source_segment": 0.153846,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007868,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.021739,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0398",
+      "G60-0400",
+      "G60-0858",
+      "G60-1209",
+      "G60-1291",
+      "G60-1664",
+      "G60-1746",
+      "G60-2009",
+      "G60-2267",
+      "G60-2612",
+      "G60-2675",
+      "G60-2752",
+      "G60-3082",
+      "G60-3131",
+      "G60-3174",
+      "G60-3226",
+      "G60-3304",
+      "G60-3321",
+      "G60-3510",
+      "G60-3636",
+      "G60-3660",
+      "G60-3663",
+      "G60-3758",
+      "G60-3832",
+      "G60-3886"
+    ],
+    "summary": "Feedback in this topic centers on battery range impressions alongside charging, preconditioning, and battery-status guidance, with most sampled mentions lacking clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Battery range and charging behavior",
+    "source_title": "battery / range / charge",
+    "keywords": [
+      {
+        "term": "battery",
+        "weight": 0.33237
+      },
+      {
+        "term": "battery range",
+        "weight": 0.128969
+      },
+      {
+        "term": "range",
+        "weight": 0.110393
+      },
+      {
+        "term": "charge",
+        "weight": 0.084314
+      },
+      {
+        "term": "charge battery",
+        "weight": 0.079024
+      },
+      {
+        "term": "stated battery",
+        "weight": 0.065236
+      },
+      {
+        "term": "quickly",
+        "weight": 0.051973
+      },
+      {
+        "term": "battery health",
+        "weight": 0.044908
+      },
+      {
+        "term": "health",
+        "weight": 0.044908
+      },
+      {
+        "term": "indication",
+        "weight": 0.042958
+      },
+      {
+        "term": "precondition",
+        "weight": 0.040676
+      },
+      {
+        "term": "battery charge",
+        "weight": 0.03742
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001115",
+        "review_id": "G60-0400",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the battery range is good even in winter, about 7 mil or so",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "SE",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002409",
+        "review_id": "G60-0858",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "really unhappy with the battery range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009006",
+        "review_id": "G60-3226",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he usually charges the battery to around 90-95% so he can get more range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010199",
+        "review_id": "G60-3663",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer explained that it is still recommended to precondition the vehicle's battery because it helps optimize the electrical range by bringing the battery to its operating temperature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006363",
+        "review_id": "G60-2267",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the battery range is also disappointing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008776",
+        "review_id": "G60-3131",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i can charge the battery fully, use the car for short drives over a few days, leave it parked for just one day, and then the next time i start it i see a battery maitenance warning again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008876",
+        "review_id": "G60-3174",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his battery range seems to drop quickly and that he typically charges the vehicle up to 80%",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007503",
+        "review_id": "G60-2675",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the battery still drains quickly,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010819",
+        "review_id": "G60-3886",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the battery range is somewhat limited,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "FR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007688",
+        "review_id": "G60-2752",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the 60 liter gas tank together with a battery that does 100 km is a major advantage compared to earlier models (previously had a 330e with a 40 liter tank and 35 km battery range)",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "SE",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010669",
+        "review_id": "G60-3832",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": ": \"Very solid PHEV sedan with a good battery range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009275",
+        "review_id": "G60-3321",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that not charging the battery will affect the overall range displayed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007331",
+        "review_id": "G60-2612",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is no indication when the battery preheating is actually on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "NO",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003389",
+        "review_id": "G60-1209",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that she should precondition the vehicle before driving so it does not pull as much energy directly from the battery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003602",
+        "review_id": "G60-1291",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised the vehicle starts converting kinetic energy and charging the battery as soon as the accelerator is released",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005647",
+        "review_id": "G60-2009",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that the day after buying the vehicle, they found the car battery completely discharged, essentially dead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 27,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments in this topic are undetermined, which limits confidence in a clearer sentiment read.",
+      "Several undetermined fragments are factual or advisory rather than evaluative, so the topic mixes owner impressions with service or usage guidance.",
+      "Examples span BEV, PHEV, and ICE contexts, including both traction-range discussion and conventional battery issues, which reduces topic coherence."
+    ]
+  }
+}

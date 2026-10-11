@@ -1,0 +1,621 @@
+{
+  "topic_id": "T0132",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "CA": 0.052632,
+      "US": 0.947368
+    },
+    "engine_type": {
+      "BEVE": 0.526316,
+      "ICE": 0.315789,
+      "PHEV": 0.157895
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.052632,
+        "summary": "One positive review expresses a preference for the vehicle to stay powered on after the door is opened.",
+        "evidence_fragment_ids": [
+          "F004948"
+        ]
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.210526,
+        "summary": "Negative reviews complain about cabin systems activating when a door is opened, concerns about electronic door-release usability, and poor door-handle ergonomics.",
+        "evidence_fragment_ids": [
+          "F000819",
+          "F000516",
+          "F010542"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 14,
+        "share": 0.736842,
+        "summary": "Undetermined reviews mention varied opening or closing topics including trunk operation, wider door opening, window-switch quality, sunroof travel limits, and requests for help or verification without enough context for clear sentiment.",
+        "evidence_fragment_ids": [
+          "F002056",
+          "F005262",
+          "F004384",
+          "F009352",
+          "F010588",
+          "F003557",
+          "F004893",
+          "F002042",
+          "F006692",
+          "F010618",
+          "F004257",
+          "F010901"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.052632,
+            "negative": 0.210526,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.210526,
+          "negative_or_mixed_rate": 0.210526,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.263158
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 18,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 18,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004986,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.055556,
+            "negative": 0.222222,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.722222
+          },
+          "negative_rate": 0.222222,
+          "negative_or_mixed_rate": 0.222222,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.277778
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.007337,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002656,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 4,
+          "topic_prevalence_in_source_segment": 0.25,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007868,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002975,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0198",
+      "G60-0293",
+      "G60-0686",
+      "G60-0726",
+      "G60-0732",
+      "G60-1239",
+      "G60-1271",
+      "G60-1531",
+      "G60-1562",
+      "G60-1597",
+      "G60-1739",
+      "G60-1758",
+      "G60-1859",
+      "G60-2395",
+      "G60-3360",
+      "G60-3786",
+      "G60-3805",
+      "G60-3812",
+      "G60-3916"
+    ],
+    "summary": "Feedback in this topic centers on door-opening behavior, cabin systems reacting to door opening, and a mix of loosely related opening or closing references such as trunks, windows, and sunroofs.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Door opening behavior and handle ergonomics",
+    "source_title": "opening / door / closing",
+    "keywords": [
+      {
+        "term": "opening",
+        "weight": 0.32359
+      },
+      {
+        "term": "door",
+        "weight": 0.132178
+      },
+      {
+        "term": "closing",
+        "weight": 0.103223
+      },
+      {
+        "term": "door opening",
+        "weight": 0.088024
+      },
+      {
+        "term": "opening door",
+        "weight": 0.084354
+      },
+      {
+        "term": "closing door",
+        "weight": 0.070689
+      },
+      {
+        "term": "trunk opening",
+        "weight": 0.054438
+      },
+      {
+        "term": "opening halfway",
+        "weight": 0.050419
+      },
+      {
+        "term": "halfway",
+        "weight": 0.044387
+      },
+      {
+        "term": "self closing",
+        "weight": 0.043495
+      },
+      {
+        "term": "opening closing",
+        "weight": 0.040715
+      },
+      {
+        "term": "customer",
+        "weight": 0.040589
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004948",
+        "review_id": "G60-1758",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he would prefer the vehicle to remain on after opening the door like his Tesla Model 3 did",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000819",
+        "review_id": "G60-0293",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated a friend had warned him about an issue with Tesla vehicles that use an electronic door opening system where you must know where the emergency release is",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002056",
+        "review_id": "G60-0732",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the second actually opening it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000516",
+        "review_id": "G60-0198",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i really don't like that the radio, lights and other systems turn on just from opening a door, even when i'm not getting in to start the engine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005262",
+        "review_id": "G60-1859",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that at times the radio remains on even after opening the door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004384",
+        "review_id": "G60-1562",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i end up parking, going in through the front door, and opening the garage by hand, which basically defeats having the integrated system in the first place",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009352",
+        "review_id": "G60-3360",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer asked how to get the bmw logo to appear on the ground when opening the door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010588",
+        "review_id": "G60-3805",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "most of the time he ends up opening it another way",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003557",
+        "review_id": "G60-1271",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated a wider door opening would make entry and exit easier",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004893",
+        "review_id": "G60-1739",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the trunk actually opening",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010542",
+        "review_id": "G60-3786",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the driver's door opening handle feels strangely sized and positioned, and does not seem ergonomically efficient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002042",
+        "review_id": "G60-0726",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the switches for opening and closing the windows do not feel like they are of high, premium quality",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006692",
+        "review_id": "G60-2395",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and why even put in a sunroof if you restrict it to opening no more than halfway",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010618",
+        "review_id": "G60-3812",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer suggested testing it several more times to verify both opening and closing worked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004257",
+        "review_id": "G60-1531",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer confirmed that opening to about halfway is the correct operation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010901",
+        "review_id": "G60-3916",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer states the non-contact trunk opening is not operating correctly and she requires help",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confidence in a more specific sentiment summary.",
+      "This cluster mixes related door-opening comments with less coherent references to trunk opening, window switches, sunroof opening limits, garage access, and logo projection.",
+      "Some examples are fragmentary or lack enough context to determine whether they describe a complaint, a question, or normal operation."
+    ]
+  }
+}

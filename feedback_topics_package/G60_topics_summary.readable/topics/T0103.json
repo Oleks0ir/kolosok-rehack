@@ -1,0 +1,674 @@
+{
+  "topic_id": "T0103",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 21,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.047619,
+      "KR": 0.095238,
+      "US": 0.857143
+    },
+    "engine_type": {
+      "BEVE": 0.571429,
+      "ICE": 0.380952,
+      "PHEV": 0.047619
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.047619,
+        "summary": "One positive review mentions the absence of warning lights or other driving issues rather than praise for collision-warning performance.",
+        "evidence_fragment_ids": [
+          "F002396"
+        ]
+      },
+      "negative": {
+        "count": 7,
+        "share": 0.333333,
+        "summary": "Negative reviews describe forward collision or emergency braking that fails to activate reliably, gives only a display warning, or produces annoying alerts in close-traffic driving, with one example also mentioning missing amber mirror warning lights.",
+        "evidence_fragment_ids": [
+          "F005819",
+          "F010724",
+          "F009874",
+          "F005748"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.619048,
+        "summary": "Many undetermined fragments mention generic warning lights, persistent or vanished warnings, battery or braking warnings, or simply name collision-warning features without enough detail to judge sentiment.",
+        "evidence_fragment_ids": [
+          "F000239",
+          "F006216",
+          "F004362",
+          "F004289",
+          "F001522",
+          "F006161",
+          "F008773",
+          "F007042",
+          "F003871",
+          "F010802",
+          "F008669"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 21,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00525,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 7,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.047619,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.619048
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.380952
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 18,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004986,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.055556,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.611111
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.857143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.857143,
+          "known_sentiment_share": 0.388889
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.008804,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.416667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.416667,
+          "negative_or_mixed_rate": 0.416667,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003541,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.285714,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.285714,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.009441,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.416667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.416667,
+          "negative_or_mixed_rate": 0.416667,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002479,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.2
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0090",
+      "G60-0539",
+      "G60-0851",
+      "G60-1396",
+      "G60-1541",
+      "G60-1562",
+      "G60-1833",
+      "G60-1975",
+      "G60-2049",
+      "G60-2078",
+      "G60-2175",
+      "G60-2209",
+      "G60-2231",
+      "G60-2360",
+      "G60-2523",
+      "G60-2975",
+      "G60-3108",
+      "G60-3131",
+      "G60-3544",
+      "G60-3854",
+      "G60-3878"
+    ],
+    "summary": "This topic centers on forward collision warning, automatic emergency braking, and other warning-light mentions, with negative feedback focused on non-activation or bothersome alerts while many fragments are too vague or cover unrelated warnings to interpret clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Forward collision and warning alerts",
+    "source_title": "warning / forward collision / automatic emergency",
+    "keywords": [
+      {
+        "term": "warning",
+        "weight": 0.336612
+      },
+      {
+        "term": "warning light",
+        "weight": 0.080418
+      },
+      {
+        "term": "stated warning",
+        "weight": 0.071456
+      },
+      {
+        "term": "forward collision",
+        "weight": 0.053986
+      },
+      {
+        "term": "warning automatic",
+        "weight": 0.053986
+      },
+      {
+        "term": "collision warning",
+        "weight": 0.053005
+      },
+      {
+        "term": "automatic emergency",
+        "weight": 0.052156
+      },
+      {
+        "term": "brake",
+        "weight": 0.051025
+      },
+      {
+        "term": "emergency brake",
+        "weight": 0.049577
+      },
+      {
+        "term": "collision",
+        "weight": 0.049068
+      },
+      {
+        "term": "light",
+        "weight": 0.049021
+      },
+      {
+        "term": "emergency",
+        "weight": 0.04442
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002396",
+        "review_id": "G60-0851",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated there are no other driving issues and no warning lights showing in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005819",
+        "review_id": "G60-2078",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Forward collision warning/automatic emergency braking - Not working/inaccurate/inconsistent: \"It did not activate at all even when I was right up behind the car ahead, only the red car warning lit up on the display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000239",
+        "review_id": "G60-0090",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "no animal warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010724",
+        "review_id": "G60-3854",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Forward collision warning/automatic emergency braking - Not working/inaccurate/inconsistent: \"It fails to activate some times just as you are about to make contact with an object",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006216",
+        "review_id": "G60-2231",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the close vehicle warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009874",
+        "review_id": "G60-3544",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Forward collision warning/automatic emergency braking - Alerts annoying/bothersome: \"i live in a very busy city, so we end up driving quite close to other cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004362",
+        "review_id": "G60-1562",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "forward collision warning and automatic emergency braking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004289",
+        "review_id": "G60-1541",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that the warning was on continuously during that time,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001522",
+        "review_id": "G60-0539",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there are way too many warning lights/signals",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006161",
+        "review_id": "G60-2209",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the warning vanished",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008773",
+        "review_id": "G60-3131",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i keep getting battery maintenance warnings",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007042",
+        "review_id": "G60-2523",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when this warning appeared he suddenly did not have normal braking power and had to push the brake pedal very hard to get the car to stop completely",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003871",
+        "review_id": "G60-1396",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked if any warning lights or messages appeared in the Instrument Cluster or messages, and customer confirmed there were",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005748",
+        "review_id": "G60-2049",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported there was no climate control, no HUD, no amber warning lights on the exterior mirrors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010802",
+        "review_id": "G60-3878",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the warning first appeared around 2 weeks ago and he does not recall the mileage then",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008669",
+        "review_id": "G60-3108",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the warning message stayed on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 25,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments use generic terms like 'warning' or 'warning light' without enough context to confirm they refer to forward collision warning or automatic emergency braking.",
+      "The examples mix collision-warning behavior with unrelated warning-light topics such as battery maintenance, braking power, climate control, HUD, and mirror indicators.",
+      "Most sampled fragments are undetermined, so the available examples are insufficient for a more precise sentiment breakdown of this topic."
+    ]
+  }
+}

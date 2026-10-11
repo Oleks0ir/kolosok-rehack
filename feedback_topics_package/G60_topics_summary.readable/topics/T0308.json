@@ -1,0 +1,503 @@
+{
+  "topic_id": "T0308",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.3,
+      "US": 0.7
+    },
+    "engine_type": {
+      "BEVE": 0.2,
+      "ICE": 0.8
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.2,
+        "summary": "Positive reviews say the vehicle is easy to ride in across age groups and note that technology difficulty for older users is understandable rather than a vehicle flaw.",
+        "evidence_fragment_ids": [
+          "F010257",
+          "F008289"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "Negative reviews describe older users struggling to understand the vehicle’s apps and electronic functions.",
+        "evidence_fragment_ids": [
+          "F003398"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 7,
+        "share": 0.7,
+        "summary": "Undetermined reviews mention overwhelm, age, performance, comfort, or control volume, but several fragments are too brief to tell whether the comment is praise or criticism.",
+        "evidence_fragment_ids": [
+          "F010127",
+          "F006662",
+          "F005906",
+          "F003291",
+          "F007079",
+          "F010778",
+          "F006479"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 3,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.014634,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        },
+        "US": {
+          "review_count": 7,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001939,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003541,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 19,
+          "topic_prevalence_in_source_segment": 0.052632,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002975,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-1175",
+      "G60-1213",
+      "G60-2103",
+      "G60-2317",
+      "G60-2385",
+      "G60-2534",
+      "G60-2976",
+      "G60-3641",
+      "G60-3686",
+      "G60-3867"
+    ],
+    "summary": "Reviews in this topic mainly mention that the G60’s technology can feel overwhelming for older users, while a few comments frame broad accessibility, comfort, or performance positively.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Age-Related Technology Overwhelm",
+    "source_title": "overwhelming / age / technology",
+    "keywords": [
+      {
+        "term": "overwhelming",
+        "weight": 0.33713
+      },
+      {
+        "term": "age",
+        "weight": 0.255949
+      },
+      {
+        "term": "technology overwhelming",
+        "weight": 0.106906
+      },
+      {
+        "term": "technology",
+        "weight": 0.096503
+      },
+      {
+        "term": "age group",
+        "weight": 0.082658
+      },
+      {
+        "term": "group",
+        "weight": 0.080068
+      },
+      {
+        "term": "overwhelming someone",
+        "weight": 0.07813
+      },
+      {
+        "term": "someone age",
+        "weight": 0.07813
+      },
+      {
+        "term": "performance",
+        "weight": 0.072134
+      },
+      {
+        "term": "comfort",
+        "weight": 0.060099
+      },
+      {
+        "term": "someone",
+        "weight": 0.059433
+      },
+      {
+        "term": "running",
+        "weight": 0.056866
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010257",
+        "review_id": "G60-3686",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned his dad is in his 60s and that learning the vehicle's technology is challenging for him, like it is for many in that age group",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003398",
+        "review_id": "G60-1213",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that at age 87 it is difficult for them to make sense of the different apps and electronic functions in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010127",
+        "review_id": "G60-3641",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that all of the technology can feel a bit overwhelming for someone her age",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008289",
+        "review_id": "G60-2976",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the car gives a strong feeling of quiet and stability, so it is easy for any age group to ride in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006662",
+        "review_id": "G60-2385",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said the Personal Assistant in the car feels a bit overwhelming for someone his age",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005906",
+        "review_id": "G60-2103",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "overwhelming performance and equally overwhelming ride comfort",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003291",
+        "review_id": "G60-1175",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the technology in this car can be overwhelming,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007079",
+        "review_id": "G60-2534",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it feels almost overwhelming how much of the car they control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010778",
+        "review_id": "G60-3867",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the running performance is just overwhelming",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006479",
+        "review_id": "G60-2317",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if they are around my age and serious about comfort",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the sentiment direction is often unclear.",
+      "This topic mixes at least two subthemes: older users finding technology overwhelming and separate comments using 'overwhelming' for performance or comfort.",
+      "Examples are brief and sometimes lack context about whether 'overwhelming' is intended positively or negatively."
+    ]
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "topic_id": "T0486",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.4,
+      "PHEV": 0.2
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 5,
+        "share": 1.0,
+        "summary": "Undetermined reviews mention hoped-for outcomes, tool limitations, mileage goals, document procedures, and body-style preferences without enough context to classify sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F000507",
+          "F000406",
+          "F003649",
+          "F004190",
+          "F009941",
+          "F000509"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.000779,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.000411,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0171",
+      "G70-0201",
+      "G70-1315",
+      "G70-1531",
+      "G70-3569"
+    ],
+    "summary": "The sampled fragments combine unrelated statements about expectations, tool use, paperwork, and vehicle preferences, so the topic does not support a single clear customer sentiment theme.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Hopes, tools, and procedural comments",
+    "source_title": "hoping / tools / mistakes",
+    "keywords": [
+      {
+        "term": "hoping",
+        "weight": 0.344683
+      },
+      {
+        "term": "tools",
+        "weight": 0.188938
+      },
+      {
+        "term": "mistakes",
+        "weight": 0.183039
+      },
+      {
+        "term": "delivered",
+        "weight": 0.113218
+      },
+      {
+        "term": "limitations",
+        "weight": 0.099291
+      },
+      {
+        "term": "procedure",
+        "weight": 0.088637
+      },
+      {
+        "term": "target",
+        "weight": 0.086974
+      },
+      {
+        "term": "route",
+        "weight": 0.082847
+      },
+      {
+        "term": "required",
+        "weight": 0.076313
+      },
+      {
+        "term": "specific",
+        "weight": 0.07082
+      },
+      {
+        "term": "sedan rather",
+        "weight": 0.069102
+      },
+      {
+        "term": "stated strongly",
+        "weight": 0.069102
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000507",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "6-i'm still hoping the mistakes are mine and that you can show me a better way to use these tools",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000406",
+        "review_id": "G70-0171",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it has pretty much delivered what i was hoping for",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003649",
+        "review_id": "G70-1315",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he is hoping to reach a specific mileage target",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004190",
+        "review_id": "G70-1531",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he was strongly hoping for a sedan rather than an SUV",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009941",
+        "review_id": "G70-3569",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "you absolutely cannot make mistakes with the documents i prepared, since they are required for the procedure",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000509",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the limitations of bmw's route planing tools aren't just unhelpful - they feel insulting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 6,
+      "total_topic_fragments": 6,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "All sampled fragments are labeled undetermined, so there is no direct evidence for positive, negative, mixed, or neutral sentiment.",
+      "The examples mix unrelated subjects such as route-planning tools, administrative documents, mileage targets, and sedan-versus-SUV preference.",
+      "Several fragments appear to be incomplete or context-dependent, which limits reliable interpretation of customer intent or satisfaction."
+    ]
+  }
+}

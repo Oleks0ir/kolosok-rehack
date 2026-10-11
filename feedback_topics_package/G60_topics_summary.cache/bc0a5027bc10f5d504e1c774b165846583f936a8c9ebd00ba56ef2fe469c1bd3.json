@@ -1,0 +1,42 @@
+{
+  "title": "Power on/off timing behavior",
+  "summary": "This topic centers on vehicle power state timing, with negative feedback about the car shutting down too quickly when occupants step out and several undetermined fragments touching unrelated 'soon' references or other timing behaviors.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews describe dissatisfaction with the vehicle powering down too soon after the driver opens the door or exits briefly.",
+      "evidence_fragment_ids": [
+        "F008746",
+        "F006113"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention unrelated uses of 'soon' or other timing preferences, including approach-based power-up, delayed radio shutoff, voice system listening cutoff, and incomplete phrases, so examples are insufficient for a single clear sentiment theme.",
+      "evidence_fragment_ids": [
+        "F006071",
+        "F006880",
+        "F004481",
+        "F005009",
+        "F006603",
+        "F001649"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined, limiting confidence in a single coherent interpretation of the topic.",
+    "The cluster mixes related power timing comments with unrelated 'soon' phrases and other features such as radio behavior and voice command listening cutoff.",
+    "Examples are few, so they should not be treated as representative beyond the supplied fragments."
+  ]
+}

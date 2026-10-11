@@ -1,0 +1,701 @@
+{
+  "topic_id": "T0032",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 48,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.020833,
+      "KR": 0.041667,
+      "US": 0.9375
+    },
+    "engine_type": {
+      "BEVE": 0.125,
+      "ICE": 0.8125,
+      "PHEV": 0.0625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.083333,
+        "summary": "Positive comments highlight an easy-to-reach passenger-door handle and a conveniently placed button for opening the passenger door.",
+        "evidence_fragment_ids": [
+          "F002194"
+        ]
+      },
+      "negative": {
+        "count": 8,
+        "share": 0.166667,
+        "summary": "Negative comments describe rattling front-door light bars and exterior damage on the front passenger side, with limited examples of clearly negative feedback.",
+        "evidence_fragment_ids": [
+          "F004083",
+          "F010022"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.020833,
+        "summary": "The mixed feedback combines a problem with the driver/passenger assist handle and discomfort from the location affecting left-leg resting position.",
+        "evidence_fragment_ids": [
+          "F000915"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 35,
+        "share": 0.729167,
+        "summary": "Undetermined fragments mostly mention passenger-side doors, controls, locks, lights, seat position, or trim without enough context to judge whether the overall feedback is favorable or unfavorable.",
+        "evidence_fragment_ids": [
+          "F010358",
+          "F001095",
+          "F009292",
+          "F005355",
+          "F001927",
+          "F001960",
+          "F000235",
+          "F005132",
+          "F008141",
+          "F006208",
+          "F000141"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 48,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.012,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 8,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.166667,
+            "mixed": 0.020833,
+            "neutral": 0.0,
+            "undetermined": 0.729167
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.270833
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.014599,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 45,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.011867,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 33
+          },
+          "sentiment_shares": {
+            "positive": 0.088889,
+            "negative": 0.155556,
+            "mixed": 0.022222,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.155556,
+          "negative_or_mixed_rate": 0.177778,
+          "share_of_all_topic_negative_reviews": 0.875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.888889,
+          "known_sentiment_share": 0.266667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.005314,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 39,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.015187,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.051282,
+            "negative": 0.153846,
+            "mixed": 0.025641,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.179487,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.777778,
+          "known_sentiment_share": 0.230769
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.222222,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.020408,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.005581,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 37,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.015195,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 28
+          },
+          "sentiment_shares": {
+            "positive": 0.054054,
+            "negative": 0.162162,
+            "mixed": 0.027027,
+            "neutral": 0.0,
+            "undetermined": 0.756757
+          },
+          "negative_rate": 0.162162,
+          "negative_or_mixed_rate": 0.189189,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.777778,
+          "known_sentiment_share": 0.243243
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0047",
+      "G70-0076",
+      "G70-0117",
+      "G70-0119",
+      "G70-0169",
+      "G70-0226",
+      "G70-0344",
+      "G70-0402",
+      "G70-0468",
+      "G70-0629",
+      "G70-0713",
+      "G70-0727",
+      "G70-0781",
+      "G70-0814",
+      "G70-0924",
+      "G70-1013",
+      "G70-1185",
+      "G70-1462",
+      "G70-1490",
+      "G70-1499",
+      "G70-1657",
+      "G70-1679",
+      "G70-1795",
+      "G70-1823",
+      "G70-1858",
+      "G70-1876",
+      "G70-1941",
+      "G70-2012",
+      "G70-2021",
+      "G70-2030",
+      "G70-2095",
+      "G70-2134",
+      "G70-2231",
+      "G70-2232",
+      "G70-2382",
+      "G70-2403",
+      "G70-2606",
+      "G70-2899",
+      "G70-2924",
+      "G70-3010",
+      "G70-3344",
+      "G70-3483",
+      "G70-3593",
+      "G70-3656",
+      "G70-3727",
+      "G70-3767",
+      "G70-3769",
+      "G70-3971"
+    ],
+    "summary": "This topic centers on front passenger-side doors, trim, lighting, and seat-area mentions, with many fragments too brief or descriptive to determine clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Passenger-side door and front seat mentions",
+    "source_title": "passenger / side / front",
+    "keywords": [
+      {
+        "term": "passenger",
+        "weight": 0.220578
+      },
+      {
+        "term": "side",
+        "weight": 0.12026
+      },
+      {
+        "term": "front",
+        "weight": 0.115907
+      },
+      {
+        "term": "front passenger",
+        "weight": 0.11378
+      },
+      {
+        "term": "passenger side",
+        "weight": 0.085951
+      },
+      {
+        "term": "door",
+        "weight": 0.084683
+      },
+      {
+        "term": "driver",
+        "weight": 0.081246
+      },
+      {
+        "term": "passenger door",
+        "weight": 0.063855
+      },
+      {
+        "term": "driver side",
+        "weight": 0.057793
+      },
+      {
+        "term": "driver passenger",
+        "weight": 0.047995
+      },
+      {
+        "term": "passenger seat",
+        "weight": 0.044003
+      },
+      {
+        "term": "rear",
+        "weight": 0.035313
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002194",
+        "review_id": "G70-0814",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she likes how the passenger door has a handle that is easy to reach, and also that she has a conveniently placed button on her side to open that passenger door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004083",
+        "review_id": "G70-1490",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that they have the B&O audio system and that the light bars on both the driver and passenger side front doors had to be replaced because of rattling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000915",
+        "review_id": "G70-0344",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a problem with Driver/passenger assist handle - DTU/poor location: \"no good, comfortable spot to rest my left leg\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010358",
+        "review_id": "G70-3727",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is no lock for the front passenger side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001701",
+        "review_id": "G70-0629",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "the front passenger seat could not be moved in any way",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010022",
+        "review_id": "G70-3593",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the loaner was filthy inside and out, with damage on the front passenger wing and door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001095",
+        "review_id": "G70-0402",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Front passenger door from the outside, Driver side rear door from the outside, Passenger side rear door from the outside, Driver door from the outside",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009292",
+        "review_id": "G70-3344",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Front passenger door from the outside, Driver side rear door from the outside, Passenger side rear door from the outside, Driver door from the outside",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005355",
+        "review_id": "G70-1941",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the automatic doors function on the front passenger door and rear driver-side door is not operating because the buttons on those doors are not responding",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001927",
+        "review_id": "G70-0713",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "This is on the passenger side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001960",
+        "review_id": "G70-0727",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Front passenger door from the outside, Driver side rear door from the outside",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000235",
+        "review_id": "G70-0117",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when someone rides in the front passenger seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005132",
+        "review_id": "G70-1876",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the passenger-side automatic door would not open or shut from the passenger-side control panel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008141",
+        "review_id": "G70-2924",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the light on the speaker in the front passenger door is not working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006208",
+        "review_id": "G70-2232",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Front passenger door from the outside, Driver door from the outside",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000141",
+        "review_id": "G70-0076",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the black trim on the passenger side between the front and rear passenger windows is faded",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 56,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined or highly abbreviated, which limits confidence about concrete themes beyond passenger-side location references.",
+      "The cluster mixes several subtopics such as door controls, door lighting, trim, seat movement, and exterior damage rather than one single coherent issue.",
+      "Some examples with assigned sentiment contain fragment text that is incomplete or sentiment-ambiguous, so the evidence only supports narrow, concrete descriptions."
+    ]
+  }
+}

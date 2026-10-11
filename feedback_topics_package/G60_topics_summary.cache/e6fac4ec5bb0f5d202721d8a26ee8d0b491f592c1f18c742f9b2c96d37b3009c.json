@@ -1,0 +1,47 @@
+{
+  "title": "DCS and Service Notes Mentions",
+  "summary": "The sampled fragments are mostly administrative references to DCS, service, technician, or customer notes rather than clear evaluative feedback about the vehicle or service experience.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments consist of note headers, mentions that notes are available or missing, and a few incomplete or non-comparable customer-note snippets that do not establish a clear sentiment.",
+      "evidence_fragment_ids": [
+        "F002824",
+        "F011063",
+        "F005869",
+        "F010900",
+        "F010972",
+        "F004034",
+        "F010232",
+        "F009049",
+        "F006276",
+        "F008027",
+        "F003928",
+        "F008154",
+        "F008218",
+        "F009428"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so there is no basis for comparing positive, negative, mixed, or neutral sentiment within this topic.",
+    "Many examples are short headers or administrative placeholders such as 'DCS Notes' or 'Technician Notes,' which provide too little context to infer customer sentiment.",
+    "The cluster mixes record-keeping references with occasional customer-note content, so it is not a coherent single issue category."
+  ]
+}

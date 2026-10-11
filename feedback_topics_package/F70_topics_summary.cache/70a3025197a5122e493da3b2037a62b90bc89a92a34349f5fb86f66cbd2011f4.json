@@ -1,0 +1,40 @@
+{
+  "title": "Worry and extra expense mentions",
+  "summary": "This topic groups brief mentions of worry, extra cost, alarms, and cupholders, but the fragments are too sparse and varied to support a clear sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention worry, added expense, a false alarm concern, and a cupholder cost comment without enough context to classify sentiment reliably.",
+      "evidence_fragment_ids": [
+        "F003364",
+        "F006912",
+        "F000704",
+        "F002933",
+        "F000824",
+        "F000620",
+        "F005059"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so there is no reliable evidence for positive, negative, mixed, or neutral sentiment.",
+    "The cluster mixes several loosely related subjects, including worry, extra expense, an alarm-related safety concern, and cupholders.",
+    "Several excerpts are very short or lack surrounding context, which limits interpretation."
+  ]
+}

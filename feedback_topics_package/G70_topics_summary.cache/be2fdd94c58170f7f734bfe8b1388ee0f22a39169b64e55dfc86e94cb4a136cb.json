@@ -1,0 +1,42 @@
+{
+  "title": "Charging and hours-related mentions",
+  "summary": "This topic groups sparse mentions of charging duration, parked time, screen downtime, and kWh usage, with most examples lacking clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clearly negative example describes a frustrating eSIM setup that took many hours to resolve.",
+      "evidence_fragment_ids": [
+        "F007856"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples mention long charging times, time spent parked or stuck at a charger, a screen staying blank, and confusion about kWh readings without enough context to label sentiment confidently.",
+      "evidence_fragment_ids": [
+        "F007031",
+        "F001836",
+        "F003237",
+        "F000880",
+        "F000205",
+        "F001833",
+        "F000203"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are undetermined, so clear sentiment evidence is limited.",
+    "The cluster mixes several loosely related subjects, including charging duration, parked time, infotainment behavior, and kWh interpretation.",
+    "Some fragments are too brief or lack context to determine whether the experience was positive, negative, or simply descriptive."
+  ]
+}

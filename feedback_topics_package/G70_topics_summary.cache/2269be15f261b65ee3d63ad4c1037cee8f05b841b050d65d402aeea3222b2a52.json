@@ -1,0 +1,47 @@
+{
+  "title": "Customer callbacks and voicemail follow-up",
+  "summary": "This topic is mostly about dealership and customer phone follow-up actions such as calling back, leaving voicemails, and checking repair or support status, with little explicit sentiment in the sampled fragments.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clear negative example describes the customer reporting that the same issue returned after a follow-up call.",
+      "evidence_fragment_ids": [
+        "F001485"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mainly note contact attempts, callbacks, voicemails, and customer inquiries without enough evaluative detail to classify satisfaction.",
+      "evidence_fragment_ids": [
+        "F000230",
+        "F001139",
+        "F005449",
+        "F003663",
+        "F005890",
+        "F010059",
+        "F003194",
+        "F007395",
+        "F010330",
+        "F007671",
+        "F008125",
+        "F009572",
+        "F002238"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most fragments are operational notes about calls or voicemails rather than clear opinions, so sentiment is often not directly stated.",
+    "The cluster includes several different communication contexts, including repair follow-up, feature questions, and contact attempts, which limits how specifically the topic can be summarized."
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "topic_id": "T0629",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 3,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.333333,
+      "US": 0.666667
+    },
+    "engine_type": {
+      "BEVE": 0.666667,
+      "ICE": 0.333333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.333333,
+        "summary": "The negative feedback says voice interaction is not helpful during calls or when talking with others in the car.",
+        "evidence_fragment_ids": [
+          "F007855"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.666667,
+        "summary": "Undetermined fragments mention gestures while talking triggering unintended changes or describe passenger hand gestures without enough context to confirm sentiment.",
+        "evidence_fragment_ids": [
+          "F006197",
+          "F008303"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 3,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00075,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 2,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.000554,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.000443,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-2222",
+      "G60-2811",
+      "G60-2979"
+    ],
+    "summary": "Feedback in this topic centers on voice controls and hand gestures being activated during normal conversation, with one clearly negative complaint and two fragments that describe the situation without enough evaluative context.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Voice and gesture triggers during conversation",
+    "source_title": "talking / gestures / hand",
+    "keywords": [
+      {
+        "term": "talking",
+        "weight": 0.514453
+      },
+      {
+        "term": "gestures",
+        "weight": 0.325427
+      },
+      {
+        "term": "hand",
+        "weight": 0.153571
+      },
+      {
+        "term": "triggering",
+        "weight": 0.150118
+      },
+      {
+        "term": "helpful",
+        "weight": 0.146633
+      },
+      {
+        "term": "someone",
+        "weight": 0.146633
+      },
+      {
+        "term": "voice",
+        "weight": 0.134554
+      },
+      {
+        "term": "mean",
+        "weight": 0.132156
+      },
+      {
+        "term": "call",
+        "weight": 0.12987
+      },
+      {
+        "term": "passenger",
+        "weight": 0.127845
+      },
+      {
+        "term": "kept",
+        "weight": 0.120823
+      },
+      {
+        "term": "changes",
+        "weight": 0.114811
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007855",
+        "review_id": "G60-2811",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "said using his voice is not really helpful when he is on a call or talking with someone in the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006197",
+        "review_id": "G60-2222",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he gestures a lot while talking and kept triggering changes he did not mean to make",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008303",
+        "review_id": "G60-2979",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when a passenger gestures with their hand while talking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 3,
+      "total_topic_fragments": 3,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is very small, with only three fragments.",
+      "Two of the three fragments are undetermined, which limits confidence about overall user sentiment.",
+      "One fragment is incomplete and only references passenger hand gestures without stating the outcome or evaluation."
+    ]
+  }
+}

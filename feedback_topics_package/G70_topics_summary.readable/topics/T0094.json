@@ -1,0 +1,574 @@
+{
+  "topic_id": "T0094",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 25,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.16,
+      "ICE": 0.8,
+      "PHEV": 0.04
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.04,
+        "summary": "The only negative example says RVG access was used to document an issue rather than describing successful resolution.",
+        "evidence_fragment_ids": [
+          "F010294"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 24,
+        "share": 0.96,
+        "summary": "Undetermined examples mainly record RVG being used or attempted for walkthroughs, settings verification, feature activation, navigation help, and image capture without clear satisfaction or dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F008656",
+          "F000786",
+          "F010331",
+          "F000291",
+          "F004193",
+          "F002248",
+          "F003153",
+          "F006683",
+          "F002441",
+          "F004350",
+          "F004956",
+          "F000718",
+          "F007569",
+          "F005078",
+          "F008860"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 25,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00625,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.04,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.96
+          },
+          "negative_rate": 0.04,
+          "negative_or_mixed_rate": 0.04,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.04
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 25,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006593,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.04,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.96
+          },
+          "negative_rate": 0.04,
+          "negative_or_mixed_rate": 0.04,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.04
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.007788,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.05,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.95
+          },
+          "negative_rate": 0.05,
+          "negative_or_mixed_rate": 0.05,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.05
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.008214,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.05,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.95
+          },
+          "negative_rate": 0.05,
+          "negative_or_mixed_rate": 0.05,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.05
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0119",
+      "G70-0135",
+      "G70-0255",
+      "G70-0279",
+      "G70-0832",
+      "G70-0833",
+      "G70-0891",
+      "G70-1147",
+      "G70-1532",
+      "G70-1594",
+      "G70-1808",
+      "G70-1848",
+      "G70-1964",
+      "G70-2384",
+      "G70-2390",
+      "G70-2714",
+      "G70-2899",
+      "G70-2991",
+      "G70-3126",
+      "G70-3140",
+      "G70-3186",
+      "G70-3703",
+      "G70-3718",
+      "G70-3746",
+      "G70-3941"
+    ],
+    "summary": "Most examples simply note writers using RVG to walk customers through settings, verify concerns, or capture documentation, with only one clearly negative mention and too little evaluative detail to assess broader sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "RVG walkthroughs and verification",
+    "source_title": "rvg / writer / walk",
+    "keywords": [
+      {
+        "term": "rvg",
+        "weight": 0.367471
+      },
+      {
+        "term": "writer rvg",
+        "weight": 0.143196
+      },
+      {
+        "term": "writer",
+        "weight": 0.121525
+      },
+      {
+        "term": "rvg walk",
+        "weight": 0.083493
+      },
+      {
+        "term": "walk",
+        "weight": 0.071643
+      },
+      {
+        "term": "capture",
+        "weight": 0.07163
+      },
+      {
+        "term": "captured",
+        "weight": 0.068964
+      },
+      {
+        "term": "rvg captured",
+        "weight": 0.055088
+      },
+      {
+        "term": "verify",
+        "weight": 0.042272
+      },
+      {
+        "term": "activated rvg",
+        "weight": 0.039421
+      },
+      {
+        "term": "writer activated",
+        "weight": 0.039421
+      },
+      {
+        "term": "rvg verify",
+        "weight": 0.035103
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010294",
+        "review_id": "G70-3703",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer allowed RVG so the issue could be documented",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008656",
+        "review_id": "G70-3126",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "RVG Unsuccessful",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000786",
+        "review_id": "G70-0279",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010331",
+        "review_id": "G70-3718",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG to walk through navigation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000291",
+        "review_id": "G70-0135",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG to walk him through: Apps menu",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004193",
+        "review_id": "G70-1532",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG to walk the customer through those settings",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002248",
+        "review_id": "G70-0832",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG to walk the customer through the settings to verify it was turned on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003153",
+        "review_id": "G70-1147",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used Rvg to walk through how to set the climate controls for the back of the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006683",
+        "review_id": "G70-2390",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "RVG was attempted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002441",
+        "review_id": "G70-0891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer, using RVG, directed him to the Climatization menu, where Auto was indeed on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004350",
+        "review_id": "G70-1594",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG to verify the concern",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004956",
+        "review_id": "G70-1808",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "RVG was completed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000718",
+        "review_id": "G70-0255",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer used RVG to verify the button the customer was referencing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007569",
+        "review_id": "G70-2714",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "RVG captured",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005078",
+        "review_id": "G70-1848",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Via RVG, writer directed the customer to tap on Apps>Personal Assistant, and then assisted through RVG in switching the feature on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008860",
+        "review_id": "G70-3186",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked if he was by the vehicle so pictures could be captured with RVG",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 26,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Nearly all sampled fragments are procedural notes with no explicit customer evaluation, so sentiment is largely undetermined.",
+      "The topic centers on a service method rather than a single vehicle issue, spanning verification, feature walkthroughs, and documentation tasks."
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "topic_id": "T0668",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 1,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 1.0,
+        "summary": "Positive feedback says the amenities are great.",
+        "evidence_fragment_ids": [
+          "F006940"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No undetermined reviews are present.",
+        "evidence_fragment_ids": []
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 1,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 1,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.000277,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.000734,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-2473"
+    ],
+    "summary": "The available feedback praises the vehicle's amenities, though the topic is represented by only one example.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Amenities quality",
+    "source_title": "amenities",
+    "keywords": [
+      {
+        "term": "amenities",
+        "weight": 1.0
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006940",
+        "review_id": "G60-2473",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the amenities are great",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 1,
+      "total_topic_fragments": 1,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This summary is based on a single review fragment, so examples are insufficient to capture a broader range of amenities feedback.",
+      "The evidence is very brief and does not specify which amenities are being praised."
+    ]
+  }
+}

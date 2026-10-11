@@ -1,0 +1,39 @@
+{
+  "title": "Florida dealer and service mentions",
+  "summary": "This topic combines a positive mention of Maria at a Florida dealer with other fragments that are mainly location or contact references and one service-delay complaint, so the sample is not fully coherent.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive feedback praises Maria at a Florida dealership as helpful and says an issue was not a problem with her assistance.",
+      "evidence_fragment_ids": [
+        "F010675",
+        "F010678"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mostly mention Florida locations or contact information, while one also describes a service visit where the car was held without inspection and the issue was blamed on user error.",
+      "evidence_fragment_ids": [
+        "F009363",
+        "F004021",
+        "F009361"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes unrelated elements including a named staff member, Florida location references, contact information, and a service experience.",
+    "Most of the sample is undetermined, so the overall theme and sentiment are only partly clear.",
+    "One complaint-like fragment appears under undetermined sentiment, so it should not be treated as a confirmed negative review."
+  ]
+}

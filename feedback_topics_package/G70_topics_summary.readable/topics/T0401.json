@@ -1,0 +1,482 @@
+{
+  "topic_id": "T0401",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 7,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.142857,
+      "US": 0.857143
+    },
+    "engine_type": {
+      "BEVE": 0.571429,
+      "ICE": 0.142857,
+      "PHEV": 0.285714
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.571429,
+        "summary": "Negative reviews describe the front end sitting too low, causing curb contact or requiring the car to be lifted when entering driveways.",
+        "evidence_fragment_ids": [
+          "F004082",
+          "F005712",
+          "F011073",
+          "F003850"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.428571,
+        "summary": "Undetermined reviews use vague references to minor issues without enough detail to confirm whether they concern ground clearance.",
+        "evidence_fragment_ids": [
+          "F009907",
+          "F007731",
+          "F006192"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 7,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00175,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 6,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001582,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.000389,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.000411,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-1407",
+      "G70-1489",
+      "G70-2053",
+      "G70-2230",
+      "G70-2781",
+      "G70-3560",
+      "G70-3995"
+    ],
+    "summary": "Reviews in this topic mainly mention low front-end ground clearance, though several sampled fragments are too vague to confirm the exact issue.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Low Front Ground Clearance",
+    "source_title": "minor / insufficient ground / problem insufficient",
+    "keywords": [
+      {
+        "term": "minor",
+        "weight": 0.479625
+      },
+      {
+        "term": "insufficient ground",
+        "weight": 0.125369
+      },
+      {
+        "term": "problem insufficient",
+        "weight": 0.125369
+      },
+      {
+        "term": "clearance",
+        "weight": 0.122222
+      },
+      {
+        "term": "ground clearance",
+        "weight": 0.122222
+      },
+      {
+        "term": "insufficient",
+        "weight": 0.109873
+      },
+      {
+        "term": "ground",
+        "weight": 0.107699
+      },
+      {
+        "term": "clearance front",
+        "weight": 0.082198
+      },
+      {
+        "term": "minor problem",
+        "weight": 0.081297
+      },
+      {
+        "term": "gave",
+        "weight": 0.077565
+      },
+      {
+        "term": "paying",
+        "weight": 0.074499
+      },
+      {
+        "term": "front end",
+        "weight": 0.071413
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004082",
+        "review_id": "G70-1489",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Insufficient ground clearance: \"Front end is extremely low, partly on me, didnt know about height raising abilty",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009907",
+        "review_id": "G70-3560",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "a few things are minor",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005712",
+        "review_id": "G70-2053",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Insufficient ground clearance: \"front end sits too low and it ends up curbing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007731",
+        "review_id": "G70-2781",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "they seem minor,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011073",
+        "review_id": "G70-3995",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Insufficient ground clearance: \"Need to lift the car up whenever I pull into or out of the driveway\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003850",
+        "review_id": "G70-1407",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i gave it a 9 instead of a 10 only because there are a few minor issues with this new version of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006192",
+        "review_id": "G70-2230",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "says that is minor compared to paying for fuel cots",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 7,
+      "total_topic_fragments": 7,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several sampled fragments are too vague to verify the specific problem, so the topic includes some insufficiently grounded examples.",
+      "One negative fragment mentions only unspecified minor issues, which weakens confidence that every example is specifically about ground clearance.",
+      "The sample is small and sentiment-stratified, so it should not be treated as representative of all G70 reviews."
+    ]
+  }
+}

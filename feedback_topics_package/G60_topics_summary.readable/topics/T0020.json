@@ -1,0 +1,637 @@
+{
+  "topic_id": "T0020",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 65,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.107692,
+      "ICE": 0.846154,
+      "PHEV": 0.046154
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.076923,
+        "summary": "Positive reviews praise using remote start and mention auto start-stop working well, though the positive sample is limited.",
+        "evidence_fragment_ids": [
+          "F007404",
+          "F001269"
+        ]
+      },
+      "negative": {
+        "count": 17,
+        "share": 0.261538,
+        "summary": "Negative reviews focus on wanting auto start-stop to stay off permanently, disliking the feature, and finding restart behavior harsh or jolting.",
+        "evidence_fragment_ids": [
+          "F007743",
+          "F003768",
+          "F004536",
+          "F006553",
+          "F004928",
+          "F004610",
+          "F008711",
+          "F001744"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.015385,
+        "summary": "The mixed review expresses only mild dissatisfaction with auto start-stop and a desire to disable it permanently.",
+        "evidence_fragment_ids": [
+          "F002173"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 42,
+        "share": 0.646154,
+        "summary": "Undetermined reviews describe requests for remote start, use of remote start, references to the lack of an auto start-stop off option, and one note that the feature works well without clear evaluative context.",
+        "evidence_fragment_ids": [
+          "F010395",
+          "F000219",
+          "F002677",
+          "F009541",
+          "F005579"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 65,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01625,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 17,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 42
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.261538,
+            "mixed": 0.015385,
+            "neutral": 0.0,
+            "undetermined": 0.646154
+          },
+          "negative_rate": 0.261538,
+          "negative_or_mixed_rate": 0.276923,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.353846
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 65,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.018006,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 17,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 42
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.261538,
+            "mixed": 0.015385,
+            "neutral": 0.0,
+            "undetermined": 0.646154
+          },
+          "negative_rate": 0.261538,
+          "negative_or_mixed_rate": 0.276923,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.353846
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005136,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        },
+        "ICE": {
+          "review_count": 55,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.024347,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 17,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 33
+          },
+          "sentiment_shares": {
+            "positive": 0.072727,
+            "negative": 0.309091,
+            "mixed": 0.018182,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.309091,
+          "negative_or_mixed_rate": 0.327273,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.005507,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        },
+        "ICE": {
+          "review_count": 55,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.027268,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 17,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 33
+          },
+          "sentiment_shares": {
+            "positive": 0.072727,
+            "negative": 0.309091,
+            "mixed": 0.018182,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.309091,
+          "negative_or_mixed_rate": 0.327273,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 12,
+    "review_ids": [
+      "G60-0005",
+      "G60-0011",
+      "G60-0019",
+      "G60-0059",
+      "G60-0081",
+      "G60-0146",
+      "G60-0157",
+      "G60-0316",
+      "G60-0330",
+      "G60-0451",
+      "G60-0623",
+      "G60-0643",
+      "G60-0654",
+      "G60-0708",
+      "G60-0734",
+      "G60-0776",
+      "G60-0878",
+      "G60-0951",
+      "G60-1007",
+      "G60-1082",
+      "G60-1113",
+      "G60-1126",
+      "G60-1326",
+      "G60-1332",
+      "G60-1349",
+      "G60-1626",
+      "G60-1628",
+      "G60-1651",
+      "G60-1676",
+      "G60-1732",
+      "G60-1752",
+      "G60-1756",
+      "G60-1984",
+      "G60-2000",
+      "G60-2063",
+      "G60-2116",
+      "G60-2245",
+      "G60-2264",
+      "G60-2268",
+      "G60-2345",
+      "G60-2392",
+      "G60-2418",
+      "G60-2567",
+      "G60-2642",
+      "G60-2771",
+      "G60-2836",
+      "G60-2876",
+      "G60-3000",
+      "G60-3002",
+      "G60-3062",
+      "G60-3117",
+      "G60-3147",
+      "G60-3159",
+      "G60-3213",
+      "G60-3311",
+      "G60-3323",
+      "G60-3414",
+      "G60-3430",
+      "G60-3548",
+      "G60-3612",
+      "G60-3614",
+      "G60-3689",
+      "G60-3724",
+      "G60-3956",
+      "G60-3993"
+    ],
+    "summary": "Feedback on this topic centers on dissatisfaction with auto start-stop behavior and controls, while a smaller set of comments mentions remote start favorably or descriptively.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "elevated_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 18,
+        "denominator": 55,
+        "rate": 0.327273,
+        "comparison_numerator": 0,
+        "comparison_denominator": 10,
+        "comparison_rate": 0.0,
+        "gap_percentage_points": 32.727,
+        "statement": "In engine_type=ICE, 18 of 55 reviews (32.7%) are negative or mixed. The rest of this breakdown: 0 of 10 (0.0%).",
+        "interpretation": "The exploratory signal indicates that negative or mixed feedback in this topic is associated with ICE examples, while the non-ICE comparison examples shown here do not include negative or mixed sentiment.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Auto start-stop and remote start",
+    "source_title": "start / stop / remote",
+    "keywords": [
+      {
+        "term": "start",
+        "weight": 0.220095
+      },
+      {
+        "term": "stop",
+        "weight": 0.124048
+      },
+      {
+        "term": "start stop",
+        "weight": 0.108853
+      },
+      {
+        "term": "remote",
+        "weight": 0.09213
+      },
+      {
+        "term": "engine",
+        "weight": 0.081126
+      },
+      {
+        "term": "engine start",
+        "weight": 0.078962
+      },
+      {
+        "term": "auto",
+        "weight": 0.07376
+      },
+      {
+        "term": "auto start",
+        "weight": 0.058194
+      },
+      {
+        "term": "remote engine",
+        "weight": 0.049831
+      },
+      {
+        "term": "stop start",
+        "weight": 0.048844
+      },
+      {
+        "term": "customer",
+        "weight": 0.046775
+      },
+      {
+        "term": "stated remote",
+        "weight": 0.039313
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007404",
+        "review_id": "G60-2642",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked how he is turning Auto Start/Stop off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007743",
+        "review_id": "G60-2771",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Automatic engine stop-start - Controls DTU/poorly located: \"(Copied from DRE97): the auto start/stop setting cannot be programmed to stay off, so i have to switch it off each time i start the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002173",
+        "review_id": "G60-0776",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Automatic engine stop-start - Controls DTU/poorly located: \"I would like to shut this feature off for good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010395",
+        "review_id": "G60-3724",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like to have Remote Engine Start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003768",
+        "review_id": "G60-1349",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is unhappy with the auto engine start stop feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001269",
+        "review_id": "G60-0451",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated likes using remote start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004536",
+        "review_id": "G60-1626",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would prefer to have the auto engine start stop turned off permanently",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000219",
+        "review_id": "G60-0081",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is also no option to turn off the auto start/stop",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006553",
+        "review_id": "G60-2345",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like a permanent option to keep the Automatic engine start-stop turned off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004928",
+        "review_id": "G60-1752",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer also instructed the customer to make sure the Remote Engine Start disclaimer is accepted in the Climate Menu under General settings, Pre-conditioning, Remote Engine Start, Start engine for climate control, and then confirm the disclaimer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002677",
+        "review_id": "G60-0951",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he makes use of the Remote Engine Start feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004610",
+        "review_id": "G60-1651",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is unhappy that there is no option to switch off the automatic engine start stop on this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009541",
+        "review_id": "G60-3430",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer stated the automatic engine start/stop works really well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008711",
+        "review_id": "G60-3117",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Automatic engine stop-start - Controls DTU/poorly located: \"I really can't stand the automatic stop/start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005579",
+        "review_id": "G60-1984",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that in his last BMW there was a button to turn off auto start stop,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001744",
+        "review_id": "G60-0623",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Automatic engine stop-start problem: \"The auto stop/start feels harsh and jolts the whole car when it fires back up, unlike prior models that were smoother",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 84,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled examples are undetermined, so the evaluative picture is limited.",
+      "This topic mixes two related but distinct subjects, auto start-stop and remote engine start, which reduces thematic coherence.",
+      "Sampled fragments are stratified examples and should not be treated as representative of all reviews on this topic."
+    ]
+  }
+}

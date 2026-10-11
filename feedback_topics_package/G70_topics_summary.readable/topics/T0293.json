@@ -1,0 +1,529 @@
+{
+  "topic_id": "T0293",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.1,
+      "KR": 0.1,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.2,
+      "ICE": 0.8
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "One positive review says the dealer's parts department was the best source for information on available run-flat options.",
+        "evidence_fragment_ids": [
+          "F006229"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 9,
+        "share": 0.9,
+        "summary": "Undetermined reviews mention waiting for parts, lack of availability, contact with the parts department, and a few unclear or unrelated difficulty references without enough context to label sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F005433",
+          "F003000",
+          "F006395",
+          "F010204",
+          "F002135",
+          "F007114",
+          "F000279",
+          "F005525",
+          "F008137"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.1
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00211,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.125
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003115,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.125
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002875,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.142857
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0130",
+      "G70-0792",
+      "G70-1082",
+      "G70-1964",
+      "G70-1987",
+      "G70-2248",
+      "G70-2301",
+      "G70-2566",
+      "G70-2922",
+      "G70-3674"
+    ],
+    "summary": "This topic mainly contains parts-availability and parts-department references, but most examples do not provide enough sentiment evidence and one example appears unrelated to vehicle parts.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Parts availability and parts department contact",
+    "source_title": "parts / difficulty / available",
+    "keywords": [
+      {
+        "term": "parts",
+        "weight": 0.353209
+      },
+      {
+        "term": "parts available",
+        "weight": 0.132966
+      },
+      {
+        "term": "parts department",
+        "weight": 0.11936
+      },
+      {
+        "term": "difficulty",
+        "weight": 0.11696
+      },
+      {
+        "term": "available",
+        "weight": 0.108149
+      },
+      {
+        "term": "department",
+        "weight": 0.097091
+      },
+      {
+        "term": "remaining",
+        "weight": 0.096202
+      },
+      {
+        "term": "parts arrived",
+        "weight": 0.088025
+      },
+      {
+        "term": "arrived",
+        "weight": 0.073247
+      },
+      {
+        "term": "percent",
+        "weight": 0.056631
+      },
+      {
+        "term": "available back",
+        "weight": 0.056288
+      },
+      {
+        "term": "call",
+        "weight": 0.053976
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006229",
+        "review_id": "G70-2248",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer advised that speaking with the dealer's parts department would be the best way to learn about available run flat options",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005433",
+        "review_id": "G70-1964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that 5 of the 7 parts have arrived so far and he is still waiting for the remaining parts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003000",
+        "review_id": "G70-1082",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "YOU WILL RECEIVE MAIL NOTIFICATION WHEN PARTS ARE IN, OR CALL OUR PARTS DEPARTMENT AT 736-1943",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006395",
+        "review_id": "G70-2301",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there were no parts available in the us and i didnt get it back for about 45 days",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010204",
+        "review_id": "G70-3674",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it has then sat in the garage for the past six weeks, with no timeline because parts are still not available",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002135",
+        "review_id": "G70-0792",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised reaching out to the parts department rather than service",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007114",
+        "review_id": "G70-2566",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer had difficulty learning parts of the software,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000279",
+        "review_id": "G70-0130",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when it breaks down and needs repair, korean parts arent available, so the repair ends up taking a long time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005525",
+        "review_id": "G70-1987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "has not received a call back confirming that the parts have arrived",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008137",
+        "review_id": "G70-2922",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "has difficulty with the remaining 30 percent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, so the available evidence for clear sentiment is limited.",
+      "The topic cluster mixes parts availability and department-contact comments with at least one likely unrelated software-learning fragment and one vague difficulty fragment.",
+      "Several undetermined fragments contain wording that sounds negative, but the provided labels do not support reclassifying them."
+    ]
+  }
+}

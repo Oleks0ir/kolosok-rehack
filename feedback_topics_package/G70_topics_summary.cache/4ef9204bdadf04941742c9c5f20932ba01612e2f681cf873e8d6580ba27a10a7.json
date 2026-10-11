@@ -1,0 +1,42 @@
+{
+  "title": "Technician diagnostic notes",
+  "summary": "The topic is dominated by technician-note and diagnosis fragments that mostly document service interactions without enough detail to determine customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mainly consist of brief technician-note labels and partial statements about diagnosis attempts or an avoidable return visit, which do not provide enough context for a clear sentiment judgment.",
+      "evidence_fragment_ids": [
+        "F001057",
+        "F007325",
+        "F000696",
+        "F002970",
+        "F004095",
+        "F007501",
+        "F008753",
+        "F009253",
+        "F009702"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most fragments are only the label \"Technician Notes:\" and lack substantive content.",
+    "The examples are too sparse and truncated to identify specific vehicle issues or evaluate sentiment beyond undetermined.",
+    "This cluster is based on service-note language rather than full customer feedback, limiting interpretability."
+  ]
+}

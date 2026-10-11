@@ -1,0 +1,776 @@
+{
+  "topic_id": "T0034",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 48,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.020833,
+      "JP": 0.083333,
+      "KR": 0.104167,
+      "US": 0.791667
+    },
+    "engine_type": {
+      "BEVE": 0.3125,
+      "ICE": 0.645833,
+      "PHEV": 0.041667
+    },
+    "sentiment": {
+      "positive": {
+        "count": 10,
+        "share": 0.208333,
+        "summary": "Positive reviews say the vehicle is more fun to drive or more comfortable than a Mercedes S-Class, and one comment says BMW should emulate Mercedes handling.",
+        "evidence_fragment_ids": [
+          "F001034",
+          "F009723",
+          "F004732",
+          "F001997"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.020833,
+        "summary": "The lone negative review says a Mercedes S-Class had superior collision-avoidance behavior by stopping before impact.",
+        "evidence_fragment_ids": [
+          "F009876"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 37,
+        "share": 0.770833,
+        "summary": "Undetermined reviews mostly mention prior Mercedes ownership or shopping comparisons with Mercedes and Audi, with a few references to cooling systems, EV range, or luxury impressions that do not clearly resolve sentiment for this topic.",
+        "evidence_fragment_ids": [
+          "F008546",
+          "F010206",
+          "F000466",
+          "F001316",
+          "F005085",
+          "F002758",
+          "F010497",
+          "F008708",
+          "F007927",
+          "F008386",
+          "F000842"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 48,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.012,
+          "sentiment_counts": {
+            "positive": 10,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 37
+          },
+          "sentiment_shares": {
+            "positive": 0.208333,
+            "negative": 0.020833,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.770833
+          },
+          "negative_rate": 0.020833,
+          "negative_or_mixed_rate": 0.020833,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.229167
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 4,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.1,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 5,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.036496,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.4,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.4
+        },
+        "US": {
+          "review_count": 38,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.010021,
+          "sentiment_counts": {
+            "positive": 8,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 29
+          },
+          "sentiment_shares": {
+            "positive": 0.210526,
+            "negative": 0.026316,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.763158
+          },
+          "negative_rate": 0.026316,
+          "negative_or_mixed_rate": 0.026316,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.236842
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.013286,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        },
+        "ICE": {
+          "review_count": 31,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.012072,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.225806,
+            "negative": 0.032258,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.741935
+          },
+          "negative_rate": 0.032258,
+          "negative_or_mixed_rate": 0.032258,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.258065
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.133333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 29,
+          "topic_prevalence_in_source_segment": 0.034483,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.040816,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.012093,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.846154
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.153846
+        },
+        "ICE": {
+          "review_count": 23,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.009446,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.26087,
+            "negative": 0.043478,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.695652
+          },
+          "negative_rate": 0.043478,
+          "negative_or_mixed_rate": 0.043478,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.304348
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0195",
+      "G70-0308",
+      "G70-0336",
+      "G70-0346",
+      "G70-0397",
+      "G70-0432",
+      "G70-0492",
+      "G70-0630",
+      "G70-0631",
+      "G70-0704",
+      "G70-0741",
+      "G70-0996",
+      "G70-1055",
+      "G70-1151",
+      "G70-1176",
+      "G70-1295",
+      "G70-1394",
+      "G70-1455",
+      "G70-1583",
+      "G70-1682",
+      "G70-1722",
+      "G70-1753",
+      "G70-1853",
+      "G70-1978",
+      "G70-2249",
+      "G70-2251",
+      "G70-2346",
+      "G70-2455",
+      "G70-2489",
+      "G70-2665",
+      "G70-2685",
+      "G70-2857",
+      "G70-2895",
+      "G70-2927",
+      "G70-2970",
+      "G70-3017",
+      "G70-3085",
+      "G70-3138",
+      "G70-3142",
+      "G70-3182",
+      "G70-3491",
+      "G70-3542",
+      "G70-3548",
+      "G70-3608",
+      "G70-3674",
+      "G70-3752",
+      "G70-3758",
+      "G70-3771"
+    ],
+    "summary": "Reviews in this topic mainly reference Mercedes, especially the S-Class, as a comparison point for comfort, driving feel, luxury, safety features, cooling, and EV range, with many mentions lacking a clear sentiment about the compared vehicle.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Comparisons with Mercedes S-Class and Audi",
+    "source_title": "mercedes / class / audi",
+    "keywords": [
+      {
+        "term": "mercedes",
+        "weight": 0.268123
+      },
+      {
+        "term": "class",
+        "weight": 0.126796
+      },
+      {
+        "term": "audi",
+        "weight": 0.075555
+      },
+      {
+        "term": "mercedes benz",
+        "weight": 0.06161
+      },
+      {
+        "term": "benz",
+        "weight": 0.060303
+      },
+      {
+        "term": "mercedes class",
+        "weight": 0.05067
+      },
+      {
+        "term": "customer",
+        "weight": 0.047673
+      },
+      {
+        "term": "mentioned mercedes",
+        "weight": 0.042379
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.041522
+      },
+      {
+        "term": "stated",
+        "weight": 0.040837
+      },
+      {
+        "term": "stated mercedes",
+        "weight": 0.037332
+      },
+      {
+        "term": "compared",
+        "weight": 0.036572
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001034",
+        "review_id": "G70-0397",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated BMW should handle this like Mercedes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009876",
+        "review_id": "G70-3548",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that, for instance, his Mercedes S-Class made it almost impossible to drive into a wall because it would come to a complete stop before a collision occurred",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008546",
+        "review_id": "G70-3085",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the Mercedes S500 on the same day",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009723",
+        "review_id": "G70-3491",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that this vehicle is significantly more fun to drive when compared to his 2022 Mercedes S class",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010206",
+        "review_id": "G70-3674",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i should have stayed with the mercedes s class",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000466",
+        "review_id": "G70-0195",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he came over to BMW from Mercedes and that Mercedes has a much better system for cooling the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004732",
+        "review_id": "G70-1722",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the ride is extremely comfortable, more so than the Mercedes S Class",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001316",
+        "review_id": "G70-0492",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i was also looking at the mercedes-benz s-class,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005085",
+        "review_id": "G70-1853",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he had a new Mercedes S Class on order, then came across this BMW",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002758",
+        "review_id": "G70-0996",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that after many years in a Mercedes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010497",
+        "review_id": "G70-3758",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she would like to at least match the range she was getting from her Mercedes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001997",
+        "review_id": "G70-0741",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she is pleased with the interior comfort and feels this car is more comfortable than her previous Mercedes S-Class",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008708",
+        "review_id": "G70-3138",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "compared to audi and mercedes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007927",
+        "review_id": "G70-2857",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it feels more composed and more luxurious than the mercedes-benz s",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008386",
+        "review_id": "G70-3017",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i think this point really has to be taken into account when comparing against mercedes-benz and audi",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000842",
+        "review_id": "G70-0308",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the ride feels very luxurious and mentioned this is their first BMW after owning Mercedes cars before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 51,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the topic is dominated by brand-comparison mentions without clear evaluative sentiment.",
+      "The examples focus heavily on Mercedes S-Class comparisons, but the keyword set also includes Audi and the sample provides limited concrete Audi-specific detail.",
+      "Some fragments are very short or context-dependent, which limits confidence about the exact comparison point or sentiment."
+    ]
+  }
+}

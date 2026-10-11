@@ -1,0 +1,620 @@
+{
+  "topic_id": "T0132",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "CA": 0.052632,
+      "KR": 0.052632,
+      "US": 0.894737
+    },
+    "engine_type": {
+      "BEVE": 0.315789,
+      "ICE": 0.684211
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.052632,
+        "summary": "One positive review says the vehicle operated normally after an alert and reported no starting issues.",
+        "evidence_fragment_ids": [
+          "F003392"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.052632,
+        "summary": "One negative review describes the vehicle being in the shop for diagnosis and repair of the issue.",
+        "evidence_fragment_ids": [
+          "F010363"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 17,
+        "share": 0.894737,
+        "summary": "Undetermined reviews mainly report waiting for parts, repairs, or supplier items without enough sentiment detail to classify them more clearly.",
+        "evidence_fragment_ids": [
+          "F005948",
+          "F007484",
+          "F007068",
+          "F005319",
+          "F001384",
+          "F005522",
+          "F004568",
+          "F001335",
+          "F006411",
+          "F007724",
+          "F001522"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.052632,
+            "negative": 0.052632,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.894737
+          },
+          "negative_rate": 0.052632,
+          "negative_or_mixed_rate": 0.052632,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.105263
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 17,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004483,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.058824,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.882353
+          },
+          "negative_rate": 0.058824,
+          "negative_or_mixed_rate": 0.058824,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.117647
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.005314,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005062,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.923077
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.076923
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.004928,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.916667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.083333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0140",
+      "G70-0497",
+      "G70-0519",
+      "G70-0557",
+      "G70-0931",
+      "G70-1223",
+      "G70-1670",
+      "G70-1700",
+      "G70-1931",
+      "G70-1987",
+      "G70-2140",
+      "G70-2306",
+      "G70-2540",
+      "G70-2619",
+      "G70-2694",
+      "G70-2779",
+      "G70-3358",
+      "G70-3728",
+      "G70-3761"
+    ],
+    "summary": "This topic centers on customers waiting for parts, repairs, or shop diagnosis, with most examples describing status updates rather than clear evaluations.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Waiting for Parts and Repairs",
+    "source_title": "waiting / currently / customer stated",
+    "keywords": [
+      {
+        "term": "waiting",
+        "weight": 0.336834
+      },
+      {
+        "term": "currently",
+        "weight": 0.148264
+      },
+      {
+        "term": "currently waiting",
+        "weight": 0.091109
+      },
+      {
+        "term": "stated currently",
+        "weight": 0.080227
+      },
+      {
+        "term": "stated waiting",
+        "weight": 0.075323
+      },
+      {
+        "term": "waiting parts",
+        "weight": 0.069942
+      },
+      {
+        "term": "waiting part",
+        "weight": 0.064782
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.05838
+      },
+      {
+        "term": "germany",
+        "weight": 0.057606
+      },
+      {
+        "term": "stated",
+        "weight": 0.057416
+      },
+      {
+        "term": "shop",
+        "weight": 0.056866
+      },
+      {
+        "term": "customer",
+        "weight": 0.056476
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003392",
+        "review_id": "G70-1223",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she had no issues starting the vehicle after receiving the phone alert, and that the vehicle is currently operating normally",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010363",
+        "review_id": "G70-3728",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the vehicle is currently in the shop for diagnosis and repair of this issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005948",
+        "review_id": "G70-2140",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have been waiting more than a month since then",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007484",
+        "review_id": "G70-2694",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they are still waiting for this to be corrected, as they are currently out of town",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004673",
+        "review_id": "G70-1700",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is currently waiting for BMW to offer a front windshield sunscreen specifically for this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007068",
+        "review_id": "G70-2540",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer also noted he is currently waiting for a part",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005319",
+        "review_id": "G70-1931",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is currently waiting for the paint department to match the color and refit the charging door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001384",
+        "review_id": "G70-0519",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the rear window has an internal crack on the driver side and they are currently waiting for parts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010502",
+        "review_id": "G70-3761",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted his vehicle is currently in the dealership shop because the engine has begun to sputter or \"shimmy\" while stopped after waiting for a bit",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005522",
+        "review_id": "G70-1987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they are now waiting on those parts from Germany",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004568",
+        "review_id": "G70-1670",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she took the vehicle in for service, they ordered a replacement seat for her, and she is currently waiting for it to be repaired",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001335",
+        "review_id": "G70-0497",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned the vehicle is still at the shop waiting on a part from Germany",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006411",
+        "review_id": "G70-2306",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "im still waiting for the parts to show up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002564",
+        "review_id": "G70-0931",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is still waiting for BMW to come out with a rear trunk mat for the i7",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007724",
+        "review_id": "G70-2779",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have already run into trouble with one of the power doors and am still waiting on a part coming from germany",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "CA",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001522",
+        "review_id": "G70-0557",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after a few days of waiting they replaced the latch",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined status updates, so clear customer sentiment is often not available.",
+      "The examples mix repair delays, parts availability, shop status, and requests for accessories, so the topic is somewhat heterogeneous.",
+      "Some fragments reference other brands or products, which limits confidence that all examples reflect the same underlying issue."
+    ]
+  }
+}

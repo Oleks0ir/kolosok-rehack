@@ -1,0 +1,652 @@
+{
+  "topic_id": "T0031",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 50,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.02,
+      "US": 0.98
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.5,
+      "PHEV": 0.1
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.14,
+        "summary": "Positive reviews praise strong braking performance and useful regenerative braking range recovery.",
+        "evidence_fragment_ids": [
+          "F007935",
+          "F000294",
+          "F004973"
+        ]
+      },
+      "negative": {
+        "count": 8,
+        "share": 0.16,
+        "summary": "Negative reviews focus on brake squeaking or squealing, brake dust buildup, and other braking concerns with limited detail in some examples.",
+        "evidence_fragment_ids": [
+          "F008678",
+          "F004805",
+          "F008075",
+          "F006746",
+          "F001137"
+        ]
+      },
+      "mixed": {
+        "count": 2,
+        "share": 0.04,
+        "summary": "Mixed reviews mention brake noise or dust but the examples are too limited to clearly capture the offsetting positive element.",
+        "evidence_fragment_ids": [
+          "F004344",
+          "F008824"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 33,
+        "share": 0.66,
+        "summary": "Undetermined reviews mention brakes, pedal feel, calipers, or regenerative braking behavior without enough context to assign a clear sentiment.",
+        "evidence_fragment_ids": [
+          "F003431",
+          "F009845",
+          "F007347",
+          "F008429",
+          "F003780"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 50,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0125,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 8,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 33
+          },
+          "sentiment_shares": {
+            "positive": 0.14,
+            "negative": 0.16,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.66
+          },
+          "negative_rate": 0.16,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.34
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 49,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.013573,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 8,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 32
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.163265,
+            "mixed": 0.040816,
+            "neutral": 0.0,
+            "undetermined": 0.653061
+          },
+          "negative_rate": 0.163265,
+          "negative_or_mixed_rate": 0.204082,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.346939
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 20,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.014674,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.15,
+            "negative": 0.1,
+            "mixed": 0.05,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.3,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.011067,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.12,
+            "negative": 0.24,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.24,
+          "negative_or_mixed_rate": 0.28,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.7,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.013228,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 20,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.015736,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.15,
+            "negative": 0.1,
+            "mixed": 0.05,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.3,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 24,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.011899,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.041667,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.291667,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.7,
+          "known_sentiment_share": 0.416667
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.015528,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0005",
+      "G60-0113",
+      "G60-0124",
+      "G60-0240",
+      "G60-0292",
+      "G60-0403",
+      "G60-0508",
+      "G60-0604",
+      "G60-0643",
+      "G60-0695",
+      "G60-0792",
+      "G60-0843",
+      "G60-0844",
+      "G60-0851",
+      "G60-0868",
+      "G60-1151",
+      "G60-1205",
+      "G60-1226",
+      "G60-1291",
+      "G60-1340",
+      "G60-1350",
+      "G60-1555",
+      "G60-1644",
+      "G60-1704",
+      "G60-1709",
+      "G60-1753",
+      "G60-1776",
+      "G60-2029",
+      "G60-2060",
+      "G60-2110",
+      "G60-2264",
+      "G60-2307",
+      "G60-2412",
+      "G60-2545",
+      "G60-2604",
+      "G60-2622",
+      "G60-2629",
+      "G60-2788",
+      "G60-2840",
+      "G60-2881",
+      "G60-2886",
+      "G60-3021",
+      "G60-3109",
+      "G60-3150",
+      "G60-3169",
+      "G60-3296",
+      "G60-3530",
+      "G60-3578",
+      "G60-3704",
+      "G60-3946"
+    ],
+    "summary": "Feedback on braking centers on strong stopping performance and regenerative braking appreciation, alongside complaints about squeaking, brake dust, abrupt braking feel, and many fragments that lack enough context to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Brake feel, noise, and regenerative braking",
+    "source_title": "brake / pedal / regenerative",
+    "keywords": [
+      {
+        "term": "brake",
+        "weight": 0.315437
+      },
+      {
+        "term": "stated brake",
+        "weight": 0.064265
+      },
+      {
+        "term": "pedal",
+        "weight": 0.063184
+      },
+      {
+        "term": "regenerative",
+        "weight": 0.049115
+      },
+      {
+        "term": "regenerative brake",
+        "weight": 0.049115
+      },
+      {
+        "term": "brake pedal",
+        "weight": 0.048522
+      },
+      {
+        "term": "customer",
+        "weight": 0.043469
+      },
+      {
+        "term": "noise",
+        "weight": 0.041479
+      },
+      {
+        "term": "dust",
+        "weight": 0.036657
+      },
+      {
+        "term": "brake dust",
+        "weight": 0.03563
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.032821
+      },
+      {
+        "term": "brake noise",
+        "weight": 0.032351
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007935",
+        "review_id": "G60-2840",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the brakes can feel especially strong and powerful, which may make the braking feel more aggressive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008678",
+        "review_id": "G60-3109",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the car is braking at the same time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004344",
+        "review_id": "G60-1555",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "Driving Conditions Brake Noise: In dry conditions, In warm weather, When braking normally, Describe Brake Noise: Other noise",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003431",
+        "review_id": "G60-1226",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the brakes do not feel like brand new brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000294",
+        "review_id": "G60-0113",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer expressed being impressed by the regenerative braking, noting it recovers about 2 miles of range while braking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004805",
+        "review_id": "G60-1709",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that with the M brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008824",
+        "review_id": "G60-3150",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "there is a lot of brake dust collecting on the front wheels",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009845",
+        "review_id": "G60-3530",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the brakes are squealing a lot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008075",
+        "review_id": "G60-2886",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Excessive brake dust: \"BMW brakes are known for having a lot of dust build up on the brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007347",
+        "review_id": "G60-2622",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that in the regenerative braking mode, even the setting meant for slower braking makes the car stop too abruptly and he does not think his lights come on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008429",
+        "review_id": "G60-3021",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the red caliper brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006746",
+        "review_id": "G60-2412",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated her brakes are squeaking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001137",
+        "review_id": "G60-0403",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported that the vehicle has been producing a squeaking sound from the brakes after only about four weeks of ownership, and that the issue happens whenever the brake pedal is pressed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005917",
+        "review_id": "G60-2110",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "the brakes make a lot of noise",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003780",
+        "review_id": "G60-1350",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "still feel the brake pedal while driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004973",
+        "review_id": "G60-1776",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the car's braking performance is very good and called it the second-best feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 71,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined or very short, which limits confidence in identifying specific sentiment themes.",
+      "Several assigned sentiments do not match the fragment wording alone, so the surrounding review context is missing.",
+      "The topic includes related but distinct subtopics such as brake noise, brake dust, pedal feel, and regenerative braking, which reduces thematic coherence in the sample."
+    ]
+  }
+}

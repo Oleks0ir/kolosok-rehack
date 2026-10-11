@@ -1,0 +1,569 @@
+{
+  "topic_id": "T0168",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.0625,
+      "US": 0.9375
+    },
+    "engine_type": {
+      "BEVE": 0.3125,
+      "ICE": 0.6875
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.1875,
+        "summary": "Positive reviews mention acceptable or expected braking responses around stopped vehicles and one temporary seat-function issue that resumed after a warning cleared.",
+        "evidence_fragment_ids": [
+          "F007514",
+          "F003391",
+          "F008133"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.125,
+        "summary": "Negative reviews describe specific functions stopping unexpectedly, including steering assist and a door-touch temperature display control.",
+        "evidence_fragment_ids": [
+          "F006909",
+          "F005814"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.6875,
+        "summary": "Undetermined reviews reference stopped traffic, full-stop behavior, or features that stopped functioning, but the fragments do not provide enough context to confirm a clear evaluation.",
+        "evidence_fragment_ids": [
+          "F001716",
+          "F007326",
+          "F001810",
+          "F010368",
+          "F000845",
+          "F004125",
+          "F003483",
+          "F010392",
+          "F010671",
+          "F008035",
+          "F006734"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 16,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.004,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.1875,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3125
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 15,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003956,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.266667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.004429,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.4
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.004283,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.727273
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.272727
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.4
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.004107,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0311",
+      "G70-0631",
+      "G70-0667",
+      "G70-1223",
+      "G70-1264",
+      "G70-1502",
+      "G70-2095",
+      "G70-2409",
+      "G70-2474",
+      "G70-2628",
+      "G70-2695",
+      "G70-2898",
+      "G70-2921",
+      "G70-3729",
+      "G70-3735",
+      "G70-3828"
+    ],
+    "summary": "This topic mixes feature stoppages and traffic-stop or braking behavior, with many fragments too brief or ambiguous to determine clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Stopped Functioning and Traffic Stop Behavior",
+    "source_title": "stopped / functioning / traffic",
+    "keywords": [
+      {
+        "term": "stopped",
+        "weight": 0.376975
+      },
+      {
+        "term": "stopped functioning",
+        "weight": 0.118823
+      },
+      {
+        "term": "functioning",
+        "weight": 0.097244
+      },
+      {
+        "term": "stopped traffic",
+        "weight": 0.089524
+      },
+      {
+        "term": "traffic",
+        "weight": 0.088905
+      },
+      {
+        "term": "full stop",
+        "weight": 0.062347
+      },
+      {
+        "term": "stop",
+        "weight": 0.062264
+      },
+      {
+        "term": "ahead stopped",
+        "weight": 0.055878
+      },
+      {
+        "term": "brake",
+        "weight": 0.054182
+      },
+      {
+        "term": "stopped working",
+        "weight": 0.049568
+      },
+      {
+        "term": "full",
+        "weight": 0.045302
+      },
+      {
+        "term": "working",
+        "weight": 0.044559
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007514",
+        "review_id": "G70-2695",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the durability and overall job content are excellent, and recently my car braked suddenly because the car ahead stopped",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006909",
+        "review_id": "G70-2474",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the steering assist stopped working early in the journey",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001716",
+        "review_id": "G70-0631",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it has stopped functioning again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003391",
+        "review_id": "G70-1223",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer shared that the easy entry seat position stopped functioning while the warning was present, then began working again once the message cleared",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005814",
+        "review_id": "G70-2095",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the spot they press to open the door and see the temperature readout has stopped working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007326",
+        "review_id": "G70-2628",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the noise had already stopped",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001810",
+        "review_id": "G70-0667",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked if, when the vehicle is stopped in traffic for a while",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010368",
+        "review_id": "G70-3729",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "stopped by the dealer since i was close",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000845",
+        "review_id": "G70-0311",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated IPA had stopped functioning,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004125",
+        "review_id": "G70-1502",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the Voice Command stopped functioning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003483",
+        "review_id": "G70-1264",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the car will come to a full stop when a vehicle ahead is already stopped,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010392",
+        "review_id": "G70-3735",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the automatic braking when coming up on slower or stopped traffic is not trustworthy at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010671",
+        "review_id": "G70-3828",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that if he is stopped and needs to pull into traffic quickly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008035",
+        "review_id": "G70-2898",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it makes me feel like i am driving badly and either irritating people by creeping toward stopped traffic or risking a wreak",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006734",
+        "review_id": "G70-2409",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "about a week later, while stopped at a stop sign",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008133",
+        "review_id": "G70-2921",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the brakes could not bring the car to a full stop like they should",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster combines unrelated subjects, including braking or traffic-stop behavior and multiple cabin or driver-assistance features stopping function.",
+      "Most sampled fragments are undetermined, limiting confidence in a more specific thematic summary.",
+      "Some positive and undetermined examples appear counterintuitive or lack enough surrounding context to explain why they were assigned that sentiment."
+    ]
+  }
+}

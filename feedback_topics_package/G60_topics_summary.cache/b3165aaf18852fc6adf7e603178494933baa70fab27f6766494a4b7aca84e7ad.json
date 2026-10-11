@@ -1,0 +1,34 @@
+{
+  "title": "No-regret purchase statements",
+  "summary": "The topic consists of brief statements that buyers do not regret purchasing the vehicle, but the sentiment remains undetermined in the supplied labeling.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined reviews are short comments saying there are no regrets about the purchase without enough detail to identify specific vehicle aspects.",
+      "evidence_fragment_ids": [
+        "F009181",
+        "F003370"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All supplied examples are labeled undetermined, so the topic cannot support aspect-level sentiment conclusions.",
+    "The sample is very small and consists only of brief purchase-regret statements with little context."
+  ]
+}

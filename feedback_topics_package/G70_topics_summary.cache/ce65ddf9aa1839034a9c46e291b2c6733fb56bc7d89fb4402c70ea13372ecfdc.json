@@ -1,0 +1,42 @@
+{
+  "title": "Zero ratings and problem mentions",
+  "summary": "This topic combines short mentions of zero ratings, problem reports, and follow-up or stranded complaints, with many fragments too brief or inconsistent to classify confidently.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews describe numerous problems and dissatisfaction expressed through a zero or reduced rating.",
+      "evidence_fragment_ids": [
+        "F001614",
+        "F007278"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention being misled about range and stranded, zero steering slack, no follow-up, zero complaints, a perfect rating, and a delayed fuel-door part, but the sample is too inconsistent or brief for a single clear sentiment reading.",
+      "evidence_fragment_ids": [
+        "F003016",
+        "F008361",
+        "F004936",
+        "F010183",
+        "F001777",
+        "F007188"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The examples mix unrelated subjects such as ratings, steering feel, charging-range complaints, service follow-up, and parts delays.",
+    "Several fragments are very short or lack enough context to confirm sentiment confidently.",
+    "One example appears to reference another vehicle, which weakens topic coherence for the G70."
+  ]
+}

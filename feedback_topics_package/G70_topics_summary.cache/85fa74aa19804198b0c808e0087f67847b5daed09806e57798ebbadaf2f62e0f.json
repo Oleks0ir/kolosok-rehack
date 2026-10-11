@@ -1,0 +1,43 @@
+{
+  "title": "Customer availability and timing notes",
+  "summary": "This topic is dominated by service-note fragments about customers being unavailable or discussing timing, with only one clear complaint about a poorly timed lane change.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clear negative example describes the vehicle changing lanes at a bad moment.",
+      "evidence_fragment_ids": [
+        "F003316"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Most fragments are administrative notes about customers being busy, away from the vehicle, or discussing the current moment without a clear opinion of the vehicle.",
+      "evidence_fragment_ids": [
+        "F006279",
+        "F002235",
+        "F009224",
+        "F001294",
+        "F004626",
+        "F007670",
+        "F001965",
+        "F005047"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined service or scheduling notes rather than clear vehicle feedback.",
+    "The cluster mixes customer availability statements with one driving-behavior complaint, so the topic is not fully coherent.",
+    "Examples are insufficient to infer a broader customer sentiment beyond the specific fragments shown."
+  ]
+}

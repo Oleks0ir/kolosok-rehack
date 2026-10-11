@@ -1,0 +1,404 @@
+{
+  "topic_id": "T0485",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.2,
+      "ICE": 0.8
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "One review praises the vehicle's cut lines and prefers this front-end design over an older BMW look.",
+        "evidence_fragment_ids": [
+          "F005034"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "One review expresses dissatisfaction by stating there are many issues without specifying the concrete problems in the fragment.",
+        "evidence_fragment_ids": [
+          "F009202"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.6,
+        "summary": "Undetermined fragments mention outdated map listings, a size comparison, and a time reference, but several examples are too incomplete to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F004522",
+          "F007538",
+          "F010317"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001108,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.000734,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-1619",
+      "G60-1800",
+      "G60-2687",
+      "G60-3288",
+      "G60-3704"
+    ],
+    "summary": "This topic combines comments about exterior styling, a vague mention of multiple issues, and isolated observations about map data and vehicle size, with several fragments lacking enough context for firm sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Design lines, vague issues, and dated map listings",
+    "source_title": "ago / listing / ten",
+    "keywords": [
+      {
+        "term": "ago",
+        "weight": 0.463105
+      },
+      {
+        "term": "listing",
+        "weight": 0.254247
+      },
+      {
+        "term": "ten",
+        "weight": 0.128996
+      },
+      {
+        "term": "restaurants",
+        "weight": 0.101384
+      },
+      {
+        "term": "size",
+        "weight": 0.096812
+      },
+      {
+        "term": "keep",
+        "weight": 0.095514
+      },
+      {
+        "term": "issue",
+        "weight": 0.086659
+      },
+      {
+        "term": "map",
+        "weight": 0.086077
+      },
+      {
+        "term": "couple ago",
+        "weight": 0.072651
+      },
+      {
+        "term": "front end",
+        "weight": 0.072651
+      },
+      {
+        "term": "shut",
+        "weight": 0.0701
+      },
+      {
+        "term": "cut",
+        "weight": 0.06237
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005034",
+        "review_id": "G60-1800",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she really likes how the lines are cut on the vehicle and noted that when BMW changed the front end design a couple of years ago she did not care for it,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009202",
+        "review_id": "G60-3288",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i could keep listing issues,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004522",
+        "review_id": "G60-1619",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "The map database is old, still listing restaurants that shut down years ago",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007538",
+        "review_id": "G60-2687",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "up until a few days ago",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010317",
+        "review_id": "G60-3704",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the i5 is about the same size as a 7-series was ten years ago",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes unrelated subjects, including styling, unspecified issues, navigation map data, vehicle size, and an incomplete time reference.",
+      "Most undetermined fragments are too short or lack context, so the underlying customer viewpoint cannot be confidently summarized beyond the literal text.",
+      "The negative example is vague and does not identify the specific issues being referenced."
+    ]
+  }
+}

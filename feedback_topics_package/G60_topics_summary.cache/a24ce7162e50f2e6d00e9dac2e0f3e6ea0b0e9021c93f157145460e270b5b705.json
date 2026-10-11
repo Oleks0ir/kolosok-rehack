@@ -1,0 +1,50 @@
+{
+  "title": "Owner's Manual Use and Clarity",
+  "summary": "Feedback about the owner's manual is dominated by undetermined mentions, while clear opinions split between helpfulness and complaints about confusing or insufficient explanations.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say the owner's manual is helpful and good for learning vehicle functions.",
+      "evidence_fragment_ids": [
+        "F006032",
+        "F000833"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews say the owner's manual uses confusing language and explains technical features poorly.",
+      "evidence_fragment_ids": [
+        "F009438",
+        "F006482"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention reading the manual, wanting a paper copy, small text, or difficulty finding enough guidance without a clearly assigned sentiment in many examples.",
+      "evidence_fragment_ids": [
+        "F004963",
+        "F008245",
+        "F007301",
+        "F010058",
+        "F003399",
+        "F006750",
+        "F003059",
+        "F008342",
+        "F004372",
+        "F002722",
+        "F010723"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are labeled undetermined, which limits confidence in summarizing overall sentiment.",
+    "Some undetermined fragments contain evaluative language, so the supplied sentiment assignments constrain how specifically they can be summarized.",
+    "One positive example appears unrelated to the owner's manual topic, suggesting minor topic noise in the sample."
+  ]
+}

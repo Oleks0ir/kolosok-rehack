@@ -1,0 +1,39 @@
+{
+  "title": "DCS Notes Availability",
+  "summary": "The fragments are brief service-record references about DCS notes or mileage and do not provide enough context to determine customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mostly mention the presence or absence of DCS notes, AIR notes, or a mileage entry without evaluative language.",
+      "evidence_fragment_ids": [
+        "F003859",
+        "F005566",
+        "F005246",
+        "F010693",
+        "F001336",
+        "F011057"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so no sentiment-based interpretation is possible.",
+    "The examples are extremely short note-style entries, which leaves the topic meaning and customer attitude unclear.",
+    "The cluster may reflect administrative service-record fields rather than a coherent customer feedback theme."
+  ]
+}

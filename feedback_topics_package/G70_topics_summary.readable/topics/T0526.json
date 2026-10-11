@@ -1,0 +1,403 @@
+{
+  "topic_id": "T0526",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.6
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The negative review expresses disappointment that a troubling problem undermined expected worry-free ownership and trust in the car.",
+        "evidence_fragment_ids": [
+          "F003590"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.8,
+        "summary": "Undetermined fragments mention trust, refusal of money, moving forward, or that no one was hurt, but they lack enough context to classify the overall stance reliably.",
+        "evidence_fragment_ids": [
+          "F007516",
+          "F010492",
+          "F006400",
+          "F010343"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001168,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.000821,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-1295",
+      "G70-2301",
+      "G70-2695",
+      "G70-3720",
+      "G70-3757"
+    ],
+    "summary": "This topic centers on trust, worry, and harm-related remarks, but most sampled fragments are too incomplete or context-limited to support a clear sentiment reading.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Trust and injury-related remarks",
+    "source_title": "trust / hurt / forward",
+    "keywords": [
+      {
+        "term": "trust",
+        "weight": 0.476547
+      },
+      {
+        "term": "hurt",
+        "weight": 0.329343
+      },
+      {
+        "term": "forward",
+        "weight": 0.122079
+      },
+      {
+        "term": "disheartening",
+        "weight": 0.094352
+      },
+      {
+        "term": "letting",
+        "weight": 0.09282
+      },
+      {
+        "term": "refused",
+        "weight": 0.091133
+      },
+      {
+        "term": "money",
+        "weight": 0.08723
+      },
+      {
+        "term": "worry",
+        "weight": 0.087225
+      },
+      {
+        "term": "hook",
+        "weight": 0.082793
+      },
+      {
+        "term": "expected",
+        "weight": 0.071385
+      },
+      {
+        "term": "free",
+        "weight": 0.068245
+      },
+      {
+        "term": "fun",
+        "weight": 0.064824
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003590",
+        "review_id": "G70-1295",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "\" that makes this problem even more disheartening, since i expected years of worry-free enjoyment and trust in the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007516",
+        "review_id": "G70-2695",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my car wasn't hurt at all, so that made me trust it even more",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010492",
+        "review_id": "G70-3757",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'm hopeful that as we go forward my trust in bmw",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006400",
+        "review_id": "G70-2301",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i refused the money and i am not letting bmw off the hook because i dont trust this $140,000",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010343",
+        "review_id": "G70-3720",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated no one was hurt",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are short or incomplete, which limits reliable interpretation of sentiment.",
+      "The topic mixes trust, injury status, and dispute-related language, so the underlying subject is not fully coherent from the examples alone.",
+      "Samples are sentiment-stratified and not representative estimates of the full review population."
+    ]
+  }
+}

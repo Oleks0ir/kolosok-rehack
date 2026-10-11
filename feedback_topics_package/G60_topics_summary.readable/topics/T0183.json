@@ -1,0 +1,616 @@
+{
+  "topic_id": "T0183",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 15,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.066667,
+      "US": 0.933333
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.466667,
+      "PHEV": 0.133333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.4,
+        "summary": "Negative feedback focuses on poorly placed charging ports and USB ports, slow charging performance, and too few available ports.",
+        "evidence_fragment_ids": [
+          "F007526",
+          "F000572",
+          "F007264",
+          "F005756",
+          "F003193",
+          "F003363",
+          "F007524"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 9,
+        "share": 0.6,
+        "summary": "Undetermined comments include location preferences, a charge-port door opening issue, observations about charging capability, and both favorable and unfavorable descriptions of USB port placement.",
+        "evidence_fragment_ids": [
+          "F007866",
+          "F000868",
+          "F004326",
+          "F003979",
+          "F000523",
+          "F010603",
+          "F008741",
+          "F000214",
+          "F008015"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 15,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00375,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 14,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.428571,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.428571,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.428571
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.571429
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 22,
+          "topic_prevalence_in_source_segment": 0.045455,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.571429
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0079",
+      "G60-0198",
+      "G60-0214",
+      "G60-0313",
+      "G60-1145",
+      "G60-1199",
+      "G60-1433",
+      "G60-1551",
+      "G60-2052",
+      "G60-2590",
+      "G60-2682",
+      "G60-2814",
+      "G60-2865",
+      "G60-3120",
+      "G60-3809"
+    ],
+    "summary": "Feedback centers on inconvenient charging-port location, awkward USB placement, limited port availability, and a few descriptive or preference-based comments about charging hardware.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Charging port and USB port placement",
+    "source_title": "port / usb / charge",
+    "keywords": [
+      {
+        "term": "port",
+        "weight": 0.201715
+      },
+      {
+        "term": "usb",
+        "weight": 0.186744
+      },
+      {
+        "term": "charge port",
+        "weight": 0.153457
+      },
+      {
+        "term": "charge",
+        "weight": 0.140594
+      },
+      {
+        "term": "ports",
+        "weight": 0.099435
+      },
+      {
+        "term": "usb port",
+        "weight": 0.068853
+      },
+      {
+        "term": "usb ports",
+        "weight": 0.05811
+      },
+      {
+        "term": "placed",
+        "weight": 0.05476
+      },
+      {
+        "term": "charge ports",
+        "weight": 0.04973
+      },
+      {
+        "term": "port placed",
+        "weight": 0.04908
+      },
+      {
+        "term": "port door",
+        "weight": 0.047698
+      },
+      {
+        "term": "problem power",
+        "weight": 0.045706
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007526",
+        "review_id": "G60-2682",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would rather have a charging port located in the same area as on the X5 PHEVs, or alternatively have two charging ports, one on the front driver side and another on the rear passenger side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007866",
+        "review_id": "G60-2814",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the charge port is in the front so i often have to park nose-in to plug in, which is not very convenient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000572",
+        "review_id": "G60-0214",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Power plug/USB port - Charges too slowly: \"when i put the phone on the left charging tray, which is the only one that actually charges",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000868",
+        "review_id": "G60-0313",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would prefer the charging port to be on the driver side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007264",
+        "review_id": "G60-2590",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer states he is not happy with where the charging port is placed,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004326",
+        "review_id": "G60-1551",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "- the charge port door often will not open, even when the car is unlocked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005756",
+        "review_id": "G60-2052",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he does not like the USB port being placed beside the cupholders",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003979",
+        "review_id": "G60-1433",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated the wireless charger provides 15 watts and explained it is weaker than using a cable in the USB ports, mainly intended to maintain charge rather than actively charge, especially when the phone is connected to CarPlay",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000523",
+        "review_id": "G60-0198",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i was also caught off guard that there is no usb port, so i'd need an adapter for music stored that way",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003193",
+        "review_id": "G60-1145",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Power plug/USB port - DTU/poorly located: \"Putting it inside a shut glove box is stupdi",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003363",
+        "review_id": "G60-1199",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Not enough power plugs/USB ports: \"my 2021 had additional USB ports that were inside the console",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010603",
+        "review_id": "G60-3809",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they are unsure why there is a 12v outlet inside the armrest while the USB ports sit exposed, which makes them not want to use an iPod for music because it feels like it could invite theft",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008741",
+        "review_id": "G60-3120",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the front driver and passenger usb-c charging ports are awkwardly placed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000214",
+        "review_id": "G60-0079",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated appreciation for the USB charging ports positioned behind the seats and noted they are useful for connecting an iPad",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008015",
+        "review_id": "G60-2865",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that USB C is able to charge more quickly and that most newer phone cables come as USB C",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007524",
+        "review_id": "G60-2682",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is not satisfied with where the charging port is positioned",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 18,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many examples are phrased as preferences, observations, or explanations rather than clear satisfaction judgments, which limits sentiment certainty.",
+      "This topic mixes charging-port location, USB port placement, port availability, charging speed, and a charge-port door issue rather than a single tightly focused subject.",
+      "The sample is small and stratified, so it should not be treated as representative of all owners or vehicles."
+    ]
+  }
+}

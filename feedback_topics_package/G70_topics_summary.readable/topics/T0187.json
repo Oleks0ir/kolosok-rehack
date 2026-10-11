@@ -1,0 +1,566 @@
+{
+  "topic_id": "T0187",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 14,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.214286,
+      "ICE": 0.642857,
+      "PHEV": 0.142857
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.071429,
+        "summary": "The positive review compares the lane keeping system favorably enough to note it as a recognizable driver-assistance feature, though detail is limited.",
+        "evidence_fragment_ids": [
+          "F008710"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.357143,
+        "summary": "Negative reviews describe lane keeping and departure warnings as overly sensitive, inaccurate, annoying, or too forceful, including false warnings and intervention that hinders lane changes.",
+        "evidence_fragment_ids": [
+          "F002483",
+          "F007737",
+          "F004596",
+          "F002045",
+          "F008287",
+          "F008288"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.071429,
+        "summary": "The mixed review says the alerts are only a minor issue but still criticizes them for appearing too often and seeming predictive rather than responsive.",
+        "evidence_fragment_ids": [
+          "F004262"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 7,
+        "share": 0.5,
+        "summary": "Undetermined fragments mention lane keeping precision, appreciation of the feature, adjustment guidance, and some unclear or off-topic references, so sentiment cannot be assigned consistently from the sampled text alone.",
+        "evidence_fragment_ids": [
+          "F004022",
+          "F009078",
+          "F005269",
+          "F004258",
+          "F003312",
+          "F007343",
+          "F001394",
+          "F009084"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 14,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0035,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.357143,
+            "mixed": 0.071429,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.357143,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 14,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003692,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.357143,
+            "mixed": 0.071429,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.357143,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.002657,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003505,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.333333,
+            "mixed": 0.111111,
+            "neutral": 0.0,
+            "undetermined": 0.444444
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.444444,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.555556
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.003696,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.333333,
+            "mixed": 0.111111,
+            "neutral": 0.0,
+            "undetermined": 0.444444
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.444444,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.555556
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0520",
+      "G70-0763",
+      "G70-0909",
+      "G70-1204",
+      "G70-1462",
+      "G70-1560",
+      "G70-1562",
+      "G70-1678",
+      "G70-1911",
+      "G70-2630",
+      "G70-2783",
+      "G70-2989",
+      "G70-3138",
+      "G70-3263"
+    ],
+    "summary": "Feedback on lane departure warning and lane keeping centers on overly sensitive alerts and intrusive steering intervention, with a few comments praising lane-centering performance but many fragments lacking clear evaluative sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Lane Keeping Alerts and Intervention",
+    "source_title": "lane / departure warning / keeping",
+    "keywords": [
+      {
+        "term": "lane",
+        "weight": 0.347929
+      },
+      {
+        "term": "lane keeping",
+        "weight": 0.133506
+      },
+      {
+        "term": "departure warning",
+        "weight": 0.130189
+      },
+      {
+        "term": "lane departure",
+        "weight": 0.130189
+      },
+      {
+        "term": "departure",
+        "weight": 0.128633
+      },
+      {
+        "term": "keeping",
+        "weight": 0.118926
+      },
+      {
+        "term": "warning",
+        "weight": 0.111394
+      },
+      {
+        "term": "keeping assistance",
+        "weight": 0.061135
+      },
+      {
+        "term": "problem lane",
+        "weight": 0.061135
+      },
+      {
+        "term": "warning lane",
+        "weight": 0.061135
+      },
+      {
+        "term": "alert",
+        "weight": 0.057272
+      },
+      {
+        "term": "maintains lane",
+        "weight": 0.05563
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008710",
+        "review_id": "G70-3138",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "the lane keeping in this 760 really reminds me of mercedes' first generation system from something like 10 to 12 years ago",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002483",
+        "review_id": "G70-0909",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Lane departure warning/lane keeping assistance - Alerts annoying/bothersome: \"it feels too sensitive and can get mixed up whenever the road has damage or sealant, making it think the lanes are somewhere other than where they actually are",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004262",
+        "review_id": "G70-1562",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a very minor problem with Lane departure warning/lane keeping assistance - Alerts annoying/bothersome: \"alerts pop up way too often, like they are guessing ahead instead of actually reacting\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004022",
+        "review_id": "G70-1462",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "- david lane",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007737",
+        "review_id": "G70-2783",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Lane departure warning/lane keeping assistance - Alerts annoying/bothersome: \"They are there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009078",
+        "review_id": "G70-3263",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the Lane Departure Warning sensor feels extremely aggressive, to the point that at times he needs both hands on the wheel to counteract it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004596",
+        "review_id": "G70-1678",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Lane departure warning/lane keeping assistance - Alerts annoying/bothersome: \"Either the wheel sensor or pulling too hard causes issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002045",
+        "review_id": "G70-0763",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Lane departure warning/lane keeping assistance - Not working/inaccurate/inconsistent: \"It keeps giving me a warning when I am in the lanes and then tells me that I might not be paying attention to the road",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008287",
+        "review_id": "G70-2989",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated she was unhappy that the vehicle prevented her from changing lanes, so she switched off the lane departure warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005269",
+        "review_id": "G70-1911",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the lane keeping sensors are noticeably sharper than on their prior 2016 740 and hold the car very precisely in the lane",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004258",
+        "review_id": "G70-1560",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he appreciates the lane departure warning feature, explaining that it can wake him up if he starts to fall asleep while driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003312",
+        "review_id": "G70-1204",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the red light warning is not well tuned, as it will alert me even on the highway when it spots the signal for the entrance lane on the right",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007343",
+        "review_id": "G70-2630",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle maintains its lane center much more effectively",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001394",
+        "review_id": "G70-0520",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted he appreciates how well the vehicle maintains its lane",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009084",
+        "review_id": "G70-3263",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the Lane Departure Warning vibration in the steering wheel can be adjusted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008288",
+        "review_id": "G70-2989",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained the feature is intended to keep the vehicle in its lane and that activating the turn signal will pause lane keeping to permit lane changes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 18,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are undetermined or truncated, which limits confidence in summarizing clear sentiment beyond the explicit negative examples.",
+      "This topic includes at least one fragment that appears unrelated or too ambiguous to interpret as lane-keeping feedback.",
+      "The samples are stratified and not representative of all owners or of broader vehicle performance."
+    ]
+  }
+}

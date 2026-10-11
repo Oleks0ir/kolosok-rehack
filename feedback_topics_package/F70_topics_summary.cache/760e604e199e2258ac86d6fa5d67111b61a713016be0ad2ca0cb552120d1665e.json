@@ -1,0 +1,52 @@
+{
+  "title": "Functions Stopping Working",
+  "summary": "Feedback in this topic centers on vehicle, app, and infotainment functions suddenly stopping or quitting, with many fragments too brief or context-limited to determine sentiment confidently.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive review is present, but its example describes the car suddenly stopping with a severe jerk, so the positive assignment is not well explained by the fragment alone.",
+      "evidence_fragment_ids": [
+        "F001311"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe app failures, maps and cruise control stopping, driver-assistance features failing after an update, dashboard functions dropping out, and a vehicle shutting down while driving.",
+      "evidence_fragment_ids": [
+        "F002074",
+        "F006330",
+        "F006527",
+        "F004912",
+        "F004351",
+        "F004233",
+        "F000621"
+      ]
+    },
+    "mixed": {
+      "summary": "The mixed review praises neither outcome clearly and instead combines a major dashboard failure with concern about safety and loss of essential functions.",
+      "evidence_fragment_ids": [
+        "F001186"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention working or stopped functions without enough context to confirm whether they reflect a complaint, comparison, or incidental remark.",
+      "evidence_fragment_ids": [
+        "F001043",
+        "F006250",
+        "F003329",
+        "F003616",
+        "F001726",
+        "F005478",
+        "F001767"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "This cluster mixes several unrelated subjects, including vehicle shutdowns, dashboard and lighting issues, app problems, maps, and driver-assistance features.",
+    "Many undetermined fragments are too short or lack surrounding context, which limits confidence in interpreting the underlying issue or sentiment.",
+    "One fragment labeled positive contains negative-sounding wording, so the sample provides insufficient context to explain that sentiment assignment."
+  ]
+}

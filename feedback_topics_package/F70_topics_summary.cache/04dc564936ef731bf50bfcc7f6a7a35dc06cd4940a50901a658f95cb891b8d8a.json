@@ -1,0 +1,50 @@
+{
+  "title": "Asked Someone and Follow-Up Mentions",
+  "summary": "This topic is a loose mix of recommendation wording, contact or follow-up mentions, and isolated conversational fragments, with most examples too incomplete to support a clear sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention recommending the car, comfort when riding in it, or openness to speaking with BMW.",
+      "evidence_fragment_ids": [
+        "F000020",
+        "F004164",
+        "F001190"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback centers on expecting BMW to make contact about an issue and being dissatisfied that this follow-up did not happen.",
+      "evidence_fragment_ids": [
+        "F004210"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments are mostly too short or context-free to interpret clearly, though some mention being passed around, delayed inspection, washing the car, or hypothetical comments about comfort and surprises.",
+      "evidence_fragment_ids": [
+        "F004645",
+        "F006450",
+        "F002929",
+        "F004515",
+        "F002020",
+        "F000662",
+        "F001558",
+        "F003597",
+        "F000295",
+        "F002763",
+        "F005201"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes several unrelated subjects rather than one coherent aspect.",
+    "Most fragments are very short or lack surrounding context, so sentiment and specific issues are often unclear.",
+    "Examples are insufficient to draw a more precise theme beyond generic asking, someone, or yes phrasing."
+  ]
+}

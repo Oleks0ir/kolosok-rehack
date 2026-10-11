@@ -1,0 +1,41 @@
+{
+  "title": "Ratings and flat-rate service entries",
+  "summary": "This topic combines review rating comments about the G70 with flat-rate service record fragments, so the examples do not form a single coherent customer issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the car itself or frame a moderate numeric rating as still favorable despite comparison to another performance benchmark.",
+      "evidence_fragment_ids": [
+        "F002573",
+        "F007780"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback cites an early small failure that required a service center visit shortly after delivery.",
+      "evidence_fragment_ids": [
+        "F004782"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments are flat-rate or repair-order style entries that mention service terminology without clear customer sentiment.",
+      "evidence_fragment_ids": [
+        "F004666",
+        "F011059",
+        "F005248"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes customer opinion text with dealership or repair-order fragments, which limits coherence.",
+    "Several examples are undetermined administrative text, so the available evidence for interpretable customer sentiment is limited.",
+    "One positive example includes critical wording about performance, but it is supplied as positive and is summarized according to its assigned sentiment."
+  ]
+}

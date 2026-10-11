@@ -1,0 +1,521 @@
+{
+  "topic_id": "T0234",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 12,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.416667,
+      "ICE": 0.5,
+      "PHEV": 0.083333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.416667,
+        "summary": "Positive reviews praise smooth ride comfort, strong acceleration, dreamlike driving, and comfortable or plush seats.",
+        "evidence_fragment_ids": [
+          "F000057",
+          "F010807",
+          "F008206",
+          "F002478",
+          "F007098"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.083333,
+        "summary": "Negative reviews mention dissatisfaction with windshield durability compared with BMW.",
+        "evidence_fragment_ids": [
+          "F001939"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.5,
+        "summary": "Undetermined fragments describe vehicle speed, dark interior shades, a hard-to-learn interface, seat plushness, higher ride height, and a roof panel coming loose without enough clear sentiment labeling to summarize them as positive or negative.",
+        "evidence_fragment_ids": [
+          "F007678",
+          "F007639",
+          "F004721",
+          "F006311",
+          "F006999",
+          "F006371",
+          "F006374"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 12,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.003,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.416667,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 12,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003165,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.416667,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.004429,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0029",
+      "G70-0719",
+      "G70-0906",
+      "G70-1716",
+      "G70-2275",
+      "G70-2296",
+      "G70-2511",
+      "G70-2558",
+      "G70-2750",
+      "G70-2762",
+      "G70-2953",
+      "G70-3884"
+    ],
+    "summary": "Feedback in this topic spans praised ride comfort, acceleration, and seat feel alongside isolated reports about windshield quality and a loose roof panel, with many fragments remaining descriptive rather than clearly evaluative.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Ride Comfort, Seats, and Isolated Fit Issues",
+    "source_title": "customer reports / reports seat / reports ride",
+    "keywords": [
+      {
+        "term": "customer reports",
+        "weight": 0.418164
+      },
+      {
+        "term": "reports",
+        "weight": 0.415758
+      },
+      {
+        "term": "customer",
+        "weight": 0.107875
+      },
+      {
+        "term": "reports seat",
+        "weight": 0.085328
+      },
+      {
+        "term": "reports ride",
+        "weight": 0.079153
+      },
+      {
+        "term": "came loose",
+        "weight": 0.05556
+      },
+      {
+        "term": "roof came",
+        "weight": 0.05556
+      },
+      {
+        "term": "roof",
+        "weight": 0.052259
+      },
+      {
+        "term": "loose",
+        "weight": 0.047693
+      },
+      {
+        "term": "comfort",
+        "weight": 0.046146
+      },
+      {
+        "term": "saying",
+        "weight": 0.04443
+      },
+      {
+        "term": "ride",
+        "weight": 0.044127
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000057",
+        "review_id": "G70-0029",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reports the vehicle drives like a dreem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001939",
+        "review_id": "G70-0719",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reports they prefer the quality of BMW windshields, saying the Mercedes ones seem to get damaged more easily",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007678",
+        "review_id": "G70-2762",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports the vehicule feels very fast",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010807",
+        "review_id": "G70-3884",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reports that the vehicle's acceleration is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007639",
+        "review_id": "G70-2750",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports the shades inside the vehicle are really quite dark",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008206",
+        "review_id": "G70-2953",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reports the ride feels fantastic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002478",
+        "review_id": "G70-0906",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reports the seats feel very comfortable",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004721",
+        "review_id": "G70-1716",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports the interface has been hard for them to learn",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006311",
+        "review_id": "G70-2275",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports the seats feel very plush",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007098",
+        "review_id": "G70-2558",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reports the ride comfort in this vehicle is better than any other car they have owned in the past, saying it is the most comfortable overall",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006999",
+        "review_id": "G70-2511",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports the car feels noticeably higher off the ground compared to his 2022 X7",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006371",
+        "review_id": "G70-2296",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reports that the roof came loose on the vehicle while their wife was driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006374",
+        "review_id": "G70-2296",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer states the roof panel across the back portion of the roof came loose and eventually broke",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 13,
+      "total_topic_fragments": 13,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many fragments are labeled undetermined, which limits confidence in a clear sentiment read for several aspects.",
+      "This topic mixes comfort impressions, performance comments, interface learning, windshield quality, and a roof-panel incident rather than one tightly focused subject.",
+      "Examples are limited, so they are insufficient to assess how broadly any single issue applies beyond these sampled reports."
+    ]
+  }
+}

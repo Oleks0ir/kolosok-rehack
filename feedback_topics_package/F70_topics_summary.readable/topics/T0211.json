@@ -1,0 +1,546 @@
+{
+  "topic_id": "T0211",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.1,
+      "GB": 0.6,
+      "JP": 0.2,
+      "SE": 0.1
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.4,
+        "summary": "Negative reviews describe the car as too basic for the owner's needs and mention defects or defect-related dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F001693",
+          "F000955",
+          "F007028",
+          "F000948",
+          "F003697"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "Mixed feedback says the car has an issue because basic functions are buried in the screen, making them distracting to use while driving.",
+        "evidence_fragment_ids": [
+          "F000785"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 5,
+        "share": 0.5,
+        "summary": "Undetermined snippets mention basic equipment, seats, facelift impressions, or touchscreen use, but several examples are too brief or ambiguous to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F006813",
+          "F004638",
+          "F001297",
+          "F001319",
+          "F000840"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 10,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.004699,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 6,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.00464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.166667,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.333333
+        },
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 1.0
+        },
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.014085,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.004699,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.00464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.166667,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.014085,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0208",
+      "F70-0224",
+      "F70-0260",
+      "F70-0346",
+      "F70-0350",
+      "F70-0472",
+      "F70-1034",
+      "F70-1291",
+      "F70-1911",
+      "F70-1971"
+    ],
+    "summary": "Reviews in this topic mainly mention the car feeling too basic, screen-based access to core functions, and a few explicit defect-related complaints, while many snippets are too brief to determine clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Basic equipment and defect concerns",
+    "source_title": "basic / due / defect",
+    "keywords": [
+      {
+        "term": "basic",
+        "weight": 0.426627
+      },
+      {
+        "term": "due",
+        "weight": 0.164303
+      },
+      {
+        "term": "defect",
+        "weight": 0.1188
+      },
+      {
+        "term": "facelift",
+        "weight": 0.071398
+      },
+      {
+        "term": "damage",
+        "weight": 0.069519
+      },
+      {
+        "term": "basic function",
+        "weight": 0.067186
+      },
+      {
+        "term": "equipment",
+        "weight": 0.061891
+      },
+      {
+        "term": "function",
+        "weight": 0.055668
+      },
+      {
+        "term": "initial",
+        "weight": 0.054063
+      },
+      {
+        "term": "maybe",
+        "weight": 0.053411
+      },
+      {
+        "term": "heating",
+        "weight": 0.05328
+      },
+      {
+        "term": "needs",
+        "weight": 0.05285
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001693",
+        "review_id": "F70-0472",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "now i'm disappointed, as it feels a bit too small and too basic for my needs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000785",
+        "review_id": "F70-0208",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "i find it a real issue that lots of basic functions (like the stop start function) are only reachable through the screen, which is very distracting when you're actualy driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006813",
+        "review_id": "F70-1911",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car feels very basic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000955",
+        "review_id": "F70-0260",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "isn't this a basic initial defect",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004638",
+        "review_id": "F70-1291",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the equipment is a bit too basic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "SE",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001297",
+        "review_id": "F70-0346",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the seats are now basic, they do have heating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001319",
+        "review_id": "F70-0350",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it really feels like much more than just a basic facelift",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000840",
+        "review_id": "F70-0224",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the displays, especially the touchscreen for basic functions, really let the car down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007028",
+        "review_id": "F70-1971",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the defects are sporadic, maybe due to the move to id9",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003697",
+        "review_id": "F70-1034",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the damage is not due to the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000948",
+        "review_id": "F70-0260",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "if i ended up disliking it due to a defect",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 11,
+      "total_topic_fragments": 11,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several fragments are very short or ambiguous, so sentiment and the exact underlying issue cannot always be determined from the excerpt alone.",
+      "This topic mixes sparse comments about basic trim or equipment with separate mentions of defects and touchscreen usability, so the cluster is not fully coherent.",
+      "One negative fragment refers to damage not being due to the vehicle, which limits how confidently it fits a vehicle-quality theme."
+    ]
+  }
+}

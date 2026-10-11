@@ -1,0 +1,47 @@
+{
+  "title": "Vehicle system usability and issue mentions",
+  "summary": "Feedback about the vehicle system mixes praise for ease of use and interface quality with complaints about vent, charging, and backend system problems, while many excerpts are too brief or procedural to determine clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the system as easy to learn, good overall, and improved versus prior interfaces.",
+      "evidence_fragment_ids": [
+        "F003856",
+        "F010465",
+        "F006329"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe backend system faults, disliked vent controls, and charging-related system failures or concerns.",
+      "evidence_fragment_ids": [
+        "F002615",
+        "F009849",
+        "F007905",
+        "F000565"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined excerpts include reprogramming or reset actions, feature requests, sensitivity comments, and short statements that lack enough context for clear sentiment.",
+      "evidence_fragment_ids": [
+        "F004028",
+        "F001471",
+        "F008592",
+        "F009028",
+        "F002848"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Several fragments are very short, procedural, or ambiguous, which limits confidence in interpreting the underlying issue or sentiment.",
+    "The examples mix multiple subjects such as infotainment usability, vent controls, charging system concerns, alerts, parking functions, and security feature requests rather than one tightly defined issue.",
+    "At least one supplied positive-labeled example contains negative wording, so the provided sentiment assignments may include inconsistencies."
+  ]
+}

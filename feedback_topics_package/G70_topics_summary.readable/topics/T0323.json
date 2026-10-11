@@ -1,0 +1,463 @@
+{
+  "topic_id": "T0323",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 9,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.111111,
+      "US": 0.888889
+    },
+    "engine_type": {
+      "BEVE": 0.444444,
+      "ICE": 0.555556
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.111111,
+        "summary": "One positive review mentions driver memory settings fluctuating instead of staying put, but the example is too limited to clarify why it was labeled positive.",
+        "evidence_fragment_ids": [
+          "F005615"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 8,
+        "share": 0.888889,
+        "summary": "Undetermined fragments mention doors or the vehicle being locked, rear doors staying locked, a locked charging cord, and one brief note about something not staying snug without enough context for clear sentiment.",
+        "evidence_fragment_ids": [
+          "F003818",
+          "F002084",
+          "F005559",
+          "F010087",
+          "F000154",
+          "F004454",
+          "F010819",
+          "F007225"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 9,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00225,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.111111
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001947,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001643,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0081",
+      "G70-0771",
+      "G70-1398",
+      "G70-1624",
+      "G70-1993",
+      "G70-2012",
+      "G70-2598",
+      "G70-3623",
+      "G70-3891"
+    ],
+    "summary": "This topic loosely groups comments about locked doors, items staying locked, and one note about memory settings not staying in place, with most fragments too brief to determine sentiment clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Door lock and settings staying in place",
+    "source_title": "locked / staying / door",
+    "keywords": [
+      {
+        "term": "locked",
+        "weight": 0.506247
+      },
+      {
+        "term": "staying",
+        "weight": 0.158233
+      },
+      {
+        "term": "door locked",
+        "weight": 0.125722
+      },
+      {
+        "term": "door",
+        "weight": 0.085586
+      },
+      {
+        "term": "snug",
+        "weight": 0.082274
+      },
+      {
+        "term": "cord",
+        "weight": 0.07217
+      },
+      {
+        "term": "kept",
+        "weight": 0.059518
+      },
+      {
+        "term": "writer advised",
+        "weight": 0.050366
+      },
+      {
+        "term": "advised",
+        "weight": 0.048231
+      },
+      {
+        "term": "determine",
+        "weight": 0.046014
+      },
+      {
+        "term": "instead staying",
+        "weight": 0.044553
+      },
+      {
+        "term": "reported unable",
+        "weight": 0.043915
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005615",
+        "review_id": "G70-2012",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the radium switches should really be adjusted, and driver memory 1 and 2 keep changing around, like they fluctuate instead of staying put",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003818",
+        "review_id": "G70-1398",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "said it was still locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002084",
+        "review_id": "G70-0771",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle is locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005559",
+        "review_id": "G70-1993",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it doesn't do it when the door is locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010087",
+        "review_id": "G70-3623",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that if the vehicle is locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000154",
+        "review_id": "G70-0081",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "hello, after the update the doors locked while i was in the car, and after sitting there for about 30 minutes it would not start anymore",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004454",
+        "review_id": "G70-1624",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported he was unable to determine at first why the rear doors were staying locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010819",
+        "review_id": "G70-3891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "still kept the cord locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007225",
+        "review_id": "G70-2598",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "is not staying snug",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most fragments are very short or incomplete, so sentiment and exact issue details are often unclear.",
+      "The cluster mixes several possibly unrelated subjects, including door locks, vehicle lock state, a charging cord lock, fitment staying snug, and memory settings staying in place.",
+      "Examples are insufficient to determine whether these references describe normal behavior, troubleshooting context, or actual faults in most cases."
+    ]
+  }
+}

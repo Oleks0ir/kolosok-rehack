@@ -1,0 +1,414 @@
+{
+  "topic_id": "T0573",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 4,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "FR": 0.25,
+      "US": 0.75
+    },
+    "engine_type": {
+      "BEVE": 0.5,
+      "ICE": 0.25,
+      "PHEV": 0.25
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.25,
+        "summary": "The positive feedback is a mild feature request framed explicitly as not being an issue.",
+        "evidence_fragment_ids": [
+          "F007272"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.25,
+        "summary": "The negative feedback centers on a hostile BMW representative and repeated customer requests being ignored.",
+        "evidence_fragment_ids": [
+          "F010565"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.5,
+        "summary": "The undetermined feedback contains incomplete statements about a delayed destination prompt and a usage-based request acceptance, without enough context to judge sentiment.",
+        "evidence_fragment_ids": [
+          "F002762",
+          "F010152"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 4,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.001,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 3,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.000831,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.000443,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0980",
+      "G60-2595",
+      "G60-3651",
+      "G60-3796"
+    ],
+    "summary": "The topic combines a feature request, a complaint about ignored service requests, and usage or prompt-related statements that are too incomplete to assess consistently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Requests, prompts, and service handling",
+    "source_title": "request / issue / usage",
+    "keywords": [
+      {
+        "term": "request",
+        "weight": 0.522183
+      },
+      {
+        "term": "issue",
+        "weight": 0.13243
+      },
+      {
+        "term": "usage",
+        "weight": 0.115094
+      },
+      {
+        "term": "accepted",
+        "weight": 0.113004
+      },
+      {
+        "term": "kms",
+        "weight": 0.113004
+      },
+      {
+        "term": "rep",
+        "weight": 0.105259
+      },
+      {
+        "term": "based",
+        "weight": 0.104611
+      },
+      {
+        "term": "ignored",
+        "weight": 0.102618
+      },
+      {
+        "term": "prompt",
+        "weight": 0.0985
+      },
+      {
+        "term": "destination",
+        "weight": 0.08873
+      },
+      {
+        "term": "toward",
+        "weight": 0.086212
+      },
+      {
+        "term": "seconds",
+        "weight": 0.085516
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007272",
+        "review_id": "G60-2595",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "This isnt really an issue, more of a request",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010565",
+        "review_id": "G60-3796",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "worst part is the bmw rep acted hostile toward me and has completely ignored every request i've made to try to get it made right",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002762",
+        "review_id": "G60-0980",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that this prompt shows up after about 10 seconds, at which point they can finally give their destination request",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010152",
+        "review_id": "G60-3651",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i could have accepted a request at 25,000 kms based on usage,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 4,
+      "total_topic_fragments": 4,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes service interaction, voice or destination prompt behavior, and usage-based request wording rather than one clearly unified issue.",
+      "Two fragments are too incomplete to determine sentiment, which limits how specifically the topic can be summarized.",
+      "The sample is small and sentiment-stratified, so it should not be treated as representative of all G60 feedback."
+    ]
+  }
+}

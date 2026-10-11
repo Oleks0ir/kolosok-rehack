@@ -1,0 +1,808 @@
+{
+  "topic_id": "T0002",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 150,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "AU": 0.013333,
+      "GB": 0.426667,
+      "JP": 0.54,
+      "KR": 0.006667,
+      "SE": 0.013333
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 98,
+        "share": 0.653333,
+        "summary": "Positive reviews praise fuel economy as good, very good, excellent, or inexpensive to run.",
+        "evidence_fragment_ids": [
+          "F002832",
+          "F006395",
+          "F002110",
+          "F004921",
+          "F001247",
+          "F006289",
+          "F002730",
+          "F003140",
+          "F003705",
+          "F005199"
+        ]
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.04,
+        "summary": "Negative reviews describe fuel economy as bad or poor.",
+        "evidence_fragment_ids": [
+          "F000793",
+          "F007480"
+        ]
+      },
+      "mixed": {
+        "count": 2,
+        "share": 0.013333,
+        "summary": "Mixed reviews say fuel economy can be a selling point for some buyers but also note it as a weak point or not very good.",
+        "evidence_fragment_ids": [
+          "F000347",
+          "F003724"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 44,
+        "share": 0.293333,
+        "summary": "Undetermined fragments mention fuel economy without enough context to tell whether the opinion is favorable or unfavorable.",
+        "evidence_fragment_ids": [
+          "F000999",
+          "F003304"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 150,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.070489,
+          "sentiment_counts": {
+            "positive": 98,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 44
+          },
+          "sentiment_shares": {
+            "positive": 0.653333,
+            "negative": 0.04,
+            "mixed": 0.013333,
+            "neutral": 0.0,
+            "undetermined": 0.293333
+          },
+          "negative_rate": 0.04,
+          "negative_or_mixed_rate": 0.053333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.706667
+        }
+      },
+      "country": {
+        "AU": {
+          "review_count": 2,
+          "source_segment_review_count": 16,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 64,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.049497,
+          "sentiment_counts": {
+            "positive": 46,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.71875,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.28125
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.71875
+        },
+        "JP": {
+          "review_count": 81,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.120536,
+          "sentiment_counts": {
+            "positive": 49,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.604938,
+            "negative": 0.074074,
+            "mixed": 0.024691,
+            "neutral": 0.0,
+            "undetermined": 0.296296
+          },
+          "negative_rate": 0.074074,
+          "negative_or_mixed_rate": 0.098765,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.703704
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 4,
+          "topic_prevalence_in_source_segment": 0.25,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "SE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 150,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.070489,
+          "sentiment_counts": {
+            "positive": 98,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 44
+          },
+          "sentiment_shares": {
+            "positive": 0.653333,
+            "negative": 0.04,
+            "mixed": 0.013333,
+            "neutral": 0.0,
+            "undetermined": 0.293333
+          },
+          "negative_rate": 0.04,
+          "negative_or_mixed_rate": 0.053333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.706667
+        }
+      }
+    },
+    "country_engine_type": {
+      "AU": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 16,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 64,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.049497,
+          "sentiment_counts": {
+            "positive": 46,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.71875,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.28125
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.71875
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 81,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.120536,
+          "sentiment_counts": {
+            "positive": 49,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.604938,
+            "negative": 0.074074,
+            "mixed": 0.024691,
+            "neutral": 0.0,
+            "undetermined": 0.296296
+          },
+          "negative_rate": 0.074074,
+          "negative_or_mixed_rate": 0.098765,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.703704
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 4,
+          "topic_prevalence_in_source_segment": 0.25,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0010",
+      "F70-0011",
+      "F70-0042",
+      "F70-0059",
+      "F70-0066",
+      "F70-0071",
+      "F70-0095",
+      "F70-0098",
+      "F70-0104",
+      "F70-0109",
+      "F70-0116",
+      "F70-0145",
+      "F70-0177",
+      "F70-0188",
+      "F70-0191",
+      "F70-0196",
+      "F70-0203",
+      "F70-0211",
+      "F70-0226",
+      "F70-0227",
+      "F70-0236",
+      "F70-0242",
+      "F70-0255",
+      "F70-0266",
+      "F70-0270",
+      "F70-0272",
+      "F70-0282",
+      "F70-0283",
+      "F70-0314",
+      "F70-0331",
+      "F70-0333",
+      "F70-0337",
+      "F70-0349",
+      "F70-0352",
+      "F70-0370",
+      "F70-0372",
+      "F70-0378",
+      "F70-0389",
+      "F70-0390",
+      "F70-0394",
+      "F70-0403",
+      "F70-0454",
+      "F70-0466",
+      "F70-0474",
+      "F70-0486",
+      "F70-0497",
+      "F70-0499",
+      "F70-0524",
+      "F70-0526",
+      "F70-0542",
+      "F70-0574",
+      "F70-0583",
+      "F70-0595",
+      "F70-0605",
+      "F70-0606",
+      "F70-0607",
+      "F70-0650",
+      "F70-0661",
+      "F70-0673",
+      "F70-0701",
+      "F70-0703",
+      "F70-0704",
+      "F70-0709",
+      "F70-0710",
+      "F70-0730",
+      "F70-0756",
+      "F70-0776",
+      "F70-0794",
+      "F70-0826",
+      "F70-0841",
+      "F70-0867",
+      "F70-0868",
+      "F70-0869",
+      "F70-0886",
+      "F70-0907",
+      "F70-0915",
+      "F70-0939",
+      "F70-0946",
+      "F70-0947",
+      "F70-0959",
+      "F70-0992",
+      "F70-1010",
+      "F70-1024",
+      "F70-1037",
+      "F70-1045",
+      "F70-1090",
+      "F70-1091",
+      "F70-1100",
+      "F70-1102",
+      "F70-1106",
+      "F70-1113",
+      "F70-1128",
+      "F70-1155",
+      "F70-1172",
+      "F70-1194",
+      "F70-1196",
+      "F70-1211",
+      "F70-1228",
+      "F70-1256",
+      "F70-1290",
+      "F70-1321",
+      "F70-1339",
+      "F70-1344",
+      "F70-1346",
+      "F70-1365",
+      "F70-1370",
+      "F70-1376",
+      "F70-1391",
+      "F70-1413",
+      "F70-1445",
+      "F70-1453",
+      "F70-1480",
+      "F70-1481",
+      "F70-1487",
+      "F70-1501",
+      "F70-1506",
+      "F70-1516",
+      "F70-1517",
+      "F70-1523",
+      "F70-1540",
+      "F70-1600",
+      "F70-1614",
+      "F70-1615",
+      "F70-1632",
+      "F70-1694",
+      "F70-1704",
+      "F70-1730",
+      "F70-1737",
+      "F70-1745",
+      "F70-1749",
+      "F70-1763",
+      "F70-1775",
+      "F70-1780",
+      "F70-1809",
+      "F70-1871",
+      "F70-1872",
+      "F70-1890",
+      "F70-1891",
+      "F70-1901",
+      "F70-1913",
+      "F70-1943",
+      "F70-2015",
+      "F70-2018",
+      "F70-2023",
+      "F70-2032",
+      "F70-2053",
+      "F70-2066",
+      "F70-2079",
+      "F70-2095",
+      "F70-2122"
+    ],
+    "summary": "Reviews in this topic mainly describe the F70's fuel economy as good or excellent, while a smaller set call it poor and many fragments mention fuel economy without a clear evaluation.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Fuel Economy and Efficiency",
+    "source_title": "fuel / economy / efficiency",
+    "keywords": [
+      {
+        "term": "fuel",
+        "weight": 0.327092
+      },
+      {
+        "term": "economy",
+        "weight": 0.236153
+      },
+      {
+        "term": "fuel economy",
+        "weight": 0.207122
+      },
+      {
+        "term": "fuel efficiency",
+        "weight": 0.095241
+      },
+      {
+        "term": "efficiency",
+        "weight": 0.088809
+      },
+      {
+        "term": "fuel consumption",
+        "weight": 0.067238
+      },
+      {
+        "term": "consumption",
+        "weight": 0.064982
+      },
+      {
+        "term": "drive",
+        "weight": 0.032046
+      },
+      {
+        "term": "strong",
+        "weight": 0.023612
+      },
+      {
+        "term": "better",
+        "weight": 0.02269
+      },
+      {
+        "term": "comfort",
+        "weight": 0.021378
+      },
+      {
+        "term": "drive economy",
+        "weight": 0.018379
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002832",
+        "review_id": "F70-0776",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "because it's inexpensive and has good fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000793",
+        "review_id": "F70-0211",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the fuel economy is bad",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000347",
+        "review_id": "F70-0095",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "i think it is recommendable for people who want good fuel economy and do not like driving something big",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000999",
+        "review_id": "F70-0270",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006395",
+        "review_id": "F70-1775",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is also impressively good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007480",
+        "review_id": "F70-2095",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "poor fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003724",
+        "review_id": "F70-1045",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "fuel economy is inevitably a weak point and not very good, so from that angle i feel a bit less inclined to recommend it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003304",
+        "review_id": "F70-0915",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002110",
+        "review_id": "F70-0574",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is pretty good too",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004921",
+        "review_id": "F70-1370",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is pretty good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001247",
+        "review_id": "F70-0331",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006289",
+        "review_id": "F70-1749",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002730",
+        "review_id": "F70-0756",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy are good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003140",
+        "review_id": "F70-0867",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003705",
+        "review_id": "F70-1037",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005199",
+        "review_id": "F70-1453",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 150,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled evidence is limited, so concrete negative and undetermined examples are sparse.",
+      "Examples are sentiment-stratified and not a random sample, so they should not be treated as representative estimates.",
+      "This topic is coherent around fuel economy, but many undetermined fragments are too short to show the specific concern or praise."
+    ]
+  }
+}

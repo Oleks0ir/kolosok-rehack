@@ -1,0 +1,563 @@
+{
+  "topic_id": "T0208",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 13,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.230769,
+      "ICE": 0.692308,
+      "PHEV": 0.076923
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.076923,
+        "summary": "The only explicit complaint says the needed information is hard to locate.",
+        "evidence_fragment_ids": [
+          "F001827"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.923077,
+        "summary": "Undetermined reviews discuss traffic camera subscriptions, real-time traffic screens, iPhone requirement confusion, requests for more detail, and general information-sharing without a clear sentiment.",
+        "evidence_fragment_ids": [
+          "F002822",
+          "F009798",
+          "F004240",
+          "F004376",
+          "F004045",
+          "F001912",
+          "F000481",
+          "F004806",
+          "F006708",
+          "F006867",
+          "F003798",
+          "F008985",
+          "F004238",
+          "F002825",
+          "F002827"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 13,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00325,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.923077
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.076923
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003428,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.923077
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.076923
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.002657,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003505,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.111111
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.003696,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.111111
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0201",
+      "G70-0672",
+      "G70-0708",
+      "G70-1023",
+      "G70-1388",
+      "G70-1472",
+      "G70-1555",
+      "G70-1603",
+      "G70-1749",
+      "G70-2400",
+      "G70-2460",
+      "G70-3227",
+      "G70-3526"
+    ],
+    "summary": "Reviews in this topic mostly describe traffic camera and navigation information access, subscriptions, and menu guidance, with only limited explicit sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Traffic Camera and Navigation Information",
+    "source_title": "information / traffic / camera",
+    "keywords": [
+      {
+        "term": "information",
+        "weight": 0.338265
+      },
+      {
+        "term": "traffic",
+        "weight": 0.180478
+      },
+      {
+        "term": "traffic camera",
+        "weight": 0.179117
+      },
+      {
+        "term": "camera information",
+        "weight": 0.140277
+      },
+      {
+        "term": "camera",
+        "weight": 0.132785
+      },
+      {
+        "term": "writer",
+        "weight": 0.063172
+      },
+      {
+        "term": "camera alert",
+        "weight": 0.056446
+      },
+      {
+        "term": "detailed information",
+        "weight": 0.05369
+      },
+      {
+        "term": "customer",
+        "weight": 0.053461
+      },
+      {
+        "term": "real traffic",
+        "weight": 0.049289
+      },
+      {
+        "term": "detailed",
+        "weight": 0.047951
+      },
+      {
+        "term": "traffic information",
+        "weight": 0.047744
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001827",
+        "review_id": "G70-0672",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it is difficult to locate the specific information needed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002822",
+        "review_id": "G70-1023",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has been signed up for Traffic Camera Information since buying the vehicle,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009798",
+        "review_id": "G70-3526",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer noted that for this car, Traffic Camera information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004240",
+        "review_id": "G70-1555",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained Traffic Camera Information does not need an iPhone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004376",
+        "review_id": "G70-1603",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the information in both the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004045",
+        "review_id": "G70-1472",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised going to Navigation and using the real time traffic information tab on the right side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001912",
+        "review_id": "G70-0708",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised this indicates real time traffic information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000481",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this information should be something you can input",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004806",
+        "review_id": "G70-1749",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer thnaked the Writer for the information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006708",
+        "review_id": "G70-2400",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported he used to receive traffic camera alerts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006867",
+        "review_id": "G70-2460",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer added that each menu layout places the detailed information all the way on the right side, and they find themselves constantly leaning over because it is so far away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003798",
+        "review_id": "G70-1388",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "feels it could offer more detailed information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008985",
+        "review_id": "G70-3227",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer was at work and did not have much time to share information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004238",
+        "review_id": "G70-1555",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they were informed an iPhone was required for Traffic Camera Information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002825",
+        "review_id": "G70-1023",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he had used Traffic Camera information on his previous BMW and that application functioned correctly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002827",
+        "review_id": "G70-1023",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer observed the vehicle VIN shows an active Traffic Camera information subscription through 4/20",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so explicit customer sentiment is sparse.",
+      "The topic blends several related but distinct subjects, including traffic camera subscriptions, menu layout guidance, feature requirements, and information detail, limiting a tighter sentiment summary.",
+      "Examples are brief and sometimes incomplete, so some underlying context is unavailable."
+    ]
+  }
+}

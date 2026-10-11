@@ -1,0 +1,733 @@
+{
+  "topic_id": "T0077",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 29,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.034483,
+      "JP": 0.034483,
+      "KR": 0.103448,
+      "US": 0.827586
+    },
+    "engine_type": {
+      "BEVE": 0.275862,
+      "ICE": 0.689655,
+      "PHEV": 0.034483
+    },
+    "sentiment": {
+      "positive": {
+        "count": 12,
+        "share": 0.413793,
+        "summary": "Positive reviews praise the vehicle's gas or fuel mileage as very good, excellent, or pleasing.",
+        "evidence_fragment_ids": [
+          "F001660",
+          "F007742",
+          "F004200",
+          "F003828",
+          "F000403",
+          "F005903",
+          "F004661",
+          "F005716"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.034483,
+        "summary": "The negative review expresses dissatisfaction with the mileage being achieved.",
+        "evidence_fragment_ids": [
+          "F001415"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 16,
+        "share": 0.551724,
+        "summary": "Undetermined reviews mostly record claim-mileage entries or mention mileage expectations and display issues without a clear positive or negative judgment.",
+        "evidence_fragment_ids": [
+          "F009762",
+          "F008211",
+          "F003920",
+          "F011067",
+          "F008142",
+          "F007750",
+          "F000970"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 29,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00725,
+          "sentiment_counts": {
+            "positive": 12,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.413793,
+            "negative": 0.034483,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.551724
+          },
+          "negative_rate": 0.034483,
+          "negative_or_mixed_rate": 0.034483,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.448276
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 3,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.014634,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.666667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.666667
+        },
+        "US": {
+          "review_count": 24,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.006648,
+          "sentiment_counts": {
+            "positive": 10,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.416667,
+            "negative": 0.041667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.541667
+          },
+          "negative_rate": 0.041667,
+          "negative_or_mixed_rate": 0.041667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.458333
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.125
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.008853,
+          "sentiment_counts": {
+            "positive": 12,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.6,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.6
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 22,
+          "topic_prevalence_in_source_segment": 0.045455,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.005507,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.142857
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008428,
+          "sentiment_counts": {
+            "positive": 10,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.588235,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.411765
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.588235
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0153",
+      "G60-0353",
+      "G60-0498",
+      "G60-0591",
+      "G60-0909",
+      "G60-1375",
+      "G60-1411",
+      "G60-1510",
+      "G60-1668",
+      "G60-1680",
+      "G60-2034",
+      "G60-2094",
+      "G60-2095",
+      "G60-2101",
+      "G60-2279",
+      "G60-2377",
+      "G60-2414",
+      "G60-2549",
+      "G60-2770",
+      "G60-2772",
+      "G60-2923",
+      "G60-2951",
+      "G60-3051",
+      "G60-3209",
+      "G60-3503",
+      "G60-3580",
+      "G60-3731",
+      "G60-3859",
+      "G60-3992"
+    ],
+    "summary": "This topic combines clear praise for fuel economy with many administrative or informational mileage mentions that do not express a definite opinion.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Gas Mileage and Claim Mileage Mentions",
+    "source_title": "mileage / gas / claim",
+    "keywords": [
+      {
+        "term": "mileage",
+        "weight": 0.446112
+      },
+      {
+        "term": "gas",
+        "weight": 0.142013
+      },
+      {
+        "term": "gas mileage",
+        "weight": 0.130855
+      },
+      {
+        "term": "claim mileage",
+        "weight": 0.113681
+      },
+      {
+        "term": "claim",
+        "weight": 0.112048
+      },
+      {
+        "term": "fuel mileage",
+        "weight": 0.102054
+      },
+      {
+        "term": "fuel",
+        "weight": 0.082769
+      },
+      {
+        "term": "stated mileage",
+        "weight": 0.064307
+      },
+      {
+        "term": "customer",
+        "weight": 0.043259
+      },
+      {
+        "term": "stated",
+        "weight": 0.043163
+      },
+      {
+        "term": "mentioned gas",
+        "weight": 0.042045
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.038387
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001660",
+        "review_id": "G60-0591",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that the vehicle achieves very good gas mileage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001415",
+        "review_id": "G60-0498",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i'm not happy with the mileage i'm getting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009762",
+        "review_id": "G60-3503",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the perfomance, gas mileage, and so on are about what i expected",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007742",
+        "review_id": "G60-2770",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that the gas mileage on the vehicle is very good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008211",
+        "review_id": "G60-2951",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Claim Mileage: 1237",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004200",
+        "review_id": "G60-1510",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the car gets very good gas mileage and that he is pleased with the fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003920",
+        "review_id": "G60-1411",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Claim Mileage: 235",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011067",
+        "review_id": "G60-3992",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Claim Mileage: 984",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008142",
+        "review_id": "G60-2923",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Claim mileage:354",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003828",
+        "review_id": "G60-1375",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel mileage is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000403",
+        "review_id": "G60-0153",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "fuel mileage is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005903",
+        "review_id": "G60-2101",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned he is pleased with the gas mileage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007750",
+        "review_id": "G60-2772",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i also think the mileage forecast is overstated, and you are probably well aware of that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000970",
+        "review_id": "G60-0353",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he could not figure out how to view the vehicle mileage other than in the My BMW app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004661",
+        "review_id": "G60-1668",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": ": \"very solid car with great mileage\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005716",
+        "review_id": "G60-2034",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it gets good fuel mileage and it looks pretty",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 30,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic mixes customer opinions about fuel economy with administrative 'Claim Mileage' records, which limits thematic coherence.",
+      "Many sampled fragments are undetermined, so the examples provide limited detail about why mileage is mentioned in those cases.",
+      "The sampled fragments are stratified and not representative of all reviews for estimating broader customer experience."
+    ]
+  }
+}

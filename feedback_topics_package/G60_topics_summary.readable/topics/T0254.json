@@ -1,0 +1,508 @@
+{
+  "topic_id": "T0254",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 12,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.083333,
+      "US": 0.916667
+    },
+    "engine_type": {
+      "BEVE": 0.5,
+      "ICE": 0.5
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.083333,
+        "summary": "The only negative example expresses disappointment that a custom-ordered, fully optioned vehicle did not feel worthy of its top-of-the-line positioning.",
+        "evidence_fragment_ids": [
+          "F005069"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.916667,
+        "summary": "Undetermined fragments mention varied subjects such as lane recognition, communication, order mismatch, acceleration off the line, appearance packages, and noticing differences, without enough context for a clear sentiment in most cases.",
+        "evidence_fragment_ids": [
+          "F003681",
+          "F007531",
+          "F009699",
+          "F000602",
+          "F009334",
+          "F005451",
+          "F006320",
+          "F001622",
+          "F000044",
+          "F007094",
+          "F006349"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 12,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.003,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.916667
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.083333
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 11,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003047,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.909091
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.090909
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002656,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.166667
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002479,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0017",
+      "G60-0222",
+      "G60-0575",
+      "G60-1315",
+      "G60-1808",
+      "G60-1941",
+      "G60-2259",
+      "G60-2264",
+      "G60-2540",
+      "G60-2685",
+      "G60-3354",
+      "G60-3479"
+    ],
+    "summary": "This topic is mostly a loose collection of fragments containing words like line, notice, top of the line, and communication rather than a single consistent vehicle issue.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Line and notice mentions",
+    "source_title": "line / notice / communication",
+    "keywords": [
+      {
+        "term": "line",
+        "weight": 0.371185
+      },
+      {
+        "term": "notice",
+        "weight": 0.218106
+      },
+      {
+        "term": "top line",
+        "weight": 0.078839
+      },
+      {
+        "term": "communication",
+        "weight": 0.0624
+      },
+      {
+        "term": "notice difference",
+        "weight": 0.060072
+      },
+      {
+        "term": "delivered",
+        "weight": 0.058266
+      },
+      {
+        "term": "top",
+        "weight": 0.057502
+      },
+      {
+        "term": "difference",
+        "weight": 0.04912
+      },
+      {
+        "term": "parking spaces",
+        "weight": 0.04787
+      },
+      {
+        "term": "shadow",
+        "weight": 0.04637
+      },
+      {
+        "term": "spaces",
+        "weight": 0.046012
+      },
+      {
+        "term": "compared",
+        "weight": 0.04406
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005069",
+        "review_id": "G60-1808",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i custom ordered this 2025 and added every option that was available, so it's supposed to be top of the line, yet it's very disappointing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003681",
+        "review_id": "G60-1315",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it doesnt seem to notice when I am back off the line",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007531",
+        "review_id": "G60-2685",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is a line",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009699",
+        "review_id": "G60-3479",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if there were any line of communication",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000602",
+        "review_id": "G60-0222",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "what i asked for and what was delivered did not line up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009334",
+        "review_id": "G60-3354",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the car jumps off the line too fast and feels harsh compared to all his other cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005451",
+        "review_id": "G60-1941",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "also, if you're going to offer the shadow line package, you should make all the exterior badging blacked out too",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006320",
+        "review_id": "G60-2259",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "as long as the car stays top of the line",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001622",
+        "review_id": "G60-0575",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that since this is his first electric vehicle, he does not really notice much difference compared to the ICE version, except when he has to charge the car instead of filling it with gas",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000044",
+        "review_id": "G60-0017",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "you notice it once you drive the car after buying it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007094",
+        "review_id": "G60-2540",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated you can clearly notice the difference versus his mother in law's electric Volvo",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006349",
+        "review_id": "G60-2264",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i notice the same thing in parking spaces",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 12,
+      "total_topic_fragments": 12,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are keyword-driven snippets with insufficient context to determine sentiment reliably.",
+      "The cluster mixes unrelated subjects, including lane detection, sales or delivery communication, acceleration, trim appearance, and general comparison comments.",
+      "Because the topic is built from lexical matches around line and notice, it does not form a coherent single customer concern from the available examples."
+    ]
+  }
+}

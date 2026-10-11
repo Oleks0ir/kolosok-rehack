@@ -1,0 +1,565 @@
+{
+  "topic_id": "T0180",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 15,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.466667,
+      "PHEV": 0.133333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 13,
+        "share": 0.866667,
+        "summary": "Negative fragments mainly consist of defect-code entries and short defect descriptions tied to software or equipment faults, audio-system concerns, a loose speaker mount, and a radiator leak with smoking and overheating.",
+        "evidence_fragment_ids": [
+          "F008282",
+          "F005310",
+          "F009524",
+          "F004868",
+          "F003921",
+          "F004698",
+          "F008212",
+          "F003012",
+          "F008143",
+          "F001084",
+          "F005870",
+          "F003539",
+          "F009891",
+          "F004705"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.133333,
+        "summary": "Undetermined fragments describe QR-code scanning and BMW ID login steps, but they do not provide enough context to judge satisfaction or failure severity.",
+        "evidence_fragment_ids": [
+          "F007844",
+          "F009854"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 15,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00375,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.866667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.133333
+          },
+          "negative_rate": 0.866667,
+          "negative_or_mixed_rate": 0.866667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.866667
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 15,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004155,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.866667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.133333
+          },
+          "negative_rate": 0.866667,
+          "negative_or_mixed_rate": 0.866667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.866667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.833333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.833333,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.384615,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.384615,
+          "known_sentiment_share": 0.833333
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.857143,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.142857
+          },
+          "negative_rate": 0.857143,
+          "negative_or_mixed_rate": 0.857143,
+          "share_of_all_topic_negative_reviews": 0.461538,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.461538,
+          "known_sentiment_share": 0.857143
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.153846,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.153846,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.833333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.833333,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.384615,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.384615,
+          "known_sentiment_share": 0.833333
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.857143,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.142857
+          },
+          "negative_rate": 0.857143,
+          "negative_or_mixed_rate": 0.857143,
+          "share_of_all_topic_negative_reviews": 0.461538,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.461538,
+          "known_sentiment_share": 0.857143
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.153846,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.153846,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0396",
+      "G60-1078",
+      "G60-1269",
+      "G60-1411",
+      "G60-1680",
+      "G60-1733",
+      "G60-1879",
+      "G60-2094",
+      "G60-2807",
+      "G60-2923",
+      "G60-2951",
+      "G60-2975",
+      "G60-3424",
+      "G60-3536",
+      "G60-3550"
+    ],
+    "summary": "This topic is dominated by negative service-record fragments listing defect codes and brief complaint descriptions, with examples spanning software faults, audio issues, a loose speaker mount, and one overheating and smoking complaint.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Defect Codes and Complaint Descriptions",
+    "source_title": "defect / code / description",
+    "keywords": [
+      {
+        "term": "defect",
+        "weight": 0.361604
+      },
+      {
+        "term": "code",
+        "weight": 0.236953
+      },
+      {
+        "term": "defect code",
+        "weight": 0.220858
+      },
+      {
+        "term": "defect description",
+        "weight": 0.143592
+      },
+      {
+        "term": "description",
+        "weight": 0.142118
+      },
+      {
+        "term": "complaint",
+        "weight": 0.044208
+      },
+      {
+        "term": "overheating",
+        "weight": 0.036173
+      },
+      {
+        "term": "smoking",
+        "weight": 0.036173
+      },
+      {
+        "term": "smoking overheating",
+        "weight": 0.036173
+      },
+      {
+        "term": "qr",
+        "weight": 0.034882
+      },
+      {
+        "term": "qr code",
+        "weight": 0.034882
+      },
+      {
+        "term": "scan",
+        "weight": 0.034882
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003921",
+        "review_id": "G60-1411",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 3200029700",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007844",
+        "review_id": "G60-2807",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated selecting her profile always leads to a QR code scan prompt, which she knows is not normal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004698",
+        "review_id": "G60-1680",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 8410021200",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009854",
+        "review_id": "G60-3536",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised: BMW ID, add BMW ID, log in with the My BMW app, then scan the QR code",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008212",
+        "review_id": "G60-2951",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6161073900",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003012",
+        "review_id": "G60-1078",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code:4161014100",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008143",
+        "review_id": "G60-2923",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code:8410071200",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001084",
+        "review_id": "G60-0396",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005870",
+        "review_id": "G60-2094",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009524",
+        "review_id": "G60-3424",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6513033700 Defect Description: Speaker mounting Loose Complaint: GUEST REQUESTS AND AUTHORIZES TRIM, BODY, FRAME CONCERN REPAIR OR DIAGNOSIS PERFORMED BY A CERTIFIED BMW TECHNICIAN",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008282",
+        "review_id": "G60-2975",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code:6138450200Defect Description:BCP (Basic Central Platform) control unit Software error / internal equipment faultComplaint:CUSTOMER STATS THAT THE TRANSMISSION MALFUNCTION LIGHT CAME ON PLEASE CHECK AND ADVISE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005310",
+        "review_id": "G60-1879",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "DCS notes on 04/11/2025: Claim Mileage: 812 miles, Defect Code: 6512810200, Defect Description: RAM, receiver audio module Software error / internal equipment fault, Complaint: CUSTOMER STATES: CHECK THE SOUND SYSTEM",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003539",
+        "review_id": "G60-1269",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Description:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009891",
+        "review_id": "G60-3550",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Service Notes: Mileage: 457 Defect Code: 8410023900",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004868",
+        "review_id": "G60-1733",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "[PHONE] Defect Description: Radiator including module carrier leaking Complaint: C/S VEHICLE IS SMOKING AND OVERHEATING",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004705",
+        "review_id": "G60-1680",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 8410021200",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 27,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are terse service-record fields containing only defect codes or labels, which limits interpretation of the underlying customer experience.",
+      "The cluster mixes coded defect entries with QR-code and BMW ID workflow notes, so the topic is not fully coherent as a single issue.",
+      "Examples are insufficient to determine how often any specific defect code or complaint type occurs beyond this sample."
+    ]
+  }
+}

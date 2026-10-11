@@ -1,0 +1,36 @@
+{
+  "title": "Navigation exit prompt and stopped-at-light description",
+  "summary": "The examples are brief descriptive fragments about navigation exit guidance and a vehicle staying stopped at a traffic light, without enough context to determine sentiment or a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "All examples are too fragmentary to infer sentiment, mentioning navigation exit timing and a stopped-at-light behavior without evaluative language.",
+      "evidence_fragment_ids": [
+        "F000483",
+        "F003317",
+        "F002809"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined and too short to support concrete sentiment interpretation.",
+    "The cluster appears to mix at least two subjects, navigation exit instructions and stopped-at-light behavior, rather than one clearly coherent topic.",
+    "Examples are insufficient to determine whether the stopped-at-light description is a feature explanation, a complaint, or praise."
+  ]
+}

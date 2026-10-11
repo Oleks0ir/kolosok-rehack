@@ -1,0 +1,288 @@
+{
+  "topic_id": "T0575",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 4,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.25,
+        "summary": "The clear negative feedback says the overhead light switches are hard to locate, especially in the evening.",
+        "evidence_fragment_ids": [
+          "F009142"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.75,
+        "summary": "The undetermined fragments mention the car powering down with passengers inside, leaving it inside one evening, and the screen powering up, but they do not provide enough context to classify sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F009339",
+          "F008365",
+          "F001082"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 4,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.001,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001558,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001643,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0401",
+      "G70-3014",
+      "G70-3282",
+      "G70-3354"
+    ],
+    "summary": "This topic loosely groups comments about interior power behavior and overhead controls, with one clear complaint and several fragments that lack enough context for a firm sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Cabin power-down and hard-to-find controls",
+    "source_title": "powers / evening / leaving",
+    "keywords": [
+      {
+        "term": "powers",
+        "weight": 0.335468
+      },
+      {
+        "term": "evening",
+        "weight": 0.250408
+      },
+      {
+        "term": "leaving",
+        "weight": 0.242435
+      },
+      {
+        "term": "inside",
+        "weight": 0.18626
+      },
+      {
+        "term": "screen",
+        "weight": 0.119824
+      },
+      {
+        "term": "driver steps",
+        "weight": 0.11981
+      },
+      {
+        "term": "switches",
+        "weight": 0.114194
+      },
+      {
+        "term": "passengers",
+        "weight": 0.093214
+      },
+      {
+        "term": "steps",
+        "weight": 0.082817
+      },
+      {
+        "term": "overhead",
+        "weight": 0.079227
+      },
+      {
+        "term": "easy locate",
+        "weight": 0.077238
+      },
+      {
+        "term": "driver",
+        "weight": 0.062218
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009142",
+        "review_id": "G70-3282",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Overhead console - DTU: \"The switches are not easy to locate, especially the light switches, and this is particularly difficult in the evening",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009339",
+        "review_id": "G70-3354",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when the driver steps out the car powers down, leaving passengers inside with no a/c",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008365",
+        "review_id": "G70-3014",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after leaving it inside one evening",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001082",
+        "review_id": "G70-0401",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the screen powers up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 4,
+      "total_topic_fragments": 4,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is very small, and most fragments are too brief to determine sentiment confidently.",
+      "This cluster mixes at least two subjects—overhead switch usability and vehicle or screen power behavior—so the topic is not fully coherent.",
+      "Some fragments are incomplete phrases without enough context to identify the underlying issue or user evaluation."
+    ]
+  }
+}

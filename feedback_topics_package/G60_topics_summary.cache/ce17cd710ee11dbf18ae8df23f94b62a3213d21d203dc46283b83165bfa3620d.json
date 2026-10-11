@@ -1,0 +1,51 @@
+{
+  "title": "Cruise Control and Adaptive Distance Behavior",
+  "summary": "Feedback on cruise control is split between clear praise for active/adaptive cruise features and many incomplete reports that mention operation, settings, or behavior without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the cruise or adaptive cruise system as enjoyable, effective, and satisfying to use.",
+      "evidence_fragment_ids": [
+        "F010620",
+        "F003567",
+        "F000300",
+        "F007493",
+        "F002182",
+        "F001689"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews focus on confusing control placement, difficulty learning how to use cruise control, and dislike of adaptive distance behavior.",
+      "evidence_fragment_ids": [
+        "F008046",
+        "F005705",
+        "F006452"
+      ]
+    },
+    "mixed": {
+      "summary": "The mixed review describes initial concern about cruise-control operation but then frames it as a change from a prior model rather than a malfunction.",
+      "evidence_fragment_ids": [
+        "F007115"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention setting cruise control, inconsistent operation, warnings, or distance adjustment without enough detail to confirm a clear evaluation.",
+      "evidence_fragment_ids": [
+        "F001860",
+        "F007364",
+        "F009573",
+        "F002218",
+        "F001654"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "More than half of the topic reviews are undetermined, which limits confidence in summarizing overall customer stance.",
+    "Several example fragments are truncated or incomplete, so some operational concerns cannot be classified more precisely.",
+    "One supplied example assigned as positive contains comparative criticism, which suggests the sample includes borderline or inconsistently labeled feedback."
+  ]
+}

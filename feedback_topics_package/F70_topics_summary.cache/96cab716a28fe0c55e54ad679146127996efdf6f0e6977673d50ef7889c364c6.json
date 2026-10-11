@@ -1,0 +1,39 @@
+{
+  "title": "Comparisons to earlier BMWs and proximity mentions",
+  "summary": "This topic combines critical comparisons against earlier BMWs with separate proximity-related mentions, so the sample does not form one coherent theme.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive-labeled fragments actually describe the car as a step down and less quiet or solidly built than earlier models.",
+      "evidence_fragment_ids": [
+        "F002871",
+        "F006316"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments include brief proximity references and an unclear quality comparison that lacks enough context for a firm sentiment assignment.",
+      "evidence_fragment_ids": [
+        "F004656",
+        "F005878",
+        "F000823"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes unrelated subjects: comparative quality judgments and simple proximity mentions about being near the car or the car in front.",
+    "The positive-labeled examples contain negative wording, so sentiment labels and fragment text do not align cleanly.",
+    "Several fragments are too short to determine the exact feature or full sentiment context."
+  ]
+}

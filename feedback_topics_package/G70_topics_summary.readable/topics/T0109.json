@@ -1,0 +1,624 @@
+{
+  "topic_id": "T0109",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 22,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "ES": 0.045455,
+      "US": 0.954545
+    },
+    "engine_type": {
+      "BEVE": 0.181818,
+      "ICE": 0.636364,
+      "PHEV": 0.181818
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.090909,
+        "summary": "Positive reviews praise the vehicle's speed or appreciate available fan-speed and vent-control adjustability.",
+        "evidence_fragment_ids": [
+          "F008255",
+          "F008052"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.090909,
+        "summary": "Negative reviews criticize the lack or weak behavior of automatic speed-limit-based speed adjustment in cruise or assist functions.",
+        "evidence_fragment_ids": [
+          "F003141",
+          "F010408"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 18,
+        "share": 0.818182,
+        "summary": "Undetermined reviews mostly mention requests, settings questions, warnings, or service guidance about speed limits and fan speed without a clear positive or negative judgment.",
+        "evidence_fragment_ids": [
+          "F001981",
+          "F010533",
+          "F003322",
+          "F001115",
+          "F002312",
+          "F010377",
+          "F000806",
+          "F004749",
+          "F006322",
+          "F006795",
+          "F007024",
+          "F005561"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 22,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0055,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.818182
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.181818
+        }
+      },
+      "country": {
+        "ES": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 21,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.005538,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.095238,
+            "negative": 0.095238,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.809524
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.095238,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.190476
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005452,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.142857
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.013201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "ES": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.005749,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.142857
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.010638,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0292",
+      "G70-0411",
+      "G70-0531",
+      "G70-0732",
+      "G70-0845",
+      "G70-1142",
+      "G70-1204",
+      "G70-1731",
+      "G70-1943",
+      "G70-1993",
+      "G70-2277",
+      "G70-2298",
+      "G70-2429",
+      "G70-2521",
+      "G70-2898",
+      "G70-2976",
+      "G70-3078",
+      "G70-3732",
+      "G70-3735",
+      "G70-3774",
+      "G70-3783",
+      "G70-3973"
+    ],
+    "summary": "This topic combines driver-assistance speed-limit behavior with climate fan-speed adjustments, with many fragments describing requests or how-to discussions rather than clear satisfaction judgments.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Speed limit assist and fan speed controls",
+    "source_title": "speed / limit / fan",
+    "keywords": [
+      {
+        "term": "speed",
+        "weight": 0.330686
+      },
+      {
+        "term": "limit",
+        "weight": 0.156795
+      },
+      {
+        "term": "speed limit",
+        "weight": 0.078419
+      },
+      {
+        "term": "fan speed",
+        "weight": 0.062546
+      },
+      {
+        "term": "fan",
+        "weight": 0.061364
+      },
+      {
+        "term": "adjustment",
+        "weight": 0.060695
+      },
+      {
+        "term": "reduce speed",
+        "weight": 0.05035
+      },
+      {
+        "term": "reduce",
+        "weight": 0.048053
+      },
+      {
+        "term": "writer",
+        "weight": 0.044184
+      },
+      {
+        "term": "happens",
+        "weight": 0.042361
+      },
+      {
+        "term": "current",
+        "weight": 0.037593
+      },
+      {
+        "term": "automatically",
+        "weight": 0.037268
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008255",
+        "review_id": "G70-2976",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he loves the vehicle's speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003141",
+        "review_id": "G70-1142",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "1- the car is missing an active automatic speed limit assist, so it does not adjust speed on its own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001981",
+        "review_id": "G70-0732",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'd prefer if it had a bit more speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008052",
+        "review_id": "G70-2898",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i want finer control over a/c fan speed and vent routing - it's too easy for everything to get unsynced or for a small change to kick it out of auto mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010408",
+        "review_id": "G70-3735",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "major problem: auto speed control won't reduce speed until after the posted limit changes and you press the set button",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010533",
+        "review_id": "G70-3774",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the vehicle to automatically adjust itself to the speed limit",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003322",
+        "review_id": "G70-1204",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "e-when reactivating autopilot on streets with a speed limit",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001115",
+        "review_id": "G70-0411",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the fan speed can be altered in the Climate Menu screen, or by telling the Intelligent Personal Assistant to adjust the fan speed instead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002312",
+        "review_id": "G70-0845",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "1 mpg for roughly the first 160 miles where the speed limit was 55 mph",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010377",
+        "review_id": "G70-3732",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked if the car had a setting so the fan would first go to maximum by itself and then reduce the speed automatically",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000806",
+        "review_id": "G70-0292",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained he tried to configure a speed limit warning for 10 MPH over,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004749",
+        "review_id": "G70-1731",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer added that the only other adjustment needed would be the fan speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006322",
+        "review_id": "G70-2277",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the system relies on the front sensors, mirror-mounted sensors, and rear bumper sensors to track the closing speed between the customer's vehicle and other vehicles, and when that closing speed suggests a possible collision",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006795",
+        "review_id": "G70-2429",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked about the speed and how frequently it happens",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007024",
+        "review_id": "G70-2521",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised the speed warning can be configured at any chosen speed to alert when driving faster than that setting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005561",
+        "review_id": "G70-1993",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it happens below that speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 25,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic mixes at least two distinct subjects: speed or speed-limit assistance and climate fan-speed control.",
+      "Most sampled fragments are undetermined, so clear sentiment evidence is limited.",
+      "Some fragments are procedural or diagnostic statements rather than direct product evaluations."
+    ]
+  }
+}

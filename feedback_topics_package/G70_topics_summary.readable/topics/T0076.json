@@ -1,0 +1,581 @@
+{
+  "topic_id": "T0076",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 30,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.266667,
+      "ICE": 0.666667,
+      "PHEV": 0.066667
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.033333,
+        "summary": "The positive review praises the smaller dimensions of the earlier model as the right size for the customer.",
+        "evidence_fragment_ids": [
+          "F002821"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.066667,
+        "summary": "The negative reviews mention a suspected camera problem and a conditional plan to act if an issue happens again, but examples are limited.",
+        "evidence_fragment_ids": [
+          "F005593",
+          "F001577"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 27,
+        "share": 0.9,
+        "summary": "Most fragments are status updates about timing, availability, charging setup, drop-off, or lack of questions without enough context to infer sentiment.",
+        "evidence_fragment_ids": [
+          "F008058",
+          "F009232",
+          "F009872",
+          "F010845",
+          "F005308",
+          "F010823",
+          "F007035",
+          "F010661",
+          "F002030",
+          "F007194",
+          "F010878",
+          "F001125",
+          "F005958"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 30,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0075,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 27
+          },
+          "sentiment_shares": {
+            "positive": 0.033333,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 30,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.007911,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 27
+          },
+          "sentiment_shares": {
+            "positive": 0.033333,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007086,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.007788,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.85
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.15
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.007442,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.008214,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.85
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.15
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0417",
+      "G70-0579",
+      "G70-0753",
+      "G70-0779",
+      "G70-0849",
+      "G70-0862",
+      "G70-1022",
+      "G70-1446",
+      "G70-1927",
+      "G70-2005",
+      "G70-2029",
+      "G70-2141",
+      "G70-2267",
+      "G70-2523",
+      "G70-2585",
+      "G70-2611",
+      "G70-2726",
+      "G70-2778",
+      "G70-2890",
+      "G70-2899",
+      "G70-3244",
+      "G70-3263",
+      "G70-3325",
+      "G70-3452",
+      "G70-3503",
+      "G70-3547",
+      "G70-3825",
+      "G70-3891",
+      "G70-3903",
+      "G70-3915"
+    ],
+    "summary": "This topic is mostly brief follow-up statements from customers, with only a few fragments expressing clear opinions about vehicle size or a suspected camera issue.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Customer reply follow-up notes",
+    "source_title": "customer replied / morning / pushes",
+    "keywords": [
+      {
+        "term": "customer replied",
+        "weight": 0.386005
+      },
+      {
+        "term": "replied",
+        "weight": 0.382568
+      },
+      {
+        "term": "customer",
+        "weight": 0.112873
+      },
+      {
+        "term": "morning",
+        "weight": 0.083234
+      },
+      {
+        "term": "pushes",
+        "weight": 0.046982
+      },
+      {
+        "term": "replied done",
+        "weight": 0.04081
+      },
+      {
+        "term": "replied questions",
+        "weight": 0.036617
+      },
+      {
+        "term": "changing lanes",
+        "weight": 0.033979
+      },
+      {
+        "term": "done",
+        "weight": 0.030012
+      },
+      {
+        "term": "lanes",
+        "weight": 0.029941
+      },
+      {
+        "term": "questions",
+        "weight": 0.027849
+      },
+      {
+        "term": "changing",
+        "weight": 0.027366
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002821",
+        "review_id": "G70-1022",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer replied they preferred the smaller dimensions of their 2022 model and felt that size was perfect",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005593",
+        "review_id": "G70-2005",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer replied he would do so if the issue reappears",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008058",
+        "review_id": "G70-2899",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied that most of the time there is not",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001577",
+        "review_id": "G70-0579",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer replied no, and said he is sure the camera is the problem because when he pushes the phone down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009232",
+        "review_id": "G70-3325",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer replied they did not have time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009872",
+        "review_id": "G70-3547",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied they do not have time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010845",
+        "review_id": "G70-3903",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the customer replied that it was not",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005308",
+        "review_id": "G70-1927",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied not at this time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010823",
+        "review_id": "G70-3891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied he is using a BMW Wallbox",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007035",
+        "review_id": "G70-2523",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied that he is using a 110V outlet",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010661",
+        "review_id": "G70-3825",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied they would reach out when they were able",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002030",
+        "review_id": "G70-0753",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the customer replied that there was nothing right now as they were about to go into a meeting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007194",
+        "review_id": "G70-2585",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied that he dropped it off this morning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010878",
+        "review_id": "G70-3915",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the customer replied that he does not have any questions at this time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001125",
+        "review_id": "G70-0417",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied that he has not done that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005958",
+        "review_id": "G70-2141",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer replied he has not done any",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 30,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic clusters many short callback or service follow-up replies rather than a single coherent vehicle issue.",
+      "Most sampled fragments are undetermined, so the concrete sentiment evidence is sparse.",
+      "Some negative fragments are too brief to identify the underlying problem beyond a suspected camera issue."
+    ]
+  }
+}

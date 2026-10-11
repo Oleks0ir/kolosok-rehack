@@ -1,0 +1,727 @@
+{
+  "topic_id": "T0015",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 73,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "ES": 0.013699,
+      "KR": 0.013699,
+      "US": 0.972603
+    },
+    "engine_type": {
+      "BEVE": 0.205479,
+      "ICE": 0.726027,
+      "PHEV": 0.068493
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.068493,
+        "summary": "Positive reviews praise convenience features such as automatic mirror unfolding and EV preconditioning behaving like remote start.",
+        "evidence_fragment_ids": [
+          "F003910",
+          "F002048"
+        ]
+      },
+      "negative": {
+        "count": 9,
+        "share": 0.123288,
+        "summary": "Negative reviews focus on strong dislike of auto start-stop behavior and frustration with the start-stop button placement near other controls.",
+        "evidence_fragment_ids": [
+          "F001602",
+          "F003246"
+        ]
+      },
+      "mixed": {
+        "count": 2,
+        "share": 0.027397,
+        "summary": "Mixed reviews combine dissatisfaction with having to disable auto start-stop repeatedly or explicit dislike of the feature with limited balancing context in the sampled fragments.",
+        "evidence_fragment_ids": [
+          "F010666",
+          "F003727"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 57,
+        "share": 0.780822,
+        "summary": "Undetermined reviews include brief reports that the vehicle would not start, questions about bypassing or switching off auto start-stop, and other start-related comments without clear sentiment.",
+        "evidence_fragment_ids": [
+          "F005224",
+          "F008164",
+          "F009323",
+          "F005025",
+          "F001688",
+          "F004343",
+          "F004288",
+          "F006960",
+          "F007422",
+          "F004380"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 73,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01825,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 9,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 57
+          },
+          "sentiment_shares": {
+            "positive": 0.068493,
+            "negative": 0.123288,
+            "mixed": 0.027397,
+            "neutral": 0.0,
+            "undetermined": 0.780822
+          },
+          "negative_rate": 0.123288,
+          "negative_or_mixed_rate": 0.150685,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.219178
+        }
+      },
+      "country": {
+        "ES": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 71,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.018724,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 9,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 55
+          },
+          "sentiment_shares": {
+            "positive": 0.070423,
+            "negative": 0.126761,
+            "mixed": 0.028169,
+            "neutral": 0.0,
+            "undetermined": 0.774648
+          },
+          "negative_rate": 0.126761,
+          "negative_or_mixed_rate": 0.15493,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.225352
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.013286,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.266667,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.090909,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 53,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.020639,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 7,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 43
+          },
+          "sentiment_shares": {
+            "positive": 0.018868,
+            "negative": 0.132075,
+            "mixed": 0.037736,
+            "neutral": 0.0,
+            "undetermined": 0.811321
+          },
+          "negative_rate": 0.132075,
+          "negative_or_mixed_rate": 0.169811,
+          "share_of_all_topic_negative_reviews": 0.777778,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.818182,
+          "known_sentiment_share": 0.188679
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.016502,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.090909,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "ES": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.013953,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.266667,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.090909,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 52,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.021355,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 7,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 42
+          },
+          "sentiment_shares": {
+            "positive": 0.019231,
+            "negative": 0.134615,
+            "mixed": 0.038462,
+            "neutral": 0.0,
+            "undetermined": 0.807692
+          },
+          "negative_rate": 0.134615,
+          "negative_or_mixed_rate": 0.173077,
+          "share_of_all_topic_negative_reviews": 0.777778,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.818182,
+          "known_sentiment_share": 0.192308
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.014184,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.090909,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 11,
+    "review_ids": [
+      "G70-0059",
+      "G70-0201",
+      "G70-0251",
+      "G70-0321",
+      "G70-0327",
+      "G70-0433",
+      "G70-0459",
+      "G70-0553",
+      "G70-0585",
+      "G70-0587",
+      "G70-0622",
+      "G70-0700",
+      "G70-0765",
+      "G70-0810",
+      "G70-0824",
+      "G70-0924",
+      "G70-1017",
+      "G70-1185",
+      "G70-1231",
+      "G70-1264",
+      "G70-1319",
+      "G70-1358",
+      "G70-1402",
+      "G70-1428",
+      "G70-1430",
+      "G70-1493",
+      "G70-1532",
+      "G70-1548",
+      "G70-1574",
+      "G70-1579",
+      "G70-1593",
+      "G70-1605",
+      "G70-1637",
+      "G70-1740",
+      "G70-1809",
+      "G70-1831",
+      "G70-1850",
+      "G70-1891",
+      "G70-1896",
+      "G70-1985",
+      "G70-2083",
+      "G70-2100",
+      "G70-2177",
+      "G70-2271",
+      "G70-2294",
+      "G70-2398",
+      "G70-2496",
+      "G70-2652",
+      "G70-2666",
+      "G70-2695",
+      "G70-2735",
+      "G70-2815",
+      "G70-2830",
+      "G70-2934",
+      "G70-3009",
+      "G70-3138",
+      "G70-3182",
+      "G70-3218",
+      "G70-3223",
+      "G70-3275",
+      "G70-3317",
+      "G70-3353",
+      "G70-3389",
+      "G70-3586",
+      "G70-3641",
+      "G70-3651",
+      "G70-3652",
+      "G70-3708",
+      "G70-3761",
+      "G70-3783",
+      "G70-3828",
+      "G70-3903",
+      "G70-3955"
+    ],
+    "summary": "Feedback about this topic centers on dislike of the auto start-stop function, with smaller pockets of appreciation for convenience features and many fragments that are too brief or mixed across unrelated start-related issues to classify confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Auto start-stop and start-related features",
+    "source_title": "start / stop / auto",
+    "keywords": [
+      {
+        "term": "start",
+        "weight": 0.22578
+      },
+      {
+        "term": "stop",
+        "weight": 0.171524
+      },
+      {
+        "term": "start stop",
+        "weight": 0.090435
+      },
+      {
+        "term": "engine start",
+        "weight": 0.074438
+      },
+      {
+        "term": "auto",
+        "weight": 0.072174
+      },
+      {
+        "term": "remote",
+        "weight": 0.067907
+      },
+      {
+        "term": "auto start",
+        "weight": 0.064888
+      },
+      {
+        "term": "engine",
+        "weight": 0.063382
+      },
+      {
+        "term": "remote engine",
+        "weight": 0.058206
+      },
+      {
+        "term": "customer",
+        "weight": 0.044181
+      },
+      {
+        "term": "stated",
+        "weight": 0.034404
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.032934
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003910",
+        "review_id": "G70-1430",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned that when you start driving with the mirrors still folded, they automatically unfold, and he really likes that feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001602",
+        "review_id": "G70-0585",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i absolutely hate the auto stop-start at every light or stop sign",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010666",
+        "review_id": "G70-3828",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he really hates the Auto Start-Stop function",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005224",
+        "review_id": "G70-1896",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer instructed the customer on disabling auto start/stop by using sport mode or by using the auto start/stop widget",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002048",
+        "review_id": "G70-0765",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer explained that preconditioning works kind of like remote start,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003246",
+        "review_id": "G70-1185",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "one of the worst things is the start stop button being placed right next to the menu button on the console",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003727",
+        "review_id": "G70-1358",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer expressed that he would like a way to turn off the auto start-stop feature permanently, explaining that right now he has to go into the app and switch it off every time he drives",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008164",
+        "review_id": "G70-2934",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle still would not start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009323",
+        "review_id": "G70-3353",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle would not start after",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005025",
+        "review_id": "G70-1831",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car would not start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001688",
+        "review_id": "G70-0622",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": \"When the auto start/stop turns the engine back on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004343",
+        "review_id": "G70-1593",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer inquired if there is any way to bypass auto start stop in this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004288",
+        "review_id": "G70-1574",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned she appreciates that she can now switch off the auto start stop in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006960",
+        "review_id": "G70-2496",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he considers himself a driver and a car enthusiast, and for that reason the Auto start stop function is not something he needs, as he is not worried about emissions or about fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007422",
+        "review_id": "G70-2666",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he doesnt feel the Automatic Engine Start-Stop is any smoother than before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004380",
+        "review_id": "G70-1605",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is aware of the button to turn off the auto start stop,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 89,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so clear sentiment evidence is limited.",
+      "The topic mixes several related but distinct subjects, including auto start-stop preferences, remote start or preconditioning, control layout, and reports that the vehicle would not start.",
+      "Some examples are too short or truncated to determine whether they describe a complaint, a question, or a routine explanation."
+    ]
+  }
+}

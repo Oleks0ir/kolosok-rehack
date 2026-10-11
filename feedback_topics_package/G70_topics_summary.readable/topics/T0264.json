@@ -1,0 +1,540 @@
+{
+  "topic_id": "T0264",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 11,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.090909,
+      "US": 0.909091
+    },
+    "engine_type": {
+      "BEVE": 0.272727,
+      "ICE": 0.636364,
+      "PHEV": 0.090909
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.545455,
+        "summary": "Negative reviews describe memory seats forgetting saved positions, failing to register settings, or having poorly placed selector buttons that contribute to incorrect operation.",
+        "evidence_fragment_ids": [
+          "F001275",
+          "F008404",
+          "F003031",
+          "F007877"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.090909,
+        "summary": "The mixed review says the easy-access comfort feature is useful but works inconsistently.",
+        "evidence_fragment_ids": [
+          "F007973"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.363636,
+        "summary": "Undetermined fragments mention memory-seat features or controls without a clear evaluation, and some examples are too vague to interpret reliably.",
+        "evidence_fragment_ids": [
+          "F010903",
+          "F005359",
+          "F004903",
+          "F005616"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 11,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00275,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.545455,
+            "mixed": 0.090909,
+            "neutral": 0.0,
+            "undetermined": 0.363636
+          },
+          "negative_rate": 0.545455,
+          "negative_or_mixed_rate": 0.636364,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.636364
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 10,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.002637,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.6,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.3
+          },
+          "negative_rate": 0.6,
+          "negative_or_mixed_rate": 0.7,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.7
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.002657,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.285714,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002726,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.142857,
+            "neutral": 0.0,
+            "undetermined": 0.285714
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.714286,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.714286
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.285714,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.166667,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.833333
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0474",
+      "G70-1095",
+      "G70-1789",
+      "G70-1942",
+      "G70-2012",
+      "G70-2838",
+      "G70-2864",
+      "G70-2876",
+      "G70-2941",
+      "G70-3026",
+      "G70-3928"
+    ],
+    "summary": "Reviews in this topic mainly describe memory seat positions failing to save, recall, or operate consistently, with a few fragments too vague or off-topic to interpret confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Memory seat settings not registering consistently",
+    "source_title": "memory / broken work / work inconsistently",
+    "keywords": [
+      {
+        "term": "memory",
+        "weight": 0.311329
+      },
+      {
+        "term": "broken work",
+        "weight": 0.163258
+      },
+      {
+        "term": "work inconsistently",
+        "weight": 0.163258
+      },
+      {
+        "term": "inconsistently",
+        "weight": 0.154762
+      },
+      {
+        "term": "memory seat",
+        "weight": 0.148303
+      },
+      {
+        "term": "broken",
+        "weight": 0.143433
+      },
+      {
+        "term": "seat broken",
+        "weight": 0.125994
+      },
+      {
+        "term": "problem memory",
+        "weight": 0.119971
+      },
+      {
+        "term": "work",
+        "weight": 0.111072
+      },
+      {
+        "term": "seat",
+        "weight": 0.103652
+      },
+      {
+        "term": "problem",
+        "weight": 0.086267
+      },
+      {
+        "term": "remembered",
+        "weight": 0.070333
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001275",
+        "review_id": "G70-0474",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Memory seats - Broken/work inconsistently: \"memory just does not register\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007973",
+        "review_id": "G70-2876",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Memory seats - Broken/work inconsistently: \"The easy access comfort feature works inconsistently",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010903",
+        "review_id": "G70-3928",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned they appreciate the memory seats and have one profile set up just for getting in and out where the wheel slides forward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008404",
+        "review_id": "G70-3026",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Memory seats - Broken/work inconsistently: \"I have the seats set up for each key fob,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005359",
+        "review_id": "G70-1942",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that the set key and memory 1 and memory 2 are all grouped right beside each other on the glass with no labeling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003031",
+        "review_id": "G70-1095",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Memory seats - Broken/work inconsistently: \"every so often the car seems to forget my last seat position, so I have to readjust how far the seat is from the steering wheel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007877",
+        "review_id": "G70-2838",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Memory seats - Broken/work inconsistently: \"the selector buttons sit too near one another",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007945",
+        "review_id": "G70-2864",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Gauges/instrument display - Broken/work inconsistently: \"IDrive is currently down and not functioning\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008179",
+        "review_id": "G70-2941",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Window/window controls - Broken/work inconsistently: \"I had the dealer do window tint, and about a week later both rear passenger windows cracked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004903",
+        "review_id": "G70-1789",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my memory is short",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005616",
+        "review_id": "G70-2012",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the memory has to be remembered all the time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 11,
+      "total_topic_fragments": 11,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several sampled fragments are vague, truncated, or not clearly about the memory-seat issue, which limits how specifically the topic can be summarized.",
+      "The cluster includes at least a few off-topic examples, so not every fragment cleanly reflects the same problem."
+    ]
+  }
+}

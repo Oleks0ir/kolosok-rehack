@@ -1,0 +1,698 @@
+{
+  "topic_id": "T0115",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 21,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.047619,
+      "KR": 0.285714,
+      "US": 0.666667
+    },
+    "engine_type": {
+      "BEVE": 0.047619,
+      "ICE": 0.809524,
+      "PHEV": 0.142857
+    },
+    "sentiment": {
+      "positive": {
+        "count": 12,
+        "share": 0.571429,
+        "summary": "Positive reviews praise the vehicle's fuel economy as good, excellent, or impressive, sometimes alongside ride comfort, quietness, or performance.",
+        "evidence_fragment_ids": [
+          "F004838",
+          "F002908",
+          "F006312",
+          "F000635",
+          "F006124",
+          "F010083",
+          "F000085",
+          "F000394",
+          "F008516",
+          "F002148"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.095238,
+        "summary": "Negative reviews mention dissatisfaction with fuel economy or note fuel pot and fuel lid door cover replacement without enough detail to specify the underlying issue.",
+        "evidence_fragment_ids": [
+          "F005972",
+          "F007513"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 7,
+        "share": 0.333333,
+        "summary": "Undetermined fragments reference fuel economy in vague, comparative, or preference-based ways that do not clearly indicate satisfaction or dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F003523",
+          "F003836",
+          "F005020",
+          "F003920"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 21,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00525,
+          "sentiment_counts": {
+            "positive": 12,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.571429,
+            "negative": 0.095238,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.095238,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 6,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.043796,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.666667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.666667
+        },
+        "US": {
+          "review_count": 14,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003692,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.357143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.642857
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.000886,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.00662,
+          "sentiment_counts": {
+            "positive": 10,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.588235,
+            "negative": 0.117647,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.294118
+          },
+          "negative_rate": 0.117647,
+          "negative_or_mixed_rate": 0.117647,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.705882
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.666667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.040816,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 10,
+          "topic_prevalence_in_source_segment": 0.2,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.004928,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.583333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.75
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0043",
+      "G70-0167",
+      "G70-0234",
+      "G70-0796",
+      "G70-1057",
+      "G70-1276",
+      "G70-1404",
+      "G70-1435",
+      "G70-1608",
+      "G70-1761",
+      "G70-1829",
+      "G70-1962",
+      "G70-2144",
+      "G70-2166",
+      "G70-2204",
+      "G70-2276",
+      "G70-2341",
+      "G70-2686",
+      "G70-2694",
+      "G70-3073",
+      "G70-3620"
+    ],
+    "summary": "Reviews in this topic are mostly about strong fuel economy, while a smaller set mention fuel-system or fuel-lid service issues and several fragments are too ambiguous to classify cleanly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Fuel Economy and Fuel Lid Mentions",
+    "source_title": "fuel / economy / lid",
+    "keywords": [
+      {
+        "term": "fuel",
+        "weight": 0.314253
+      },
+      {
+        "term": "fuel economy",
+        "weight": 0.2244
+      },
+      {
+        "term": "economy",
+        "weight": 0.220547
+      },
+      {
+        "term": "fuel lid",
+        "weight": 0.08585
+      },
+      {
+        "term": "stated fuel",
+        "weight": 0.082213
+      },
+      {
+        "term": "lid",
+        "weight": 0.077363
+      },
+      {
+        "term": "pot",
+        "weight": 0.051707
+      },
+      {
+        "term": "lid door",
+        "weight": 0.046642
+      },
+      {
+        "term": "assembly",
+        "weight": 0.044961
+      },
+      {
+        "term": "housing",
+        "weight": 0.037037
+      },
+      {
+        "term": "fuel pot",
+        "weight": 0.035517
+      },
+      {
+        "term": "economy ride",
+        "weight": 0.033013
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004838",
+        "review_id": "G70-1761",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "fuel economy is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005972",
+        "review_id": "G70-2144",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "that fuel economy feature is also a problem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003523",
+        "review_id": "G70-1276",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "strong fuel economy benefits",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002908",
+        "review_id": "G70-1057",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really likes the fuel economy he is getting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007513",
+        "review_id": "G70-2694",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "replaced fuel pot assembly and fuel lid door cover",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003836",
+        "review_id": "G70-1404",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my 2017 750 was getting better fuel economy than this 760 x drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006312",
+        "review_id": "G70-2276",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the 740 delivers great fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000635",
+        "review_id": "G70-0234",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the fuel economy and performance are impressive for such a large vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006124",
+        "review_id": "G70-2204",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "lots of options, very smooth ride, and really excellent fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010083",
+        "review_id": "G70-3620",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "really high fuel economy and very good ride comfort",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005020",
+        "review_id": "G70-1829",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the mix of design, performance, roominess, fuel economy and responsiveness",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000085",
+        "review_id": "G70-0043",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the fuel economy on the vehicle is excellent, mentioning that on their last long drive they achieved around 31 mpg",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000394",
+        "review_id": "G70-0167",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "fuel economy, ride comfort and quietness are excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008516",
+        "review_id": "G70-3073",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated his fuel economy is very good compared to his Lexus and Mercedes, with the range being roughly a quarter better",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002148",
+        "review_id": "G70-0796",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it still has acceptable noise levels, good driving capability, and really excellent fuel economy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003920",
+        "review_id": "G70-1435",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer commented that if they were truly focused on mileage and fuel economy, they would not be driving this particular car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic mixes two related but distinct subjects: fuel economy opinions and fuel lid or fuel system service mentions.",
+      "Several sampled fragments are short or context-poor, so the specific complaint or evaluation cannot always be determined.",
+      "The examples are stratified samples and are not representative estimates of overall owner experience."
+    ]
+  }
+}

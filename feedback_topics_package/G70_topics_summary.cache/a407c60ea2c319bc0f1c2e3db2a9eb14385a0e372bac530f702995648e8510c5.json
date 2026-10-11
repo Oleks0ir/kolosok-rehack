@@ -1,0 +1,33 @@
+{
+  "title": "Recovery Amount Mention",
+  "summary": "The topic consists of a single fragment mentioning a recovered amount without enough context to determine what vehicle aspect or sentiment it refers to.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The only fragment states a recovered quantity in grams but does not identify the component, outcome, or evaluation.",
+      "evidence_fragment_ids": [
+        "F009252"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic is based on a single very short fragment with insufficient context for reliable interpretation.",
+    "The keyword and fragment do not clearly identify the vehicle system or issue being discussed."
+  ]
+}

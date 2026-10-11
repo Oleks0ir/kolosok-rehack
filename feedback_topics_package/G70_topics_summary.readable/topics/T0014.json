@@ -1,0 +1,699 @@
+{
+  "topic_id": "T0014",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 75,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.013333,
+      "US": 0.986667
+    },
+    "engine_type": {
+      "BEVE": 0.133333,
+      "ICE": 0.773333,
+      "PHEV": 0.093333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 27,
+        "share": 0.36,
+        "summary": "Positive reviews praise the engine as powerful, satisfying, or generally impressive.",
+        "evidence_fragment_ids": [
+          "F009504",
+          "F010915"
+        ]
+      },
+      "negative": {
+        "count": 9,
+        "share": 0.12,
+        "summary": "Negative reviews describe check-engine faults or an engine that failed to start, but the examples are limited.",
+        "evidence_fragment_ids": [
+          "F000669",
+          "F010127",
+          "F001049"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 39,
+        "share": 0.52,
+        "summary": "Undetermined reviews mostly note that the check engine light came on or required service without enough detail to judge the owner's sentiment.",
+        "evidence_fragment_ids": [
+          "F001492",
+          "F009239",
+          "F006153",
+          "F002680",
+          "F000310",
+          "F009695",
+          "F007007",
+          "F003941",
+          "F004069",
+          "F000540",
+          "F010365"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 75,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01875,
+          "sentiment_counts": {
+            "positive": 27,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 39
+          },
+          "sentiment_shares": {
+            "positive": 0.36,
+            "negative": 0.12,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.52
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.12,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.48
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 74,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.019515,
+          "sentiment_counts": {
+            "positive": 26,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 39
+          },
+          "sentiment_shares": {
+            "positive": 0.351351,
+            "negative": 0.121622,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.527027
+          },
+          "negative_rate": 0.121622,
+          "negative_or_mixed_rate": 0.121622,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.472973
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.008857,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.8
+        },
+        "ICE": {
+          "review_count": 58,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.022586,
+          "sentiment_counts": {
+            "positive": 22,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.37931,
+            "negative": 0.103448,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.517241
+          },
+          "negative_rate": 0.103448,
+          "negative_or_mixed_rate": 0.103448,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.482759
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.023102,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.009302,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.8
+        },
+        "ICE": {
+          "review_count": 57,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.023409,
+          "sentiment_counts": {
+            "positive": 21,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.368421,
+            "negative": 0.105263,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.526316
+          },
+          "negative_rate": 0.105263,
+          "negative_or_mixed_rate": 0.105263,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.473684
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.024823,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0068",
+      "G70-0093",
+      "G70-0143",
+      "G70-0203",
+      "G70-0243",
+      "G70-0301",
+      "G70-0361",
+      "G70-0380",
+      "G70-0398",
+      "G70-0410",
+      "G70-0422",
+      "G70-0452",
+      "G70-0503",
+      "G70-0527",
+      "G70-0553",
+      "G70-0577",
+      "G70-0613",
+      "G70-0633",
+      "G70-0658",
+      "G70-0667",
+      "G70-0802",
+      "G70-0899",
+      "G70-0902",
+      "G70-0920",
+      "G70-0924",
+      "G70-0971",
+      "G70-1174",
+      "G70-1267",
+      "G70-1311",
+      "G70-1425",
+      "G70-1446",
+      "G70-1483",
+      "G70-1596",
+      "G70-1672",
+      "G70-1727",
+      "G70-1764",
+      "G70-1787",
+      "G70-1966",
+      "G70-1999",
+      "G70-2041",
+      "G70-2144",
+      "G70-2217",
+      "G70-2294",
+      "G70-2353",
+      "G70-2380",
+      "G70-2405",
+      "G70-2409",
+      "G70-2497",
+      "G70-2514",
+      "G70-2536",
+      "G70-2569",
+      "G70-2629",
+      "G70-2666",
+      "G70-2710",
+      "G70-2751",
+      "G70-2768",
+      "G70-2810",
+      "G70-2897",
+      "G70-2973",
+      "G70-3043",
+      "G70-3281",
+      "G70-3329",
+      "G70-3411",
+      "G70-3487",
+      "G70-3601",
+      "G70-3642",
+      "G70-3695",
+      "G70-3729",
+      "G70-3734",
+      "G70-3748",
+      "G70-3800",
+      "G70-3836",
+      "G70-3869",
+      "G70-3932",
+      "G70-3999"
+    ],
+    "summary": "This topic combines praise for engine performance with reports of check-engine-light events and a few explicit starting or fault complaints.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "elevated_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 3,
+        "denominator": 10,
+        "rate": 0.3,
+        "comparison_numerator": 6,
+        "comparison_denominator": 65,
+        "comparison_rate": 0.092308,
+        "gap_percentage_points": 20.769,
+        "statement": "In engine_type=BEVE, 3 of 10 reviews (30.0%) are negative or mixed. The rest of this breakdown: 6 of 65 (9.2%).",
+        "interpretation": "The exploratory signal indicates BEVE examples in this topic are more often tagged negative or mixed than the rest of the engine-type breakdown, based on a small set of reviewed examples.",
+        "evidence_fragment_ids": [
+          "F010127"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Engine performance and check engine light",
+    "source_title": "engine / check / light",
+    "keywords": [
+      {
+        "term": "engine",
+        "weight": 0.261
+      },
+      {
+        "term": "check engine",
+        "weight": 0.148438
+      },
+      {
+        "term": "check",
+        "weight": 0.143005
+      },
+      {
+        "term": "engine light",
+        "weight": 0.133374
+      },
+      {
+        "term": "light",
+        "weight": 0.116247
+      },
+      {
+        "term": "shuts",
+        "weight": 0.067498
+      },
+      {
+        "term": "stated engine",
+        "weight": 0.05312
+      },
+      {
+        "term": "customer",
+        "weight": 0.046334
+      },
+      {
+        "term": "motor",
+        "weight": 0.044741
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.043509
+      },
+      {
+        "term": "stated",
+        "weight": 0.042791
+      },
+      {
+        "term": "light came",
+        "weight": 0.042475
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009504",
+        "review_id": "G70-3411",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the engine is absolutely amazing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000669",
+        "review_id": "G70-0243",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Check \"engine/motor\" light indicated problem: \"\"Check engine light came on\" - service reported that \"Fault D34420 would cause the check engine light to illuminate\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001492",
+        "review_id": "G70-0553",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "THE CHECK ENGINE LIGHT IS ON",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010127",
+        "review_id": "G70-3642",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Engine/motor doesn't start/turn on at all: \"only happened once, kept retrying and it finally switched on\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010915",
+        "review_id": "G70-3932",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the engine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001049",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the Check Engine Light came on for the first time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009239",
+        "review_id": "G70-3329",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that after having the vehicle for about a week he got a check engine light and had to take the vehicle in for service",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006153",
+        "review_id": "G70-2217",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated a check engine light comes on from time to time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002680",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the check engine light disappeared",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000310",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the check engine light came on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009695",
+        "review_id": "G70-3487",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "CUSTOMER STATES THAT THE CHECK ENGINE LIGHT IS ON",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007007",
+        "review_id": "G70-2514",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Complaint: C/N - CHECK ENGINE LIGHT IS ON",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003941",
+        "review_id": "G70-1446",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i) at just under 1,100 miles the check engine light came on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004069",
+        "review_id": "G70-1483",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained he had already taken the car in for service earlier because the check engine light came on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000540",
+        "review_id": "G70-0203",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the vehicle is currently at the dealership because of a check engine light",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010365",
+        "review_id": "G70-3729",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my check engine light came on after i took a friend to her dr",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 90,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes two related but distinct subjects: general engine praise and check-engine-light incidents.",
+      "Most undetermined examples only state that a check engine light appeared, so the sample often lacks detail about severity, diagnosis, repair outcome, or owner sentiment.",
+      "The supplied examples are limited and stratified rather than representative, so they should not be used to infer broader defect rates or prevalence."
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Connection failures and critical module issues",
+  "summary": "This topic combines app or eSIM connection failures with serious module-related vehicle failures, so the sample reflects multiple distinct problems rather than one coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews describe failed app or eSIM connectivity that prevented expected connected-service use.",
+      "evidence_fragment_ids": [
+        "F009489",
+        "F006260"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention brake booster or DCS module failures, transmission failure, app request timeouts, and parts availability without enough context to confirm the overall sentiment.",
+      "evidence_fragment_ids": [
+        "F001471",
+        "F010477",
+        "F005829",
+        "F008369",
+        "F001474"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes unrelated subjects, including connectivity problems, brake-related module failures, transmission failure, and parts sourcing.",
+    "Most sampled fragments are undetermined, which limits confidence in a single sentiment or issue interpretation.",
+    "Some fragments are terse or lack outcome context, so they cannot support stronger conclusions."
+  ]
+}

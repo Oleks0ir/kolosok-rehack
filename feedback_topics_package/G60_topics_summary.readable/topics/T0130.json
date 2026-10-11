@@ -1,0 +1,621 @@
+{
+  "topic_id": "T0130",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.052632,
+      "US": 0.947368
+    },
+    "engine_type": {
+      "BEVE": 0.210526,
+      "ICE": 0.631579,
+      "PHEV": 0.157895
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.105263,
+        "summary": "Positive reviews mention improved rear passenger room and one case described as infrequent rather than daily.",
+        "evidence_fragment_ids": [
+          "F004835",
+          "F003724"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.105263,
+        "summary": "Negative reviews focus on dissatisfaction with escalation handling and one problem reference despite it not recurring.",
+        "evidence_fragment_ids": [
+          "F002301",
+          "F009755"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 15,
+        "share": 0.789474,
+        "summary": "Undetermined reviews mostly describe isolated or repeated events without enough detail to judge sentiment, including one-off incidents, recurrence counts, safety concern wording, a rear passenger tire mention, and a request to raise the controller height.",
+        "evidence_fragment_ids": [
+          "F003907",
+          "F007045",
+          "F006384",
+          "F007143",
+          "F009406",
+          "F008485",
+          "F010729",
+          "F007521",
+          "F007712",
+          "F004866",
+          "F001292",
+          "F000171"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.105263,
+            "negative": 0.105263,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.789474
+          },
+          "negative_rate": 0.105263,
+          "negative_or_mixed_rate": 0.105263,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.210526
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 18,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004986,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.166667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002935,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005312,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003147,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.005454,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.818182
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.181818
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0062",
+      "G60-0464",
+      "G60-0818",
+      "G60-1329",
+      "G60-1408",
+      "G60-1722",
+      "G60-1733",
+      "G60-2276",
+      "G60-2523",
+      "G60-2551",
+      "G60-2681",
+      "G60-2761",
+      "G60-2880",
+      "G60-3041",
+      "G60-3320",
+      "G60-3382",
+      "G60-3501",
+      "G60-3783",
+      "G60-3855"
+    ],
+    "summary": "This topic combines intermittent incident reports phrased around something having happened with a separate comfort comment about rear passenger space, so the examples do not form a single coherent issue.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Intermittent incidents and rear passenger comments",
+    "source_title": "happened / raised / rear passenger",
+    "keywords": [
+      {
+        "term": "happened",
+        "weight": 0.444479
+      },
+      {
+        "term": "raised",
+        "weight": 0.117878
+      },
+      {
+        "term": "stated happened",
+        "weight": 0.086743
+      },
+      {
+        "term": "rear passenger",
+        "weight": 0.064044
+      },
+      {
+        "term": "customer",
+        "weight": 0.063659
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.060583
+      },
+      {
+        "term": "stated",
+        "weight": 0.059464
+      },
+      {
+        "term": "problem happened",
+        "weight": 0.05717
+      },
+      {
+        "term": "happened three",
+        "weight": 0.055055
+      },
+      {
+        "term": "passenger",
+        "weight": 0.04468
+      },
+      {
+        "term": "three",
+        "weight": 0.040677
+      },
+      {
+        "term": "rear",
+        "weight": 0.039669
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003724",
+        "review_id": "G60-1329",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted this has happened about three times over the last month and is not a daily issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009755",
+        "review_id": "G60-3501",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the problem has not happened again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003907",
+        "review_id": "G60-1408",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the car was freaking out on them, and this has not happened again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004835",
+        "review_id": "G60-1722",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated there is a notable improvement in rear passenger room versus his previous i3, and commented that his children are more comfortable riding in the i5",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002301",
+        "review_id": "G60-0818",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i am very disappointed that you refused to deal with my escalation and simply pushed me back to the uk where all the problems happened",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007045",
+        "review_id": "G60-2523",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it has not happened again since",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006384",
+        "review_id": "G60-2276",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "This only happened that one time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007143",
+        "review_id": "G60-2551",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this has happened just once",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009406",
+        "review_id": "G60-3382",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this has happened 3 times since he got the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008485",
+        "review_id": "G60-3041",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "not with what happened to the rear passenger tire",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010729",
+        "review_id": "G60-3855",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this has happened twice and that they will not use that feature again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007521",
+        "review_id": "G60-2681",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this only occurred that single night and has not happened again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007712",
+        "review_id": "G60-2761",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Luckily when it happened I was in a parking lot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004866",
+        "review_id": "G60-1733",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported this happened about three weeks after getting the new vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001292",
+        "review_id": "G60-0464",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "instead, what happened has raised some serious concerns that i feel need attention",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000171",
+        "review_id": "G60-0062",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the controller raised a bit in height",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic is lexically driven by words like 'happened' and 'raised,' which pulls together unrelated subjects rather than one clear product theme.",
+      "Most sampled fragments are undetermined and provide too little context to identify the underlying system, feature, or failure mode.",
+      "Several examples are partial statements about an event recurring or not recurring, which limits precise interpretation."
+    ]
+  }
+}

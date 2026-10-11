@@ -1,0 +1,44 @@
+{
+  "title": "Purchase uncertainty and pickup impressions",
+  "summary": "This topic clusters brief mentions about being sure or unsure, with clear praise centered on the buying and pickup experience but many fragments too incomplete to resolve into a specific sentiment or single aspect.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the overall car experience, the dealership sales process, and satisfaction after pickup.",
+      "evidence_fragment_ids": [
+        "F004856",
+        "F001988",
+        "F005821"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mostly express uncertainty or incomplete comments about buying again, controls, voice commands, DCT choice, or access if needed, without enough context for a reliable sentiment label.",
+      "evidence_fragment_ids": [
+        "F007396",
+        "F002488",
+        "F002808",
+        "F000467",
+        "F006067",
+        "F006653",
+        "F003014"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many fragments are extremely short or context-poor, so the dominant signal is uncertainty language rather than a clearly defined product issue.",
+    "The cluster mixes several unrelated subjects, including purchase intent, transmission choice, controls, voice commands, and general accessibility, so it should not be treated as one coherent theme.",
+    "Most sampled fragments are undetermined, limiting confidence in a more specific aspect summary."
+  ]
+}

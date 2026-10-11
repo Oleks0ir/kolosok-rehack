@@ -1,0 +1,420 @@
+{
+  "topic_id": "T0465",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 6,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.333333,
+      "US": 0.666667
+    },
+    "engine_type": {
+      "ICE": 0.833333,
+      "PHEV": 0.166667
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.166667,
+        "summary": "Positive feedback is limited to a brief mention of unspecified good points without concrete quality details.",
+        "evidence_fragment_ids": [
+          "F005618"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.333333,
+        "summary": "Negative reviews describe poor manufacturer quality control and a sense that customer concerns are not being addressed.",
+        "evidence_fragment_ids": [
+          "F003998",
+          "F006412"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.166667,
+        "summary": "Mixed feedback notes visible dull spots and missing quality control while stopping short of a wholly negative judgment.",
+        "evidence_fragment_ids": [
+          "F001372"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.333333,
+        "summary": "Undetermined fragments mention taking off points or suggesting safety improvements without enough context to infer clear sentiment about quality control.",
+        "evidence_fragment_ids": [
+          "F000093",
+          "F005562"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 6,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0015,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.333333,
+            "mixed": 0.166667,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.014599,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.25,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.75,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.75
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001947,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.6
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.020408,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001232,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.333333,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.666667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0047",
+      "G70-0515",
+      "G70-1462",
+      "G70-1993",
+      "G70-2012",
+      "G70-2306"
+    ],
+    "summary": "This topic centers on perceived quality-control issues, appearance flaws, and point deductions, with a few fragments that are too vague to classify clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Quality control concerns and deduction points",
+    "source_title": "points / quality control / took",
+    "keywords": [
+      {
+        "term": "points",
+        "weight": 0.466987
+      },
+      {
+        "term": "quality control",
+        "weight": 0.247543
+      },
+      {
+        "term": "quality",
+        "weight": 0.156802
+      },
+      {
+        "term": "control",
+        "weight": 0.128726
+      },
+      {
+        "term": "took",
+        "weight": 0.101732
+      },
+      {
+        "term": "safer",
+        "weight": 0.092891
+      },
+      {
+        "term": "guys",
+        "weight": 0.083813
+      },
+      {
+        "term": "spots",
+        "weight": 0.07503
+      },
+      {
+        "term": "customers",
+        "weight": 0.070419
+      },
+      {
+        "term": "manufacturer",
+        "weight": 0.070025
+      },
+      {
+        "term": "care",
+        "weight": 0.069112
+      },
+      {
+        "term": "missing",
+        "weight": 0.068576
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005618",
+        "review_id": "G70-2012",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "also some good points",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003998",
+        "review_id": "G70-1462",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "to me, that points to poor quality control on the manufacturer side, which is very disappointing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001372",
+        "review_id": "G70-0515",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "there are dull spots on the front that just look off, like quality control was missing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000093",
+        "review_id": "G70-0047",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "because of that i took off 2 points",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006412",
+        "review_id": "G70-2306",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the quality control is terrible and it feels like you guys dont care about the customers at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005562",
+        "review_id": "G70-1993",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "those are the only two points i have that i think would make the car safer and better for the driver",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 6,
+      "total_topic_fragments": 6,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is very small, so examples are insufficient for broad conclusions about this topic.",
+      "Some fragments are vague and do not clearly state what issue led to point deductions or suggested improvements.",
+      "The topic includes loosely connected ideas such as quality control, scoring points, and safety suggestions, so coherence is limited."
+    ]
+  }
+}

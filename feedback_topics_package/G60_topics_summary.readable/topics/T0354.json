@@ -1,0 +1,511 @@
+{
+  "topic_id": "T0354",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 8,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.125,
+      "US": 0.875
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.625,
+      "PHEV": 0.125
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.125,
+        "summary": "The only positive review praises fog lights for giving a clear view of the road ahead in dark or foggy driving.",
+        "evidence_fragment_ids": [
+          "F005988"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 7,
+        "share": 0.875,
+        "summary": "Undetermined reviews mention possible driver alerts, slowing behavior when another vehicle cuts in, advance notice, privacy handling, and a seatbelt comfort issue, so the examples do not form one clear sentiment or single aspect.",
+        "evidence_fragment_ids": [
+          "F010987",
+          "F008952",
+          "F000850",
+          "F000601",
+          "F005204",
+          "F008695",
+          "F004300",
+          "F008694"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 8,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.002,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.125
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 7,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001939,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.142857
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002213,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.2
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001983,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0222",
+      "G60-0305",
+      "G60-1543",
+      "G60-1846",
+      "G60-2130",
+      "G60-3109",
+      "G60-3202",
+      "G60-3961"
+    ],
+    "summary": "This topic is mostly a loose mix of references to road-ahead warnings, slowing or cut-in behavior, and unrelated uses of words like ahead and cuts, with only one clearly positive comment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Road-ahead alerts and unrelated ahead/cuts mentions",
+    "source_title": "ahead / slowing / cuts",
+    "keywords": [
+      {
+        "term": "ahead",
+        "weight": 0.284538
+      },
+      {
+        "term": "slowing",
+        "weight": 0.151241
+      },
+      {
+        "term": "cuts",
+        "weight": 0.132467
+      },
+      {
+        "term": "went ahead",
+        "weight": 0.118532
+      },
+      {
+        "term": "road ahead",
+        "weight": 0.09334
+      },
+      {
+        "term": "symbols",
+        "weight": 0.092014
+      },
+      {
+        "term": "went",
+        "weight": 0.079436
+      },
+      {
+        "term": "neck",
+        "weight": 0.069329
+      },
+      {
+        "term": "preferred",
+        "weight": 0.068471
+      },
+      {
+        "term": "give",
+        "weight": 0.067789
+      },
+      {
+        "term": "sense",
+        "weight": 0.063225
+      },
+      {
+        "term": "road",
+        "weight": 0.059711
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005988",
+        "review_id": "G60-2130",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer explained that fog lights used to be very useful when driving on foggy nights or on very dark nights, since they were bright enough to give a good sense of the road ahead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010987",
+        "review_id": "G60-3961",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said she does not want the car slowing down when another vehicle cuts in ahead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008952",
+        "review_id": "G60-3202",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i still went ahead with this one",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000850",
+        "review_id": "G60-0305",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he wanted to find out if the car would talk to him when there was an uneven road ahead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000601",
+        "review_id": "G60-0222",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i clearly said not to sell or share my information with sirius xm and they went ahead and did it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005204",
+        "review_id": "G60-1846",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "she would have preferred to be told ahead of time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008695",
+        "review_id": "G60-3109",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer responded that this might make sense and suggested that maybe the few times he has seen the symbols were when the car did not think he was slowing down fast enough and",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004300",
+        "review_id": "G60-1543",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the belt cuts into my neck",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008694",
+        "review_id": "G60-3109",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that if she is already slowing down adequately, then the symbols do not show up to give a quick alert",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most examples are undetermined, so sentiment and the core issue are hard to interpret from the available fragments.",
+      "The cluster mixes unrelated subjects, including lighting, driver alerts, privacy handling, purchase phrasing, and seatbelt comfort, rather than one coherent feature area.",
+      "Several fragments are short or context-limited, which prevents confident interpretation of the underlying customer concern."
+    ]
+  }
+}

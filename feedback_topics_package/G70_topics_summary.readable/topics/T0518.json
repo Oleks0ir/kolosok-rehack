@@ -1,0 +1,401 @@
+{
+  "topic_id": "T0518",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.2,
+      "PHEV": 0.4
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.8,
+        "summary": "Negative reviews mention overly frequent inattentive-driving warnings, repeated drive malfunction alerts, a driver restraint malfunction message, and a recurring noise after the vehicle has been parked for hours.",
+        "evidence_fragment_ids": [
+          "F001637",
+          "F009143",
+          "F001737",
+          "F000351"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The undetermined review asks for fewer warnings and less information popping up, but it does not clearly establish the severity or specific defect involved.",
+        "evidence_fragment_ids": [
+          "F007996"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.8
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 5,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001319,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.8
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.000389,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.000411,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0149",
+      "G70-0597",
+      "G70-0637",
+      "G70-2886",
+      "G70-3283"
+    ],
+    "summary": "Reviews in this topic mainly describe frequent or possibly erroneous warning pop-ups, plus a few unrelated mentions of a restraint malfunction alert and a recurring noise after the car sits.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Frequent warning pop-ups and drive-related alerts",
+    "source_title": "pops / warning / problem",
+    "keywords": [
+      {
+        "term": "pops",
+        "weight": 0.275915
+      },
+      {
+        "term": "warning",
+        "weight": 0.195055
+      },
+      {
+        "term": "problem",
+        "weight": 0.156074
+      },
+      {
+        "term": "warning pops",
+        "weight": 0.147025
+      },
+      {
+        "term": "problem drive",
+        "weight": 0.139634
+      },
+      {
+        "term": "drive",
+        "weight": 0.126891
+      },
+      {
+        "term": "problem warning",
+        "weight": 0.126872
+      },
+      {
+        "term": "malfunction",
+        "weight": 0.110674
+      },
+      {
+        "term": "cut",
+        "weight": 0.08903
+      },
+      {
+        "term": "malfunction warning",
+        "weight": 0.08571
+      },
+      {
+        "term": "keep drive",
+        "weight": 0.083558
+      },
+      {
+        "term": "info",
+        "weight": 0.083268
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001637",
+        "review_id": "G70-0597",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Other Driving Assistance Problem(s): \"warning that I am supposedly not alert to drive pops up way too often, even when there is no lane drifting at all\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007996",
+        "review_id": "G70-2886",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Please cut back the number of warnings and how much info pops up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009143",
+        "review_id": "G70-3283",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Other Seat Problem(s): \"Warning pops up saying \"Driver restraint malfunction",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001737",
+        "review_id": "G70-0637",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i keep getting a drive malfunction warning that pops up,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000351",
+        "review_id": "G70-0149",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Other Driving Experience Problem(s): \"There is a noise every time I head out for a drive after the car has been sitting unused for a few hours",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is very small, so examples are insufficient to characterize the full range of experiences beyond the fragments shown.",
+      "This cluster mixes warning pop-ups, a restraint malfunction alert, and a driving noise, so it may combine related but not fully coherent issues.",
+      "One fragment is truncated, limiting confidence about the exact nature of the restraint malfunction complaint."
+    ]
+  }
+}

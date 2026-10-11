@@ -1,0 +1,521 @@
+{
+  "topic_id": "T0223",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 13,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.384615,
+      "ICE": 0.461538,
+      "PHEV": 0.153846
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.230769,
+        "summary": "Negative fragments describe problems present since delivery or soon after delivery, including phone connectivity issues and an issue that required dealer attention despite eventual resolution.",
+        "evidence_fragment_ids": [
+          "F004830",
+          "F007910",
+          "F009589"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.769231,
+        "summary": "Undetermined fragments are mostly incomplete references to taking delivery, dealer visits, navigation or release attempts, and other early-ownership context without enough detail to confirm sentiment.",
+        "evidence_fragment_ids": [
+          "F002884",
+          "F003880",
+          "F000883",
+          "F010785",
+          "F005575",
+          "F006485",
+          "F011051",
+          "F006682",
+          "F010821",
+          "F005832"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 13,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00325,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.230769,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.230769,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.230769
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003428,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.230769,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.230769,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.230769
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.004429,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.2
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.2
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0331",
+      "G70-1046",
+      "G70-1420",
+      "G70-1759",
+      "G70-1999",
+      "G70-2102",
+      "G70-2340",
+      "G70-2390",
+      "G70-2852",
+      "G70-3442",
+      "G70-3873",
+      "G70-3891",
+      "G70-3988"
+    ],
+    "summary": "This topic clusters brief references to delivery timing, early ownership, dealer visits, and repeated tries, with only a few fragments clearly expressing dissatisfaction and many too incomplete to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Delivery-time and early-ownership issue mentions",
+    "source_title": "took / delivery / tries",
+    "keywords": [
+      {
+        "term": "took",
+        "weight": 0.30524
+      },
+      {
+        "term": "delivery",
+        "weight": 0.238906
+      },
+      {
+        "term": "took delivery",
+        "weight": 0.199767
+      },
+      {
+        "term": "took dealer",
+        "weight": 0.105188
+      },
+      {
+        "term": "stated took",
+        "weight": 0.101055
+      },
+      {
+        "term": "took tries",
+        "weight": 0.090146
+      },
+      {
+        "term": "stated delivery",
+        "weight": 0.089119
+      },
+      {
+        "term": "tries",
+        "weight": 0.081821
+      },
+      {
+        "term": "customer",
+        "weight": 0.074135
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.07288
+      },
+      {
+        "term": "stated",
+        "weight": 0.071678
+      },
+      {
+        "term": "dealer",
+        "weight": 0.067945
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004830",
+        "review_id": "G70-1759",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated there was a technology problem with the phone connecting soon after they took delivery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002884",
+        "review_id": "G70-1046",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he first took delivery of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007910",
+        "review_id": "G70-2852",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer mentioned they are using eSIM, do not use Android Auto, and that the issue has been present since they took delivery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003880",
+        "review_id": "G70-1420",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this did not happen when he first took delivery of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000883",
+        "review_id": "G70-0331",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer believes the dealership did some sort of update before he took delivery of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010785",
+        "review_id": "G70-3873",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer shared that when he first took delivery of the vehicle he felt it was overly fancy and had too many features",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009589",
+        "review_id": "G70-3442",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he took the car to the dealer and they completely resolved the problem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005575",
+        "review_id": "G70-1999",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she took the vehicle to the dealer's service department on 1/19",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006485",
+        "review_id": "G70-2340",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "took it to the dealership and they spent about 2 months on it before saying it couldn't be fixed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011051",
+        "review_id": "G70-3988",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that since delivery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006682",
+        "review_id": "G70-2390",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it took a few tries",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010821",
+        "review_id": "G70-3891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it took a few tries before it finally released",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005832",
+        "review_id": "G70-2102",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that at delivery the factory navigation was completely nonfunctional and only showed searching",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 13,
+      "total_topic_fragments": 13,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic mixes several loosely related subjects such as delivery timing, dealer service visits, repeated operation attempts, and feature behavior rather than one clearly coherent issue.",
+      "Most sampled fragments are short or incomplete, so the underlying problem and sentiment are often unclear.",
+      "The examples are stratified samples and are not representative estimates of the broader vehicle population or defect rates."
+    ]
+  }
+}

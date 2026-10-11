@@ -1,0 +1,62 @@
+{
+  "title": "Android Auto and Apple CarPlay connectivity",
+  "summary": "Feedback on Android Auto and Apple CarPlay centers on wireless connection problems and interface usability, but many sampled mentions only note that the feature was being used without describing an outcome.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews are sparse and the supplied examples do not describe CarPlay or Android Auto itself, instead praising auto-closing door features.",
+      "evidence_fragment_ids": [
+        "F004930",
+        "F009162"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe hard-to-use source switching with Android Auto or Apple CarPlay and references to wireless connection issues, though several supplied negative examples lack concrete symptom detail.",
+      "evidence_fragment_ids": [
+        "F008795",
+        "F000451",
+        "F003762"
+      ]
+    },
+    "mixed": {
+      "summary": "Mixed reviews point to intermittent wireless connection failures or unexplained loss of functionality for Android Auto or Apple CarPlay, with limited additional context in the examples.",
+      "evidence_fragment_ids": [
+        "F003222",
+        "F001207",
+        "F006672",
+        "F007451",
+        "F003742"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mostly mention whether Apple CarPlay or Android Auto was in use or note use of CarPlay without stating a clear positive or negative experience.",
+      "evidence_fragment_ids": [
+        "F004753",
+        "F004254",
+        "F004348",
+        "F002022",
+        "F005667",
+        "F009100"
+      ]
+    }
+  },
+  "signal_notes": [
+    {
+      "signal_id": "S001",
+      "interpretation": "The supplied segment signal indicates BEVE reviews in this topic are more often negative or mixed than the comparison group, which aligns with several BEVE examples about wireless connection loss, but this is only an observed association from the sampled data.",
+      "evidence_fragment_ids": [
+        "F003742",
+        "F008795"
+      ]
+    }
+  ],
+  "limitations": [
+    "Many sampled fragments are service-writeup style notes that mention CarPlay or Android Auto without enough detail to determine the customer experience.",
+    "The positive examples appear lexically matched on the word 'auto' and do not clearly reflect infotainment sentiment about CarPlay or Android Auto.",
+    "Several negative and mixed examples are terse or templated, so the exact failure mode is not always clear.",
+    "The samples are stratified and not representative estimates of overall prevalence or defect rates."
+  ]
+}

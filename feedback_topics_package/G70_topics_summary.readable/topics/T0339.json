@@ -1,0 +1,513 @@
+{
+  "topic_id": "T0339",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 9,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "CA": 0.111111,
+      "US": 0.888889
+    },
+    "engine_type": {
+      "BEVE": 0.444444,
+      "ICE": 0.444444,
+      "PHEV": 0.111111
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.333333,
+        "summary": "Positive reviews mention enjoyable driving, pleasure from ownership, and willingness to share additional comments.",
+        "evidence_fragment_ids": [
+          "F001289",
+          "F010412",
+          "F000800"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.111111,
+        "summary": "Negative reviews express disappointment without giving specific vehicle details in the sampled fragment.",
+        "evidence_fragment_ids": [
+          "F004011"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 5,
+        "share": 0.555556,
+        "summary": "Undetermined reviews are mostly generic thank-you or comment-sharing statements that do not clearly evaluate the vehicle, and one mentions positive design comments without stating the speaker's own sentiment clearly.",
+        "evidence_fragment_ids": [
+          "F000532",
+          "F010494",
+          "F002320",
+          "F004979",
+          "F001789"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 9,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00225,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.444444
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00211,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001558,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001643,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0201",
+      "G70-0287",
+      "G70-0483",
+      "G70-0661",
+      "G70-0845",
+      "G70-1462",
+      "G70-1815",
+      "G70-3735",
+      "G70-3757"
+    ],
+    "summary": "This topic centers on brief thank-you or feedback-sharing remarks, with a few clear expressions of driving enjoyment and disappointment but many fragments too vague to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Thank-you comments and sharing feedback",
+    "source_title": "thank / comments / letting share",
+    "keywords": [
+      {
+        "term": "thank",
+        "weight": 0.367755
+      },
+      {
+        "term": "comments",
+        "weight": 0.348454
+      },
+      {
+        "term": "letting share",
+        "weight": 0.114488
+      },
+      {
+        "term": "thank letting",
+        "weight": 0.114488
+      },
+      {
+        "term": "letting",
+        "weight": 0.105839
+      },
+      {
+        "term": "share",
+        "weight": 0.10078
+      },
+      {
+        "term": "positive",
+        "weight": 0.07508
+      },
+      {
+        "term": "send",
+        "weight": 0.070249
+      },
+      {
+        "term": "email",
+        "weight": 0.066801
+      },
+      {
+        "term": "bringing",
+        "weight": 0.06301
+      },
+      {
+        "term": "life",
+        "weight": 0.059998
+      },
+      {
+        "term": "design",
+        "weight": 0.053048
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001289",
+        "review_id": "G70-0483",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer comments that the vehicle drives really great",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004011",
+        "review_id": "G70-1462",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "thank you for letting me share my disappointment",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000532",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thank you for looking at my comments on this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010412",
+        "review_id": "G70-3735",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i'd be happy to send more comments by email",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010494",
+        "review_id": "G70-3757",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thank you for letting me share all of this",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002320",
+        "review_id": "G70-0845",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thank you",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004979",
+        "review_id": "G70-1815",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thank you",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001789",
+        "review_id": "G70-0661",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he gets a lot of positive comments about the design",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000800",
+        "review_id": "G70-0287",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "thank you for bringing this kind of pleasure into my life",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "CA",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are formulaic thank-you statements with too little detail to identify a concrete vehicle aspect.",
+      "The topic is loosely connected by courtesy and feedback-sharing language rather than a single specific product issue or feature.",
+      "Examples are insufficient to say more about the source of the positive design comments or the reason for the reported disappointment."
+    ]
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "topic_id": "T0121",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 0.75,
+      "JP": 0.25
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.25,
+        "summary": "Positive reviews describe the car as comfortable, well built, enjoyable to drive, and strong in performance or battery-assisted boost.",
+        "evidence_fragment_ids": [
+          "F002616",
+          "F002295",
+          "F005085",
+          "F000758"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.125,
+        "summary": "Negative reviews say the car leaves a poor impression or feels less well built than earlier BMWs.",
+        "evidence_fragment_ids": [
+          "F002601",
+          "F001345"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.625,
+        "summary": "Undetermined fragments mention impressions of size, solidity, equipment expectations, interior cheapness, acceleration, range, or power without enough context to classify sentiment reliably.",
+        "evidence_fragment_ids": [
+          "F004327",
+          "F006137",
+          "F003016",
+          "F003618",
+          "F001671",
+          "F004421",
+          "F002085",
+          "F003604",
+          "F002578",
+          "F004480"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 16,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007519,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 12,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.009281,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.416667
+        },
+        "JP": {
+          "review_count": 4,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.005952,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007519,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.009281,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.416667
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.005952,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0199",
+      "F70-0358",
+      "F70-0464",
+      "F70-0568",
+      "F70-0631",
+      "F70-0717",
+      "F70-0725",
+      "F70-0729",
+      "F70-0828",
+      "F70-1006",
+      "F70-1008",
+      "F70-1214",
+      "F70-1237",
+      "F70-1256",
+      "F70-1414",
+      "F70-1704"
+    ],
+    "summary": "Feedback in this topic centers on how the car’s build quality, driving feel, and power delivery shape owners’ overall impression, with many fragments too context-light to classify clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Build quality impression and power delivery",
+    "source_title": "impression / gives / build",
+    "keywords": [
+      {
+        "term": "impression",
+        "weight": 0.361828
+      },
+      {
+        "term": "gives",
+        "weight": 0.243767
+      },
+      {
+        "term": "gives impression",
+        "weight": 0.143735
+      },
+      {
+        "term": "gives power",
+        "weight": 0.071442
+      },
+      {
+        "term": "impression build",
+        "weight": 0.069474
+      },
+      {
+        "term": "gives level",
+        "weight": 0.068641
+      },
+      {
+        "term": "build",
+        "weight": 0.062843
+      },
+      {
+        "term": "battery gives",
+        "weight": 0.055578
+      },
+      {
+        "term": "sport gives",
+        "weight": 0.055453
+      },
+      {
+        "term": "larger",
+        "weight": 0.048973
+      },
+      {
+        "term": "level",
+        "weight": 0.048077
+      },
+      {
+        "term": "drive",
+        "weight": 0.047761
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002616",
+        "review_id": "F70-0729",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it's very comfortable to drive and gives the impression of being a well built, quality car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002601",
+        "review_id": "F70-0725",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i get the impression bmws aren't built quite like they used to",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004327",
+        "review_id": "F70-1214",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it gives an impression you only really grasp once you actually drive it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002295",
+        "review_id": "F70-0631",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "right now my driving impression is that the performance is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001345",
+        "review_id": "F70-0358",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "that did not leave a great impression",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006137",
+        "review_id": "F70-1704",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the interior gives off the impression of being cheaper than the last model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003016",
+        "review_id": "F70-0828",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my overall impression of bmw is now sour",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003618",
+        "review_id": "F70-1008",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car drives exactly how a bmw should and gives the impression of being a much larger model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001671",
+        "review_id": "F70-0464",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it gives the impression of being very solidly built",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004421",
+        "review_id": "F70-1237",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i was under the impression it would be included",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005085",
+        "review_id": "F70-1414",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "my old 220 bmw was an excellent car, so i'm hoping this 120 sport gives the same level of enjoyment and reliability",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002085",
+        "review_id": "F70-0568",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the engine working in tandem with the battery gives me all the power and acceleration i need",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003604",
+        "review_id": "F70-1006",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it gives more power than i thought it would",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002578",
+        "review_id": "F70-0717",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it gives the level of acceleration you want",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004480",
+        "review_id": "F70-1256",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "in fairness the tank is larger than on my previous 118i m sport, which gives better range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000758",
+        "review_id": "F70-0199",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the boost the 48 battery gives is fantastic whenever it's needed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments use vague 'impression' or 'gives' phrasing without enough surrounding context to determine sentiment confidently.",
+      "This topic mixes related but distinct subjects such as perceived build quality, driving impression, power delivery, equipment expectations, and range."
+    ]
+  }
+}

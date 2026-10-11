@@ -1,0 +1,569 @@
+{
+  "topic_id": "T0158",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.294118,
+      "ICE": 0.588235,
+      "PHEV": 0.117647
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.058824,
+        "summary": "One positive review says the vehicle had no rattles.",
+        "evidence_fragment_ids": [
+          "F002920"
+        ]
+      },
+      "negative": {
+        "count": 9,
+        "share": 0.529412,
+        "summary": "Negative reviews describe persistent rattling from the passenger seat, roof or headliner, doors or window area, dashboard speaker, rear bumper, and other loose trim or body parts while driving or over bumps.",
+        "evidence_fragment_ids": [
+          "F009224",
+          "F003304",
+          "F010024",
+          "F001698",
+          "F001736",
+          "F004413",
+          "F006338",
+          "F008795",
+          "F009517"
+        ]
+      },
+      "mixed": {
+        "count": 3,
+        "share": 0.176471,
+        "summary": "Mixed reviews mention rattling or tapping noises but also include either a successful dealer fix or language that softens the severity.",
+        "evidence_fragment_ids": [
+          "F001074",
+          "F002131",
+          "F001407"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.235294,
+        "summary": "Undetermined reviews report the onset or location of a rattle, such as the phone charging tray, right rear wheel area, or a noise beginning weeks after delivery, without clear satisfaction or dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F009125",
+          "F001177",
+          "F008409"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 17,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00425,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 9,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.529412,
+            "mixed": 0.176471,
+            "neutral": 0.0,
+            "undetermined": 0.235294
+          },
+          "negative_rate": 0.529412,
+          "negative_or_mixed_rate": 0.705882,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.764706
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 17,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004709,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 9,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.529412,
+            "mixed": 0.176471,
+            "neutral": 0.0,
+            "undetermined": 0.235294
+          },
+          "negative_rate": 0.529412,
+          "negative_or_mixed_rate": 0.705882,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.764706
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.003668,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.222222,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.6
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.004427,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.5,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.7,
+          "share_of_all_topic_negative_reviews": 0.555556,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.583333,
+          "known_sentiment_share": 0.8
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.222222,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003934,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.222222,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.6
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004958,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.5,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.7,
+          "share_of_all_topic_negative_reviews": 0.555556,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.583333,
+          "known_sentiment_share": 0.8
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.222222,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0164",
+      "G60-0396",
+      "G60-0416",
+      "G60-0495",
+      "G60-0603",
+      "G60-0618",
+      "G60-0763",
+      "G60-1038",
+      "G60-1178",
+      "G60-1576",
+      "G60-2264",
+      "G60-3013",
+      "G60-3137",
+      "G60-3272",
+      "G60-3299",
+      "G60-3424",
+      "G60-3605"
+    ],
+    "summary": "Reviews in this topic focus on rattling or squeaking noises from several vehicle areas, especially interior trim, seats, roofliner, console, doors, and some exterior body parts.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Interior and body rattle noises",
+    "source_title": "rattle / noise / began",
+    "keywords": [
+      {
+        "term": "rattle",
+        "weight": 0.298666
+      },
+      {
+        "term": "rattle noise",
+        "weight": 0.123497
+      },
+      {
+        "term": "noise",
+        "weight": 0.092688
+      },
+      {
+        "term": "stated rattle",
+        "weight": 0.077841
+      },
+      {
+        "term": "began",
+        "weight": 0.070989
+      },
+      {
+        "term": "stated began",
+        "weight": 0.067783
+      },
+      {
+        "term": "loose",
+        "weight": 0.058967
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.058149
+      },
+      {
+        "term": "stated",
+        "weight": 0.057074
+      },
+      {
+        "term": "hear rattle",
+        "weight": 0.055744
+      },
+      {
+        "term": "customer",
+        "weight": 0.052781
+      },
+      {
+        "term": "squeak rattle",
+        "weight": 0.050344
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002920",
+        "review_id": "G60-1038",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "there are no rattles",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009224",
+        "review_id": "G60-3299",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they hear a rattling noise from the passenger seat when no one is sitting there while he is driving, with mileage around 170",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001074",
+        "review_id": "G60-0396",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated there is a rattling noise in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009125",
+        "review_id": "G60-3272",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that a few weeks ago she began hearing a rattle from the phone charging tray whenever her phone is placed there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003304",
+        "review_id": "G60-1178",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated there is a rattling noise in the vehicle, somewhere up in the passenger side roof area",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002131",
+        "review_id": "G60-0763",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Other interior storage compartments - Squeak/rattle/other noise: \"noise behind the glove box, kind of like dripping or plastic tapping around",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001177",
+        "review_id": "G60-0416",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported a rattle from the right rear wheel area when driving around 30mph on rough roads",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010024",
+        "review_id": "G60-3605",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that rattles are much more noticeable in BEVs and that this vehicle has several distinct rattles, most noticeable in the 40-60kHz range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001698",
+        "review_id": "G60-0603",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Door panels - Squeak/rattle/other noise: \"There is some sound coming from the driver side window area, between the glass",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001736",
+        "review_id": "G60-0618",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Door panels - Squeak/rattle/other noise: \"i am not sure what it is",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004413",
+        "review_id": "G60-1576",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Headliner - Squeak/rattle/other noise: \"The trim around the upper tail light at the top of the rear glass worked loose",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006338",
+        "review_id": "G60-2264",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the rear bumper appears a bit loose and makes rattling noises when i turn or go over bumps",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008795",
+        "review_id": "G60-3137",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that on the day he bought the vehicle, as he left the dealership lot, he heard a rattling sound coming from the headliner area where the sunroof switches are",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001407",
+        "review_id": "G60-0495",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "the dealer did a great job fixing the rattling door,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009517",
+        "review_id": "G60-3424",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated there is a constant rattling sound coming from the center console speaker behind the front dashboard screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008409",
+        "review_id": "G60-3013",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer stated he began hearing it a few weeks after getting the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 21,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic groups several different noise sources across interior, wheel-area, and exterior/body locations rather than one clearly coherent component issue.",
+      "Some example fragments are brief or incomplete, so the exact cause, severity, or repair outcome is not always clear.",
+      "Only selected sample fragments are provided, so these examples should not be treated as representative of all G60 vehicles or all occurrences of this topic."
+    ]
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "topic_id": "T0164",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.6875,
+      "PHEV": 0.0625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.1875,
+        "summary": "Positive reviews describe resolved issues with no additional problems reported after replacement or repair actions.",
+        "evidence_fragment_ids": [
+          "F008744",
+          "F001706",
+          "F008898"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.1875,
+        "summary": "Negative-labeled reviews also state that no additional issues or problems occurred after service, so the negative assignment is not explained by the excerpt alone.",
+        "evidence_fragment_ids": [
+          "F007332",
+          "F002671",
+          "F002887"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.625,
+        "summary": "Undetermined reviews mention additional questions, extra settings, limited troubleshooting time, and requests for more storage or customization without clear sentiment in the excerpt.",
+        "evidence_fragment_ids": [
+          "F005165",
+          "F010064",
+          "F009159",
+          "F008082",
+          "F005816",
+          "F010007",
+          "F005992",
+          "F005496",
+          "F000366",
+          "F009558"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 16,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.004,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.1875,
+            "negative": 0.1875,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.1875,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004219,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.1875,
+            "negative": 0.1875,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.1875,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.004283,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.272727,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.545455
+          },
+          "negative_rate": 0.272727,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.454545
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.004517,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.272727,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.545455
+          },
+          "negative_rate": 0.272727,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.454545
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0153",
+      "G70-0629",
+      "G70-0970",
+      "G70-1046",
+      "G70-1882",
+      "G70-1984",
+      "G70-2095",
+      "G70-2149",
+      "G70-2629",
+      "G70-2904",
+      "G70-3146",
+      "G70-3203",
+      "G70-3294",
+      "G70-3433",
+      "G70-3590",
+      "G70-3611"
+    ],
+    "summary": "This topic mixes follow-up statements about no additional problems after repairs with unrelated mentions of extra questions, desired features, and menu settings.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Additional issues, questions, and settings mentions",
+    "source_title": "additional / customer / stated",
+    "keywords": [
+      {
+        "term": "additional",
+        "weight": 0.374748
+      },
+      {
+        "term": "stated additional",
+        "weight": 0.173363
+      },
+      {
+        "term": "additional setting",
+        "weight": 0.10125
+      },
+      {
+        "term": "additional problem",
+        "weight": 0.0997
+      },
+      {
+        "term": "additional issue",
+        "weight": 0.09353
+      },
+      {
+        "term": "additional questions",
+        "weight": 0.073494
+      },
+      {
+        "term": "customer",
+        "weight": 0.073133
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.070649
+      },
+      {
+        "term": "stated",
+        "weight": 0.069483
+      },
+      {
+        "term": "replacement additional",
+        "weight": 0.060967
+      },
+      {
+        "term": "questions",
+        "weight": 0.057705
+      },
+      {
+        "term": "setting",
+        "weight": 0.057033
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008744",
+        "review_id": "G70-3146",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that since the replacement there have been no additional problems with the wipers",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007332",
+        "review_id": "G70-2629",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he has not had any additional issues with the vehicle since then",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005165",
+        "review_id": "G70-1882",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he does not have any additional questions regarding this now",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001706",
+        "review_id": "G70-0629",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "there have been no additional problems",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002671",
+        "review_id": "G70-0970",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that since the line was reconnected he has not experienced any additional issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010064",
+        "review_id": "G70-3611",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated there is additional cushioning in the seats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009159",
+        "review_id": "G70-3294",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like this vehicle to have additional storage compartments",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008082",
+        "review_id": "G70-2904",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he did not have additional time to continue troubleshooting and that he will consult the dealer regarding this concern",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005816",
+        "review_id": "G70-2095",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer was rushing, so no additional questions were posed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010007",
+        "review_id": "G70-3590",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if needed, \"Additional settings\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008898",
+        "review_id": "G70-3203",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported that after the replacement there have been no additional issues with that cover",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005992",
+        "review_id": "G70-2149",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would like additional color options, designs, and schemes in the My Modes feature, especially for the relaxation mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005496",
+        "review_id": "G70-1984",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if required, \"Additional settings\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002887",
+        "review_id": "G70-1046",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the vehicle is now back in his possession and he has not had any additional problems with the trunk lid",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000366",
+        "review_id": "G70-0153",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer did not have additional time to continue the conversation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009558",
+        "review_id": "G70-3433",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer instructed to go to MENU, Vehicle Apps, Exterior Lighting, Additional Settings, then move the slider to deactivate the function",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes several unrelated subjects, including post-repair follow-up, feature requests, customer availability, and menu navigation.",
+      "Several negative-labeled excerpts read positive on their face, so the sentiment label cannot be fully interpreted from the fragment alone.",
+      "Many undetermined fragments are short or procedural, which limits confidence in identifying a consistent customer issue."
+    ]
+  }
+}

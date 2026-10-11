@@ -1,0 +1,50 @@
+{
+  "title": "Purchase experience, layout, and shaking mentions",
+  "summary": "This topic mixes purchase-experience praise and criticism with unrelated mentions of interior layout, charging delays, family space, app convenience, seat cooling, and vehicle shaking, so the sample does not form a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the buying process, dealership support, and interior layout.",
+      "evidence_fragment_ids": [
+        "F002645",
+        "F000660",
+        "F002224"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe the overall experience as so bad that the owner wants to sell the vehicle.",
+      "evidence_fragment_ids": [
+        "F008175"
+      ]
+    },
+    "mixed": {
+      "summary": "Mixed reviews report a poor purchase experience and inability to recommend both the dealer and the vehicle.",
+      "evidence_fragment_ids": [
+        "F006814"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention long charging processes, shaking during restart or control handoff, seat cooling, app family-use convenience, cabin setup, and family room without enough context to assign clear sentiment consistently.",
+      "evidence_fragment_ids": [
+        "F004978",
+        "F001690",
+        "F000898",
+        "F005677",
+        "F003046",
+        "F009016",
+        "F009821",
+        "F008346",
+        "F004767"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes several unrelated subjects rather than one clear theme.",
+    "Most sampled fragments are undetermined, which limits confidence in a single sentiment interpretation.",
+    "Some undetermined fragments sound opinionated, but the provided sentiment labels prevent reclassifying them."
+  ]
+}

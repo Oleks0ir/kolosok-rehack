@@ -1,0 +1,38 @@
+{
+  "title": "Product quality and back-order timing",
+  "summary": "The feedback combines broad praise for the vehicle as a well-executed product with a separate complaint about unknown timing for an electric fan delayed by back-order issues.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive feedback praises the car as an excellent or well-executed product without naming a specific component.",
+      "evidence_fragment_ids": [
+        "F005498"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback centers on unclear timing for receiving a new electric fan because the part is on back order.",
+      "evidence_fragment_ids": [
+        "F007679"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined feedback describes the product as well executed, but the sentiment assignment remains unclear from the sample.",
+      "evidence_fragment_ids": [
+        "F007385"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic mixes general product praise with a specific parts back-order complaint, so the cluster is not fully coherent.",
+    "The sample is very small, with only one fragment for each present sentiment category.",
+    "One fragment labeled undetermined reads as positive in wording, so the reason for its sentiment assignment is not available from the excerpt alone."
+  ]
+}

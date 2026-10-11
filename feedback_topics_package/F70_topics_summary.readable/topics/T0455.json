@@ -1,0 +1,198 @@
+{
+  "topic_id": "T0455",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 1,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 1.0
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 1.0,
+        "summary": "The only review gives a general overall compliment without concrete detail, so its sentiment remains undetermined.",
+        "evidence_fragment_ids": [
+          "F003108"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 1,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00047,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.000773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00047,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.000773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0861"
+    ],
+    "summary": "The topic contains a single broad statement that the car is excellent overall, but it does not provide enough detail to determine a specific sentiment category beyond undetermined.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Overall excellence comment",
+    "source_title": "excelllent",
+    "keywords": [
+      {
+        "term": "excelllent",
+        "weight": 1.0
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003108",
+        "review_id": "F70-0861",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this is an excelllent car overall",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 1,
+      "total_topic_fragments": 1,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic is based on a single fragment, so examples are insufficient for a more detailed aspect summary.",
+      "The available text is a vague overall statement and does not identify specific vehicle attributes.",
+      "The topic is effectively a single generic keyword and may not represent a coherent aspect beyond a broad overall impression."
+    ]
+  }
+}

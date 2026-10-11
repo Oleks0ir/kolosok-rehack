@@ -1,0 +1,447 @@
+{
+  "topic_id": "T0363",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 8,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.125,
+      "ICE": 0.625,
+      "PHEV": 0.25
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.125,
+        "summary": "The positive review says the surround-view feature helps when parking.",
+        "evidence_fragment_ids": [
+          "F005630"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.25,
+        "summary": "Negative reviews describe auto-park as too complicated for simple spaces and criticize how quickly the vehicle moves when trying to park.",
+        "evidence_fragment_ids": [
+          "F010402",
+          "F006701"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 5,
+        "share": 0.625,
+        "summary": "Undetermined fragments mention automatic parking prompts, auto-park availability, and other automatic switching behavior without enough context to confirm sentiment or even the same subtopic.",
+        "evidence_fragment_ids": [
+          "F010986",
+          "F011014",
+          "F002534",
+          "F010240",
+          "F001375"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 8,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.002,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00211,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.000886,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001947,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002053,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0515",
+      "G70-0924",
+      "G70-2019",
+      "G70-2398",
+      "G70-3685",
+      "G70-3735",
+      "G70-3960",
+      "G70-3972"
+    ],
+    "summary": "Feedback centers on auto-park and parking-related automation, with one helpful surround-view comment, some complaints about usability and parking behavior, and several fragments that only mention automatic functions without clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Auto-park and parking assistance behavior",
+    "source_title": "park / automatically / trying",
+    "keywords": [
+      {
+        "term": "park",
+        "weight": 0.404645
+      },
+      {
+        "term": "automatically",
+        "weight": 0.14962
+      },
+      {
+        "term": "auto park",
+        "weight": 0.126271
+      },
+      {
+        "term": "trying park",
+        "weight": 0.121263
+      },
+      {
+        "term": "automatically switches",
+        "weight": 0.102554
+      },
+      {
+        "term": "trying",
+        "weight": 0.086076
+      },
+      {
+        "term": "switches",
+        "weight": 0.084566
+      },
+      {
+        "term": "auto",
+        "weight": 0.075393
+      },
+      {
+        "term": "spot",
+        "weight": 0.064487
+      },
+      {
+        "term": "stated fast",
+        "weight": 0.060203
+      },
+      {
+        "term": "show",
+        "weight": 0.051426
+      },
+      {
+        "term": "surround",
+        "weight": 0.050809
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005630",
+        "review_id": "G70-2019",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that the surround view feature is very helpful when trying to park the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010402",
+        "review_id": "G70-3735",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "auto park is too complicated just to have it locate and park in a simple spot, and yes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010986",
+        "review_id": "G70-3960",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car will automatically park",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006701",
+        "review_id": "G70-2398",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is not happy with how fast the vehicle takes off when he is trying to park",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011014",
+        "review_id": "G70-3972",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that recently he pulled up next to a spot to parallel park and suddenly a prompt appeared asking if he wanted the car to park on its own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002534",
+        "review_id": "G70-0924",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "5) the engine automatically switches off when you put the transmission in park and open the driver door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010240",
+        "review_id": "G70-3685",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the auto-park option does not show up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001375",
+        "review_id": "G70-0515",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the passenger seat when someone is in it, automatically switches on at the highest setting every time i start the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 8,
+      "total_topic_fragments": 8,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, limiting confidence about clear customer sentiment on auto-park.",
+      "The cluster mixes parking assistance with unrelated automatic switching behaviors, such as engine shutoff and seat heating, so it is not fully coherent.",
+      "Some fragments are too brief to tell whether they describe a praise, complaint, or simple feature mention."
+    ]
+  }
+}

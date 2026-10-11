@@ -1,0 +1,727 @@
+{
+  "topic_id": "T0102",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 23,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.043478,
+      "KR": 0.043478,
+      "US": 0.869565,
+      "ZA": 0.043478
+    },
+    "engine_type": {
+      "BEVE": 0.608696,
+      "ICE": 0.26087,
+      "PHEV": 0.130435
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.043478,
+        "summary": "The positive review mentions confirming that an unlimited AT&T plan is compatible with the Personal eSIM.",
+        "evidence_fragment_ids": [
+          "F002295"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.086957,
+        "summary": "The negative reviews describe repeated Personal eSIM setup problems and limited functionality such as only working when the phone is inside the vehicle.",
+        "evidence_fragment_ids": [
+          "F004244",
+          "F008905"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 20,
+        "share": 0.869565,
+        "summary": "The undetermined reviews mostly document activation status, eligibility checks, menu navigation, carrier-plan advice, and unresolved setup states without a clear evaluative sentiment.",
+        "evidence_fragment_ids": [
+          "F007279",
+          "F003606",
+          "F010118",
+          "F004524",
+          "F009230",
+          "F008078",
+          "F008117",
+          "F005338",
+          "F009961",
+          "F004214",
+          "F009483",
+          "F002743",
+          "F001714"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 23,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00575,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.043478,
+            "negative": 0.086957,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.869565
+          },
+          "negative_rate": 0.086957,
+          "negative_or_mixed_rate": 0.086957,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.130435
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 20,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.005274,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.85
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.15
+        },
+        "ZA": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 14,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0124,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.785714
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.214286
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 10,
+          "topic_prevalence_in_source_segment": 0.1,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.012093,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.153846,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.230769
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "ZA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0008",
+      "G70-0201",
+      "G70-0442",
+      "G70-0631",
+      "G70-0840",
+      "G70-0991",
+      "G70-1300",
+      "G70-1548",
+      "G70-1556",
+      "G70-1646",
+      "G70-1910",
+      "G70-1936",
+      "G70-2340",
+      "G70-2618",
+      "G70-2904",
+      "G70-2920",
+      "G70-3140",
+      "G70-3204",
+      "G70-3325",
+      "G70-3405",
+      "G70-3560",
+      "G70-3575",
+      "G70-3638"
+    ],
+    "summary": "This topic centers on activating and configuring the Personal eSIM, with most sampled fragments describing setup status, eligibility, app or iDrive steps, and mobile-plan compatibility rather than clear satisfaction judgments.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Personal eSIM setup and plan compatibility",
+    "source_title": "esim / personal / plan",
+    "keywords": [
+      {
+        "term": "esim",
+        "weight": 0.2119
+      },
+      {
+        "term": "personal",
+        "weight": 0.171633
+      },
+      {
+        "term": "personal esim",
+        "weight": 0.15731
+      },
+      {
+        "term": "plan",
+        "weight": 0.119913
+      },
+      {
+        "term": "unlimited",
+        "weight": 0.055888
+      },
+      {
+        "term": "mobile",
+        "weight": 0.047129
+      },
+      {
+        "term": "stated personal",
+        "weight": 0.046406
+      },
+      {
+        "term": "writer",
+        "weight": 0.045881
+      },
+      {
+        "term": "mobile devices",
+        "weight": 0.038042
+      },
+      {
+        "term": "stated",
+        "weight": 0.037424
+      },
+      {
+        "term": "devices",
+        "weight": 0.036637
+      },
+      {
+        "term": "activate",
+        "weight": 0.035409
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002295",
+        "review_id": "G70-0840",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer recommended that the customer contact AT&T to confirm his account and eSIM plan are truly unlimited and compatible with the Personal eSIM",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004244",
+        "review_id": "G70-1556",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is experiencing a problem with the Personal eSIM, explaining that it only works when his phone is physically in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007279",
+        "review_id": "G70-2618",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his Personal eSIM is active and working with his own BMW ID,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008905",
+        "review_id": "G70-3204",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is experiencing issues with his personal esim and has tried to set it up several times,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003606",
+        "review_id": "G70-1300",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised the vehicle should be eligible for a personal esim",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010118",
+        "review_id": "G70-3638",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised purchasing a data plan from AT&T, T-Mobile or Verizon to use the personal eSIM for calls and wifi",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004524",
+        "review_id": "G70-1646",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated her Personal eSIM is completely configured,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009230",
+        "review_id": "G70-3325",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer then asked what the My BMW app shows under Personal eSIM, and customer said it shows their vehicle with an option to Activate eSIM",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008078",
+        "review_id": "G70-2904",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated to open the Personal eSIM settings to make sure the data connection is permitted and roaming is switched on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008117",
+        "review_id": "G70-2920",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he activated the personal esim in the vehicle using a personal AT&T phone line,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005338",
+        "review_id": "G70-1936",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he only sees normal phone plans and no option for a personal esim",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009961",
+        "review_id": "G70-3575",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated to go into iDrive, open the Apps Menu, then Mobile devices, then Personal eSIM, and follow the steps shown on the Control Display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004214",
+        "review_id": "G70-1548",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it shows an eSIM with an exclamation point and says the eSIM needs to be set up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009483",
+        "review_id": "G70-3405",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "- we have already purchased 3 bmw's and plan to buy many more",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "ZA",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002743",
+        "review_id": "G70-0991",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after about 3 months i still cant get esim working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001714",
+        "review_id": "G70-0631",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "whenever we get the esim working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 39,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most reviews in this topic are undetermined, so the available evidence for clear satisfaction or dissatisfaction is limited.",
+      "The sampled fragments mix status updates, troubleshooting instructions, and a few experience reports, which limits how coherently customer sentiment can be summarized.",
+      "Some undetermined examples describe possible problems without enough context to classify them as clearly negative."
+    ]
+  }
+}

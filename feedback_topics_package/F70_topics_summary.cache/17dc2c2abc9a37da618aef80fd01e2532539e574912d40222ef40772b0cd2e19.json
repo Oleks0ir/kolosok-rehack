@@ -1,0 +1,43 @@
+{
+  "title": "Mixed uses of “above” in quality, service, and usability comments",
+  "summary": "This topic is lexically noisy, combining praise about quality or dealer service, a usability remark about limited finger room, and one explicit complaint that unspecified problems spoil the car.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clear negative example says that problems with the vehicle spoil the overall experience.",
+      "evidence_fragment_ids": [
+        "F006575"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments span higher-than-advertised fuel use, quality or equipment described as above expectations, dealer staff going above and beyond, limited finger access in one area, and an unrelated color-change remark.",
+      "evidence_fragment_ids": [
+        "F001679",
+        "F006716",
+        "F006211",
+        "F006381",
+        "F004821",
+        "F005227",
+        "F006260",
+        "F006970"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined, so the sentiment evidence for this topic is limited.",
+    "The cluster mixes unrelated subjects tied by the word 'above' rather than one coherent product issue.",
+    "Several fragments are too short or lack context to determine whether they express praise, criticism, or neither."
+  ]
+}

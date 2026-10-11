@@ -1,0 +1,656 @@
+{
+  "topic_id": "T0023",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 56,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.017857,
+      "US": 0.982143
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.696429,
+      "PHEV": 0.053571
+    },
+    "sentiment": {
+      "positive": {
+        "count": 13,
+        "share": 0.232143,
+        "summary": "Positive reviews mention being pleased with iDrive 8 or describe reboot instructions as a helpful corrective step.",
+        "evidence_fragment_ids": [
+          "F005697",
+          "F006127"
+        ]
+      },
+      "negative": {
+        "count": 7,
+        "share": 0.125,
+        "summary": "Negative reviews describe dissatisfaction with phone content mirroring on the display and cases where rebooting and updates did not resolve the underlying problem.",
+        "evidence_fragment_ids": [
+          "F006677",
+          "F005886"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 36,
+        "share": 0.642857,
+        "summary": "Undetermined reviews mostly record reboot procedures, intermittent screen shutdowns, or ambiguous mentions of 'iDrive' without enough detail to determine sentiment.",
+        "evidence_fragment_ids": [
+          "F002087",
+          "F009449",
+          "F004217",
+          "F009524",
+          "F010141",
+          "F009415",
+          "F002640",
+          "F006403",
+          "F010218"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 56,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.014,
+          "sentiment_counts": {
+            "positive": 13,
+            "negative": 7,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 36
+          },
+          "sentiment_shares": {
+            "positive": 0.232143,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.642857
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.357143
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 55,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.014504,
+          "sentiment_counts": {
+            "positive": 13,
+            "negative": 7,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.236364,
+            "negative": 0.127273,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.636364
+          },
+          "negative_rate": 0.127273,
+          "negative_or_mixed_rate": 0.127273,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.363636
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 14,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0124,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.785714
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.214286
+        },
+        "ICE": {
+          "review_count": 39,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.015187,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.282051,
+            "negative": 0.128205,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.589744
+          },
+          "negative_rate": 0.128205,
+          "negative_or_mixed_rate": 0.128205,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.410256
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 14,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.013023,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.785714
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.214286
+        },
+        "ICE": {
+          "review_count": 39,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.016016,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.282051,
+            "negative": 0.128205,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.589744
+          },
+          "negative_rate": 0.128205,
+          "negative_or_mixed_rate": 0.128205,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.410256
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0105",
+      "G70-0125",
+      "G70-0158",
+      "G70-0331",
+      "G70-0401",
+      "G70-0469",
+      "G70-0627",
+      "G70-0755",
+      "G70-0771",
+      "G70-0772",
+      "G70-0840",
+      "G70-0958",
+      "G70-0972",
+      "G70-0996",
+      "G70-1079",
+      "G70-1398",
+      "G70-1410",
+      "G70-1502",
+      "G70-1548",
+      "G70-1620",
+      "G70-1632",
+      "G70-1806",
+      "G70-1889",
+      "G70-1984",
+      "G70-2044",
+      "G70-2120",
+      "G70-2168",
+      "G70-2206",
+      "G70-2301",
+      "G70-2350",
+      "G70-2389",
+      "G70-2488",
+      "G70-2550",
+      "G70-2625",
+      "G70-2701",
+      "G70-2717",
+      "G70-3020",
+      "G70-3055",
+      "G70-3087",
+      "G70-3209",
+      "G70-3272",
+      "G70-3276",
+      "G70-3293",
+      "G70-3338",
+      "G70-3379",
+      "G70-3394",
+      "G70-3420",
+      "G70-3481",
+      "G70-3560",
+      "G70-3647",
+      "G70-3676",
+      "G70-3718",
+      "G70-3721",
+      "G70-3780",
+      "G70-3803",
+      "G70-3901"
+    ],
+    "summary": "This topic centers on iDrive system use and reboot procedures, with positive comments about satisfaction or successful reset guidance, negative comments about unresolved issues and privacy concerns, and many undetermined fragments that only mention reboot steps or use ambiguous 'i drive' wording.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "iDrive reboots and display behavior",
+    "source_title": "idrive / reboot / holding",
+    "keywords": [
+      {
+        "term": "idrive",
+        "weight": 0.290784
+      },
+      {
+        "term": "reboot",
+        "weight": 0.087918
+      },
+      {
+        "term": "holding",
+        "weight": 0.061431
+      },
+      {
+        "term": "customer",
+        "weight": 0.054612
+      },
+      {
+        "term": "volume",
+        "weight": 0.050597
+      },
+      {
+        "term": "idrive system",
+        "weight": 0.047729
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.045643
+      },
+      {
+        "term": "stated",
+        "weight": 0.044889
+      },
+      {
+        "term": "idrive reboot",
+        "weight": 0.044145
+      },
+      {
+        "term": "stated idrive",
+        "weight": 0.043058
+      },
+      {
+        "term": "seconds",
+        "weight": 0.042002
+      },
+      {
+        "term": "writer",
+        "weight": 0.040635
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005697",
+        "review_id": "G70-2044",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the iDrive 8 system",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006677",
+        "review_id": "G70-2389",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated she does not like seeing all of her phone contents mirrored on the iDrive display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006403",
+        "review_id": "G70-2301",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this 760xi that i drive every day is just horible",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006127",
+        "review_id": "G70-2206",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer recommended performing a telecommunications reboot by pressing and holding the radio volume button until the iDrive display turns blank 3 separate times",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005886",
+        "review_id": "G70-2120",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he has already updated apps and services in the vehicle and performed an iDrive reboot, yet the problem remains",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009276",
+        "review_id": "G70-3338",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "on idrive 8",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009103",
+        "review_id": "G70-3272",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the iDrive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002087",
+        "review_id": "G70-0771",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer also suggested performing an iDrive reboot by moving the car out of the garage, leaving the engine running, and pressing and holding the radio volume button for 70 seconds",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009449",
+        "review_id": "G70-3394",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained the only hiccup he has had with the car was needing to reboot iDrive by holding the radio volume knob so his phone would reconnect, which he considered just a minor inconvenience",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004217",
+        "review_id": "G70-1548",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated BMW advised him to reboot iDrive by holding the power button, which he does often",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009524",
+        "review_id": "G70-3420",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised attempting an iDrive reboot by pressing and holding the radio volume knob for 70 seconds with the vehicle parked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007086",
+        "review_id": "G70-2550",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated iDrive 8",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010141",
+        "review_id": "G70-3647",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised performing a one-time iDrive reboot by holding down the radio volume button for 30 seconds",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009415",
+        "review_id": "G70-3379",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer then performed a telecommunications reboot by holding the volume button for 70 seconds, allowing the iDrive display to power down three times, and afterward updated Apps and Services",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002640",
+        "review_id": "G70-0958",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that his iDrive screen keeps shutting off and does not come back until he performs an iDrive reboot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010218",
+        "review_id": "G70-3676",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i drive in sport most of the time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 62,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "A large share of the sampled fragments are undetermined, which limits clear interpretation of customer sentiment.",
+      "Some fragments are too short or ambiguous, including uses of 'i drive' that may not refer to the infotainment system.",
+      "The sample mixes customer opinions with service-writer procedural notes about reboot steps, so the topic is partly operational rather than purely evaluative.",
+      "Examples are limited for some sentiment categories, so the summary reflects only the supplied fragments."
+    ]
+  }
+}

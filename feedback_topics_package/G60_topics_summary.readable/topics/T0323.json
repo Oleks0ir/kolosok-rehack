@@ -1,0 +1,492 @@
+{
+  "topic_id": "T0323",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 9,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "DK": 0.222222,
+      "GB": 0.111111,
+      "US": 0.666667
+    },
+    "engine_type": {
+      "BEVE": 0.222222,
+      "ICE": 0.777778
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.111111,
+        "summary": "One positive review notes a small component above the mirror is hard to grip, but the supplied sample does not provide enough context to identify the praised aspect clearly.",
+        "evidence_fragment_ids": [
+          "F008394"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.111111,
+        "summary": "One negative review criticizes the car's inability to support Danish voice commands.",
+        "evidence_fragment_ids": [
+          "F006306"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 7,
+        "share": 0.777778,
+        "summary": "Undetermined reviews mention several separate issues, including unreadable displays, clock auto-mode setup, phone conversations with high fan noise, weak trunk hooks, unexplained new-car behavior, and headlight auto settings without enough context for clear sentiment.",
+        "evidence_fragment_ids": [
+          "F002174",
+          "F008579",
+          "F004499",
+          "F010786",
+          "F011092",
+          "F002898",
+          "F003568"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 9,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00225,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 2,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.1,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 6,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001662,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.166667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.1,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002975,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.166667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0776",
+      "G60-1032",
+      "G60-1277",
+      "G60-1609",
+      "G60-2254",
+      "G60-3011",
+      "G60-3073",
+      "G60-3870",
+      "G60-3993"
+    ],
+    "summary": "This topic groups several unrelated usability complaints, including voice interaction limits, hard-to-read or hard-to-handle controls, and configuration issues such as auto settings.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Voice, visibility, and auto-setting usability issues",
+    "source_title": "cant / set auto / talk",
+    "keywords": [
+      {
+        "term": "cant",
+        "weight": 0.44589
+      },
+      {
+        "term": "cant talk",
+        "weight": 0.103121
+      },
+      {
+        "term": "set auto",
+        "weight": 0.099745
+      },
+      {
+        "term": "cant hold",
+        "weight": 0.092459
+      },
+      {
+        "term": "talk",
+        "weight": 0.088529
+      },
+      {
+        "term": "glasses",
+        "weight": 0.076992
+      },
+      {
+        "term": "hold",
+        "weight": 0.064129
+      },
+      {
+        "term": "auto",
+        "weight": 0.062476
+      },
+      {
+        "term": "happens",
+        "weight": 0.062351
+      },
+      {
+        "term": "brand",
+        "weight": 0.061348
+      },
+      {
+        "term": "small",
+        "weight": 0.061333
+      },
+      {
+        "term": "set",
+        "weight": 0.060364
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008394",
+        "review_id": "G60-3011",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the equipment mounted right above it is so small that you cant really get a good hold on the mirror",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006306",
+        "review_id": "G60-2254",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it is almost ridiculous that you cant \"talk\" danish to the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "DK",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002174",
+        "review_id": "G60-0776",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "cant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008579",
+        "review_id": "G60-3073",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i really cant get why this happens on a brand new car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004499",
+        "review_id": "G60-1609",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "I cant see it, so I have to take the glasses off to view it\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010786",
+        "review_id": "G60-3870",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and I cant set the auto mode to EST, so I have to adjust the time myself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011092",
+        "review_id": "G60-3993",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with the fan high, you basically cant talk on the phone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002898",
+        "review_id": "G60-1032",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the small hooks in the trunk for groceries cant actually hold a bag handle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "DK",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003568",
+        "review_id": "G60-1277",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his headlights are currently set to Auto and he wants them off when leaving his garage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes unrelated subjects rather than one coherent issue.",
+      "Most examples are undetermined or too short to support a clear sentiment reading.",
+      "The positive example appears complaint-like, so the supplied sentiment label may limit interpretation.",
+      "Because the sample is sentiment-stratified and small, it should not be treated as representative of all G60 feedback on this topic."
+    ]
+  }
+}

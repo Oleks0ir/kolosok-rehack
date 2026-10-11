@@ -1,0 +1,39 @@
+{
+  "title": "Praise and complaint-handling mentions",
+  "summary": "This topic combines isolated praise about features and buying influence with complaint-related remarks that are mostly too fragmentary to classify clearly.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive example says small details can influence a purchase decision.",
+      "evidence_fragment_ids": [
+        "F003813"
+      ]
+    },
+    "negative": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments mix amazement about comfort, features, or pricing with brief complaint-escalation and ignored-email mentions, but most lack enough context for a clear sentiment reading.",
+      "evidence_fragment_ids": [
+        "F006186",
+        "F006254",
+        "F005031",
+        "F007571"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic is heterogeneous, combining product praise, pricing or grade remarks, and complaint-handling mentions rather than one clearly coherent issue.",
+    "Most fragments are very short and lack context, so sentiment and the underlying issue are often unclear.",
+    "The sample is small and stratified, so it should not be treated as representative of broader owner experience."
+  ]
+}

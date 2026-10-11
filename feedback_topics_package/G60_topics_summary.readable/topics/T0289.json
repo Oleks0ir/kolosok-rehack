@@ -1,0 +1,555 @@
+{
+  "topic_id": "T0289",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.3,
+      "US": 0.7
+    },
+    "engine_type": {
+      "BEVE": 0.3,
+      "ICE": 0.6,
+      "PHEV": 0.1
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "The only positive review says the charger had no further issues and was working properly after earlier trouble.",
+        "evidence_fragment_ids": [
+          "F009890"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 9,
+        "share": 0.9,
+        "summary": "Most reviews mention update procedures, synchronization guidance, or app and navigation update problems, but the fragments do not provide enough context for a clear sentiment label.",
+        "evidence_fragment_ids": [
+          "F000822",
+          "F004654",
+          "F000431",
+          "F006981",
+          "F000056",
+          "F005561",
+          "F002952",
+          "F010056",
+          "F002531",
+          "F004651",
+          "F000433"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.1
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 3,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.014634,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 7,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001939,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.142857
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002656,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.166667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.018293,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.00236,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0022",
+      "G60-0164",
+      "G60-0293",
+      "G60-0894",
+      "G60-1053",
+      "G60-1665",
+      "G60-1975",
+      "G60-2494",
+      "G60-3550",
+      "G60-3615"
+    ],
+    "summary": "This topic centers on app, navigation, dash cam, and in-car service updates, with most fragments describing update steps or problems without enough sentiment context and one positive report that a charger issue was resolved and working properly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "App and vehicle update functionality",
+    "source_title": "update / app services / working properly",
+    "keywords": [
+      {
+        "term": "update",
+        "weight": 0.377943
+      },
+      {
+        "term": "app services",
+        "weight": 0.125153
+      },
+      {
+        "term": "services",
+        "weight": 0.108656
+      },
+      {
+        "term": "update app",
+        "weight": 0.104205
+      },
+      {
+        "term": "working properly",
+        "weight": 0.102599
+      },
+      {
+        "term": "app",
+        "weight": 0.093615
+      },
+      {
+        "term": "properly",
+        "weight": 0.081479
+      },
+      {
+        "term": "further",
+        "weight": 0.076051
+      },
+      {
+        "term": "working",
+        "weight": 0.068937
+      },
+      {
+        "term": "dash",
+        "weight": 0.063066
+      },
+      {
+        "term": "writer",
+        "weight": 0.05293
+      },
+      {
+        "term": "check",
+        "weight": 0.050158
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009890",
+        "review_id": "G60-3550",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the charger has had no further issues and is working properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000822",
+        "review_id": "G60-0293",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Update 3/03/25:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004654",
+        "review_id": "G60-1665",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer still outlined how to update apps and services in the car: select MENU, go to system settings, scroll all the way down, and choose update apps and services",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000431",
+        "review_id": "G60-0164",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer then used RVG, guiding her to apps and services and having her update the apps and services",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006981",
+        "review_id": "G60-2494",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised there is an automatic update set up through 2028, with several updates each year",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000056",
+        "review_id": "G60-0022",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer instructed the customer to select update apps and services, and clearly advised against choosing reset vehicle data to prevent losing personal information",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005561",
+        "review_id": "G60-1975",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after the dash cam update",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002952",
+        "review_id": "G60-1053",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "navigation update also isnt working properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010056",
+        "review_id": "G60-3615",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Describe Smartphone App Not Working Properly: App connection to the vehicle is slow, Frequently need to log back in to account, App shows wrong/outdated information, App loses functionality without explanation, App frequently loses connection with the vehicle, App does not update/refresh properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002531",
+        "review_id": "G60-0894",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ", nav updates take far too long",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004651",
+        "review_id": "G60-1665",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer then advised performing an update of apps and services, since that is what keeps the vehicle synchronized with anything changed in the my garage portal or connected drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000433",
+        "review_id": "G60-0164",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "40, and had her check for further updates,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 12,
+      "total_topic_fragments": 12,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are classified as undetermined, so clear sentiment conclusions are limited.",
+      "The topic mixes several related but distinct subjects, including charger operation, smartphone app behavior, navigation updates, dash cam updates, and in-car app-and-service update instructions.",
+      "Several fragments are short or procedural, which limits interpretation of customer sentiment."
+    ]
+  }
+}

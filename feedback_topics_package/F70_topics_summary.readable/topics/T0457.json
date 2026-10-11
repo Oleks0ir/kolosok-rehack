@@ -1,0 +1,197 @@
+{
+  "topic_id": "T0457",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 1,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 1.0
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 1.0,
+        "summary": "The sole undetermined review says the F70 feels less involving than a G42 230i, without enough context to classify a clear sentiment.",
+        "evidence_fragment_ids": [
+          "F002199"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 1,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00047,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.000773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00047,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.000773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0601"
+    ],
+    "summary": "The only review fragment compares the F70 unfavorably with another model on driver involvement, but its assigned sentiment remains undetermined.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Driver involvement comparison",
+    "source_title": "involved",
+    "keywords": [
+      {
+        "term": "involved",
+        "weight": 1.0
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002199",
+        "review_id": "F70-0601",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i feel less involved than in my g42 230i",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 1,
+      "total_topic_fragments": 1,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic is based on a single undetermined fragment, so examples are insufficient for a broader thematic summary.",
+      "The fragment is a comparison with another model, which limits certainty about the underlying aspect beyond driver involvement."
+    ]
+  }
+}

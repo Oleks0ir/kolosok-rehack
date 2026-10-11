@@ -1,0 +1,51 @@
+{
+  "title": "Air Conditioning and Vent Performance",
+  "summary": "Feedback in this topic centers on air conditioning strength, cooling speed, vent output, and heater airflow, with many examples describing the function without a clearly labeled sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention air conditioning that cools the cabin quickly and performs well, though one sampled positive fragment is about interior feel rather than HVAC performance.",
+      "evidence_fragment_ids": [
+        "F005972",
+        "F002505"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe weak air conditioning, annoying fan noise, and dissatisfaction with the vents or airflow strength.",
+      "evidence_fragment_ids": [
+        "F010597",
+        "F002887",
+        "F000840"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews discuss warm air instead of cold, lack of warm air from vents, slow cooling, AC shutoff, and usage context, but the sampled fragments do not always make the sentiment label explicit.",
+      "evidence_fragment_ids": [
+        "F004072",
+        "F005334",
+        "F007471",
+        "F001670",
+        "F003725",
+        "F011090",
+        "F001078",
+        "F008571",
+        "F001880",
+        "F004949",
+        "F005377"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most topic reviews are labeled undetermined, which limits confidence in a clear sentiment readout from the sample.",
+    "The sampled examples include at least one fragment about general interior warmth or feel rather than HVAC performance, so the cluster is not perfectly clean.",
+    "Only sampled fragments are available, so some known negative and positive reviews are not illustrated in the evidence shown."
+  ]
+}

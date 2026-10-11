@@ -1,0 +1,555 @@
+{
+  "topic_id": "T0152",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 13,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FI": 0.076923,
+      "GB": 0.538462,
+      "JP": 0.384615
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.076923,
+        "summary": "Positive reviews mention feature behavior around the horn or lighting but the supplied examples are sparse and still describe limitations rather than clear benefits.",
+        "evidence_fragment_ids": [
+          "F002461",
+          "F002463"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.230769,
+        "summary": "Negative reviews describe inconvenience and dissatisfaction with usability or uncertainty around faults rather than a consistent single issue.",
+        "evidence_fragment_ids": [
+          "F004956",
+          "F004429",
+          "F001961"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.076923,
+        "summary": "Mixed feedback notes inconvenience because an efficient mode cannot be set permanently when the engine starts.",
+        "evidence_fragment_ids": [
+          "F002775"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 8,
+        "share": 0.615385,
+        "summary": "Undetermined reviews include vague complaints about too much tech, default settings, horn activation, and poor visibility, but several fragments lack enough context for a confident sentiment reading.",
+        "evidence_fragment_ids": [
+          "F006854",
+          "F002059",
+          "F004081",
+          "F007383",
+          "F002854",
+          "F005718",
+          "F004508",
+          "F005323",
+          "F007380"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 13,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.006109,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.230769,
+            "mixed": 0.076923,
+            "neutral": 0.0,
+            "undetermined": 0.615385
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.384615
+        }
+      },
+      "country": {
+        "FI": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 7,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.005414,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.142857
+        },
+        "JP": {
+          "review_count": 5,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.00744,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.6
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.006109,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.230769,
+            "mixed": 0.076923,
+            "neutral": 0.0,
+            "undetermined": 0.615385
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.384615
+        }
+      }
+    },
+    "country_engine_type": {
+      "FI": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.005414,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.142857
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.00744,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.2,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0536",
+      "F70-0562",
+      "F70-0684",
+      "F70-0765",
+      "F70-0782",
+      "F70-1142",
+      "F70-1240",
+      "F70-1260",
+      "F70-1380",
+      "F70-1490",
+      "F70-1591",
+      "F70-1921",
+      "F70-2068"
+    ],
+    "summary": "Feedback in this topic centers on inconvenience from horn behavior, display visibility, and settings that cannot be permanently set or switched off, while many fragments are too vague or context-poor to classify cleanly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Horn, display, and settings inconveniences",
+    "source_title": "cant / horn / inconvenient",
+    "keywords": [
+      {
+        "term": "cant",
+        "weight": 0.377623
+      },
+      {
+        "term": "horn",
+        "weight": 0.089104
+      },
+      {
+        "term": "inconvenient",
+        "weight": 0.088517
+      },
+      {
+        "term": "bothered list",
+        "weight": 0.076889
+      },
+      {
+        "term": "cant see",
+        "weight": 0.073013
+      },
+      {
+        "term": "bothered",
+        "weight": 0.068328
+      },
+      {
+        "term": "list",
+        "weight": 0.066381
+      },
+      {
+        "term": "cant switch",
+        "weight": 0.061736
+      },
+      {
+        "term": "cant set",
+        "weight": 0.054703
+      },
+      {
+        "term": "starts",
+        "weight": 0.054328
+      },
+      {
+        "term": "cant drive",
+        "weight": 0.052442
+      },
+      {
+        "term": "see",
+        "weight": 0.051139
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002461",
+        "review_id": "F70-0684",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "the horn starts blaring, so you basically cant use the ot-lock feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004956",
+        "review_id": "F70-1380",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i really cant think of anything bad to say about the m135",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002775",
+        "review_id": "F70-0765",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "i have never come across the term efficient before, and efficient cant be set permanently when the engine starts, which is inconvenient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006854",
+        "review_id": "F70-1921",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "next one will probably have to be electric so i cant give it a 10",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004429",
+        "review_id": "F70-1240",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i cant really say anything yet about any potential faults",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FI",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002059",
+        "review_id": "F70-0562",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i cant be bothered to list them all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004081",
+        "review_id": "F70-1142",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i just cant drive it enough",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007383",
+        "review_id": "F70-2068",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i cant see my speed,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002854",
+        "review_id": "F70-0782",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is far too much tech that you cant switch off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005718",
+        "review_id": "F70-1591",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "annoyd i cant set main id as default, must select it every time i get in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004508",
+        "review_id": "F70-1260",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i can't be bothered to list them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005323",
+        "review_id": "F70-1490",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the horn suddenly going off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001961",
+        "review_id": "F70-0536",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "and i find that really inconvenient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002463",
+        "review_id": "F70-0684",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "with the engine running at night you cant switch on the lights, so i would at least like them to be smaller",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007380",
+        "review_id": "F70-2068",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with the display black i cant see any warning light",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 15,
+      "total_topic_fragments": 15,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes several loosely related usability issues, including horn behavior, display visibility, and configurable settings, rather than one clearly coherent subject.",
+      "Many fragments are brief or incomplete, so the underlying problem and sentiment are not always clear from the sample alone.",
+      "Some assigned sentiments conflict with the wording of the fragment, so the summaries follow the provided sentiment assignment rather than the text in isolation."
+    ]
+  }
+}

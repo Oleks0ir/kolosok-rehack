@@ -1,0 +1,37 @@
+{
+  "title": "Mentions of feared or repeated incidents",
+  "summary": "The topic contains brief references to whether an incident happened, did not happen, or might happen, without enough context to determine a clear customer evaluation.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention incident frequency, near-misses, and fear about something similar happening, but the fragments are too incomplete to identify a specific vehicle issue or clear sentiment.",
+      "evidence_fragment_ids": [
+        "F008120",
+        "F008682",
+        "F010113",
+        "F010561"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so the topic lacks clear evaluative sentiment.",
+    "The fragments are very short and do not consistently identify the underlying issue or event being discussed.",
+    "One fragment refers to another vehicle catching fire rather than a confirmed event in the reviewed vehicle, which limits topic coherence."
+  ]
+}

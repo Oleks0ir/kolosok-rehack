@@ -1,0 +1,573 @@
+{
+  "topic_id": "T0116",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 21,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.190476,
+      "ICE": 0.714286,
+      "PHEV": 0.095238
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.142857,
+        "summary": "Positive reviews praise the heated and ventilated seats for comfort, strong warmth, and overall enjoyment.",
+        "evidence_fragment_ids": [
+          "F002660",
+          "F008894",
+          "F002020"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.095238,
+        "summary": "Negative reviews focus on ventilated seats that cool poorly or create excessive noise near the seat or headrest.",
+        "evidence_fragment_ids": [
+          "F010051",
+          "F005676"
+        ]
+      },
+      "mixed": {
+        "count": 2,
+        "share": 0.095238,
+        "summary": "Mixed reviews pair appreciation for heated-seat comfort or pain relief with mention of missing cooled seats or other feature gaps.",
+        "evidence_fragment_ids": [
+          "F003554",
+          "F007415"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 14,
+        "share": 0.666667,
+        "summary": "Undetermined reviews mention missing or weaker-than-expected heating, requests for more direct controls, and ventilated seats that switch on automatically, but the sample does not provide enough context to resolve overall sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F000864",
+          "F005597",
+          "F006562",
+          "F004468",
+          "F010148",
+          "F007525",
+          "F000650",
+          "F009511",
+          "F008155"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 21,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00525,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.095238,
+            "mixed": 0.095238,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.190476,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 21,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.005538,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.095238,
+            "mixed": 0.095238,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.190476,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005841,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.066667,
+            "mixed": 0.133333,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.266667
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.00616,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.066667,
+            "mixed": 0.133333,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.266667
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G70-0236",
+      "G70-0322",
+      "G70-0440",
+      "G70-0749",
+      "G70-0967",
+      "G70-1253",
+      "G70-1292",
+      "G70-1631",
+      "G70-2008",
+      "G70-2036",
+      "G70-2196",
+      "G70-2357",
+      "G70-2662",
+      "G70-2700",
+      "G70-2929",
+      "G70-3201",
+      "G70-3415",
+      "G70-3606",
+      "G70-3650",
+      "G70-3808",
+      "G70-3867"
+    ],
+    "summary": "Feedback on heated and ventilated seats combines praise for comfort and therapeutic warmth with complaints about cooling performance, noise, missing ventilation, and seat climate controls that behave or adjust in unwanted ways.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Heated and Ventilated Seats",
+    "source_title": "seat / heating / ventilated",
+    "keywords": [
+      {
+        "term": "seat",
+        "weight": 0.219835
+      },
+      {
+        "term": "heating",
+        "weight": 0.173164
+      },
+      {
+        "term": "ventilated",
+        "weight": 0.150361
+      },
+      {
+        "term": "ventilated seat",
+        "weight": 0.13265
+      },
+      {
+        "term": "seat heating",
+        "weight": 0.106709
+      },
+      {
+        "term": "cooled",
+        "weight": 0.094609
+      },
+      {
+        "term": "heating seat",
+        "weight": 0.092652
+      },
+      {
+        "term": "cooled seat",
+        "weight": 0.084259
+      },
+      {
+        "term": "customer",
+        "weight": 0.045413
+      },
+      {
+        "term": "warm",
+        "weight": 0.037069
+      },
+      {
+        "term": "button",
+        "weight": 0.028761
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.026844
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002660",
+        "review_id": "G70-0967",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that he likes the heated ventilated seats in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010051",
+        "review_id": "G70-3606",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Cooled/ventilated seats - Do not cool fast enough/maintain temperature/excessively noisy: \"Very loud noise around the headrest",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003554",
+        "review_id": "G70-1292",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer stated they value the heated seats feature, saying it is especially helpful for their military injuries and for handling back pain",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000864",
+        "review_id": "G70-0322",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer remarked that the ventilated seats in the Genesis G90 are significantly better than the ventilated seats in the BMW",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008894",
+        "review_id": "G70-3201",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really loves the ventilated seats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005676",
+        "review_id": "G70-2036",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Cooled/ventilated seats - Do not cool fast enough/maintain temperature/excessively noisy: \"they push air out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007415",
+        "review_id": "G70-2662",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "too much wind noise, and some basic features are missing for a $100k+ car, like cooled seats, a driver mirror that dips in reverse, and being able to mix suspension and interior lighting settings, etc",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005597",
+        "review_id": "G70-2008",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "only heated seats, what happened to the ventilated ones",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006562",
+        "review_id": "G70-2357",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the seat heating doesn't get really warm",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002020",
+        "review_id": "G70-0749",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the heated seats and heated armrests are fantastic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004468",
+        "review_id": "G70-1631",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer expressed he wants a way to set a specific temperature for when the heated seats, air cooled seats, and steering wheel turn on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010148",
+        "review_id": "G70-3650",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the ventilated seat keeps switching itself on whenever he gets into the vehicle, and he has to shut it off each time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007525",
+        "review_id": "G70-2700",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that in warm weather the ventilated seats switch on by themselves and he wants this automatic function turned off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000650",
+        "review_id": "G70-0236",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that, instead of the rear touch pad used to adjust the seats, he would prefer having a set of quick-select buttons to activate the rear seat heating and massaging functions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009511",
+        "review_id": "G70-3415",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that he wished the car came with ventilated seats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008155",
+        "review_id": "G70-2929",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the heated seats only seem to work on the highest level and that he cannot feel any noticeable heat on the lower settings",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 24,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confidence in a clear sentiment read for the topic.",
+      "Several undetermined fragments describe feature requests, comparisons, or behavior reports without enough context to classify sentiment reliably.",
+      "The examples mix seat performance, feature availability, automatic activation behavior, and control preferences, so the topic is somewhat heterogeneous."
+    ]
+  }
+}

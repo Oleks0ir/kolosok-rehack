@@ -1,0 +1,40 @@
+{
+  "title": "Dealer Question Response Quality",
+  "summary": "This topic centers on whether dealer staff answer customer questions adequately, but several fragments are too brief or generic to show a consistent experience.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive review says there were no additional issues reported by the customer.",
+      "evidence_fragment_ids": [
+        "F002961"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe poorly trained dealer staff, difficulty getting questions answered after the sale, and a generally badly thought-through experience with limited detail.",
+      "evidence_fragment_ids": [
+        "F002831",
+        "F004281"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention yes-or-no customer answers or wanting questions answered at the dealer, but they do not clearly state a sentiment about the experience.",
+      "evidence_fragment_ids": [
+        "F001583",
+        "F009870",
+        "F004901"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Several fragments are short survey-style responses that lack enough context to interpret sentiment confidently.",
+    "One negative fragment is generic and does not clearly tie the complaint to dealer question handling, so the cluster is somewhat loosely connected."
+  ]
+}

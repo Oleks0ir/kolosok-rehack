@@ -1,0 +1,51 @@
+{
+  "title": "Mixed phrases around shine, failures, and sign-offs",
+  "summary": "This topic cluster is lexically noisy, combining a few comments about liking the car or being disappointed by issues with many fragments where words like “kind” or “regards” are incidental rather than topical.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention personal liking for this kind of car and a sober, good-to-drive look, though one example is only a sign-off and offers little topical detail.",
+      "evidence_fragment_ids": [
+        "F006204",
+        "F003703",
+        "F001172"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews focus on parking problems and a failure on a new car that reduce the new-car shine and leave owners disappointed.",
+      "evidence_fragment_ids": [
+        "F002290",
+        "F003184",
+        "F006919"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments are mostly incidental uses of words like “kind” and “regards,” with only vague references to ride feel, luxury impression, trim ripple, settings, or subscription-based software.",
+      "evidence_fragment_ids": [
+        "F004470",
+        "F005784",
+        "F005104",
+        "F007241",
+        "F005764",
+        "F005273",
+        "F004727",
+        "F005282",
+        "F006335",
+        "F006257"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic appears to mix unrelated subjects because several fragments are email sign-offs or filler phrasing rather than clear vehicle feedback.",
+    "Many undetermined examples lack enough context to classify a concrete aspect confidently.",
+    "One positive example is a closing phrase rather than substantive product feedback, so positive evidence is limited."
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "topic_id": "T0027",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 52,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.192308,
+      "ICE": 0.673077,
+      "PHEV": 0.134615
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.038462,
+        "summary": "Positive reviews are scarce and mainly say the car had no problems, while one positive-labeled fragment references another brand's unresolved Apple CarPlay issue rather than a clear G70 strength.",
+        "evidence_fragment_ids": [
+          "F004980",
+          "F000021"
+        ]
+      },
+      "negative": {
+        "count": 47,
+        "share": 0.903846,
+        "summary": "Negative reviews focus on poorly located or difficult-to-use interior light, vent, seat, and screen controls, plus a few broader problem reports with limited detail.",
+        "evidence_fragment_ids": [
+          "F000576",
+          "F009954",
+          "F000792",
+          "F006023",
+          "F009098",
+          "F006396",
+          "F008974",
+          "F003971"
+        ]
+      },
+      "mixed": {
+        "count": 3,
+        "share": 0.057692,
+        "summary": "Mixed reviews pair otherwise favorable impressions with complaints that vents and climate controls are hidden, awkwardly placed, or badly redesigned.",
+        "evidence_fragment_ids": [
+          "F004675",
+          "F001572"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No undetermined reviews are present.",
+        "evidence_fragment_ids": []
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 52,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.013,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 47,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.038462,
+            "negative": 0.903846,
+            "mixed": 0.057692,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.903846,
+          "negative_or_mixed_rate": 0.961538,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 52,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.013713,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 47,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.038462,
+            "negative": 0.903846,
+            "mixed": 0.057692,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.903846,
+          "negative_or_mixed_rate": 0.961538,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.008857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.9,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.9,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.191489,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 35,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.013629,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 32,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.028571,
+            "negative": 0.914286,
+            "mixed": 0.057143,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.914286,
+          "negative_or_mixed_rate": 0.971429,
+          "share_of_all_topic_negative_reviews": 0.680851,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.68,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.023102,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.857143,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.857143,
+          "negative_or_mixed_rate": 0.857143,
+          "share_of_all_topic_negative_reviews": 0.12766,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.12,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.009302,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.9,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.9,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.191489,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 35,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.014374,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 32,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.028571,
+            "negative": 0.914286,
+            "mixed": 0.057143,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.914286,
+          "negative_or_mixed_rate": 0.971429,
+          "share_of_all_topic_negative_reviews": 0.680851,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.68,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.024823,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.857143,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.857143,
+          "negative_or_mixed_rate": 0.857143,
+          "share_of_all_topic_negative_reviews": 0.12766,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.12,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0009",
+      "G70-0020",
+      "G70-0049",
+      "G70-0109",
+      "G70-0217",
+      "G70-0269",
+      "G70-0283",
+      "G70-0346",
+      "G70-0477",
+      "G70-0516",
+      "G70-0542",
+      "G70-0553",
+      "G70-0578",
+      "G70-0846",
+      "G70-0871",
+      "G70-1126",
+      "G70-1189",
+      "G70-1295",
+      "G70-1373",
+      "G70-1375",
+      "G70-1413",
+      "G70-1454",
+      "G70-1585",
+      "G70-1625",
+      "G70-1629",
+      "G70-1698",
+      "G70-1702",
+      "G70-1816",
+      "G70-1859",
+      "G70-1965",
+      "G70-2116",
+      "G70-2161",
+      "G70-2172",
+      "G70-2301",
+      "G70-2336",
+      "G70-2512",
+      "G70-2527",
+      "G70-2621",
+      "G70-2627",
+      "G70-2675",
+      "G70-2774",
+      "G70-3184",
+      "G70-3226",
+      "G70-3247",
+      "G70-3251",
+      "G70-3270",
+      "G70-3288",
+      "G70-3426",
+      "G70-3457",
+      "G70-3573",
+      "G70-3574",
+      "G70-3986"
+    ],
+    "summary": "Reviews in this topic mainly describe hard-to-find or poorly placed interior controls and vents, with a few broader problem mentions and too little detail in some fragments to unify every example cleanly.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 10,
+        "denominator": 10,
+        "rate": 1.0,
+        "comparison_numerator": 40,
+        "comparison_denominator": 42,
+        "comparison_rate": 0.952381,
+        "gap_percentage_points": 4.762,
+        "statement": "In engine_type=BEVE, 10 of 10 reviews (100.0%) are negative or mixed. The rest of this breakdown: 40 of 42 (95.2%).",
+        "interpretation": "BEVE examples in this topic are all negative or mixed, and the sampled fragments within that group emphasize poorly located vents and controls.",
+        "evidence_fragment_ids": [
+          "F004675",
+          "F000792",
+          "F003572"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      },
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 34,
+        "denominator": 35,
+        "rate": 0.971429,
+        "comparison_numerator": 16,
+        "comparison_denominator": 17,
+        "comparison_rate": 0.941176,
+        "gap_percentage_points": 3.025,
+        "statement": "In engine_type=ICE, 34 of 35 reviews (97.1%) are negative or mixed. The rest of this breakdown: 16 of 17 (94.1%).",
+        "interpretation": "ICE examples also skew negative or mixed, with sampled fragments centering on difficult interior light, vent, seat, and display controls.",
+        "evidence_fragment_ids": [
+          "F000576",
+          "F009954",
+          "F006023",
+          "F009098",
+          "F006396"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S002"
+      }
+    ],
+    "title": "Poorly Located Interior Controls and Vents",
+    "source_title": "problem / serious / dtu poorly",
+    "keywords": [
+      {
+        "term": "problem",
+        "weight": 0.262585
+      },
+      {
+        "term": "serious problem",
+        "weight": 0.07795
+      },
+      {
+        "term": "serious",
+        "weight": 0.077263
+      },
+      {
+        "term": "dtu poorly",
+        "weight": 0.070691
+      },
+      {
+        "term": "poorly",
+        "weight": 0.068313
+      },
+      {
+        "term": "poorly located",
+        "weight": 0.0674
+      },
+      {
+        "term": "located",
+        "weight": 0.062275
+      },
+      {
+        "term": "dtu",
+        "weight": 0.059101
+      },
+      {
+        "term": "control",
+        "weight": 0.049035
+      },
+      {
+        "term": "problem interior",
+        "weight": 0.038611
+      },
+      {
+        "term": "light",
+        "weight": 0.035009
+      },
+      {
+        "term": "control dtu",
+        "weight": 0.031044
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004980",
+        "review_id": "G70-1816",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "no problems at all with the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000922",
+        "review_id": "G70-0346",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i know cars can have problems,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004675",
+        "review_id": "G70-1702",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a very serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"the redesigned vents are awful - honestly one of the worst things about this otherwise amazing car (Copied from CLMT97): the placement",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003572",
+        "review_id": "G70-1295",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the problem,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006396",
+        "review_id": "G70-2301",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it is still having problems",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000021",
+        "review_id": "G70-0009",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "BMW still has not resolved the problems with Apple Car Play",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000576",
+        "review_id": "G70-0217",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Interior light controls - DTU/poorly located: \"those happtic ceiling buttons make no sense at all - WHERE THE FUCK ARE THE REGULAR FUCKING BUTTONS NOW",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001572",
+        "review_id": "G70-0578",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"It took me a bit to even locate the vents, like they kind of tried to hide them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005441",
+        "review_id": "G70-1965",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated this startled him and made him think the vehicle had a problem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009954",
+        "review_id": "G70-3573",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Interior light controls - DTU/poorly located: \"front dome light switch is difficult to use when it is dark\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006023",
+        "review_id": "G70-2161",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Memory seats - Controls DTU/ poorly located: \"In strong sunlight the screen is hard to make out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000042",
+        "review_id": "G70-0020",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Front heating/cooling controls/vents - DTU/poorly located: \"For the interior lights",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000792",
+        "review_id": "G70-0283",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Front heating/cooling controls/vents - DTU/poorly located: \"(Copied from FCD97): The air conditioning vent control knobs are difficult to locate and are poorly designed\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008974",
+        "review_id": "G70-3226",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Other Exterior Problem(s): \"About a week after I got the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009098",
+        "review_id": "G70-3270",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Interior light controls - DTU/poorly located: \"the ambient lighting color i pick does not stay saved after the car is turned off and then turend back on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003971",
+        "review_id": "G70-1454",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Other Interior Problem(s): \"for such a big car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 54,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several fragments are very short or generic problem statements, so some examples do not provide enough detail to identify the exact issue.",
+      "The cluster includes both specific control-placement complaints and broader problem mentions, so it is not perfectly coherent as a single narrowly defined issue.",
+      "The sampled examples are stratified and not representative estimates of all G70 reviews."
+    ]
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "topic_id": "T0022",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 55,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "JP": 0.036364,
+      "KR": 0.018182,
+      "SE": 0.018182,
+      "US": 0.927273
+    },
+    "engine_type": {
+      "BEVE": 0.890909,
+      "ICE": 0.072727,
+      "PHEV": 0.036364
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.127273,
+        "summary": "Positive reviews praise fast public charging and the ability to charge from either 110V or 220V outlets.",
+        "evidence_fragment_ids": [
+          "F007007",
+          "F002401"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.090909,
+        "summary": "Negative reviews describe disappointment with the charging-station display button and charge-door flap lockups that prevent plugging in.",
+        "evidence_fragment_ids": [
+          "F004827",
+          "F007111"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 43,
+        "share": 0.781818,
+        "summary": "Undetermined mentions include requests for more or better-located charging stations, adapter and connector questions, charging-speed wishes, and fragments too incomplete to assign sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F009610",
+          "F010776",
+          "F007885",
+          "F001331",
+          "F010550",
+          "F000781",
+          "F005734",
+          "F000735",
+          "F007807",
+          "F007440",
+          "F008756",
+          "F001899"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 55,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01375,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 43
+          },
+          "sentiment_shares": {
+            "positive": 0.127273,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.781818
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.218182
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.037736,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 28,
+          "topic_prevalence_in_source_segment": 0.035714,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 51,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.014127,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 39
+          },
+          "sentiment_shares": {
+            "positive": 0.137255,
+            "negative": 0.098039,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.764706
+          },
+          "negative_rate": 0.098039,
+          "negative_or_mixed_rate": 0.098039,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.235294
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 49,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.03595,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 38
+          },
+          "sentiment_shares": {
+            "positive": 0.122449,
+            "negative": 0.102041,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.77551
+          },
+          "negative_rate": 0.102041,
+          "negative_or_mixed_rate": 0.102041,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.22449
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 11,
+          "topic_prevalence_in_source_segment": 0.090909,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 22,
+          "topic_prevalence_in_source_segment": 0.045455,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "SE": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 14,
+          "topic_prevalence_in_source_segment": 0.071429,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 47,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.036979,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 36
+          },
+          "sentiment_shares": {
+            "positive": 0.12766,
+            "negative": 0.106383,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.765957
+          },
+          "negative_rate": 0.106383,
+          "negative_or_mixed_rate": 0.106383,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.234043
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0126",
+      "G60-0148",
+      "G60-0150",
+      "G60-0159",
+      "G60-0195",
+      "G60-0261",
+      "G60-0273",
+      "G60-0345",
+      "G60-0411",
+      "G60-0469",
+      "G60-0605",
+      "G60-0683",
+      "G60-0852",
+      "G60-0945",
+      "G60-0954",
+      "G60-1212",
+      "G60-1318",
+      "G60-1357",
+      "G60-1361",
+      "G60-1477",
+      "G60-1511",
+      "G60-1515",
+      "G60-1559",
+      "G60-1637",
+      "G60-1686",
+      "G60-1718",
+      "G60-1738",
+      "G60-1903",
+      "G60-1961",
+      "G60-2043",
+      "G60-2334",
+      "G60-2458",
+      "G60-2490",
+      "G60-2510",
+      "G60-2532",
+      "G60-2543",
+      "G60-2651",
+      "G60-2685",
+      "G60-2794",
+      "G60-2824",
+      "G60-2874",
+      "G60-2978",
+      "G60-3124",
+      "G60-3188",
+      "G60-3292",
+      "G60-3304",
+      "G60-3315",
+      "G60-3379",
+      "G60-3450",
+      "G60-3639",
+      "G60-3654",
+      "G60-3683",
+      "G60-3789",
+      "G60-3866",
+      "G60-3918"
+    ],
+    "summary": "Feedback about charging centers on public-station speed and home plug flexibility in positive reviews, while negative reviews cite station-finder controls and charge-port access problems, and many other mentions are too fragmentary to classify.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Charging access and station usability",
+    "source_title": "charge / stations / plug",
+    "keywords": [
+      {
+        "term": "charge",
+        "weight": 0.25863
+      },
+      {
+        "term": "stations",
+        "weight": 0.114949
+      },
+      {
+        "term": "charge stations",
+        "weight": 0.085399
+      },
+      {
+        "term": "plug",
+        "weight": 0.064851
+      },
+      {
+        "term": "plug charge",
+        "weight": 0.05763
+      },
+      {
+        "term": "customer",
+        "weight": 0.052362
+      },
+      {
+        "term": "stated",
+        "weight": 0.044115
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.043894
+      },
+      {
+        "term": "public",
+        "weight": 0.041723
+      },
+      {
+        "term": "public charge",
+        "weight": 0.037493
+      },
+      {
+        "term": "gas stations",
+        "weight": 0.033279
+      },
+      {
+        "term": "gas",
+        "weight": 0.027478
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007007",
+        "review_id": "G60-2510",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the charging speed at public charging stations was excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004827",
+        "review_id": "G60-1718",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported they are very disappointed with the button that is supposed to display charging stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001899",
+        "review_id": "G60-0683",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "sano, who is in charge, are responding very sincerely",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002401",
+        "review_id": "G60-0852",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "and i also like that i can plug it in to charge on either 110v or 220v",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007111",
+        "review_id": "G60-2543",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "we have had several problems with the charge door flap locking up, which means we can't plug in to charge",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008756",
+        "review_id": "G60-3124",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it would not charge to 100%",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009610",
+        "review_id": "G60-3450",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he wants to know where all charging stations are located",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010776",
+        "review_id": "G60-3866",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like higher charging speeds so he spends less time at charging stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000735",
+        "review_id": "G60-0261",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "once we figured out the charging stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007885",
+        "review_id": "G60-2824",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is looking for an adapter for this vehicle so he can charge at Tesla charging stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001331",
+        "review_id": "G60-0469",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated public charging stations are not placed conveniently",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007807",
+        "review_id": "G60-2794",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he drives only about four days a week, so he can just plug the car in over the weekend to charge and does not need to go to gas stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010550",
+        "review_id": "G60-3789",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would like there to be more charging stations available",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000781",
+        "review_id": "G60-0273",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it has been hard for him to find charging stations near his area",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005734",
+        "review_id": "G60-2043",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the customer could charge at other stations as long as the connector was CCS or J1772, and also informed him about the shell recharge program in the app so he would not need multiple separate apps for various charging locations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007440",
+        "review_id": "G60-2651",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he charges at public stations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 65,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most topic mentions are undetermined, so the sample provides limited direct evidence about clear sentiment.",
+      "The sampled fragments include both vehicle charging behavior and public charging infrastructure or app/navigation issues, which broadens the topic beyond a single feature.",
+      "Several fragments are incomplete or lack enough context to determine whether the customer experience was positive, negative, or merely informational."
+    ]
+  }
+}

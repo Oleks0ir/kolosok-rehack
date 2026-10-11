@@ -1,0 +1,529 @@
+{
+  "topic_id": "T0300",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "DK": 0.1,
+      "KR": 0.1,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.3,
+      "ICE": 0.7
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.2,
+        "summary": "Negative reviews describe an unresolved issue that prevents full enjoyment of the car and a launch feel framed negatively despite highlighting strong acceleration.",
+        "evidence_fragment_ids": [
+          "F001406",
+          "F004519"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 8,
+        "share": 0.8,
+        "summary": "Undetermined fragments span enthusiasm about the car, tech, and performance as well as tunnel-screen, radio-signal, and price comments whose overall sentiment cannot be confirmed from the excerpts alone.",
+        "evidence_fragment_ids": [
+          "F010088",
+          "F009241",
+          "F005160",
+          "F011016",
+          "F000940",
+          "F009135",
+          "F005557",
+          "F006781"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 1,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.002216,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.142857
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002975,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.166667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0340",
+      "G60-0495",
+      "G60-1617",
+      "G60-1833",
+      "G60-1975",
+      "G60-2424",
+      "G60-3273",
+      "G60-3308",
+      "G60-3627",
+      "G60-3974"
+    ],
+    "summary": "This topic is loosely clustered around the word \"crazy,\" combining complaints about persistent frustrations and tunnel-related behavior with many fragments whose exact sentiment remains unclear from the excerpt alone.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "\"Crazy\" reactions spanning performance, tech, price, and tunnel behavior",
+    "source_title": "crazy / tunnel / aspect",
+    "keywords": [
+      {
+        "term": "crazy",
+        "weight": 0.584621
+      },
+      {
+        "term": "tunnel",
+        "weight": 0.110776
+      },
+      {
+        "term": "aspect",
+        "weight": 0.068652
+      },
+      {
+        "term": "price",
+        "weight": 0.066732
+      },
+      {
+        "term": "tech",
+        "weight": 0.060816
+      },
+      {
+        "term": "pickup",
+        "weight": 0.055414
+      },
+      {
+        "term": "torque",
+        "weight": 0.054618
+      },
+      {
+        "term": "cannot",
+        "weight": 0.050864
+      },
+      {
+        "term": "receive",
+        "weight": 0.048654
+      },
+      {
+        "term": "drive",
+        "weight": 0.048653
+      },
+      {
+        "term": "heavy",
+        "weight": 0.041676
+      },
+      {
+        "term": "signal",
+        "weight": 0.041661
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004519",
+        "review_id": "G60-1617",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the way it launches is crazy strong and it does not come across like a heavy electric car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010088",
+        "review_id": "G60-3627",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'm really crazy about this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001406",
+        "review_id": "G60-0495",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i have been dealing with this since day one and it has completely driven me crazy at this stage so i cannot enjoy this gorgeous car fully",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009241",
+        "review_id": "G60-3308",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'm crazy about this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005160",
+        "review_id": "G60-1833",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the sticker price of the car is basically the same as the previous one, which seems crazy to me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011016",
+        "review_id": "G60-3974",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i'm crazy about the tech in it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000940",
+        "review_id": "G60-0340",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'm crazy about every aspect of this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009135",
+        "review_id": "G60-3273",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the b58 engine is just crazy with its torque and pickup, and with the 14",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005557",
+        "review_id": "G60-1975",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when you go into a navigation tunnel it switches to a tunnel screen, which feels crude and crazy and distracts from driving, and you cannot check the next guidance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006781",
+        "review_id": "G60-2424",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the radio will not receive a signal while i'm driving through the limfjord tunnel, which i go through every day, and that's something i've never run into with any other car i've owned",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "DK",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes several unrelated subjects linked mainly by the word \"crazy,\" including praise, pricing, performance, navigation tunnel behavior, and radio reception.",
+      "Most sampled fragments are undetermined, so the available excerpts do not support a clear overall sentiment reading for many examples.",
+      "Some excerpts are too short or context-limited to determine whether words like \"crazy\" are complimentary, critical, or merely emphatic."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Dealer Communication and Delivery Updates",
+  "summary": "This topic centers on customers being told information by dealers or support about faults, options, replacements, updates, and arrival timing, with most sampled fragments lacking enough context for a clear sentiment classification.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The negative example describes wasted time at the dealer and being informed of a known software-related fault.",
+      "evidence_fragment_ids": [
+        "F004827"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mostly report being told something by dealers or support about options, extras, warranty, replacements, updates, or delivery timing without enough context to classify the sentiment confidently.",
+      "evidence_fragment_ids": [
+        "F002927",
+        "F005025",
+        "F000949",
+        "F006249",
+        "F003995",
+        "F003281",
+        "F000274",
+        "F000392",
+        "F005859",
+        "F004747",
+        "F000829",
+        "F006078",
+        "F002632",
+        "F002329",
+        "F005607"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are very short and dominated by reported speech, so sentiment is often unclear.",
+    "The cluster mixes several subtopics, including dealer communication, feature availability, warranty responses, software updates, and delivery timing.",
+    "Examples are insufficient to determine a consistent overall customer stance beyond the single clearly negative fragment."
+  ]
+}

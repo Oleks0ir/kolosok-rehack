@@ -1,0 +1,80 @@
+{
+  "title": "Recurring issues and unresolved complaints",
+  "summary": "Reviews in this topic mainly describe recurring or unresolved problems, with only a few examples saying there were no issues or that the owner was enjoying the car.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention enjoying the car and not having issues so far, but the examples are few and one fragment is only indirect context about prior vehicles.",
+      "evidence_fragment_ids": [
+        "F004898",
+        "F005145"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe multiple recurring problems, issues appearing early, concerns that remain unresolved, and scattered complaints about cost, features, or general dissatisfaction.",
+      "evidence_fragment_ids": [
+        "F009779",
+        "F009342",
+        "F011087",
+        "F003588",
+        "F001394",
+        "F002492",
+        "F005396",
+        "F010898",
+        "F006288",
+        "F002963",
+        "F007066",
+        "F004378"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention dealer resolution expectations or slow resolution timing without enough context to tell whether the customer viewed the outcome positively or negatively.",
+      "evidence_fragment_ids": [
+        "F009101",
+        "F009461"
+      ]
+    }
+  },
+  "signal_notes": [
+    {
+      "signal_id": "S001",
+      "interpretation": "BEVE examples in this topic are associated with unresolved or issue-focused language similar to the rest of the topic, with only a small difference from non-BEVE examples.",
+      "evidence_fragment_ids": [
+        "F002963",
+        "F010898"
+      ]
+    },
+    {
+      "signal_id": "S002",
+      "interpretation": "US examples dominate the sample and mostly contain issue-focused complaints, but the non-US comparison group is small.",
+      "evidence_fragment_ids": [
+        "F009779",
+        "F003588",
+        "F001394",
+        "F005396"
+      ]
+    },
+    {
+      "signal_id": "S003",
+      "interpretation": "ICE examples show issue-focused complaints at a level similar to non-ICE examples rather than a distinct pattern.",
+      "evidence_fragment_ids": [
+        "F009779",
+        "F003588",
+        "F001394",
+        "F005396"
+      ]
+    }
+  ],
+  "limitations": [
+    "This topic is somewhat heterogeneous because 'issue' language ranges from unresolved defects to cost concerns, feature-specific complaints, and vague mentions without enough detail.",
+    "Several fragments are too short or generic to identify the underlying product area, and one negative example says 'the issue was resolved' despite being sentiment-labeled negative.",
+    "The examples are sentiment-stratified and not a random sample, so they should not be treated as representative of all G60 feedback."
+  ]
+}

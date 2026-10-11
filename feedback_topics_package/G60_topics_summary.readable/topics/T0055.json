@@ -1,0 +1,625 @@
+{
+  "topic_id": "T0055",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 35,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.285714,
+      "ICE": 0.628571,
+      "PHEV": 0.085714
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.028571,
+        "summary": "One positive review praises the instrument interface rather than the heating or cooling controls themselves, so positive evidence for this topic is limited.",
+        "evidence_fragment_ids": [
+          "F009800"
+        ]
+      },
+      "negative": {
+        "count": 32,
+        "share": 0.914286,
+        "summary": "Negative reviews focus on confusing or poorly located climate controls, hidden or hard-to-adjust vents, weak airflow direction, and frustration with needing the display instead of physical buttons or knobs.",
+        "evidence_fragment_ids": [
+          "F006598",
+          "F000594",
+          "F010121",
+          "F008332",
+          "F000514",
+          "F006153",
+          "F002183",
+          "F002084",
+          "F006996",
+          "F003229",
+          "F004469",
+          "F006061",
+          "F010553"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.057143,
+        "summary": "Undetermined reviews mention delayed or poorly thought out heating and cooling operation, but the examples are too limited to classify a concrete sentiment pattern more precisely.",
+        "evidence_fragment_ids": [
+          "F010055",
+          "F007781"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 35,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00875,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 32,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.028571,
+            "negative": 0.914286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.057143
+          },
+          "negative_rate": 0.914286,
+          "negative_or_mixed_rate": 0.914286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.942857
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 35,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.009695,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 32,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.028571,
+            "negative": 0.914286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.057143
+          },
+          "negative_rate": 0.914286,
+          "negative_or_mixed_rate": 0.914286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.942857
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.007337,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.9,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.9,
+          "negative_or_mixed_rate": 0.9,
+          "share_of_all_topic_negative_reviews": 0.28125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.28125,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 22,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.009739,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 21,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.954545,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.045455
+          },
+          "negative_rate": 0.954545,
+          "negative_or_mixed_rate": 0.954545,
+          "share_of_all_topic_negative_reviews": 0.65625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.65625,
+          "known_sentiment_share": 0.954545
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0625,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007868,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.9,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.9,
+          "negative_or_mixed_rate": 0.9,
+          "share_of_all_topic_negative_reviews": 0.28125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.28125,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 22,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.010907,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 21,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.954545,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.045455
+          },
+          "negative_rate": 0.954545,
+          "negative_or_mixed_rate": 0.954545,
+          "share_of_all_topic_negative_reviews": 0.65625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.65625,
+          "known_sentiment_share": 0.954545
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0625,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0003",
+      "G60-0157",
+      "G60-0197",
+      "G60-0221",
+      "G60-0309",
+      "G60-0409",
+      "G60-0453",
+      "G60-0740",
+      "G60-0758",
+      "G60-0782",
+      "G60-0962",
+      "G60-1157",
+      "G60-1169",
+      "G60-1309",
+      "G60-1594",
+      "G60-1596",
+      "G60-1630",
+      "G60-1817",
+      "G60-2154",
+      "G60-2163",
+      "G60-2207",
+      "G60-2276",
+      "G60-2357",
+      "G60-2504",
+      "G60-2515",
+      "G60-2785",
+      "G60-2989",
+      "G60-3132",
+      "G60-3245",
+      "G60-3320",
+      "G60-3513",
+      "G60-3615",
+      "G60-3617",
+      "G60-3638",
+      "G60-3791"
+    ],
+    "summary": "Reviews in this topic mainly describe hard-to-find climate controls, hidden or poorly aimed vents, and inconvenient touchscreen-based adjustment of heating and cooling.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 21,
+        "denominator": 22,
+        "rate": 0.954545,
+        "comparison_numerator": 11,
+        "comparison_denominator": 13,
+        "comparison_rate": 0.846154,
+        "gap_percentage_points": 10.839,
+        "statement": "In engine_type=ICE, 21 of 22 reviews (95.5%) are negative or mixed. The rest of this breakdown: 11 of 13 (84.6%).",
+        "interpretation": "ICE examples in this topic are associated with especially concentrated negative or mixed feedback about HVAC control location and vent usability compared with the rest of the engine-type breakdown, based on the supplied exploratory signal.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      },
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 9,
+        "denominator": 10,
+        "rate": 0.9,
+        "comparison_numerator": 23,
+        "comparison_denominator": 25,
+        "comparison_rate": 0.92,
+        "gap_percentage_points": -2.0,
+        "statement": "In engine_type=BEVE, 9 of 10 reviews (90.0%) are negative or mixed. The rest of this breakdown: 23 of 25 (92.0%).",
+        "interpretation": "BEVE examples also show predominantly negative or mixed feedback on these HVAC controls and vents, with a pattern that appears similar to the rest of the engine-type breakdown in the supplied exploratory signal.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S002"
+      }
+    ],
+    "title": "HVAC controls and hidden vent usability",
+    "source_title": "poorly located / dtu poorly / control",
+    "keywords": [
+      {
+        "term": "poorly located",
+        "weight": 0.168588
+      },
+      {
+        "term": "poorly",
+        "weight": 0.165723
+      },
+      {
+        "term": "located",
+        "weight": 0.155347
+      },
+      {
+        "term": "dtu poorly",
+        "weight": 0.13877
+      },
+      {
+        "term": "dtu",
+        "weight": 0.136675
+      },
+      {
+        "term": "control",
+        "weight": 0.131546
+      },
+      {
+        "term": "problem",
+        "weight": 0.104257
+      },
+      {
+        "term": "heating cooling",
+        "weight": 0.101202
+      },
+      {
+        "term": "cooling",
+        "weight": 0.100162
+      },
+      {
+        "term": "cooling control",
+        "weight": 0.09046
+      },
+      {
+        "term": "vents",
+        "weight": 0.087443
+      },
+      {
+        "term": "heating",
+        "weight": 0.083817
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009800",
+        "review_id": "G60-3513",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the instruments are excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006598",
+        "review_id": "G60-2357",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Front heating/cooling controls/vents - DTU/poorly located: \"The climate controls feel a bit confusing to figure out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010055",
+        "review_id": "G60-3615",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "The heating and cooling controls are delayed, and if there isn't enough battery you can't heat or cool the car, which seems backwards to me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000594",
+        "review_id": "G60-0221",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Front heating/cooling controls/vents - DTU/poorly located: \"tiny and hard to find\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010121",
+        "review_id": "G60-3638",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Front heating/cooling controls/vents - DTU/poorly located: \"A/C vents are tricky to adjust and not easy to aim in certain directions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008332",
+        "review_id": "G60-2989",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"Takes too long to get to the fan and AC controls since there are no physical buttons and I have to go through the display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007781",
+        "review_id": "G60-2785",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the way the heating and cooling systems are set up just is not very well thought out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000514",
+        "review_id": "G60-0197",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"The way they're made, recessed and with very limited adjustablity",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006153",
+        "review_id": "G60-2207",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Front heating/cooling controls/vents - DTU/poorly located: \"The one for the driver is way over on the left",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002183",
+        "review_id": "G60-0782",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Front heating/cooling controls/vents - DTU/poorly located: \"the ventilation setup is not very intuitive, and in summer it takes quite a long time before the interior actually cools down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002084",
+        "review_id": "G60-0740",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"The air vents are tucked away and not obvious, so they are difficult to find and it's not clear which direction they are pointing or whether they are open or shut",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006996",
+        "review_id": "G60-2504",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"panel gives no clear way to change heat\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003229",
+        "review_id": "G60-1157",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"There are no vents like in a regular car, so I can't adjust the air flow to the exact place I want it to go",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004469",
+        "review_id": "G60-1594",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Front heating/cooling controls/vents - DTU/poorly located: \"please bring back physical knobs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006061",
+        "review_id": "G60-2163",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Front heating/cooling controls/vents - DTU/poorly located: \"the new setup with the hidden vents doesnt seem to blow or direct air as strongly as the old style vents, especially in the hot florida heat\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010553",
+        "review_id": "G60-3791",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Rear heating/cooling controls/vents - DTU/poorly located: \"not really clear how the warm air gets to the back area\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 39,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled fragments are stratified and not representative of all owners or all G60 HVAC experiences.",
+      "The positive sample does not clearly address the HVAC control issue, so evidence for favorable views on this specific topic is minimal.",
+      "This cluster combines control placement, vent adjustability, airflow direction, and system response, so it spans several related but distinct usability concerns."
+    ]
+  }
+}

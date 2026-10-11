@@ -1,0 +1,509 @@
+{
+  "topic_id": "T0255",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 12,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.083333,
+      "US": 0.916667
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.75
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.416667,
+        "summary": "Positive reviews highlight strangers and passengers complimenting the car’s exterior, interior, and color, and showing strong interest in seeing it up close.",
+        "evidence_fragment_ids": [
+          "F006223",
+          "F006751",
+          "F010926",
+          "F001636",
+          "F002138"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.083333,
+        "summary": "Negative feedback says the reviewer’s problems were echoed by many other people, framing the issue as not isolated.",
+        "evidence_fragment_ids": [
+          "F002457"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.5,
+        "summary": "Undetermined fragments mostly mention people admiring or complimenting the car, but some refer to customer-service interactions or being passed between people without enough context to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F000593",
+          "F009055",
+          "F011015",
+          "F009973",
+          "F002959",
+          "F006356"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 12,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.003,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.416667,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 11,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003047,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.363636,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.545455
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.454545
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003984,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.555556,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.00236,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003966,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.375
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.625
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0220",
+      "G60-0582",
+      "G60-0765",
+      "G60-0872",
+      "G60-1057",
+      "G60-2231",
+      "G60-2265",
+      "G60-2413",
+      "G60-3243",
+      "G60-3583",
+      "G60-3930",
+      "G60-3974"
+    ],
+    "summary": "Reviews in this topic mainly describe other people noticing, praising, or asking about the vehicle’s appearance, with a few fragments about shared issues or being passed between staff that make the topic somewhat heterogeneous.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Public attention and people-related comments",
+    "source_title": "people / admire / passed",
+    "keywords": [
+      {
+        "term": "people",
+        "weight": 0.343432
+      },
+      {
+        "term": "mentioned people",
+        "weight": 0.108401
+      },
+      {
+        "term": "admire",
+        "weight": 0.088453
+      },
+      {
+        "term": "people admire",
+        "weight": 0.088453
+      },
+      {
+        "term": "passed",
+        "weight": 0.088251
+      },
+      {
+        "term": "people keep",
+        "weight": 0.085125
+      },
+      {
+        "term": "people way",
+        "weight": 0.080237
+      },
+      {
+        "term": "issue people",
+        "weight": 0.075522
+      },
+      {
+        "term": "people constantly",
+        "weight": 0.074649
+      },
+      {
+        "term": "stated people",
+        "weight": 0.074085
+      },
+      {
+        "term": "look",
+        "weight": 0.065108
+      },
+      {
+        "term": "constantly",
+        "weight": 0.064861
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006223",
+        "review_id": "G60-2231",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the car looks amazing, and a few people on the pavements have waved and given a thumbs up as i passed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002457",
+        "review_id": "G60-0872",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i saw these issues weren't just mine, a lot of people felt the same way",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000593",
+        "review_id": "G60-0220",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned this is the first car he has owned where people keep stopping him to praise how it looks and ask him about it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006751",
+        "review_id": "G60-2413",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned people like to sit in the car and go through it, especially older folks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009055",
+        "review_id": "G60-3243",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned people constantly ask if the car is wrapped, which always makes him laugh",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010926",
+        "review_id": "G60-3930",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that people really admire the interior and commented that it is genuinely beautiful",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001636",
+        "review_id": "G60-0582",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the ride is excellent and people keep complimenting the color",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002138",
+        "review_id": "G60-0765",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer replied that it is not a major issue because not many people ride with her, and she does not want to go out of her way to create an additional profile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011015",
+        "review_id": "G60-3974",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "people seem to admire it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009973",
+        "review_id": "G60-3583",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated people constantly compliment how the car looks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002959",
+        "review_id": "G60-1057",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i've watched them treat other people the same way, which really means a lot to customers",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006356",
+        "review_id": "G60-2265",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have been passed around to different people and even ended up with a dealer i had never heard of",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 12,
+      "total_topic_fragments": 12,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several undetermined fragments sound favorable but do not provide enough context for a reliable sentiment assignment.",
+      "The cluster mixes public reactions to the vehicle with separate people-related service interactions, so it is not fully coherent as a single aspect.",
+      "One positive fragment concerns profile setup and who rides in the car rather than public admiration, which weakens topical consistency."
+    ]
+  }
+}

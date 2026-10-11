@@ -1,0 +1,462 @@
+{
+  "topic_id": "T0358",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 8,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.125,
+      "US": 0.875
+    },
+    "engine_type": {
+      "BEVE": 0.375,
+      "ICE": 0.625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.25,
+        "summary": "Negative reviews specifically describe blemished or distorted glass and an apparent factory defect on a passenger window.",
+        "evidence_fragment_ids": [
+          "F000336",
+          "F004541"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.75,
+        "summary": "Undetermined reviews mention varied glass-related topics such as double-pane glass, missing rear wiper, soft or noisy window glass, tint appearance, glare, and an unrelated double-yellow-line phrase, so the examples do not support a single clear sentiment theme.",
+        "evidence_fragment_ids": [
+          "F008493",
+          "F008339",
+          "F008007",
+          "F009249",
+          "F000218",
+          "F001922",
+          "F008009"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 8,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.002,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 7,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001939,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.285714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002213,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.00236,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001983,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0081",
+      "G60-0127",
+      "G60-0690",
+      "G60-1627",
+      "G60-2864",
+      "G60-2991",
+      "G60-3043",
+      "G60-3312"
+    ],
+    "summary": "This topic centers on a few clear complaints about window or rear glass blemishes and factory defects, while many other mentions of glass, glare, noise, tint, or double-pane wishes are too varied or unclear for a consistent sentiment reading.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Window Glass Distortion and Related Glass Mentions",
+    "source_title": "glass / double / window",
+    "keywords": [
+      {
+        "term": "glass",
+        "weight": 0.364816
+      },
+      {
+        "term": "rear glass",
+        "weight": 0.14541
+      },
+      {
+        "term": "double",
+        "weight": 0.126338
+      },
+      {
+        "term": "window glass",
+        "weight": 0.115788
+      },
+      {
+        "term": "window",
+        "weight": 0.097389
+      },
+      {
+        "term": "rear",
+        "weight": 0.086572
+      },
+      {
+        "term": "blemish",
+        "weight": 0.065743
+      },
+      {
+        "term": "blemish distortion",
+        "weight": 0.065743
+      },
+      {
+        "term": "distortion",
+        "weight": 0.065743
+      },
+      {
+        "term": "distortion glass",
+        "weight": 0.065743
+      },
+      {
+        "term": "problem blemish",
+        "weight": 0.065743
+      },
+      {
+        "term": "wiper",
+        "weight": 0.055505
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000336",
+        "review_id": "G60-0127",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Blemish/distortion in glass: \"Rear glass looks kind of \"blemished\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008493",
+        "review_id": "G60-3043",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "double pane glass would be nice to have",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004541",
+        "review_id": "G60-1627",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Blemish/distortion in glass: \"(Copied from EXT97): About a week after taking delivery, we noticed a factory defect on the front passenger window",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008339",
+        "review_id": "G60-2991",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "also there is no rear glass wiper",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008007",
+        "review_id": "G60-2864",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the window glass seems very soft and gets pitted quickly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009249",
+        "review_id": "G60-3312",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i went and asked about the tinting work on the rear glass, because something looked off near the top",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000218",
+        "review_id": "G60-0081",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the glass controls throw off a lot of glare, with the sun reflecting right into my eyes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001922",
+        "review_id": "G60-0690",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it sometimes becomes confused and on one occasion has moved across a double yellow line",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008009",
+        "review_id": "G60-2864",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car is loud, especially from the side window glass",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled mentions are undetermined, which limits confidence in a clear sentiment pattern beyond the specific defect complaints.",
+      "The cluster mixes several loosely related or possibly unrelated subjects, including window glass quality, glare, tinting, rear wiper absence, cabin noise, and one likely unrelated 'double yellow line' mention.",
+      "The examples are insufficient to assess whether these comments reflect a broader issue beyond the specific sampled reviews."
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Cruise Control and Lane-Keeping Feedback",
+  "summary": "Feedback centers on adaptive or auto cruise control and lane-keeping, with clear praise for smooth operation in some reviews, clear complaints about faults or unsafe behavior in others, and many fragments that mention these features without enough context to assign a definite sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise auto or adaptive cruise control and lane keeping for working smoothly, easily, or excellently in driving use.",
+      "evidence_fragment_ids": [
+        "F000508",
+        "F003777"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews report cruise-control-related fault messages and describe the lane-keeping assistant as dangerous on narrow roads and hard to disable.",
+      "evidence_fragment_ids": [
+        "F003757",
+        "F007360"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention cruise control or lane keeping working well, being fiddly, being unavailable, or being desired, but the examples do not provide enough context to classify them consistently.",
+      "evidence_fragment_ids": [
+        "F002140",
+        "F005854",
+        "F006066",
+        "F003841",
+        "F006585",
+        "F004863",
+        "F006731"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined, which limits confidence in a sharper sentiment summary.",
+    "Some undetermined examples appear clearly favorable or unfavorable in wording, but their assigned sentiment is undetermined and must be kept separate.",
+    "The topic combines related driver-assistance functions such as cruise control, adaptive cruise, lane keeping, and feature availability, which may reflect more than one subtopic."
+  ]
+}

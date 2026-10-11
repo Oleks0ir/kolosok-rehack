@@ -1,0 +1,39 @@
+{
+  "title": "Customer Declined Assistance or Put Writer on Hold",
+  "summary": "The topic consists of contact outcomes where customers declined assistance, chose dealer follow-up instead, or placed the writer on hold without enough context to infer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews describe customers declining help, preferring dealership handling, refusing further troubleshooting, or ending or pausing the call without enough context to judge sentiment.",
+      "evidence_fragment_ids": [
+        "F001561",
+        "F005065",
+        "F008001",
+        "F000827",
+        "F004099",
+        "F002642"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so the evidence does not support classifying the topic as positive, negative, mixed, or neutral.",
+    "The fragments are brief contact-status notes and provide limited context about the underlying issue or customer intent.",
+    "The topic mixes several related but distinct outcomes, including declining assistance, redirecting to a dealer, refusing troubleshooting, and placing the writer on hold."
+  ]
+}

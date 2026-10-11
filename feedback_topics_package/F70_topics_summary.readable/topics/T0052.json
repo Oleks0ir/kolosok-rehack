@@ -1,0 +1,635 @@
+{
+  "topic_id": "T0052",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 28,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.035714,
+      "GB": 0.464286,
+      "JP": 0.428571,
+      "SE": 0.071429
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.071429,
+        "summary": "Positive comments highlight the door-open hazard warning and desired convenience features such as keyless locking and unlocking.",
+        "evidence_fragment_ids": [
+          "F006475",
+          "F000862"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.178571,
+        "summary": "Negative feedback focuses on awkward ingress from door design and closures or locks that need repeated attempts to latch properly.",
+        "evidence_fragment_ids": [
+          "F002761",
+          "F000989"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.035714,
+        "summary": "The mixed feedback mentions door and key locks as part of a broader set of ownership inconveniences without isolating the door issue on its own.",
+        "evidence_fragment_ids": [
+          "F004096"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 20,
+        "share": 0.714286,
+        "summary": "Undetermined snippets mention door opening, locking, closing speed, noises, and access events, but the short examples often lack enough context for a clear sentiment reading.",
+        "evidence_fragment_ids": [
+          "F004658",
+          "F000901",
+          "F002056",
+          "F002458",
+          "F003734",
+          "F002342",
+          "F002262",
+          "F003441",
+          "F003909",
+          "F006891",
+          "F000474"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 28,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.013158,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.178571,
+            "mixed": 0.035714,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.178571,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 13,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.010054,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.153846,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.230769
+        },
+        "JP": {
+          "review_count": 12,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.017857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.25
+        },
+        "SE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 28,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.013158,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.178571,
+            "mixed": 0.035714,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.178571,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.010054,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.153846,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.230769
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.017857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "F70-0086",
+      "F70-0129",
+      "F70-0144",
+      "F70-0231",
+      "F70-0243",
+      "F70-0248",
+      "F70-0268",
+      "F70-0331",
+      "F70-0562",
+      "F70-0625",
+      "F70-0649",
+      "F70-0684",
+      "F70-0764",
+      "F70-0873",
+      "F70-0908",
+      "F70-0937",
+      "F70-0940",
+      "F70-0955",
+      "F70-0989",
+      "F70-1047",
+      "F70-1097",
+      "F70-1148",
+      "F70-1298",
+      "F70-1357",
+      "F70-1805",
+      "F70-1928",
+      "F70-2068",
+      "F70-2115"
+    ],
+    "summary": "Feedback about doors centers on entry shape, locking and closing behavior, and a few appreciated convenience and safety features.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Door access and locking behavior",
+    "source_title": "door / open / locking",
+    "keywords": [
+      {
+        "term": "door",
+        "weight": 0.290693
+      },
+      {
+        "term": "open",
+        "weight": 0.173065
+      },
+      {
+        "term": "open door",
+        "weight": 0.100037
+      },
+      {
+        "term": "locking",
+        "weight": 0.06356
+      },
+      {
+        "term": "door locking",
+        "weight": 0.048353
+      },
+      {
+        "term": "passenger",
+        "weight": 0.047746
+      },
+      {
+        "term": "locks",
+        "weight": 0.046547
+      },
+      {
+        "term": "driver",
+        "weight": 0.045801
+      },
+      {
+        "term": "close",
+        "weight": 0.045404
+      },
+      {
+        "term": "way door",
+        "weight": 0.045345
+      },
+      {
+        "term": "driver door",
+        "weight": 0.042471
+      },
+      {
+        "term": "mirror",
+        "weight": 0.04093
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006475",
+        "review_id": "F70-1805",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "really like the autobeam hazard in the mirrors, especially that warning sound when a door is open and a car is coming",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002761",
+        "review_id": "F70-0764",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the way the doors are shaped makes getting into the car awkward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004096",
+        "review_id": "F70-1148",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "overall i would not, because there are many inconveniences like uncomfortable ride in the back seats, electrical system, panel spray, door locks, key locks, etc",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004658",
+        "review_id": "F70-1298",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when you open the door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000862",
+        "review_id": "F70-0231",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i do miss a few features that i wish were standard, like the passenger mirror dipping when reversing and keyless locking/unlocking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "SE",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000989",
+        "review_id": "F70-0268",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "much less the bad setting of the door closures, above all the tailgate - you have to close it several times before the locks catch properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000901",
+        "review_id": "F70-0243",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "from the second you open the door it becomes an experience in itself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002056",
+        "review_id": "F70-0562",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it switches off when you open the door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002458",
+        "review_id": "F70-0684",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "as soon as you open the door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003734",
+        "review_id": "F70-1047",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "its kind of amusing that another registered user is mistaken for the driver when they open the door first,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002342",
+        "review_id": "F70-0649",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have to double click just to open the drivers door, and then the passenger doors stay locked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002262",
+        "review_id": "F70-0625",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the doors are a bit slow to open and close",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003441",
+        "review_id": "F70-0955",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if i open the boot to load it, by the time i've shut it and gone round to the driver door it has locked again and i need to stand for a moment until it opens",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003909",
+        "review_id": "F70-1097",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the door strikers make a noise when shutting all four doors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006891",
+        "review_id": "F70-1928",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the only downside is a rattle in the passenger door, something loose behind the door card that got missed during qc",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000474",
+        "review_id": "F70-0129",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "recently the driver side door locked and would not open from inside, so i had to get out through the passenger side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 28,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments in this topic are undetermined, which limits confidence in a more specific thematic or sentiment summary.",
+      "Several undetermined examples are very short or context-free, so they do not clearly show whether the door behavior is being praised, criticized, or simply described.",
+      "The topic includes related but distinct subjects such as door shape, lock logic, tailgate closure, warning features, and door noises, so the cluster is not fully coherent."
+    ]
+  }
+}

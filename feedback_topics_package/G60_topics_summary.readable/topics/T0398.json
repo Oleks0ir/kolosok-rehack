@@ -1,0 +1,510 @@
+{
+  "topic_id": "T0398",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 7,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.142857,
+      "US": 0.857143
+    },
+    "engine_type": {
+      "BEVE": 0.142857,
+      "ICE": 0.571429,
+      "PHEV": 0.285714
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.571429,
+        "summary": "Negative reviews describe tire-pressure monitoring malfunctions, early tire-pressure issues, a puncture-related low-pressure warning, and frustration that pressure information is not shown in the instrument cluster or head-up display.",
+        "evidence_fragment_ids": [
+          "F001573",
+          "F008576",
+          "F002224",
+          "F011032",
+          "F002223"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.428571,
+        "summary": "Undetermined reviews mention cooling-system pressure tests, a finding of no pressure loss, and a comment that updates should be more thoroughly pressure tested, without a clear sentiment about the vehicle itself.",
+        "evidence_fragment_ids": [
+          "F004872",
+          "F005878",
+          "F005922",
+          "F004873"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 7,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00175,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 6,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001662,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.000734,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.75,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.75,
+          "negative_or_mixed_rate": 0.75,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.75
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.666667
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0558",
+      "G60-0795",
+      "G60-1733",
+      "G60-2094",
+      "G60-2112",
+      "G60-3073",
+      "G60-3979"
+    ],
+    "summary": "Feedback in this topic mixes clear complaints about tire-pressure monitoring, warnings, and display usability with unrelated or procedural mentions of pressure testing and no-loss findings.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Tire Pressure Warnings and Pressure-Test Mentions",
+    "source_title": "pressure / tyre / tested",
+    "keywords": [
+      {
+        "term": "pressure",
+        "weight": 0.371462
+      },
+      {
+        "term": "tyre pressure",
+        "weight": 0.207355
+      },
+      {
+        "term": "tyre",
+        "weight": 0.157797
+      },
+      {
+        "term": "pressure tested",
+        "weight": 0.136006
+      },
+      {
+        "term": "tested",
+        "weight": 0.119206
+      },
+      {
+        "term": "cooling system",
+        "weight": 0.093082
+      },
+      {
+        "term": "tested cooling",
+        "weight": 0.093082
+      },
+      {
+        "term": "loss",
+        "weight": 0.08572
+      },
+      {
+        "term": "july th",
+        "weight": 0.073703
+      },
+      {
+        "term": "july",
+        "weight": 0.071394
+      },
+      {
+        "term": "cooling",
+        "weight": 0.07119
+      },
+      {
+        "term": "system",
+        "weight": 0.065225
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001573",
+        "review_id": "G60-0558",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Tire pressure monitoring system - DTU: \"hard time finding the tire pressure\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004872",
+        "review_id": "G60-1733",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "PRESSURE TESTED COOLING SYSTEM, AND LET IT SIT FOR 40 MINS",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008576",
+        "review_id": "G60-3073",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "a few days after i picked up the car i started having issues with the tyre pressure",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005878",
+        "review_id": "G60-2094",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "PRESSURE TESTED COOLING SYSTEM",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002224",
+        "review_id": "G60-0795",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated on July 19th they received a low tire pressure warning and found a screw in the tire with about 900 miles on the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011032",
+        "review_id": "G60-3979",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they would prefer their tire pressure to show in the instrument cluster or head-up display, as checking the screen on the right feels dangerous and very distracting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005922",
+        "review_id": "G60-2112",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "these updates really ought to be pressure tested more carefully before they are sent out to everyone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002223",
+        "review_id": "G60-0795",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they had a tire pressure monitor malfunction on July 16th that went away the next day",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004873",
+        "review_id": "G60-1733",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "AND FOUND NO LOSS OF PRESSURE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 9,
+      "total_topic_fragments": 9,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes tire-pressure complaints with unrelated cooling-system and software-testing uses of the word pressure.",
+      "Several examples are terse service-style notes, so the customer impact and sentiment are not always clear.",
+      "The sampled fragments are stratified examples and are not representative estimates of broader vehicle performance."
+    ]
+  }
+}

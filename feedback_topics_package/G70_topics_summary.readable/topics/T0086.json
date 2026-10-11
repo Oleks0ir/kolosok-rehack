@@ -1,0 +1,622 @@
+{
+  "topic_id": "T0086",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 27,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "DK": 0.037037,
+      "US": 0.962963
+    },
+    "engine_type": {
+      "BEVE": 0.333333,
+      "ICE": 0.62963,
+      "PHEV": 0.037037
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.148148,
+        "summary": "Negative feedback centers on incorrect customer information in emails and email/photo exchanges tied to damage or complaint handling rather than resolution.",
+        "evidence_fragment_ids": [
+          "F009976",
+          "F006536"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 23,
+        "share": 0.851852,
+        "summary": "Undetermined examples mostly document routine email contact, promises to send instructions, or requests for customers to send photos without clear satisfaction or dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F003395",
+          "F007229",
+          "F004799",
+          "F008862",
+          "F003849",
+          "F008357",
+          "F002415",
+          "F000213"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 27,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00675,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.148148,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.851852
+          },
+          "negative_rate": 0.148148,
+          "negative_or_mixed_rate": 0.148148,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.148148
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 26,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.153846,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.846154
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.153846
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007972,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.111111
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.00662,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.176471,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.823529
+          },
+          "negative_rate": 0.176471,
+          "negative_or_mixed_rate": 0.176471,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.176471
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.007442,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.125
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.006982,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.176471,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.823529
+          },
+          "negative_rate": 0.176471,
+          "negative_or_mixed_rate": 0.176471,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.176471
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0076",
+      "G70-0108",
+      "G70-0201",
+      "G70-0403",
+      "G70-0883",
+      "G70-0936",
+      "G70-0998",
+      "G70-1134",
+      "G70-1191",
+      "G70-1205",
+      "G70-1223",
+      "G70-1406",
+      "G70-1506",
+      "G70-1697",
+      "G70-1747",
+      "G70-1835",
+      "G70-2074",
+      "G70-2349",
+      "G70-2598",
+      "G70-2689",
+      "G70-2952",
+      "G70-3011",
+      "G70-3186",
+      "G70-3478",
+      "G70-3582",
+      "G70-3933",
+      "G70-3971"
+    ],
+    "summary": "This topic is mainly about service communication by email, including sending instructions, diagnostic messages, and customer photos, with only a few clearly negative references.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Email communication and photo sharing",
+    "source_title": "email / send / photos",
+    "keywords": [
+      {
+        "term": "email",
+        "weight": 0.283872
+      },
+      {
+        "term": "send",
+        "weight": 0.149947
+      },
+      {
+        "term": "photos",
+        "weight": 0.120987
+      },
+      {
+        "term": "sent",
+        "weight": 0.058013
+      },
+      {
+        "term": "via email",
+        "weight": 0.055149
+      },
+      {
+        "term": "customer",
+        "weight": 0.054408
+      },
+      {
+        "term": "send photos",
+        "weight": 0.053838
+      },
+      {
+        "term": "via",
+        "weight": 0.053391
+      },
+      {
+        "term": "stated send",
+        "weight": 0.052543
+      },
+      {
+        "term": "send pictures",
+        "weight": 0.045178
+      },
+      {
+        "term": "stated via",
+        "weight": 0.042069
+      },
+      {
+        "term": "pictures",
+        "weight": 0.039187
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009976",
+        "review_id": "G70-3582",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "my name is not bruce like it shows in the email",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004662",
+        "review_id": "G70-1697",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "A/O: CUSTOMER EMAIL",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006536",
+        "review_id": "G70-2349",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer sent an email with a photo of the rocker panel damage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000537",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "[EMAIL]",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003395",
+        "review_id": "G70-1223",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer offered at no cost to send an over-the-air diagnostic email ahead of any possible dealer appointment and advised it would be sent to the email connected to the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007229",
+        "review_id": "G70-2598",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer was unable to use RVG, and customer stated he will send photos by email",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004799",
+        "review_id": "G70-1747",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer agreed to research the feature and send instructions via email to the customer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008862",
+        "review_id": "G70-3186",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised he will send an email and asked the customer to respond with some photos of the mirror",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003849",
+        "review_id": "G70-1406",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Email was sent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003330",
+        "review_id": "G70-1205",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "bmw denmark was contacted and just pointed me to the dealer or to send an email",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "DK",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008357",
+        "review_id": "G70-3011",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer attached photos showing the concern to the email",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002575",
+        "review_id": "G70-0936",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated via email that he wants the seat belt height to be adjustable and that he cannot believe a luxury vehicle does not offer this feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010916",
+        "review_id": "G70-3933",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated via email he bought his i7 in late March and is still waiting on wallbox installation, so the car is essentially sitting unused in his garage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002415",
+        "review_id": "G70-0883",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "stated they will send photos",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000213",
+        "review_id": "G70-0108",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that troubleshooting instructions would be sent by email",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003121",
+        "review_id": "G70-1134",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated via email that on at least one occasion the myBMW app indicated a door was open even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are administrative notes about email or photo exchange and do not express clear sentiment.",
+      "The topic mixes several communication uses, including diagnostics, instructions, complaints, and photo submission, so a single coherent issue is not fully supported by the examples.",
+      "Negative examples are limited, so specific recurring pain points beyond isolated email accuracy and damage-related communication are insufficiently evidenced."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Waiting for Parts and Repairs",
+  "summary": "This topic centers on customers waiting for parts, repairs, or shop diagnosis, with most examples describing status updates rather than clear evaluations.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive review says the vehicle operated normally after an alert and reported no starting issues.",
+      "evidence_fragment_ids": [
+        "F003392"
+      ]
+    },
+    "negative": {
+      "summary": "One negative review describes the vehicle being in the shop for diagnosis and repair of the issue.",
+      "evidence_fragment_ids": [
+        "F010363"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mainly report waiting for parts, repairs, or supplier items without enough sentiment detail to classify them more clearly.",
+      "evidence_fragment_ids": [
+        "F005948",
+        "F007484",
+        "F007068",
+        "F005319",
+        "F001384",
+        "F005522",
+        "F004568",
+        "F001335",
+        "F006411",
+        "F007724",
+        "F001522"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined status updates, so clear customer sentiment is often not available.",
+    "The examples mix repair delays, parts availability, shop status, and requests for accessories, so the topic is somewhat heterogeneous.",
+    "Some fragments reference other brands or products, which limits confidence that all examples reflect the same underlying issue."
+  ]
+}

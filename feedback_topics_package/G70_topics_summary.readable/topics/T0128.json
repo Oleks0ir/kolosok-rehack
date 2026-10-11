@@ -1,0 +1,622 @@
+{
+  "topic_id": "T0128",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "ES": 0.052632,
+      "US": 0.947368
+    },
+    "engine_type": {
+      "BEVE": 0.157895,
+      "ICE": 0.684211,
+      "PHEV": 0.157895
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.105263,
+        "summary": "Positive reviews mention the car being enjoyable to drive and a preference for seat-side control placement.",
+        "evidence_fragment_ids": [
+          "F009437",
+          "F004114"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.263158,
+        "summary": "Negative reviews focus on insufficient seat-control range and the driver's seat failing to return to the prior stored position.",
+        "evidence_fragment_ids": [
+          "F006717",
+          "F003894",
+          "F009583",
+          "F010564"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.052632,
+        "summary": "The mixed review describes door-panel warming near the armrest when the seat heater is on, but cooling again when the heater is switched off.",
+        "evidence_fragment_ids": [
+          "F004631"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.578947,
+        "summary": "Undetermined reviews mention seat height, automatic seat movement, recognition timing, passenger-seat control from the driver side, and impact-related seat motion without enough context to assign clear sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F003188",
+          "F007915",
+          "F001361",
+          "F004412",
+          "F007206",
+          "F006976",
+          "F002540",
+          "F000514",
+          "F001374"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.105263,
+            "negative": 0.263158,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.578947
+          },
+          "negative_rate": 0.263158,
+          "negative_or_mixed_rate": 0.315789,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.421053
+        }
+      },
+      "country": {
+        "ES": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 18,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004747,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.222222,
+            "mixed": 0.055556,
+            "neutral": 0.0,
+            "undetermined": 0.611111
+          },
+          "negative_rate": 0.222222,
+          "negative_or_mixed_rate": 0.277778,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.388889
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.002657,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005062,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.230769,
+            "mixed": 0.076923,
+            "neutral": 0.0,
+            "undetermined": 0.538462
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.461538
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "ES": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.005339,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.230769,
+            "mixed": 0.076923,
+            "neutral": 0.0,
+            "undetermined": 0.538462
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.461538
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0201",
+      "G70-0511",
+      "G70-0515",
+      "G70-0800",
+      "G70-0924",
+      "G70-1159",
+      "G70-1424",
+      "G70-1499",
+      "G70-1613",
+      "G70-1692",
+      "G70-1755",
+      "G70-2333",
+      "G70-2402",
+      "G70-2502",
+      "G70-2592",
+      "G70-2854",
+      "G70-3388",
+      "G70-3440",
+      "G70-3783"
+    ],
+    "summary": "Feedback in this topic centers on driver-seat adjustment range, seat movement and memory-position behavior, with some fragments also touching on seat-heater-related effects and driver-recognition timing.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Driver seat adjustment and memory behavior",
+    "source_title": "seat / driver / insufficient range",
+    "keywords": [
+      {
+        "term": "seat",
+        "weight": 0.213648
+      },
+      {
+        "term": "driver",
+        "weight": 0.19899
+      },
+      {
+        "term": "driver seat",
+        "weight": 0.178234
+      },
+      {
+        "term": "insufficient range",
+        "weight": 0.079372
+      },
+      {
+        "term": "insufficient",
+        "weight": 0.074235
+      },
+      {
+        "term": "heater",
+        "weight": 0.062857
+      },
+      {
+        "term": "seat heater",
+        "weight": 0.062857
+      },
+      {
+        "term": "seat side",
+        "weight": 0.058899
+      },
+      {
+        "term": "seat insufficient",
+        "weight": 0.055749
+      },
+      {
+        "term": "side",
+        "weight": 0.054845
+      },
+      {
+        "term": "range",
+        "weight": 0.052864
+      },
+      {
+        "term": "forward",
+        "weight": 0.045674
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009437",
+        "review_id": "G70-3388",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it has proven to be a great driver",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006717",
+        "review_id": "G70-2402",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": ": Driver seat, Front passenger seat, Which Seat Control Insufficient Range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004631",
+        "review_id": "G70-1692",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the driver side door becomes warm near the armrest area when the seat heater is turned on and that the door panel cools down again when the seat heater is switched off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001374",
+        "review_id": "G70-0515",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "plus the heated driver seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004114",
+        "review_id": "G70-1499",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "I would rather have them on the seat side like most cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003894",
+        "review_id": "G70-1424",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": ": Driver seat, Which Seat Control Insufficient Range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003188",
+        "review_id": "G70-1159",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would prefer the driver recognition to identify the driver only once the person is seated in the driver seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009583",
+        "review_id": "G70-3440",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": ": Driver seat, Which Seat Control Insufficient Range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010564",
+        "review_id": "G70-3783",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "- the driver's seat fails to go back to where it was before the car was shut down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "ES",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007915",
+        "review_id": "G70-2854",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the driver seat she was in slid forward from the impact",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001361",
+        "review_id": "G70-0511",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the driver's seat to auto move back once the engine is turned off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004412",
+        "review_id": "G70-1613",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Sliding the driver's seat side post further backwrd",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007206",
+        "review_id": "G70-2592",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that he used to be able to adjust the passenger seat from the driver side by using the seat memory buttons, so he could automatically change the passenger seat position when switching from his kids to work associates",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006976",
+        "review_id": "G70-2502",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the driver seat sits a little too low",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002540",
+        "review_id": "G70-0924",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "8) the driver seat moves backward and then instantly forward again when the transmission is put in park",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000514",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the driver's seat moves correctly from the comfort access spot to the stored position 1 for driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes several related but distinct seat topics, including adjustment range, memory/auto-move behavior, seat-heater effects, and driver-recognition timing.",
+      "Many sampled fragments are terse service-style notes or lack enough context to determine sentiment, which limits how specifically the topic can be summarized.",
+      "The supplied examples are stratified samples and are not representative estimates of all G70 seat-related feedback."
+    ]
+  }
+}

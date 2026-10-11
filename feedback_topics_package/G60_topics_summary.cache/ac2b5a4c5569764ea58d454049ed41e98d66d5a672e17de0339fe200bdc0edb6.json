@@ -1,0 +1,36 @@
+{
+  "title": "Round-trip driving distance mentions",
+  "summary": "The topic groups mentions of round-trip driving distances and trip patterns, but the examples do not provide enough clear evaluative sentiment to classify them beyond undetermined.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples mention short local electric trips, a longer city round trip, and one complaint-like statement about needing slow driving and extra stops, but the sample does not support a firm sentiment classification for the topic overall.",
+      "evidence_fragment_ids": [
+        "F000092",
+        "F004746",
+        "F001098"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled examples are labeled undetermined, so the topic cannot support clear sentiment conclusions.",
+    "The examples mix trip-distance descriptions with at least one possible charging or range concern, which may reduce topic coherence.",
+    "The sample is very small, so concrete patterns are limited to the cited fragments."
+  ]
+}

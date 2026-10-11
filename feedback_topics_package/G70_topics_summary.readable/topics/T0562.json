@@ -1,0 +1,388 @@
+{
+  "topic_id": "T0562",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 4,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.25,
+      "US": 0.75
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.75
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.5,
+        "summary": "Positive reviews praise the dealer or domestic service experience as solid, customer-focused, and offering useful benefits.",
+        "evidence_fragment_ids": [
+          "F003916",
+          "F000983"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.25,
+        "summary": "Negative reviews express dissatisfaction with the vehicle's range.",
+        "evidence_fragment_ids": [
+          "F009782"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.25,
+        "summary": "Undetermined content consists of a settings disclaimer note that does not express a clear opinion about the vehicle or ownership experience.",
+        "evidence_fragment_ids": [
+          "F001891"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 4,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.001,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.75
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 3,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.000791,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.000886,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001168,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.666667,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.000821,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0372",
+      "G70-0700",
+      "G70-1433",
+      "G70-3520"
+    ],
+    "summary": "The sample mixes positive comments about dealer or domestic service benefits with a negative complaint about driving range and one fragment that is only a settings disclaimer reference.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Service benefits and range impressions",
+    "source_title": "general / range / benefits",
+    "keywords": [
+      {
+        "term": "general",
+        "weight": 0.506696
+      },
+      {
+        "term": "range",
+        "weight": 0.140136
+      },
+      {
+        "term": "benefits",
+        "weight": 0.129302
+      },
+      {
+        "term": "service",
+        "weight": 0.128215
+      },
+      {
+        "term": "solid",
+        "weight": 0.102642
+      },
+      {
+        "term": "focused",
+        "weight": 0.100284
+      },
+      {
+        "term": "group",
+        "weight": 0.098174
+      },
+      {
+        "term": "general setting",
+        "weight": 0.095847
+      },
+      {
+        "term": "stated disclaimer",
+        "weight": 0.095847
+      },
+      {
+        "term": "manager",
+        "weight": 0.093481
+      },
+      {
+        "term": "offered",
+        "weight": 0.093152
+      },
+      {
+        "term": "deal",
+        "weight": 0.092262
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003916",
+        "review_id": "G70-1433",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the general manager, they are a fantastic group to deal with for both purchase and service, really focused on keeping the customer 100% satisfied",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009782",
+        "review_id": "G70-3520",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "In general I am unhappy with the range",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001891",
+        "review_id": "G70-0700",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated that this disclaimer can also be opened and agreed to within the General Settings menu",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000983",
+        "review_id": "G70-0372",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the general domestic service feels pretty solid, with different benefits offered",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 4,
+      "total_topic_fragments": 4,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is very small, so examples are insufficient to support broader conclusions beyond the fragments shown.",
+      "This topic cluster mixes unrelated subjects, including service experience, range dissatisfaction, and a settings disclaimer reference."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Service appointment mentions",
+  "summary": "This topic is mostly composed of appointment-status statements, with one negative example tied to a booked visit for an SOS malfunction and several fragments that are only logistical or include unrelated keyword matches.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The negative review mentions a booked appointment in connection with an SOS malfunction rather than satisfaction with scheduling itself.",
+      "evidence_fragment_ids": [
+        "F000364"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mostly note whether an appointment was set, planned, or unavailable, and a few are unrelated keyword matches such as contact or heading references.",
+      "evidence_fragment_ids": [
+        "F010367",
+        "F000212",
+        "F002412",
+        "F006939",
+        "F005523",
+        "F005062",
+        "F002092",
+        "F003393",
+        "F006530",
+        "F002246",
+        "F000588",
+        "F005425",
+        "F003325"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most fragments are undetermined logistical notes, so sentiment evidence about the appointment experience itself is limited.",
+    "The cluster includes unrelated keyword matches such as 'contact' and 'heading,' which reduces topic coherence.",
+    "Examples are insufficient to assess whether scheduling was easy or difficult beyond the single negative case."
+  ]
+}

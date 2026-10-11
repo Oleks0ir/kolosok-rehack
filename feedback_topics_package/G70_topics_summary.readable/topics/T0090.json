@@ -1,0 +1,571 @@
+{
+  "topic_id": "T0090",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 26,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.230769,
+      "ICE": 0.653846,
+      "PHEV": 0.115385
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 12,
+        "share": 0.461538,
+        "summary": "Negative reviews describe the OEM phone app or CarPlay failing to connect consistently, connecting too slowly, disconnecting, or preventing unlock, start, or expected app functions.",
+        "evidence_fragment_ids": [
+          "F007930",
+          "F003709",
+          "F009281",
+          "F010709",
+          "F006209",
+          "F009658"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.038462,
+        "summary": "The mixed review likes the phone-as-key concept but still indicates issues within that experience, so the evidence is limited to the appeal of the feature rather than a clear successful connection outcome.",
+        "evidence_fragment_ids": [
+          "F009484"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.5,
+        "summary": "Undetermined reviews mention connection failures or disconnections but provide too little context to judge the overall sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F001719",
+          "F004832",
+          "F009373"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 26,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0065,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 12,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.461538,
+            "mixed": 0.038462,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.461538,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 26,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 12,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.461538,
+            "mixed": 0.038462,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.461538,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.005314,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.153846,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.00662,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.411765,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.529412
+          },
+          "negative_rate": 0.411765,
+          "negative_or_mixed_rate": 0.470588,
+          "share_of_all_topic_negative_reviews": 0.583333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.615385,
+          "known_sentiment_share": 0.470588
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.230769,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.005581,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.153846,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.006982,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.411765,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.529412
+          },
+          "negative_rate": 0.411765,
+          "negative_or_mixed_rate": 0.470588,
+          "share_of_all_topic_negative_reviews": 0.583333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.615385,
+          "known_sentiment_share": 0.470588
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.010638,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.230769,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0197",
+      "G70-0279",
+      "G70-0459",
+      "G70-0631",
+      "G70-0729",
+      "G70-0784",
+      "G70-0840",
+      "G70-1094",
+      "G70-1344",
+      "G70-1715",
+      "G70-1759",
+      "G70-1897",
+      "G70-2233",
+      "G70-2390",
+      "G70-2508",
+      "G70-2540",
+      "G70-2858",
+      "G70-2996",
+      "G70-3031",
+      "G70-3264",
+      "G70-3339",
+      "G70-3363",
+      "G70-3406",
+      "G70-3478",
+      "G70-3499",
+      "G70-3838"
+    ],
+    "summary": "Reviews in this topic focus on unreliable OEM phone app and phone-to-car connections, including failed or slow pairing, disconnections, and app-related access or startup problems.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "OEM phone app and CarPlay connection issues",
+    "source_title": "connect / phone / problem oem",
+    "keywords": [
+      {
+        "term": "connect",
+        "weight": 0.307477
+      },
+      {
+        "term": "phone",
+        "weight": 0.122842
+      },
+      {
+        "term": "phone app",
+        "weight": 0.10787
+      },
+      {
+        "term": "oem phone",
+        "weight": 0.105319
+      },
+      {
+        "term": "problem oem",
+        "weight": 0.105319
+      },
+      {
+        "term": "oem",
+        "weight": 0.104367
+      },
+      {
+        "term": "app",
+        "weight": 0.100138
+      },
+      {
+        "term": "inconsistently",
+        "weight": 0.086355
+      },
+      {
+        "term": "connection",
+        "weight": 0.085228
+      },
+      {
+        "term": "connect connection",
+        "weight": 0.082145
+      },
+      {
+        "term": "slow connect",
+        "weight": 0.081634
+      },
+      {
+        "term": "app connect",
+        "weight": 0.077307
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007930",
+        "review_id": "G70-2858",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"It wouldnt connect to the car so it would not start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009484",
+        "review_id": "G70-3406",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a serious problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"I really liked the concept of leaving the key fob at home and just using my phone as the key to get in and run the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001719",
+        "review_id": "G70-0631",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car still will not connect",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003709",
+        "review_id": "G70-1344",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"It is not only a single app, sometimes the car is just too slow to connect to my phone or will not connect at all on short 10 minute drives, so I end up checking if I even have my phone with me, this has happened about 4-5 times",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004832",
+        "review_id": "G70-1759",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "then disconnected and they were unable to get it to connect again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000468",
+        "review_id": "G70-0197",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"we own 2 bmws",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009281",
+        "review_id": "G70-3339",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"When I get into the car, CarPlay connects on its own maybe 90% of the time,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010709",
+        "review_id": "G70-3838",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"getting in and out of the car, sometimes everything connects fine, other times i have to log in again and make sure my phone is on wifi so carplay works",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006209",
+        "review_id": "G70-2233",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"At times the system will not connect properly with the car, so it intermittently fails to unlock or allow me to start it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004716",
+        "review_id": "G70-1715",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"Sending videos from the car to the BMW app turned out complicated in a recent case",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009658",
+        "review_id": "G70-3478",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"I met with BMW Genius to try to get connected to the APP",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009088",
+        "review_id": "G70-3264",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with OEM smartphone app - Doesn't connect/connects inconsistently/slow to connect: \"using Apple CarPlay, most voice commands dont work, which i really dont like\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002122",
+        "review_id": "G70-0784",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with OEM smartphone app - DTU: \"The BMW data line has been very hard to get installed, with not enough explanation provided, and even after months of calling it is still not set up correctly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006990",
+        "review_id": "G70-2508",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with OEM smartphone app - DTU: \"i am using an iPhone 15,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008415",
+        "review_id": "G70-3031",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with OEM smartphone app - DTU: \"See earlier comments re navgiation issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009373",
+        "review_id": "G70-3363",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when she walks up to the car, her phone will sometimes connect and then disconnect",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many example fragments are short, truncated, or vague, which limits precise identification of the exact failure mode.",
+      "Several sampled fragments appear loosely related to the topic label, including DTU, navigation, voice-command, or media-transfer references rather than direct connection behavior.",
+      "The mixed and undetermined evidence is sparse, so conclusions for those sentiment groups are limited."
+    ]
+  }
+}

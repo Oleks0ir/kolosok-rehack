@@ -1,0 +1,52 @@
+{
+  "title": "Gas station avoidance and fuel-system mentions",
+  "summary": "This topic combines EV owners praising not needing gas stations with scattered fuel-tank and gas-door comments, many of which lack enough context for clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews highlight the convenience of no longer buying gas or visiting gas stations, with one mention of gas discounts.",
+      "evidence_fragment_ids": [
+        "F002340",
+        "F002011",
+        "F010935",
+        "F010547"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews focus on frustration with a malfunctioning gas door, unfamiliar fuel-tank ventilation requirements, and broader dissatisfaction tied to ongoing problems.",
+      "evidence_fragment_ids": [
+        "F007478",
+        "F005161",
+        "F010321"
+      ]
+    },
+    "mixed": {
+      "summary": "The mixed review says a prior gas-tank problem is no longer occurring, combining a past issue with a current resolution.",
+      "evidence_fragment_ids": [
+        "F000679"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention tank size, gas-door opening, charging versus fueling, fuel range, and similar gas-related details without clear positive or negative judgment.",
+      "evidence_fragment_ids": [
+        "F004680",
+        "F003838",
+        "F006112",
+        "F004023",
+        "F008668",
+        "F009499",
+        "F003997",
+        "F005045"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many sampled fragments are undetermined, so the topic has limited clear sentiment evidence.",
+    "The topic mixes EV convenience comments with unrelated fuel-tank, gas-door, and range observations rather than one single coherent issue.",
+    "Some fragments are too brief or lack context to tell whether the customer is praising, complaining, or simply describing a feature or situation."
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "topic_id": "T0507",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "CA": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "ICE": 0.8,
+      "PHEV": 0.2
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.6,
+        "summary": "Positive reviews describe satisfying pickup or dealership experiences and enjoyment of newly purchased BMW vehicles by customers and family members.",
+        "evidence_fragment_ids": [
+          "F009106",
+          "F010188",
+          "F000778"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The negative review complains that a dealer-stock vehicle was picked up without ACC, which the customer strongly disliked.",
+        "evidence_fragment_ids": [
+          "F007917"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The undetermined review mentions something being picked up while crossing the vehicle's path, but the meaning and evaluation are too unclear to classify further.",
+        "evidence_fragment_ids": [
+          "F001572"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.6,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.8
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 18,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001108,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.75
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.75,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.666667,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0272",
+      "G60-0557",
+      "G60-2836",
+      "G60-3262",
+      "G60-3656"
+    ],
+    "summary": "This topic combines mostly positive vehicle pickup and dealer handoff comments with a specific complaint about a car being delivered without ACC, plus one unclear safety-related remark.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Vehicle pickup and ACC mentions",
+    "source_title": "picked / wife / acc",
+    "keywords": [
+      {
+        "term": "picked",
+        "weight": 0.503382
+      },
+      {
+        "term": "wife picked",
+        "weight": 0.194902
+      },
+      {
+        "term": "wife",
+        "weight": 0.130616
+      },
+      {
+        "term": "acc",
+        "weight": 0.123199
+      },
+      {
+        "term": "past",
+        "weight": 0.110985
+      },
+      {
+        "term": "single",
+        "weight": 0.109158
+      },
+      {
+        "term": "cross",
+        "weight": 0.104711
+      },
+      {
+        "term": "path",
+        "weight": 0.101267
+      },
+      {
+        "term": "came",
+        "weight": 0.088619
+      },
+      {
+        "term": "trying",
+        "weight": 0.08841
+      },
+      {
+        "term": "enjoying",
+        "weight": 0.083759
+      },
+      {
+        "term": "alex",
+        "weight": 0.079788
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009106",
+        "review_id": "G60-3262",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer added that his wife bought an X5 the day after he picked up his 530i, and they are both enjoying their BMW vehicles",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007917",
+        "review_id": "G60-2836",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i picked this car from dealer stock and really hate that it came without acc",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001572",
+        "review_id": "G60-0557",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "feels it would have picked up anything trying to cross his path",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010188",
+        "review_id": "G60-3656",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i have picked up 5 cars from vernon bmw over the past 7 years and every single experience has been fantastic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "CA",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000778",
+        "review_id": "G60-0272",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "we were so impressed that we sent our son and his wife to him, and they just picked up a 2025 x3 from alex",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes dealership pickup experiences, family purchase anecdotes, a missing ACC feature complaint, and an unclear path-crossing remark rather than one tightly focused subject.",
+      "The sample is small, and the undetermined example does not provide enough context to interpret the underlying issue more precisely."
+    ]
+  }
+}

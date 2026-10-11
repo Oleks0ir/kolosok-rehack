@@ -1,0 +1,578 @@
+{
+  "topic_id": "T0081",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 27,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.296296,
+      "ICE": 0.666667,
+      "PHEV": 0.037037
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.148148,
+        "summary": "Positive reviews praise the usefulness of real-time traffic information, traffic light details, and the availability of cross-traffic warning features.",
+        "evidence_fragment_ids": [
+          "F000012",
+          "F002739"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.074074,
+        "summary": "Negative reviews report rear cross-traffic warning and reverse automatic emergency braking as hard to understand or less sensitive, inaccurate, or inconsistent.",
+        "evidence_fragment_ids": [
+          "F005667",
+          "F004457"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 21,
+        "share": 0.777778,
+        "summary": "Undetermined reviews mainly mention feature availability, configuration help, purchase or add-on questions, and ambiguous concerns about warning timing or detection distance without a clearly assigned positive or negative sentiment.",
+        "evidence_fragment_ids": [
+          "F010810",
+          "F005620",
+          "F002426",
+          "F001064",
+          "F000053",
+          "F000481",
+          "F003110",
+          "F000499",
+          "F006861",
+          "F010732",
+          "F001608",
+          "F007941"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 27,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00675,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.148148,
+            "negative": 0.074074,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.074074,
+          "negative_or_mixed_rate": 0.074074,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 27,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.007479,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.148148,
+            "negative": 0.074074,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.074074,
+          "negative_or_mixed_rate": 0.074074,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.375,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.007968,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.055556,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.166667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.006294,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.375,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008924,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.055556,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.166667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0006",
+      "G60-0022",
+      "G60-0184",
+      "G60-0191",
+      "G60-0377",
+      "G60-0391",
+      "G60-0569",
+      "G60-0639",
+      "G60-0644",
+      "G60-0738",
+      "G60-0793",
+      "G60-0868",
+      "G60-0974",
+      "G60-1121",
+      "G60-1245",
+      "G60-1588",
+      "G60-1825",
+      "G60-1996",
+      "G60-2019",
+      "G60-2253",
+      "G60-2390",
+      "G60-2456",
+      "G60-2842",
+      "G60-3298",
+      "G60-3856",
+      "G60-3882",
+      "G60-3958"
+    ],
+    "summary": "Feedback in this topic spans rear cross-traffic alerts, traffic light/sign warnings, and real-time traffic information, with clear praise for helpful information features, a few direct complaints about rear cross-traffic warning performance or usability, and many fragments that only mention feature presence, setup, or questions without a clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Cross-Traffic and Traffic Light Warning Features",
+    "source_title": "traffic / cross / warning",
+    "keywords": [
+      {
+        "term": "traffic",
+        "weight": 0.271398
+      },
+      {
+        "term": "cross",
+        "weight": 0.120808
+      },
+      {
+        "term": "cross traffic",
+        "weight": 0.113057
+      },
+      {
+        "term": "warning",
+        "weight": 0.095777
+      },
+      {
+        "term": "traffic warning",
+        "weight": 0.077906
+      },
+      {
+        "term": "information",
+        "weight": 0.077141
+      },
+      {
+        "term": "traffic light",
+        "weight": 0.07069
+      },
+      {
+        "term": "rear cross",
+        "weight": 0.065935
+      },
+      {
+        "term": "traffic information",
+        "weight": 0.05712
+      },
+      {
+        "term": "light",
+        "weight": 0.056793
+      },
+      {
+        "term": "customer",
+        "weight": 0.052462
+      },
+      {
+        "term": "flow",
+        "weight": 0.04764
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000012",
+        "review_id": "G60-0006",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she really likes the traffic information she receives, including details about the traffic lights",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005667",
+        "review_id": "G60-2019",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Rear cross-traffic warning/reverse automatic emergency braking – difficult to understand/use: \"Refer to previous response\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010810",
+        "review_id": "G60-3882",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they appreciate having Cross Traffic Warning available in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002739",
+        "review_id": "G60-0974",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is very pleased with the real time traffic information that comes with his BMW navigation system",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004457",
+        "review_id": "G60-1588",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Rear cross-traffic warning/reverse automatic emergency braking – not working/inaccurate/inconsistent: \"this system feels less sensitive than others i have used",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001608",
+        "review_id": "G60-0569",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the rear cross traffic warning bothers me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005620",
+        "review_id": "G60-1996",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advized customer on the operation of the Cross Traffic Warning feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007941",
+        "review_id": "G60-2842",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "compared to cars that cost a lot less, this one doesn't give enough warning for rear cross traffic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000499",
+        "review_id": "G60-0191",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he wants the cross traffic warning to be able to detect and alert at a greater distance when vehicles or pedestrians are crossing behind his car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006861",
+        "review_id": "G60-2456",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the rear cross traffic audible alert does not seem to sound when he is using the assisted parking view,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002426",
+        "review_id": "G60-0868",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer inquired about how the cross traffic alerts function",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001064",
+        "review_id": "G60-0391",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised this is most likely the Traffic Light and Sign Warning, which can be adjusted or switched off under Driver Assistance, then Safety and warnings, and finally Traffic Light and Sign Warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000053",
+        "review_id": "G60-0022",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they purchased the traffic light warning feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000481",
+        "review_id": "G60-0184",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer inquired how she could get the traffic light information feature added to her vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003110",
+        "review_id": "G60-1121",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer helped the customer move the warning timing to an earlier option and explained the path: Apps Menu, Driving Settings, Driver Assistance, Safety and Warnings, Traffic Light and Sign Warning, then choose Early",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010732",
+        "review_id": "G60-3856",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the vehicle should be capable of more autonomous functions and hopes BMW will develop it so it can stop at traffic lights and make turns at intersections, since the car can already detect the lights, show a red light status on the screen, and read road signs, so he feels the technology is already in place",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 30,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic cluster mixes related but distinct subjects, including rear cross-traffic warning, traffic light/sign warning, and navigation traffic information.",
+      "Most sampled fragments are undetermined, which limits confidence in summarizing clear customer sentiment beyond the explicitly labeled positive and negative examples.",
+      "Some undetermined fragments contain complaint-like wording, but they must remain separate because the supplied sentiment assignment does not label them as negative."
+    ]
+  }
+}

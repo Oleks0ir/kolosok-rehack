@@ -1,0 +1,571 @@
+{
+  "topic_id": "T0128",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.0625,
+      "GB": 0.75,
+      "JP": 0.1875
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.125,
+        "summary": "Positive reviews praise the car's good driving feel and give strong overall endorsement.",
+        "evidence_fragment_ids": [
+          "F002300",
+          "F006542"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.0625,
+        "summary": "The mixed review likes the car versus a Golf R Mk7 but criticizes the prior Mk8 for poor user-friendliness.",
+        "evidence_fragment_ids": [
+          "F006670"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.8125,
+        "summary": "Undetermined fragments are mostly isolated thanks, names, or too-brief mentions of assist motor strength and scoring context to support clear sentiment classification.",
+        "evidence_fragment_ids": [
+          "F005848",
+          "F007097",
+          "F000032",
+          "F002407",
+          "F003199",
+          "F003509",
+          "F004740",
+          "F002577",
+          "F005234",
+          "F000332",
+          "F002819",
+          "F002396",
+          "F000017"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 16,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007519,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.8125
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0625,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1875
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 12,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.009281,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.0,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.166667
+        },
+        "JP": {
+          "review_count": 3,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.004464,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007519,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.8125
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0625,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1875
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.009281,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.0,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.166667
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.004464,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0005",
+      "F70-0008",
+      "F70-0093",
+      "F70-0632",
+      "F70-0666",
+      "F70-0667",
+      "F70-0716",
+      "F70-0770",
+      "F70-0884",
+      "F70-0973",
+      "F70-1321",
+      "F70-1461",
+      "F70-1630",
+      "F70-1819",
+      "F70-1863",
+      "F70-1991"
+    ],
+    "summary": "This topic is dominated by short thank-you or name-only fragments, with only a few usable comments about driving feel, model comparison, and assist motor power.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Thanks and brief assist motor remarks",
+    "source_title": "thanks / mark / assist motor",
+    "keywords": [
+      {
+        "term": "thanks",
+        "weight": 0.43447
+      },
+      {
+        "term": "mark",
+        "weight": 0.295782
+      },
+      {
+        "term": "assist motor",
+        "weight": 0.093495
+      },
+      {
+        "term": "motor",
+        "weight": 0.081835
+      },
+      {
+        "term": "assist",
+        "weight": 0.068709
+      },
+      {
+        "term": "confidently",
+        "weight": 0.062715
+      },
+      {
+        "term": "turner",
+        "weight": 0.054746
+      },
+      {
+        "term": "work",
+        "weight": 0.045382
+      },
+      {
+        "term": "keep",
+        "weight": 0.04525
+      },
+      {
+        "term": "compare",
+        "weight": 0.043032
+      },
+      {
+        "term": "lower",
+        "weight": 0.041548
+      },
+      {
+        "term": "stronger",
+        "weight": 0.040374
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002300",
+        "review_id": "F70-0632",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "keep up the good work, 10 out of 10, thanks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006670",
+        "review_id": "F70-1863",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "like a better version of a golf r mark 7 (and miles ahead of the mark 8 i had before, which was not user friendly at all so i got rid of it after about 4 months from new)",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005848",
+        "review_id": "F70-1630",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks, roland ross",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006542",
+        "review_id": "F70-1819",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i can recommend it confidently thanks to the good driving feel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007097",
+        "review_id": "F70-1991",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "many thanks bmw",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000032",
+        "review_id": "F70-0008",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002407",
+        "review_id": "F70-0667",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003199",
+        "review_id": "F70-0884",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003509",
+        "review_id": "F70-0973",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004740",
+        "review_id": "F70-1321",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002577",
+        "review_id": "F70-0716",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "many thanks mark turner",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005234",
+        "review_id": "F70-1461",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thanks to the assist from the motor",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000332",
+        "review_id": "F70-0093",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "mark benson",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002819",
+        "review_id": "F70-0770",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "mark",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002396",
+        "review_id": "F70-0666",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i mark it slightly lower because i compare it to my previous bmws, a 128i and 118",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000017",
+        "review_id": "F70-0005",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i do feel the assist motor power could be just a bit stronger",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most fragments are too short or context-free to determine sentiment reliably.",
+      "The cluster mixes acknowledgments, personal names, and a few vehicle comments, so it is not a tightly coherent topic.",
+      "Examples are insufficient to draw broader conclusions about assist motor performance or user experience."
+    ]
+  }
+}

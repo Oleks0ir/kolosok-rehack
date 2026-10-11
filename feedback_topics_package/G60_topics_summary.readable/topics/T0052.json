@@ -1,0 +1,690 @@
+{
+  "topic_id": "T0052",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 37,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "AU": 0.027027,
+      "GB": 0.027027,
+      "US": 0.945946
+    },
+    "engine_type": {
+      "BEVE": 0.216216,
+      "ICE": 0.72973,
+      "PHEV": 0.054054
+    },
+    "sentiment": {
+      "positive": {
+        "count": 13,
+        "share": 0.351351,
+        "summary": "Positive reviews praise the cruise or adaptive cruise system as enjoyable, effective, and satisfying to use.",
+        "evidence_fragment_ids": [
+          "F010620",
+          "F003567",
+          "F000300",
+          "F007493",
+          "F002182",
+          "F001689"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.081081,
+        "summary": "Negative reviews focus on confusing control placement, difficulty learning how to use cruise control, and dislike of adaptive distance behavior.",
+        "evidence_fragment_ids": [
+          "F008046",
+          "F005705",
+          "F006452"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.027027,
+        "summary": "The mixed review describes initial concern about cruise-control operation but then frames it as a change from a prior model rather than a malfunction.",
+        "evidence_fragment_ids": [
+          "F007115"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 20,
+        "share": 0.540541,
+        "summary": "Undetermined reviews mention setting cruise control, inconsistent operation, warnings, or distance adjustment without enough detail to confirm a clear evaluation.",
+        "evidence_fragment_ids": [
+          "F001860",
+          "F007364",
+          "F009573",
+          "F002218",
+          "F001654"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 37,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00925,
+          "sentiment_counts": {
+            "positive": 13,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.351351,
+            "negative": 0.081081,
+            "mixed": 0.027027,
+            "neutral": 0.0,
+            "undetermined": 0.540541
+          },
+          "negative_rate": 0.081081,
+          "negative_or_mixed_rate": 0.108108,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.459459
+        }
+      },
+      "country": {
+        "AU": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 35,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.009695,
+          "sentiment_counts": {
+            "positive": 13,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.371429,
+            "negative": 0.085714,
+            "mixed": 0.028571,
+            "neutral": 0.0,
+            "undetermined": 0.514286
+          },
+          "negative_rate": 0.085714,
+          "negative_or_mixed_rate": 0.114286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.485714
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.375,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 27,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.011952,
+          "sentiment_counts": {
+            "positive": 8,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.296296,
+            "negative": 0.111111,
+            "mixed": 0.037037,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.148148,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.444444
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "AU": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.006294,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.375,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.012395,
+          "sentiment_counts": {
+            "positive": 8,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.32,
+            "negative": 0.12,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.52
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.16,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.48
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0118",
+      "G60-0269",
+      "G60-0588",
+      "G60-0595",
+      "G60-0599",
+      "G60-0647",
+      "G60-0669",
+      "G60-0781",
+      "G60-0793",
+      "G60-0837",
+      "G60-0841",
+      "G60-0916",
+      "G60-1276",
+      "G60-1515",
+      "G60-1836",
+      "G60-1846",
+      "G60-1976",
+      "G60-2004",
+      "G60-2030",
+      "G60-2223",
+      "G60-2309",
+      "G60-2313",
+      "G60-2436",
+      "G60-2545",
+      "G60-2547",
+      "G60-2629",
+      "G60-2642",
+      "G60-2673",
+      "G60-2877",
+      "G60-2935",
+      "G60-2944",
+      "G60-3393",
+      "G60-3438",
+      "G60-3775",
+      "G60-3813",
+      "G60-3846",
+      "G60-3961"
+    ],
+    "summary": "Feedback on cruise control is split between clear praise for active/adaptive cruise features and many incomplete reports that mention operation, settings, or behavior without enough context to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Cruise Control and Adaptive Distance Behavior",
+    "source_title": "cruise / control / customer stated",
+    "keywords": [
+      {
+        "term": "cruise",
+        "weight": 0.263836
+      },
+      {
+        "term": "cruise control",
+        "weight": 0.218513
+      },
+      {
+        "term": "control",
+        "weight": 0.180409
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.069064
+      },
+      {
+        "term": "customer",
+        "weight": 0.06865
+      },
+      {
+        "term": "adaptive cruise",
+        "weight": 0.068501
+      },
+      {
+        "term": "stated",
+        "weight": 0.067787
+      },
+      {
+        "term": "adaptive",
+        "weight": 0.065384
+      },
+      {
+        "term": "distance",
+        "weight": 0.060195
+      },
+      {
+        "term": "active cruise",
+        "weight": 0.05098
+      },
+      {
+        "term": "stated cruise",
+        "weight": 0.045814
+      },
+      {
+        "term": "active",
+        "weight": 0.044934
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010620",
+        "review_id": "G60-3813",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really loves the cruise control on the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008046",
+        "review_id": "G60-2877",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Cruise control/adaptive cruise control - DTU/controls poorly located: \"Cruise control feels more involved than on my last 5 Series",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007115",
+        "review_id": "G60-2545",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Cruise control/adaptive cruise control - DTU/controls poorly located: \"I eventually realized it was not really a malfunction, just a change from how I canceled cruise on my 2021 compared to this 2024",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001860",
+        "review_id": "G60-0669",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he attempts to set the cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003567",
+        "review_id": "G60-1276",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the adaptive cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005705",
+        "review_id": "G60-2030",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Cruise control/adaptive cruise control - DTU/controls poorly located: \"I have no idea how to work the cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007364",
+        "review_id": "G60-2629",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the cruise control have already been working inconsistently",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000300",
+        "review_id": "G60-0118",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they like the active cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007493",
+        "review_id": "G60-2673",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is very happy with the automatic cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002182",
+        "review_id": "G60-0781",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the adaptive cruise control feature in this i5",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006469",
+        "review_id": "G60-2313",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i actually like the cruise control in my other, much cheaper vehicle more, which is a downside for this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009573",
+        "review_id": "G60-3438",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that while using Active Cruise Control it feels frightening when the car warns him to put his hands back on the steering wheel and, if he does not",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002218",
+        "review_id": "G60-0793",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he sets cruise control there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001689",
+        "review_id": "G60-0599",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that the Active Cruise Control works great",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001654",
+        "review_id": "G60-0588",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she has not yet figured out how to change the distance setting when using Cruise Control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006452",
+        "review_id": "G60-2309",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he dislikes how the Adaptive Cruise Control automatically backs him away when he gets close to other vehicles",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 39,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "More than half of the topic reviews are undetermined, which limits confidence in summarizing overall customer stance.",
+      "Several example fragments are truncated or incomplete, so some operational concerns cannot be classified more precisely.",
+      "One supplied example assigned as positive contains comparative criticism, which suggests the sample includes borderline or inconsistently labeled feedback."
+    ]
+  }
+}

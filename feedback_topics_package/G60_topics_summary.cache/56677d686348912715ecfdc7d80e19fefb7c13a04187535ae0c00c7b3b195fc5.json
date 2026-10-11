@@ -1,0 +1,52 @@
+{
+  "title": "Writer-customer troubleshooting questions",
+  "summary": "This topic mainly captures back-and-forth troubleshooting questions between service writers and customers, with most examples lacking enough outcome detail to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews describe helpful guidance or product clarification, such as recommending navigation use or discussing desired features like a sunroof.",
+      "evidence_fragment_ids": [
+        "F003113",
+        "F006888"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe troubleshooting around unresolved problems, including recurring issues and repeated CarPlay reset or software-check questions.",
+      "evidence_fragment_ids": [
+        "F007957",
+        "F004073"
+      ]
+    },
+    "mixed": {
+      "summary": "The mixed sample is too limited to identify a clear theme beyond a customer asking about obtaining an item online.",
+      "evidence_fragment_ids": [
+        "F001196"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are mostly procedural exchanges about vehicle access, settings, account setup, updates, or clarifying what the customer meant, without clear satisfaction or dissatisfaction.",
+      "evidence_fragment_ids": [
+        "F007407",
+        "F006237",
+        "F003728",
+        "F004652",
+        "F005786",
+        "F009082",
+        "F005247",
+        "F002829",
+        "F007622",
+        "F010855",
+        "F001652"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined because they record intermediate troubleshooting questions rather than outcomes.",
+    "The topic is broad and procedural, so concrete issue patterns are only weakly supported by the provided examples.",
+    "The mixed sentiment evidence is limited to a single fragment, so no broader mixed theme can be established."
+  ]
+}

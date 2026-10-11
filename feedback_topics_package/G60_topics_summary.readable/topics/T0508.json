@@ -1,0 +1,352 @@
+{
+  "topic_id": "T0508",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "ICE": 0.6,
+      "PHEV": 0.4
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "One positive-classified review discusses the vehicle being in the workshop and uncertainty about readiness and safe driving, so the positive evidence appears limited and contextually inconsistent.",
+        "evidence_fragment_ids": [
+          "F003648"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.8,
+        "summary": "Undetermined reviews mention the meaning of the 'Ready' display, lack of updates on parts readiness, and failure to leave the vehicle in a driver-ready state without enough context to infer clear sentiment.",
+        "evidence_fragment_ids": [
+          "F007410",
+          "F004795",
+          "F001520",
+          "F002522"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 5,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00125,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 5,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.001385,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.001328,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.001487,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0539",
+      "G60-0891",
+      "G60-1306",
+      "G60-1705",
+      "G60-2642"
+    ],
+    "summary": "This topic centers on ambiguous mentions of vehicle readiness indicators, driver-ready state, and uncertainty about when parts or the vehicle will be ready.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Ready status and parts readiness",
+    "source_title": "ready / show / parts",
+    "keywords": [
+      {
+        "term": "ready",
+        "weight": 0.613215
+      },
+      {
+        "term": "show",
+        "weight": 0.12155
+      },
+      {
+        "term": "parts",
+        "weight": 0.110672
+      },
+      {
+        "term": "state",
+        "weight": 0.109038
+      },
+      {
+        "term": "leave",
+        "weight": 0.102611
+      },
+      {
+        "term": "update",
+        "weight": 0.098062
+      },
+      {
+        "term": "wrtier",
+        "weight": 0.096096
+      },
+      {
+        "term": "means",
+        "weight": 0.081587
+      },
+      {
+        "term": "drive safely",
+        "weight": 0.07204
+      },
+      {
+        "term": "safely",
+        "weight": 0.069783
+      },
+      {
+        "term": "whether drive",
+        "weight": 0.069783
+      },
+      {
+        "term": "driver",
+        "weight": 0.069273
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003648",
+        "review_id": "G60-1306",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i basically bought a brand new vehicle, had to put it straight into the workshop, and now have no idea when it will be ready or whether it will drive safely without more problems",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007410",
+        "review_id": "G60-2642",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it will show 0 or Ready",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004795",
+        "review_id": "G60-1705",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Wrtier confirmed that ready means it is ready to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001520",
+        "review_id": "G60-0539",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is still no update on when parts will be ready",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002522",
+        "review_id": "G60-0891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "does not leave the vehicle in a driver ready state",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most examples are classified as undetermined, which limits confident interpretation of customer attitude.",
+      "The sample mixes dashboard 'Ready' display meaning, parts availability timing, and driver-ready state, which may reflect related but not fully coherent subjects.",
+      "The lone positive-classified example contains strongly negative wording, so the provided sentiment labels appear inconsistent with the text and should be interpreted cautiously."
+    ]
+  }
+}

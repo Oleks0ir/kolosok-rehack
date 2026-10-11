@@ -1,0 +1,49 @@
+{
+  "title": "Complaint Mentions and Biggest Mistake Remarks",
+  "summary": "This topic clusters brief complaint-oriented fragments that mix general dissatisfaction with specific issues such as EV range in cold weather, wireless charging, and a parking button reference.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive review describes the G60 as the owner's best BMW and a notably improved update over the prior model.",
+      "evidence_fragment_ids": [
+        "F007261"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews express strong dislike, cite poor cold-weather EV range, and mention an issue described as a common complaint online.",
+      "evidence_fragment_ids": [
+        "F002837",
+        "F005195",
+        "F009685"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments are mostly too short or incomplete to resolve sentiment, though they reference complaints about winter range, wireless charging, a parking button, and a 'biggest mistake' remark without enough context for consistent classification.",
+      "evidence_fragment_ids": [
+        "F001087",
+        "F003542",
+        "F005873",
+        "F006782",
+        "F003637",
+        "F004700",
+        "F003960",
+        "F000454",
+        "F006094",
+        "F004707"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most fragments are undetermined, brief, or truncated, which limits confidence about the underlying issue and sentiment.",
+    "The topic mixes several unrelated subjects, including range, wireless charging, parking controls, and broad regret statements, so it is not a single coherent complaint theme.",
+    "One undetermined example is duplicated wireless charging text, and several examples contain only the word 'Complaint:' without usable detail."
+  ]
+}

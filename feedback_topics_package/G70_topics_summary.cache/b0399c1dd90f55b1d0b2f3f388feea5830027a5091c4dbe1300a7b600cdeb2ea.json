@@ -1,0 +1,38 @@
+{
+  "title": "Exporter accusation and sold-status comments",
+  "summary": "This topic combines one complaint about being treated as an exporter after selling a car with other fragments that only mention a vehicle being sold or availability status.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive-labeled review describes rude treatment and being placed on an export list after selling the car, despite the mismatch between the label and the complaint-like content.",
+      "evidence_fragment_ids": [
+        "F000063",
+        "F000065"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments mention a car being sold, customer waiting, or drivetrain availability without enough context to determine a clear sentiment.",
+      "evidence_fragment_ids": [
+        "F008385",
+        "F007499"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The sample is very small, so the examples are insufficient for a broader conclusion about this topic.",
+    "The cluster mixes at least two subjects: exporter-related treatment and simple sold/availability status mentions.",
+    "One positive-labeled example contains complaint-like wording, so the supplied sentiment assignment appears inconsistent with the fragment text."
+  ]
+}

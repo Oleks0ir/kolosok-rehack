@@ -1,0 +1,40 @@
+{
+  "title": "Repeat BMW ownership mentions",
+  "summary": "The topic centers on reviewers mentioning this being their third BMW or 1 Series, with the clearest sentiment reflecting loyal repeat purchase satisfaction while several fragments are too brief or contextual to classify.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews describe repeat BMW ownership as driven by strong satisfaction and preference for the brand.",
+      "evidence_fragment_ids": [
+        "F005636",
+        "F000179",
+        "F000182"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mainly note that this is the reviewer’s third BMW or 1 Series, and one fragment mentions a date and annual leave without enough context to assign sentiment.",
+      "evidence_fragment_ids": [
+        "F005364",
+        "F003399",
+        "F003244",
+        "F000647"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Several fragments are extremely short and only indicate repeat ownership, so their sentiment cannot be determined from the supplied text alone.",
+    "The cluster is somewhat noisy because one fragment refers to a delivery timing or scheduling issue around the 23rd rather than repeat ownership."
+  ]
+}

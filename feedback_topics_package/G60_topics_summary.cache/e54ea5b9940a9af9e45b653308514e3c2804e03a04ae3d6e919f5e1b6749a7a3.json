@@ -1,0 +1,48 @@
+{
+  "title": "Running status and accidental operation comments",
+  "summary": "This topic combines praise for the vehicle running well with complaints about charger or electronics issues and several ambiguous mentions of running-related operation details.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say the vehicle is running great and performing well mechanically.",
+      "evidence_fragment_ids": [
+        "F010401",
+        "F008161"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe running into problems with the fast charger or electronics and mention various small issues.",
+      "evidence_fragment_ids": [
+        "F001391",
+        "F000677",
+        "F000414"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention climate use, media or apps running, accidental leaving the vehicle running, and other context that does not clearly express a stable sentiment.",
+      "evidence_fragment_ids": [
+        "F002654",
+        "F007101",
+        "F003390",
+        "F000247",
+        "F006245",
+        "F007706",
+        "F003141",
+        "F005757"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic is lexically broad and mixes unrelated subjects, including vehicle performance, charger problems, electronics behavior, climate use, and accidental operation references.",
+    "Most sampled fragments are undetermined, so the examples provide limited evidence for a single coherent customer issue.",
+    "Some undetermined fragments contain wording that could sound favorable or unfavorable, but the assigned sentiment does not support reclassifying them here."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Gas Mileage and Claim Mileage Mentions",
+  "summary": "This topic combines clear praise for fuel economy with many administrative or informational mileage mentions that do not express a definite opinion.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the vehicle's gas or fuel mileage as very good, excellent, or pleasing.",
+      "evidence_fragment_ids": [
+        "F001660",
+        "F007742",
+        "F004200",
+        "F003828",
+        "F000403",
+        "F005903",
+        "F004661",
+        "F005716"
+      ]
+    },
+    "negative": {
+      "summary": "The negative review expresses dissatisfaction with the mileage being achieved.",
+      "evidence_fragment_ids": [
+        "F001415"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mostly record claim-mileage entries or mention mileage expectations and display issues without a clear positive or negative judgment.",
+      "evidence_fragment_ids": [
+        "F009762",
+        "F008211",
+        "F003920",
+        "F011067",
+        "F008142",
+        "F007750",
+        "F000970"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic mixes customer opinions about fuel economy with administrative 'Claim Mileage' records, which limits thematic coherence.",
+    "Many sampled fragments are undetermined, so the examples provide limited detail about why mileage is mentioned in those cases.",
+    "The sampled fragments are stratified and not representative of all reviews for estimating broader customer experience."
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "topic_id": "T0299",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 9,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.222222,
+      "ICE": 0.666667,
+      "PHEV": 0.111111
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.111111,
+        "summary": "The positive feedback praises how the vehicle feels when lifting off the accelerator pedal.",
+        "evidence_fragment_ids": [
+          "F001784"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.333333,
+        "summary": "Negative feedback reports accelerator pedal malfunction, pedal replacement, disliked lift-off deceleration behavior, and references to similar pedal issues.",
+        "evidence_fragment_ids": [
+          "F000319",
+          "F000330",
+          "F004772",
+          "F010844"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 5,
+        "share": 0.555556,
+        "summary": "Undetermined fragments mention sticky pedal feel, quick takeoff with slight pedal input, regeneration preferences, and incomplete descriptions of pressing or releasing the accelerator without enough context for clear sentiment.",
+        "evidence_fragment_ids": [
+          "F000638",
+          "F005215",
+          "F001528",
+          "F008022",
+          "F002062"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 9,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00225,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.444444
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 9,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.002373,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.444444
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0143",
+      "G70-0234",
+      "G70-0562",
+      "G70-0659",
+      "G70-0769",
+      "G70-1739",
+      "G70-1895",
+      "G70-2895",
+      "G70-3903"
+    ],
+    "summary": "This topic centers on accelerator pedal operation, with complaints about malfunction, replacement, abrupt response, and lift-off behavior alongside several fragments that only describe pedal use without clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Accelerator Pedal Response and Operation",
+    "source_title": "accelerator / pedal / presses",
+    "keywords": [
+      {
+        "term": "accelerator",
+        "weight": 0.425808
+      },
+      {
+        "term": "accelerator pedal",
+        "weight": 0.260255
+      },
+      {
+        "term": "pedal",
+        "weight": 0.228808
+      },
+      {
+        "term": "presses",
+        "weight": 0.088532
+      },
+      {
+        "term": "lifts accelerator",
+        "weight": 0.066715
+      },
+      {
+        "term": "lifts",
+        "weight": 0.064624
+      },
+      {
+        "term": "similar",
+        "weight": 0.059185
+      },
+      {
+        "term": "customer",
+        "weight": 0.055187
+      },
+      {
+        "term": "detected",
+        "weight": 0.053367
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.050097
+      },
+      {
+        "term": "stated",
+        "weight": 0.04927
+      },
+      {
+        "term": "stated lets",
+        "weight": 0.04695
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001784",
+        "review_id": "G70-0659",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated it feels good when she lifts off the accelerator pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000319",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Description: Accelerator operation/accelerator pedal module permanent malfunction",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000638",
+        "review_id": "G70-0234",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the accelerator pedal has a bit of a sticky feel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004772",
+        "review_id": "G70-1739",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer explained that right after purchase he did not like how the vehicle slowed down when he lifted off the accelerator pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005215",
+        "review_id": "G70-1895",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that with only a slight press on the accelerator pedal the car takes off too quickly and they experience whiplash",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010844",
+        "review_id": "G70-3903",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Writer asked whether a similar issue was happening with the Accelerator pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001528",
+        "review_id": "G70-0562",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the Brake Energy Regeneration function to slow the vehicle all the way to a full stop when he lifts off the accelerator pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008022",
+        "review_id": "G70-2895",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted that when he presses the accelerator",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002062",
+        "review_id": "G70-0769",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he lets off the accelerator and then presses it again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000330",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Removed and replaced accelerator pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004775",
+        "review_id": "G70-1739",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the vehicle now coasts when coming off the accelerator, similar to a conventional combustion vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000326",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Accelerator position not detected",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 12,
+      "total_topic_fragments": 12,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most fragments are short service-style notes with limited context, so many examples cannot be interpreted beyond the immediate wording.",
+      "Some examples mix distinct subjects such as hardware malfunction, pedal feel, regenerative braking behavior, and general acceleration response rather than one single coherent issue."
+    ]
+  }
+}

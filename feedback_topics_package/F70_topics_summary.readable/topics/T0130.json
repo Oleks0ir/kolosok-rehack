@@ -1,0 +1,556 @@
+{
+  "topic_id": "T0130",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 15,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.133333,
+      "GB": 0.666667,
+      "JP": 0.2
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.2,
+        "summary": "Positive reviews mention recommending the car, comfort when riding in it, or openness to speaking with BMW.",
+        "evidence_fragment_ids": [
+          "F000020",
+          "F004164",
+          "F001190"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.066667,
+        "summary": "Negative feedback centers on expecting BMW to make contact about an issue and being dissatisfied that this follow-up did not happen.",
+        "evidence_fragment_ids": [
+          "F004210"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.733333,
+        "summary": "Undetermined fragments are mostly too short or context-free to interpret clearly, though some mention being passed around, delayed inspection, washing the car, or hypothetical comments about comfort and surprises.",
+        "evidence_fragment_ids": [
+          "F004645",
+          "F006450",
+          "F002929",
+          "F004515",
+          "F002020",
+          "F000662",
+          "F001558",
+          "F003597",
+          "F000295",
+          "F002763",
+          "F005201"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 15,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007049,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.266667
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 2,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.037736,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 10,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.007734,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        },
+        "JP": {
+          "review_count": 3,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.004464,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007049,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.066667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.066667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.266667
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.037736,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.007734,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.004464,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "F70-0006",
+      "F70-0085",
+      "F70-0176",
+      "F70-0314",
+      "F70-0431",
+      "F70-0555",
+      "F70-0764",
+      "F70-0802",
+      "F70-1003",
+      "F70-1168",
+      "F70-1182",
+      "F70-1263",
+      "F70-1294",
+      "F70-1453",
+      "F70-1796"
+    ],
+    "summary": "This topic is a loose mix of recommendation wording, contact or follow-up mentions, and isolated conversational fragments, with most examples too incomplete to support a clear sentiment reading.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Asked Someone and Follow-Up Mentions",
+    "source_title": "asked / someone / yes",
+    "keywords": [
+      {
+        "term": "asked",
+        "weight": 0.32317
+      },
+      {
+        "term": "someone",
+        "weight": 0.316508
+      },
+      {
+        "term": "someone asked",
+        "weight": 0.162439
+      },
+      {
+        "term": "yes",
+        "weight": 0.103989
+      },
+      {
+        "term": "expecting",
+        "weight": 0.074198
+      },
+      {
+        "term": "someone look",
+        "weight": 0.068125
+      },
+      {
+        "term": "speak",
+        "weight": 0.052319
+      },
+      {
+        "term": "around",
+        "weight": 0.044391
+      },
+      {
+        "term": "nasty",
+        "weight": 0.040407
+      },
+      {
+        "term": "passed",
+        "weight": 0.03747
+      },
+      {
+        "term": "washed",
+        "weight": 0.037323
+      },
+      {
+        "term": "reality",
+        "weight": 0.035154
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000020",
+        "review_id": "F70-0006",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "if someone asked me, id say i recommend it,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004210",
+        "review_id": "F70-1182",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i was expecting someone from bmw to get in touch with me about this issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004645",
+        "review_id": "F70-1294",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if someone asked me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004164",
+        "review_id": "F70-1168",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "when someone i know asked how comfy i felt riding in it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006450",
+        "review_id": "F70-1796",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if someone asked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002929",
+        "review_id": "F70-0802",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i only found out because i asked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004515",
+        "review_id": "F70-1263",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "if you asked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002020",
+        "review_id": "F70-0555",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "they asked if i wanted the car washed while it was in the bmw garage and i said yes,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000662",
+        "review_id": "F70-0176",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "quite penalizing for someone investing in a new car for safety, expecting no nasty surprises",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001190",
+        "review_id": "F70-0314",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "happy to speak with someone at bmw about it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001558",
+        "review_id": "F70-0431",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "bmw told me to leave it with them for around 3 weeks and maybe someone could look at it, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003597",
+        "review_id": "F70-1003",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the way someone looks does not represent the reality that needs to be reviewed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000295",
+        "review_id": "F70-0085",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he has asked for help he just keeps getting passed around",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002763",
+        "review_id": "F70-0764",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i am quite small, so i imagine someone taller would find it even harder to get in comfortably",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005201",
+        "review_id": "F70-1453",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "probably yes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 15,
+      "total_topic_fragments": 15,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes several unrelated subjects rather than one coherent aspect.",
+      "Most fragments are very short or lack surrounding context, so sentiment and specific issues are often unclear.",
+      "Examples are insufficient to draw a more precise theme beyond generic asking, someone, or yes phrasing."
+    ]
+  }
+}

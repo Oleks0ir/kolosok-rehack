@@ -1,0 +1,605 @@
+{
+  "topic_id": "T0047",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 39,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.410256,
+      "ICE": 0.461538,
+      "PHEV": 0.128205
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 27,
+        "share": 0.692308,
+        "summary": "Negative reviews describe the kick-to-open trunk feature as inconsistent, requiring repeated attempts or failing to activate when users wave or swipe a foot under the rear bumper.",
+        "evidence_fragment_ids": [
+          "F002628",
+          "F003993",
+          "F005968",
+          "F006053",
+          "F006316",
+          "F007033",
+          "F004897",
+          "F002347",
+          "F006020",
+          "F009114"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.307692,
+        "summary": "Undetermined reviews mention the trunk opening only once with kick-to-open or being discovered open, but the limited examples do not clearly establish customer sentiment.",
+        "evidence_fragment_ids": [
+          "F010760",
+          "F004797"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 39,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00975,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 27,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.692308,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.307692
+          },
+          "negative_rate": 0.692308,
+          "negative_or_mixed_rate": 0.692308,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.692308
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 39,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.010803,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 27,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.692308,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.307692
+          },
+          "negative_rate": 0.692308,
+          "negative_or_mixed_rate": 0.692308,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.692308
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 16,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.011739,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.1875
+          },
+          "negative_rate": 0.8125,
+          "negative_or_mixed_rate": 0.8125,
+          "share_of_all_topic_negative_reviews": 0.481481,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.481481,
+          "known_sentiment_share": 0.8125
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.007968,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 11,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.611111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.388889
+          },
+          "negative_rate": 0.611111,
+          "negative_or_mixed_rate": 0.611111,
+          "share_of_all_topic_negative_reviews": 0.407407,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.407407,
+          "known_sentiment_share": 0.611111
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.013228,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.6,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.6,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 16,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.012589,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.1875
+          },
+          "negative_rate": 0.8125,
+          "negative_or_mixed_rate": 0.8125,
+          "share_of_all_topic_negative_reviews": 0.481481,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.481481,
+          "known_sentiment_share": 0.8125
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008924,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 11,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.611111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.388889
+          },
+          "negative_rate": 0.611111,
+          "negative_or_mixed_rate": 0.611111,
+          "share_of_all_topic_negative_reviews": 0.407407,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.407407,
+          "known_sentiment_share": 0.611111
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.015528,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.6,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.6,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0180",
+      "G60-0199",
+      "G60-0222",
+      "G60-0223",
+      "G60-0284",
+      "G60-0385",
+      "G60-0488",
+      "G60-0835",
+      "G60-0931",
+      "G60-1184",
+      "G60-1287",
+      "G60-1384",
+      "G60-1439",
+      "G60-1560",
+      "G60-1682",
+      "G60-1707",
+      "G60-1741",
+      "G60-1837",
+      "G60-1852",
+      "G60-1911",
+      "G60-2125",
+      "G60-2145",
+      "G60-2160",
+      "G60-2162",
+      "G60-2208",
+      "G60-2258",
+      "G60-2518",
+      "G60-2594",
+      "G60-2605",
+      "G60-2959",
+      "G60-3214",
+      "G60-3264",
+      "G60-3375",
+      "G60-3415",
+      "G60-3454",
+      "G60-3494",
+      "G60-3864",
+      "G60-3893",
+      "G60-3910"
+    ],
+    "summary": "Feedback in this topic centers on the tailgate’s hands-free foot sensor frequently failing to open the trunk consistently, with a smaller set of reports noting the trunk was found open or describing the function without clear sentiment.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "elevated_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 13,
+        "denominator": 16,
+        "rate": 0.8125,
+        "comparison_numerator": 14,
+        "comparison_denominator": 23,
+        "comparison_rate": 0.608696,
+        "gap_percentage_points": 20.38,
+        "statement": "In engine_type=BEVE, 13 of 16 reviews (81.2%) are negative or mixed. The rest of this breakdown: 14 of 23 (60.9%).",
+        "interpretation": "An exploratory signal indicates BEVE reviews in this topic are more often negative or mixed than the rest of the engine-type breakdown, but this is an observed segment association and not evidence of causation or broader representativeness.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Hands-free trunk sensor opening issues",
+    "source_title": "trunk / open / tailgate",
+    "keywords": [
+      {
+        "term": "trunk",
+        "weight": 0.189606
+      },
+      {
+        "term": "open",
+        "weight": 0.141205
+      },
+      {
+        "term": "tailgate",
+        "weight": 0.12587
+      },
+      {
+        "term": "hatch",
+        "weight": 0.125254
+      },
+      {
+        "term": "hatch tailgate",
+        "weight": 0.125254
+      },
+      {
+        "term": "trunk hatch",
+        "weight": 0.125254
+      },
+      {
+        "term": "problem trunk",
+        "weight": 0.118276
+      },
+      {
+        "term": "sensor",
+        "weight": 0.103324
+      },
+      {
+        "term": "foot",
+        "weight": 0.102428
+      },
+      {
+        "term": "work consistently",
+        "weight": 0.097304
+      },
+      {
+        "term": "sensor work",
+        "weight": 0.092973
+      },
+      {
+        "term": "work",
+        "weight": 0.092248
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002628",
+        "review_id": "G60-0931",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"I wave my foot under the rear of the car and sometimes the trunk just does not open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010760",
+        "review_id": "G60-3864",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has only been able to get the trunk to open once using the kick-to-open function",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003993",
+        "review_id": "G60-1439",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"the auto open using your foot only works sometimes, not every time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005968",
+        "review_id": "G60-2125",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"shaking, waving or sliding my foot barely ever triggers the trunk to open\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004797",
+        "review_id": "G60-1707",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when they went out to the vehicle while at work, they discovered the trunk was open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006053",
+        "review_id": "G60-2160",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"I haven't been able to get this to work",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006316",
+        "review_id": "G60-2258",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"Using the foot sensor to open the trunk usually needs multiple tries\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007033",
+        "review_id": "G60-2518",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"The kick-to-open trunk function feels too picky/limited, and as a result the feature very often does not activate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004897",
+        "review_id": "G60-1741",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"I can never get the trunk to lift using the foot kick\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005378",
+        "review_id": "G60-1911",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"When my hands are full and I try to open the trunk with my foot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002347",
+        "review_id": "G60-0835",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"It rarely works on the first try and sometimes will not work at all even after several attempts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006020",
+        "review_id": "G60-2145",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"The foot-swipe sensor is very inconsistent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004359",
+        "review_id": "G60-1560",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"touchless sensor is mostly fine, works about 95% as it should,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007298",
+        "review_id": "G60-2605",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"I've had this particular feature on a prior vehicle,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008238",
+        "review_id": "G60-2959",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"Sensor not working\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009114",
+        "review_id": "G60-3264",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Trunk/hatch/tailgate - Touch-free sensor doesn't work consistently/DTU: \"just inconsistent and not reliable when you need it most",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 47,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled examples are heavily concentrated on touch-free sensor inconsistency, so other trunk or tailgate issues may be underrepresented.",
+      "Undetermined examples are sparse, limiting confidence about whether those comments reflect malfunction, accidental opening, or simple observation.",
+      "This is a stratified sample of topic fragments rather than a random sample, so it should not be treated as representative of all G60 vehicles or owners."
+    ]
+  }
+}

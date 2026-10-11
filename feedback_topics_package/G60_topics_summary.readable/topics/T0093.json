@@ -1,0 +1,575 @@
+{
+  "topic_id": "T0093",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 25,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.24,
+      "ICE": 0.72,
+      "PHEV": 0.04
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.08,
+        "summary": "Negative reviews describe emergency call system malfunction messages appearing at startup or as an error that led the customer to seek service.",
+        "evidence_fragment_ids": [
+          "F002614",
+          "F008140"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 23,
+        "share": 0.92,
+        "summary": "Undetermined reviews mostly mention call-backs, return calls, disconnections, and scheduling logistics without enough detail to judge satisfaction.",
+        "evidence_fragment_ids": [
+          "F000617",
+          "F005261",
+          "F005216",
+          "F006615",
+          "F008848",
+          "F002164",
+          "F001858",
+          "F001781",
+          "F007670",
+          "F003575",
+          "F002024",
+          "F003714",
+          "F005697",
+          "F005487"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 25,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00625,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.08,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.92
+          },
+          "negative_rate": 0.08,
+          "negative_or_mixed_rate": 0.08,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.08
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 25,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.006925,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.08,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.92
+          },
+          "negative_rate": 0.08,
+          "negative_or_mixed_rate": 0.08,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.08
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.007968,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.944444
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.055556
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008924,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.944444
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.055556
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0209",
+      "G60-0225",
+      "G60-0639",
+      "G60-0667",
+      "G60-0716",
+      "G60-0772",
+      "G60-0928",
+      "G60-1135",
+      "G60-1280",
+      "G60-1327",
+      "G60-1396",
+      "G60-1541",
+      "G60-1603",
+      "G60-1852",
+      "G60-1858",
+      "G60-1948",
+      "G60-2028",
+      "G60-2364",
+      "G60-2568",
+      "G60-2747",
+      "G60-2788",
+      "G60-2923",
+      "G60-3161",
+      "G60-3589",
+      "G60-3878"
+    ],
+    "summary": "This topic mainly contains procedural call-back and follow-up mentions, with a smaller set of complaints about emergency call system malfunction messages.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Call-back scheduling and emergency call messages",
+    "source_title": "call / back / customer",
+    "keywords": [
+      {
+        "term": "call",
+        "weight": 0.362015
+      },
+      {
+        "term": "call back",
+        "weight": 0.147831
+      },
+      {
+        "term": "back",
+        "weight": 0.090652
+      },
+      {
+        "term": "call dealer",
+        "weight": 0.072367
+      },
+      {
+        "term": "return call",
+        "weight": 0.069074
+      },
+      {
+        "term": "customer",
+        "weight": 0.062872
+      },
+      {
+        "term": "moment call",
+        "weight": 0.058455
+      },
+      {
+        "term": "return",
+        "weight": 0.058439
+      },
+      {
+        "term": "emergency call",
+        "weight": 0.048614
+      },
+      {
+        "term": "attempt",
+        "weight": 0.047227
+      },
+      {
+        "term": "moment",
+        "weight": 0.046679
+      },
+      {
+        "term": "during call",
+        "weight": 0.046179
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002614",
+        "review_id": "G60-0928",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported that an emergency call system malfunction message appears when starting the vehicle and has been showing up for the past few days",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000617",
+        "review_id": "G60-0225",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "that call has never come",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008140",
+        "review_id": "G60-2923",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he received an error message saying emergency call system malfunction and took the vehicle in for service",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005261",
+        "review_id": "G60-1858",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "that he will call back to go over it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005216",
+        "review_id": "G60-1852",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Call disconnected during the conversation and an attempt to call back was made",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006615",
+        "review_id": "G60-2364",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer stated he is not by the vehicle right now and will call back once he is with the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008848",
+        "review_id": "G60-3161",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer stated she is driving at the moment and will call back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002164",
+        "review_id": "G60-0772",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer is not able to go to the vehicle at the moment and will call back when she can",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001858",
+        "review_id": "G60-0667",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer requested a return call in about 2 weeks, and a follow up call was set up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001781",
+        "review_id": "G60-0639",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer said he was busy at the moment and would have to call back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007670",
+        "review_id": "G60-2747",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised the customer he can call back with any questions and offered to do a video-call troubleshooting session if needed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003575",
+        "review_id": "G60-1280",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer suggested a call back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002024",
+        "review_id": "G60-0716",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "might call again to get instructions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003714",
+        "review_id": "G60-1327",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he never received a return call from that dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005697",
+        "review_id": "G60-2028",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said they have been planning to call the dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005487",
+        "review_id": "G60-1948",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "she set up a return call",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 25,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are administrative call-back or follow-up statements with unclear sentiment.",
+      "The cluster mixes service communication logistics with emergency call system malfunction reports, so it is not a single coherent issue.",
+      "Only a small number of examples show explicit sentiment, which limits detail on customer evaluation."
+    ]
+  }
+}

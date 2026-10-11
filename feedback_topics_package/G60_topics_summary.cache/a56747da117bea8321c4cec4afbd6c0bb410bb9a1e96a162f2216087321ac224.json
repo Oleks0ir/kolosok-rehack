@@ -1,0 +1,43 @@
+{
+  "title": "Reported causes and customer guidance issues",
+  "summary": "This topic combines sparse mentions of possible causes such as wiper noise, alignment, and bonnet hinge fitment with complaints about delayed diagnosis and missing customer guidance, but most examples are too fragmentary to determine clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The negative feedback specifically reports noisy wiper blades as the cause of a problem.",
+      "evidence_fragment_ids": [
+        "F008215"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples mention unspecified causes, possible factory alignment or fitment issues, delayed root-cause identification, and requests for clearer analysis, improvement plans, and customer guidance without enough context to label sentiment confidently.",
+      "evidence_fragment_ids": [
+        "F001089",
+        "F003545",
+        "F005874",
+        "F006295",
+        "F003643",
+        "F003924",
+        "F003015",
+        "F006287"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are extremely brief or consist only of the word 'Cause:', which limits reliable sentiment interpretation.",
+    "This topic mixes different subjects including wiper noise, alignment, bonnet hinge fitment, service diagnosis timing, and customer communication, so the cluster is not fully coherent.",
+    "Examples are insufficient to determine whether the reported causes refer to the same underlying issue."
+  ]
+}

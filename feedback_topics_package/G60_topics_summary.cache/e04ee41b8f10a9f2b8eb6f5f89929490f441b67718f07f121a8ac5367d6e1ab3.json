@@ -1,0 +1,36 @@
+{
+  "title": "Brief mentions of cost and MSA",
+  "summary": "The topic consists only of fragmentary mentions of cost and MSA-related context, so the underlying customer sentiment is unclear.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews contain incomplete phrases mentioning cost, a generic aside, and turning off MSA, which do not provide enough context to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F007867",
+        "F006180",
+        "F001790"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are very short or incomplete, which prevents reliable sentiment interpretation.",
+    "The cluster mixes limited references to cost and MSA without enough context to determine whether they reflect the same issue.",
+    "There are no classifiable positive, negative, mixed, or neutral examples in the supplied sample."
+  ]
+}

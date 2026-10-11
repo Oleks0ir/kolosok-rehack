@@ -1,0 +1,679 @@
+{
+  "topic_id": "T0030",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 50,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "ES": 0.02,
+      "JP": 0.02,
+      "US": 0.96
+    },
+    "engine_type": {
+      "BEVE": 0.24,
+      "ICE": 0.74,
+      "PHEV": 0.02
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.04,
+        "summary": "Positive reviews mainly note desired climate-related comfort features such as using cool air with other seat functions or wanting air-conditioned seats, with limited evidence of satisfaction with core A/C performance.",
+        "evidence_fragment_ids": [
+          "F008817",
+          "F008230"
+        ]
+      },
+      "negative": {
+        "count": 14,
+        "share": 0.28,
+        "summary": "Negative reviews describe poor overall air conditioning performance, weak airflow, trouble reaching or maintaining the desired temperature, and poor vent design.",
+        "evidence_fragment_ids": [
+          "F005967",
+          "F000757",
+          "F003804"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 34,
+        "share": 0.68,
+        "summary": "Undetermined reviews mention weak cooling, low airflow, slower cabin cooling, rear vents performing worse than front, intermittent shutoff, off-ignition operation limits, and requests for more physical climate controls, but the sample does not clearly separate complaints from feature observations in many cases.",
+        "evidence_fragment_ids": [
+          "F001196",
+          "F010662",
+          "F009713",
+          "F002657",
+          "F001268",
+          "F004231",
+          "F004098",
+          "F010557",
+          "F002419",
+          "F007695"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 50,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0125,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 14,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 34
+          },
+          "sentiment_shares": {
+            "positive": 0.04,
+            "negative": 0.28,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.68
+          },
+          "negative_rate": 0.28,
+          "negative_or_mixed_rate": 0.28,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.32
+        }
+      },
+      "country": {
+        "ES": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 48,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.012658,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 33
+          },
+          "sentiment_shares": {
+            "positive": 0.041667,
+            "negative": 0.270833,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.270833,
+          "negative_or_mixed_rate": 0.270833,
+          "share_of_all_topic_negative_reviews": 0.928571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.928571,
+          "known_sentiment_share": 0.3125
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.010629,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.214286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.214286,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 37,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.014408,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 11,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.027027,
+            "negative": 0.297297,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.675676
+          },
+          "negative_rate": 0.297297,
+          "negative_or_mixed_rate": 0.297297,
+          "share_of_all_topic_negative_reviews": 0.785714,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.785714,
+          "known_sentiment_share": 0.324324
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "ES": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.011163,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.214286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.214286,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 36,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.014784,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.027778,
+            "negative": 0.277778,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.694444
+          },
+          "negative_rate": 0.277778,
+          "negative_or_mixed_rate": 0.277778,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.305556
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G70-0060",
+      "G70-0148",
+      "G70-0195",
+      "G70-0268",
+      "G70-0445",
+      "G70-0470",
+      "G70-0578",
+      "G70-0667",
+      "G70-0683",
+      "G70-0718",
+      "G70-0887",
+      "G70-0965",
+      "G70-1013",
+      "G70-1198",
+      "G70-1262",
+      "G70-1392",
+      "G70-1404",
+      "G70-1449",
+      "G70-1474",
+      "G70-1492",
+      "G70-1521",
+      "G70-1551",
+      "G70-1660",
+      "G70-1697",
+      "G70-1782",
+      "G70-1808",
+      "G70-1840",
+      "G70-2144",
+      "G70-2282",
+      "G70-2357",
+      "G70-2769",
+      "G70-2819",
+      "G70-2964",
+      "G70-3139",
+      "G70-3168",
+      "G70-3176",
+      "G70-3217",
+      "G70-3231",
+      "G70-3352",
+      "G70-3418",
+      "G70-3488",
+      "G70-3569",
+      "G70-3676",
+      "G70-3702",
+      "G70-3783",
+      "G70-3796",
+      "G70-3826",
+      "G70-3867",
+      "G70-3898",
+      "G70-3949"
+    ],
+    "summary": "Feedback on the G70 air conditioning centers on weak cooling or airflow and hard-to-use vent or climate controls, while many sampled mentions are requests or observations with unclear overall sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Air conditioning cooling strength and vent usability",
+    "source_title": "air / conditioning / vents",
+    "keywords": [
+      {
+        "term": "air",
+        "weight": 0.239245
+      },
+      {
+        "term": "air conditioning",
+        "weight": 0.136899
+      },
+      {
+        "term": "conditioning",
+        "weight": 0.134892
+      },
+      {
+        "term": "vents",
+        "weight": 0.082702
+      },
+      {
+        "term": "stated air",
+        "weight": 0.063565
+      },
+      {
+        "term": "cool",
+        "weight": 0.057343
+      },
+      {
+        "term": "air conditioner",
+        "weight": 0.05034
+      },
+      {
+        "term": "conditioner",
+        "weight": 0.05034
+      },
+      {
+        "term": "air vents",
+        "weight": 0.041544
+      },
+      {
+        "term": "stated",
+        "weight": 0.040438
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.038568
+      },
+      {
+        "term": "customer",
+        "weight": 0.037814
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008817",
+        "review_id": "G70-3168",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they like to have the air conditioning set to a cool temperature while running the seat heating with the massage on, and they cannot manage this easily in this vehicle without a lot of fiddling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005967",
+        "review_id": "G70-2144",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the air conditioning is terrible",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001196",
+        "review_id": "G70-0445",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his Air Conditioning does not feel as strong as in his 2013 7 Series and that it is getting very hot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008230",
+        "review_id": "G70-2964",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he would have liked to have air conditioned seats in the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000757",
+        "review_id": "G70-0268",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the air conditioning vents are a very poor design",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010662",
+        "review_id": "G70-3826",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the air conditioning does not feel sufficiently strong for this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009713",
+        "review_id": "G70-3488",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the air conditioning layout is very unfriendly to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003804",
+        "review_id": "G70-1392",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Air conditioner doesn't achieve/maintain desired temperature: \"(Copied from CLMT97): The air conditioning fan on the driver side just does not feel strong enough",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002657",
+        "review_id": "G70-0965",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the air conditioning never gets cool enough to really cool her off from the Arizona heat, even when Max A/C is switched on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001268",
+        "review_id": "G70-0470",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the air conditioning does not push much air, even when set to the maximum",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004231",
+        "review_id": "G70-1551",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the rear air conditioning does not perform as strongly as the front air conditioning and that the weaker cooling in the rear is clearly noticeable",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003952",
+        "review_id": "G70-1449",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "The 760i also needs a stronger air conditioning system",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004098",
+        "review_id": "G70-1492",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the air conditioning is slow to cool the cabin compared to what it should do",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010557",
+        "review_id": "G70-3783",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "- the air conditioning will not run when the ignition is switched off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "ES",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002419",
+        "review_id": "G70-0887",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that both she and her husband experience the air conditioning shutting off intermittently",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007695",
+        "review_id": "G70-2769",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that while driving, he wants to operate the air conditioning using physical buttons",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 56,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, which limits confidence about overall sentiment patterns.",
+      "The positive sample is very small and does not clearly show strong approval of A/C performance itself.",
+      "Some examples appear to be feature requests, comparisons to other vehicles, or operational observations rather than clear evaluations of a defect or benefit.",
+      "The sampled fragments are stratified and not representative estimates of all G70 feedback on this topic."
+    ]
+  }
+}

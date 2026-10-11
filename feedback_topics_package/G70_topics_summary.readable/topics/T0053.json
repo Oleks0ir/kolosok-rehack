@@ -1,0 +1,704 @@
+{
+  "topic_id": "T0053",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 36,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.027778,
+      "US": 0.972222
+    },
+    "engine_type": {
+      "BEVE": 0.083333,
+      "ICE": 0.722222,
+      "PHEV": 0.194444
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.027778,
+        "summary": "The only positive example mentions a QR-code display and a skipped dealership app step rather than clear satisfaction with a vehicle issue outcome.",
+        "evidence_fragment_ids": [
+          "F002282"
+        ]
+      },
+      "negative": {
+        "count": 32,
+        "share": 0.888889,
+        "summary": "Negative reviews are almost entirely bare defect-code records, so they indicate reported problems without enough sampled text to identify consistent underlying components or symptoms.",
+        "evidence_fragment_ids": [
+          "F000318",
+          "F001063",
+          "F001489",
+          "F002963",
+          "F004440",
+          "F005205",
+          "F005531",
+          "F007005",
+          "F007334",
+          "F008269",
+          "F008747",
+          "F008900"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.027778,
+        "summary": "The mixed example is an administrative note about using a defect code and work time for a repeat repair, with too little detail to separate positive and negative aspects clearly.",
+        "evidence_fragment_ids": [
+          "F002797"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.055556,
+        "summary": "Undetermined reviews are procedural QR-code instructions about scanning the display for eSIM activation and do not express a clear opinion.",
+        "evidence_fragment_ids": [
+          "F009962",
+          "F001973"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 36,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.009,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 32,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.027778,
+            "negative": 0.888889,
+            "mixed": 0.027778,
+            "neutral": 0.0,
+            "undetermined": 0.055556
+          },
+          "negative_rate": 0.888889,
+          "negative_or_mixed_rate": 0.916667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.944444
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.03125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.030303,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 35,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00923,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 31,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.028571,
+            "negative": 0.885714,
+            "mixed": 0.028571,
+            "neutral": 0.0,
+            "undetermined": 0.057143
+          },
+          "negative_rate": 0.885714,
+          "negative_or_mixed_rate": 0.914286,
+          "share_of_all_topic_negative_reviews": 0.96875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.969697,
+          "known_sentiment_share": 0.942857
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.002657,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.060606,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 26,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.010125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 23,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.884615,
+            "mixed": 0.038462,
+            "neutral": 0.0,
+            "undetermined": 0.076923
+          },
+          "negative_rate": 0.884615,
+          "negative_or_mixed_rate": 0.923077,
+          "share_of_all_topic_negative_reviews": 0.71875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.727273,
+          "known_sentiment_share": 0.923077
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.023102,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 7,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.21875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.212121,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.03125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.030303,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.060606,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.010267,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 22,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.88,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.08
+          },
+          "negative_rate": 0.88,
+          "negative_or_mixed_rate": 0.92,
+          "share_of_all_topic_negative_reviews": 0.6875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.69697,
+          "known_sentiment_share": 0.92
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.024823,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 7,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.21875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.212121,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0143",
+      "G70-0398",
+      "G70-0553",
+      "G70-0729",
+      "G70-0840",
+      "G70-0971",
+      "G70-1013",
+      "G70-1074",
+      "G70-1270",
+      "G70-1490",
+      "G70-1549",
+      "G70-1620",
+      "G70-1640",
+      "G70-1673",
+      "G70-1707",
+      "G70-1730",
+      "G70-1787",
+      "G70-1892",
+      "G70-1987",
+      "G70-2096",
+      "G70-2378",
+      "G70-2409",
+      "G70-2514",
+      "G70-2629",
+      "G70-2694",
+      "G70-2980",
+      "G70-3146",
+      "G70-3203",
+      "G70-3329",
+      "G70-3353",
+      "G70-3442",
+      "G70-3487",
+      "G70-3575",
+      "G70-3725",
+      "G70-3836",
+      "G70-3938"
+    ],
+    "summary": "This topic is dominated by terse defect-code entries, with a smaller set of QR-code activation instructions that provide little issue detail.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 24,
+        "denominator": 26,
+        "rate": 0.923077,
+        "comparison_numerator": 9,
+        "comparison_denominator": 10,
+        "comparison_rate": 0.9,
+        "gap_percentage_points": 2.308,
+        "statement": "In engine_type=ICE, 24 of 26 reviews (92.3%) are negative or mixed. The rest of this breakdown: 9 of 10 (90.0%).",
+        "interpretation": "ICE examples in this topic are associated with negative or mixed defect-code reporting, though the sampled text is mostly administrative and offers limited diagnostic detail.",
+        "evidence_fragment_ids": [
+          "F000318",
+          "F001063",
+          "F001489",
+          "F002963",
+          "F004440",
+          "F005531",
+          "F007005",
+          "F007334",
+          "F008747",
+          "F008900"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      },
+      {
+        "dimension": "country",
+        "value": "US",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 32,
+        "denominator": 35,
+        "rate": 0.914286,
+        "comparison_numerator": 1,
+        "comparison_denominator": 1,
+        "comparison_rate": 1.0,
+        "gap_percentage_points": -8.571,
+        "statement": "In country=US, 32 of 35 reviews (91.4%) are negative or mixed. The rest of this breakdown: 1 of 1 (100.0%).",
+        "interpretation": "US examples in this topic are also mostly defect-code entries, while the small comparison sample limits any broader comparison across countries.",
+        "evidence_fragment_ids": [
+          "F000318",
+          "F002797",
+          "F009962",
+          "F001063",
+          "F001489",
+          "F002963",
+          "F004440",
+          "F005205",
+          "F005531",
+          "F007005",
+          "F007334",
+          "F008269",
+          "F008747",
+          "F008900"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S002"
+      }
+    ],
+    "title": "Defect code entries and QR-code activation notes",
+    "source_title": "defect / code / description",
+    "keywords": [
+      {
+        "term": "defect",
+        "weight": 0.330087
+      },
+      {
+        "term": "code",
+        "weight": 0.288518
+      },
+      {
+        "term": "defect code",
+        "weight": 0.260564
+      },
+      {
+        "term": "defect description",
+        "weight": 0.09721
+      },
+      {
+        "term": "description",
+        "weight": 0.094532
+      },
+      {
+        "term": "qr",
+        "weight": 0.054229
+      },
+      {
+        "term": "qr code",
+        "weight": 0.054229
+      },
+      {
+        "term": "code defect",
+        "weight": 0.029313
+      },
+      {
+        "term": "flow",
+        "weight": 0.026954
+      },
+      {
+        "term": "connection contact",
+        "weight": 0.02626
+      },
+      {
+        "term": "incorrect connection",
+        "weight": 0.02626
+      },
+      {
+        "term": "incorrect",
+        "weight": 0.024607
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002282",
+        "review_id": "G70-0840",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "When the QR code appeared on the Control Display, customer stated the dealership Genius had previously skipped this step and done something different in the myBMW app,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000318",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 3541001500",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002797",
+        "review_id": "G70-1013",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "USED BEST DEFECT CODE WORK TIME USED FOR 2ND R/I",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009962",
+        "review_id": "G70-3575",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated a QR code will appear on the display, and scanning that QR code will start activation of the eSIM",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001063",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 1178031500",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001489",
+        "review_id": "G70-0553",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 1032003500",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002963",
+        "review_id": "G70-1074",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6130431500",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001973",
+        "review_id": "G70-0729",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Scan the QR code shown in the control display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004440",
+        "review_id": "G70-1620",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6512580200",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005205",
+        "review_id": "G70-1892",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6550161200",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005531",
+        "review_id": "G70-1987",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6111007900",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007005",
+        "review_id": "G70-2514",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 1178031400",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007334",
+        "review_id": "G70-2629",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 1031003500",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008269",
+        "review_id": "G70-2980",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 3450017900",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008747",
+        "review_id": "G70-3146",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 6161075600",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008900",
+        "review_id": "G70-3203",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Defect Code: 5171223700",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 59,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are only defect-code numbers, so the underlying failure modes cannot be reliably summarized from the provided evidence.",
+      "The topic mixes administrative defect-code logging with QR-code/eSIM activation instructions, which are related by the word 'code' but not necessarily by the same customer issue.",
+      "Examples are insufficient to identify concrete component patterns, repair outcomes, or root causes beyond what is explicitly shown."
+    ]
+  }
+}

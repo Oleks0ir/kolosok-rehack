@@ -1,0 +1,501 @@
+{
+  "topic_id": "T0366",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 8,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.125,
+      "KR": 0.125,
+      "US": 0.75
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.75
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.25,
+        "summary": "Positive reviews praise good response time and a strong, quick throttle or power response while driving.",
+        "evidence_fragment_ids": [
+          "F006197",
+          "F006961"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.125,
+        "summary": "Negative reviews describe response as extremely poor without enough examples to show whether this refers specifically to throttle behavior or a broader response issue.",
+        "evidence_fragment_ids": [
+          "F009939"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.125,
+        "summary": "Mixed reviews ask for a response to previously mentioned issues, indicating unresolved concerns but not clearly evaluating vehicle throttle performance.",
+        "evidence_fragment_ids": [
+          "F000535"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.5,
+        "summary": "Undetermined fragments mention softer throttle feel, slow software response, quick engine response, or throttle use without enough context to assign a clear opinion.",
+        "evidence_fragment_ids": [
+          "F009895",
+          "F003646",
+          "F009286",
+          "F008682"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 8,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.002,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.125,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 6,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001582,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.166667,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.5,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.033333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 29,
+          "topic_prevalence_in_source_segment": 0.034483,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 1.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002053,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.4,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.4
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0201",
+      "G70-1314",
+      "G70-2231",
+      "G70-2497",
+      "G70-3138",
+      "G70-3341",
+      "G70-3558",
+      "G70-3569"
+    ],
+    "summary": "Reviews discuss throttle and response feel with clear praise for quick power delivery, one clear complaint about very poor response, and several fragments that are too vague or refer to software or service response instead of driving behavior.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Throttle and response feel",
+    "source_title": "response / throttle / quick",
+    "keywords": [
+      {
+        "term": "response",
+        "weight": 0.494257
+      },
+      {
+        "term": "throttle",
+        "weight": 0.196071
+      },
+      {
+        "term": "quick response",
+        "weight": 0.113355
+      },
+      {
+        "term": "quick",
+        "weight": 0.086211
+      },
+      {
+        "term": "issue mentioned",
+        "weight": 0.082266
+      },
+      {
+        "term": "slow",
+        "weight": 0.072915
+      },
+      {
+        "term": "impressively",
+        "weight": 0.066062
+      },
+      {
+        "term": "experienced",
+        "weight": 0.065928
+      },
+      {
+        "term": "softer",
+        "weight": 0.064508
+      },
+      {
+        "term": "software",
+        "weight": 0.061673
+      },
+      {
+        "term": "sure",
+        "weight": 0.059837
+      },
+      {
+        "term": "ended",
+        "weight": 0.05724
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006197",
+        "review_id": "G70-2231",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the response time is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009939",
+        "review_id": "G70-3569",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i had a bad feeling already, and sure enough the response ended up being the worst i have ever experienced",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000535",
+        "review_id": "G70-0201",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "i would really like to get a response to the issues i've mentioned",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009895",
+        "review_id": "G70-3558",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the throttle response in this car feels softer than in his prior 7 series,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006961",
+        "review_id": "G70-2497",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "I constantly sense the power and quick response while driving, like a resting giant about to be unleashed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003646",
+        "review_id": "G70-1314",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the software response time is really slow",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009286",
+        "review_id": "G70-3341",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": \"The engine has an impressively quick response",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008682",
+        "review_id": "G70-3138",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when you really get on the throttle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 8,
+      "total_topic_fragments": 8,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several fragments use the word response for different subjects, including throttle feel, software speed, and replies to issues, so the topic is not fully coherent.",
+      "Many examples are brief or incomplete, which limits confidence in distinguishing vehicle performance feedback from other kinds of response comments.",
+      "The sample is small and stratified, so it should not be treated as representative of all G70 reviews."
+    ]
+  }
+}

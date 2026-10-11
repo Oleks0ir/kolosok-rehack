@@ -1,0 +1,556 @@
+{
+  "topic_id": "T0274",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "FR": 0.1,
+      "US": 0.9
+    },
+    "engine_type": {
+      "BEVE": 0.2,
+      "ICE": 0.6,
+      "PHEV": 0.2
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "The negative review describes a headrest that cannot tilt forward, making it uncomfortable to use.",
+        "evidence_fragment_ids": [
+          "F002259"
+        ]
+      },
+      "mixed": {
+        "count": 3,
+        "share": 0.3,
+        "summary": "Mixed reviews mention minor or serious concerns that the headrest is fixed or offers too little movement to reach a comfortable position.",
+        "evidence_fragment_ids": [
+          "F010171",
+          "F004107",
+          "F006188"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.6,
+        "summary": "Undetermined fragments mention headrest movement, height, support, or operation, but the excerpts are too incomplete or ambiguous to confirm the reviewer’s overall sentiment.",
+        "evidence_fragment_ids": [
+          "F008722",
+          "F002004",
+          "F009643",
+          "F009206",
+          "F010047",
+          "F007541",
+          "F002006",
+          "F002007"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.1,
+            "mixed": 0.3,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 9,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.002373,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.111111,
+            "mixed": 0.333333,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.444444,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.444444
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.5,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.5,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0744",
+      "G70-0839",
+      "G70-1497",
+      "G70-2229",
+      "G70-2702",
+      "G70-3141",
+      "G70-3317",
+      "G70-3466",
+      "G70-3602",
+      "G70-3659"
+    ],
+    "summary": "Reviews in this topic focus on limited headrest fore-aft or height adjustment and the resulting comfort or support concerns, while many fragments are too brief or ambiguous to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Headrest adjustability and positioning",
+    "source_title": "headrest / forward / backward",
+    "keywords": [
+      {
+        "term": "headrest",
+        "weight": 0.426713
+      },
+      {
+        "term": "forward",
+        "weight": 0.110187
+      },
+      {
+        "term": "forward backward",
+        "weight": 0.088176
+      },
+      {
+        "term": "backward",
+        "weight": 0.083961
+      },
+      {
+        "term": "seat headrest",
+        "weight": 0.081918
+      },
+      {
+        "term": "adjustment",
+        "weight": 0.081809
+      },
+      {
+        "term": "comfort position",
+        "weight": 0.074742
+      },
+      {
+        "term": "headrest wo",
+        "weight": 0.074742
+      },
+      {
+        "term": "problem headrest",
+        "weight": 0.074742
+      },
+      {
+        "term": "wo adjustment",
+        "weight": 0.074742
+      },
+      {
+        "term": "adjustment comfort",
+        "weight": 0.071332
+      },
+      {
+        "term": "wo",
+        "weight": 0.067037
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002259",
+        "review_id": "G70-0839",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer mentioned that the headrest cannot be tilted forward, which makes it uncomfortable to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010171",
+        "review_id": "G70-3659",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a very minor problem with Headrest won't adjust to a comfortable position: \"Very little adjustment for the headrest, especially moving it back or forward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008722",
+        "review_id": "G70-3141",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the headrest",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004107",
+        "review_id": "G70-1497",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a serious problem with Headrest won't adjust to a comfortable position: \"Headrest is fixed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002004",
+        "review_id": "G70-0744",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the headrest and he is unsure if the front headrests adjust forward and backward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006188",
+        "review_id": "G70-2229",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a very minor problem with Headrest won't adjust to a comfortable position: \"there are times I need it lower,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009643",
+        "review_id": "G70-3466",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the headrest cannot be moved forward or backward, so she has to recline the entire seat to get proper head support",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009206",
+        "review_id": "G70-3317",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the seat and headrest feel a little too tall for me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010047",
+        "review_id": "G70-3602",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned the driver seat headrest does not go down far enough, as the top of her head ends up hitting the lower edge of it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007541",
+        "review_id": "G70-2702",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the headrest no longer properly supports anything)",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "FR",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002006",
+        "review_id": "G70-0744",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there should be a button on the side of the headrest",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002007",
+        "review_id": "G70-0744",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "press that button and then push or pull the headrest to move it forward or backward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 12,
+      "total_topic_fragments": 12,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined or very short, which limits confidence in a more specific sentiment summary.",
+      "Several excerpts are truncated or lack surrounding context, so they may describe questions, instructions, or complaints that cannot be reliably separated from one another.",
+      "The topic is narrowly about headrest adjustment and support, but the available examples do not provide enough detail to assess broader seat comfort experiences."
+    ]
+  }
+}

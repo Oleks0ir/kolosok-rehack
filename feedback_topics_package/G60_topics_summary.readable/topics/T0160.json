@@ -1,0 +1,619 @@
+{
+  "topic_id": "T0160",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "FI": 0.058824,
+      "US": 0.941176
+    },
+    "engine_type": {
+      "BEVE": 0.529412,
+      "ICE": 0.352941,
+      "PHEV": 0.117647
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.294118,
+        "summary": "Positive reviews mention favorable driving impressions such as power, pickup, fit, and overall upgrade satisfaction, plus diagnostic tests that found no faults.",
+        "evidence_fragment_ids": [
+          "F008287",
+          "F005273",
+          "F000154",
+          "F009895",
+          "F001319"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.117647,
+        "summary": "Negative reviews describe diagnostic work around audio or fault-memory checks where test procedures were performed but the issue remained unresolved or tied to a faulty component.",
+        "evidence_fragment_ids": [
+          "F005311",
+          "F008149"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.588235,
+        "summary": "Undetermined reviews mostly state that a test drive or vehicle test occurred, or note comparative impressions without a clear overall sentiment about the topic itself.",
+        "evidence_fragment_ids": [
+          "F002847",
+          "F001495",
+          "F003925",
+          "F011072",
+          "F001259",
+          "F007234",
+          "F002591",
+          "F006476",
+          "F000436"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 17,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00425,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.294118,
+            "negative": 0.117647,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.588235
+          },
+          "negative_rate": 0.117647,
+          "negative_or_mixed_rate": 0.117647,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.411765
+        }
+      },
+      "country": {
+        "FI": {
+          "review_count": 1,
+          "source_segment_review_count": 9,
+          "topic_prevalence_in_source_segment": 0.111111,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004432,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.3125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.006603,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.444444
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002656,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "FI": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 5,
+          "topic_prevalence_in_source_segment": 0.2,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007081,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.444444
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002975,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0055",
+      "G60-0164",
+      "G60-0446",
+      "G60-0465",
+      "G60-0529",
+      "G60-0916",
+      "G60-1010",
+      "G60-1411",
+      "G60-1863",
+      "G60-1879",
+      "G60-2297",
+      "G60-2316",
+      "G60-2577",
+      "G60-2923",
+      "G60-2975",
+      "G60-3550",
+      "G60-3992"
+    ],
+    "summary": "This topic combines customer impressions from test drives with service diagnostic test procedures, so the examples do not form a single consistent issue area.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Test drives and diagnostic vehicle tests",
+    "source_title": "test / drove / performed",
+    "keywords": [
+      {
+        "term": "test",
+        "weight": 0.330558
+      },
+      {
+        "term": "drove",
+        "weight": 0.164332
+      },
+      {
+        "term": "test drove",
+        "weight": 0.113953
+      },
+      {
+        "term": "test drive",
+        "weight": 0.103643
+      },
+      {
+        "term": "performed test",
+        "weight": 0.095358
+      },
+      {
+        "term": "performed",
+        "weight": 0.086672
+      },
+      {
+        "term": "correction",
+        "weight": 0.072195
+      },
+      {
+        "term": "fault",
+        "weight": 0.057303
+      },
+      {
+        "term": "cause",
+        "weight": 0.054027
+      },
+      {
+        "term": "returning",
+        "weight": 0.050949
+      },
+      {
+        "term": "drive",
+        "weight": 0.049395
+      },
+      {
+        "term": "charger",
+        "weight": 0.047549
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008287",
+        "review_id": "G60-2975",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "PERFORMED VEHICLE TEST AFTER ROAD TEST AND FOUND NO FAULTS",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005311",
+        "review_id": "G60-1879",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "THERE'S NO BASS SOUND FROM THE RADIO, CHECK IT, Cause: RAM faulty, Correction: hooked up charger and checked faults, performed test plans and results were inconclusive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002847",
+        "review_id": "G60-1010",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "We test drove this same vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005273",
+        "review_id": "G60-1863",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted he recently test drove an M5 and really liked its power,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008149",
+        "review_id": "G60-2923",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Cause: CONNECTED BATTERY CHARGER, PERFORMED VEHICLE TEST, READ FAULT MEMORY",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001495",
+        "review_id": "G60-0529",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he had test driven a 3 Series and found it nice",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000154",
+        "review_id": "G60-0055",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that he liked how the pickup in this car feels, mentioning it is much closer to the M550 he previously had than to the 550e he test drove",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003925",
+        "review_id": "G60-1411",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction: TEST DROVE VEHICLE AND FOUND THE STEERING WHEEL LARGELY OFF TO THE LEFT",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011072",
+        "review_id": "G60-3992",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction: Performed a vehicle test",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001259",
+        "review_id": "G60-0446",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the salesperson even said he could drive a car out for a test drive all the way from oulu to joensuu for me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "FI",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007234",
+        "review_id": "G60-2577",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he finds this vehicle a much better physical fit than the BMW i4 he had test driven",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002591",
+        "review_id": "G60-0916",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he has not been on the highway since returning to test it further",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006476",
+        "review_id": "G60-2316",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the BMW's handling really stood out compared with roughly 25 other different cars he had test driven beforehand",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000436",
+        "review_id": "G60-0164",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked if she should try walking away and returning with only the phone, and Writer advised her to test that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009895",
+        "review_id": "G60-3550",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Cause: HOOKED UP CHARGER AND RAN SHORT TEST NO FAULTS FOR CHARGING TRAY",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001319",
+        "review_id": "G60-0465",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "my car has been fantastic overall, a really amazing upgrade from what i drove before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 19,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes customer test-drive impressions with workshop diagnostic phrases such as performing vehicle tests and reading faults.",
+      "Many examples are procedural or comparative statements without enough context to determine clear sentiment.",
+      "Samples are stratified and not representative, so they should not be used to infer how common any issue or experience is."
+    ]
+  }
+}

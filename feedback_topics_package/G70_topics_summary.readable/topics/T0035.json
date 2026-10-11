@@ -1,0 +1,650 @@
+{
+  "topic_id": "T0035",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 48,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "AU": 0.020833,
+      "US": 0.979167
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.666667,
+      "PHEV": 0.083333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.145833,
+        "summary": "Positive reviews mention satisfaction with returning to the brand and a favorable overall ownership impression despite a headrest comfort complaint appearing in the same cluster.",
+        "evidence_fragment_ids": [
+          "F001161",
+          "F006886"
+        ]
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.083333,
+        "summary": "Negative reviews describe repeated dealer returns for alerts and a back-up assistant that does not recognize low garage curbs in a parking setting.",
+        "evidence_fragment_ids": [
+          "F001754",
+          "F010679"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 37,
+        "share": 0.770833,
+        "summary": "Undetermined fragments are mostly incomplete or context-light mentions of getting the car back, returning to the dealer, menu settings reverting, and back-up assistant references without enough detail to judge sentiment.",
+        "evidence_fragment_ids": [
+          "F000449",
+          "F005149",
+          "F002838",
+          "F005422",
+          "F009316",
+          "F002335",
+          "F005520",
+          "F008394",
+          "F004760",
+          "F008960",
+          "F006070",
+          "F001044"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 48,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.012,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 37
+          },
+          "sentiment_shares": {
+            "positive": 0.145833,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.770833
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.229167
+        }
+      },
+      "country": {
+        "AU": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 47,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.012395,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 36
+          },
+          "sentiment_shares": {
+            "positive": 0.148936,
+            "negative": 0.085106,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.765957
+          },
+          "negative_rate": 0.085106,
+          "negative_or_mixed_rate": 0.085106,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.234043
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.010629,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 32,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.012461,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.09375,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.78125
+          },
+          "negative_rate": 0.09375,
+          "negative_or_mixed_rate": 0.09375,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.21875
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.013201,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "AU": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.011163,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 31,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.012731,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.129032,
+            "negative": 0.096774,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.774194
+          },
+          "negative_rate": 0.096774,
+          "negative_or_mixed_rate": 0.096774,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.225806
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.014184,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0056",
+      "G70-0181",
+      "G70-0186",
+      "G70-0201",
+      "G70-0213",
+      "G70-0214",
+      "G70-0398",
+      "G70-0432",
+      "G70-0521",
+      "G70-0531",
+      "G70-0646",
+      "G70-0705",
+      "G70-0840",
+      "G70-0852",
+      "G70-0898",
+      "G70-1027",
+      "G70-1321",
+      "G70-1734",
+      "G70-1795",
+      "G70-1825",
+      "G70-1879",
+      "G70-1964",
+      "G70-1987",
+      "G70-2179",
+      "G70-2219",
+      "G70-2301",
+      "G70-2453",
+      "G70-2462",
+      "G70-2466",
+      "G70-2469",
+      "G70-2581",
+      "G70-2627",
+      "G70-2683",
+      "G70-2692",
+      "G70-2890",
+      "G70-3019",
+      "G70-3063",
+      "G70-3119",
+      "G70-3221",
+      "G70-3239",
+      "G70-3244",
+      "G70-3247",
+      "G70-3249",
+      "G70-3353",
+      "G70-3421",
+      "G70-3502",
+      "G70-3654",
+      "G70-3831"
+    ],
+    "summary": "This topic is loosely clustered around back-up assistant use, dealer return phrasing, and a few back-seat or headrest comments rather than one single consistent issue.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Back-up assistant and back-seat mentions",
+    "source_title": "back / assistant / customer",
+    "keywords": [
+      {
+        "term": "back",
+        "weight": 0.325687
+      },
+      {
+        "term": "back assistant",
+        "weight": 0.061986
+      },
+      {
+        "term": "back dealer",
+        "weight": 0.057467
+      },
+      {
+        "term": "stated back",
+        "weight": 0.05317
+      },
+      {
+        "term": "assistant",
+        "weight": 0.051289
+      },
+      {
+        "term": "customer",
+        "weight": 0.049525
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.048961
+      },
+      {
+        "term": "stated",
+        "weight": 0.048153
+      },
+      {
+        "term": "back seat",
+        "weight": 0.041438
+      },
+      {
+        "term": "dealer",
+        "weight": 0.039051
+      },
+      {
+        "term": "seat",
+        "weight": 0.035378
+      },
+      {
+        "term": "back forth",
+        "weight": 0.029874
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001161",
+        "review_id": "G70-0432",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "and i am really happy to be back driving a bmw again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001754",
+        "review_id": "G70-0646",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "brand-new car already going back to the dealer for yet another alert problem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000449",
+        "review_id": "G70-0186",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "then comes back again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006886",
+        "review_id": "G70-2466",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the headrest sits farther back than he likes, and on long drives this makes him more tired because he cannot simply rest his head back comfortably",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010679",
+        "review_id": "G70-3831",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he resides in a parking garage where the curbs are too low for the back-up assistant to recognize",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005149",
+        "review_id": "G70-1879",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "back to the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002838",
+        "review_id": "G70-1027",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that the television in the back of the vehicle is nice",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005422",
+        "review_id": "G70-1964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that about 4 days after buying the vehicle he was using the Back Up Assistant to back out of his garage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009316",
+        "review_id": "G70-3353",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that since getting it back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002335",
+        "review_id": "G70-0852",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the attendant had to push it back in while drying the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005520",
+        "review_id": "G70-1987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they took the vehicle back to the dealership a second time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008394",
+        "review_id": "G70-3019",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer had him go back into the menu and saw the setting was back on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004760",
+        "review_id": "G70-1734",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he will reach out again for instructions once he has his car back from the dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008960",
+        "review_id": "G70-3221",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the setting keeps reverting back to off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006070",
+        "review_id": "G70-2179",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the back-up assistant is simple for them to operate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001044",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has no idea when he is going to get the vehicle back from the dealer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 50,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes unrelated subjects, including back-up assistant behavior, dealer return phrasing, and interior back-seat or headrest mentions.",
+      "Most sampled fragments are undetermined or incomplete, so the underlying customer meaning is often unclear.",
+      "Examples are insufficient to define a single coherent customer issue for this topic."
+    ]
+  }
+}

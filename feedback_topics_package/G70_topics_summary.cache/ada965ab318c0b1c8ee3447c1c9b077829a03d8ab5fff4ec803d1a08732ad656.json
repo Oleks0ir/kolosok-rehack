@@ -1,0 +1,44 @@
+{
+  "title": "Parts availability and parts department contact",
+  "summary": "This topic mainly contains parts-availability and parts-department references, but most examples do not provide enough sentiment evidence and one example appears unrelated to vehicle parts.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive review says the dealer's parts department was the best source for information on available run-flat options.",
+      "evidence_fragment_ids": [
+        "F006229"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention waiting for parts, lack of availability, contact with the parts department, and a few unclear or unrelated difficulty references without enough context to label sentiment confidently.",
+      "evidence_fragment_ids": [
+        "F005433",
+        "F003000",
+        "F006395",
+        "F010204",
+        "F002135",
+        "F007114",
+        "F000279",
+        "F005525",
+        "F008137"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are labeled undetermined, so the available evidence for clear sentiment is limited.",
+    "The topic cluster mixes parts availability and department-contact comments with at least one likely unrelated software-learning fragment and one vague difficulty fragment.",
+    "Several undetermined fragments contain wording that sounds negative, but the provided labels do not support reclassifying them."
+  ]
+}

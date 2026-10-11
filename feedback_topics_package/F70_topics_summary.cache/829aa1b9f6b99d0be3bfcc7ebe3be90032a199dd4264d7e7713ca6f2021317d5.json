@@ -1,0 +1,51 @@
+{
+  "title": "Vehicle pricing and value",
+  "summary": "Feedback on pricing is split between value-for-money approval and complaints that the car feels expensive, while many excerpts mention high price without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say the car feels worth the money or enjoyable despite a high price.",
+      "evidence_fragment_ids": [
+        "F004175",
+        "F000864",
+        "F005173",
+        "F006386"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe the car as expensive, though one sampled excerpt appears mislabeled and examples are limited.",
+      "evidence_fragment_ids": [
+        "F002549",
+        "F007155"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews often state that the price is high or mention price alone without enough context to tell whether this is praise, criticism, or a tradeoff.",
+      "evidence_fragment_ids": [
+        "F002153",
+        "F003309",
+        "F006893",
+        "F000351",
+        "F000460",
+        "F007274",
+        "F003470",
+        "F004471",
+        "F004328",
+        "F001734"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are very short, which leaves sentiment unclear in many cases.",
+    "One negative example appears textually positive, suggesting possible label noise in the sample.",
+    "The examples focus narrowly on price level and provide limited detail on what features or competitors reviewers used as value benchmarks."
+  ]
+}

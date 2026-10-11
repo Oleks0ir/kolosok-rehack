@@ -1,0 +1,520 @@
+{
+  "topic_id": "T0265",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 11,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.181818,
+      "ICE": 0.636364,
+      "PHEV": 0.181818
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.181818,
+        "summary": "Positive reviews praise the ability to take a foot off the brake when stopped and resume driving with a light accelerator input.",
+        "evidence_fragment_ids": [
+          "F005491",
+          "F009930"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.090909,
+        "summary": "Negative feedback describes the pedal angle and layout as uncomfortable and difficult to operate, including foot and ankle strain and possible contact with both pedals.",
+        "evidence_fragment_ids": [
+          "F008253",
+          "F008254",
+          "F008255"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 8,
+        "share": 0.727273,
+        "summary": "Undetermined mentions mostly describe how brake-hold or foot-motion features work or give usage instructions without a clear positive or negative judgment, with one example noting possible contact with both pedals but not enough sentiment context.",
+        "evidence_fragment_ids": [
+          "F001796",
+          "F004113",
+          "F008639",
+          "F003218",
+          "F010887",
+          "F002291",
+          "F003778",
+          "F006158"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 11,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00275,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.727273
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.272727
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 11,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003047,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.727273
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.272727
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0643",
+      "G60-0815",
+      "G60-1152",
+      "G60-1350",
+      "G60-1475",
+      "G60-1950",
+      "G60-2208",
+      "G60-2965",
+      "G60-3094",
+      "G60-3569",
+      "G60-3910"
+    ],
+    "summary": "Feedback in this topic combines praise for brake-hold convenience with a specific complaint about pedal positioning and operation, while many other mentions are descriptive or instructional rather than clearly evaluative.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Pedal layout and brake hold convenience",
+    "source_title": "foot / pedals / brake",
+    "keywords": [
+      {
+        "term": "foot",
+        "weight": 0.2967
+      },
+      {
+        "term": "foot brake",
+        "weight": 0.105552
+      },
+      {
+        "term": "pedals",
+        "weight": 0.094811
+      },
+      {
+        "term": "brake",
+        "weight": 0.079386
+      },
+      {
+        "term": "motion",
+        "weight": 0.070025
+      },
+      {
+        "term": "foot pedals",
+        "weight": 0.066179
+      },
+      {
+        "term": "pushed",
+        "weight": 0.065511
+      },
+      {
+        "term": "gas pedal",
+        "weight": 0.063292
+      },
+      {
+        "term": "keeping foot",
+        "weight": 0.05924
+      },
+      {
+        "term": "lets foot",
+        "weight": 0.059067
+      },
+      {
+        "term": "writer advised",
+        "weight": 0.049697
+      },
+      {
+        "term": "pedal",
+        "weight": 0.048677
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005491",
+        "review_id": "G60-1950",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that in traffic they like not having to keep their foot on the brake, and that they only need to tap the accelerator to get moving again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008254",
+        "review_id": "G60-2965",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the angle of the foot pedals feels set too high",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001796",
+        "review_id": "G60-0643",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer clarified that this feature is very useful in stop-and-go traffic, drive-throughs and similar situations where the driver wants to take their foot off the brake while the vehicle remains stopped until the accelerator is used",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009930",
+        "review_id": "G60-3569",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that she loves the feature that lets her take her foot off the brake once the car has stopped",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004113",
+        "review_id": "G60-1475",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the left leg should be firmly on the brake while the right foot is pushed all the way down on the gas pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008639",
+        "review_id": "G60-3094",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer was keeping the foot under the sensor instead of making one quick swipe or moving the foot under and then out right away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003218",
+        "review_id": "G60-1152",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she appreciates the auto hold function because it lets her take her foot off the brake",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010887",
+        "review_id": "G60-3910",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "I have not pushed the button or done the foot motion under the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002291",
+        "review_id": "G60-0815",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised using a simple poking motion with their foot under the car for better results",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003778",
+        "review_id": "G60-1350",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that with the current layout their foot can end up contacting both pedals at the same time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006158",
+        "review_id": "G60-2208",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer also advised that keeping the foot under the bumper will prevent it from opening",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008253",
+        "review_id": "G60-2965",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Foot pedals - Difficult to operate: \"I am a woman with fairly long legs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008255",
+        "review_id": "G60-2965",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "It makes my foot and ankle stay flexed the whole time I am on the gas pedal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 13,
+      "total_topic_fragments": 13,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so clear evaluative evidence is limited.",
+      "This topic mixes pedal/brake comments with foot-motion instructions for another feature, reducing topic coherence.",
+      "Some negative-sounding details appear only in undetermined fragments, so sentiment context is incomplete for those examples."
+    ]
+  }
+}

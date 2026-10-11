@@ -1,0 +1,89 @@
+{
+  "title": "Defect code entries and QR-code activation notes",
+  "summary": "This topic is dominated by terse defect-code entries, with a smaller set of QR-code activation instructions that provide little issue detail.",
+  "sentiments": {
+    "positive": {
+      "summary": "The only positive example mentions a QR-code display and a skipped dealership app step rather than clear satisfaction with a vehicle issue outcome.",
+      "evidence_fragment_ids": [
+        "F002282"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews are almost entirely bare defect-code records, so they indicate reported problems without enough sampled text to identify consistent underlying components or symptoms.",
+      "evidence_fragment_ids": [
+        "F000318",
+        "F001063",
+        "F001489",
+        "F002963",
+        "F004440",
+        "F005205",
+        "F005531",
+        "F007005",
+        "F007334",
+        "F008269",
+        "F008747",
+        "F008900"
+      ]
+    },
+    "mixed": {
+      "summary": "The mixed example is an administrative note about using a defect code and work time for a repeat repair, with too little detail to separate positive and negative aspects clearly.",
+      "evidence_fragment_ids": [
+        "F002797"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are procedural QR-code instructions about scanning the display for eSIM activation and do not express a clear opinion.",
+      "evidence_fragment_ids": [
+        "F009962",
+        "F001973"
+      ]
+    }
+  },
+  "signal_notes": [
+    {
+      "signal_id": "S001",
+      "interpretation": "ICE examples in this topic are associated with negative or mixed defect-code reporting, though the sampled text is mostly administrative and offers limited diagnostic detail.",
+      "evidence_fragment_ids": [
+        "F000318",
+        "F001063",
+        "F001489",
+        "F002963",
+        "F004440",
+        "F005531",
+        "F007005",
+        "F007334",
+        "F008747",
+        "F008900"
+      ]
+    },
+    {
+      "signal_id": "S002",
+      "interpretation": "US examples in this topic are also mostly defect-code entries, while the small comparison sample limits any broader comparison across countries.",
+      "evidence_fragment_ids": [
+        "F000318",
+        "F002797",
+        "F009962",
+        "F001063",
+        "F001489",
+        "F002963",
+        "F004440",
+        "F005205",
+        "F005531",
+        "F007005",
+        "F007334",
+        "F008269",
+        "F008747",
+        "F008900"
+      ]
+    }
+  ],
+  "limitations": [
+    "Many sampled fragments are only defect-code numbers, so the underlying failure modes cannot be reliably summarized from the provided evidence.",
+    "The topic mixes administrative defect-code logging with QR-code/eSIM activation instructions, which are related by the word 'code' but not necessarily by the same customer issue.",
+    "Examples are insufficient to identify concrete component patterns, repair outcomes, or root causes beyond what is explicitly shown."
+  ]
+}

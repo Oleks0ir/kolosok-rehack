@@ -1,0 +1,592 @@
+{
+  "topic_id": "T0029",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 37,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.027027,
+      "GB": 0.486486,
+      "JP": 0.486486
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 11,
+        "share": 0.297297,
+        "summary": "Positive reviews praise the mild hybrid for pleasant support, smoother driving, stronger acceleration, and an overall excellent setup.",
+        "evidence_fragment_ids": [
+          "F001141",
+          "F000111",
+          "F004653"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.054054,
+        "summary": "Negative reviews focus on awkward throttle calibration and poor coordination between the hybrid system and engine.",
+        "evidence_fragment_ids": [
+          "F005055",
+          "F001336"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No such reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No such reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 24,
+        "share": 0.648649,
+        "summary": "Undetermined fragments mention fuel economy gains, subtle operation, and general improvement from the mild hybrid system, but the sampled examples are insufficient to assign a clear overall sentiment to those mentions.",
+        "evidence_fragment_ids": [
+          "F005407",
+          "F000200",
+          "F001762",
+          "F000986",
+          "F005168",
+          "F003559",
+          "F005486",
+          "F002114",
+          "F001410",
+          "F007181",
+          "F003787"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 37,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.017387,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.297297,
+            "negative": 0.054054,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.648649
+          },
+          "negative_rate": 0.054054,
+          "negative_or_mixed_rate": 0.054054,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.351351
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 18,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.013921,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.222222,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.722222
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.277778
+        },
+        "JP": {
+          "review_count": 18,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.026786,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.388889,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.444444
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 37,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.017387,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.297297,
+            "negative": 0.054054,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.648649
+          },
+          "negative_rate": 0.054054,
+          "negative_or_mixed_rate": 0.054054,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.351351
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.013921,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.222222,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.722222
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.277778
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.026786,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.388889,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.444444
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0010",
+      "F70-0028",
+      "F70-0054",
+      "F70-0066",
+      "F70-0233",
+      "F70-0267",
+      "F70-0288",
+      "F70-0299",
+      "F70-0354",
+      "F70-0375",
+      "F70-0488",
+      "F70-0577",
+      "F70-0597",
+      "F70-0942",
+      "F70-0990",
+      "F70-1067",
+      "F70-1276",
+      "F70-1297",
+      "F70-1305",
+      "F70-1337",
+      "F70-1394",
+      "F70-1409",
+      "F70-1414",
+      "F70-1426",
+      "F70-1439",
+      "F70-1516",
+      "F70-1525",
+      "F70-1539",
+      "F70-1616",
+      "F70-1727",
+      "F70-1774",
+      "F70-1915",
+      "F70-1934",
+      "F70-2014",
+      "F70-2107",
+      "F70-2109",
+      "F70-2123"
+    ],
+    "summary": "Feedback on the mild hybrid setup centers on improved smoothness, acceleration, and fuel economy, with a few complaints about awkward tuning and poor integration with the engine, while many fragments mention the system without a clearly classifiable sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Mild hybrid setup and drivability",
+    "source_title": "hybrid / mild / setup",
+    "keywords": [
+      {
+        "term": "hybrid",
+        "weight": 0.342856
+      },
+      {
+        "term": "mild hybrid",
+        "weight": 0.239709
+      },
+      {
+        "term": "mild",
+        "weight": 0.237394
+      },
+      {
+        "term": "hybrid setup",
+        "weight": 0.11787
+      },
+      {
+        "term": "setup",
+        "weight": 0.092051
+      },
+      {
+        "term": "fuel",
+        "weight": 0.058002
+      },
+      {
+        "term": "engine",
+        "weight": 0.052624
+      },
+      {
+        "term": "hybrid engine",
+        "weight": 0.042336
+      },
+      {
+        "term": "economy",
+        "weight": 0.041305
+      },
+      {
+        "term": "helps",
+        "weight": 0.037975
+      },
+      {
+        "term": "fuel economy",
+        "weight": 0.036985
+      },
+      {
+        "term": "bits",
+        "weight": 0.034745
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001141",
+        "review_id": "F70-0299",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the mild hybrid support feels pleasant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005055",
+        "review_id": "F70-1409",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "when reversing uphill from a stop it feels really awkward - the way the throttle responds, with the engine and mild hybrid motor together, seems wrongly tuned at times",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005407",
+        "review_id": "F70-1516",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with the mild hybrid setup",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000111",
+        "review_id": "F70-0028",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the mild hybrid setup is excellent, same with the automatic gearbox",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001336",
+        "review_id": "F70-0354",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the way the hybrid links up with the engine is pretty poor, so that is a minus for me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000200",
+        "review_id": "F70-0054",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the mild hybrid start feels subtle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001762",
+        "review_id": "F70-0488",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the mild hybrid setup performs well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000986",
+        "review_id": "F70-0267",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the mild hybrid really helps with the driving expereince",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005168",
+        "review_id": "F70-1439",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "fuel economy has gone up a lot now that it's a mild hybrid",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003559",
+        "review_id": "F70-0990",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the mild hybrid setup seems to help the fuel economy, and even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004653",
+        "review_id": "F70-1297",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "since it is a mild hybrid it accelerates nicely, and that makes it enjoyable to drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005486",
+        "review_id": "F70-1539",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "as a mild hybrid the fuel use is much improved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002114",
+        "review_id": "F70-0577",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it now has a mild hybrid engine, and overall it has progressed a lot from past models in many areas",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001410",
+        "review_id": "F70-0375",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the 120 m really impresses me, especially the petrol mild hybrid setup which is giving me 50+ mpg",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007181",
+        "review_id": "F70-2014",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "fuel economy is also much better than the last one, even with the same engine, thanks to the mild hybrid system",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003787",
+        "review_id": "F70-1067",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with the mild hybrid the torque off the line and fuel efiiciency at startup are better",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 37,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are tagged undetermined, which limits how confidently the sentiment of the topic can be characterized from examples alone.",
+      "The available examples are concentrated on general mild-hybrid benefits and integration issues, so they may not capture the full range of owner feedback on this topic.",
+      "Samples are sentiment-stratified and not representative estimates of the full review population."
+    ]
+  }
+}

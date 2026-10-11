@@ -1,0 +1,582 @@
+{
+  "topic_id": "T0070",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 31,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.225806,
+      "ICE": 0.741935,
+      "PHEV": 0.032258
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.129032,
+        "summary": "Positive reviews praise enjoyment and appearance of the glass or panoramic roof.",
+        "evidence_fragment_ids": [
+          "F010758",
+          "F004730"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.064516,
+        "summary": "Negative reviews cite a diagnosed sunroof glass defect with trapped bubbles, and the other negative example is too brief to clarify the issue.",
+        "evidence_fragment_ids": [
+          "F003569",
+          "F002139"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 25,
+        "share": 0.806452,
+        "summary": "Undetermined reviews include brief mentions, feature questions, and requests or complaints about heat, opening capability, cracks, sunshade performance, and reflective controls without enough context to classify overall sentiment reliably.",
+        "evidence_fragment_ids": [
+          "F009579",
+          "F006443",
+          "F000866",
+          "F008054",
+          "F005379",
+          "F003945",
+          "F008670",
+          "F008355",
+          "F010468",
+          "F010639",
+          "F008497",
+          "F006271"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 31,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00775,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.129032,
+            "negative": 0.064516,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.806452
+          },
+          "negative_rate": 0.064516,
+          "negative_or_mixed_rate": 0.064516,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.193548
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 31,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.008175,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.129032,
+            "negative": 0.064516,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.806452
+          },
+          "negative_rate": 0.064516,
+          "negative_or_mixed_rate": 0.064516,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.193548
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0062,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.285714
+        },
+        "ICE": {
+          "review_count": 23,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.008956,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.130435,
+            "negative": 0.043478,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.826087
+          },
+          "negative_rate": 0.043478,
+          "negative_or_mixed_rate": 0.043478,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.173913
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.006512,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.285714
+        },
+        "ICE": {
+          "review_count": 23,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.009446,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.130435,
+            "negative": 0.043478,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.826087
+          },
+          "negative_rate": 0.043478,
+          "negative_or_mixed_rate": 0.043478,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.173913
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0169",
+      "G70-0324",
+      "G70-0443",
+      "G70-0795",
+      "G70-1107",
+      "G70-1295",
+      "G70-1297",
+      "G70-1446",
+      "G70-1549",
+      "G70-1591",
+      "G70-1640",
+      "G70-1673",
+      "G70-1721",
+      "G70-1949",
+      "G70-2074",
+      "G70-2264",
+      "G70-2317",
+      "G70-2357",
+      "G70-2427",
+      "G70-2457",
+      "G70-2801",
+      "G70-2898",
+      "G70-3011",
+      "G70-3066",
+      "G70-3135",
+      "G70-3439",
+      "G70-3457",
+      "G70-3756",
+      "G70-3801",
+      "G70-3816",
+      "G70-3862"
+    ],
+    "summary": "Feedback about the G70 panoramic glass roof mixes clear appreciation for its appearance with a few specific defect complaints, while most sampled fragments are too brief or descriptive to determine sentiment confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Panoramic Glass Roof",
+    "source_title": "roof / glass / panoramic",
+    "keywords": [
+      {
+        "term": "roof",
+        "weight": 0.232723
+      },
+      {
+        "term": "glass",
+        "weight": 0.229731
+      },
+      {
+        "term": "glass roof",
+        "weight": 0.097779
+      },
+      {
+        "term": "glass control",
+        "weight": 0.065674
+      },
+      {
+        "term": "panoramic",
+        "weight": 0.061185
+      },
+      {
+        "term": "sun",
+        "weight": 0.053225
+      },
+      {
+        "term": "customer",
+        "weight": 0.045884
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.040047
+      },
+      {
+        "term": "stated",
+        "weight": 0.039386
+      },
+      {
+        "term": "control",
+        "weight": 0.036446
+      },
+      {
+        "term": "panoramic glass",
+        "weight": 0.033956
+      },
+      {
+        "term": "bubbles",
+        "weight": 0.033833
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010758",
+        "review_id": "G70-3862",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really enjoys the glass sun roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002139",
+        "review_id": "G70-0795",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the roof ones",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009579",
+        "review_id": "G70-3439",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the roof is black because of the panoramic glass roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004730",
+        "review_id": "G70-1721",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer says she realy loves the panoramic glass roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003569",
+        "review_id": "G70-1295",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the car has been diagnosed with a manufacturer defect in the sunroof, with several small bubbles trapped between the glass layers of the panel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006443",
+        "review_id": "G70-2317",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned she really appreciates the glass roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000866",
+        "review_id": "G70-0324",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked how to tilt the glass roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008054",
+        "review_id": "G70-2898",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i really wish there was an option without the glass roof, because that thing does nothing to block the sun and heat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005379",
+        "review_id": "G70-1949",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it would be preferable if the Panoramic Glass Roof were able to open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003945",
+        "review_id": "G70-1446",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i noticed a crack in the glass roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008670",
+        "review_id": "G70-3135",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the roof",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008355",
+        "review_id": "G70-3011",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the glass",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010468",
+        "review_id": "G70-3756",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the glass roof sunshade material is too thin to fully keep out the sun",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010639",
+        "review_id": "G70-3816",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the panorama glass roof to be able to open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008497",
+        "review_id": "G70-3066",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer commented that the Glass Controls have too much reflection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006271",
+        "review_id": "G70-2264",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned the Glass Controls and said they look very pretty",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 35,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, which limits confidence in characterizing overall sentiment.",
+      "Some examples are extremely brief or fragmentary, so the underlying roof or glass issue is not clear.",
+      "The topic appears to blend panoramic roof, glass roof, sunshade, and glass control comments, so not all fragments describe the same component."
+    ]
+  }
+}

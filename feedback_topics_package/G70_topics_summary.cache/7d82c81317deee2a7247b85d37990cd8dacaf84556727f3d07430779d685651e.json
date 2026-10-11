@@ -1,0 +1,51 @@
+{
+  "title": "Two-item highlights and isolated problems",
+  "summary": "This topic is loosely connected by repeated mentions of “two,” with positive comments about comfort and recommendations alongside negative comments about specific defects or poorly explained features, while most fragments lack enough context for clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention prior good ownership experience, strong comfort versus previous cars, and recommendations that led others to buy.",
+      "evidence_fragment_ids": [
+        "F002895",
+        "F010778",
+        "F003935"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe specific problems such as roof glass cracking, unspecified multiple issues, and features or functions that owners disliked or could not get explained clearly.",
+      "evidence_fragment_ids": [
+        "F008703",
+        "F006790",
+        "F003470"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mostly use “two” in timing or list-like phrasing, and several hint at problems or losses but do not provide enough context to classify sentiment reliably.",
+      "evidence_fragment_ids": [
+        "F010443",
+        "F001519",
+        "F005029",
+        "F005981",
+        "F005545",
+        "F007886",
+        "F005438",
+        "F010018",
+        "F010203",
+        "F003963"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster is weakly coherent because many fragments are grouped by the word “two” rather than a single vehicle attribute or experience.",
+    "Most sampled fragments are undetermined, which limits confidence in identifying a consistent customer theme.",
+    "Some undetermined examples suggest negative experiences, but the excerpts are too incomplete to reclassify them safely."
+  ]
+}

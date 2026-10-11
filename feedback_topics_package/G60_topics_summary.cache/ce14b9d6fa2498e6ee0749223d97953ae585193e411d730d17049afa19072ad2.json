@@ -1,0 +1,37 @@
+{
+  "title": "Pothole Tow and Highway Truck-Stop Charging Mentions",
+  "summary": "This topic combines a clear complaint about needing a tow after pothole-related sidewall damage with other fragments that only mention a truck or highway truck-stop chargers without enough context for sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The negative feedback describes the vehicle becoming unusable after a pothole caused sidewall damage, leading the customer to call a tow truck.",
+      "evidence_fragment_ids": [
+        "F002309"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments mention an HMC truck and highway truck-stop chargers, but they do not provide enough context to judge sentiment.",
+      "evidence_fragment_ids": [
+        "F001008",
+        "F004627"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic mixes at least two weakly connected subjects: pothole and towing issues, and mentions of trucks or highway truck-stop chargers.",
+    "Most sampled fragments are too brief to determine sentiment, which limits confidence in a more specific summary.",
+    "The examples are sparse, so no broader pattern beyond these fragments can be established."
+  ]
+}

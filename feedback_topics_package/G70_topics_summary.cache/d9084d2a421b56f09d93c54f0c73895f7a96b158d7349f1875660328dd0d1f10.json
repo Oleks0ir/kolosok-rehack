@@ -1,0 +1,41 @@
+{
+  "title": "Turning Radius and Restart Mentions",
+  "summary": "This topic mixes praise for the G70's tight turning radius with unrelated references to restarting devices or the car, so the examples do not form a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive feedback mentions liking the car during dealership driving and appreciating its tight turning radius.",
+      "evidence_fragment_ids": [
+        "F000899"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples include restart instructions, a legal escalation remark, and turning-radius praise that lacks enough context for a clear sentiment label.",
+      "evidence_fragment_ids": [
+        "F006344",
+        "F009111",
+        "F010513",
+        "F002442",
+        "F002601",
+        "F005930"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes unrelated subjects, including turning radius comments, restart procedures, and a legal statement.",
+    "Most examples are labeled undetermined, which limits confidence in a more specific thematic summary.",
+    "Some fragments are too short or context-dependent to determine whether they reflect vehicle evaluation, service guidance, or another topic."
+  ]
+}

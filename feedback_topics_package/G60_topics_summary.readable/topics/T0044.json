@@ -1,0 +1,693 @@
+{
+  "topic_id": "T0044",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 40,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "JP": 0.025,
+      "KR": 0.025,
+      "US": 0.95
+    },
+    "engine_type": {
+      "BEVE": 0.375,
+      "ICE": 0.575,
+      "PHEV": 0.05
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.1,
+        "summary": "Positive reviews praise useful seat-back functionality and generous cargo room when the rear seats are folded.",
+        "evidence_fragment_ids": [
+          "F005339",
+          "F006616"
+        ]
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.15,
+        "summary": "Negative reviews complain about removed seat-back pockets and missing rear-seat amenities such as climate control and heated seats.",
+        "evidence_fragment_ids": [
+          "F002438",
+          "F006207"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 30,
+        "share": 0.75,
+        "summary": "Undetermined fragments mention back seats, climate settings, turning back on, or items in the rear area without enough context to assign a clear sentiment to this topic.",
+        "evidence_fragment_ids": [
+          "F006460",
+          "F005363",
+          "F000052",
+          "F010583",
+          "F006570",
+          "F002034",
+          "F002609",
+          "F005230",
+          "F009889",
+          "F005037",
+          "F010333",
+          "F007379"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 40,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.15,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.15,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 38,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.010526,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 29
+          },
+          "sentiment_shares": {
+            "positive": 0.078947,
+            "negative": 0.157895,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.763158
+          },
+          "negative_rate": 0.157895,
+          "negative_or_mixed_rate": 0.157895,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.236842
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.011005,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.266667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.266667,
+          "negative_or_mixed_rate": 0.266667,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 23,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.010181,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.130435,
+            "negative": 0.086957,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.782609
+          },
+          "negative_rate": 0.086957,
+          "negative_or_mixed_rate": 0.086957,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.217391
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.011802,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.266667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.266667,
+          "negative_or_mixed_rate": 0.266667,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 21,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.010412,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.095238,
+            "negative": 0.095238,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.809524
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.095238,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.190476
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G60-0021",
+      "G60-0094",
+      "G60-0495",
+      "G60-0585",
+      "G60-0721",
+      "G60-0872",
+      "G60-0916",
+      "G60-0924",
+      "G60-0932",
+      "G60-1238",
+      "G60-1282",
+      "G60-1294",
+      "G60-1363",
+      "G60-1543",
+      "G60-1801",
+      "G60-1853",
+      "G60-1857",
+      "G60-1897",
+      "G60-1904",
+      "G60-2075",
+      "G60-2227",
+      "G60-2275",
+      "G60-2310",
+      "G60-2317",
+      "G60-2348",
+      "G60-2365",
+      "G60-2457",
+      "G60-2527",
+      "G60-2627",
+      "G60-2636",
+      "G60-2826",
+      "G60-2877",
+      "G60-3120",
+      "G60-3134",
+      "G60-3420",
+      "G60-3504",
+      "G60-3550",
+      "G60-3590",
+      "G60-3704",
+      "G60-3804"
+    ],
+    "summary": "This topic centers on rear-seat space, storage, and comfort features, with a few positive mentions of seat-back utility but many sampled fragments remaining too vague or context-free to classify clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Rear seat space and missing back-seat features",
+    "source_title": "back / seat / turning",
+    "keywords": [
+      {
+        "term": "back",
+        "weight": 0.302845
+      },
+      {
+        "term": "back seat",
+        "weight": 0.121273
+      },
+      {
+        "term": "seat",
+        "weight": 0.076808
+      },
+      {
+        "term": "turning",
+        "weight": 0.043493
+      },
+      {
+        "term": "turning back",
+        "weight": 0.041824
+      },
+      {
+        "term": "stated back",
+        "weight": 0.037821
+      },
+      {
+        "term": "back forth",
+        "weight": 0.03541
+      },
+      {
+        "term": "forth",
+        "weight": 0.03541
+      },
+      {
+        "term": "keeps",
+        "weight": 0.03456
+      },
+      {
+        "term": "climate",
+        "weight": 0.033123
+      },
+      {
+        "term": "back feature",
+        "weight": 0.033109
+      },
+      {
+        "term": "passenger",
+        "weight": 0.032347
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005339",
+        "review_id": "G60-1897",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "my previous car was a 2012 528i, and with the back seats folded it had almost station-wagon-like room",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002438",
+        "review_id": "G60-0872",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "you removed the pockets on the back of the seats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006460",
+        "review_id": "G60-2310",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i want my $1100 back until this is straightened out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006616",
+        "review_id": "G60-2365",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they are pleased with the travel mount system installed on the back of the seats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006207",
+        "review_id": "G60-2227",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "back seats do not have amenities like climate control, heated seats or pockets, which feels wrong for a car around an 83000 list price",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005363",
+        "review_id": "G60-1904",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000052",
+        "review_id": "G60-0021",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "would be nice if there was climate control for the back seats",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010583",
+        "review_id": "G60-3804",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they had not used it and later found it on the floor in the back seat when reaching for their jacket",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006570",
+        "review_id": "G60-2348",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "0 could be added back in id8",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002034",
+        "review_id": "G60-0721",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "ended up not doing so because the back seat space was insufficient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002609",
+        "review_id": "G60-0924",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated water drops came in on the passenger side and back seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005230",
+        "review_id": "G60-1853",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "we miss having the back seat pockets and spots to store things",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009889",
+        "review_id": "G60-3550",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that since getting the vehicle back after the repair",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005037",
+        "review_id": "G60-1801",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "lights auto come on when i reach toward the passenger or back seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010333",
+        "review_id": "G60-3704",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the last-used climate setup isn't always what i want the car to return to when i get back in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007379",
+        "review_id": "G60-2636",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it keeps turning itself back on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 41,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes several loosely related uses of the word 'back,' including rear-seat space, seat-back storage, climate behavior, repair references, and a feature turning back on.",
+      "Most sampled fragments are undetermined or too short to support a clear sentiment reading for this topic.",
+      "The examples are stratified samples rather than representative estimates of all reviews on this topic."
+    ]
+  }
+}

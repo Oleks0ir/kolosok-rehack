@@ -1,0 +1,598 @@
+{
+  "topic_id": "T0123",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.526316,
+      "ICE": 0.315789,
+      "PHEV": 0.157895
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 14,
+        "share": 0.736842,
+        "summary": "Negative reviews focus on seats that do not raise high enough for comfort or visibility and a low front end that scrapes on curbs, driveways, and parking barriers.",
+        "evidence_fragment_ids": [
+          "F001326",
+          "F003349",
+          "F000811",
+          "F003845",
+          "F007271",
+          "F002814",
+          "F001970",
+          "F000974",
+          "F005805",
+          "F009423",
+          "F009810",
+          "F009981"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.052632,
+        "summary": "The mixed review pairs praise or ownership context with a complaint that the low bumper and ground clearance make curb contact easy and potentially damaging.",
+        "evidence_fragment_ids": [
+          "F006670"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.210526,
+        "summary": "Undetermined reviews mention insufficiency in battery capacity or usable space near the phone charger, but the examples are too limited to identify a clearer theme or sentiment direction.",
+        "evidence_fragment_ids": [
+          "F000383",
+          "F004129"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 14,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.736842,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.210526
+          },
+          "negative_rate": 0.736842,
+          "negative_or_mixed_rate": 0.789474,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.789474
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 19,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.005263,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 14,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.736842,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.210526
+          },
+          "negative_rate": 0.736842,
+          "negative_or_mixed_rate": 0.789474,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.789474
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.007337,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 8,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.571429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.533333,
+          "known_sentiment_share": 0.8
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.002656,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.833333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.833333,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.357143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.833333
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.333333,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.133333,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 8,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.571429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.533333,
+          "known_sentiment_share": 0.8
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.002975,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.833333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.833333,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.357143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.833333
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.333333,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.133333,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0148",
+      "G60-0291",
+      "G60-0354",
+      "G60-0468",
+      "G60-0698",
+      "G60-0769",
+      "G60-0978",
+      "G60-1002",
+      "G60-1194",
+      "G60-1381",
+      "G60-1433",
+      "G60-1480",
+      "G60-2070",
+      "G60-2387",
+      "G60-2595",
+      "G60-3387",
+      "G60-3517",
+      "G60-3588",
+      "G60-3825"
+    ],
+    "summary": "Reviews in this topic mainly describe limited seat adjustability and low front ground clearance, with a few less clear mentions of insufficient battery capacity or cabin/charging space.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 8,
+        "denominator": 10,
+        "rate": 0.8,
+        "comparison_numerator": 7,
+        "comparison_denominator": 9,
+        "comparison_rate": 0.777778,
+        "gap_percentage_points": 2.222,
+        "statement": "In engine_type=BEVE, 8 of 10 reviews (80.0%) are negative or mixed. The rest of this breakdown: 7 of 9 (77.8%).",
+        "interpretation": "BEVE examples in this topic also center on low ground clearance and scraping or seat-height limitations, but this signal is exploratory and based on limited comparison data.",
+        "evidence_fragment_ids": [
+          "F002814",
+          "F001970",
+          "F000974",
+          "F005805",
+          "F009423",
+          "F009810",
+          "F003349",
+          "F007271"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Seat Adjustment and Low Ground Clearance",
+    "source_title": "insufficient / clearance / seat",
+    "keywords": [
+      {
+        "term": "insufficient",
+        "weight": 0.255924
+      },
+      {
+        "term": "insufficient range",
+        "weight": 0.137247
+      },
+      {
+        "term": "clearance",
+        "weight": 0.115925
+      },
+      {
+        "term": "seat",
+        "weight": 0.111626
+      },
+      {
+        "term": "seat insufficient",
+        "weight": 0.105786
+      },
+      {
+        "term": "ground",
+        "weight": 0.098893
+      },
+      {
+        "term": "ground clearance",
+        "weight": 0.098751
+      },
+      {
+        "term": "insufficient ground",
+        "weight": 0.098751
+      },
+      {
+        "term": "problem insufficient",
+        "weight": 0.098751
+      },
+      {
+        "term": "problem",
+        "weight": 0.097069
+      },
+      {
+        "term": "problem seat",
+        "weight": 0.08645
+      },
+      {
+        "term": "range",
+        "weight": 0.08597
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001326",
+        "review_id": "G60-0468",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Seats have insufficient range of adjustment: \"Not as comfy as our 2024 X5",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006670",
+        "review_id": "G60-2387",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a serious problem with Insufficient ground clearance: \"The bumper hangs below most curbs, so if you mistakingly tap a curb it's real easy to mess up the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000383",
+        "review_id": "G60-0148",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "battery capacity feels insufficient",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002814",
+        "review_id": "G60-1002",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Insufficient ground clearance: \"this is a performance car, so the clearance is low",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003349",
+        "review_id": "G60-1194",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Seats have insufficient range of adjustment: \"Seat height adjustment doesnt go high enough",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004129",
+        "review_id": "G60-1480",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated there is insufficient room to use both the phone in the charger",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001970",
+        "review_id": "G60-0698",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Insufficient ground clearance: \"Front clearance is low so it sometimes scrapes on parking bumpers",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000974",
+        "review_id": "G60-0354",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Insufficient ground clearance: \"I can feel the bumps and imperfections in the road way too mch",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005805",
+        "review_id": "G60-2070",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Insufficient ground clearance: \"Im more used to driving an SUV, and regular parking curbs tend to snag the front air dam",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000811",
+        "review_id": "G60-0291",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Seats have insufficient range of adjustment: \"I am short and I can't get the seat raised enough to see the front of the car clearly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007271",
+        "review_id": "G60-2595",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Seats have insufficient range of adjustment: \"Id prefer if it could sit a little higher",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009423",
+        "review_id": "G60-3387",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Insufficient ground clearance: \"front end sits so low that it has already scraped the ground on mild inclines, when parking, and going into driveways\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009810",
+        "review_id": "G60-3517",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Insufficient ground clearance: \"it feels like the underside scrapes almost every time i drive out of a driveway\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003845",
+        "review_id": "G60-1381",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Seats have insufficient range of adjustment: \"Can't raise it to a height that lets me see around the bar that contains the front passenger air bag",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009981",
+        "review_id": "G60-3588",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Insufficient ground clearance: \"Lower and front bumper can scrape going down sharp driveways or when pulling out from certain parking lots onto the street",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002752",
+        "review_id": "G60-0978",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Seat adjustment - Controls DTU: \"with the comfort seating package, a few adjustments have to be made on the touchscreen, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic mixes at least two distinct issues—seat adjustment limits and ground-clearance scraping—with a few unrelated insufficient-space or battery-capacity mentions.",
+      "The undetermined examples are sparse, so their underlying issue cannot be summarized confidently.",
+      "The sampled fragments are stratified and not representative of all G60 reviews."
+    ]
+  }
+}

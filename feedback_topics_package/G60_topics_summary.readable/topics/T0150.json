@@ -1,0 +1,568 @@
+{
+  "topic_id": "T0150",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.111111,
+      "ICE": 0.777778,
+      "PHEV": 0.111111
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.166667,
+        "summary": "Positive reviews praise the trunk lock button convenience and describe the trunk area as spacious.",
+        "evidence_fragment_ids": [
+          "F009852",
+          "F003850"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.055556,
+        "summary": "Negative reviews complain that the trunk is too small.",
+        "evidence_fragment_ids": [
+          "F007627"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 14,
+        "share": 0.777778,
+        "summary": "Undetermined excerpts mention trunk space, release buttons, and hands-free opening behavior, but the sample often lacks enough context or is truncated, and some fragments are unrelated to the trunk topic.",
+        "evidence_fragment_ids": [
+          "F001344",
+          "F002256",
+          "F006201",
+          "F010138",
+          "F004891",
+          "F004885",
+          "F010585",
+          "F003767",
+          "F009021",
+          "F004428",
+          "F001625",
+          "F008794"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 18,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0045,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 18,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004986,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.001467,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.006197,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.214286,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.006941,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.214286,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0475",
+      "G60-0577",
+      "G60-0804",
+      "G60-1348",
+      "G60-1383",
+      "G60-1580",
+      "G60-1737",
+      "G60-1739",
+      "G60-1911",
+      "G60-2224",
+      "G60-2733",
+      "G60-3136",
+      "G60-3224",
+      "G60-3233",
+      "G60-3535",
+      "G60-3647",
+      "G60-3738",
+      "G60-3805"
+    ],
+    "summary": "Feedback in this topic centers on trunk space and trunk access controls, but many excerpts are too fragmentary or mix in unrelated usage comments to support a clear sentiment reading.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Trunk space and access features",
+    "source_title": "trunk / uses / customer stated",
+    "keywords": [
+      {
+        "term": "trunk",
+        "weight": 0.196906
+      },
+      {
+        "term": "stated trunk",
+        "weight": 0.158276
+      },
+      {
+        "term": "uses",
+        "weight": 0.128732
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.096914
+      },
+      {
+        "term": "stated",
+        "weight": 0.095123
+      },
+      {
+        "term": "stated uses",
+        "weight": 0.08769
+      },
+      {
+        "term": "customer",
+        "weight": 0.082332
+      },
+      {
+        "term": "lock button",
+        "weight": 0.072292
+      },
+      {
+        "term": "button",
+        "weight": 0.060401
+      },
+      {
+        "term": "space",
+        "weight": 0.059549
+      },
+      {
+        "term": "carrier",
+        "weight": 0.058472
+      },
+      {
+        "term": "trunk space",
+        "weight": 0.052878
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009852",
+        "review_id": "G60-3535",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really likes the trunk lock button and uses it often, saying that being able to press the lock button from the trunk so the vehicle locks itself once it is shut has been tremendously helpful",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007627",
+        "review_id": "G60-2733",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that the trunk size is too small",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001344",
+        "review_id": "G60-0475",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the trunk should have more space",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003850",
+        "review_id": "G60-1383",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the trunk area feels very spacious",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002256",
+        "review_id": "G60-0804",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it uses up space in the trunk with no designated area, so he moved it onto a small shelf by the tire well and currently has it resting on top there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006201",
+        "review_id": "G60-2224",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the trunk space is satisfactory",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010138",
+        "review_id": "G60-3647",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he uses the key fob to open the trunk, at times the trunk will stop and only open halfway",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004891",
+        "review_id": "G60-1739",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he uses the trunk's touchless foot-activation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004885",
+        "review_id": "G60-1737",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer stated the trunk release button on the driver door does not open the trunk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010585",
+        "review_id": "G60-3805",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the trunk that opens with a foot or leg movement only works on some attempts and fails on others",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009001",
+        "review_id": "G60-3224",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they are pleased with how the vehicle uses gas",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003767",
+        "review_id": "G60-1348",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the trunk area offers plenty of room and that the luggage space fits their needs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009021",
+        "review_id": "G60-3233",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she struggles using the foot trunk opener, feeling it only works when her foot is placed very precisely and that it is hard when her arms are full, making her feel goofy repeating it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004428",
+        "review_id": "G60-1580",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that at times when she presses and holds the Key Fob lock button from outside the vehicle to fold the exterior rearview mirrors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001625",
+        "review_id": "G60-0577",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the location of the trunk release button is now in a much better position",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008794",
+        "review_id": "G60-3136",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer added that he uses Nordline and that they are a major carrier in his region",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are assigned undetermined sentiment, which limits confident interpretation of customer stance.",
+      "Several excerpts are truncated or incomplete, so the underlying issue or evaluation cannot be fully assessed.",
+      "The cluster includes unrelated examples, such as fuel-use and carrier comments, so it is not fully coherent as a single topic."
+    ]
+  }
+}

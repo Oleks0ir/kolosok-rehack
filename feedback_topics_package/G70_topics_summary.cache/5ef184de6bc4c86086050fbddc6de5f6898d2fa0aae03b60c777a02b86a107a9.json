@@ -1,0 +1,51 @@
+{
+  "title": "Customer reply follow-up notes",
+  "summary": "This topic is mostly brief follow-up statements from customers, with only a few fragments expressing clear opinions about vehicle size or a suspected camera issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive review praises the smaller dimensions of the earlier model as the right size for the customer.",
+      "evidence_fragment_ids": [
+        "F002821"
+      ]
+    },
+    "negative": {
+      "summary": "The negative reviews mention a suspected camera problem and a conditional plan to act if an issue happens again, but examples are limited.",
+      "evidence_fragment_ids": [
+        "F005593",
+        "F001577"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Most fragments are status updates about timing, availability, charging setup, drop-off, or lack of questions without enough context to infer sentiment.",
+      "evidence_fragment_ids": [
+        "F008058",
+        "F009232",
+        "F009872",
+        "F010845",
+        "F005308",
+        "F010823",
+        "F007035",
+        "F010661",
+        "F002030",
+        "F007194",
+        "F010878",
+        "F001125",
+        "F005958"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic clusters many short callback or service follow-up replies rather than a single coherent vehicle issue.",
+    "Most sampled fragments are undetermined, so the concrete sentiment evidence is sparse.",
+    "Some negative fragments are too brief to identify the underlying problem beyond a suspected camera issue."
+  ]
+}

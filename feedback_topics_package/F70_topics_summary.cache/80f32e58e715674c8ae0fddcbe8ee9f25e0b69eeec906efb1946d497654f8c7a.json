@@ -1,0 +1,41 @@
+{
+  "title": "Dealer help, demo comparisons and tried scenarios",
+  "summary": "This topic combines dealer attempts to help or repair issues, comparisons with demo cars, and one driving-situation mention, with many fragments lacking clear evaluative sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive review praises the dealer's effort to help and repair the car despite delays caused by faulty replacement parts.",
+      "evidence_fragment_ids": [
+        "F002357"
+      ]
+    },
+    "negative": {
+      "summary": "The negative review criticizes noisier fitted tyres by comparing them unfavorably with tyres on a demo car the customer had tried.",
+      "evidence_fragment_ids": [
+        "F002327"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention a demo car, dealer attempts to help, and a roundabout scenario without enough context to classify clear sentiment.",
+      "evidence_fragment_ids": [
+        "F000192",
+        "F002071",
+        "F007488",
+        "F005072"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes partially unrelated subjects, including dealer support, demo-car comparisons, and a driving scenario, so it should not be treated as a single coherent issue.",
+    "Most sampled fragments are undetermined, which limits confidence about the dominant sentiment or concrete problem within this topic.",
+    "Examples are sparse for some aspects, so the available evidence is insufficient to describe them in more detail."
+  ]
+}

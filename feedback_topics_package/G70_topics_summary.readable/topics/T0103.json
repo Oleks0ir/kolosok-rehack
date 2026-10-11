@@ -1,0 +1,624 @@
+{
+  "topic_id": "T0103",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 23,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "DK": 0.043478,
+      "US": 0.956522
+    },
+    "engine_type": {
+      "BEVE": 0.304348,
+      "ICE": 0.565217,
+      "PHEV": 0.130435
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.086957,
+        "summary": "Positive reviews mention that no relevant fault codes were found or that dealers could not detect a fault.",
+        "evidence_fragment_ids": [
+          "F004512",
+          "F009676"
+        ]
+      },
+      "negative": {
+        "count": 17,
+        "share": 0.73913,
+        "summary": "Negative reviews describe vehicles arriving with faults, stored or specific fault codes, and repairs or resets that cleared faults without broader context showing the issue was fully resolved.",
+        "evidence_fragment_ids": [
+          "F001076",
+          "F000670",
+          "F001495",
+          "F000331",
+          "F006652",
+          "F003327",
+          "F009593",
+          "F010934",
+          "F004225",
+          "F002693",
+          "F008275"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.173913,
+        "summary": "Undetermined reviews briefly state that an error or notification cleared by itself, but they do not provide enough context to judge whether this reflects a good or bad outcome.",
+        "evidence_fragment_ids": [
+          "F003906",
+          "F003124"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 23,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00575,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 17,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.086957,
+            "negative": 0.73913,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.173913
+          },
+          "negative_rate": 0.73913,
+          "negative_or_mixed_rate": 0.73913,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.826087
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.058824,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.058824,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 22,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.005802,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 16,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.727273,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.181818
+          },
+          "negative_rate": 0.727273,
+          "negative_or_mixed_rate": 0.727273,
+          "share_of_all_topic_negative_reviews": 0.941176,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.941176,
+          "known_sentiment_share": 0.818182
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0062,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.714286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.285714
+          },
+          "negative_rate": 0.714286,
+          "negative_or_mixed_rate": 0.714286,
+          "share_of_all_topic_negative_reviews": 0.294118,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.294118,
+          "known_sentiment_share": 0.714286
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005062,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.769231,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.076923
+          },
+          "negative_rate": 0.769231,
+          "negative_or_mixed_rate": 0.769231,
+          "share_of_all_topic_negative_reviews": 0.588235,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.588235,
+          "known_sentiment_share": 0.923077
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.117647,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.117647,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.058824,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.058824,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.005581,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.235294,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.235294,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.005339,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 10,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.769231,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.076923
+          },
+          "negative_rate": 0.769231,
+          "negative_or_mixed_rate": 0.769231,
+          "share_of_all_topic_negative_reviews": 0.588235,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.588235,
+          "known_sentiment_share": 0.923077
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.010638,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.117647,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.117647,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0103",
+      "G70-0143",
+      "G70-0243",
+      "G70-0398",
+      "G70-0553",
+      "G70-0971",
+      "G70-0975",
+      "G70-1134",
+      "G70-1205",
+      "G70-1216",
+      "G70-1428",
+      "G70-1549",
+      "G70-1640",
+      "G70-1737",
+      "G70-2321",
+      "G70-2378",
+      "G70-2629",
+      "G70-2980",
+      "G70-3146",
+      "G70-3272",
+      "G70-3442",
+      "G70-3482",
+      "G70-3938"
+    ],
+    "summary": "This topic centers on detected fault codes, stored faults, and reports of faults being cleared, with feedback dominated by service or diagnostic issue descriptions rather than stable resolution details.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Fault codes and cleared faults",
+    "source_title": "fault / cleared / following",
+    "keywords": [
+      {
+        "term": "fault",
+        "weight": 0.370937
+      },
+      {
+        "term": "cleared",
+        "weight": 0.238273
+      },
+      {
+        "term": "cleared fault",
+        "weight": 0.055131
+      },
+      {
+        "term": "following",
+        "weight": 0.052058
+      },
+      {
+        "term": "fault stored",
+        "weight": 0.039702
+      },
+      {
+        "term": "problem cleared",
+        "weight": 0.038791
+      },
+      {
+        "term": "stated problem",
+        "weight": 0.036632
+      },
+      {
+        "term": "cleared following",
+        "weight": 0.03647
+      },
+      {
+        "term": "stored",
+        "weight": 0.034095
+      },
+      {
+        "term": "fault code",
+        "weight": 0.027679
+      },
+      {
+        "term": "fault codes",
+        "weight": 0.027271
+      },
+      {
+        "term": "arrived",
+        "weight": 0.026774
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004512",
+        "review_id": "G70-1640",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "NO RELEVANT FAULT CODES WERE FOUND",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001076",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "CLEARED ADAPTATIONS AND FAULTS",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003906",
+        "review_id": "G70-1428",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the error cleared",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009676",
+        "review_id": "G70-3482",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the dealership advised they could not detect any fault",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000670",
+        "review_id": "G70-0243",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the fault was then cleared",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003124",
+        "review_id": "G70-1134",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "that the notification eventually cleared by itself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006449",
+        "review_id": "G70-2321",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there really isnt anything on this car that i can find fault with",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001495",
+        "review_id": "G70-0553",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "FOUND FAULTS IN VEHICLE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000331",
+        "review_id": "G70-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Cleared faults",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006652",
+        "review_id": "G70-2378",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "FOUND FAULT IS GONE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003327",
+        "review_id": "G70-1205",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it arrived with faults",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "DK",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009593",
+        "review_id": "G70-3442",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "replaced paddle shift and cleared faults",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010934",
+        "review_id": "G70-3938",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "CLEARED AD",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004225",
+        "review_id": "G70-1549",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Faults 80177C & 80170E stored",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002693",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Fault codes 031947 AC charging, charging electronics 2, component protection: group fault, 030E0B power management: abort emergency recharge, 21F04B high voltage battery uni",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008275",
+        "review_id": "G70-2980",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "FOUND FAULT CODE 022980 DSC CERTIFICATES TYPE 1 NOT READY, FAULT CODE 02290A DSC CONTROL UNIT CODING DATA NOT RELEASED SIGNATURE STATUS OF LAST TEST CYCLE UNKNOWN",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 30,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample fragments are heavily diagnostic and service-note oriented, so customer impact and final repair outcomes are often unclear.",
+      "At least one negative example appears semantically inconsistent with its assigned sentiment, which limits precise interpretation of that fragment.",
+      "Some fragments are too brief or truncated to determine whether a cleared fault meant a resolved issue or only a temporary reset."
+    ]
+  }
+}

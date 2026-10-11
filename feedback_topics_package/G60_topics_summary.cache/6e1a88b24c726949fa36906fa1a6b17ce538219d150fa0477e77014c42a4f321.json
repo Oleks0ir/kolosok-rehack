@@ -1,0 +1,38 @@
+{
+  "title": "Correction Entries for Replaced, Programmed, and Ordered Parts",
+  "summary": "The fragments are service correction notes describing actions such as replacing and programming components, checking hood alignment, and ordering parts, but they provide too little context to determine customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mainly record repair actions like replacing and programming a TCB or charging tray, checking hood alignment, and noting a part on order without enough context to judge sentiment.",
+      "evidence_fragment_ids": [
+        "F008152",
+        "F004709",
+        "F009897",
+        "F003016",
+        "F004703"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined service-note snippets rather than full customer opinions, so sentiment cannot be reliably assessed.",
+    "Several examples contain only the word 'Correction:' and provide insufficient detail about the issue, outcome, or customer reaction.",
+    "The topic mixes different service actions and components, including TCB programming, charging tray or pad replacement, hood alignment, and parts ordering, so the cluster is not a single coherent issue."
+  ]
+}

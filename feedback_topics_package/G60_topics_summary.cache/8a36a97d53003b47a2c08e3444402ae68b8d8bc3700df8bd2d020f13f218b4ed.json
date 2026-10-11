@@ -1,0 +1,38 @@
+{
+  "title": "Advisor instructions and vague purpose references",
+  "summary": "The examples are short service-note fragments about advisors telling customers what to do in the vehicle or app, plus a few isolated statements about serving customers or having no other purpose, so the topic does not support a clear sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews contain procedural guidance about retrieving a destination, linking devices, opening the app, and a few vague purpose-related statements that do not clearly express satisfaction or dissatisfaction.",
+      "evidence_fragment_ids": [
+        "F010388",
+        "F001804",
+        "F005946",
+        "F001665",
+        "F007230"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so no clear evaluative sentiment can be summarized.",
+    "The cluster mixes procedural service instructions with vague statements about serving customers or purpose, which may reflect unrelated subjects.",
+    "The examples are very short and lack context about the underlying issue or outcome."
+  ]
+}

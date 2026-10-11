@@ -1,0 +1,51 @@
+{
+  "title": "Vehicle and Parking Camera Feedback",
+  "summary": "Feedback centers on vehicle and parking cameras, with praise for camera usefulness and clarity, complaints about parking view effectiveness, and many fragments that are too procedural or incomplete to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the cameras as great, clear, and useful around the vehicle.",
+      "evidence_fragment_ids": [
+        "F001170",
+        "F008417",
+        "F002595",
+        "F009558",
+        "F007899",
+        "F006215"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe parking cameras or sensors as unclear or not helpful enough for judging proximity while parking.",
+      "evidence_fragment_ids": [
+        "F010670",
+        "F004338",
+        "F000503"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention camera cleaning notices, setup instructions, external security cameras, or incomplete statements that do not clearly express satisfaction or dissatisfaction.",
+      "evidence_fragment_ids": [
+        "F002321",
+        "F007633",
+        "F007519",
+        "F006251",
+        "F000054",
+        "F000027",
+        "F010773"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many sampled fragments are undetermined, limiting confidence about the balance of concrete camera experiences.",
+    "Some undetermined examples are incomplete or procedural and do not provide enough detail to interpret sentiment.",
+    "The cluster includes loosely related mentions such as external security cameras and speed recognition, so not all examples reflect the same camera use case."
+  ]
+}

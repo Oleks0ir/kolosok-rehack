@@ -1,0 +1,51 @@
+{
+  "title": "Intermittent incidents and rear passenger comments",
+  "summary": "This topic combines intermittent incident reports phrased around something having happened with a separate comfort comment about rear passenger space, so the examples do not form a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention improved rear passenger room and one case described as infrequent rather than daily.",
+      "evidence_fragment_ids": [
+        "F004835",
+        "F003724"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews focus on dissatisfaction with escalation handling and one problem reference despite it not recurring.",
+      "evidence_fragment_ids": [
+        "F002301",
+        "F009755"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mostly describe isolated or repeated events without enough detail to judge sentiment, including one-off incidents, recurrence counts, safety concern wording, a rear passenger tire mention, and a request to raise the controller height.",
+      "evidence_fragment_ids": [
+        "F003907",
+        "F007045",
+        "F006384",
+        "F007143",
+        "F009406",
+        "F008485",
+        "F010729",
+        "F007521",
+        "F007712",
+        "F004866",
+        "F001292",
+        "F000171"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic is lexically driven by words like 'happened' and 'raised,' which pulls together unrelated subjects rather than one clear product theme.",
+    "Most sampled fragments are undetermined and provide too little context to identify the underlying system, feature, or failure mode.",
+    "Several examples are partial statements about an event recurring or not recurring, which limits precise interpretation."
+  ]
+}

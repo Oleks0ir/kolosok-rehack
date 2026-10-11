@@ -1,0 +1,655 @@
+{
+  "topic_id": "T0026",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 53,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.018868,
+      "US": 0.981132
+    },
+    "engine_type": {
+      "BEVE": 0.358491,
+      "ICE": 0.584906,
+      "PHEV": 0.056604
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.037736,
+        "summary": "Positive reviews say the software works well or that an OTA update was easy to complete.",
+        "evidence_fragment_ids": [
+          "F005680",
+          "F002398"
+        ]
+      },
+      "negative": {
+        "count": 14,
+        "share": 0.264151,
+        "summary": "Negative reviews describe software connectivity and update problems, buggy behavior, and features that remain unusable pending a software fix.",
+        "evidence_fragment_ids": [
+          "F007185",
+          "F007696",
+          "F009904",
+          "F000035",
+          "F009304"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 37,
+        "share": 0.698113,
+        "summary": "Undetermined reviews mainly mention remote software updates, alerts, instructions, or attempted installs without enough detail to judge satisfaction.",
+        "evidence_fragment_ids": [
+          "F007974",
+          "F010538",
+          "F002252",
+          "F005957",
+          "F002714",
+          "F001249",
+          "F007321",
+          "F002325",
+          "F006055"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 53,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01325,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 14,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 37
+          },
+          "sentiment_shares": {
+            "positive": 0.037736,
+            "negative": 0.264151,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.698113
+          },
+          "negative_rate": 0.264151,
+          "negative_or_mixed_rate": 0.264151,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.301887
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 52,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.013713,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 13,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 37
+          },
+          "sentiment_shares": {
+            "positive": 0.038462,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.711538
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.928571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.928571,
+          "known_sentiment_share": 0.288462
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 19,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.016829,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.263158,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.263158,
+          "negative_or_mixed_rate": 0.263158,
+          "share_of_all_topic_negative_reviews": 0.357143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.357143,
+          "known_sentiment_share": 0.263158
+        },
+        "ICE": {
+          "review_count": 31,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.012072,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 8,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.064516,
+            "negative": 0.258065,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.677419
+          },
+          "negative_rate": 0.258065,
+          "negative_or_mixed_rate": 0.258065,
+          "share_of_all_topic_negative_reviews": 0.571429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.571429,
+          "known_sentiment_share": 0.322581
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.071429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.071429,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 19,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.017674,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.263158,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.263158,
+          "negative_or_mixed_rate": 0.263158,
+          "share_of_all_topic_negative_reviews": 0.357143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.357143,
+          "known_sentiment_share": 0.263158
+        },
+        "ICE": {
+          "review_count": 31,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.012731,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 8,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.064516,
+            "negative": 0.258065,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.677419
+          },
+          "negative_rate": 0.258065,
+          "negative_or_mixed_rate": 0.258065,
+          "share_of_all_topic_negative_reviews": 0.571429,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.571429,
+          "known_sentiment_share": 0.322581
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0018",
+      "G70-0201",
+      "G70-0331",
+      "G70-0386",
+      "G70-0401",
+      "G70-0461",
+      "G70-0645",
+      "G70-0685",
+      "G70-0833",
+      "G70-0848",
+      "G70-0878",
+      "G70-0929",
+      "G70-0948",
+      "G70-0971",
+      "G70-0980",
+      "G70-1041",
+      "G70-1079",
+      "G70-1218",
+      "G70-1270",
+      "G70-1300",
+      "G70-1362",
+      "G70-1398",
+      "G70-1416",
+      "G70-1502",
+      "G70-1620",
+      "G70-1697",
+      "G70-1931",
+      "G70-1985",
+      "G70-2033",
+      "G70-2038",
+      "G70-2141",
+      "G70-2169",
+      "G70-2217",
+      "G70-2262",
+      "G70-2348",
+      "G70-2500",
+      "G70-2582",
+      "G70-2627",
+      "G70-2629",
+      "G70-2714",
+      "G70-2770",
+      "G70-2778",
+      "G70-2876",
+      "G70-2890",
+      "G70-2996",
+      "G70-3204",
+      "G70-3353",
+      "G70-3503",
+      "G70-3560",
+      "G70-3647",
+      "G70-3735",
+      "G70-3776",
+      "G70-3825"
+    ],
+    "summary": "Feedback about software and remote updates centers on setup, notifications, and update execution, with clear complaints about connection problems and unavailable features but many fragments that only mention updates without enough sentiment context.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Remote Software Updates and Software Issues",
+    "source_title": "software / update / remote",
+    "keywords": [
+      {
+        "term": "software",
+        "weight": 0.246671
+      },
+      {
+        "term": "update",
+        "weight": 0.218245
+      },
+      {
+        "term": "software update",
+        "weight": 0.137208
+      },
+      {
+        "term": "remote software",
+        "weight": 0.069649
+      },
+      {
+        "term": "remote",
+        "weight": 0.059309
+      },
+      {
+        "term": "customer",
+        "weight": 0.046009
+      },
+      {
+        "term": "ota",
+        "weight": 0.038457
+      },
+      {
+        "term": "stated",
+        "weight": 0.032308
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.031898
+      },
+      {
+        "term": "software error",
+        "weight": 0.031121
+      },
+      {
+        "term": "problem",
+        "weight": 0.030452
+      },
+      {
+        "term": "ota update",
+        "weight": 0.028756
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005680",
+        "review_id": "G70-2038",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he has already done one OTA software update and it was easy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007185",
+        "review_id": "G70-2582",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Over-the-air vehicle software update problem: \"having a hard time getting things to connect with the software overall\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007974",
+        "review_id": "G70-2876",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "After two remote software updates",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002398",
+        "review_id": "G70-0878",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the software in this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007696",
+        "review_id": "G70-2770",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer noted they had some software update issues at first,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010538",
+        "review_id": "G70-3776",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer would like BMW to restore the previous interval and feels this should be possible with a software update",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002252",
+        "review_id": "G70-0833",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he got a software update alert in the My BMW APP and then went out to the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005957",
+        "review_id": "G70-2141",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked if any software updates had been performed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002714",
+        "review_id": "G70-0980",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised he should go to Menu > Vehicle > System Settings, then scroll down to find \"Remote Software Update\" and follow the prompts to install, and informed him the vehicle will be unusable for about 20-30 minutes while the update runs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009904",
+        "review_id": "G70-3560",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "my only gripes are with the software",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009304",
+        "review_id": "G70-3353",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that after bringing the vehicle home from delivery he got a notification about a software update",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006055",
+        "review_id": "G70-2169",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the software does get buggy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001249",
+        "review_id": "G70-0461",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer confirmed it will, and that the vehicle will notify when the remote software update is available to install",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007321",
+        "review_id": "G70-2627",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "CUSTOMER STATES VEHICLE UNABLE TO PERFORM REMOTE SOFTWARE UPDATE 11/2022",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002325",
+        "review_id": "G70-0848",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported he tried performing a remote software update,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000035",
+        "review_id": "G70-0018",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer commented that he is disappointed he cannot use the eSIM in this vehicle until it is addressed with the upcoming software update",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 68,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so many mentions of software updates lack enough context to classify the customer attitude.",
+      "Several examples are brief administrative or procedural statements about update alerts, availability, or instructions rather than outcomes.",
+      "This topic includes both general software impressions and specific remote update process comments, so the subject is somewhat broad."
+    ]
+  }
+}

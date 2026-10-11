@@ -1,0 +1,568 @@
+{
+  "topic_id": "T0184",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 15,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "CA": 0.066667,
+      "US": 0.933333
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.6
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.133333,
+        "summary": "Positive reviews praise driver-assistance features as helpful and enjoyable to use.",
+        "evidence_fragment_ids": [
+          "F000484",
+          "F006152"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.133333,
+        "summary": "Negative reviews focus on inadequate documentation for enhanced driving assistance and unclear guidance about using the assistance button.",
+        "evidence_fragment_ids": [
+          "F008862",
+          "F007249"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.733333,
+        "summary": "Undetermined reviews mostly mention roadside assistance availability, dealer help, or assistance-feature references without enough context to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F001723",
+          "F007431",
+          "F002673",
+          "F004851",
+          "F005834",
+          "F007035",
+          "F000979",
+          "F007978",
+          "F001714",
+          "F000351",
+          "F002674",
+          "F005746"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 15,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00375,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.266667
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 18,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 14,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003878,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003984,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.222222
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003966,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0134",
+      "G60-0186",
+      "G60-0356",
+      "G60-0607",
+      "G60-0612",
+      "G60-0949",
+      "G60-1726",
+      "G60-2049",
+      "G60-2081",
+      "G60-2206",
+      "G60-2520",
+      "G60-2585",
+      "G60-2647",
+      "G60-2852",
+      "G60-3168"
+    ],
+    "summary": "This topic combines praise for helpful driver-assistance features, complaints about poor guidance and assistance-button communication, and many mentions of roadside assistance or assistance availability without clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Driver Assistance and Roadside Assistance",
+    "source_title": "assistance / roadside / feature",
+    "keywords": [
+      {
+        "term": "assistance",
+        "weight": 0.302317
+      },
+      {
+        "term": "assistance feature",
+        "weight": 0.161894
+      },
+      {
+        "term": "roadside",
+        "weight": 0.141249
+      },
+      {
+        "term": "roadside assistance",
+        "weight": 0.141249
+      },
+      {
+        "term": "driver assistance",
+        "weight": 0.094759
+      },
+      {
+        "term": "feature",
+        "weight": 0.083506
+      },
+      {
+        "term": "driver",
+        "weight": 0.080952
+      },
+      {
+        "term": "writer advised",
+        "weight": 0.065263
+      },
+      {
+        "term": "assistance dealer",
+        "weight": 0.062621
+      },
+      {
+        "term": "advised",
+        "weight": 0.062227
+      },
+      {
+        "term": "writer",
+        "weight": 0.061257
+      },
+      {
+        "term": "drive assistance",
+        "weight": 0.056333
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000484",
+        "review_id": "G60-0186",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the latest driver assistance features together with the new design of the 2025 5301 make it a joy to drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008862",
+        "review_id": "G60-3168",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the BMW documentation for the enhanced driving assistance features is awful and basically useless, and commented that they learn far more from YouTube than from the manual or anything on the BMW website",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001723",
+        "review_id": "G60-0612",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that Roadside Assistance (RSA) is also available whenever it is needed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006152",
+        "review_id": "G60-2206",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that the driver assistance features are very helpful",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007249",
+        "review_id": "G60-2585",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Writer advised how the button works and that he could use it to call for assistance for breakdowns, accidents, or tire issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007431",
+        "review_id": "G60-2647",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised it is for emergencies or when roadside assistance is needed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005746",
+        "review_id": "G60-2049",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the driver assistance features failed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002673",
+        "review_id": "G60-0949",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked if roadside assistance was available for him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004851",
+        "review_id": "G60-1726",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with all the driving assistance features",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "CA",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005834",
+        "review_id": "G60-2081",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is 75 years old and is not able to change a tire himself, so it would be preferable to be able to keep driving without needing to call for roadside assistance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007035",
+        "review_id": "G60-2520",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that the highway assistance feature has worked very well for him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000979",
+        "review_id": "G60-0356",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised seeking assistance from the dealer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007978",
+        "review_id": "G60-2852",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he keeps getting messages to watch the road while using the Driver Assistance functions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001714",
+        "review_id": "G60-0607",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she is aware she can get assistance from the dealership if needed and feels she has access to everything required to answer her questions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000351",
+        "review_id": "G60-0134",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the last driver had switched the language so I couldn't read the messages",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002674",
+        "review_id": "G60-0949",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer confirmed that he does have roadside assistance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confidence in a more specific sentiment summary.",
+      "This cluster mixes at least two related but distinct subjects: driver-assistance features and roadside or dealer assistance.",
+      "Some undetermined fragments contain potentially evaluative wording, but the assigned sentiment does not provide enough basis to reclassify them."
+    ]
+  }
+}

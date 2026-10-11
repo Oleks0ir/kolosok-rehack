@@ -1,0 +1,44 @@
+{
+  "title": "Selection Reasons and Specifically Noted Features",
+  "summary": "This topic centers on customers specifically highlighting reasons for selecting the vehicle or calling out individual features, but most examples do not provide enough context for a clear sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive feedback specifically praises the autopilot feature as a standout aspect the customer enjoys.",
+      "evidence_fragment_ids": [
+        "F006547"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback appears limited and is represented by a fragment about selecting the massage seat for back issues, which offers too little context to identify a clearer problem with the vehicle itself.",
+      "evidence_fragment_ids": [
+        "F007457"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples mention selection reasons, size, sound options, app capabilities, or partial phrases, but they are too fragmentary or ambiguous for reliable sentiment classification.",
+      "evidence_fragment_ids": [
+        "F004006",
+        "F005803",
+        "F001282",
+        "F005117",
+        "F007198",
+        "F000848",
+        "F006509"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are short or fragmentary, so sentiment and intent are often unclear.",
+    "The cluster mixes several unrelated subjects, including purchase reasons, feature selection, vehicle size, and app functionality.",
+    "Some fragments reference other vehicles or incomplete phrases, limiting topic coherence and interpretation."
+  ]
+}

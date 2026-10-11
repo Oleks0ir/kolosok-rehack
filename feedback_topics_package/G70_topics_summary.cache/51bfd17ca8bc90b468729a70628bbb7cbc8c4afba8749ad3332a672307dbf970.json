@@ -1,0 +1,38 @@
+{
+  "title": "Financial Services and Finance Office",
+  "summary": "Feedback on financial services centers on one clearly positive finance-consultant experience, while most other fragments mention payment reminders, late fees, or the finance office without enough context for a firm sentiment classification.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive review praises a finance consultant for helping find the best financial option.",
+      "evidence_fragment_ids": [
+        "F009477"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention avoiding BMW Financial Services, a missed payment reminder that led to late fees, and the finance office, but the examples are too limited or ambiguously labeled to summarize them as a single clear sentiment.",
+      "evidence_fragment_ids": [
+        "F002611",
+        "F005230",
+        "F003466"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are labeled undetermined, which limits confident interpretation of overall sentiment.",
+    "The topic cluster includes both finance service interactions and a brief reference to the finance office, so the subject matter is only loosely connected.",
+    "Examples are few, and one undetermined fragment is extremely short and lacks enough context to interpret reliably."
+  ]
+}

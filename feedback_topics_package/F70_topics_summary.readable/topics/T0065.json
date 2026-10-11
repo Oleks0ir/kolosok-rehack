@@ -1,0 +1,631 @@
+{
+  "topic_id": "T0065",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 25,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "DK": 0.04,
+      "FR": 0.04,
+      "GB": 0.68,
+      "JP": 0.24
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.12,
+        "summary": "Positive reviews praise BMW as a preferred brand and describe strong brand loyalty or approval.",
+        "evidence_fragment_ids": [
+          "F000013",
+          "F005197"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.2,
+        "summary": "Negative reviews focus on disappointment that a brand-new car fell short of expectations and, in one case, led the owner to consider switching brands.",
+        "evidence_fragment_ids": [
+          "F007463",
+          "F006953",
+          "F005103"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.04,
+        "summary": "The mixed review contrasts a generally strong view of the brand with disappointment about the actual experience.",
+        "evidence_fragment_ids": [
+          "F006272"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 16,
+        "share": 0.64,
+        "summary": "Undetermined reviews mainly mention buying the car brand new or refer to the brand in passing, and the sample is often too brief to infer a clear sentiment about this topic.",
+        "evidence_fragment_ids": [
+          "F004627",
+          "F005731",
+          "F007393",
+          "F000195",
+          "F004313",
+          "F002362",
+          "F001262",
+          "F007192",
+          "F003675",
+          "F002102"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 25,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.011748,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.12,
+            "negative": 0.2,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.64
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.24,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.36
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 17,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.013148,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.235294,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.647059
+          },
+          "negative_rate": 0.235294,
+          "negative_or_mixed_rate": 0.294118,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.352941
+        },
+        "JP": {
+          "review_count": 6,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.008929,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.011748,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.12,
+            "negative": 0.2,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.64
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.24,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.36
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.013148,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.235294,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.647059
+          },
+          "negative_rate": 0.235294,
+          "negative_or_mixed_rate": 0.294118,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.352941
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.008929,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0004",
+      "F70-0052",
+      "F70-0224",
+      "F70-0336",
+      "F70-0376",
+      "F70-0573",
+      "F70-0658",
+      "F70-0876",
+      "F70-1026",
+      "F70-1210",
+      "F70-1289",
+      "F70-1418",
+      "F70-1453",
+      "F70-1490",
+      "F70-1571",
+      "F70-1596",
+      "F70-1628",
+      "F70-1671",
+      "F70-1720",
+      "F70-1744",
+      "F70-1745",
+      "F70-1947",
+      "F70-2018",
+      "F70-2068",
+      "F70-2090"
+    ],
+    "summary": "Reviews in this topic center on buying the car brand new and broader brand expectations, with some praise for BMW’s brand appeal but several comments expressing disappointment that a new car or the brand did not meet expectations.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Brand-new purchase and brand perception",
+    "source_title": "brand / fourth / thinking",
+    "keywords": [
+      {
+        "term": "brand",
+        "weight": 0.457746
+      },
+      {
+        "term": "fourth",
+        "weight": 0.192095
+      },
+      {
+        "term": "thinking",
+        "weight": 0.078803
+      },
+      {
+        "term": "brand disappointing",
+        "weight": 0.055626
+      },
+      {
+        "term": "picked brand",
+        "weight": 0.052826
+      },
+      {
+        "term": "brand especially",
+        "weight": 0.043087
+      },
+      {
+        "term": "disappointing",
+        "weight": 0.043044
+      },
+      {
+        "term": "picked",
+        "weight": 0.037925
+      },
+      {
+        "term": "functioning",
+        "weight": 0.028129
+      },
+      {
+        "term": "works",
+        "weight": 0.027508
+      },
+      {
+        "term": "especially",
+        "weight": 0.026344
+      },
+      {
+        "term": "real",
+        "weight": 0.023587
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000013",
+        "review_id": "F70-0004",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "she absolutely loves it and now understands why i've always said bmw will always be the best brand",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007463",
+        "review_id": "F70-2090",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i am disappointed that this is a brand new car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006272",
+        "review_id": "F70-1745",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "for a brand this good i find that pretty disappointing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004627",
+        "review_id": "F70-1289",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this is the first time i have bought a brand new one for myself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005197",
+        "review_id": "F70-1453",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "display settings also keep changing and i have no idea why, so i just ride thinking it is like that",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006953",
+        "review_id": "F70-1947",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "for a brand new car that has been really disappointing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005731",
+        "review_id": "F70-1596",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the first one i've bought brand new",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007393",
+        "review_id": "F70-2068",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "its a brand new car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000195",
+        "review_id": "F70-0052",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this is my fourth brand new bmw",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004313",
+        "review_id": "F70-1210",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "for us there is only one car brand that really works",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "DK",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002362",
+        "review_id": "F70-0658",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is real brand power",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001262",
+        "review_id": "F70-0336",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "ive picked up 5 brand new bmw cars in the last 5 years",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005103",
+        "review_id": "F70-1418",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i'm so unhappy with it that i'm thinking about selling the car and going for another brand instead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007192",
+        "review_id": "F70-2018",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have had around 35 bmws since i was 26 and now at 57 i can say the 120 really represents the brand well, especially as the entry model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003675",
+        "review_id": "F70-1026",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it is a brand new car, so why is this not functioning properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002102",
+        "review_id": "F70-0573",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "from the moment we picked up the car brand new",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 25,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes purchase-context mentions of a brand-new car with broader statements about brand perception, so not all fragments reflect the same underlying issue.",
+      "Most sampled undetermined fragments are short or contextual mentions, which limits confidence in drawing a more specific topic interpretation."
+    ]
+  }
+}

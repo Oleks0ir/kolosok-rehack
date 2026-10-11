@@ -1,0 +1,656 @@
+{
+  "topic_id": "T0013",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 49,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.061224,
+      "GB": 0.857143,
+      "JP": 0.040816,
+      "SE": 0.040816
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 18,
+        "share": 0.367347,
+        "summary": "Positive reviews praise the automatic gearbox as smooth, seamless, responsive, and well matched to the engine in everyday driving.",
+        "evidence_fragment_ids": [
+          "F001717",
+          "F004634",
+          "F006054",
+          "F002721",
+          "F006876"
+        ]
+      },
+      "negative": {
+        "count": 10,
+        "share": 0.204082,
+        "summary": "Negative reviews criticize the gearbox for feeling less refined than other BMWs, lacking smoothness, and hesitating or hopping between gears when pulling away.",
+        "evidence_fragment_ids": [
+          "F006242",
+          "F001513"
+        ]
+      },
+      "mixed": {
+        "count": 3,
+        "share": 0.061224,
+        "summary": "Mixed reviews combine generally favorable impressions of the car or gearbox with reservations that the automatic does not feel as good or as smooth as expected.",
+        "evidence_fragment_ids": [
+          "F004286",
+          "F004063"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 18,
+        "share": 0.367347,
+        "summary": "Undetermined reviews mention the automatic gearbox or first-time automatic use but do not provide enough clear evaluative context, and some examples appear sentiment-bearing yet remain assigned as undetermined.",
+        "evidence_fragment_ids": [
+          "F003482",
+          "F005149",
+          "F005675",
+          "F002635",
+          "F002469",
+          "F004201",
+          "F001348"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 49,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.023026,
+          "sentiment_counts": {
+            "positive": 18,
+            "negative": 10,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.367347,
+            "negative": 0.204082,
+            "mixed": 0.061224,
+            "neutral": 0.0,
+            "undetermined": 0.367347
+          },
+          "negative_rate": 0.204082,
+          "negative_or_mixed_rate": 0.265306,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.632653
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 3,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.056604,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        },
+        "GB": {
+          "review_count": 42,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.032483,
+          "sentiment_counts": {
+            "positive": 17,
+            "negative": 9,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.404762,
+            "negative": 0.214286,
+            "mixed": 0.071429,
+            "neutral": 0.0,
+            "undetermined": 0.309524
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.9,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.923077,
+          "known_sentiment_share": 0.690476
+        },
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "SE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.1,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.076923,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 49,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.023026,
+          "sentiment_counts": {
+            "positive": 18,
+            "negative": 10,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.367347,
+            "negative": 0.204082,
+            "mixed": 0.061224,
+            "neutral": 0.0,
+            "undetermined": 0.367347
+          },
+          "negative_rate": 0.204082,
+          "negative_or_mixed_rate": 0.265306,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.632653
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.056604,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 42,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.032483,
+          "sentiment_counts": {
+            "positive": 17,
+            "negative": 9,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.404762,
+            "negative": 0.214286,
+            "mixed": 0.071429,
+            "neutral": 0.0,
+            "undetermined": 0.309524
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.9,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.923077,
+          "known_sentiment_share": 0.690476
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.1,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.076923,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0017",
+      "F70-0025",
+      "F70-0142",
+      "F70-0239",
+      "F70-0283",
+      "F70-0329",
+      "F70-0355",
+      "F70-0359",
+      "F70-0413",
+      "F70-0444",
+      "F70-0449",
+      "F70-0475",
+      "F70-0533",
+      "F70-0578",
+      "F70-0652",
+      "F70-0685",
+      "F70-0733",
+      "F70-0753",
+      "F70-0794",
+      "F70-0814",
+      "F70-0833",
+      "F70-0884",
+      "F70-0965",
+      "F70-0988",
+      "F70-1087",
+      "F70-1135",
+      "F70-1181",
+      "F70-1203",
+      "F70-1216",
+      "F70-1251",
+      "F70-1290",
+      "F70-1332",
+      "F70-1345",
+      "F70-1389",
+      "F70-1418",
+      "F70-1437",
+      "F70-1459",
+      "F70-1584",
+      "F70-1639",
+      "F70-1684",
+      "F70-1738",
+      "F70-1902",
+      "F70-1920",
+      "F70-1925",
+      "F70-1947",
+      "F70-1974",
+      "F70-2010",
+      "F70-2078",
+      "F70-2115"
+    ],
+    "summary": "Feedback on the F70 automatic gearbox centers on shift smoothness and driving feel, with clear praise for seamless operation but also complaints about rough or inconsistent gear changes and many comments that are too contextual or contradictory to classify confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Automatic gearbox smoothness",
+    "source_title": "gearbox / automatic / smooth",
+    "keywords": [
+      {
+        "term": "gearbox",
+        "weight": 0.249516
+      },
+      {
+        "term": "automatic",
+        "weight": 0.238972
+      },
+      {
+        "term": "automatic gearbox",
+        "weight": 0.08634
+      },
+      {
+        "term": "smooth",
+        "weight": 0.073145
+      },
+      {
+        "term": "gearbox smooth",
+        "weight": 0.065863
+      },
+      {
+        "term": "engine",
+        "weight": 0.049582
+      },
+      {
+        "term": "incredibly",
+        "weight": 0.038038
+      },
+      {
+        "term": "engine gearbox",
+        "weight": 0.036991
+      },
+      {
+        "term": "gear",
+        "weight": 0.034606
+      },
+      {
+        "term": "drive",
+        "weight": 0.027237
+      },
+      {
+        "term": "automatic transmission",
+        "weight": 0.023963
+      },
+      {
+        "term": "transmission",
+        "weight": 0.022077
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001717",
+        "review_id": "F70-0475",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the automatic gearbox feels very smooth",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006242",
+        "review_id": "F70-1738",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the gearbox just isn't like the other bmw models i've had before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004286",
+        "review_id": "F70-1203",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "the automatic gearbox doesn't feel as good or as smooth as the 330i's",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003482",
+        "review_id": "F70-0965",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i do not know why bmw now only sells an automatic gearbox in the uk,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004634",
+        "review_id": "F70-1290",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "great car with smooth driving, excellent engine and automatic gearbox",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001513",
+        "review_id": "F70-0413",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the automatic gearbox doesnt feel smooth and tends to hop between gears, especially when pulling off, which is quite disappointing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004063",
+        "review_id": "F70-1135",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "great car, comfy, quiet, nice gearbox, really nothing i can say i dislike",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005149",
+        "review_id": "F70-1437",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "its our first automatic, and even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006054",
+        "review_id": "F70-1684",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it drives very nicely, with an excellent automatic gearbox and a smooth, responsive engine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005675",
+        "review_id": "F70-1584",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "first time with an automatic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002635",
+        "review_id": "F70-0733",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the automatic gearbox doesnt change gears quickly enough or properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002469",
+        "review_id": "F70-0685",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my first automatic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004201",
+        "review_id": "F70-1181",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the automatic gearbox is spot on with no delay when changing gear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002721",
+        "review_id": "F70-0753",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "gearbox is smooth and i have no complaits whatsoever",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001348",
+        "review_id": "F70-0359",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the automatic gearbox shifts seamlessly, with paddle changers on the column available if you want them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006876",
+        "review_id": "F70-1925",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i've always had manual gearboxes before, yet this automatic is outstanding and incredibly smooth",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 49,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled fragments are stratified and not representative of all reviews on this topic.",
+      "Many examples are short or incomplete, which limits confidence about the specific gearbox issue being described.",
+      "Some undetermined examples contain evaluative wording, so the assigned labels constrain how precisely they can be summarized."
+    ]
+  }
+}

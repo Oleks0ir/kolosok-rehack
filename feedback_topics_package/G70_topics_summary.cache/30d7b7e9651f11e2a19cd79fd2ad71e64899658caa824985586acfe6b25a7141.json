@@ -1,0 +1,51 @@
+{
+  "title": "Clarifying customer and writer questions",
+  "summary": "This topic is dominated by procedural fragments where writers or customers ask follow-up questions about vehicle features, setup, charging, connectivity, or issue details, with little direct sentiment content.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive examples reflect interest in usability or favorable impressions when asking about what makes the vehicle good or whether a system is comfortable and straightforward to use.",
+      "evidence_fragment_ids": [
+        "F008221",
+        "F011015"
+      ]
+    },
+    "negative": {
+      "summary": "The negative example concerns a writer asking the customer to be present at the vehicle so an issue could be observed, indicating inconvenience around troubleshooting.",
+      "evidence_fragment_ids": [
+        "F008473"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples are mainly information-gathering questions about chargers, screen behavior, account setup, connectivity, size, and requests for more detail without clear praise or complaint.",
+      "evidence_fragment_ids": [
+        "F010822",
+        "F002820",
+        "F010247",
+        "F006372",
+        "F000860",
+        "F002127",
+        "F010654",
+        "F003600",
+        "F003734",
+        "F001124",
+        "F000956",
+        "F005307",
+        "F002555"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined because they capture questions rather than outcomes or evaluations.",
+    "The topic mixes several unrelated subjects, including charging, infotainment, connectivity, vehicle size, and general troubleshooting prompts.",
+    "Known-sentiment examples are sparse, so sentiment-specific conclusions are limited."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Auto-park and parking assistance behavior",
+  "summary": "Feedback centers on auto-park and parking-related automation, with one helpful surround-view comment, some complaints about usability and parking behavior, and several fragments that only mention automatic functions without clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive review says the surround-view feature helps when parking.",
+      "evidence_fragment_ids": [
+        "F005630"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe auto-park as too complicated for simple spaces and criticize how quickly the vehicle moves when trying to park.",
+      "evidence_fragment_ids": [
+        "F010402",
+        "F006701"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention automatic parking prompts, auto-park availability, and other automatic switching behavior without enough context to confirm sentiment or even the same subtopic.",
+      "evidence_fragment_ids": [
+        "F010986",
+        "F011014",
+        "F002534",
+        "F010240",
+        "F001375"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are undetermined, limiting confidence about clear customer sentiment on auto-park.",
+    "The cluster mixes parking assistance with unrelated automatic switching behaviors, such as engine shutoff and seat heating, so it is not fully coherent.",
+    "Some fragments are too brief to tell whether they describe a praise, complaint, or simple feature mention."
+  ]
+}

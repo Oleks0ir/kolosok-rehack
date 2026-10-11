@@ -1,0 +1,622 @@
+{
+  "topic_id": "T0157",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "AU": 0.055556,
+      "KR": 0.111111,
+      "US": 0.833333
+    },
+    "engine_type": {
+      "BEVE": 0.333333,
+      "ICE": 0.666667
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.055556,
+        "summary": "The positive review praises the Apple CarPlay experience as a standout app feature.",
+        "evidence_fragment_ids": [
+          "F007870"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.166667,
+        "summary": "Negative reviews describe music not playing correctly with navigation or Apple Music and a rattling noise triggered at certain audio tones.",
+        "evidence_fragment_ids": [
+          "F005452",
+          "F006282",
+          "F010025"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 14,
+        "share": 0.777778,
+        "summary": "Undetermined fragments mention ongoing radio or music playback, muted or missing audio, pause-control issues, and Apple CarPlay references without enough context to classify sentiment confidently.",
+        "evidence_fragment_ids": [
+          "F006463",
+          "F010846",
+          "F005137",
+          "F005559",
+          "F001754",
+          "F003136",
+          "F003364",
+          "F003877",
+          "F010075",
+          "F004726",
+          "F000150",
+          "F001365"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 18,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0045,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.055556,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        }
+      },
+      "country": {
+        "AU": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 15,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004155,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.066667,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005312,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "AU": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.166667
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004462,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.222222
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0054",
+      "G60-0415",
+      "G60-0486",
+      "G60-0630",
+      "G60-1130",
+      "G60-1199",
+      "G60-1396",
+      "G60-1682",
+      "G60-1831",
+      "G60-1941",
+      "G60-1975",
+      "G60-2252",
+      "G60-2311",
+      "G60-2662",
+      "G60-2815",
+      "G60-3605",
+      "G60-3621",
+      "G60-3894"
+    ],
+    "summary": "This topic centers on music playback, Apple CarPlay, and radio behavior, with clear feedback ranging from praise for Apple CarPlay to complaints about playback problems and many fragments that only mention audio behavior without enough context to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Music playback and Apple CarPlay issues",
+    "source_title": "music / play / playing",
+    "keywords": [
+      {
+        "term": "music",
+        "weight": 0.259379
+      },
+      {
+        "term": "play",
+        "weight": 0.188295
+      },
+      {
+        "term": "playing",
+        "weight": 0.170599
+      },
+      {
+        "term": "apple",
+        "weight": 0.117876
+      },
+      {
+        "term": "apple play",
+        "weight": 0.105112
+      },
+      {
+        "term": "play music",
+        "weight": 0.094509
+      },
+      {
+        "term": "keeps playing",
+        "weight": 0.081496
+      },
+      {
+        "term": "apple music",
+        "weight": 0.066571
+      },
+      {
+        "term": "app",
+        "weight": 0.065327
+      },
+      {
+        "term": "radio",
+        "weight": 0.061055
+      },
+      {
+        "term": "playing music",
+        "weight": 0.060829
+      },
+      {
+        "term": "music playing",
+        "weight": 0.05993
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007870",
+        "review_id": "G60-2815",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the app is fantastic and i absolutly love apple play",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005452",
+        "review_id": "G60-1941",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there's a carplay problem as well: when i play music using the apple music app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006463",
+        "review_id": "G60-2311",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the music keeps playing for a while",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006282",
+        "review_id": "G60-2252",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "we keep having the same problem where music will not play correctly when starting tmap or other navigation apps",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010846",
+        "review_id": "G60-3894",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i know there are other ways to play music,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005137",
+        "review_id": "G60-1831",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when they try to play music via the in-vehicle Spotify app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005559",
+        "review_id": "G60-1975",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the music that was playing gets muted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001754",
+        "review_id": "G60-0630",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when playing music from his phone, via the built-in Spotify app, or from the radio, he cannot find any way to pause it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003136",
+        "review_id": "G60-1130",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he is playing music from the phone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010025",
+        "review_id": "G60-3605",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the rattling has been present from day one and occurs primarily when playing music at certain tones,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003364",
+        "review_id": "G60-1199",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "I play music from an iPod and used to keep it tucked inside the console",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003877",
+        "review_id": "G60-1396",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "afterwards the radio showed that music was playing with no audio coming from the speakers",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010075",
+        "review_id": "G60-3621",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "- with apple car play on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "AU",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004726",
+        "review_id": "G60-1682",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i suspect it has something to do with apple car play",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000150",
+        "review_id": "G60-0054",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that at times when he gets out of the car the radio keeps playing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001365",
+        "review_id": "G60-0486",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the radio keeps playing after the vehicle is switched off, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 18,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the evidence is limited for drawing a clear sentiment pattern.",
+      "This topic mixes infotainment app behavior, Apple CarPlay integration, radio playback behavior, and at least one speaker or trim rattle example triggered by music.",
+      "Samples are stratified and not representative of the full source population."
+    ]
+  }
+}

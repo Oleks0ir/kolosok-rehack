@@ -1,0 +1,644 @@
+{
+  "topic_id": "T0154",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.166667,
+      "US": 0.833333
+    },
+    "engine_type": {
+      "BEVE": 0.166667,
+      "ICE": 0.777778,
+      "PHEV": 0.055556
+    },
+    "sentiment": {
+      "positive": {
+        "count": 6,
+        "share": 0.333333,
+        "summary": "Positive reviews praise lumbar support comfort, vertical adjustability, and how it helps keep occupants positioned in the seat, with a few unrelated compliments about dealer or phone support.",
+        "evidence_fragment_ids": [
+          "F008262",
+          "F006769",
+          "F004546",
+          "F008867",
+          "F001607",
+          "F000925"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.111111,
+        "summary": "Negative reviews describe the driver seat lumbar area as uncomfortable and say the lumbar support cannot be removed or minimized enough for proper back comfort.",
+        "evidence_fragment_ids": [
+          "F009431",
+          "F000138"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.555556,
+        "summary": "Undetermined reviews include ambiguous or context-free mentions of dealer, customer, feature, charging, Android, and electricity support, plus one lumbar complaint that was not assigned a clear overall sentiment.",
+        "evidence_fragment_ids": [
+          "F010827",
+          "F006547",
+          "F002890",
+          "F009771",
+          "F000688",
+          "F008100",
+          "F010948",
+          "F000956"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 18,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0045,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.444444
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 3,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.014634,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 15,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004155,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.4,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.466667
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.533333
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002201,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.006197,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.357143,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.428571
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 19,
+          "topic_prevalence_in_source_segment": 0.052632,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 22,
+          "topic_prevalence_in_source_segment": 0.045455,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.001574,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.006445,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.384615,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.538462
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.461538
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0051",
+      "G60-0225",
+      "G60-0246",
+      "G60-0332",
+      "G60-0346",
+      "G60-0569",
+      "G60-1031",
+      "G60-1629",
+      "G60-2343",
+      "G60-2423",
+      "G60-2901",
+      "G60-2967",
+      "G60-3096",
+      "G60-3170",
+      "G60-3392",
+      "G60-3504",
+      "G60-3887",
+      "G60-3944"
+    ],
+    "summary": "This topic is loosely clustered around seat lumbar support, with positive comments on adjustability and comfort alongside a few complaints that the lumbar cannot be reduced enough, while many other mentions refer to unrelated support topics.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Lumbar support and other support mentions",
+    "source_title": "support / lumbar / seat",
+    "keywords": [
+      {
+        "term": "support",
+        "weight": 0.370925
+      },
+      {
+        "term": "lumbar",
+        "weight": 0.163992
+      },
+      {
+        "term": "lumbar support",
+        "weight": 0.125851
+      },
+      {
+        "term": "phone support",
+        "weight": 0.082057
+      },
+      {
+        "term": "dealer support",
+        "weight": 0.067564
+      },
+      {
+        "term": "customer support",
+        "weight": 0.061832
+      },
+      {
+        "term": "stated lumbar",
+        "weight": 0.056175
+      },
+      {
+        "term": "support feature",
+        "weight": 0.052443
+      },
+      {
+        "term": "seat",
+        "weight": 0.049722
+      },
+      {
+        "term": "dealer",
+        "weight": 0.049191
+      },
+      {
+        "term": "customer",
+        "weight": 0.045109
+      },
+      {
+        "term": "phone",
+        "weight": 0.044556
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008262",
+        "review_id": "G60-2967",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated likes the lumbar support in the seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009431",
+        "review_id": "G60-3392",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated there should be a setting to remove lumbar support entirely and mentioned having to use a very high seat pillow as a workaround",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010827",
+        "review_id": "G60-3887",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the lumbar section can't be flattened, so neither my husband nor i can get proper back support",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006769",
+        "review_id": "G60-2423",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she is pleased with the lumbar support",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000138",
+        "review_id": "G60-0051",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the driver seat is extremely uncomfortable, especially in the lower back area, even with the lumbar turned down to minimum",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006547",
+        "review_id": "G60-2343",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the dealer support",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004546",
+        "review_id": "G60-1629",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes that the lower lumbar support can be adjusted vertically up and down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008867",
+        "review_id": "G60-3170",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he appreciates the lumbar support because it feels supportive and keeps him positioned in the seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001607",
+        "review_id": "G60-0569",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the phone support has been excellent too",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002890",
+        "review_id": "G60-1031",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the one year electricity support",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009771",
+        "review_id": "G60-3504",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i reached out to bmw na customer support, and they just say the dealer has to reproduce it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000688",
+        "review_id": "G60-0246",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that this model does not support that feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008100",
+        "review_id": "G60-2901",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "extra customer support on this would really help",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010948",
+        "review_id": "G60-3944",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i feel android support is still weaker",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000925",
+        "review_id": "G60-0332",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Dealer support is excellent, solidly backed by BMW corporate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000956",
+        "review_id": "G60-0346",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that, based on online information, his phone does not support wireless charging",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 19,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes seat lumbar support with unrelated meanings of support such as dealer support, customer support, phone support, Android support, wireless charging support, and electricity support.",
+      "Many examples are too brief or lack enough context to determine sentiment confidently.",
+      "One lumbar-related complaint appears in the undetermined set, so the sentiment split for seat comfort issues is incomplete."
+    ]
+  }
+}

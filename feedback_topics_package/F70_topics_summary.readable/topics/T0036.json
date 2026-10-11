@@ -1,0 +1,589 @@
+{
+  "topic_id": "T0036",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 33,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.030303,
+      "GB": 0.818182,
+      "JP": 0.151515
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.212121,
+        "summary": "Positive reviews say the car has had no issues or no issue compared with a previous model, supporting willingness to recommend it.",
+        "evidence_fragment_ids": [
+          "F000982",
+          "F001737"
+        ]
+      },
+      "negative": {
+        "count": 17,
+        "share": 0.515152,
+        "summary": "Negative reviews describe multiple or recurring issues, including unresolved faults, software problems, key-related trouble, unpredictability, and an inability to recommend the car.",
+        "evidence_fragment_ids": [
+          "F006845",
+          "F007464",
+          "F002886",
+          "F002058",
+          "F007371",
+          "F001127",
+          "F000117",
+          "F002012",
+          "F001928",
+          "F004584"
+        ]
+      },
+      "mixed": {
+        "count": 5,
+        "share": 0.151515,
+        "summary": "Mixed reviews acknowledge issues such as system misbehavior but frame them as minor or balanced by otherwise good ownership impressions.",
+        "evidence_fragment_ids": [
+          "F005322",
+          "F004616"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.121212,
+        "summary": "Undetermined reviews mention stress or a navigation voice-use problem, but the excerpts are too incomplete to assign a clearer sentiment from the supplied examples.",
+        "evidence_fragment_ids": [
+          "F005861",
+          "F006142"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 33,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.015508,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 17,
+            "mixed": 5,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.212121,
+            "negative": 0.515152,
+            "mixed": 0.151515,
+            "neutral": 0.0,
+            "undetermined": 0.121212
+          },
+          "negative_rate": 0.515152,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.878788
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 1.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.045455,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 27,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.020882,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 15,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.259259,
+            "negative": 0.555556,
+            "mixed": 0.111111,
+            "neutral": 0.0,
+            "undetermined": 0.074074
+          },
+          "negative_rate": 0.555556,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.882353,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.818182,
+          "known_sentiment_share": 0.925926
+        },
+        "JP": {
+          "review_count": 5,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.00744,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.117647,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.136364,
+          "known_sentiment_share": 0.6
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 33,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.015508,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 17,
+            "mixed": 5,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.212121,
+            "negative": 0.515152,
+            "mixed": 0.151515,
+            "neutral": 0.0,
+            "undetermined": 0.121212
+          },
+          "negative_rate": 0.515152,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.878788
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 1.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.045455,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 27,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.020882,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 15,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.259259,
+            "negative": 0.555556,
+            "mixed": 0.111111,
+            "neutral": 0.0,
+            "undetermined": 0.074074
+          },
+          "negative_rate": 0.555556,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.882353,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.818182,
+          "known_sentiment_share": 0.925926
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.00744,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.117647,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.136364,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "F70-0030",
+      "F70-0042",
+      "F70-0048",
+      "F70-0230",
+      "F70-0260",
+      "F70-0266",
+      "F70-0294",
+      "F70-0480",
+      "F70-0530",
+      "F70-0555",
+      "F70-0562",
+      "F70-0566",
+      "F70-0790",
+      "F70-0820",
+      "F70-0832",
+      "F70-0995",
+      "F70-1011",
+      "F70-1133",
+      "F70-1231",
+      "F70-1281",
+      "F70-1286",
+      "F70-1342",
+      "F70-1470",
+      "F70-1490",
+      "F70-1612",
+      "F70-1630",
+      "F70-1633",
+      "F70-1706",
+      "F70-1919",
+      "F70-1938",
+      "F70-2068",
+      "F70-2090",
+      "F70-2110"
+    ],
+    "summary": "Reviews in this topic center on owners reporting multiple general issues, with some saying problems are absent or minor but many describing unresolved faults, software or system misbehavior, and purchase frustration.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "General issues and unresolved faults",
+    "source_title": "issue / happily / appears",
+    "keywords": [
+      {
+        "term": "issue",
+        "weight": 0.446994
+      },
+      {
+        "term": "happily",
+        "weight": 0.079932
+      },
+      {
+        "term": "appears",
+        "weight": 0.077746
+      },
+      {
+        "term": "resolved",
+        "weight": 0.066854
+      },
+      {
+        "term": "caused",
+        "weight": 0.051944
+      },
+      {
+        "term": "issue resolved",
+        "weight": 0.038707
+      },
+      {
+        "term": "design issue",
+        "weight": 0.037427
+      },
+      {
+        "term": "quality issue",
+        "weight": 0.031727
+      },
+      {
+        "term": "soft",
+        "weight": 0.024112
+      },
+      {
+        "term": "various",
+        "weight": 0.024112
+      },
+      {
+        "term": "design",
+        "weight": 0.024105
+      },
+      {
+        "term": "minor",
+        "weight": 0.024002
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000982",
+        "review_id": "F70-0266",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "this was not an issue with my previous model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006845",
+        "review_id": "F70-1919",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "our car is only 3 months old and we already had 2 issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005322",
+        "review_id": "F70-1490",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "it is quite disheartening that there are issues like the system misbehaving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005861",
+        "review_id": "F70-1633",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it has really spoilt things and caused a lot of stress for something that should have been a really exciting purchase",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001737",
+        "review_id": "F70-0480",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the car has had no issues and i'd happily recommend it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007464",
+        "review_id": "F70-2090",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the issue is still unresolved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004616",
+        "review_id": "F70-1286",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "these are minor issues really, otherwise everything is good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006142",
+        "review_id": "F70-1706",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when you try to use voice for the navigation, even if the place name appears on the display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002886",
+        "review_id": "F70-0790",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "is this an issue on all 120s",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002058",
+        "review_id": "F70-0562",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there are more issues,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007371",
+        "review_id": "F70-2068",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "too many issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001127",
+        "review_id": "F70-0294",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "car feels very unpredictable, with various flaws and issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000117",
+        "review_id": "F70-0030",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "ive hit a few issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002012",
+        "review_id": "F70-0555",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "my car has a soft ware issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001928",
+        "review_id": "F70-0530",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "because of this combination of issues i can't fully recommend the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004584",
+        "review_id": "F70-1281",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the key gives me lots of issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 34,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled fragments are dominated by brief generic mentions of 'issues', so the exact underlying components or failure modes are often unspecified.",
+      "Several excerpts are too short or incomplete to determine the precise problem context or full sentiment.",
+      "This topic may mix unrelated problems such as software, key, navigation, and general quality concerns rather than one single coherent issue cluster."
+    ]
+  }
+}

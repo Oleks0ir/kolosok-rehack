@@ -1,0 +1,50 @@
+{
+  "title": "Defect Codes and Complaint Descriptions",
+  "summary": "This topic is dominated by negative service-record fragments listing defect codes and brief complaint descriptions, with examples spanning software faults, audio issues, a loose speaker mount, and one overheating and smoking complaint.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative fragments mainly consist of defect-code entries and short defect descriptions tied to software or equipment faults, audio-system concerns, a loose speaker mount, and a radiator leak with smoking and overheating.",
+      "evidence_fragment_ids": [
+        "F008282",
+        "F005310",
+        "F009524",
+        "F004868",
+        "F003921",
+        "F004698",
+        "F008212",
+        "F003012",
+        "F008143",
+        "F001084",
+        "F005870",
+        "F003539",
+        "F009891",
+        "F004705"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments describe QR-code scanning and BMW ID login steps, but they do not provide enough context to judge satisfaction or failure severity.",
+      "evidence_fragment_ids": [
+        "F007844",
+        "F009854"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many sampled fragments are terse service-record fields containing only defect codes or labels, which limits interpretation of the underlying customer experience.",
+    "The cluster mixes coded defect entries with QR-code and BMW ID workflow notes, so the topic is not fully coherent as a single issue.",
+    "Examples are insufficient to determine how often any specific defect code or complaint type occurs beyond this sample."
+  ]
+}

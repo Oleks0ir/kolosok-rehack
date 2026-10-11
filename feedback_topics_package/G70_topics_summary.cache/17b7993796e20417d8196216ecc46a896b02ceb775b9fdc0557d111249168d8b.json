@@ -1,0 +1,39 @@
+{
+  "title": "Returned status and restarted recovery mentions",
+  "summary": "The topic groups brief service-note fragments about returned fault codes, a vehicle being returned, access problems on return to the vehicle, and functions returning after a restart or app reinstall, without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention returned fault codes, inability to access the vehicle, a car returned to the dealer, and screens or app lists returning after restart or reinstall, but the snippets are too brief to judge owner sentiment.",
+      "evidence_fragment_ids": [
+        "F001071",
+        "F009306",
+        "F001140",
+        "F000197",
+        "F002910",
+        "F009246"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined service-style notes, so the topic lacks explicit evaluative language.",
+    "The cluster mixes several unrelated subjects, including fault codes, vehicle access, dealer return, screen recovery after restart, and app behavior.",
+    "Examples are very brief and provide too little context to identify the underlying issue or customer outcome with confidence."
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "topic_id": "T0151",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.058824,
+      "US": 0.941176
+    },
+    "engine_type": {
+      "BEVE": 0.117647,
+      "ICE": 0.823529,
+      "PHEV": 0.058824
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.294118,
+        "summary": "Positive reviews praise the car as the best they have owned or driven, highlighting driving feel, design, and broad appeal of its technology.",
+        "evidence_fragment_ids": [
+          "F009545",
+          "F010885",
+          "F005153",
+          "F000471",
+          "F006186"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.705882,
+        "summary": "Undetermined fragments mix brief praise-like remarks, enjoyment statements, and some clearly dissatisfied comments, but the sampled excerpts are too short or context-limited to summarize as one consistent sentiment.",
+        "evidence_fragment_ids": [
+          "F010209",
+          "F006613",
+          "F002702",
+          "F009599",
+          "F000600",
+          "F000761",
+          "F000665",
+          "F005792",
+          "F007447",
+          "F005622",
+          "F004165"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 17,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00425,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.294118,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.705882
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.294118
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004219,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.001771,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005452,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00186,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.005339,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.230769,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.769231
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.230769
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0198",
+      "G70-0226",
+      "G70-0239",
+      "G70-0268",
+      "G70-0845",
+      "G70-0973",
+      "G70-1522",
+      "G70-1880",
+      "G70-2014",
+      "G70-2080",
+      "G70-2227",
+      "G70-2373",
+      "G70-2678",
+      "G70-3425",
+      "G70-3443",
+      "G70-3675",
+      "G70-3919"
+    ],
+    "summary": "This topic centers on emphatic owner reactions that often describe the car as highly enjoyable to drive, compliment-worthy, or among the best they have owned, but many fragments are too terse or context-light for a firmer sentiment label.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Honest praise and smile-inducing ownership",
+    "source_title": "honestly / smile / downsides",
+    "keywords": [
+      {
+        "term": "honestly",
+        "weight": 0.520582
+      },
+      {
+        "term": "smile",
+        "weight": 0.138785
+      },
+      {
+        "term": "downsides",
+        "weight": 0.082756
+      },
+      {
+        "term": "drive honestly",
+        "weight": 0.082052
+      },
+      {
+        "term": "compliments",
+        "weight": 0.081067
+      },
+      {
+        "term": "complain",
+        "weight": 0.047161
+      },
+      {
+        "term": "sell",
+        "weight": 0.047161
+      },
+      {
+        "term": "drive",
+        "weight": 0.04606
+      },
+      {
+        "term": "mistake",
+        "weight": 0.044889
+      },
+      {
+        "term": "return",
+        "weight": 0.042351
+      },
+      {
+        "term": "place",
+        "weight": 0.041311
+      },
+      {
+        "term": "way",
+        "weight": 0.038371
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009545",
+        "review_id": "G70-3425",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "this is my fifth 7 series and this one is honestly the best yet",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010209",
+        "review_id": "G70-3675",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it honestly makes me smile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010885",
+        "review_id": "G70-3919",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "and i can honestly say it is the best one ever made",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006613",
+        "review_id": "G70-2373",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i honestly only have compliments for it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002702",
+        "review_id": "G70-0973",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i honestly wouldnt purchase from any other place",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009599",
+        "review_id": "G70-3443",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "honestly i want to return the car :(",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005153",
+        "review_id": "G70-1880",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "best car i've ever driven, honestly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000600",
+        "review_id": "G70-0226",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "honestly, getting this car was a mistake",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000761",
+        "review_id": "G70-0268",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i would not purchase this again and honestly i want to sell it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000665",
+        "review_id": "G70-0239",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i honestly have nothing to complain about",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005792",
+        "review_id": "G70-2080",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the way it drives, honestly everything about it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007447",
+        "review_id": "G70-2678",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "honestly can't think of any downsides",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000471",
+        "review_id": "G70-0198",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the overall design is fantastic, and honestly nothing on the road drives the way a bmw does",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006186",
+        "review_id": "G70-2227",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i honestly feel you have created the best new car, with advanced technology that attracts people of every age group",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005622",
+        "review_id": "G70-2014",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "I get a lot of compliments and it really makes me smile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004165",
+        "review_id": "G70-1522",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it makes me smile every single time i get in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments rely on generic intensifiers such as 'honestly' and very short statements, which limits aspect-level specificity.",
+      "The undetermined set contains conflicting valence, including both praise-like and dissatisfied remarks, so the cluster is not fully coherent as a single sentiment theme.",
+      "Examples are insufficient to determine whether compliments and smile-related comments refer mainly to driving dynamics, styling, ownership experience, or dealership experience in every case."
+    ]
+  }
+}

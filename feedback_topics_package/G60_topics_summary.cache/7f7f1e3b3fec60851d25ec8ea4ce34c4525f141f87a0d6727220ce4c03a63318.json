@@ -1,0 +1,47 @@
+{
+  "title": "Self-Driving and Self-Parking Features",
+  "summary": "Feedback centers on self-driving and self-parking functions, with a few clearly positive comments, one clear complaint about highway assistant usefulness and attentiveness demands, and many fragments that mention the features without enough clarity for firm sentiment assignment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the self-driving or driver-assistance functions as appreciated and satisfying to use.",
+      "evidence_fragment_ids": [
+        "F000479",
+        "F005197"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback questions the usefulness of the self-driving function because it requires constant attention and issues warnings or disengages.",
+      "evidence_fragment_ids": [
+        "F010034"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention self-driving or self-parking as helpful, cool, confusing, below par, or simply not yet used, but the sample does not provide enough consistent context for firm sentiment labeling.",
+      "evidence_fragment_ids": [
+        "F007632",
+        "F001773",
+        "F007056",
+        "F006441",
+        "F008300",
+        "F010108",
+        "F008097",
+        "F001741",
+        "F009873"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are labeled undetermined, which limits confidence in summarizing detailed sentiment patterns.",
+    "The topic mixes self-driving, highway assistant, and self-parking comments, so the examples do not form a fully coherent single feature narrative.",
+    "Several undetermined fragments contain opinion-like wording, but the provided labels prevent treating them as explicit positive or negative evidence."
+  ]
+}

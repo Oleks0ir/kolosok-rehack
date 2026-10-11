@@ -1,0 +1,42 @@
+{
+  "title": "Display appearance and ride smoothness mentions",
+  "summary": "This topic combines unrelated mentions about items appearing on the vehicle display, comparative maintenance impressions, and isolated comments on ride smoothness with many fragments lacking clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive review says another vehicle appeared better maintained and had not experienced problems.",
+      "evidence_fragment_ids": [
+        "F004628"
+      ]
+    },
+    "negative": {
+      "summary": "One negative review says the vehicle was still not as smooth as the customer wanted.",
+      "evidence_fragment_ids": [
+        "F004540"
+      ]
+    },
+    "mixed": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention display behavior for text messages or emails and unclear observations about something not appearing, without enough context to judge sentiment.",
+      "evidence_fragment_ids": [
+        "F009861",
+        "F002598",
+        "F009911",
+        "F003108",
+        "F008797"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes unrelated subjects, including display-message appearance, maintenance comparisons, and ride smoothness.",
+    "Most sampled fragments are too short or context-limited to determine sentiment confidently.",
+    "Examples are insufficient to draw a more specific common issue across the topic."
+  ]
+}

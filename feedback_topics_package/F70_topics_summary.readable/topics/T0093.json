@@ -1,0 +1,525 @@
+{
+  "topic_id": "T0093",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 20,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 0.95,
+      "JP": 0.05
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.1,
+        "summary": "Positive reviews praise helpful dealer staff and very good visit experiences.",
+        "evidence_fragment_ids": [
+          "F002049",
+          "F004772"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.1,
+        "summary": "Negative reviews focus on unresolved problems and continued waiting for wind or software issues to be fixed.",
+        "evidence_fragment_ids": [
+          "F004518",
+          "F005914"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.05,
+        "summary": "Mixed feedback pairs excellent branch service with issues that still needed sorting.",
+        "evidence_fragment_ids": [
+          "F002717"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 15,
+        "share": 0.75,
+        "summary": "Undetermined fragments mostly mention something being sorted, finally resolved, or still unresolved without enough context to classify the overall sentiment.",
+        "evidence_fragment_ids": [
+          "F005186",
+          "F000208",
+          "F005908",
+          "F002733",
+          "F007140",
+          "F004680",
+          "F001220",
+          "F006571",
+          "F001089",
+          "F001965",
+          "F000593"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 20,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.009398,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.1,
+            "mixed": 0.05,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 19,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.014695,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.105263,
+            "negative": 0.105263,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.105263,
+          "negative_or_mixed_rate": 0.157895,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.263158
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.001488,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.009398,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.1,
+            "mixed": 0.05,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 19,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.014695,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.105263,
+            "negative": 0.105263,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.105263,
+          "negative_or_mixed_rate": 0.157895,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.263158
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.001488,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0055",
+      "F70-0161",
+      "F70-0285",
+      "F70-0324",
+      "F70-0537",
+      "F70-0561",
+      "F70-0562",
+      "F70-0752",
+      "F70-0756",
+      "F70-0768",
+      "F70-1264",
+      "F70-1304",
+      "F70-1330",
+      "F70-1392",
+      "F70-1448",
+      "F70-1645",
+      "F70-1649",
+      "F70-1833",
+      "F70-1882",
+      "F70-2001"
+    ],
+    "summary": "This topic centers on dealer visits and whether issues were eventually resolved, but most sampled fragments are too brief or context-poor to determine clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Issue resolution and dealer visits",
+    "source_title": "sorted / finally / visit",
+    "keywords": [
+      {
+        "term": "sorted",
+        "weight": 0.345444
+      },
+      {
+        "term": "finally",
+        "weight": 0.211775
+      },
+      {
+        "term": "visit",
+        "weight": 0.097227
+      },
+      {
+        "term": "issue sorted",
+        "weight": 0.076274
+      },
+      {
+        "term": "waiting",
+        "weight": 0.066128
+      },
+      {
+        "term": "issue",
+        "weight": 0.048209
+      },
+      {
+        "term": "finally sorted",
+        "weight": 0.045918
+      },
+      {
+        "term": "happend",
+        "weight": 0.040145
+      },
+      {
+        "term": "hopefully",
+        "weight": 0.039269
+      },
+      {
+        "term": "relatives",
+        "weight": 0.03367
+      },
+      {
+        "term": "released",
+        "weight": 0.032945
+      },
+      {
+        "term": "back",
+        "weight": 0.031663
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002049",
+        "review_id": "F70-0561",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the people i have dealt with at colwards have been very helpful on each visit as usual",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004518",
+        "review_id": "F70-1264",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it would be a 10 if i wasn't still waiting for the wind issue to be sorted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002717",
+        "review_id": "F70-0752",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "excellent service from the brighton bmw branch and any issues were sorted well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005186",
+        "review_id": "F70-1448",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and it's still not sorted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004772",
+        "review_id": "F70-1330",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "my visit to the dealer was fantastic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005914",
+        "review_id": "F70-1649",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i am still waiting for a software issue to be sorted out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000208",
+        "review_id": "F70-0055",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it will get sorted out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005908",
+        "review_id": "F70-1645",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it was finally sorted out and now it seems to be running fine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002733",
+        "review_id": "F70-0756",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i was told on the last visit that this had been sorted,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007140",
+        "review_id": "F70-2001",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this only got sorted properly once i finally spoke to someone who actually understood what i was asking for",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004680",
+        "review_id": "F70-1304",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "thankfully it sorted itself out the next day and hasn't happend again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001220",
+        "review_id": "F70-0324",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "hopefully it is now sorted,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006571",
+        "review_id": "F70-1833",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it took two separate visits before those things were finally sorted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001089",
+        "review_id": "F70-0285",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "other relatives / friends are already sorted with their own cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001965",
+        "review_id": "F70-0537",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "t sorted for more than 2 months, which spoiled the whole experience",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000593",
+        "review_id": "F70-0161",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "finally",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are short and lack enough surrounding context for reliable sentiment interpretation.",
+      "The topic includes loosely connected mentions of visits, issue resolution, waiting, and even unrelated references such as relatives' cars, so the cluster is not fully coherent.",
+      "The examples are stratified samples and are not representative estimates of overall customer experience."
+    ]
+  }
+}

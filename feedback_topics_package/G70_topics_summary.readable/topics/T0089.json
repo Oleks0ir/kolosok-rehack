@@ -1,0 +1,579 @@
+{
+  "topic_id": "T0089",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 26,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.269231,
+      "ICE": 0.615385,
+      "PHEV": 0.115385
+    },
+    "sentiment": {
+      "positive": {
+        "count": 11,
+        "share": 0.423077,
+        "summary": "Positive reviews praise the usefulness of the personal assistant for voice commands and navigation, and they like the highway assistant for convenient hands-free driving support.",
+        "evidence_fragment_ids": [
+          "F000139",
+          "F009629",
+          "F009260",
+          "F010870",
+          "F004366",
+          "F004948",
+          "F008100",
+          "F010808",
+          "F003730"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.076923,
+        "summary": "Negative reviews describe dissatisfaction with the personal assistant or voice assistant, though the examples are limited and one conflicts with its assigned sentiment.",
+        "evidence_fragment_ids": [
+          "F005254",
+          "F007840"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.038462,
+        "summary": "The mixed review says the intelligent voice assistant is present but struggles to understand commands, especially for climate control tasks.",
+        "evidence_fragment_ids": [
+          "F008105"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.461538,
+        "summary": "Undetermined reviews mention recognition problems, missing highway assistant content, or questions about the assistant without a clear overall sentiment.",
+        "evidence_fragment_ids": [
+          "F007629",
+          "F003400",
+          "F001814",
+          "F002328"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 26,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0065,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.423077,
+            "negative": 0.076923,
+            "mixed": 0.038462,
+            "neutral": 0.0,
+            "undetermined": 0.461538
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.115385,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.538462
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 26,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006857,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.423077,
+            "negative": 0.076923,
+            "mixed": 0.038462,
+            "neutral": 0.0,
+            "undetermined": 0.461538
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.115385,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.538462
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0062,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.0,
+            "mixed": 0.142857,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.428571
+        },
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.006231,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.5625,
+            "negative": 0.0625,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.375
+          },
+          "negative_rate": 0.0625,
+          "negative_or_mixed_rate": 0.0625,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.625
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.006512,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.0,
+            "mixed": 0.142857,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.428571
+        },
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.006571,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.5625,
+            "negative": 0.0625,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.375
+          },
+          "negative_rate": 0.0625,
+          "negative_or_mixed_rate": 0.0625,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.625
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.010638,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0075",
+      "G70-0669",
+      "G70-0738",
+      "G70-0793",
+      "G70-0849",
+      "G70-0950",
+      "G70-1148",
+      "G70-1224",
+      "G70-1359",
+      "G70-1432",
+      "G70-1530",
+      "G70-1601",
+      "G70-1807",
+      "G70-1908",
+      "G70-2744",
+      "G70-2824",
+      "G70-2910",
+      "G70-2913",
+      "G70-2914",
+      "G70-3331",
+      "G70-3403",
+      "G70-3456",
+      "G70-3537",
+      "G70-3572",
+      "G70-3885",
+      "G70-3913"
+    ],
+    "summary": "Feedback centers on satisfaction with the personal assistant and highway assistant features, alongside some reports of weak voice recognition or command understanding and many comments that are descriptive rather than clearly evaluative.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Personal Assistant and Highway Assistant Feedback",
+    "source_title": "assistant / personal / highway",
+    "keywords": [
+      {
+        "term": "assistant",
+        "weight": 0.297022
+      },
+      {
+        "term": "personal assistant",
+        "weight": 0.150514
+      },
+      {
+        "term": "personal",
+        "weight": 0.123078
+      },
+      {
+        "term": "highway",
+        "weight": 0.107541
+      },
+      {
+        "term": "highway assistant",
+        "weight": 0.104041
+      },
+      {
+        "term": "voice assistant",
+        "weight": 0.068193
+      },
+      {
+        "term": "drive assistant",
+        "weight": 0.059443
+      },
+      {
+        "term": "customer",
+        "weight": 0.054926
+      },
+      {
+        "term": "stated highway",
+        "weight": 0.053794
+      },
+      {
+        "term": "voice",
+        "weight": 0.050237
+      },
+      {
+        "term": "drive",
+        "weight": 0.047612
+      },
+      {
+        "term": "active",
+        "weight": 0.038649
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000139",
+        "review_id": "G70-0075",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported she really likes the new version of the personal assistant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005254",
+        "review_id": "G70-1908",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the bmw personal assistant in this 760 is awful",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008105",
+        "review_id": "G70-2914",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer stated the intelligent voice assistant has poor understanding of their commands, especially for climate control tasks like turning on the passenger side controls",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007629",
+        "review_id": "G70-2744",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the microphone for the personal assistant initially did not seem to recognize him very often,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009629",
+        "review_id": "G70-3456",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes using the highway assistant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007840",
+        "review_id": "G70-2824",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the voice assistant is better now and really helps make up for the lack of buttons",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003400",
+        "review_id": "G70-1224",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer compared the 2024 package with his present package and explained the older car had Driving Assistant Pro with Highway Assistant, which is not included on the current vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009260",
+        "review_id": "G70-3331",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer sais he makes regular use of his personal assistant and finds it extremely helpful for getting around",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010870",
+        "review_id": "G70-3913",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he enjoys using the highway assistant since it makes the vehicle drive itself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004366",
+        "review_id": "G70-1601",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that having the Highway assistant feature in the vehicle is something he likes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004948",
+        "review_id": "G70-1807",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really likes that he can tell the personal assistant \"Roll down my window\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008100",
+        "review_id": "G70-2910",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customers mentioned they appreciate the Highway Assistant and Active Driving Assistant Pro for hands-free driving on long road trips, noting the car does a very good job driving itself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001814",
+        "review_id": "G70-0669",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer states the Intelligent Personal Assistant does not seem to pick up on their northeastern accent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010808",
+        "review_id": "G70-3885",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they really enjoy the personal assistant and appreciate being able to use it much like siri",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003730",
+        "review_id": "G70-1359",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes the Highway Assistant, referring to it as the \"self-driving\" feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002328",
+        "review_id": "G70-0849",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer inquired what the personal assistant option in the iDrive menu was for",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 29,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are undetermined, which limits clarity about overall sentiment within the topic.",
+      "The topic mixes two related but distinct subjects, personal/voice assistant behavior and highway assistant driving support.",
+      "One negative example contains positive wording, so the sampled evidence for negative sentiment is limited and partly inconsistent with the assigned label.",
+      "Only a subset of topic fragments was provided as examples, so some concrete themes may be missing."
+    ]
+  }
+}

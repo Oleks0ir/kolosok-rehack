@@ -1,0 +1,39 @@
+{
+  "title": "Customer attempts and trial-status notes",
+  "summary": "The topic consists of brief service-note fragments about attempted actions, trial status, and operating conditions without enough context to determine customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention customers planning another attempt, uncertainty about a prior trial, a note about not pulling to the shoulder, and a question about whether the engine was running, but they do not provide enough context to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F009992",
+        "F000501",
+        "F009820",
+        "F007603",
+        "F006711",
+        "F005403"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so the topic lacks explicit evaluative language.",
+    "The examples are short and partly context-free, which limits interpretation of the underlying issue.",
+    "The cluster mixes several loosely related subjects, including repeated attempts, trial activation, shoulder-pull behavior, and engine-running conditions."
+  ]
+}

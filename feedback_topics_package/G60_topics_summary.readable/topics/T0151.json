@@ -1,0 +1,616 @@
+{
+  "topic_id": "T0151",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "SE": 0.055556,
+      "US": 0.944444
+    },
+    "engine_type": {
+      "BEVE": 0.555556,
+      "ICE": 0.388889,
+      "PHEV": 0.055556
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.277778,
+        "summary": "Negative reviews describe the rear defroster or wipers not clearing the rear window effectively, especially in rain or taking too long to clear visibility.",
+        "evidence_fragment_ids": [
+          "F010473",
+          "F000413",
+          "F001285",
+          "F009475",
+          "F001019"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.722222,
+        "summary": "Undetermined reviews use \"clear\" across unrelated contexts such as unclear package contents, unclear process or contract explanations, mirror visibility, steering behavior, and call or audio clarity, so examples are insufficient for a single sentiment-consistent theme.",
+        "evidence_fragment_ids": [
+          "F004115",
+          "F010567",
+          "F005593",
+          "F000098",
+          "F004020",
+          "F009773",
+          "F008251",
+          "F008411"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 18,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0045,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.277778,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.722222
+          },
+          "negative_rate": 0.277778,
+          "negative_or_mixed_rate": 0.277778,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.277778
+        }
+      },
+      "country": {
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 28,
+          "topic_prevalence_in_source_segment": 0.035714,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 17,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004709,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.294118,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.705882
+          },
+          "negative_rate": 0.294118,
+          "negative_or_mixed_rate": 0.294118,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.294118
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.007337,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.3
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.285714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "SE": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 14,
+          "topic_prevalence_in_source_segment": 0.071429,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007081,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.285714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0034",
+      "G60-0161",
+      "G60-0372",
+      "G60-0461",
+      "G60-0849",
+      "G60-1449",
+      "G60-1476",
+      "G60-1567",
+      "G60-1987",
+      "G60-2217",
+      "G60-2642",
+      "G60-2964",
+      "G60-3013",
+      "G60-3272",
+      "G60-3409",
+      "G60-3504",
+      "G60-3757",
+      "G60-3797"
+    ],
+    "summary": "This topic mostly mixes rear window clearing complaints with many unrelated uses of the word \"clear,\" so the dominant coherent issue is limited rear defroster or wiper effectiveness while many other fragments are too context-dependent to summarize as one theme.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Rear window clearing and unclear process references",
+    "source_title": "clear / packages / process",
+    "keywords": [
+      {
+        "term": "clear",
+        "weight": 0.434398
+      },
+      {
+        "term": "packages",
+        "weight": 0.078998
+      },
+      {
+        "term": "clear window",
+        "weight": 0.073722
+      },
+      {
+        "term": "process",
+        "weight": 0.065277
+      },
+      {
+        "term": "window",
+        "weight": 0.065174
+      },
+      {
+        "term": "problem",
+        "weight": 0.05722
+      },
+      {
+        "term": "crystal",
+        "weight": 0.055484
+      },
+      {
+        "term": "effectively",
+        "weight": 0.053788
+      },
+      {
+        "term": "wipers clear",
+        "weight": 0.045743
+      },
+      {
+        "term": "window effectively",
+        "weight": 0.041153
+      },
+      {
+        "term": "rear",
+        "weight": 0.037707
+      },
+      {
+        "term": "problem rear",
+        "weight": 0.0374
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001019",
+        "review_id": "G60-0372",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there are some clear problems:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004115",
+        "review_id": "G60-1476",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "was not clear on what it actually did",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010473",
+        "review_id": "G60-3757",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Rear defroster - Doesn't clear window effectively: \"takes ages to clear window\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010567",
+        "review_id": "G60-3797",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "was not clear on the process",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009132",
+        "review_id": "G60-3272",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the area is clear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008411",
+        "review_id": "G60-3013",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with the radio off it is very clear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005593",
+        "review_id": "G60-1987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the view from this mirror is not clear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007406",
+        "review_id": "G60-2642",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer was very clear that he repeats this process every time he starts a trip",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000413",
+        "review_id": "G60-0161",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Rear defroster - Doesn't clear window effectively: \"the rear window does not get cleared as well as it did on my prior model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001285",
+        "review_id": "G60-0461",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Rear wiper doesn't clear window effectively: \"needs a rear wiper blade system, when the glass is dirty or its raining hard I cn not see out of the rear window at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009475",
+        "review_id": "G60-3409",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the wipers still do not clear the window very well in the rain",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000098",
+        "review_id": "G60-0034",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it wasn't really clear that these features weren't actually included when you buy the equipment packages",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "SE",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004020",
+        "review_id": "G60-1449",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "no one is clear or very specific when they talk about the contract",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002390",
+        "review_id": "G60-0849",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he already has several clear photos and will submit them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009773",
+        "review_id": "G60-3504",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "small lane adjustments are hard because there's no clear pattern: sometimes the wheel moves smoothly, other times it doesn't",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008251",
+        "review_id": "G60-2964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Phone call quality is crystal clear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 19,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes unrelated subjects linked mainly by the word \"clear,\" so only the rear window clearing complaints form a coherent negative issue.",
+      "Most sampled fragments are undetermined, which limits confidence in drawing one unified customer theme beyond the specific rear defroster and wiper examples.",
+      "Some negative evidence is generic rather than descriptive, such as a fragment that only states there are \"clear problems.\""
+    ]
+  }
+}

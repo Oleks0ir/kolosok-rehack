@@ -1,0 +1,40 @@
+{
+  "title": "TCB checks and basic OK-status notes",
+  "summary": "This topic mixes terse OK-status checks with a smaller set of negative TCB-related fault notes, so the examples do not form a single coherent customer issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews mention an unresponsive TCB and one faintly unfavorable comment about the vehicle's look.",
+      "evidence_fragment_ids": [
+        "F008150",
+        "F006101"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are brief confirmations that checks, heating, or opening and closing functions were OK, without clear praise or complaint.",
+      "evidence_fragment_ids": [
+        "F000201",
+        "F004103",
+        "F003553",
+        "F007571"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes unrelated subjects, including TCB diagnostics, appearance, heating, and door or flap operation.",
+    "Several examples are extremely brief status notes, which limits interpretation of customer intent or severity.",
+    "One negative-assigned review includes a diagnostic fragment marked undetermined at fragment level, so the exact complaint context is incomplete."
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "format": "kolosok-data-library",
+  "schema_version": 1,
+  "created_at": "2026-10-11T07:17:11+00:00",
+  "version_scope": "all_versions",
+  "current_version_rule": "MAX(version_number) per dataset_id",
+  "jsonl_json_columns": "Columns ending in _json are nested objects in JSONL; serialize them as JSON text when importing into SQL.",
+  "validation": {
+    "status": "ok",
+    "datasets": 8,
+    "counts": {
+      "datasets": 8,
+      "dataset_versions": 8,
+      "sheets": 8,
+      "source_rows": 14792,
+      "reviews": 10128,
+      "review_rows": 13771,
+      "sales_observations": 36,
+      "study_observations": 1833,
+      "document_pages": 78,
+      "import_issues": 6,
+      "analysis_runs": 1,
+      "analysis_topics": 460,
+      "topic_reviews": 6906,
+      "fragments": 7596
+    }
+  },
+  "files": [
+    {
+      "path": "datasets.jsonl",
+      "sha256": "aacaa17e50a3a7163882f1c1e3059670275d8c1dcaf31a17d6ce1cd12ae6e1dd",
+      "bytes": 1189,
+      "records": 8
+    },
+    {
+      "path": "dataset_versions.jsonl",
+      "sha256": "475bd5f15cdddc428835476efd1b41e94cea2dc2670e9641046ffbb0cb5cef71",
+      "bytes": 3079,
+      "records": 8
+    },
+    {
+      "path": "sheets.jsonl",
+      "sha256": "e60b79a2ea25f7283e9ca30d24a2970738d455d988e999fdcb0416f2a82c6eca",
+      "bytes": 1345,
+      "records": 8
+    },
+    {
+      "path": "source_rows.jsonl",
+      "sha256": "d951a2f210ca95fb4f5ee3bb55fce423a886d226aeb4f5a52c6ae24cab62c80e",
+      "bytes": 16499859,
+      "records": 14792
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "201485e8ff02b3e9cf1c4fcaf844804c4f79417ba011b8e2c9fba70c1beae773",
+      "bytes": 7188864,
+      "records": 10128
+    },
+    {
+      "path": "review_rows.jsonl",
+      "sha256": "7a63e4cb0acd074494cc7dd431f0b2b35bbe0a5bb2206d90096428bc3b6aa0b0",
+      "bytes": 2158735,
+      "records": 13771
+    },
+    {
+      "path": "sales_observations.jsonl",
+      "sha256": "9bdca2b8ff029e564882c496ada3a9324fa384674bbb1fffaf3703c7b4fd73ea",
+      "bytes": 9935,
+      "records": 36
+    },
+    {
+      "path": "study_observations.jsonl",
+      "sha256": "46c798130165632d034f6c51b13d6cf2a92db323eb7ecb78279148bcf6ab2403",
+      "bytes": 740064,
+      "records": 1833
+    },
+    {
+      "path": "document_pages.jsonl",
+      "sha256": "ec1ebe31bb518617e30aecc39f388a6f33d59d876e065af5313560726c65259b",
+      "bytes": 133467,
+      "records": 78
+    },
+    {
+      "path": "import_issues.jsonl",
+      "sha256": "7d19aef93dbe8518dc5e8998500ca5187541bacc87f5ea63729e6cb58ce96ab5",
+      "bytes": 2001,
+      "records": 6
+    },
+    {
+      "path": "analysis_runs.jsonl",
+      "sha256": "890b605891e055877662e4367fd0423261127536a189afac448e7d242f1373ec",
+      "bytes": 37635,
+      "records": 1
+    },
+    {
+      "path": "analysis_topics.jsonl",
+      "sha256": "d6e3852da55ba3fda9e6cb7521bea73d66a78bd93ffed71f6b1c5501c707782a",
+      "bytes": 4050750,
+      "records": 460
+    },
+    {
+      "path": "topic_reviews.jsonl",
+      "sha256": "3c7a30428ce12abbf3b557c651ccb641d57c000a12d4d6b8838c9ad5ef700da3",
+      "bytes": 1368708,
+      "records": 6906
+    },
+    {
+      "path": "fragments.jsonl",
+      "sha256": "b8b2f10a9a603b3465e03d24441839043df9a152d67c8a480aec3b54b4e46b42",
+      "bytes": 4049892,
+      "records": 7596
+    },
+    {
+      "path": "assets/21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463.json",
+      "sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+      "bytes": 7010754,
+      "records": null
+    },
+    {
+      "path": "assets/3d1198d1753dad617035e94d77944f0aba9d8641bdf86727ed90c1397ee5f345.json",
+      "sha256": "3d1198d1753dad617035e94d77944f0aba9d8641bdf86727ed90c1397ee5f345",
+      "bytes": 9452498,
+      "records": null
+    },
+    {
+      "path": "assets/43db87dd0b52412a8912069a45c97b3b15900b5a00d3b79a5ec65ddcee1f49cf.xlsx",
+      "sha256": "43db87dd0b52412a8912069a45c97b3b15900b5a00d3b79a5ec65ddcee1f49cf",
+      "bytes": 22544,
+      "records": null
+    },
+    {
+      "path": "assets/60d1c9932283bc244661ce9cd6c825099714d855bc4f3b9f1544d49a80821cf1.xlsx",
+      "sha256": "60d1c9932283bc244661ce9cd6c825099714d855bc4f3b9f1544d49a80821cf1",
+      "bytes": 629749,
+      "records": null
+    },
+    {
+      "path": "assets/651f09e3d899eb6fd294ee89aee23cc41417030425ec19420fbf615ad798163e.xlsx",
+      "sha256": "651f09e3d899eb6fd294ee89aee23cc41417030425ec19420fbf615ad798163e",
+      "bytes": 483037,
+      "records": null
+    },
+    {
+      "path": "assets/652386b8ccea0bec0e9f9b4648e6a971f1dc19d32e26c50111614153701bff17.xlsx",
+      "sha256": "652386b8ccea0bec0e9f9b4648e6a971f1dc19d32e26c50111614153701bff17",
+      "bytes": 53677,
+      "records": null
+    },
+    {
+      "path": "assets/77be9d9cb39db058928e8f6a1a02ae1ec4e2055afde1235751466b5c97b524f0.pdf",
+      "sha256": "77be9d9cb39db058928e8f6a1a02ae1ec4e2055afde1235751466b5c97b524f0",
+      "bytes": 2312312,
+      "records": null
+    },
+    {
+      "path": "assets/97ee14fae6239473f125d72518b710d72e3a7c5481c2e6b635d3c1f289a2669d.pdf",
+      "sha256": "97ee14fae6239473f125d72518b710d72e3a7c5481c2e6b635d3c1f289a2669d",
+      "bytes": 2550313,
+      "records": null
+    },
+    {
+      "path": "assets/e7823aecbb4cc2b8b267ea65a0f128f464fc241719791082c30979dcb885635d.pdf",
+      "sha256": "e7823aecbb4cc2b8b267ea65a0f128f464fc241719791082c30979dcb885635d",
+      "bytes": 1939165,
+      "records": null
+    },
+    {
+      "path": "assets/ffaeb3ab943d299380542c228b3d944ed749bc80af54c75aa30a5e84b221d34f.xlsx",
+      "sha256": "ffaeb3ab943d299380542c228b3d944ed749bc80af54c75aa30a5e84b221d34f",
+      "bytes": 722857,
+      "records": null
+    },
+    {
+      "path": "assets.jsonl",
+      "sha256": "492436985be84658db79b093adcbc9e34da6c049656dd55a64e26d0487075050",
+      "bytes": 2037,
+      "records": 10
+    },
+    {
+      "path": "schema.sql",
+      "sha256": "5e04637ef903ca16d028b4e091ddeabe8b7427205afb443732c85469e369e077",
+      "bytes": 6740,
+      "records": null
+    },
+    {
+      "path": "schema.json",
+      "sha256": "60e551c2151c73a44f8e54a75f19d2bfa45f8c73f731698c8e92e8488288da22",
+      "bytes": 26822,
+      "records": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "b3571bedcff6b0e4de28e63516cbffa84f41c835c3055dd9e9c34f383d0f79bf",
+      "bytes": 10124,
+      "records": null
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "d3e38d0f3b4a0c549e1d01f6ddeb885f684b76539fbb29d38846ce7a8c4bae8f",
+      "bytes": 1651,
+      "records": null
+    },
+    {
+      "path": "library.sqlite",
+      "sha256": "5db33e33912fbb5b94baa2972133f57a9496965682932a333f03b75fa784411b",
+      "bytes": 67698688,
+      "records": null
+    }
+  ]
+}

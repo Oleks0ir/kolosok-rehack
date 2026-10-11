@@ -1,0 +1,642 @@
+{
+  "topic_id": "T0178",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.1875,
+      "US": 0.8125
+    },
+    "engine_type": {
+      "BEVE": 0.0625,
+      "ICE": 0.6875,
+      "PHEV": 0.25
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.0625,
+        "summary": "The positive review says a feature works well enough, but the sample is too limited to identify a broader concrete strength.",
+        "evidence_fragment_ids": [
+          "F009990"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 2,
+        "share": 0.125,
+        "summary": "Mixed reviews describe functions that technically work but have poor execution, including brake feel that seems grabby and a feature that works yet compares unfavorably to clearer alerts in cheaper vehicles.",
+        "evidence_fragment_ids": [
+          "F001990",
+          "F001800"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.8125,
+        "summary": "Undetermined fragments mention varied systems working properly or inconsistently, such as voice commands, Siri, ADAS, charging displays, freeway-limited features, and a foot-kick opener that works less than half the time, but many are too brief or context-limited for firm sentiment assignment.",
+        "evidence_fragment_ids": [
+          "F008646",
+          "F007005",
+          "F004695",
+          "F004217",
+          "F008771",
+          "F005950",
+          "F000685",
+          "F007051",
+          "F009919",
+          "F002937",
+          "F001169",
+          "F006733",
+          "F002728"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 16,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.004,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0625,
+            "negative": 0.0,
+            "mixed": 0.125,
+            "neutral": 0.0,
+            "undetermined": 0.8125
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1875
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 3,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.014634,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.333333
+        },
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.003601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.153846,
+            "neutral": 0.0,
+            "undetermined": 0.846154
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.153846
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.000734,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.004869,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.0,
+            "mixed": 0.181818,
+            "neutral": 0.0,
+            "undetermined": 0.727273
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.181818,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.272727
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.010582,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 22,
+          "topic_prevalence_in_source_segment": 0.045455,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.000787,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004462,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.222222,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.222222,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.222222
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0244",
+      "G60-0415",
+      "G60-0644",
+      "G60-0704",
+      "G60-0969",
+      "G60-1045",
+      "G60-1518",
+      "G60-1679",
+      "G60-2116",
+      "G60-2409",
+      "G60-2508",
+      "G60-2524",
+      "G60-3098",
+      "G60-3129",
+      "G60-3564",
+      "G60-3592"
+    ],
+    "summary": "This topic combines several unrelated feature-operation comments, including voice functions, ADAS behavior, tailgate operation, braking feel, and other systems, with many fragments too brief or context-limited for clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Feature operation and grabbing feel",
+    "source_title": "works / grabbing / feature",
+    "keywords": [
+      {
+        "term": "works",
+        "weight": 0.352505
+      },
+      {
+        "term": "feature works",
+        "weight": 0.096659
+      },
+      {
+        "term": "system works",
+        "weight": 0.07765
+      },
+      {
+        "term": "grabbing",
+        "weight": 0.075753
+      },
+      {
+        "term": "works half",
+        "weight": 0.070871
+      },
+      {
+        "term": "feature",
+        "weight": 0.066703
+      },
+      {
+        "term": "half",
+        "weight": 0.057483
+      },
+      {
+        "term": "voice",
+        "weight": 0.044005
+      },
+      {
+        "term": "siri",
+        "weight": 0.043834
+      },
+      {
+        "term": "system",
+        "weight": 0.043569
+      },
+      {
+        "term": "short",
+        "weight": 0.038111
+      },
+      {
+        "term": "technically",
+        "weight": 0.03804
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009990",
+        "review_id": "G60-3592",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it works well enough as a first half,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001990",
+        "review_id": "G60-0704",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "the braking, while it technically works, feels terrible, like it's grabbing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008646",
+        "review_id": "G60-3098",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it still only works about 50% of the time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001800",
+        "review_id": "G60-0644",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer commented that this type of feature works well in less expensive vehicles like Kia, where there are clear audible alerts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007005",
+        "review_id": "G60-2508",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer reported that the voice comand feature works very well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004695",
+        "review_id": "G60-1679",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "customer reported that after he turned off the \"listen always\" option, he could use the voice button on the steering wheel and then the feature works properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004217",
+        "review_id": "G60-1518",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "works very well for short-distance use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008771",
+        "review_id": "G60-3129",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned the system works seamlessly with no jolts or sensation of someone bumping the car from behind, and noted this is a big improvement over other cars where the transition felt rough and obvious",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005950",
+        "review_id": "G60-2116",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer verified he understood how the system works",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000685",
+        "review_id": "G60-0244",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the feature only works on controlled access freeways and confirmed that it is currently operating properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007051",
+        "review_id": "G60-2524",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that changing the connection from Bluetooth to Apple CarPlay slightly alters how the system works",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009919",
+        "review_id": "G60-3564",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the foot kick opening works for him less than half the time and he finds it ineffective",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002937",
+        "review_id": "G60-1045",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the charging-related features it displays, is exceptional and that it all works very well for him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001169",
+        "review_id": "G60-0415",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "siri works easily",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006733",
+        "review_id": "G60-2409",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i feel the adas works better than many other systems",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002728",
+        "review_id": "G60-0969",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Grabbing it and lifting it upward doesnt feel natural",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes unrelated subjects rather than a single coherent feature area.",
+      "Most fragments are assigned undetermined sentiment, limiting confidence in a clear overall interpretation.",
+      "Several examples are very short or lack context about the exact feature being discussed."
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "topic_id": "T0383",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 5,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 0.2,
+      "JP": 0.4,
+      "SE": 0.4
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.2,
+        "summary": "The negative feedback explicitly complains that the car lacks remote-controlled cabin heater activation.",
+        "evidence_fragment_ids": [
+          "F003472"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.8,
+        "summary": "Undetermined examples mention self-relocking after unlocking, short remote range for door locking, no remote trunk operation, and slow remote response without enough context to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F006751",
+          "F002465",
+          "F003713",
+          "F007560"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 5,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00235,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.000773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "SE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00235,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.000773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.028169,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "F70-0684",
+      "F70-0963",
+      "F70-1039",
+      "F70-1889",
+      "F70-2115"
+    ],
+    "summary": "Feedback on the remote key and control centers on limited remote functionality and sluggish or finicky locking and opening behavior, with most examples lacking clear sentiment labels.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Remote key and control behavior",
+    "source_title": "remote / key / control",
+    "keywords": [
+      {
+        "term": "remote",
+        "weight": 0.393426
+      },
+      {
+        "term": "remote key",
+        "weight": 0.2488
+      },
+      {
+        "term": "remote control",
+        "weight": 0.198509
+      },
+      {
+        "term": "key",
+        "weight": 0.175646
+      },
+      {
+        "term": "control",
+        "weight": 0.111589
+      },
+      {
+        "term": "slow react",
+        "weight": 0.094758
+      },
+      {
+        "term": "heater",
+        "weight": 0.088448
+      },
+      {
+        "term": "door lock",
+        "weight": 0.086378
+      },
+      {
+        "term": "react",
+        "weight": 0.085644
+      },
+      {
+        "term": "locking",
+        "weight": 0.08323
+      },
+      {
+        "term": "open",
+        "weight": 0.080189
+      },
+      {
+        "term": "switch",
+        "weight": 0.074162
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003472",
+        "review_id": "F70-0963",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i'm also unhappy that there is no cabin heater you can switch on by remote control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "SE",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006751",
+        "review_id": "F70-1889",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "since then the car keeps locking itself again after i open it with the remote key",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002465",
+        "review_id": "F70-0684",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the remote key needs to be quite close for the doors to lock",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003713",
+        "review_id": "F70-1039",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "minus that the trunk lid cant be opened or closed by remote key",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "SE",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007560",
+        "review_id": "F70-2115",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the remote control is also slow to react",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 5,
+      "total_topic_fragments": 5,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled examples are undetermined, so clear sentiment conclusions are limited.",
+      "The topic mixes several remote-related subjects, including heater control, door locking range and behavior, trunk operation, and response speed.",
+      "These samples are stratified and not representative estimates of all reviews on this topic."
+    ]
+  }
+}

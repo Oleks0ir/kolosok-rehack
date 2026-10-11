@@ -1,0 +1,567 @@
+{
+  "topic_id": "T0175",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.625,
+      "PHEV": 0.125
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.125,
+        "summary": "Positive reviews praise the physical turn signal stalk controls, including easy access to high-beam activation and favorable mention of the stalk as an interior touchpoint.",
+        "evidence_fragment_ids": [
+          "F007034",
+          "F006361"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.125,
+        "summary": "Negative reviews complain about the loss of BC-button access to odometer functions through the stalk and a right turn signal that sometimes stays on.",
+        "evidence_fragment_ids": [
+          "F008312",
+          "F000611"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.75,
+        "summary": "Undetermined snippets mention the turn signal stalk, BC button, signal behavior, or unrelated worries, but many lack enough context for a clear sentiment judgment.",
+        "evidence_fragment_ids": [
+          "F010226",
+          "F000371",
+          "F007461",
+          "F008626",
+          "F010625",
+          "F001565",
+          "F003024",
+          "F004158",
+          "F000474",
+          "F010592",
+          "F007911",
+          "F001097"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 16,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.004,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004432,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002935,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.004427,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.1
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003147,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004958,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.1
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0143",
+      "G60-0180",
+      "G60-0224",
+      "G60-0398",
+      "G60-0552",
+      "G60-1083",
+      "G60-1493",
+      "G60-2267",
+      "G60-2519",
+      "G60-2659",
+      "G60-2833",
+      "G60-2980",
+      "G60-3087",
+      "G60-3677",
+      "G60-3806",
+      "G60-3817"
+    ],
+    "summary": "Feedback on the turn signal stalk centers on appreciation for physical stalk controls, complaints about missing BC-button functions and turn signal behavior, and many snippets that are too brief or off-topic to classify confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Turn Signal Stalk and BC Button",
+    "source_title": "signal / turn / stalk",
+    "keywords": [
+      {
+        "term": "signal",
+        "weight": 0.245585
+      },
+      {
+        "term": "turn signal",
+        "weight": 0.220178
+      },
+      {
+        "term": "turn",
+        "weight": 0.18347
+      },
+      {
+        "term": "stalk",
+        "weight": 0.141501
+      },
+      {
+        "term": "signal stalk",
+        "weight": 0.109249
+      },
+      {
+        "term": "stated worried",
+        "weight": 0.097363
+      },
+      {
+        "term": "worried",
+        "weight": 0.085336
+      },
+      {
+        "term": "button",
+        "weight": 0.061375
+      },
+      {
+        "term": "bc",
+        "weight": 0.060344
+      },
+      {
+        "term": "bc button",
+        "weight": 0.060344
+      },
+      {
+        "term": "customer",
+        "weight": 0.054174
+      },
+      {
+        "term": "button turn",
+        "weight": 0.050534
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007034",
+        "review_id": "G60-2519",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer said he liked having a physical button on the turn signal stalk to activate the High-beam assistant and feels it is harder to use the touchscreen for that now",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008312",
+        "review_id": "G60-2980",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported the right turn signal sometimes remains on, with the issue starting roughly two weeks after purchase when writer inquired",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010226",
+        "review_id": "G60-3677",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he was not using the turn signal stalk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006361",
+        "review_id": "G60-2267",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "a few interior pieces, like the turn signal stalk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000611",
+        "review_id": "G60-0224",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated it is annoying that they can no longer view the odometer using the BC button on the stalk and must go through the main screen instead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000371",
+        "review_id": "G60-0143",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is worried that in an emergency, if he could not use his turn signal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007461",
+        "review_id": "G60-2659",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that reaching the trip computer through the infotainment display is harder than using the former dedicated button on the turn signal stalk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008626",
+        "review_id": "G60-3087",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised to turn the system on by pressing the automatic high beam button located at the tip of the turn signal stalk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010625",
+        "review_id": "G60-3817",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that in his previous Maserati and Mercedes, when he put on the turn signal and moved into the left lane",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001565",
+        "review_id": "G60-0552",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said the turn signal noise sounds very old-fashioned and should be updated",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003024",
+        "review_id": "G60-1083",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she used to see the trip data and odometer by pressing the BC button on the turn signal, and now she cannot figure out how to bring them up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004158",
+        "review_id": "G60-1493",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "AIR notes: client states when doing left hand turns after switching on the turn signal and completing the turn it does not return to turn off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000474",
+        "review_id": "G60-0180",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the signal may be obstructed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010592",
+        "review_id": "G60-3806",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "The first option is to use the BC button on the stalk located behind the steering wheel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007911",
+        "review_id": "G60-2833",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they are worried the windshield quality might be inadequate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001097",
+        "review_id": "G60-0398",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is worried about how the range is estimated",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the concrete sentiment evidence is limited.",
+      "Several undetermined fragments are too short to interpret reliably.",
+      "Some examples appear loosely related or unrelated to the turn signal stalk topic, including worries about windshield quality or range estimation."
+    ]
+  }
+}

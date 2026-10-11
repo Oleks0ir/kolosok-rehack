@@ -1,0 +1,43 @@
+{
+  "title": "Reasons for purchase and odd vehicle behavior",
+  "summary": "This topic mixes purchase reasons such as value, styling, specification, and salesperson influence with vague remarks about the car acting unpredictably, so the examples do not form a single clear issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention strong value, appealing styling and specification, helpful technology, and buying motivation tied to the salesperson or overall package.",
+      "evidence_fragment_ids": [
+        "F000176",
+        "F002650",
+        "F007540",
+        "F007405"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are too vague to classify clearly, referring to wanting a reason, an unspecified sound issue, a design choice, or unavailable red paint.",
+      "evidence_fragment_ids": [
+        "F000240",
+        "F006026",
+        "F001709",
+        "F004080",
+        "F006968"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes unrelated subjects, including purchase reasons, salesperson influence, technology behavior, sound, and color availability.",
+    "Several fragments are too short or vague to determine whether the underlying sentiment is positive or negative.",
+    "Some positive examples use unusual wording about the car acting on its own or not knowing the driver, so their exact aspect is unclear from the fragment alone."
+  ]
+}

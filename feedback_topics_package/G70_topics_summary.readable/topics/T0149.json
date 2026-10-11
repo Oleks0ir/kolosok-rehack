@@ -1,0 +1,570 @@
+{
+  "topic_id": "T0149",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.058824,
+      "US": 0.941176
+    },
+    "engine_type": {
+      "BEVE": 0.235294,
+      "ICE": 0.764706
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.176471,
+        "summary": "Positive reviews mention high-end electronics and interior feel, and one also praises the car’s overall appearance despite criticizing the front-end styling.",
+        "evidence_fragment_ids": [
+          "F000760",
+          "F003725"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.117647,
+        "summary": "Negative reviews describe the front end lowering into a barrier and frustration when planned charging stops turn out to be non-functional.",
+        "evidence_fragment_ids": [
+          "F006420",
+          "F007942"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.705882,
+        "summary": "Undetermined fragments are mostly incidental uses of words like end, high-end, or front end, with only scattered references to storage, phone connection, seat recognition, and front-end ride height.",
+        "evidence_fragment_ids": [
+          "F010281",
+          "F001376",
+          "F009366",
+          "F002982",
+          "F010413",
+          "F004317",
+          "F001105",
+          "F002594",
+          "F005849",
+          "F006761",
+          "F003978",
+          "F008405"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 17,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00425,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.176471,
+            "negative": 0.117647,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.705882
+          },
+          "negative_rate": 0.117647,
+          "negative_or_mixed_rate": 0.117647,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.294118
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004219,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.1875,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3125
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005062,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.230769,
+            "negative": 0.076923,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.692308
+          },
+          "negative_rate": 0.076923,
+          "negative_or_mixed_rate": 0.076923,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.307692
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.004928,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0226",
+      "G70-0268",
+      "G70-0405",
+      "G70-0515",
+      "G70-0946",
+      "G70-1078",
+      "G70-1356",
+      "G70-1454",
+      "G70-1583",
+      "G70-2111",
+      "G70-2307",
+      "G70-2419",
+      "G70-2863",
+      "G70-3026",
+      "G70-3358",
+      "G70-3702",
+      "G70-3735"
+    ],
+    "summary": "This topic loosely combines front-end appearance or height comments with high-end interior and electronics impressions, while many fragments use the keywords incidentally and do not form a single clear theme.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Front-end styling and high-end feel mentions",
+    "source_title": "end / high / front",
+    "keywords": [
+      {
+        "term": "end",
+        "weight": 0.467375
+      },
+      {
+        "term": "high end",
+        "weight": 0.112114
+      },
+      {
+        "term": "high",
+        "weight": 0.100838
+      },
+      {
+        "term": "front end",
+        "weight": 0.096179
+      },
+      {
+        "term": "front",
+        "weight": 0.07094
+      },
+      {
+        "term": "drive",
+        "weight": 0.059068
+      },
+      {
+        "term": "drive end",
+        "weight": 0.049116
+      },
+      {
+        "term": "lower",
+        "weight": 0.043291
+      },
+      {
+        "term": "competing",
+        "weight": 0.040313
+      },
+      {
+        "term": "bringing",
+        "weight": 0.035275
+      },
+      {
+        "term": "went",
+        "weight": 0.034518
+      },
+      {
+        "term": "strong",
+        "weight": 0.032617
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000760",
+        "review_id": "G70-0268",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the whole appearance of the car doesnt really flow, with a truck like front end and a very plain rear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006420",
+        "review_id": "G70-2307",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the front end will automatically lower and strike the barrier",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010281",
+        "review_id": "G70-3702",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this might end up being my last bmw",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003725",
+        "review_id": "G70-1356",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "comfortable driving, high-end electronics, and a roomy interior",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007942",
+        "review_id": "G70-2863",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer explained that some stations they drive to end up being non-functional when they arrive, which is frustrating after locating them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001376",
+        "review_id": "G70-0515",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "in the end",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009366",
+        "review_id": "G70-3358",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "in the end",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002982",
+        "review_id": "G70-1078",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "by the end of the drive he does not feel exhausted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010413",
+        "review_id": "G70-3735",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have several high-end vehicles, and this is my second 740",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004317",
+        "review_id": "G70-1583",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "in the end i went with bmw because of the strong purchase perks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001105",
+        "review_id": "G70-0405",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the sound is superior, very high-end and luxurious",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002594",
+        "review_id": "G70-0946",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the interior feels very high end, with the unique swarovski and leather package",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005849",
+        "review_id": "G70-2111",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "their wifes phone end up competing for the connection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006761",
+        "review_id": "G70-2419",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that compared with the 750i, he feels the front end of this vehicle sits lower",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003978",
+        "review_id": "G70-1454",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "offers much less storage, so i end up bringing a backpack in the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008405",
+        "review_id": "G70-3026",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when I get in the car it still doesnt recognize who is driving, so I end up adjusting the seat by hand",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 18,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic is lexically noisy and mixes unrelated subjects rather than a single coherent customer issue.",
+      "Most sampled fragments are undetermined, so concrete sentiment patterns are limited.",
+      "Some examples contain only partial phrases, which restricts interpretation."
+    ]
+  }
+}

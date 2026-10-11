@@ -1,0 +1,37 @@
+{
+  "title": "Startup malfunction alert and startup name display",
+  "summary": "This topic combines a reported startup malfunction alert with startup screen behavior that displays the purchaser’s full first name, so the examples do not describe a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The negative feedback reports an intermittent startup warning for an external acoustic malfunction.",
+      "evidence_fragment_ids": [
+        "F005576"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined examples mention startup without enough detail in one case and describe a privacy-related preference for showing a nickname instead of a full first name on the startup screen in another.",
+      "evidence_fragment_ids": [
+        "F001842",
+        "F002135"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic mixes unrelated subjects: a startup malfunction alert, a minimal startup mention, and startup screen name-display privacy behavior.",
+    "Two of the three examples are undetermined, so sentiment and issue interpretation are limited.",
+    "One fragment is too brief to identify a concrete issue beyond mentioning startup."
+  ]
+}

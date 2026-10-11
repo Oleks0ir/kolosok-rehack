@@ -1,0 +1,214 @@
+{
+  "topic_id": "T0449",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 2,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 1.0
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.5,
+        "summary": "Positive feedback expresses a clear willingness to recommend the car.",
+        "evidence_fragment_ids": [
+          "F003600"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.5,
+        "summary": "Undetermined feedback mentions this may be the last one bought, but the reason or sentiment is unclear from the fragment alone.",
+        "evidence_fragment_ids": [
+          "F006181"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 2,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00094,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 2,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.001547,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.00094,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.001547,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-1005",
+      "F70-1715"
+    ],
+    "summary": "The fragments center on purchase or recommendation likelihood, with one clear endorsement and one ambiguous statement about future buying.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Likelihood to recommend or repurchase",
+    "source_title": "likely",
+    "keywords": [
+      {
+        "term": "likely",
+        "weight": 1.0
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003600",
+        "review_id": "F70-1005",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i'm very likely to recommend this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006181",
+        "review_id": "F70-1715",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it is very likely this will be the last one we buy",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 2,
+      "total_topic_fragments": 2,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic is based on only two short fragments, so examples are insufficient for broader conclusions.",
+      "One fragment is ambiguous and does not explain why it may be the last purchase.",
+      "The keyword groups recommendation intent and repurchase intent, which are related but not identical subjects."
+    ]
+  }
+}

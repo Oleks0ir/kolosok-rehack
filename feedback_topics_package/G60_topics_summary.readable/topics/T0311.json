@@ -1,0 +1,428 @@
+{
+  "topic_id": "T0311",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.3,
+      "ICE": 0.7
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.3,
+        "summary": "Positive reviews praise the vehicle for riding smoothly, feeling comfortable, and delivering a pleasing daily driving experience.",
+        "evidence_fragment_ids": [
+          "F004657",
+          "F008001",
+          "F000360"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "The only negative-assigned example still describes an exceptionally smooth ride, so the reason for the negative assignment is not clear from the fragment alone.",
+        "evidence_fragment_ids": [
+          "F001848"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.6,
+        "summary": "Undetermined fragments mention smoothness or favorable ride comparisons, but they are too short or lack enough context to confirm the speaker’s overall sentiment.",
+        "evidence_fragment_ids": [
+          "F005135",
+          "F001868",
+          "F003523",
+          "F003858",
+          "F003526",
+          "F004601"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 10,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.00277,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002201,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003099,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.428571,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.00236,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003471,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.428571,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0136",
+      "G60-0662",
+      "G60-0671",
+      "G60-1260",
+      "G60-1261",
+      "G60-1390",
+      "G60-1648",
+      "G60-1666",
+      "G60-1830",
+      "G60-2860"
+    ],
+    "summary": "Feedback in this topic centers on the G60’s smooth, comfortable ride, but many fragments are too brief or isolated to determine clear overall sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Ride Smoothness and Comfort",
+    "source_title": "rides / smoothly / customer stated",
+    "keywords": [
+      {
+        "term": "rides",
+        "weight": 0.389792
+      },
+      {
+        "term": "stated rides",
+        "weight": 0.306736
+      },
+      {
+        "term": "rides smoothly",
+        "weight": 0.190041
+      },
+      {
+        "term": "smoothly",
+        "weight": 0.155662
+      },
+      {
+        "term": "rides better",
+        "weight": 0.119638
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.100139
+      },
+      {
+        "term": "stated",
+        "weight": 0.098288
+      },
+      {
+        "term": "rides nicely",
+        "weight": 0.089305
+      },
+      {
+        "term": "customer",
+        "weight": 0.07867
+      },
+      {
+        "term": "better",
+        "weight": 0.070532
+      },
+      {
+        "term": "nicely",
+        "weight": 0.06908
+      },
+      {
+        "term": "drive",
+        "weight": 0.065763
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004657",
+        "review_id": "G60-1666",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the vehicle rides smoothly and is comfortable, and that it feels more appropriate as his daily driver",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001848",
+        "review_id": "G60-0662",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the driving experience is phenomenal and almost impossible to put into words, as he has never owned a car that rides as smoothly as this one",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005135",
+        "review_id": "G60-1830",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it rides extremely smoothly, to the point that he cannot feel the road while driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008001",
+        "review_id": "G60-2860",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the car rides very comfortably and expressed that he is extremely pleased with the overall driving experience",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001868",
+        "review_id": "G60-0671",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that this BMW rides much better than the Tesla he owned before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003523",
+        "review_id": "G60-1260",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the car rides really nicely",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000360",
+        "review_id": "G60-0136",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really likes how the vehicle rides and handles",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003858",
+        "review_id": "G60-1390",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that the car rides very nicely and actually feels like he is driving a real luxury vehicle, especially when he compares it to a Tesla, wich does not give him the same feeling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003526",
+        "review_id": "G60-1261",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it rides smoothly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004601",
+        "review_id": "G60-1648",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it rides better than the other bmws we've owned",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are very short ride-quality remarks, which limits confidence in interpreting full review sentiment.",
+      "One negative-assigned fragment contains strongly positive wording, so the underlying reason for that label cannot be resolved from the provided text alone.",
+      "Samples are stratified and not representative estimates of overall customer experience."
+    ]
+  }
+}

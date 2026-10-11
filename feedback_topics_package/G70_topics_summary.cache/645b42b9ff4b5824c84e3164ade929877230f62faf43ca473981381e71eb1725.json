@@ -1,0 +1,39 @@
+{
+  "title": "G70 oxygen sensor faults",
+  "summary": "The sampled feedback centers on G70 service cases for oxygen monitor and post-catalyst oxygen sensor faults, with several reports describing malfunctions and sensor replacement activity.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews describe permanent or occasional oxygen monitor sensor malfunctions, fault codes for the post-catalyst oxygen sensor, and service actions including sensor replacement.",
+      "evidence_fragment_ids": [
+        "F001065",
+        "F007006",
+        "F007010",
+        "F007013"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined feedback is limited to a fragment referencing a TSARA case and valves without enough detail to confirm the underlying issue or sentiment.",
+      "evidence_fragment_ids": [
+        "F009697"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The sample is small and stratified, so it should not be treated as representative of all G70 vehicles or all oxygen sensor issues.",
+    "Some negative-assigned examples are repair-log or case-management fragments with limited customer-impact detail.",
+    "One included negative-assigned fragment concerns a front camera circuit rather than an oxygen sensor topic, so the cluster contains some unrelated service content."
+  ]
+}

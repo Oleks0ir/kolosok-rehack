@@ -1,0 +1,622 @@
+{
+  "topic_id": "T0112",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 20,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "CA": 0.05,
+      "US": 0.95
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.55,
+      "PHEV": 0.05
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.1,
+        "summary": "Positive reviews praise blind spot detection and related safety tech for making driving easier and improving awareness.",
+        "evidence_fragment_ids": [
+          "F007189",
+          "F001718"
+        ]
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.2,
+        "summary": "Negative reviews report blind spot warning malfunctions or design issues, though some sampled negatives are unrelated uses of the word \"spot\".",
+        "evidence_fragment_ids": [
+          "F011000",
+          "F001201",
+          "F009605"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.05,
+        "summary": "The only mixed review is unrelated to blind spot monitoring and instead complains about lacking a dedicated spot for small personal items.",
+        "evidence_fragment_ids": [
+          "F005507"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.65,
+        "summary": "Undetermined reviews mostly mention questions, adaptation, or feature requests about audible blind spot alerts, with a few unrelated blind-spot or storage references.",
+        "evidence_fragment_ids": [
+          "F006967",
+          "F007515",
+          "F003740",
+          "F004042",
+          "F007242",
+          "F003904",
+          "F010994",
+          "F010543",
+          "F003625"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 20,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.005,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.2,
+            "mixed": 0.05,
+            "neutral": 0.0,
+            "undetermined": 0.65
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.35
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 18,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 19,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.005263,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.105263,
+            "negative": 0.210526,
+            "mixed": 0.052632,
+            "neutral": 0.0,
+            "undetermined": 0.631579
+          },
+          "negative_rate": 0.210526,
+          "negative_or_mixed_rate": 0.263158,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.368421
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.125
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.004869,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.181818,
+            "mixed": 0.090909,
+            "neutral": 0.0,
+            "undetermined": 0.545455
+          },
+          "negative_rate": 0.181818,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.454545
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.005507,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.142857
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.005454,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.181818,
+            "mixed": 0.090909,
+            "neutral": 0.0,
+            "undetermined": 0.545455
+          },
+          "negative_rate": 0.181818,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.454545
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G60-0143",
+      "G60-0424",
+      "G60-0609",
+      "G60-1025",
+      "G60-1300",
+      "G60-1335",
+      "G60-1408",
+      "G60-1456",
+      "G60-1959",
+      "G60-2152",
+      "G60-2487",
+      "G60-2567",
+      "G60-2581",
+      "G60-2679",
+      "G60-2809",
+      "G60-3449",
+      "G60-3786",
+      "G60-3816",
+      "G60-3964",
+      "G60-3968"
+    ],
+    "summary": "Feedback in this topic centers on blind spot monitoring and alerts, but many sampled fragments also use the word \"spot\" for unrelated storage or visibility comments, limiting coherence.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Blind Spot Alerts and Detection",
+    "source_title": "spot / blind / quit",
+    "keywords": [
+      {
+        "term": "spot",
+        "weight": 0.234585
+      },
+      {
+        "term": "blind spot",
+        "weight": 0.210815
+      },
+      {
+        "term": "blind",
+        "weight": 0.205325
+      },
+      {
+        "term": "quit",
+        "weight": 0.060066
+      },
+      {
+        "term": "alert",
+        "weight": 0.057618
+      },
+      {
+        "term": "audible alert",
+        "weight": 0.050561
+      },
+      {
+        "term": "warning",
+        "weight": 0.049447
+      },
+      {
+        "term": "audible",
+        "weight": 0.048146
+      },
+      {
+        "term": "spot warning",
+        "weight": 0.047948
+      },
+      {
+        "term": "quit functioning",
+        "weight": 0.044768
+      },
+      {
+        "term": "stated spot",
+        "weight": 0.042425
+      },
+      {
+        "term": "spot detection",
+        "weight": 0.040832
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007189",
+        "review_id": "G60-2567",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the tech makes it easier to drive and adds safety with things like lane warning, blind spot alerts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011000",
+        "review_id": "G60-3968",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "the blind spot warning both quit functioning, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005507",
+        "review_id": "G60-1959",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a serious problem with Other Interior Problem(s): \"no dedicated spot for sunglasses and no place for loose coins like the older models had, which I find really annoying\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006967",
+        "review_id": "G60-2487",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she is still adapting to the Blind Spot Monitor",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001718",
+        "review_id": "G60-0609",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "love the tech, especially android auto, plus the cooling seats, strong cameras and blind spot detection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001201",
+        "review_id": "G60-0424",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Blind spot warning - DTU: \"This is the same old design issue",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007515",
+        "review_id": "G60-2679",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like to have an audible alert when another vehicle moves into his blind spot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003740",
+        "review_id": "G60-1335",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer wanted to know if the blind spot detector provides an audible alert",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004042",
+        "review_id": "G60-1456",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this has helped her avoid changing lanes when she did not notice a vehicle in that blind spot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007242",
+        "review_id": "G60-2581",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": \"I wish the blind spot detection would give an audible alert when it senses a car in the lane I am moving to, not just the flashing light",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002870",
+        "review_id": "G60-1025",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he naturally turned his head to check his blind spot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003904",
+        "review_id": "G60-1408",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that on September 7th they received a series of alerts, including a check control message for reduced driver assistance, side collision warning, and active blind spot detection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010994",
+        "review_id": "G60-3964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this would make things safer because he could clearly see whether a vehicle is in his blind spot, instead of having to depend solely on the indicators in the mirrors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010543",
+        "review_id": "G60-3786",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the center rear headrest creates a blind spot, and depending on how tall the driver sits",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003625",
+        "review_id": "G60-1300",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would like a spot to place their phone where it is visible and can be reached easily",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009605",
+        "review_id": "G60-3449",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated there is not a good spot in the car to put a pocket umbrella",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 22,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments use \"spot\" or \"blind spot\" in unrelated ways, such as storage locations or sightlines, so the topic cluster is partly noisy.",
+      "Most sampled reviews are undetermined, which limits confidence in summarizing clear customer sentiment beyond the few explicit positive and negative examples.",
+      "Examples are insufficient to characterize specific failure modes or feature behavior in detail."
+    ]
+  }
+}

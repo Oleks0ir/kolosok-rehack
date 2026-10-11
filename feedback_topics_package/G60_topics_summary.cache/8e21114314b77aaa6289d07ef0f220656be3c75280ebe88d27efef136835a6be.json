@@ -1,0 +1,51 @@
+{
+  "title": "Driving Range Impressions",
+  "summary": "Feedback about driving range spans clear praise, a smaller set of complaints about limited or weather-sensitive range, and many fragments that mention range without enough context for a firm sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the vehicle's driving range as good or very good and, in one case, say it reduces range anxiety.",
+      "evidence_fragment_ids": [
+        "F003285",
+        "F003167",
+        "F000297",
+        "F002852",
+        "F003683"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews say the range is not very good, not perfect, or especially disappointing in colder weather.",
+      "evidence_fragment_ids": [
+        "F001559",
+        "F006495",
+        "F009592"
+      ]
+    },
+    "mixed": {
+      "summary": "Mixed reviews combine strong overall satisfaction with a specific note about range anxiety being alleviated, but the sample is limited.",
+      "evidence_fragment_ids": [
+        "F006714"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention range being limited, needing improvement, or working for the owner's needs, but the wording or assignment does not support a consistent sentiment summary.",
+      "evidence_fragment_ids": [
+        "F004204",
+        "F002145",
+        "F006037",
+        "F006138",
+        "F005904",
+        "F002894"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many sampled fragments are labeled undetermined, which limits confidence in summarizing the overall tone from examples alone.",
+    "One sampled fragment labeled positive contains text that reads negatively about range, so assigned sentiment and quoted wording are not fully aligned.",
+    "The examples are sentiment-stratified and not a random sample, so they should not be treated as representative of all G60 range feedback."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Unclear documentation and specific charging or dash mentions",
+  "summary": "The examples group together unclear owner documentation, certain charger-session issues, and a partial dash-layout mention, so the topic is identifiable but not sentiment-resolvable from the supplied fragments.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments mention some chargers failing to start or stopping partway, a partial reference to certain dash layouts, and unclear documentation about changing vehicle characteristics without enough context to assign evaluative sentiment.",
+      "evidence_fragment_ids": [
+        "F000850",
+        "F008730",
+        "F002891"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All supplied examples are undetermined, so no sentiment-resolved interpretation is possible.",
+    "The topic cluster mixes at least three loosely connected subjects: charging-session behavior, dash-layout mention, and owner-manual/documentation clarity.",
+    "One fragment is incomplete, which limits interpretation of what was meant by the dash-layout reference."
+  ]
+}

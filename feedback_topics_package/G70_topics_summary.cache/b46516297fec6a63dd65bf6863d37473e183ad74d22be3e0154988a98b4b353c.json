@@ -1,0 +1,51 @@
+{
+  "title": "Dealer interactions and dealership visits",
+  "summary": "This topic centers on dealership interactions, with many fragments simply noting that customers brought the vehicle to a dealer and a smaller set expressing either strong praise or clear dissatisfaction with the dealer experience.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the dealer or dealership experience directly, including excellent service and appreciation for avoiding dealer visits for updates.",
+      "evidence_fragment_ids": [
+        "F002856",
+        "F008320",
+        "F002701",
+        "F005681"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe poor dealer handling, including awful dealer experiences and dissatisfaction with how dealership actions were handled.",
+      "evidence_fragment_ids": [
+        "F004935",
+        "F003846"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are mostly procedural mentions of contacting or bringing the vehicle to the dealership, with some ambiguous negative wording that lacks enough context for a firmer label.",
+      "evidence_fragment_ids": [
+        "F007300",
+        "F000407",
+        "F009091",
+        "F001089",
+        "F005760",
+        "F000677",
+        "F004682",
+        "F005320",
+        "F004025",
+        "F007947"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are terse service-record style mentions of dealers rather than detailed customer evaluations.",
+    "The topic includes both actual sentiment about dealer quality and procedural references to dealership contact or vehicle drop-off, which limits thematic coherence.",
+    "Examples are insufficient to characterize specific dealership processes beyond general praise, complaints, and routine mentions."
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "topic_id": "T0074",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 30,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.033333,
+      "US": 0.966667
+    },
+    "engine_type": {
+      "BEVE": 0.133333,
+      "ICE": 0.833333,
+      "PHEV": 0.033333
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.166667,
+        "summary": "Positive reviews praise active cruise control as useful on long trips and satisfying in everyday operation.",
+        "evidence_fragment_ids": [
+          "F000771",
+          "F000189"
+        ]
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.133333,
+        "summary": "Negative reviews describe adaptive cruise as overly frequent in steering-wheel nag alerts and confusing in the distinction between set and resume controls.",
+        "evidence_fragment_ids": [
+          "F003351",
+          "F006922"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 21,
+        "share": 0.7,
+        "summary": "Undetermined reviews mainly reflect questions, feature wishes, and unclear operational issues around engaging, resuming, follow distance, and understanding cruise functions.",
+        "evidence_fragment_ids": [
+          "F010881",
+          "F000138",
+          "F005434",
+          "F008702",
+          "F010254",
+          "F004911",
+          "F009926",
+          "F000417",
+          "F009685",
+          "F003149",
+          "F009384"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 30,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0075,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 29,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.007648,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.172414,
+            "negative": 0.103448,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.724138
+          },
+          "negative_rate": 0.103448,
+          "negative_or_mixed_rate": 0.103448,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.275862
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.009735,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.16,
+            "negative": 0.12,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.72
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.12,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.28
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.010267,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.16,
+            "negative": 0.12,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.72
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.12,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.28
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0074",
+      "G70-0099",
+      "G70-0175",
+      "G70-0234",
+      "G70-0273",
+      "G70-0583",
+      "G70-0742",
+      "G70-1145",
+      "G70-1210",
+      "G70-1792",
+      "G70-1821",
+      "G70-1942",
+      "G70-1964",
+      "G70-1979",
+      "G70-2142",
+      "G70-2482",
+      "G70-2754",
+      "G70-2898",
+      "G70-3138",
+      "G70-3263",
+      "G70-3366",
+      "G70-3436",
+      "G70-3486",
+      "G70-3524",
+      "G70-3567",
+      "G70-3593",
+      "G70-3693",
+      "G70-3735",
+      "G70-3918",
+      "G70-3973"
+    ],
+    "summary": "Feedback on cruise control centers on some owners appreciating active cruise performance and long-trip usefulness, while many other comments are requests or questions about how the controls work and what features are available.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Cruise Control Operation and Controls",
+    "source_title": "cruise / control / set",
+    "keywords": [
+      {
+        "term": "cruise",
+        "weight": 0.298903
+      },
+      {
+        "term": "cruise control",
+        "weight": 0.26639
+      },
+      {
+        "term": "control",
+        "weight": 0.18355
+      },
+      {
+        "term": "set",
+        "weight": 0.076637
+      },
+      {
+        "term": "adaptive cruise",
+        "weight": 0.057104
+      },
+      {
+        "term": "adaptive",
+        "weight": 0.055381
+      },
+      {
+        "term": "active cruise",
+        "weight": 0.054778
+      },
+      {
+        "term": "stated cruise",
+        "weight": 0.050318
+      },
+      {
+        "term": "customer",
+        "weight": 0.047561
+      },
+      {
+        "term": "set button",
+        "weight": 0.044705
+      },
+      {
+        "term": "active",
+        "weight": 0.042395
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.034816
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000771",
+        "review_id": "G70-0273",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the cruise control in this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003351",
+        "review_id": "G70-1210",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Cruise control/adaptive cruise control - DTU/controls poorly located: \"The adaptive cruise seems to nag for hands on the steering wheel far too often",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010881",
+        "review_id": "G70-3918",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they were unsure about the cruise control and how to switch it to active cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000189",
+        "review_id": "G70-0099",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is happy with the Active Cruise Control and that he uses it frequently on long trips",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006922",
+        "review_id": "G70-2482",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Cruise control/adaptive cruise control - DTU/controls poorly located: \"The distinction between \"setting\" the cruise speed and \"resume\" is confusing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000138",
+        "review_id": "G70-0074",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said he would like a resume buton feature for cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005434",
+        "review_id": "G70-1964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has never used cruise control, so it was not switched on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008702",
+        "review_id": "G70-3138",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "with the cruise control follow distance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010254",
+        "review_id": "G70-3693",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer indicated that he would like to have adaptive cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004911",
+        "review_id": "G70-1792",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that cruise control would not engage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009926",
+        "review_id": "G70-3567",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked what the Set button for Cruise Control does",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005000",
+        "review_id": "G70-1821",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the active cruise control performs extremely well, particularly on the turnpike",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000417",
+        "review_id": "G70-0175",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked how to get cruise control going again after he steps on the brakes",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009685",
+        "review_id": "G70-3486",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that when using cruise control, he feels there should be more videos online explaining its operation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003149",
+        "review_id": "G70-1145",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he wishes the adaptive cruise control would restart on its own even when the car has come to a full stop",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009384",
+        "review_id": "G70-3366",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated it is very simple to accidentally switch on the active cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 34,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confidence about overall sentiment beyond the specific examples shown.",
+      "Several undetermined examples describe questions, wishes, or ambiguous operation rather than clear praise or complaints.",
+      "Positive evidence is limited in the supplied examples, so the favorable summary should be read as illustrative rather than comprehensive."
+    ]
+  }
+}

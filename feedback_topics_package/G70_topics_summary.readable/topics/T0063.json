@@ -1,0 +1,576 @@
+{
+  "topic_id": "T0063",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 33,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.212121,
+      "ICE": 0.727273,
+      "PHEV": 0.060606
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.060606,
+        "summary": "Negative feedback centers on customers requesting callbacks for unresolved vehicle issues or being asked to report back after diagnosis rather than receiving a clear resolution.",
+        "evidence_fragment_ids": [
+          "F007579",
+          "F007371"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 31,
+        "share": 0.939394,
+        "summary": "Undetermined fragments mostly document call logistics such as scheduled follow-ups, ended calls, attempted callbacks, or instructions to call back, without clear sentiment.",
+        "evidence_fragment_ids": [
+          "F005888",
+          "F002933",
+          "F006531",
+          "F002236",
+          "F008204",
+          "F009514",
+          "F007467",
+          "F009233"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 33,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00825,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 31
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.060606,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.939394
+          },
+          "negative_rate": 0.060606,
+          "negative_or_mixed_rate": 0.060606,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.060606
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 33,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.008703,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 31
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.060606,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.939394
+          },
+          "negative_rate": 0.060606,
+          "negative_or_mixed_rate": 0.060606,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.060606
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0062,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 24,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.009346,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.916667
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.083333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.006512,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 24,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.009856,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.916667
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.083333
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0114",
+      "G70-0153",
+      "G70-0159",
+      "G70-0421",
+      "G70-0519",
+      "G70-0545",
+      "G70-0567",
+      "G70-0827",
+      "G70-0888",
+      "G70-0998",
+      "G70-1060",
+      "G70-1198",
+      "G70-1646",
+      "G70-1805",
+      "G70-1823",
+      "G70-1884",
+      "G70-1950",
+      "G70-2116",
+      "G70-2120",
+      "G70-2349",
+      "G70-2422",
+      "G70-2540",
+      "G70-2643",
+      "G70-2687",
+      "G70-2717",
+      "G70-2719",
+      "G70-2952",
+      "G70-2980",
+      "G70-3263",
+      "G70-3325",
+      "G70-3330",
+      "G70-3363",
+      "G70-3417"
+    ],
+    "summary": "This topic is mainly about service writers scheduling, attempting, or requesting follow-up calls and callbacks, with only a small number of fragments expressing dissatisfaction tied to unresolved issue communication.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Follow-up Calls and Callbacks",
+    "source_title": "call / follow / writer",
+    "keywords": [
+      {
+        "term": "call",
+        "weight": 0.306107
+      },
+      {
+        "term": "follow",
+        "weight": 0.096481
+      },
+      {
+        "term": "call back",
+        "weight": 0.085251
+      },
+      {
+        "term": "follow call",
+        "weight": 0.081323
+      },
+      {
+        "term": "writer",
+        "weight": 0.061701
+      },
+      {
+        "term": "customer",
+        "weight": 0.055398
+      },
+      {
+        "term": "end call",
+        "weight": 0.05317
+      },
+      {
+        "term": "back",
+        "weight": 0.051504
+      },
+      {
+        "term": "end",
+        "weight": 0.047561
+      },
+      {
+        "term": "writer scheduled",
+        "weight": 0.045622
+      },
+      {
+        "term": "scheduled",
+        "weight": 0.039837
+      },
+      {
+        "term": "return call",
+        "weight": 0.035961
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007579",
+        "review_id": "G70-2717",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Writer confirmed he would record the issue and requested that the customer call back after having the turn signal inspected to let them know what the diagnosis was",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007467",
+        "review_id": "G70-2687",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he had to end the call because another call was coming in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007371",
+        "review_id": "G70-2643",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported he is experiencing an issue with the windshield and requested a call back to provide more detail",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001141",
+        "review_id": "G70-0421",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "The customer then disconnected the call",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009086",
+        "review_id": "G70-3263",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he was not by the vehicle and refused a follow up call",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005888",
+        "review_id": "G70-2120",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer arranged a follow up call",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002933",
+        "review_id": "G70-1060",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer scheduled a follow-up call for 8/16",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006531",
+        "review_id": "G70-2349",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer scheduled a follow-up call on 2/4",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000367",
+        "review_id": "G70-0153",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "agreed to a call back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008276",
+        "review_id": "G70-2980",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "CALL TEST PL",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002236",
+        "review_id": "G70-0827",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer scheduled a call back for the customer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008204",
+        "review_id": "G70-2952",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer attempted a follow up call,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004938",
+        "review_id": "G70-1805",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "every time i asked them to call back with an update, nobody ever did",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009514",
+        "review_id": "G70-3417",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer was unable to follow up further as the customer had to end the call",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001536",
+        "review_id": "G70-0567",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer states that, for instance, when navigation is running and a call comes in, pressing the Nav button to resume guidance will sometimes end the call instead",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009233",
+        "review_id": "G70-3325",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised to finish the setup in the My BMW app next time they are with the vehicle and to call back if they want more help",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 38,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most fragments are undetermined process notes about calls, so the sample provides limited evidence about customer satisfaction with follow-up communication.",
+      "Some examples are terse or ambiguous, and at least one fragment appears to involve phone-call behavior in the vehicle interface rather than service follow-up, so the cluster is not fully uniform."
+    ]
+  }
+}

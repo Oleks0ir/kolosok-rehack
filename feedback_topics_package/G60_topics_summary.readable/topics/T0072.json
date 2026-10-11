@@ -1,0 +1,733 @@
+{
+  "topic_id": "T0072",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 30,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "AU": 0.033333,
+      "JP": 0.033333,
+      "KR": 0.066667,
+      "US": 0.866667
+    },
+    "engine_type": {
+      "BEVE": 0.266667,
+      "ICE": 0.666667,
+      "PHEV": 0.066667
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.133333,
+        "summary": "Positive reviews praise the convenience of phone or card key access and automatic lock or unlock behavior when leaving or approaching the vehicle.",
+        "evidence_fragment_ids": [
+          "F006950"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.166667,
+        "summary": "Negative reviews describe unsmooth pull-away behavior, especially around stop-start operation, and the examples are insufficient to support a stronger theme.",
+        "evidence_fragment_ids": [
+          "F001789",
+          "F009250"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 21,
+        "share": 0.7,
+        "summary": "Undetermined reviews mention walk-away locking, requests to adjust comfort access behavior, and other unrelated uses of words like away or right away without clear sentiment.",
+        "evidence_fragment_ids": [
+          "F000437",
+          "F003070",
+          "F004273",
+          "F007419",
+          "F003382",
+          "F003653",
+          "F006166",
+          "F008327",
+          "F002314",
+          "F009643",
+          "F001609",
+          "F009622"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 30,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0075,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "country": {
+        "AU": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 26,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.007202,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.153846,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.692308
+          },
+          "negative_rate": 0.153846,
+          "negative_or_mixed_rate": 0.153846,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.8,
+          "known_sentiment_share": 0.307692
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.875
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.125
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.008853,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.15,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.65
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.8,
+          "known_sentiment_share": 0.35
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "AU": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.005507,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.857143
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.142857
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008428,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.176471,
+            "negative": 0.176471,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.647059
+          },
+          "negative_rate": 0.176471,
+          "negative_or_mixed_rate": 0.176471,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.352941
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 4,
+    "review_ids": [
+      "G60-0024",
+      "G60-0164",
+      "G60-0401",
+      "G60-0409",
+      "G60-0569",
+      "G60-0643",
+      "G60-0743",
+      "G60-0758",
+      "G60-0822",
+      "G60-1102",
+      "G60-1183",
+      "G60-1207",
+      "G60-1307",
+      "G60-1481",
+      "G60-1538",
+      "G60-1941",
+      "G60-2211",
+      "G60-2264",
+      "G60-2480",
+      "G60-2644",
+      "G60-2836",
+      "G60-2985",
+      "G60-3312",
+      "G60-3434",
+      "G60-3456",
+      "G60-3459",
+      "G60-3464",
+      "G60-3479",
+      "G60-3824",
+      "G60-3900"
+    ],
+    "summary": "This topic combines two loosely related subjects: walk-away auto lock and unlock behavior, and comments about pull-away smoothness or responsiveness.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Walk-away auto lock and pull-away behavior",
+    "source_title": "away / walked / lock",
+    "keywords": [
+      {
+        "term": "away",
+        "weight": 0.306999
+      },
+      {
+        "term": "walked away",
+        "weight": 0.093538
+      },
+      {
+        "term": "walked",
+        "weight": 0.081007
+      },
+      {
+        "term": "lock",
+        "weight": 0.049887
+      },
+      {
+        "term": "right away",
+        "weight": 0.047503
+      },
+      {
+        "term": "pull away",
+        "weight": 0.045772
+      },
+      {
+        "term": "pulling",
+        "weight": 0.040162
+      },
+      {
+        "term": "walking away",
+        "weight": 0.039041
+      },
+      {
+        "term": "walking",
+        "weight": 0.037176
+      },
+      {
+        "term": "away stop",
+        "weight": 0.037016
+      },
+      {
+        "term": "auto lock",
+        "weight": 0.036806
+      },
+      {
+        "term": "pull",
+        "weight": 0.035577
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006950",
+        "review_id": "G60-2480",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes both the phone key and card key features, and particularly appreciates the auto lock and unlock when parked away from home, as well as the way the car locks itself automatically",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009250",
+        "review_id": "G60-3312",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the owner of the shop that did the work got in touch with me right away and told me the 520i series has had lots of questions because the upper part of the back glass isn't smooth from the start",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003070",
+        "review_id": "G60-1102",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have been away for most of that time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010642",
+        "review_id": "G60-3824",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i have to stress that the infotainment tech and software is where companies like tesla and rivian will keep pulling customers away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001789",
+        "review_id": "G60-0643",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer commented that the system does not feel as smooth as he would like when pulling away, and that he notices the way it turns off and back on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000437",
+        "review_id": "G60-0164",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that as she walked away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004273",
+        "review_id": "G60-1538",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "tanaka's service, his personality, and how knowledgeable he was, so i walked away from the lexus option and bought this car right away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007419",
+        "review_id": "G60-2644",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle locked as she walked away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003382",
+        "review_id": "G60-1207",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that on one occasion they walked away from the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003653",
+        "review_id": "G60-1307",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that on one occasion she walked away while the Key Fob was lying on the seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006166",
+        "review_id": "G60-2211",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that she has left her key inside the car, walked away, and then the vehicle locked itself automatically",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008327",
+        "review_id": "G60-2985",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported they can only override the stop-start feature by using sport mode, and they often switch into sport just to shut it off because it keeps them from pulling away from a stop as quickly as they would prefer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002314",
+        "review_id": "G60-0822",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "they were sorted out right away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "AU",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009643",
+        "review_id": "G60-3464",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the Valet Mode setting to disable Comfort Access, so that the doors do not auto-lock when he walks away from the car with his Digital Key",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001609",
+        "review_id": "G60-0569",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it seems to only trigger when the other car is just a few feet away",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009622",
+        "review_id": "G60-3456",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the lock-on-walk-away and unlock-on-approach functions to have a specific home setting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 33,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled fragments mix walk-away locking, comfort access preferences, pull-away drivability, and unrelated uses of the word away, so the cluster is not fully coherent.",
+      "Most sampled fragments are undetermined, which limits confidence in a clear sentiment-specific narrative.",
+      "Only a small number of explicit positive and negative examples are available, so some aspects are supported by limited evidence."
+    ]
+  }
+}

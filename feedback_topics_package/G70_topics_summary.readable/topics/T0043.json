@@ -1,0 +1,588 @@
+{
+  "topic_id": "T0043",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 40,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.025,
+      "US": 0.975
+    },
+    "engine_type": {
+      "BEVE": 0.475,
+      "ICE": 0.525
+    },
+    "sentiment": {
+      "positive": {
+        "count": 9,
+        "share": 0.225,
+        "summary": "Positive reviews praise the theater screen’s comfort, quality, and appeal for passengers and children.",
+        "evidence_fragment_ids": [
+          "F002955",
+          "F002307",
+          "F007607"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.125,
+        "summary": "Negative reviews focus on the theater screen being difficult to use and limited by HDMI and built-in app compatibility.",
+        "evidence_fragment_ids": [
+          "F001885",
+          "F006080"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 26,
+        "share": 0.65,
+        "summary": "Undetermined reviews mainly mention questions, setup issues, offline or lost connections, and general references to the theater screen without enough context for clear sentiment.",
+        "evidence_fragment_ids": [
+          "F004945",
+          "F005200",
+          "F005912",
+          "F010159",
+          "F006499",
+          "F000795"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 40,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 26
+          },
+          "sentiment_shares": {
+            "positive": 0.225,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.65
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.35
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 39,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.010285,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.230769,
+            "negative": 0.128205,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.641026
+          },
+          "negative_rate": 0.128205,
+          "negative_or_mixed_rate": 0.128205,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.358974
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 19,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.016829,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.263158,
+            "negative": 0.157895,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.578947
+          },
+          "negative_rate": 0.157895,
+          "negative_or_mixed_rate": 0.157895,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.421053
+        },
+        "ICE": {
+          "review_count": 21,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.008178,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.190476,
+            "negative": 0.095238,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.095238,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.285714
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 29,
+          "topic_prevalence_in_source_segment": 0.034483,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 18,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.016744,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.277778,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.555556
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.444444
+        },
+        "ICE": {
+          "review_count": 21,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.008624,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.190476,
+            "negative": 0.095238,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.095238,
+          "negative_or_mixed_rate": 0.095238,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.285714
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0010",
+      "G70-0091",
+      "G70-0140",
+      "G70-0227",
+      "G70-0274",
+      "G70-0286",
+      "G70-0320",
+      "G70-0340",
+      "G70-0401",
+      "G70-0417",
+      "G70-0424",
+      "G70-0698",
+      "G70-0791",
+      "G70-0840",
+      "G70-0843",
+      "G70-0956",
+      "G70-1073",
+      "G70-1094",
+      "G70-1806",
+      "G70-1892",
+      "G70-2127",
+      "G70-2184",
+      "G70-2207",
+      "G70-2255",
+      "G70-2262",
+      "G70-2311",
+      "G70-2333",
+      "G70-2342",
+      "G70-2593",
+      "G70-2730",
+      "G70-2873",
+      "G70-2904",
+      "G70-3000",
+      "G70-3138",
+      "G70-3330",
+      "G70-3543",
+      "G70-3610",
+      "G70-3633",
+      "G70-3653",
+      "G70-3948"
+    ],
+    "summary": "Reviews discuss the theater screen as an in-car entertainment feature, with praise for comfort and enjoyment but also complaints about usability, app limitations, and connectivity, while many fragments are too brief or task-oriented to determine sentiment clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Theater Screen Usability and Entertainment",
+    "source_title": "theater / screen / customer",
+    "keywords": [
+      {
+        "term": "theater",
+        "weight": 0.278313
+      },
+      {
+        "term": "theater screen",
+        "weight": 0.273378
+      },
+      {
+        "term": "screen",
+        "weight": 0.233187
+      },
+      {
+        "term": "customer",
+        "weight": 0.052688
+      },
+      {
+        "term": "amazon",
+        "weight": 0.049786
+      },
+      {
+        "term": "stream",
+        "weight": 0.04968
+      },
+      {
+        "term": "fire tv",
+        "weight": 0.046005
+      },
+      {
+        "term": "fire",
+        "weight": 0.04391
+      },
+      {
+        "term": "stated theater",
+        "weight": 0.042124
+      },
+      {
+        "term": "amazon fire",
+        "weight": 0.04058
+      },
+      {
+        "term": "tv",
+        "weight": 0.038961
+      },
+      {
+        "term": "kids",
+        "weight": 0.036546
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002955",
+        "review_id": "G70-1073",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "it is very comfortable, and both the theater screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001885",
+        "review_id": "G70-0698",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the theater screen is difficult to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004945",
+        "review_id": "G70-1806",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it does operate on the Theater screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002307",
+        "review_id": "G70-0843",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer expressed that they love the theater screen and feel its quality is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006080",
+        "review_id": "G70-2184",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he does not like the theater screen because with the HDMI setup he cannot use the built-in apps",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009860",
+        "review_id": "G70-3543",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it bothers me that the theater screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007607",
+        "review_id": "G70-2730",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported that his daughter really loves the theater screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005200",
+        "review_id": "G70-1892",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that he had lost connection to his theater screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001146",
+        "review_id": "G70-0424",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "luxury, truly one-of-a-kind car, with the theater screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000022",
+        "review_id": "G70-0010",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted she would have chosen the Home theater screen,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005912",
+        "review_id": "G70-2127",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i paid over $5000 for the theater screen and rear view screen and haven't been able to use them at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000795",
+        "review_id": "G70-0286",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked if he could stream DirectTV on the Theater Screen",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008328",
+        "review_id": "G70-3000",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he appreciates having the theater screen in the car to entertain his kids",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010159",
+        "review_id": "G70-3653",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer asked how to use the theater screen and how to hook up a computer to it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006499",
+        "review_id": "G70-2342",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the theater screen then indicates it is offline even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006473",
+        "review_id": "G70-2333",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer added his children want to use the Theater Screen while he is driving,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 49,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, which limits confidence in identifying clear themes beyond basic usage, enjoyment, and setup concerns.",
+      "Several fragments are short or incomplete, so some apparent problems or praise cannot be classified more precisely from the provided text alone.",
+      "The topic includes both sentiment-bearing opinions and service-style questions or troubleshooting references, which reduces thematic coherence."
+    ]
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "topic_id": "T0283",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "JP": 0.2,
+      "US": 0.8
+    },
+    "engine_type": {
+      "BEVE": 0.1,
+      "ICE": 0.9
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.3,
+        "summary": "Positive reviews describe actively recommending the car to friends and family because it is enjoyable, stylish, and stable to drive.",
+        "evidence_fragment_ids": [
+          "F004975",
+          "F006316",
+          "F010829"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "Negative reviews describe steering friends and family toward another vehicle because of issues the owner experienced.",
+        "evidence_fragment_ids": [
+          "F008677"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No such reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No such reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.6,
+        "summary": "Undetermined reviews mention friends, family, affordability, or outside interest without a clear evaluative stance on the car overall.",
+        "evidence_fragment_ids": [
+          "F005159",
+          "F005032",
+          "F007066",
+          "F004703",
+          "F000873",
+          "F006880"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 40,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 8,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.00211,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.000886,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003505,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.222222,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 30,
+          "topic_prevalence_in_source_segment": 0.066667,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.00093,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002875,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0329",
+      "G70-1711",
+      "G70-1815",
+      "G70-1831",
+      "G70-1881",
+      "G70-2276",
+      "G70-2464",
+      "G70-2539",
+      "G70-3138",
+      "G70-3895"
+    ],
+    "summary": "This topic centers on whether owners would recommend the car to friends or family, alongside unrelated mentions of affordability or other people asking about the car.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Recommendations to Friends and Family",
+    "source_title": "friends / afford / family",
+    "keywords": [
+      {
+        "term": "friends",
+        "weight": 0.42324
+      },
+      {
+        "term": "family friends",
+        "weight": 0.15973
+      },
+      {
+        "term": "afford",
+        "weight": 0.147287
+      },
+      {
+        "term": "family",
+        "weight": 0.135977
+      },
+      {
+        "term": "ask",
+        "weight": 0.130107
+      },
+      {
+        "term": "tell",
+        "weight": 0.096209
+      },
+      {
+        "term": "tell friends",
+        "weight": 0.082913
+      },
+      {
+        "term": "interest",
+        "weight": 0.069023
+      },
+      {
+        "term": "told",
+        "weight": 0.064635
+      },
+      {
+        "term": "ca",
+        "weight": 0.063084
+      },
+      {
+        "term": "dealing",
+        "weight": 0.051961
+      },
+      {
+        "term": "assume",
+        "weight": 0.047287
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004975",
+        "review_id": "G70-1815",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i recommend it to all my family and friends",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008677",
+        "review_id": "G70-3138",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i would still tell most family and friends to go with the s class instead, because of a mix of issues i've run into",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005159",
+        "review_id": "G70-1881",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when friends or acquaintances ask about it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006316",
+        "review_id": "G70-2276",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i really love this 740 and have told all my friends about it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005032",
+        "review_id": "G70-1831",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and I would never want my family or friends to go through what I am dealing with",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007066",
+        "review_id": "G70-2539",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i generally dont tell friends to buy a car unless they ask me about mine or show some interest in it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004703",
+        "review_id": "G70-1711",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "most of my friends either can't afford one or assume they can't,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000873",
+        "review_id": "G70-0329",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer also mentioned the car draws a lot of interest from their teenage son and his school friends, who regularly ask to see the interior",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010829",
+        "review_id": "G70-3895",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i'd defintely tell my friends to get one, mainly because it looks stylish and drives very stably",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006880",
+        "review_id": "G70-2464",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'm in my 60s and can afford any car,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many examples are incidental mentions of friends, family, or affordability rather than clear recommendation intent.",
+      "The cluster mixes recommendation behavior with unrelated social-interest and affordability comments, so the topic is only loosely coherent.",
+      "Several undetermined fragments are too brief or context-dependent to infer a definite sentiment."
+    ]
+  }
+}

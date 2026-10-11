@@ -1,0 +1,582 @@
+{
+  "topic_id": "T0066",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 31,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.419355,
+      "ICE": 0.516129,
+      "PHEV": 0.064516
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 9,
+        "share": 0.290323,
+        "summary": "Negative reviews focus on a terrible or too-small center console layout and storage area, along with glossy trim that scratches easily and is hard to keep looking clean.",
+        "evidence_fragment_ids": [
+          "F000047",
+          "F004186",
+          "F000075",
+          "F002665"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.032258,
+        "summary": "The mixed review in this topic appears to concern braking smoothness rather than the center console itself, so the sampled evidence is insufficient to summarize a console-specific mixed sentiment.",
+        "evidence_fragment_ids": [
+          "F007929"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 21,
+        "share": 0.677419,
+        "summary": "Undetermined fragments include factual notes and preferences about console port locations, button behavior, storage limitations, controller position, glare, and desired haptic feedback without a clear overall sentiment label.",
+        "evidence_fragment_ids": [
+          "F007974",
+          "F001563",
+          "F009266",
+          "F001721",
+          "F000169",
+          "F005535",
+          "F002169",
+          "F002566",
+          "F001771",
+          "F000341",
+          "F011038"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 31,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00775,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.290323,
+            "mixed": 0.032258,
+            "neutral": 0.0,
+            "undetermined": 0.677419
+          },
+          "negative_rate": 0.290323,
+          "negative_or_mixed_rate": 0.322581,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.322581
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 31,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.008587,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.290323,
+            "mixed": 0.032258,
+            "neutral": 0.0,
+            "undetermined": 0.677419
+          },
+          "negative_rate": 0.290323,
+          "negative_or_mixed_rate": 0.322581,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.322581
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.009538,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.307692,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.692308
+          },
+          "negative_rate": 0.307692,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 0.444444,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.307692
+        },
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.007083,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.3125,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.3125,
+          "negative_or_mixed_rate": 0.375,
+          "share_of_all_topic_negative_reviews": 0.555556,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.375
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.010228,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.307692,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.692308
+          },
+          "negative_rate": 0.307692,
+          "negative_or_mixed_rate": 0.307692,
+          "share_of_all_topic_negative_reviews": 0.444444,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.307692
+        },
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.007933,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.3125,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.3125,
+          "negative_or_mixed_rate": 0.375,
+          "share_of_all_topic_negative_reviews": 0.555556,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.375
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 5,
+    "review_ids": [
+      "G60-0019",
+      "G60-0028",
+      "G60-0062",
+      "G60-0130",
+      "G60-0551",
+      "G60-0611",
+      "G60-0636",
+      "G60-0704",
+      "G60-0759",
+      "G60-0775",
+      "G60-0908",
+      "G60-0932",
+      "G60-0945",
+      "G60-1379",
+      "G60-1417",
+      "G60-1504",
+      "G60-1583",
+      "G60-1968",
+      "G60-2305",
+      "G60-2506",
+      "G60-2840",
+      "G60-2850",
+      "G60-3319",
+      "G60-3437",
+      "G60-3498",
+      "G60-3499",
+      "G60-3504",
+      "G60-3808",
+      "G60-3844",
+      "G60-3964",
+      "G60-3983"
+    ],
+    "summary": "Feedback on the center console centers on complaints about cramped layout and storage, scratch-prone glossy trim, and some control usability issues, while many sampled fragments are descriptive or preference-based rather than clearly sentiment-labeled.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Center Console Layout, Storage, and Controls",
+    "source_title": "center console / impossible / customer",
+    "keywords": [
+      {
+        "term": "center console",
+        "weight": 0.228804
+      },
+      {
+        "term": "center",
+        "weight": 0.222129
+      },
+      {
+        "term": "console",
+        "weight": 0.213697
+      },
+      {
+        "term": "impossible",
+        "weight": 0.092842
+      },
+      {
+        "term": "customer",
+        "weight": 0.04267
+      },
+      {
+        "term": "button",
+        "weight": 0.040612
+      },
+      {
+        "term": "stated center",
+        "weight": 0.0398
+      },
+      {
+        "term": "small",
+        "weight": 0.036464
+      },
+      {
+        "term": "located center",
+        "weight": 0.035984
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.035077
+      },
+      {
+        "term": "console button",
+        "weight": 0.034834
+      },
+      {
+        "term": "stated",
+        "weight": 0.034428
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000047",
+        "review_id": "G60-0019",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the center console layout is terrible",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007929",
+        "review_id": "G60-2840",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer reported that the car seems to use electric braking rather than hydraulic braking, and said it is basically impossible to come to a smooth stop without the car jerking forward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007974",
+        "review_id": "G60-2850",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised where the type C ports are located in the center console for charging",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004186",
+        "review_id": "G60-1504",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the center console are both too small",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001563",
+        "review_id": "G60-0551",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "some of the center console buttons stick or do not always respond when you press them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000075",
+        "review_id": "G60-0028",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the center console feels too small",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002665",
+        "review_id": "G60-0945",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the only real problem is the piano-black trim on the center console, right in front of the center storage door, which seems impossible to keep from getting scratched, so we leave a microfiber cloth over it whenever we drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009266",
+        "review_id": "G60-3319",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the storage space in the center console feels limted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001721",
+        "review_id": "G60-0611",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated there is too little storage available in the center console area of the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000169",
+        "review_id": "G60-0062",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the controller on the center console appears to sit a little lower",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005535",
+        "review_id": "G60-1968",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "then there's the brutal, eye-burning glare from the gloss black on the center console",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002169",
+        "review_id": "G60-0775",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised it can be started by pressing the parking button on the center console",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002566",
+        "review_id": "G60-0908",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the 12 V socket is positioned in the center console and he is unable to close the lid while a device is charging",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001771",
+        "review_id": "G60-0636",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the volume knob on the center console is also a button that can be pressed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000341",
+        "review_id": "G60-0130",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would prefer the center console buttons to provide a bit of haptic feedback",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011038",
+        "review_id": "G60-3983",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer commented he would like the USB port to be located in the center console",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 34,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are labeled undetermined, which limits confident interpretation of overall sentiment for several console-related issues.",
+      "The topic cluster appears somewhat noisy because at least one mixed example concerns braking behavior rather than the center console.",
+      "Examples are limited and stratified rather than representative, so they should not be used to infer broader prevalence beyond this sample."
+    ]
+  }
+}

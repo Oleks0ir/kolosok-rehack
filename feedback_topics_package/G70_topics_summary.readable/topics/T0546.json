@@ -1,0 +1,287 @@
+{
+  "topic_id": "T0546",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 4,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 1.0,
+        "summary": "The examples reference accepting delivery, accepting an available replacement car, RVG acceptance, and not yet accepting a function-related disclaimer, but they do not state whether the customer viewed these matters favorably or unfavorably.",
+        "evidence_fragment_ids": [
+          "F007167",
+          "F008734",
+          "F005175",
+          "F001889"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 4,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.001,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 4,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.001055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001558,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "ICE": {
+          "review_count": 4,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001643,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0700",
+      "G70-1884",
+      "G70-2581",
+      "G70-3144"
+    ],
+    "summary": "The fragments mainly note acceptance status for vehicle delivery, RVG, or a function-related disclaimer without enough evaluative context to determine customer sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Delivery acceptance and RVG/disclaimer mentions",
+    "source_title": "accepted / delivery / rvg",
+    "keywords": [
+      {
+        "term": "accepted",
+        "weight": 0.707455
+      },
+      {
+        "term": "delivery",
+        "weight": 0.157387
+      },
+      {
+        "term": "rvg",
+        "weight": 0.148007
+      },
+      {
+        "term": "disclaimer",
+        "weight": 0.135742
+      },
+      {
+        "term": "related",
+        "weight": 0.120349
+      },
+      {
+        "term": "available",
+        "weight": 0.118557
+      },
+      {
+        "term": "customer mentioned",
+        "weight": 0.093888
+      },
+      {
+        "term": "mentioned",
+        "weight": 0.090855
+      },
+      {
+        "term": "function",
+        "weight": 0.08273
+      },
+      {
+        "term": "customer",
+        "weight": 0.064271
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.037854
+      },
+      {
+        "term": "stated",
+        "weight": 0.037229
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007167",
+        "review_id": "G70-2581",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i still accepted delivery of the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008734",
+        "review_id": "G70-3144",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he then accepted the next car that was available",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005175",
+        "review_id": "G70-1884",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "RVG accepted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001889",
+        "review_id": "G70-0700",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has not yet accepted any disclaimer related to using this function",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 4,
+      "total_topic_fragments": 4,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "All sampled fragments are undetermined, so there is no explicit sentiment content to compare across examples.",
+      "The cluster combines several administrative acceptance topics, including delivery acceptance, RVG acceptance, and disclaimer acceptance, which may not reflect a single coherent customer issue.",
+      "Examples are brief and lack surrounding context, limiting interpretation of customer intent or satisfaction."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Intermittent issues and idling mentions",
+  "summary": "This topic is mostly made up of short, context-poor reports that something happens under certain conditions, with only one clear complaint about rough engine idling during warm-up.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clear negative review describes a rough engine idle during warm-up as a serious problem.",
+      "evidence_fragment_ids": [
+        "F004142"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Most fragments only note that an issue happens in certain situations such as at startup, during shifts, while idling, when driving, or during slow stops, without enough detail to determine sentiment consistently.",
+      "evidence_fragment_ids": [
+        "F009412",
+        "F004356",
+        "F005142",
+        "F003781",
+        "F002274",
+        "F001490",
+        "F008526",
+        "F001840",
+        "F003129",
+        "F009130",
+        "F007581",
+        "F006345",
+        "F006477"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are too short or lack enough context to identify the underlying system or issue precisely.",
+    "This cluster mixes several unrelated situations, including startup behavior, connectivity context, exiting the vehicle, grinding noise during slow stops, and general usage advice.",
+    "Because nearly all fragments are undetermined, the sample provides limited evidence for a coherent sentiment pattern or a single specific problem."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Vehicle appearance mentions and one oil leak report",
+  "summary": "This topic combines comments about the vehicle's visual appeal with a separate service-related oil leak report, so the sample does not reflect a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the vehicle's appearance and styling as a reason for liking or choosing it.",
+      "evidence_fragment_ids": [
+        "F002866",
+        "F004927"
+      ]
+    },
+    "negative": {
+      "summary": "Negative feedback concerns an oil leak observed on the vehicle, with one fragment noting the leak was eliminated.",
+      "evidence_fragment_ids": [
+        "F006732",
+        "F006746"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention seeing the vehicle, purchase timing, color, or a rear-seat fabric tear, but the excerpts are too incomplete or inconsistent to assign a clear overall sentiment.",
+      "evidence_fragment_ids": [
+        "F001385",
+        "F002118",
+        "F001428",
+        "F004567",
+        "F000702"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic clusters unrelated subjects, including appearance-related purchase comments and a service-related leak report.",
+    "Most sampled fragments are undetermined, so the available evidence is limited for drawing a clear thematic sentiment picture.",
+    "Several excerpts are incomplete or context-light, which restricts precise interpretation."
+  ]
+}

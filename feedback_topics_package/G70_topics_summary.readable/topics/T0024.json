@@ -1,0 +1,607 @@
+{
+  "topic_id": "T0024",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 56,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.321429,
+      "ICE": 0.642857,
+      "PHEV": 0.035714
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.035714,
+        "summary": "Positive reviews praise clear guidance on battery charging and a personally liked accessory mentioned by the customer.",
+        "evidence_fragment_ids": [
+          "F000581",
+          "F002730"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.017857,
+        "summary": "Negative feedback mentions discomfort and knee strain when getting out of low vehicles.",
+        "evidence_fragment_ids": [
+          "F008920"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 53,
+        "share": 0.946429,
+        "summary": "Undetermined fragments mostly describe explanations of vehicle functions, warnings, parking assistants, IDs, sensors, streaming limits, and setup steps without a clear opinion.",
+        "evidence_fragment_ids": [
+          "F005189",
+          "F002083",
+          "F009519",
+          "F011016",
+          "F005643",
+          "F002587",
+          "F001226",
+          "F007129",
+          "F000053",
+          "F002364",
+          "F000123",
+          "F008846",
+          "F010248"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 56,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.014,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 53
+          },
+          "sentiment_shares": {
+            "positive": 0.035714,
+            "negative": 0.017857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.946429
+          },
+          "negative_rate": 0.017857,
+          "negative_or_mixed_rate": 0.017857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.053571
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 56,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.014768,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 53
+          },
+          "sentiment_shares": {
+            "positive": 0.035714,
+            "negative": 0.017857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.946429
+          },
+          "negative_rate": 0.017857,
+          "negative_or_mixed_rate": 0.017857,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.053571
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 18,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.015943,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.111111
+        },
+        "ICE": {
+          "review_count": 36,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.014019,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.027778,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.972222
+          },
+          "negative_rate": 0.027778,
+          "negative_or_mixed_rate": 0.027778,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.027778
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 18,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.016744,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.111111
+        },
+        "ICE": {
+          "review_count": 36,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.014784,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.027778,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.972222
+          },
+          "negative_rate": 0.027778,
+          "negative_or_mixed_rate": 0.027778,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.027778
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0026",
+      "G70-0065",
+      "G70-0128",
+      "G70-0220",
+      "G70-0433",
+      "G70-0454",
+      "G70-0514",
+      "G70-0579",
+      "G70-0771",
+      "G70-0807",
+      "G70-0862",
+      "G70-0891",
+      "G70-0943",
+      "G70-0989",
+      "G70-1197",
+      "G70-1228",
+      "G70-1285",
+      "G70-1336",
+      "G70-1501",
+      "G70-1524",
+      "G70-1606",
+      "G70-1616",
+      "G70-1674",
+      "G70-1680",
+      "G70-1716",
+      "G70-1759",
+      "G70-1773",
+      "G70-1889",
+      "G70-1970",
+      "G70-2026",
+      "G70-2027",
+      "G70-2348",
+      "G70-2426",
+      "G70-2542",
+      "G70-2569",
+      "G70-2578",
+      "G70-2652",
+      "G70-2899",
+      "G70-2978",
+      "G70-3083",
+      "G70-3145",
+      "G70-3181",
+      "G70-3208",
+      "G70-3246",
+      "G70-3364",
+      "G70-3404",
+      "G70-3419",
+      "G70-3469",
+      "G70-3503",
+      "G70-3612",
+      "G70-3688",
+      "G70-3709",
+      "G70-3828",
+      "G70-3848",
+      "G70-3960",
+      "G70-3972"
+    ],
+    "summary": "This topic is dominated by fragments where writers or customers explain how features, systems, charging, or vehicle use work, with only a few clearly positive or negative evaluations.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Explanations of vehicle features and usage",
+    "source_title": "explained / writer / customer",
+    "keywords": [
+      {
+        "term": "explained",
+        "weight": 0.273075
+      },
+      {
+        "term": "writer explained",
+        "weight": 0.199581
+      },
+      {
+        "term": "writer",
+        "weight": 0.132412
+      },
+      {
+        "term": "customer explained",
+        "weight": 0.104494
+      },
+      {
+        "term": "customer",
+        "weight": 0.036082
+      },
+      {
+        "term": "explained equipped",
+        "weight": 0.025094
+      },
+      {
+        "term": "system",
+        "weight": 0.023342
+      },
+      {
+        "term": "detects",
+        "weight": 0.02241
+      },
+      {
+        "term": "streaming",
+        "weight": 0.021419
+      },
+      {
+        "term": "equipped",
+        "weight": 0.02055
+      },
+      {
+        "term": "parking",
+        "weight": 0.02052
+      },
+      {
+        "term": "explained system",
+        "weight": 0.020482
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002730",
+        "review_id": "G70-0989",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer explained they use an old blue speckled cooking thermos they like",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008920",
+        "review_id": "G70-3208",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer explained that exiting low vehicles typically causes issues and strains his knees",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005189",
+        "review_id": "G70-1889",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that when this is turned on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000581",
+        "review_id": "G70-0220",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer explained that the vehicle uses a battery pack made up of many cells and advised that charging to the recommended 80% allows the system to balance the charge across all cells efficiently, so the customer does not need to worry about discharging it low first",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002083",
+        "review_id": "G70-0771",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that once everything is configured",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009519",
+        "review_id": "G70-3419",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained there may not be enough power connections to support them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011016",
+        "review_id": "G70-3972",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained the operation of the parking assistants and how to use them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005643",
+        "review_id": "G70-2026",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that in the 2026 740i",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002587",
+        "review_id": "G70-0943",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the motor has to be turned off first",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001226",
+        "review_id": "G70-0454",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that if the driver ignores these notifications",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007129",
+        "review_id": "G70-2569",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that it indicates there is too much oil in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000053",
+        "review_id": "G70-0026",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that when the vehicle detects an impact",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002364",
+        "review_id": "G70-0862",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the sensors can interpret the incline",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000123",
+        "review_id": "G70-0065",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that he and his kids can each set up their own BMW ID and then link it to the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008846",
+        "review_id": "G70-3181",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that streaming is not available when the vehicle is moving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010248",
+        "review_id": "G70-3688",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that it does not handle as well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 57,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so clear evaluative evidence is limited.",
+      "The examples mix unrelated subjects such as charging guidance, parking assistants, warning messages, streaming restrictions, and vehicle entry comfort rather than one tightly focused issue.",
+      "Some fragments appear truncated or too brief to determine sentiment confidently."
+    ]
+  }
+}

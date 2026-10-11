@@ -1,0 +1,694 @@
+{
+  "topic_id": "T0044",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 40,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "ES": 0.025,
+      "KR": 0.025,
+      "US": 0.95
+    },
+    "engine_type": {
+      "BEVE": 0.225,
+      "ICE": 0.725,
+      "PHEV": 0.05
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.1,
+        "summary": "Positive reviews highlight interest in a rearview mirror camera display for blocked rear visibility and appreciation for mirror-related convenience ideas.",
+        "evidence_fragment_ids": [
+          "F005586",
+          "F010109",
+          "F007349"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.075,
+        "summary": "Negative reviews mention driver-side mirror damage or problems tied to the side mirror location.",
+        "evidence_fragment_ids": [
+          "F005426",
+          "F008296"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.025,
+        "summary": "Mixed feedback praises power-folding side mirrors for reducing the chance of being hit or damaged.",
+        "evidence_fragment_ids": [
+          "F008830"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 32,
+        "share": 0.8,
+        "summary": "Undetermined reviews mostly describe desired digital rearview mirror or camera functionality, but the sample often lacks enough context to classify the sentiment reliably.",
+        "evidence_fragment_ids": [
+          "F002230",
+          "F005716",
+          "F008885",
+          "F006560",
+          "F000623",
+          "F008209",
+          "F006986",
+          "F000564",
+          "F009862",
+          "F005400"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 40,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 32
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.075,
+            "mixed": 0.025,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.075,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "country": {
+        "ES": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 38,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.010021,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.105263,
+            "negative": 0.078947,
+            "mixed": 0.026316,
+            "neutral": 0.0,
+            "undetermined": 0.789474
+          },
+          "negative_rate": 0.078947,
+          "negative_or_mixed_rate": 0.105263,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.210526
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007972,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.777778
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.222222
+        },
+        "ICE": {
+          "review_count": 29,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.011293,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.103448,
+            "negative": 0.068966,
+            "mixed": 0.034483,
+            "neutral": 0.0,
+            "undetermined": 0.793103
+          },
+          "negative_rate": 0.068966,
+          "negative_or_mixed_rate": 0.103448,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.206897
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "ES": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 29,
+          "topic_prevalence_in_source_segment": 0.034483,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.007442,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 29,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.01191,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.103448,
+            "negative": 0.068966,
+            "mixed": 0.034483,
+            "neutral": 0.0,
+            "undetermined": 0.793103
+          },
+          "negative_rate": 0.068966,
+          "negative_or_mixed_rate": 0.103448,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.206897
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 8,
+    "review_ids": [
+      "G70-0010",
+      "G70-0035",
+      "G70-0102",
+      "G70-0119",
+      "G70-0212",
+      "G70-0228",
+      "G70-0399",
+      "G70-0514",
+      "G70-0639",
+      "G70-0826",
+      "G70-0883",
+      "G70-1265",
+      "G70-1278",
+      "G70-1956",
+      "G70-1964",
+      "G70-1978",
+      "G70-2004",
+      "G70-2056",
+      "G70-2078",
+      "G70-2311",
+      "G70-2357",
+      "G70-2403",
+      "G70-2504",
+      "G70-2588",
+      "G70-2633",
+      "G70-2871",
+      "G70-2955",
+      "G70-2991",
+      "G70-3033",
+      "G70-3105",
+      "G70-3173",
+      "G70-3186",
+      "G70-3199",
+      "G70-3364",
+      "G70-3480",
+      "G70-3543",
+      "G70-3546",
+      "G70-3632",
+      "G70-3633",
+      "G70-3783"
+    ],
+    "summary": "Feedback about mirrors centers on requests for a digital rearview mirror or rear camera display, with a smaller set of comments about damaged or folding side mirrors.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Rearview mirror camera and side mirror mentions",
+    "source_title": "mirror / rearview / side",
+    "keywords": [
+      {
+        "term": "mirror",
+        "weight": 0.263604
+      },
+      {
+        "term": "rearview mirror",
+        "weight": 0.128841
+      },
+      {
+        "term": "rearview",
+        "weight": 0.128073
+      },
+      {
+        "term": "side",
+        "weight": 0.090118
+      },
+      {
+        "term": "side mirror",
+        "weight": 0.082886
+      },
+      {
+        "term": "rear",
+        "weight": 0.065424
+      },
+      {
+        "term": "driver",
+        "weight": 0.064687
+      },
+      {
+        "term": "camera",
+        "weight": 0.059501
+      },
+      {
+        "term": "driver side",
+        "weight": 0.054037
+      },
+      {
+        "term": "rear mirror",
+        "weight": 0.044128
+      },
+      {
+        "term": "exterior",
+        "weight": 0.044081
+      },
+      {
+        "term": "mirror fold",
+        "weight": 0.041647
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005586",
+        "review_id": "G70-2004",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that when the rear sunshades are up, she would like the rear-facing camera image shown in the rearview mirror so she can use it like a rear view mirror",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005426",
+        "review_id": "G70-1964",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the driver side mirror was damaged",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008830",
+        "review_id": "G70-3173",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer stated he likes that the side mirrors can fold in so they are less likely to be hit or damaged",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002230",
+        "review_id": "G70-0826",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": \"Could use a rear view camera built into the rearview mirror",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010109",
+        "review_id": "G70-3633",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "it blocks his view in the rearview mirror",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008296",
+        "review_id": "G70-2991",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Writer then asked whether the problem is on the driver or passenger side mirror, and Customer stated it is on the driver's side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005716",
+        "review_id": "G70-2056",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "recommendation: with the theater package installed you basically lose the use of the rear view mirror, so i would suggest putting a camera feed into the rear view mirror so the driver can still see the cars behind them even when the screen is down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008885",
+        "review_id": "G70-3199",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer expressed that the vehicle should include a camera feature built into the rearview mirror, letting the driver switch between a standard mirror and a camera view, similar to Cadillac products",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006560",
+        "review_id": "G70-2357",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "they should let the rearview mirror switch to a camera image so you can still see behind",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000623",
+        "review_id": "G70-0228",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that one major thing he wishes this car had is a digital rearview mirror with side view capability",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008209",
+        "review_id": "G70-2955",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the exterior rearview mirrors look as",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006986",
+        "review_id": "G70-2504",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained this way he could still make use of the rearview mirror even with the blind up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000564",
+        "review_id": "G70-0212",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the center rearview mirror can show the rear camera image while driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009862",
+        "review_id": "G70-3543",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "not having a digital rearview mirror there is a letdown",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005400",
+        "review_id": "G70-1956",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the system on this rearview mirror looks different and might not be compatible",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007349",
+        "review_id": "G70-2633",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated a digital rearview mirror would be helpful when passengers or the theater screen obstruct his view to the back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 47,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confident interpretation of overall sentiment.",
+      "Several excerpts are truncated or phrased as feature requests, so intent and sentiment are sometimes unclear.",
+      "The topic combines rearview mirror camera-display requests with separate side-mirror condition comments, so it is not fully uniform."
+    ]
+  }
+}

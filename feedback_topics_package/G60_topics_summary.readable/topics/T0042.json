@@ -1,0 +1,642 @@
+{
+  "topic_id": "T0042",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 41,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "FI": 0.02439,
+      "US": 0.97561
+    },
+    "engine_type": {
+      "BEVE": 0.365854,
+      "ICE": 0.463415,
+      "PHEV": 0.170732
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.02439,
+        "summary": "The only negative fragment says the rating would have been higher without two issues in the first couple of months.",
+        "evidence_fragment_ids": [
+          "F009255"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 40,
+        "share": 0.97561,
+        "summary": "Most fragments are non-evaluative survey wording asking for the primary reason for an NPS rating, so they do not reveal a clear opinion about the vehicle.",
+        "evidence_fragment_ids": [
+          "F000337",
+          "F000907",
+          "F000923",
+          "F001209",
+          "F001335",
+          "F001383",
+          "F001845",
+          "F001915",
+          "F002698",
+          "F003115",
+          "F003405",
+          "F003813",
+          "F004122",
+          "F004660",
+          "F004879"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 41,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01025,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 40
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.02439,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.97561
+          },
+          "negative_rate": 0.02439,
+          "negative_or_mixed_rate": 0.02439,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.02439
+        }
+      },
+      "country": {
+        "FI": {
+          "review_count": 1,
+          "source_segment_review_count": 9,
+          "topic_prevalence_in_source_segment": 0.111111,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 40,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.01108,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 39
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.025,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.975
+          },
+          "negative_rate": 0.025,
+          "negative_or_mixed_rate": 0.025,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.025
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.011005,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 19,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.008411,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.052632,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.947368
+          },
+          "negative_rate": 0.052632,
+          "negative_or_mixed_rate": 0.052632,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.052632
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.018519,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "FI": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 5,
+          "topic_prevalence_in_source_segment": 0.2,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 15,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.011802,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 19,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.00942,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.052632,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.947368
+          },
+          "negative_rate": 0.052632,
+          "negative_or_mixed_rate": 0.052632,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.052632
+        },
+        "PHEV": {
+          "review_count": 6,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.018634,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0128",
+      "G60-0327",
+      "G60-0332",
+      "G60-0427",
+      "G60-0470",
+      "G60-0492",
+      "G60-0661",
+      "G60-0687",
+      "G60-0957",
+      "G60-1077",
+      "G60-1122",
+      "G60-1217",
+      "G60-1219",
+      "G60-1367",
+      "G60-1478",
+      "G60-1668",
+      "G60-1735",
+      "G60-1947",
+      "G60-2422",
+      "G60-2501",
+      "G60-2586",
+      "G60-2645",
+      "G60-2753",
+      "G60-2885",
+      "G60-3074",
+      "G60-3144",
+      "G60-3155",
+      "G60-3178",
+      "G60-3187",
+      "G60-3236",
+      "G60-3313",
+      "G60-3334",
+      "G60-3516",
+      "G60-3521",
+      "G60-3561",
+      "G60-3719",
+      "G60-3832",
+      "G60-3843",
+      "G60-3847",
+      "G60-3872",
+      "G60-3885"
+    ],
+    "summary": "This topic is dominated by survey prompt text about the primary reason for an NPS rating, with only one evaluative fragment mentioning early issues that lowered a score.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "NPS primary-reason prompt fragments",
+    "source_title": "rating / primary reason / higher",
+    "keywords": [
+      {
+        "term": "rating",
+        "weight": 0.488531
+      },
+      {
+        "term": "primary reason",
+        "weight": 0.171611
+      },
+      {
+        "term": "primary",
+        "weight": 0.144205
+      },
+      {
+        "term": "reason",
+        "weight": 0.132746
+      },
+      {
+        "term": "higher",
+        "weight": 0.122572
+      },
+      {
+        "term": "justify",
+        "weight": 0.115594
+      },
+      {
+        "term": "couple",
+        "weight": 0.093689
+      },
+      {
+        "term": "top",
+        "weight": 0.08431
+      },
+      {
+        "term": "run",
+        "weight": 0.083938
+      },
+      {
+        "term": "two",
+        "weight": 0.077272
+      },
+      {
+        "term": "issue",
+        "weight": 0.069446
+      },
+      {
+        "term": "quality",
+        "weight": 0.068439
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009255",
+        "review_id": "G60-3313",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "this would have been a 10 rating if we hadn't run into two issues in the first couple of months",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000337",
+        "review_id": "G60-0128",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000907",
+        "review_id": "G60-0327",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000923",
+        "review_id": "G60-0332",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001209",
+        "review_id": "G60-0427",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001335",
+        "review_id": "G60-0470",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001383",
+        "review_id": "G60-0492",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001845",
+        "review_id": "G60-0661",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001915",
+        "review_id": "G60-0687",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002698",
+        "review_id": "G60-0957",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003115",
+        "review_id": "G60-1122",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003405",
+        "review_id": "G60-1217",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003813",
+        "review_id": "G60-1367",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004122",
+        "review_id": "G60-1478",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004660",
+        "review_id": "G60-1668",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004879",
+        "review_id": "G60-1735",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "What is the primary reason for your nps rating",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 41,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is dominated by repeated survey prompt text rather than substantive customer comments.",
+      "Only one evaluative example is available, so concrete themes within this topic are insufficiently evidenced.",
+      "Because many fragments are undetermined and formulaic, the topic reflects questionnaire wording more than a coherent product issue or benefit."
+    ]
+  }
+}

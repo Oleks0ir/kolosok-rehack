@@ -1,0 +1,569 @@
+{
+  "topic_id": "T0155",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "FI": 0.058824,
+      "US": 0.941176
+    },
+    "engine_type": {
+      "BEVE": 0.352941,
+      "ICE": 0.647059
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.058824,
+        "summary": "The positive review praises the ability to save home locations as navigation favorites once the feature is understood.",
+        "evidence_fragment_ids": [
+          "F010273"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.294118,
+        "summary": "Negative reviews describe multiple vehicle problems, unpleasant feature usability, and reports of recurring issues noted by dealers.",
+        "evidence_fragment_ids": [
+          "F003940",
+          "F007301",
+          "F002522",
+          "F007673"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 11,
+        "share": 0.647059,
+        "summary": "Undetermined reviews mostly mention prior ownership of several vehicles, repeated contacts or attempts, or references to several locations without clear evaluative sentiment.",
+        "evidence_fragment_ids": [
+          "F001989",
+          "F005524",
+          "F007163",
+          "F004607",
+          "F010856",
+          "F008113",
+          "F004569",
+          "F006679",
+          "F004061",
+          "F009518",
+          "F009003"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 17,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00425,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.294118,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.647059
+          },
+          "negative_rate": 0.294118,
+          "negative_or_mixed_rate": 0.294118,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.352941
+        }
+      },
+      "country": {
+        "FI": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.004219,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0625,
+            "negative": 0.3125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.3125,
+          "negative_or_mixed_rate": 0.3125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.005314,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.004283,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.272727,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.636364
+          },
+          "negative_rate": 0.272727,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.363636
+        }
+      }
+    },
+    "country_engine_type": {
+      "FI": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 1,
+          "topic_prevalence_in_source_segment": 1.0,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.4
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.004517,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.090909,
+            "negative": 0.272727,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.636364
+          },
+          "negative_rate": 0.272727,
+          "negative_or_mixed_rate": 0.272727,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.363636
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0737",
+      "G70-0924",
+      "G70-1446",
+      "G70-1481",
+      "G70-1671",
+      "G70-1681",
+      "G70-1987",
+      "G70-2390",
+      "G70-2581",
+      "G70-2623",
+      "G70-2760",
+      "G70-2917",
+      "G70-3230",
+      "G70-3419",
+      "G70-3509",
+      "G70-3700",
+      "G70-3905"
+    ],
+    "summary": "This topic is loosely connected by mentions of \"several\" and includes both navigation-location setup comments and scattered complaints about multiple problems or unpleasant features.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Navigation favorites and several reported issues",
+    "source_title": "several / locations / experiences",
+    "keywords": [
+      {
+        "term": "several",
+        "weight": 0.419884
+      },
+      {
+        "term": "locations",
+        "weight": 0.102064
+      },
+      {
+        "term": "experiences",
+        "weight": 0.071147
+      },
+      {
+        "term": "including",
+        "weight": 0.063027
+      },
+      {
+        "term": "home",
+        "weight": 0.06046
+      },
+      {
+        "term": "including several",
+        "weight": 0.060244
+      },
+      {
+        "term": "mentioned several",
+        "weight": 0.05693
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.049264
+      },
+      {
+        "term": "stated",
+        "weight": 0.048451
+      },
+      {
+        "term": "customer",
+        "weight": 0.047031
+      },
+      {
+        "term": "premium",
+        "weight": 0.045521
+      },
+      {
+        "term": "problem",
+        "weight": 0.045173
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010273",
+        "review_id": "G70-3700",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he needs to look up instructions on that feature so he can save locations like his home as a favorite and then tap it for automatic navigation instead of talking his way through the system",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003940",
+        "review_id": "G70-1446",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i have only had my bmw for a few months and already ran into several issues:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001989",
+        "review_id": "G70-0737",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have had several 7 series before,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007301",
+        "review_id": "G70-2623",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the dealer mentioned several others have reported this problem as well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005524",
+        "review_id": "G70-1987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has phoned several times",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007163",
+        "review_id": "G70-2581",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "over roughly the last 50 years i have been lucky enough to own a variety of mercedes and bmw vehicles, including several s classes and several 7 series",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004607",
+        "review_id": "G70-1681",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "that he has several home locations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010856",
+        "review_id": "G70-3905",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have owned several premium bmw models before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "FI",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008113",
+        "review_id": "G70-2917",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": \"I have had several BMWs and they have all been positive experiences\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004569",
+        "review_id": "G70-1671",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i've had a bunch of bmws over the years, including several 7 series and a 2022 750",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006679",
+        "review_id": "G70-2390",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has watched a video several times",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004061",
+        "review_id": "G70-1481",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he uses the BMW navigation and asks for a destination that has several possible locations",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002522",
+        "review_id": "G70-0924",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there are several \"features\" that make using it somewhat unpleasant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007673",
+        "review_id": "G70-2760",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the car has already had several problems, including a drivetrain fault that made it undriveable and required a tow",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009518",
+        "review_id": "G70-3419",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he is used to having several cigarette lighter sockets available and is unsure why they were taken out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009003",
+        "review_id": "G70-3230",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he moved into a new home and had already arranged the garage with camera locations planned,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster mixes unrelated subjects linked mainly by the word \"several,\" so it does not represent a single coherent customer issue.",
+      "Many examples are undetermined and provide too little context to infer a clear opinion beyond the literal mention."
+    ]
+  }
+}

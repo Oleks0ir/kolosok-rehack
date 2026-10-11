@@ -1,0 +1,568 @@
+{
+  "topic_id": "T0204",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 14,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.071429,
+      "US": 0.928571
+    },
+    "engine_type": {
+      "BEVE": 0.571429,
+      "ICE": 0.428571
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.071429,
+        "summary": "Positive feedback is limited and points to the pad being usable as an integrated feature, though the example is sparse and partly comparative.",
+        "evidence_fragment_ids": [
+          "F005705",
+          "F005707"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.214286,
+        "summary": "Negative feedback cites slow or inconsistent charging, awkward placement behind cupholders, and interference with phone connectivity while on the pad.",
+        "evidence_fragment_ids": [
+          "F010811",
+          "F003540",
+          "F007787"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.714286,
+        "summary": "Undetermined fragments mention slow or ineffective charging, heat, limited compatibility, access issues, and desired design changes, but several examples are too fragmentary to classify confidently.",
+        "evidence_fragment_ids": [
+          "F000010",
+          "F010039",
+          "F009863",
+          "F001574",
+          "F001672",
+          "F001208",
+          "F003223",
+          "F006673",
+          "F007452",
+          "F010970",
+          "F001670"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 14,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0035,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.214286,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.214286,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003428,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.230769,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.692308
+          },
+          "negative_rate": 0.230769,
+          "negative_or_mixed_rate": 0.230769,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.307692
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007086,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002336,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.166667
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 29,
+          "topic_prevalence_in_source_segment": 0.034483,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.006512,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.285714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.428571
+        },
+        "ICE": {
+          "review_count": 6,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002464,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.833333
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.166667
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0006",
+      "G70-0448",
+      "G70-0579",
+      "G70-0612",
+      "G70-1173",
+      "G70-1284",
+      "G70-2048",
+      "G70-2387",
+      "G70-2680",
+      "G70-2803",
+      "G70-3543",
+      "G70-3597",
+      "G70-3887",
+      "G70-3953"
+    ],
+    "summary": "Feedback on the G70 wireless charging pad centers on charging speed, heat, phone fit, and console placement, with many fragments too brief or ambiguous to support a firm sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Wireless charging pad usability",
+    "source_title": "wireless / charge / pad",
+    "keywords": [
+      {
+        "term": "wireless",
+        "weight": 0.318204
+      },
+      {
+        "term": "charge",
+        "weight": 0.158277
+      },
+      {
+        "term": "charge pad",
+        "weight": 0.154476
+      },
+      {
+        "term": "pad",
+        "weight": 0.148974
+      },
+      {
+        "term": "wireless charger",
+        "weight": 0.131084
+      },
+      {
+        "term": "stated wireless",
+        "weight": 0.118619
+      },
+      {
+        "term": "wireless charge",
+        "weight": 0.116525
+      },
+      {
+        "term": "charger",
+        "weight": 0.096753
+      },
+      {
+        "term": "phone",
+        "weight": 0.085363
+      },
+      {
+        "term": "cadillac",
+        "weight": 0.061213
+      },
+      {
+        "term": "slow",
+        "weight": 0.059622
+      },
+      {
+        "term": "problem wireless",
+        "weight": 0.053466
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005705",
+        "review_id": "G70-2048",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned he had forgotten his phone several times on the charging pad in his Cadillac",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010811",
+        "review_id": "G70-3887",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Wireless charging pad - Wrong size/poorly located: \"The front wireless charger is very hard to reach, sitting behind the drink holders",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000010",
+        "review_id": "G70-0006",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the wireless charging pad feels slow and said this is likely because it has lower wattage than other cars in the same class",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003540",
+        "review_id": "G70-1284",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Wireless charging pad - Broken/works inconsistently: \"(Copied from INFO97): the wireless charging pad charges way too slow",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010039",
+        "review_id": "G70-3597",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the wireless charging does not feel effective enough, especially while using Apple CarPlay",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007787",
+        "review_id": "G70-2803",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Wireless charging pad - Wrong size/poorly located: \"When the phone sits on the charging pad it seems more prone to dropping the cellular data connnection\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009863",
+        "review_id": "G70-3543",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "also the wireless charger gets hot while charging, which makes the charging slow down",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001574",
+        "review_id": "G70-0579",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the Wireless Charger will not work with certain phones, including his iPhone 17 Air",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001672",
+        "review_id": "G70-0612",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would like to have 4 wireless chargers in total, 2 in the front and 2 in the back, so everyone in the vehicle can charge at the same time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001208",
+        "review_id": "G70-0448",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Wireless",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003223",
+        "review_id": "G70-1173",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Wireless",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006673",
+        "review_id": "G70-2387",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Wireless",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007452",
+        "review_id": "G70-2680",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": ": Wireless",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010970",
+        "review_id": "G70-3953",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it ends up obstructing the center console and makes it hard to reach the wireless charger",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001670",
+        "review_id": "G70-0612",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would prefer the wireless charger to be in a vertical orientation so that 2 phones can fit",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005707",
+        "review_id": "G70-2048",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "in his Cadillac the phone charging pad is tucked into a hidden spot, which makes it easy to walk away from the car and leave the phone there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most undetermined examples do not provide enough context to distinguish a clear complaint from a suggestion or simple mention.",
+      "Several fragments are extremely short placeholder-like entries, which limits reliable interpretation.",
+      "The positive evidence is sparse and partly references another vehicle, so it offers limited direct support about the G70 experience.",
+      "This topic mixes direct charging performance comments with broader packaging and feature-request remarks about charger location and capacity."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Requests, prompts, and service handling",
+  "summary": "The topic combines a feature request, a complaint about ignored service requests, and usage or prompt-related statements that are too incomplete to assess consistently.",
+  "sentiments": {
+    "positive": {
+      "summary": "The positive feedback is a mild feature request framed explicitly as not being an issue.",
+      "evidence_fragment_ids": [
+        "F007272"
+      ]
+    },
+    "negative": {
+      "summary": "The negative feedback centers on a hostile BMW representative and repeated customer requests being ignored.",
+      "evidence_fragment_ids": [
+        "F010565"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined feedback contains incomplete statements about a delayed destination prompt and a usage-based request acceptance, without enough context to judge sentiment.",
+      "evidence_fragment_ids": [
+        "F002762",
+        "F010152"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes service interaction, voice or destination prompt behavior, and usage-based request wording rather than one clearly unified issue.",
+    "Two fragments are too incomplete to determine sentiment, which limits how specifically the topic can be summarized.",
+    "The sample is small and sentiment-stratified, so it should not be treated as representative of all G60 feedback."
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "topic_id": "T0206",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 14,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "ICE": 0.642857,
+      "PHEV": 0.357143
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.071429,
+        "summary": "The only negative example is a service correction note describing removal of passenger footwell trim to access the BDC.",
+        "evidence_fragment_ids": [
+          "F009331"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.928571,
+        "summary": "Most examples are too terse to classify, consisting mainly of standalone correction labels plus sparse mentions of oil-contaminated panels, paint correction, and verification language.",
+        "evidence_fragment_ids": [
+          "F001073",
+          "F002690",
+          "F004091",
+          "F004509",
+          "F004584",
+          "F004692",
+          "F004891",
+          "F007497",
+          "F009699",
+          "F010701",
+          "F006741",
+          "F011010",
+          "F004446",
+          "F007509",
+          "F006744"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 14,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0035,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.928571
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.071429
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 14,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003692,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.071429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.928571
+          },
+          "negative_rate": 0.071429,
+          "negative_or_mixed_rate": 0.071429,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.071429
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003505,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.111111
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.016502,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.003696,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.888889
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.111111
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.01773,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0398",
+      "G70-0971",
+      "G70-1490",
+      "G70-1620",
+      "G70-1640",
+      "G70-1673",
+      "G70-1707",
+      "G70-1787",
+      "G70-2409",
+      "G70-2694",
+      "G70-3353",
+      "G70-3487",
+      "G70-3836",
+      "G70-3971"
+    ],
+    "summary": "This topic is dominated by brief service correction entries, with limited concrete detail beyond one negative note about accessing the passenger footwell and a few undetermined mentions of oil-contaminated under panels, paint correction, and verification notes.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Correction notes and oil-contaminated panels",
+    "source_title": "correction / contaminated / oil",
+    "keywords": [
+      {
+        "term": "correction",
+        "weight": 0.457113
+      },
+      {
+        "term": "contaminated",
+        "weight": 0.132179
+      },
+      {
+        "term": "contaminated panels",
+        "weight": 0.132179
+      },
+      {
+        "term": "oil contaminated",
+        "weight": 0.132179
+      },
+      {
+        "term": "oil",
+        "weight": 0.107192
+      },
+      {
+        "term": "panels",
+        "weight": 0.106369
+      },
+      {
+        "term": "correction verified",
+        "weight": 0.101408
+      },
+      {
+        "term": "paint",
+        "weight": 0.099688
+      },
+      {
+        "term": "need",
+        "weight": 0.083306
+      },
+      {
+        "term": "verified",
+        "weight": 0.079388
+      },
+      {
+        "term": "footwell",
+        "weight": 0.07818
+      },
+      {
+        "term": "removed passenger",
+        "weight": 0.07818
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009331",
+        "review_id": "G70-3353",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Correction: Removed passenger footwell trim to access BDC",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001073",
+        "review_id": "G70-0398",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002690",
+        "review_id": "G70-0971",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004091",
+        "review_id": "G70-1490",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004509",
+        "review_id": "G70-1640",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004584",
+        "review_id": "G70-1673",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004692",
+        "review_id": "G70-1707",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004891",
+        "review_id": "G70-1787",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007497",
+        "review_id": "G70-2694",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009699",
+        "review_id": "G70-3487",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F010701",
+        "review_id": "G70-3836",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006741",
+        "review_id": "G70-2409",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "11 99 000 - WORKTIME FOR CLEANING OIL CONTAMINATED UNDER PANELS Correction: TSARA 3053430",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011010",
+        "review_id": "G70-3971",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "said it would need a paint correction and that this would be on the customer",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004446",
+        "review_id": "G70-1620",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction: VERIFIED CONCERN, FOUND CID FLICKERING ONCE",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007509",
+        "review_id": "G70-2694",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Correction:",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006744",
+        "review_id": "G70-2409",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Cleaned oil contaminated under panels and insulation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments contain only the word 'Correction:' or similarly incomplete service text, so sentiment and issue context are often not recoverable.",
+      "The cluster mixes several service subjects, including oil-contaminated under panels, paint correction, electrical verification, and trim removal, so a single coherent customer issue cannot be established from the examples.",
+      "Examples are insufficient to determine the broader customer impact or typical severity of these service notes."
+    ]
+  }
+}

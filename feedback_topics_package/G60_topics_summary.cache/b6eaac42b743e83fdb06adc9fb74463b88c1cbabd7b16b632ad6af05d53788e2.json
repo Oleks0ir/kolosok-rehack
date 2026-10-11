@@ -1,0 +1,36 @@
+{
+  "title": "Phone selection and carpool-lane takeover mentions",
+  "summary": "The topic combines brief mentions of the system grabbing a previously used phone and a driver taking the steering wheel when exiting the carpool lane, so the feedback does not support a single clear sentiment or issue theme.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention the system grabbing the last used phone and a driver manually taking the wheel when leaving the carpool lane, but the fragments are too limited to classify sentiment reliably.",
+      "evidence_fragment_ids": [
+        "F004810",
+        "F009112",
+        "F003835"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so sentiment cannot be resolved from the available evidence.",
+    "The cluster mixes at least two subjects—phone connection behavior and carpool-lane steering takeover—rather than one clearly coherent issue.",
+    "One fragment is extremely short, which limits interpretation of the underlying experience."
+  ]
+}

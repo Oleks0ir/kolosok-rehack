@@ -1,0 +1,504 @@
+{
+  "topic_id": "T0309",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "CA": 0.1,
+      "US": 0.9
+    },
+    "engine_type": {
+      "BEVE": 0.8,
+      "ICE": 0.1,
+      "PHEV": 0.1
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.5,
+        "summary": "Positive reviews praise strong acceleration, satisfying power, or confidence in choosing the vehicle and its settings.",
+        "evidence_fragment_ids": [
+          "F009595",
+          "F007799",
+          "F009801",
+          "F006003",
+          "F002266"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "Negative feedback reports the car failing to recognize the user's app identity when entering the vehicle.",
+        "evidence_fragment_ids": [
+          "F007843"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 4,
+        "share": 0.4,
+        "summary": "Undetermined reviews mention rushed delivery or purchase decisions and navigation choosing questionable routes without a clear overall judgment.",
+        "evidence_fragment_ids": [
+          "F005622",
+          "F010661",
+          "F001910",
+          "F005005"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.6
+        }
+      },
+      "country": {
+        "CA": {
+          "review_count": 1,
+          "source_segment_review_count": 18,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 9,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.002493,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.555556,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.625,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.75
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.000443,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "CA": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 4,
+          "topic_prevalence_in_source_segment": 0.25,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.006294,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.625,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.25
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.75
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.000496,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0686",
+      "G60-0805",
+      "G60-1789",
+      "G60-1997",
+      "G60-2137",
+      "G60-2791",
+      "G60-2807",
+      "G60-3444",
+      "G60-3513",
+      "G60-3828"
+    ],
+    "summary": "This topic mixes praise for acceleration and purchase choice with scattered comments about app recognition, navigation route selection, and rushed pickup or buying decisions.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Pickup and selection comments",
+    "source_title": "pick / rushed / decision",
+    "keywords": [
+      {
+        "term": "pick",
+        "weight": 0.554652
+      },
+      {
+        "term": "rushed",
+        "weight": 0.131719
+      },
+      {
+        "term": "decision",
+        "weight": 0.067256
+      },
+      {
+        "term": "fails",
+        "weight": 0.06397
+      },
+      {
+        "term": "power",
+        "weight": 0.063049
+      },
+      {
+        "term": "led",
+        "weight": 0.059678
+      },
+      {
+        "term": "koa",
+        "weight": 0.059582
+      },
+      {
+        "term": "ix",
+        "weight": 0.059197
+      },
+      {
+        "term": "direct",
+        "weight": 0.05665
+      },
+      {
+        "term": "routes",
+        "weight": 0.054907
+      },
+      {
+        "term": "nav",
+        "weight": 0.051656
+      },
+      {
+        "term": "route",
+        "weight": 0.050321
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009595",
+        "review_id": "G60-3444",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i don't think this was a good pick for my new car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007843",
+        "review_id": "G60-2807",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that every time she gets in the car it fails to pick up her app as her ID",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005622",
+        "review_id": "G60-1997",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "bmw koa rushed everything so i was able to pick up my new vehicle on jan 2, 2026",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007799",
+        "review_id": "G60-2791",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the car has excellent pick up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010661",
+        "review_id": "G60-3828",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "And at times it doesnt pick the most direct route to a place (other times it does)",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009801",
+        "review_id": "G60-3513",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the power and pick up are amazing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006003",
+        "review_id": "G60-2137",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "we also have an ix that is amazing, which led us to pick this as our next vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001910",
+        "review_id": "G60-0686",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the nav will pick routes that don't make much sense, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "CA",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002266",
+        "review_id": "G60-0805",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i would really like a way to hide or delete some of the silly ones (like expressive or artistic) to make it simpler to pick the few i actually use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005005",
+        "review_id": "G60-1789",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i think i just rushed the decision",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The cluster combines several loosely related meanings of 'pick,' including acceleration, vehicle choice, route selection, app recognition, and dealer pickup timing.",
+      "Some positive examples are very brief, so the exact reasons behind the sentiment are only partially specified.",
+      "Undetermined examples describe issues or circumstances, but the supplied fragments do not always state a clear overall sentiment."
+    ]
+  }
+}

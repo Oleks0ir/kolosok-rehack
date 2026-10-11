@@ -1,0 +1,573 @@
+{
+  "topic_id": "T0109",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.055556,
+      "GB": 0.555556,
+      "JP": 0.388889
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.166667,
+        "summary": "Positive reviews mention recommending the car to others or being pleased enough to suggest it despite the topic wording being broad.",
+        "evidence_fragment_ids": [
+          "F004165",
+          "F004447",
+          "F002570"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.166667,
+        "summary": "Negative reviews describe not recommending the model, not being able to explain how features work, or disliking the car telling the driver how to drive.",
+        "evidence_fragment_ids": [
+          "F006994",
+          "F002659",
+          "F000221"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.666667,
+        "summary": "Undetermined fragments are dominated by partial or context-poor uses of words like tell and others, so their sentiment and exact aspect are often unclear.",
+        "evidence_fragment_ids": [
+          "F006171",
+          "F001487",
+          "F005751",
+          "F000899",
+          "F005174",
+          "F006157",
+          "F000025",
+          "F004591",
+          "F003689",
+          "F003387"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 18,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.008459,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 1.0
+        },
+        "GB": {
+          "review_count": 10,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.007734,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.3
+        },
+        "JP": {
+          "review_count": 7,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.010417,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.285714
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.008459,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.166667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.007734,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.010417,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.285714
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0007",
+      "F70-0062",
+      "F70-0243",
+      "F70-0401",
+      "F70-0716",
+      "F70-0736",
+      "F70-0832",
+      "F70-0940",
+      "F70-1032",
+      "F70-1168",
+      "F70-1248",
+      "F70-1283",
+      "F70-1443",
+      "F70-1602",
+      "F70-1710",
+      "F70-1714",
+      "F70-1761",
+      "F70-1960"
+    ],
+    "summary": "This topic mostly captures fragments about telling others or being unable to explain features, with positive comments tied to recommendations and negative comments tied to confusion or intrusive driver prompts.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Recommendations and unclear explanations",
+    "source_title": "tell / others / anyone",
+    "keywords": [
+      {
+        "term": "tell",
+        "weight": 0.349707
+      },
+      {
+        "term": "others",
+        "weight": 0.26353
+      },
+      {
+        "term": "tell anyone",
+        "weight": 0.086018
+      },
+      {
+        "term": "anyone",
+        "weight": 0.064123
+      },
+      {
+        "term": "ca tell",
+        "weight": 0.059707
+      },
+      {
+        "term": "tell others",
+        "weight": 0.054434
+      },
+      {
+        "term": "carefully",
+        "weight": 0.042811
+      },
+      {
+        "term": "characteristics",
+        "weight": 0.042421
+      },
+      {
+        "term": "rigidity",
+        "weight": 0.042421
+      },
+      {
+        "term": "ca",
+        "weight": 0.041949
+      },
+      {
+        "term": "suggest",
+        "weight": 0.039284
+      },
+      {
+        "term": "harder",
+        "weight": 0.0385
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004165",
+        "review_id": "F70-1168",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i said it was okay and i already recommend it to others",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006994",
+        "review_id": "F70-1960",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "we also don't know where the battery actually is or when it's in use, so there's a bit of missing explanation there, and when others ask us how it works we can't tell them",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006171",
+        "review_id": "F70-1714",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "as you can tell",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004447",
+        "review_id": "F70-1248",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i am extremely pleased with it and would suggest it to others,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002659",
+        "review_id": "F70-0736",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "after being a loyal bmw driver for around 20 years this is easily the worst one ive owned, not the car i expected and i wouldnt tell anyone to buy this model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001487",
+        "review_id": "F70-0401",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i will certainly go back there and tell others to use them too",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005751",
+        "review_id": "F70-1602",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "m-sports look cooler, so if i tell others about it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000899",
+        "review_id": "F70-0243",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "you can tell everything has been carefully considered and executed as well as it can be",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005174",
+        "review_id": "F70-1443",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i still tell anyone thinking of buying one to go for it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006157",
+        "review_id": "F70-1710",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i will still tell you its characteristics",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000025",
+        "review_id": "F70-0007",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i can tell that its rigidity",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004591",
+        "review_id": "F70-1283",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i'd still tell anyone shopping for this kind of car to pick a 1 series,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003689",
+        "review_id": "F70-1032",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the navigation does not show place names, so you basically can't tell where you are unless ic and sa are directly ahead of you on the expressway",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003387",
+        "review_id": "F70-0940",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "this is my first automatic bmw, all the others i had were manuals",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002570",
+        "review_id": "F70-0716",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "there is a small rough patch on the inner edge of the front door and i can't tell if it came from the factory like that or if the garage did it when they were preparing it for handover",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000221",
+        "review_id": "F70-0062",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i really hate that the car keeps trying to tell me how i should drive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 18,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The keyword cluster is broad and mixes recommendation language with unrelated uses of words like tell, others, and characteristics.",
+      "Most sampled fragments are too short or incomplete to identify a clear aspect or sentiment beyond the presence of the cluster terms.",
+      "The examples are stratified samples rather than representative estimates of how often these themes appear in all reviews."
+    ]
+  }
+}

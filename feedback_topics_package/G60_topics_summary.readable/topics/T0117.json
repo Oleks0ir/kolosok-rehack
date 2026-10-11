@@ -1,0 +1,571 @@
+{
+  "topic_id": "T0117",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 20,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.2,
+      "ICE": 0.7,
+      "PHEV": 0.1
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.05,
+        "summary": "The positive example praises directing the customer to a local Live Genius for an in-person walkthrough of vehicle features.",
+        "evidence_fragment_ids": [
+          "F000618"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.05,
+        "summary": "The negative example concerns the customer being told that Service Pack 22 was causing the observed behavior.",
+        "evidence_fragment_ids": [
+          "F004030"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 18,
+        "share": 0.9,
+        "summary": "Undetermined examples are mostly factual explanations about controls, feature availability, service intervals, dealership contact, and system behavior without clear approval or dissatisfaction.",
+        "evidence_fragment_ids": [
+          "F007314",
+          "F009868",
+          "F002940",
+          "F000226",
+          "F004318",
+          "F002112",
+          "F006998",
+          "F006889",
+          "F001768",
+          "F009451",
+          "F008975",
+          "F005359",
+          "F007216",
+          "F006449"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 20,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.005,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.05,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.05,
+          "negative_or_mixed_rate": 0.05,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 20,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.00554,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.05,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.05,
+          "negative_or_mixed_rate": 0.05,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.002935,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.006197,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.928571
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.071429
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003147,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.006941,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.928571
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.071429
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0086",
+      "G60-0225",
+      "G60-0635",
+      "G60-0751",
+      "G60-1048",
+      "G60-1453",
+      "G60-1547",
+      "G60-1893",
+      "G60-1902",
+      "G60-2092",
+      "G60-2307",
+      "G60-2461",
+      "G60-2505",
+      "G60-2568",
+      "G60-2609",
+      "G60-2879",
+      "G60-3213",
+      "G60-3399",
+      "G60-3466",
+      "G60-3541"
+    ],
+    "summary": "This topic mainly consists of advisor or writer statements informing customers about vehicle features, service details, dealership resources, and operating limitations, with very little explicit sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Customer Information and Feature Explanation",
+    "source_title": "informed / writer / customer",
+    "keywords": [
+      {
+        "term": "informed",
+        "weight": 0.28809
+      },
+      {
+        "term": "informed customer",
+        "weight": 0.250225
+      },
+      {
+        "term": "writer informed",
+        "weight": 0.216421
+      },
+      {
+        "term": "writer",
+        "weight": 0.114951
+      },
+      {
+        "term": "customer",
+        "weight": 0.090577
+      },
+      {
+        "term": "stated informed",
+        "weight": 0.071268
+      },
+      {
+        "term": "dealer",
+        "weight": 0.051564
+      },
+      {
+        "term": "initial service",
+        "weight": 0.04616
+      },
+      {
+        "term": "free trial",
+        "weight": 0.043995
+      },
+      {
+        "term": "trial",
+        "weight": 0.043995
+      },
+      {
+        "term": "service",
+        "weight": 0.040719
+      },
+      {
+        "term": "initial",
+        "weight": 0.038788
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000618",
+        "review_id": "G60-0225",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer informed Customer that there is a Live Genius at the local dealership and recommended Customer contact them to schedule a time to sit in the car together and review all the features",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004030",
+        "review_id": "G60-1453",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he was informed there is a problem with Service Pack 22 that was causing the behavior he saw",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007314",
+        "review_id": "G60-2609",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that the rear defrost button is on the dashboard, under the center display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009868",
+        "review_id": "G60-3541",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that the alert can also be seen in the navigation view",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002940",
+        "review_id": "G60-1048",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that the initial service interval is at 10000 miles",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000226",
+        "review_id": "G60-0086",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that the sunroof is a fixed glass design",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004318",
+        "review_id": "G60-1547",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that Genius services are available at the local dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002112",
+        "review_id": "G60-0751",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed Customer that this button switches on the heated steering wheel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006998",
+        "review_id": "G60-2505",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the Customer that he only needs to tap the symbol to switch the light on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006889",
+        "review_id": "G60-2461",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that an opening roof was not offered as an option on the i5",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001768",
+        "review_id": "G60-0635",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer about the quick access button along the bottom of the display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009451",
+        "review_id": "G60-3399",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that, since his phone is connected to the vehicle with Apple CarPlay",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008975",
+        "review_id": "G60-3213",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed the customer that he would need to contact his dealership to learn what is required for long term storage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005359",
+        "review_id": "G60-1902",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer informed Customer about the driver recognition system and how the detection range works",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007216",
+        "review_id": "G60-2568",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "writer called a BMW dealer and was informed the customer needs to schedule an appointment since it is bodywork",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006449",
+        "review_id": "G60-2307",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer went over how the system operates and informed the Customer that it will not perform automatic braking,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most examples are undetermined, so explicit customer sentiment is limited.",
+      "The topic groups several different informational interactions, including feature education, service guidance, dealership referral, and explanation of system limitations, rather than one single issue.",
+      "Examples are insufficient to assess broader satisfaction with dealer communication beyond these sampled fragments."
+    ]
+  }
+}

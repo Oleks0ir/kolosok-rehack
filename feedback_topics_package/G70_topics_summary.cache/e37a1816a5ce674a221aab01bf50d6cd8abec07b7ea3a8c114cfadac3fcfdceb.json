@@ -1,0 +1,44 @@
+{
+  "title": "Customer reports of when incidents happened",
+  "summary": "These fragments mainly note the timing, recurrence, or recent absence of unspecified incidents without enough detail to determine a clear evaluative sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews describe when something happened, how often it recurred, or that it had not happened again, but they do not specify the underlying issue well enough to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F000423",
+        "F009996",
+        "F005590",
+        "F002615",
+        "F005863",
+        "F008995",
+        "F003856",
+        "F004833",
+        "F003814",
+        "F003373",
+        "F005865"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so the topic reflects incident timing and recurrence language rather than a clearly identified customer opinion.",
+    "The examples do not consistently identify the underlying problem, so concrete aspect-level conclusions are limited.",
+    "Some fragments are loosely related by wording such as 'happened' or 'occurred' and may group multiple unrelated situations."
+  ]
+}

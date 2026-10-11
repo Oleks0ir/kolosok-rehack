@@ -1,0 +1,571 @@
+{
+  "topic_id": "T0148",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.111111,
+      "US": 0.888889
+    },
+    "engine_type": {
+      "BEVE": 0.333333,
+      "ICE": 0.666667
+    },
+    "sentiment": {
+      "positive": {
+        "count": 11,
+        "share": 0.611111,
+        "summary": "Positive reviews say the interface, screen, and controls feel intuitive, simple, and easier to use than older or familiar alternatives.",
+        "evidence_fragment_ids": [
+          "F003530",
+          "F005258",
+          "F010001",
+          "F007575",
+          "F009137",
+          "F005460",
+          "F009491",
+          "F010069"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.277778,
+        "summary": "Negative reviews say the interface or certain controls, including cruise control, do not feel intuitive and can be harder to understand than expected.",
+        "evidence_fragment_ids": [
+          "F006599",
+          "F006735",
+          "F009863",
+          "F006473",
+          "F005324"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.055556,
+        "summary": "The mixed review pairs an overall acceptable impression with criticism that some screen functions are not very intuitive to access.",
+        "evidence_fragment_ids": [
+          "F000695"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.055556,
+        "summary": "The undetermined review suggests the user interface should be more straightforward, but the sentiment label does not clearly resolve whether this is praise or criticism in context.",
+        "evidence_fragment_ids": [
+          "F000936"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 18,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0045,
+          "sentiment_counts": {
+            "positive": 11,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.611111,
+            "negative": 0.277778,
+            "mixed": 0.055556,
+            "neutral": 0.0,
+            "undetermined": 0.055556
+          },
+          "negative_rate": 0.277778,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.944444
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 16,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004432,
+          "sentiment_counts": {
+            "positive": 10,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.625,
+            "negative": 0.25,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.0625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.3125,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.9375
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.004402,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.833333
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005312,
+          "sentiment_counts": {
+            "positive": 8,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.666667,
+            "negative": 0.25,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.004721,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.166667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.833333
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004958,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.7,
+            "negative": 0.2,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0105",
+      "G60-0248",
+      "G60-0337",
+      "G60-0730",
+      "G60-1240",
+      "G60-1263",
+      "G60-1858",
+      "G60-1888",
+      "G60-1944",
+      "G60-2314",
+      "G60-2357",
+      "G60-2409",
+      "G60-2709",
+      "G60-3273",
+      "G60-3418",
+      "G60-3539",
+      "G60-3596",
+      "G60-3620"
+    ],
+    "summary": "Feedback on the G60 interface and controls centers on how intuitive the screen layout, user interface, and physical controls feel in everyday use.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Intuitive controls and interface",
+    "source_title": "intuitive / interface / control",
+    "keywords": [
+      {
+        "term": "intuitive",
+        "weight": 0.358416
+      },
+      {
+        "term": "interface",
+        "weight": 0.190684
+      },
+      {
+        "term": "control intuitive",
+        "weight": 0.087163
+      },
+      {
+        "term": "user interface",
+        "weight": 0.077214
+      },
+      {
+        "term": "control",
+        "weight": 0.068399
+      },
+      {
+        "term": "user",
+        "weight": 0.063242
+      },
+      {
+        "term": "screen",
+        "weight": 0.062501
+      },
+      {
+        "term": "customer",
+        "weight": 0.058645
+      },
+      {
+        "term": "interface intuitive",
+        "weight": 0.057926
+      },
+      {
+        "term": "stated interface",
+        "weight": 0.05629
+      },
+      {
+        "term": "screen interface",
+        "weight": 0.052586
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.049741
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003530",
+        "review_id": "G60-1263",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the driving feel is very intuitive, so it's a car i'd recommend",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006599",
+        "review_id": "G60-2357",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "It doesn't seem intuitive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000695",
+        "review_id": "G60-0248",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported that the screen layout is not very intuitive for accessing some functions, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000936",
+        "review_id": "G60-0337",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the user interface should be more straightforward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005258",
+        "review_id": "G60-1858",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the interface in his Cadillac was much simpler to use and felt more intuitive for both him and his spouse",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006735",
+        "review_id": "G60-2409",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "5 interface is not very intuitive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009863",
+        "review_id": "G60-3539",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer commented that this did not seem very intuitive,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010001",
+        "review_id": "G60-3596",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the controls are intuitive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007575",
+        "review_id": "G60-2709",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "excellent specs and an interface that feels intuitive coming from ice cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006473",
+        "review_id": "G60-2314",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "and it is minor, is that a few controls are not very intuitive, such as the cruise control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005324",
+        "review_id": "G60-1888",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated it does not feel intuitive to him compared to Apple products",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009137",
+        "review_id": "G60-3273",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "that screen is way more intuitive than the old setup, where those tiny buttons all felt the same doing 85 on the highway",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005460",
+        "review_id": "G60-1944",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the systems and controls feel intuitive and simple to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003477",
+        "review_id": "G60-1240",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the control layout is 180* opposite of intuitive movement",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009491",
+        "review_id": "G60-3418",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the user interface",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010069",
+        "review_id": "G60-3620",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the interface is easy for them to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample is small and stratified, so it should not be treated as representative of all G60 owners.",
+      "One positive-labeled fragment appears textually negative, so the evidence includes at least one label-text mismatch.",
+      "Examples focus broadly on interface intuitiveness but mix screen layout, general UI, and specific controls, limiting finer-grained conclusions."
+    ]
+  }
+}

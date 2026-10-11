@@ -1,0 +1,45 @@
+{
+  "title": "Recommendations to Friends and Family",
+  "summary": "This topic centers on whether owners would recommend the car to friends or family, alongside unrelated mentions of affordability or other people asking about the car.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews describe actively recommending the car to friends and family because it is enjoyable, stylish, and stable to drive.",
+      "evidence_fragment_ids": [
+        "F004975",
+        "F006316",
+        "F010829"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe steering friends and family toward another vehicle because of issues the owner experienced.",
+      "evidence_fragment_ids": [
+        "F008677"
+      ]
+    },
+    "mixed": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No such reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention friends, family, affordability, or outside interest without a clear evaluative stance on the car overall.",
+      "evidence_fragment_ids": [
+        "F005159",
+        "F005032",
+        "F007066",
+        "F004703",
+        "F000873",
+        "F006880"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many examples are incidental mentions of friends, family, or affordability rather than clear recommendation intent.",
+    "The cluster mixes recommendation behavior with unrelated social-interest and affordability comments, so the topic is only loosely coherent.",
+    "Several undetermined fragments are too brief or context-dependent to infer a definite sentiment."
+  ]
+}

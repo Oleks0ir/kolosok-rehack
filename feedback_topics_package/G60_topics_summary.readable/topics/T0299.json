@@ -1,0 +1,477 @@
+{
+  "topic_id": "T0299",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 10,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.8,
+      "ICE": 0.1,
+      "PHEV": 0.1
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.1,
+        "summary": "One review expresses overall satisfaction with the car rather than a specific screen or system issue.",
+        "evidence_fragment_ids": [
+          "F009420"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.3,
+        "summary": "Negative reviews mention the screen going completely black, frustration with navigating multiple screens, and multiple bus-system faults occurring at once.",
+        "evidence_fragment_ids": [
+          "F000266",
+          "F006377",
+          "F008284"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.6,
+        "summary": "Undetermined examples mention screen blanking, powering down, update-related screen misbehavior, accuracy concerns, a broken windshield, and clean sensor surfaces without enough context to assign clear sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F009188",
+          "F007999",
+          "F006808",
+          "F007810",
+          "F005920",
+          "F010878"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 10,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0025,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 10,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.00277,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.000443,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.006294,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.000496,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 1.0
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0103",
+      "G60-2112",
+      "G60-2274",
+      "G60-2436",
+      "G60-2795",
+      "G60-2859",
+      "G60-2975",
+      "G60-3286",
+      "G60-3386",
+      "G60-3907"
+    ],
+    "summary": "This topic centers on screen blackouts, system shutdowns, and other unrelated issues grouped by words like “completely” and “multiple,” with many examples lacking clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Screen blackouts and multiple-system faults",
+    "source_title": "completely / multiple / screen",
+    "keywords": [
+      {
+        "term": "completely",
+        "weight": 0.400544
+      },
+      {
+        "term": "multiple",
+        "weight": 0.130362
+      },
+      {
+        "term": "screen",
+        "weight": 0.097556
+      },
+      {
+        "term": "multiple screen",
+        "weight": 0.088442
+      },
+      {
+        "term": "completely black",
+        "weight": 0.081103
+      },
+      {
+        "term": "accurate",
+        "weight": 0.073667
+      },
+      {
+        "term": "powers",
+        "weight": 0.064608
+      },
+      {
+        "term": "black",
+        "weight": 0.059402
+      },
+      {
+        "term": "surface",
+        "weight": 0.055554
+      },
+      {
+        "term": "appears",
+        "weight": 0.052986
+      },
+      {
+        "term": "clean",
+        "weight": 0.050996
+      },
+      {
+        "term": "broke",
+        "weight": 0.048701
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F009420",
+        "review_id": "G60-3386",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i'm completely happy with this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000266",
+        "review_id": "G60-0103",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the first problem was the screen going completely black for around a day and a half",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009188",
+        "review_id": "G60-3286",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned multiple times that the screen has gone completely blank while he was driving",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006377",
+        "review_id": "G60-2274",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated frustration that prior explanations were too complicated and required going through multiple screens",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007999",
+        "review_id": "G60-2859",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "still is not completely accurate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F006808",
+        "review_id": "G60-2436",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the vehicle appears to time out and powers down completely",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007810",
+        "review_id": "G60-2795",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my windshield broke completely after only about 10 days of owning the vehicle, and bmw didn't have any replacement glass available for more than two months",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005920",
+        "review_id": "G60-2112",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after the recent software update the screen started misbehaving and sometimes just goes completely black",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010878",
+        "review_id": "G60-3907",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the sensor surface are completely clean",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008284",
+        "review_id": "G60-2975",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "FOUND MULTIPLE FAULTS DUE TO MULTIPLE BUS SYSTEMS DOWN AT ONE TIME",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 10,
+      "total_topic_fragments": 10,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes related screen and power-down issues with unrelated items such as windshield damage, sensor cleanliness, and a vague accuracy comment.",
+      "Many fragments are too short or lack context, so the dominant customer stance is unclear for much of the sample.",
+      "The examples are stratified samples and are not representative estimates of issue frequency or defect rates."
+    ]
+  }
+}

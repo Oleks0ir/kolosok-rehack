@@ -1,0 +1,575 @@
+{
+  "topic_id": "T0104",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 0.888889,
+      "JP": 0.055556,
+      "ZA": 0.055556
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.166667,
+        "summary": "Positive reviews praise the car as very good overall and well suited for a couple.",
+        "evidence_fragment_ids": [
+          "F007032",
+          "F002220",
+          "F000041"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.277778,
+        "summary": "Negative reviews mention missing items on delivery, missing expected features, and poor instrument readability, though one example appears sentiment-labeled inconsistently.",
+        "evidence_fragment_ids": [
+          "F004385",
+          "F003834",
+          "F002500",
+          "F005471",
+          "F003748"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.055556,
+        "summary": "The mixed review likes the car but misses automatically sensing and opening doors found on a previous vehicle.",
+        "evidence_fragment_ids": [
+          "F003886"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 9,
+        "share": 0.5,
+        "summary": "Undetermined fragments mention ownership duration, unspecified annoyances, questions, setup discussions, and a panel gap without enough context to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F001077",
+          "F005743",
+          "F003988",
+          "F002817",
+          "F002403",
+          "F007547",
+          "F006059"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 18,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.008459,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.277778,
+            "mixed": 0.055556,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.277778,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 16,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.012374,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.5625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.3125,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.4375
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.001488,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "ZA": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.008459,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 5,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.277778,
+            "mixed": 0.055556,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.277778,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.012374,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.25,
+            "mixed": 0.0625,
+            "neutral": 0.0,
+            "undetermined": 0.5625
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.3125,
+          "share_of_all_topic_negative_reviews": 0.8,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.4375
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.001488,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "ZA": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 3,
+          "topic_prevalence_in_source_segment": 0.333333,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0009",
+      "F70-0283",
+      "F70-0607",
+      "F70-0667",
+      "F70-0695",
+      "F70-0770",
+      "F70-1052",
+      "F70-1080",
+      "F70-1092",
+      "F70-1114",
+      "F70-1231",
+      "F70-1405",
+      "F70-1535",
+      "F70-1599",
+      "F70-1687",
+      "F70-1972",
+      "F70-2109",
+      "F70-2113"
+    ],
+    "summary": "Feedback in this topic centers on missing features or items, with some praise for overall suitability but many fragments too vague to determine a clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Missing features and delivery issues",
+    "source_title": "couple / missing / marked",
+    "keywords": [
+      {
+        "term": "couple",
+        "weight": 0.406715
+      },
+      {
+        "term": "missing",
+        "weight": 0.144104
+      },
+      {
+        "term": "marked",
+        "weight": 0.107658
+      },
+      {
+        "term": "annoy",
+        "weight": 0.09415
+      },
+      {
+        "term": "pothole",
+        "weight": 0.045452
+      },
+      {
+        "term": "questions",
+        "weight": 0.039576
+      },
+      {
+        "term": "done",
+        "weight": 0.036734
+      },
+      {
+        "term": "issue",
+        "weight": 0.032492
+      },
+      {
+        "term": "reasons",
+        "weight": 0.031677
+      },
+      {
+        "term": "garage",
+        "weight": 0.031299
+      },
+      {
+        "term": "front",
+        "weight": 0.031141
+      },
+      {
+        "term": "opened",
+        "weight": 0.03028
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007032",
+        "review_id": "F70-1972",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "for a couple it's a fantastic car,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004385",
+        "review_id": "F70-1231",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "there are a couple of things i feel i am missing with the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003886",
+        "review_id": "F70-1092",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "it's also missing the doors that sensed and opened automatically like my last one had",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001077",
+        "review_id": "F70-0283",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i have only owned it for a couple of months",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002220",
+        "review_id": "F70-0607",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "for a married couple, no issues at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003748",
+        "review_id": "F70-1052",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "i only managed to use the car for the first couple of weeks, then i hit a pothole that somehow bent the front suspension (strut/hub) even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005743",
+        "review_id": "F70-1599",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there are a couple of things i probably would have done differently myself,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003988",
+        "review_id": "F70-1114",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "a couple of things annoy me",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002817",
+        "review_id": "F70-0770",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after the garage had the car for a couple of days they said that this is simply how it is set up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002403",
+        "review_id": "F70-0667",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "since then ive had a couple of questions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007547",
+        "review_id": "F70-2113",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i've marked it 9 out of 10 for a couple of reasons",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000041",
+        "review_id": "F70-0009",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "over the years ive had around seven bmws, mostly three series and a couple of x2, and this one is every bit as good as those",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006059",
+        "review_id": "F70-1687",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "noticed a couple of things - the front bumper has a big body panel gap on one side and not on the other",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003834",
+        "review_id": "F70-1080",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i only marked it down from a '10' because the instruments are poor and much harder to read than on my older 325 coupe, which is vastly better laid out and more ergonomic",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002500",
+        "review_id": "F70-0695",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it is missing nothing at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "ZA",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005471",
+        "review_id": "F70-1535",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the real problem is things that were missing on delivery even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 19,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic is somewhat heterogeneous, combining missing features, delivery omissions, usability complaints, ownership-context remarks, and vague unresolved comments.",
+      "A large share of fragments are undetermined, so the concrete evidence for several issues is limited.",
+      "One negative-assigned example says \"it is missing nothing at all,\" which conflicts with the assigned sentiment and limits confidence in that example.",
+      "Another negative-assigned example has fragment-level sentiment marked undetermined, so its complaint context may be incomplete."
+    ]
+  }
+}

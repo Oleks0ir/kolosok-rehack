@@ -1,0 +1,577 @@
+{
+  "topic_id": "T0029",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 50,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.4,
+      "ICE": 0.6
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.04,
+        "summary": "Positive reviews are sparse and the supplied examples do not describe CarPlay or Android Auto itself, instead praising auto-closing door features.",
+        "evidence_fragment_ids": [
+          "F004930",
+          "F009162"
+        ]
+      },
+      "negative": {
+        "count": 8,
+        "share": 0.16,
+        "summary": "Negative reviews describe hard-to-use source switching with Android Auto or Apple CarPlay and references to wireless connection issues, though several supplied negative examples lack concrete symptom detail.",
+        "evidence_fragment_ids": [
+          "F008795",
+          "F000451",
+          "F003762"
+        ]
+      },
+      "mixed": {
+        "count": 5,
+        "share": 0.1,
+        "summary": "Mixed reviews point to intermittent wireless connection failures or unexplained loss of functionality for Android Auto or Apple CarPlay, with limited additional context in the examples.",
+        "evidence_fragment_ids": [
+          "F003222",
+          "F001207",
+          "F006672",
+          "F007451",
+          "F003742"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 35,
+        "share": 0.7,
+        "summary": "Undetermined reviews mostly mention whether Apple CarPlay or Android Auto was in use or note use of CarPlay without stating a clear positive or negative experience.",
+        "evidence_fragment_ids": [
+          "F004753",
+          "F004254",
+          "F004348",
+          "F002022",
+          "F005667",
+          "F009100"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 50,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0125,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 8,
+            "mixed": 5,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.04,
+            "negative": 0.16,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.16,
+          "negative_or_mixed_rate": 0.26,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 50,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.013186,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 8,
+            "mixed": 5,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.04,
+            "negative": 0.16,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.16,
+          "negative_or_mixed_rate": 0.26,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 20,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.017715,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.3,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.55
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.615385,
+          "known_sentiment_share": 0.45
+        },
+        "ICE": {
+          "review_count": 30,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.011682,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.033333,
+            "negative": 0.066667,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.384615,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 20,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.018605,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.05,
+            "negative": 0.3,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.55
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.615385,
+          "known_sentiment_share": 0.45
+        },
+        "ICE": {
+          "review_count": 30,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.01232,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.033333,
+            "negative": 0.066667,
+            "mixed": 0.1,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.066667,
+          "negative_or_mixed_rate": 0.166667,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.384615,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0108",
+      "G70-0125",
+      "G70-0186",
+      "G70-0330",
+      "G70-0448",
+      "G70-0493",
+      "G70-0729",
+      "G70-0749",
+      "G70-0775",
+      "G70-0863",
+      "G70-0882",
+      "G70-0977",
+      "G70-1058",
+      "G70-1173",
+      "G70-1179",
+      "G70-1270",
+      "G70-1311",
+      "G70-1364",
+      "G70-1375",
+      "G70-1401",
+      "G70-1412",
+      "G70-1559",
+      "G70-1594",
+      "G70-1733",
+      "G70-1803",
+      "G70-2033",
+      "G70-2366",
+      "G70-2387",
+      "G70-2427",
+      "G70-2458",
+      "G70-2500",
+      "G70-2526",
+      "G70-2625",
+      "G70-2680",
+      "G70-2789",
+      "G70-2960",
+      "G70-3160",
+      "G70-3178",
+      "G70-3202",
+      "G70-3209",
+      "G70-3272",
+      "G70-3276",
+      "G70-3296",
+      "G70-3354",
+      "G70-3387",
+      "G70-3427",
+      "G70-3735",
+      "G70-3750",
+      "G70-3834",
+      "G70-3838"
+    ],
+    "summary": "Feedback on Android Auto and Apple CarPlay centers on wireless connection problems and interface usability, but many sampled mentions only note that the feature was being used without describing an outcome.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "BEVE",
+        "kind": "elevated_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 8,
+        "denominator": 20,
+        "rate": 0.4,
+        "comparison_numerator": 5,
+        "comparison_denominator": 30,
+        "comparison_rate": 0.166667,
+        "gap_percentage_points": 23.333,
+        "statement": "In engine_type=BEVE, 8 of 20 reviews (40.0%) are negative or mixed. The rest of this breakdown: 5 of 30 (16.7%).",
+        "interpretation": "The supplied segment signal indicates BEVE reviews in this topic are more often negative or mixed than the comparison group, which aligns with several BEVE examples about wireless connection loss, but this is only an observed association from the sampled data.",
+        "evidence_fragment_ids": [
+          "F003742",
+          "F008795"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Android Auto and Apple CarPlay connectivity",
+    "source_title": "carplay / android / auto",
+    "keywords": [
+      {
+        "term": "carplay",
+        "weight": 0.210611
+      },
+      {
+        "term": "android",
+        "weight": 0.152952
+      },
+      {
+        "term": "auto",
+        "weight": 0.149532
+      },
+      {
+        "term": "android auto",
+        "weight": 0.139935
+      },
+      {
+        "term": "apple carplay",
+        "weight": 0.137229
+      },
+      {
+        "term": "apple",
+        "weight": 0.129103
+      },
+      {
+        "term": "stated carplay",
+        "weight": 0.050655
+      },
+      {
+        "term": "auto apple",
+        "weight": 0.047615
+      },
+      {
+        "term": "customer",
+        "weight": 0.044774
+      },
+      {
+        "term": "connection",
+        "weight": 0.043294
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.04133
+      },
+      {
+        "term": "stated",
+        "weight": 0.040648
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004930",
+        "review_id": "G70-1803",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Love the auto doors and auto lock-unlock",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000451",
+        "review_id": "G70-0186",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": ": Wireless, What Android Auto/Apple CarPlay connection type DTU: Wireless, Aspect Android Auto/Apple CarPlay DTU: Other",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003222",
+        "review_id": "G70-1173",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "What Android Auto/Apple CarPlay connection type is not working or not connecting properly: Wireless, Aspect Android Auto/Apple CarPlay Not Working: Frequently won't connect to the vehicle at all, What type of connection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004753",
+        "review_id": "G70-1733",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked whether Android Auto or Apple CarPlay was being used",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001207",
+        "review_id": "G70-0448",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "Aspect Android Auto/Apple CarPlay Not Working: Other, What Android Auto/Apple CarPlay connection type is not working or not connecting properly: Wireless, What type of connection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009162",
+        "review_id": "G70-3296",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the auto close doors feel very solid",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008795",
+        "review_id": "G70-3160",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "changing audio sources is hard and not intuitive, especially with android auto or apple carplay for nav",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006672",
+        "review_id": "G70-2387",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "What Android Auto/Apple CarPlay connection type is not working or not connecting properly: Wireless, Aspect Android Auto/Apple CarPlay Not Working: Frequently won't connect to the vehicle at all, What type of connection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004254",
+        "review_id": "G70-1559",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked whether Apple CarPlay or Android Auto was in use, and customer replied they have an iPhone",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007451",
+        "review_id": "G70-2680",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": "Aspect Android Auto/Apple CarPlay Not Working: Other, What Android Auto/Apple CarPlay connection type is not working or not connecting properly: Wireless, What type of connection",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003742",
+        "review_id": "G70-1364",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "undetermined",
+        "text": ": Wireless, What Android Auto/Apple CarPlay connection type is not working or not connecting properly: Wireless, Aspect Android Auto/Apple CarPlay Not Working: Loses functionality without explanation",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004348",
+        "review_id": "G70-1594",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked if this was the BMW in-car app rather than Apple CarPlay or Android Auto",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002022",
+        "review_id": "G70-0749",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "when using apple carplay,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005667",
+        "review_id": "G70-2033",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked whether his phone was connected by Apple CarPlay or Android Auto, or via standard Bluetooth",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003762",
+        "review_id": "G70-1375",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked if his phone was connected via Apple CarPlay or Android Auto",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009100",
+        "review_id": "G70-3272",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that 2 days ago while using Apple CarPlay",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 71,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are service-writeup style notes that mention CarPlay or Android Auto without enough detail to determine the customer experience.",
+      "The positive examples appear lexically matched on the word 'auto' and do not clearly reflect infotainment sentiment about CarPlay or Android Auto.",
+      "Several negative and mixed examples are terse or templated, so the exact failure mode is not always clear.",
+      "The samples are stratified and not representative estimates of overall prevalence or defect rates."
+    ]
+  }
+}

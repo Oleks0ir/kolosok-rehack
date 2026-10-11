@@ -1,0 +1,37 @@
+{
+  "title": "Checked Notes and Treatment References",
+  "summary": "The topic consists of brief service-note fragments about checks, integration levels, power limitation, and treatment references that do not provide enough context for a clear customer sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "All reviewed fragments are terse service-style notes about vehicle checks or treatment references, and they lack enough context to determine any customer opinion.",
+      "evidence_fragment_ids": [
+        "F001423",
+        "F002270",
+        "F006651",
+        "F003924"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All fragments in this topic are undetermined, so there is no clear evaluable sentiment content.",
+    "The cluster appears to mix unrelated subjects, including power limitation, software or integration level checking, a generic re-check note, and an Armor All treatment reference.",
+    "Several fragments are extremely brief or incomplete, which limits reliable interpretation of the underlying issue or customer experience."
+  ]
+}

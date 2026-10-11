@@ -1,0 +1,583 @@
+{
+  "topic_id": "T0140",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 19,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.421053,
+      "ICE": 0.526316,
+      "PHEV": 0.052632
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 11,
+        "share": 0.578947,
+        "summary": "Negative reviews focus on dim or poorly located interior lights, reflective dash trim causing glare, and ambient interior lighting that cannot be turned off, though some sampled negatives also appear unrelated to interior issues.",
+        "evidence_fragment_ids": [
+          "F002025",
+          "F005650"
+        ]
+      },
+      "mixed": {
+        "count": 5,
+        "share": 0.263158,
+        "summary": "Mixed reviews describe interior or vanity lighting as too faint, weak, or missing in useful storage areas, indicating the issue is minor but noticeable.",
+        "evidence_fragment_ids": [
+          "F002478",
+          "F000478",
+          "F004832",
+          "F000264",
+          "F003967"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 3,
+        "share": 0.157895,
+        "summary": "Undetermined reviews only label the matter as minor without enough detail to confirm the specific interior problem.",
+        "evidence_fragment_ids": [
+          "F003613",
+          "F006854"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 19,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00475,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 11,
+            "mixed": 5,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.578947,
+            "mixed": 0.263158,
+            "neutral": 0.0,
+            "undetermined": 0.157895
+          },
+          "negative_rate": 0.578947,
+          "negative_or_mixed_rate": 0.842105,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.842105
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 19,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.005263,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 11,
+            "mixed": 5,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.578947,
+            "mixed": 0.263158,
+            "neutral": 0.0,
+            "undetermined": 0.157895
+          },
+          "negative_rate": 0.578947,
+          "negative_or_mixed_rate": 0.842105,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.842105
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.005869,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.625,
+            "mixed": 0.25,
+            "neutral": 0.0,
+            "undetermined": 0.125
+          },
+          "negative_rate": 0.625,
+          "negative_or_mixed_rate": 0.875,
+          "share_of_all_topic_negative_reviews": 0.454545,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4375,
+          "known_sentiment_share": 0.875
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.004427,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.6,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.6,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.545455,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.8
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 1.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0625,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 8,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.006294,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.625,
+            "mixed": 0.25,
+            "neutral": 0.0,
+            "undetermined": 0.125
+          },
+          "negative_rate": 0.625,
+          "negative_or_mixed_rate": 0.875,
+          "share_of_all_topic_negative_reviews": 0.454545,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4375,
+          "known_sentiment_share": 0.875
+        },
+        "ICE": {
+          "review_count": 10,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.004958,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.6,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.6,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.545455,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.8
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 1.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0625,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0102",
+      "G60-0182",
+      "G60-0463",
+      "G60-0717",
+      "G60-0848",
+      "G60-0877",
+      "G60-1282",
+      "G60-1294",
+      "G60-1427",
+      "G60-1721",
+      "G60-1846",
+      "G60-2011",
+      "G60-2051",
+      "G60-2454",
+      "G60-2551",
+      "G60-2910",
+      "G60-2963",
+      "G60-3212",
+      "G60-3746"
+    ],
+    "summary": "Reviews in this topic mainly describe interior lighting that is too dim or poorly placed, along with complaints about reflective dash trim and ambient lighting behavior, while a few sampled fragments appear to be off-topic minor issues grouped into the cluster.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 8,
+        "denominator": 10,
+        "rate": 0.8,
+        "comparison_numerator": 8,
+        "comparison_denominator": 9,
+        "comparison_rate": 0.888889,
+        "gap_percentage_points": -8.889,
+        "statement": "In engine_type=ICE, 8 of 10 reviews (80.0%) are negative or mixed. The rest of this breakdown: 8 of 9 (88.9%).",
+        "interpretation": "The ICE signal shows this topic is associated with negative or mixed feedback in that engine subgroup, but the comparison sample is limited and does not support stronger conclusions.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Interior Lighting and Glare Issues",
+    "source_title": "minor / problem / interior",
+    "keywords": [
+      {
+        "term": "minor",
+        "weight": 0.202975
+      },
+      {
+        "term": "problem",
+        "weight": 0.11956
+      },
+      {
+        "term": "minor problem",
+        "weight": 0.113659
+      },
+      {
+        "term": "interior",
+        "weight": 0.078549
+      },
+      {
+        "term": "bright",
+        "weight": 0.072111
+      },
+      {
+        "term": "bright location",
+        "weight": 0.066702
+      },
+      {
+        "term": "interior trunk",
+        "weight": 0.066702
+      },
+      {
+        "term": "light bright",
+        "weight": 0.066702
+      },
+      {
+        "term": "trunk light",
+        "weight": 0.066702
+      },
+      {
+        "term": "light",
+        "weight": 0.065325
+      },
+      {
+        "term": "location",
+        "weight": 0.063593
+      },
+      {
+        "term": "problem interior",
+        "weight": 0.058994
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002025",
+        "review_id": "G60-0717",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Dash/interior trim too reflective/too much glare: \"The big screens are very nice,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002478",
+        "review_id": "G60-0877",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a very minor problem with Interior/trunk light(s) - Not bright enough/poor location: \"(Copied from INT97): The lighting around the vanity mirror does not work effectively",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003613",
+        "review_id": "G60-1294",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "these might seem minor,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000478",
+        "review_id": "G60-0182",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a serious problem with Interior/trunk light(s) - Not bright enough/poor location: \"The interior lighting just isn't bright enough",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003578",
+        "review_id": "G60-1282",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Other Driving Experience Problem(s): \"(Copied from FCD97): When I stop and press the button to shut off the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004832",
+        "review_id": "G60-1721",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Interior/trunk light(s) - Not bright enough/poor location: \"(Copied from INT97): Interior lights are too faint",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006854",
+        "review_id": "G60-2454",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this is a minor concern",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000264",
+        "review_id": "G60-0102",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Interior/trunk light(s) - Not bright enough/poor location: \"The light in the sun visor mirror is very weak, makes it difficult to see my face when it is dark",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003967",
+        "review_id": "G60-1427",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a minor problem with Interior/trunk light(s) - Not bright enough/poor location: \"There isnt any light in the center console storage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005650",
+        "review_id": "G60-2011",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Dash/interior trim too reflective/too much glare: \"I mean that interior \"light\" feature you can't switch off, with the stripes where you can only pick the color",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008971",
+        "review_id": "G60-3212",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Audio system - Broken/works inconsistently: \"(Copied from FCD97): i power the car off and open the door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007139",
+        "review_id": "G60-2551",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Built-in navigation system - Broken/works inconsistently: \"once the navigation froze and showed an incorrect location",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001287",
+        "review_id": "G60-0463",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Brakes - Excessively sensitive: \"after about 3 months I'm finally starting to adjust to it,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002382",
+        "review_id": "G60-0848",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Brakes - Excessively sensitive: \"even a gentle touch on the brakes makes the car come to a screeching stop",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005754",
+        "review_id": "G60-2051",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Other Driving Experience Problem(s): \"Battery charge error pop-up, brake system error warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008117",
+        "review_id": "G60-2910",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Door locks - Broken/work inconsistently: \"At times the doors fail to unlock when I walk up to the car, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 19,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled fragments are not fully coherent because several examples appear unrelated to interior lighting or trim, such as brakes, navigation, audio, door locks, and general driving issues.",
+      "Some negative examples in the sample do not directly evidence the interior-focused keywords, so the topic summary should be treated as a clustered theme rather than a single precise defect.",
+      "Undetermined examples provide too little detail to identify the exact issue beyond it being described as minor."
+    ]
+  }
+}

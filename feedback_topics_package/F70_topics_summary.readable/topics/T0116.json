@@ -1,0 +1,573 @@
+{
+  "topic_id": "T0116",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 17,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 0.882353,
+      "JP": 0.058824,
+      "SE": 0.058824
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.058824,
+        "summary": "One positive review is present, but its example describes the car suddenly stopping with a severe jerk, so the positive assignment is not well explained by the fragment alone.",
+        "evidence_fragment_ids": [
+          "F001311"
+        ]
+      },
+      "negative": {
+        "count": 7,
+        "share": 0.411765,
+        "summary": "Negative reviews describe app failures, maps and cruise control stopping, driver-assistance features failing after an update, dashboard functions dropping out, and a vehicle shutting down while driving.",
+        "evidence_fragment_ids": [
+          "F002074",
+          "F006330",
+          "F006527",
+          "F004912",
+          "F004351",
+          "F004233",
+          "F000621"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.058824,
+        "summary": "The mixed review praises neither outcome clearly and instead combines a major dashboard failure with concern about safety and loss of essential functions.",
+        "evidence_fragment_ids": [
+          "F001186"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 8,
+        "share": 0.470588,
+        "summary": "Undetermined reviews mention working or stopped functions without enough context to confirm whether they reflect a complaint, comparison, or incidental remark.",
+        "evidence_fragment_ids": [
+          "F001043",
+          "F006250",
+          "F003329",
+          "F003616",
+          "F001726",
+          "F005478",
+          "F001767"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 17,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007989,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.411765,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.470588
+          },
+          "negative_rate": 0.411765,
+          "negative_or_mixed_rate": 0.470588,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.529412
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 15,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.011601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.066667,
+            "neutral": 0.0,
+            "undetermined": 0.533333
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.466667,
+          "share_of_all_topic_negative_reviews": 0.857143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.875,
+          "known_sentiment_share": 0.466667
+        },
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.001488,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.014085,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.125,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007989,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.058824,
+            "negative": 0.411765,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.470588
+          },
+          "negative_rate": 0.411765,
+          "negative_or_mixed_rate": 0.470588,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.529412
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.011601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.066667,
+            "neutral": 0.0,
+            "undetermined": 0.533333
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.466667,
+          "share_of_all_topic_negative_reviews": 0.857143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.875,
+          "known_sentiment_share": 0.466667
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.001488,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.014085,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.125,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0167",
+      "F70-0278",
+      "F70-0314",
+      "F70-0317",
+      "F70-0347",
+      "F70-0476",
+      "F70-0488",
+      "F70-0566",
+      "F70-0923",
+      "F70-1008",
+      "F70-1191",
+      "F70-1221",
+      "F70-1369",
+      "F70-1536",
+      "F70-1739",
+      "F70-1756",
+      "F70-1817"
+    ],
+    "summary": "Feedback in this topic centers on vehicle, app, and infotainment functions suddenly stopping or quitting, with many fragments too brief or context-limited to determine sentiment confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Functions Stopping Working",
+    "source_title": "working / stopped / quit",
+    "keywords": [
+      {
+        "term": "working",
+        "weight": 0.313237
+      },
+      {
+        "term": "stopped",
+        "weight": 0.27322
+      },
+      {
+        "term": "stopped working",
+        "weight": 0.151542
+      },
+      {
+        "term": "suddenly stopped",
+        "weight": 0.06216
+      },
+      {
+        "term": "quit working",
+        "weight": 0.053751
+      },
+      {
+        "term": "quit",
+        "weight": 0.051996
+      },
+      {
+        "term": "suddenly",
+        "weight": 0.051062
+      },
+      {
+        "term": "function",
+        "weight": 0.047931
+      },
+      {
+        "term": "update",
+        "weight": 0.046707
+      },
+      {
+        "term": "twice",
+        "weight": 0.046111
+      },
+      {
+        "term": "app",
+        "weight": 0.042067
+      },
+      {
+        "term": "feb",
+        "weight": 0.040334
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001311",
+        "review_id": "F70-0347",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the car suddenly stopped and it almost caused a whip-like jerk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002074",
+        "review_id": "F70-0566",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "my app has stopped working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001186",
+        "review_id": "F70-0314",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": ", last week the entire left side of the dashboard suddenly stopped working for no clear reason, so i lost hands free, radio, air con and other essentials, and was anxious about how long i'd be without them and whether it was safe to keep driving, especially with an amber spanner warning showing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001043",
+        "review_id": "F70-0278",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it is actually working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006330",
+        "review_id": "F70-1756",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i then had more issues with the my bmw app, where the my trips function just stopped working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006250",
+        "review_id": "F70-1739",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it would not have stopped me getting the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000621",
+        "review_id": "F70-0167",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i have already had to return the car multiple times because it suddenly stopped working in the middle of the highway and nothing was identified as wrong",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "SE",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006527",
+        "review_id": "F70-1817",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the bmw maps have completely stopped working and neither a map update nor doing a reset has made any difference at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004912",
+        "review_id": "F70-1369",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the cruise control has stopped working twice for several weeks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004351",
+        "review_id": "F70-1221",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "around a week in, after a software update, all the collision functions in driving assistance professional stopped working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004233",
+        "review_id": "F70-1191",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it can be a bit laggy and mine has actually shut down completely twice within the first 3 months of owning it, needing bmw assistance to come out and get it working again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003329",
+        "review_id": "F70-0923",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "after working with the dealer and using the resources available",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003616",
+        "review_id": "F70-1008",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "these were standard and fully working on our previous 118i m sport, so why not on this one",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001726",
+        "review_id": "F70-0476",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "a few of the electronic functions have just quit working on my car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005478",
+        "review_id": "F70-1536",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "then after a software update all the interior mood lighting quit working",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001767",
+        "review_id": "F70-0488",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "then just stopped on 9th feb",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This cluster mixes several unrelated subjects, including vehicle shutdowns, dashboard and lighting issues, app problems, maps, and driver-assistance features.",
+      "Many undetermined fragments are too short or lack surrounding context, which limits confidence in interpreting the underlying issue or sentiment.",
+      "One fragment labeled positive contains negative-sounding wording, so the sample provides insufficient context to explain that sentiment assignment."
+    ]
+  }
+}

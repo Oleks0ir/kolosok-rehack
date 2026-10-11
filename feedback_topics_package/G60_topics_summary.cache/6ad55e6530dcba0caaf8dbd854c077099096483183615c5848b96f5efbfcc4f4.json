@@ -1,0 +1,39 @@
+{
+  "title": "Ready status and parts readiness",
+  "summary": "This topic centers on ambiguous mentions of vehicle readiness indicators, driver-ready state, and uncertainty about when parts or the vehicle will be ready.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive-classified review discusses the vehicle being in the workshop and uncertainty about readiness and safe driving, so the positive evidence appears limited and contextually inconsistent.",
+      "evidence_fragment_ids": [
+        "F003648"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention the meaning of the 'Ready' display, lack of updates on parts readiness, and failure to leave the vehicle in a driver-ready state without enough context to infer clear sentiment.",
+      "evidence_fragment_ids": [
+        "F007410",
+        "F004795",
+        "F001520",
+        "F002522"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are classified as undetermined, which limits confident interpretation of customer attitude.",
+    "The sample mixes dashboard 'Ready' display meaning, parts availability timing, and driver-ready state, which may reflect related but not fully coherent subjects.",
+    "The lone positive-classified example contains strongly negative wording, so the provided sentiment labels appear inconsistent with the text and should be interpreted cautiously."
+  ]
+}

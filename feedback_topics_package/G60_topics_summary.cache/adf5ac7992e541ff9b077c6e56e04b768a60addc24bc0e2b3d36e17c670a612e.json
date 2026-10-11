@@ -1,0 +1,38 @@
+{
+  "title": "Dealer investigation and owner lookups",
+  "summary": "This topic combines a dealer not investigating a possible tire defect with owner comments about looking into settings, restrictions, or other vehicles, so the examples do not form one clear issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The negative example says the dealer did not investigate whether a tire had a possible manufacturer defect.",
+      "evidence_fragment_ids": [
+        "F009642"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined examples mention customers looking into app settings, researching a restriction online, or considering an Audi A6 without clear evaluative sentiment.",
+      "evidence_fragment_ids": [
+        "F003698",
+        "F001708",
+        "F001421"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes unrelated subjects, including dealer handling of a possible tire defect, app setting discovery, online discussion of a restriction, and mention of another vehicle.",
+    "Most examples are undetermined, so the concrete sentiment pattern is limited.",
+    "The small set of examples is insufficient to support broader conclusions about a single underlying issue."
+  ]
+}

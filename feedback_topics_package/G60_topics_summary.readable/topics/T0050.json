@@ -1,0 +1,640 @@
+{
+  "topic_id": "T0050",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 38,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "DK": 0.026316,
+      "US": 0.973684
+    },
+    "engine_type": {
+      "BEVE": 0.315789,
+      "ICE": 0.578947,
+      "PHEV": 0.105263
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.131579,
+        "summary": "Positive reviews mention satisfaction with the vehicle overall, growing comfort using it, and favorable impressions of past BMW ownership.",
+        "evidence_fragment_ids": [
+          "F003912",
+          "F006663",
+          "F001323"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.078947,
+        "summary": "Negative reviews describe harder-to-use controls and discomfort with hands-off steering behavior rather than a single consistent seat issue.",
+        "evidence_fragment_ids": [
+          "F009563",
+          "F000170"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.026316,
+        "summary": "The mixed review says the seat base, backrest, and lumbar area could be improved even though the seats are not described as severely uncomfortable.",
+        "evidence_fragment_ids": [
+          "F002356"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 29,
+        "share": 0.763158,
+        "summary": "Undetermined reviews mention comfort, design familiarity, selected features, and learning vehicle functions without enough explicit opinion to classify them reliably.",
+        "evidence_fragment_ids": [
+          "F003571",
+          "F007235",
+          "F000477",
+          "F003182",
+          "F011049",
+          "F001585",
+          "F010258",
+          "F008802",
+          "F001703"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 38,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0095,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 29
+          },
+          "sentiment_shares": {
+            "positive": 0.131579,
+            "negative": 0.078947,
+            "mixed": 0.026316,
+            "neutral": 0.0,
+            "undetermined": 0.763158
+          },
+          "negative_rate": 0.078947,
+          "negative_or_mixed_rate": 0.105263,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.236842
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 1,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 37,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.010249,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 28
+          },
+          "sentiment_shares": {
+            "positive": 0.135135,
+            "negative": 0.081081,
+            "mixed": 0.027027,
+            "neutral": 0.0,
+            "undetermined": 0.756757
+          },
+          "negative_rate": 0.081081,
+          "negative_or_mixed_rate": 0.108108,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.243243
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.008804,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.083333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.916667
+          },
+          "negative_rate": 0.083333,
+          "negative_or_mixed_rate": 0.083333,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.083333
+        },
+        "ICE": {
+          "review_count": 22,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.009739,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.227273,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.681818
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.318182
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.010582,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.25,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.05,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 11,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.008655,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.909091
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.090909
+        },
+        "ICE": {
+          "review_count": 22,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.010907,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.227273,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.681818
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.318182
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.012422,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.25,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0062",
+      "G60-0181",
+      "G60-0248",
+      "G60-0466",
+      "G60-0561",
+      "G60-0604",
+      "G60-0789",
+      "G60-0839",
+      "G60-0891",
+      "G60-1032",
+      "G60-1099",
+      "G60-1142",
+      "G60-1279",
+      "G60-1298",
+      "G60-1410",
+      "G60-1496",
+      "G60-1520",
+      "G60-1570",
+      "G60-1601",
+      "G60-1715",
+      "G60-2100",
+      "G60-2184",
+      "G60-2385",
+      "G60-2412",
+      "G60-2577",
+      "G60-2761",
+      "G60-2913",
+      "G60-3017",
+      "G60-3029",
+      "G60-3139",
+      "G60-3388",
+      "G60-3436",
+      "G60-3452",
+      "G60-3686",
+      "G60-3760",
+      "G60-3983",
+      "G60-3987",
+      "G60-3999"
+    ],
+    "summary": "This topic combines seat comfort remarks with broader comments about vehicle controls and feature familiarity, with many excerpts too vague to assign clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Seat comfort and control usability notes",
+    "source_title": "noted / customer / seat",
+    "keywords": [
+      {
+        "term": "noted",
+        "weight": 0.289643
+      },
+      {
+        "term": "customer noted",
+        "weight": 0.268235
+      },
+      {
+        "term": "customer",
+        "weight": 0.09106
+      },
+      {
+        "term": "writer noted",
+        "weight": 0.048104
+      },
+      {
+        "term": "seat",
+        "weight": 0.034032
+      },
+      {
+        "term": "noted seat",
+        "weight": 0.03203
+      },
+      {
+        "term": "belts",
+        "weight": 0.03151
+      },
+      {
+        "term": "comfort",
+        "weight": 0.030139
+      },
+      {
+        "term": "noted design",
+        "weight": 0.029093
+      },
+      {
+        "term": "slowly",
+        "weight": 0.02831
+      },
+      {
+        "term": "everywhere",
+        "weight": 0.02794
+      },
+      {
+        "term": "noted came",
+        "weight": 0.02513
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003912",
+        "review_id": "G60-1410",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted the past models were good and he loved them,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009563",
+        "review_id": "G60-3436",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer noted his wife does not like to leave her hands off the steering wheel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002356",
+        "review_id": "G60-0839",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer clarified the concern is with the seat base plus the backrest and lumbar areas, and noted the seats are not awful or extremely uncomfortable, just could be improved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003571",
+        "review_id": "G60-1279",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted his overall experience with the vehicle has been going welll",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006663",
+        "review_id": "G60-2385",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted he is slowly getting more comfortable using it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000170",
+        "review_id": "G60-0062",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer noted that moving the controller to the left or right is slightly more difficult compared with his earlier vehicles",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007235",
+        "review_id": "G60-2577",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted he is 6'7\" and can sit comfortably inside this vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000477",
+        "review_id": "G60-0181",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted the design is not radically different, which is what first drew him to the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003182",
+        "review_id": "G60-1142",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted that at first the new touch display seemed a bit intimidating,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009613",
+        "review_id": "G60-3452",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted he had looked at the i7 previously,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011049",
+        "review_id": "G60-3987",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted the 530i came with all the features he wanted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001585",
+        "review_id": "G60-0561",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted this setup was specifically selected to maximize comfort",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010258",
+        "review_id": "G60-3686",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted his father is slowly getting used to all the functions in the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001323",
+        "review_id": "G60-0466",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted this is their first BMW after moving over from Audi and expressed being very satisfied with the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008802",
+        "review_id": "G60-3139",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted the vehicle feels quite sophisticated and that they are learning the different features little by little",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001703",
+        "review_id": "G60-0604",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted that in his earlier BMW vehicles there used to be a resume button for cruise",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 39,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sample for known sentiment is small relative to the number of undetermined excerpts, so concrete sentiment themes are limited.",
+      "This topic cluster mixes seat comfort, steering or controller usability, and general feature-learning comments rather than one tightly focused subject.",
+      "Several provided fragments are broad vehicle impressions or factual notes, which limits confidence in summarizing a single product aspect."
+    ]
+  }
+}

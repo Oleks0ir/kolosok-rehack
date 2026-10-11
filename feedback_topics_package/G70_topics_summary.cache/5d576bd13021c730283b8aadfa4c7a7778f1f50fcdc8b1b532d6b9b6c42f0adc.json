@@ -1,0 +1,41 @@
+{
+  "title": "Mixed operating status mentions including seatbelt and charger",
+  "summary": "The topic groups brief status notes about whether components such as a seatbelt, charger setup, app, visor light, and other functions were operating correctly, but the fragments are too sparse and mixed to support a clear sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention both correct operation and possible issues involving a rear seatbelt, visor light, charger installation, and app status, but the short fragments do not provide enough context for a firm sentiment classification.",
+      "evidence_fragment_ids": [
+        "F001461",
+        "F001006",
+        "F010381",
+        "F001579",
+        "F002276",
+        "F005728",
+        "F002541"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so there is no evidence for known-sentiment patterns within this topic.",
+    "The cluster mixes unrelated subjects including seatbelt behavior, charger installation, app status, visor light operation, and generic function checks.",
+    "Several fragments are very short or incomplete, which limits interpretation of what happened and how the customer felt.",
+    "These examples are stratified samples and are not representative estimates for the broader population of reviews."
+  ]
+}

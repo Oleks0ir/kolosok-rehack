@@ -1,0 +1,564 @@
+{
+  "topic_id": "T0207",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 13,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.307692,
+      "ICE": 0.538462,
+      "PHEV": 0.153846
+    },
+    "sentiment": {
+      "positive": {
+        "count": 1,
+        "share": 0.076923,
+        "summary": "The only positive feedback praises the glove box button design.",
+        "evidence_fragment_ids": [
+          "F003899"
+        ]
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.461538,
+        "summary": "Negative feedback focuses on the glove box being hard to find or operate, preference for a traditional latch, inability to open or close it, and a nonfunctioning internal sensor.",
+        "evidence_fragment_ids": [
+          "F002150",
+          "F010937",
+          "F000462",
+          "F006180",
+          "F002124",
+          "F002164",
+          "F006181",
+          "F006179"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 6,
+        "share": 0.461538,
+        "summary": "Undetermined comments mention how the glove box locks in valet mode, questions about locking it, missing auxiliary storage, and radar-detector power routed through the glove-box-area outlet, but the examples are not sufficient to assign clear sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F000386",
+          "F007612",
+          "F007834",
+          "F010442",
+          "F001657",
+          "F003868",
+          "F000387"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 13,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00325,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.461538,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.461538
+          },
+          "negative_rate": 0.461538,
+          "negative_or_mixed_rate": 0.461538,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.538462
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 13,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.003428,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.076923,
+            "negative": 0.461538,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.461538
+          },
+          "negative_rate": 0.461538,
+          "negative_or_mixed_rate": 0.461538,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.538462
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.003543,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.002726,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.285714
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.714286
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 4,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.003721,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.25
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002875,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.571429,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.285714
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.571429,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.714286
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G70-0165",
+      "G70-0193",
+      "G70-0607",
+      "G70-0785",
+      "G70-0798",
+      "G70-0803",
+      "G70-1415",
+      "G70-1426",
+      "G70-2225",
+      "G70-2733",
+      "G70-2824",
+      "G70-3745",
+      "G70-3940"
+    ],
+    "summary": "Feedback centers on the glove box’s button-operated access and lock behavior, plus mentions of radar-detector power needs tied to the glove box outlet location.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Glove box access and radar-detector outlet placement",
+    "source_title": "glove box / detector / radar",
+    "keywords": [
+      {
+        "term": "glove box",
+        "weight": 0.28223
+      },
+      {
+        "term": "glove",
+        "weight": 0.275429
+      },
+      {
+        "term": "box",
+        "weight": 0.271499
+      },
+      {
+        "term": "detector",
+        "weight": 0.084454
+      },
+      {
+        "term": "radar detector",
+        "weight": 0.084454
+      },
+      {
+        "term": "radar",
+        "weight": 0.082677
+      },
+      {
+        "term": "open glove",
+        "weight": 0.060947
+      },
+      {
+        "term": "customer",
+        "weight": 0.056424
+      },
+      {
+        "term": "button glove",
+        "weight": 0.053212
+      },
+      {
+        "term": "outlet",
+        "weight": 0.051759
+      },
+      {
+        "term": "box dtu",
+        "weight": 0.048557
+      },
+      {
+        "term": "problem glove",
+        "weight": 0.048557
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F003899",
+        "review_id": "G70-1426",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that he really likes the button on the glove box",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002150",
+        "review_id": "G70-0798",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Glove box - DTU: \"It would be better if there were a latch right on the glove box door instead of using the electric button",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000386",
+        "review_id": "G70-0165",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer inquired about how to lock the glove box",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010937",
+        "review_id": "G70-3940",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Glove box - DTU: \"I would rather have a more classic, traditional way to open the glove box\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007612",
+        "review_id": "G70-2733",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer noted that the only nearby 12V outlet is inside the glove box, which means she has to stretch a cord all the way across the dashboard to plug in her radar detector",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000462",
+        "review_id": "G70-0193",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Glove box - DTU: \"Glove box opening is kind of hidden, not sure why",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006180",
+        "review_id": "G70-2225",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he is currently unable to open the glove box",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002124",
+        "review_id": "G70-0785",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer asked about the missing button on the glove box and what happened to it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007834",
+        "review_id": "G70-2824",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "I miss the little mini glove box on the left side",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002164",
+        "review_id": "G70-0803",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated it is difficult to locate and use certain controls, mentioning the glove box button location",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010442",
+        "review_id": "G70-3745",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when he checked valet parking information it showed valet mode for the key, which locks the trunk and glove box,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001657",
+        "review_id": "G70-0607",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned they would like a 12v outlet in the front for their radar detector",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003868",
+        "review_id": "G70-1415",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he plugs in his radar detector",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000387",
+        "review_id": "G70-0165",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the glove box can only be locked when Valet Mode is activated",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006181",
+        "review_id": "G70-2225",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated a technician told him that if he did manage to open the glove box, he would then be unable to close it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006179",
+        "review_id": "G70-2225",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer Issue\tCustomer stated the sensor inside the glove box is not functioning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 17,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic mixes two loosely related subjects: glove box usability and locking, and radar-detector or 12V outlet placement.",
+      "Several example fragments are incomplete or purely informational, which limits confidence in interpreting user sentiment beyond the assigned labels.",
+      "The sample is small and stratified, so it should not be treated as representative of all G70 feedback."
+    ]
+  }
+}

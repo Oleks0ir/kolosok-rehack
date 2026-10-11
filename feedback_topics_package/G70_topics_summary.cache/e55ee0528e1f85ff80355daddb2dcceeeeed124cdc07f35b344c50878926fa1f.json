@@ -1,0 +1,50 @@
+{
+  "title": "Feature gone and salesperson mentions",
+  "summary": "This topic is mostly a loose cluster of fragments using words like “gone,” “salesperson,” and “Alpina,” with only limited evidence about an actual vehicle issue or customer evaluation.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "One negative review says a problem has gone away now, but the fragment is too brief to identify the underlying issue clearly.",
+      "evidence_fragment_ids": [
+        "F004683"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention unrelated contexts such as dealer visits, troubleshooting, missing features, salesperson interactions, prior vehicles, and wording where “gone” does not express a clear sentiment about the G70.",
+      "evidence_fragment_ids": [
+        "F005155",
+        "F001351",
+        "F004998",
+        "F005056",
+        "F007663",
+        "F005265",
+        "F000340",
+        "F002265",
+        "F006533",
+        "F006983",
+        "F000935",
+        "F000352",
+        "F008424",
+        "F009147",
+        "F000591"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes several unrelated subjects tied together mainly by repeated words rather than a single coherent customer issue.",
+    "Most fragments are assigned undetermined sentiment, so the evidence is insufficient to draw a clear conclusion about customer satisfaction with a specific aspect.",
+    "Some fragments refer to other vehicles, dealership interactions, or incidental wording rather than a direct evaluation of the G70."
+  ]
+}

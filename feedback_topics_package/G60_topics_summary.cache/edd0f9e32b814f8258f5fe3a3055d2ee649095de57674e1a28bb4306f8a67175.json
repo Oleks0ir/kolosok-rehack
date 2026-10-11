@@ -1,0 +1,35 @@
+{
+  "title": "Sales Help and Rush Context",
+  "summary": "The topic centers on dealership assistance finding a specific car and a separate mention of being in a rush, with both fragments lacking enough context for a clear evaluative sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "One fragment mentions helpful tracking of an exact car and no pressure, while another only mentions being in a rush, so the sample does not support a clearer sentiment reading.",
+      "evidence_fragment_ids": [
+        "F004260",
+        "F006874"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes a concrete sales-assistance comment with a very short standalone rush-related fragment.",
+    "All sampled fragments are undetermined, so sentiment-specific interpretation is limited.",
+    "The evidence base is very small, and one fragment lacks enough context to identify the underlying aspect."
+  ]
+}

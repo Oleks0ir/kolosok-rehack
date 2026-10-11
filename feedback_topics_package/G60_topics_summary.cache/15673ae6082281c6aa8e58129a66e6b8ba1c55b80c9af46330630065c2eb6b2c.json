@@ -1,0 +1,50 @@
+{
+  "title": "Oil change intervals and service guidance",
+  "summary": "Feedback centers on oil change timing, service intervals, and confusion about required oil service or top-offs, with most examples not carrying a clear overall sentiment label.",
+  "sentiments": {
+    "positive": {
+      "summary": "One positive review notes difficulty accessing the menu to cycle consumables such as oil changes rather than praising the oil service itself.",
+      "evidence_fragment_ids": [
+        "F010780"
+      ]
+    },
+    "negative": {
+      "summary": "One negative review describes poor post-sale support when asking about an oil slick and slight moisture issue.",
+      "evidence_fragment_ids": [
+        "F010080"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mainly discuss oil change schedules, mileage thresholds, special oil requirements, and uncertainty about whether service visits are needed for top-offs, with some examples also expressing frustration about unexpectedly early oil service prompts.",
+      "evidence_fragment_ids": [
+        "F010148",
+        "F008589",
+        "F006876",
+        "F010694",
+        "F007335",
+        "F009504",
+        "F005859",
+        "F010150",
+        "F010147",
+        "F010146",
+        "F007334",
+        "F010153",
+        "F010149"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are labeled undetermined, so the sentiment picture is limited.",
+    "Several undetermined fragments include frustration-like wording, but their assigned sentiment cannot be recast as negative here.",
+    "The cluster combines routine interval information, owner questions, and one post-sale support complaint, so the topic is only partly coherent."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Recommendations to family and friends",
+  "summary": "This topic centers on owners mentioning recommendations to family or friends, usually as an expression of satisfaction but sometimes as a generic reference without clear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say the car or buying experience was good enough that owners would gladly recommend it to family and friends.",
+      "evidence_fragment_ids": [
+        "F004887",
+        "F003332",
+        "F000613",
+        "F005527",
+        "F002996",
+        "F005736",
+        "F003298",
+        "F005172",
+        "F007177"
+      ]
+    },
+    "negative": {
+      "summary": "One negative-assigned review uses recommendation wording that conflicts with the negative label, so the specific criticism is not evident from the fragment alone.",
+      "evidence_fragment_ids": [
+        "F001421"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention family or friends in ways that suggest recommendation, shared use, appearance comments, or long family ownership, but often lack enough context to confirm clear sentiment about the car.",
+      "evidence_fragment_ids": [
+        "F005967",
+        "F006924",
+        "F006346",
+        "F006841",
+        "F004464",
+        "F002530"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Many fragments are short recommendation statements with limited detail about the underlying vehicle attributes.",
+    "The single negative-assigned example does not contain explicit negative wording, which limits interpretation of what drove the negative label.",
+    "Undetermined fragments mix several loosely related subjects, including recommending the car, family usage, comments from others, and long family ownership history."
+  ]
+}

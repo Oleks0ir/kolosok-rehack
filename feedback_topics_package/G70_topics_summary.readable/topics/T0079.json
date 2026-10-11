@@ -1,0 +1,580 @@
+{
+  "topic_id": "T0079",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 28,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.357143,
+      "ICE": 0.607143,
+      "PHEV": 0.035714
+    },
+    "sentiment": {
+      "positive": {
+        "count": 9,
+        "share": 0.321429,
+        "summary": "Positive reviews praise the head-up display as a liked or loved feature, especially when it shows navigation directions clearly in the driver's line of sight.",
+        "evidence_fragment_ids": [
+          "F006508",
+          "F004315",
+          "F002582",
+          "F010266",
+          "F008171",
+          "F010304",
+          "F009238"
+        ]
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.214286,
+        "summary": "Negative reviews focus on the head-up display being hard to see in daytime conditions and on information graphics or layout that feel complicated.",
+        "evidence_fragment_ids": [
+          "F010977",
+          "F009097"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.035714,
+        "summary": "The mixed review asks for a simpler process related to the display key and iPhone integration, combining a feature request with dissatisfaction about complexity.",
+        "evidence_fragment_ids": [
+          "F002111"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 12,
+        "share": 0.428571,
+        "summary": "Undetermined reviews mention comparisons, intermittent display behavior, size or placement preferences, and very short references that do not provide enough context for a clear sentiment label.",
+        "evidence_fragment_ids": [
+          "F011082",
+          "F008732",
+          "F000854",
+          "F008280",
+          "F000226",
+          "F010200"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 28,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.007,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.321429,
+            "negative": 0.214286,
+            "mixed": 0.035714,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 28,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.007384,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 6,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.321429,
+            "negative": 0.214286,
+            "mixed": 0.035714,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.214286,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.571429
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.008857,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.428571,
+          "known_sentiment_share": 0.6
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.00662,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.352941,
+            "negative": 0.176471,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.411765
+          },
+          "negative_rate": 0.176471,
+          "negative_or_mixed_rate": 0.235294,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.571429,
+          "known_sentiment_share": 0.588235
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.009302,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.3,
+            "negative": 0.3,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.3,
+          "negative_or_mixed_rate": 0.3,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.428571,
+          "known_sentiment_share": 0.6
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.006982,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.352941,
+            "negative": 0.176471,
+            "mixed": 0.058824,
+            "neutral": 0.0,
+            "undetermined": 0.411765
+          },
+          "negative_rate": 0.176471,
+          "negative_or_mixed_rate": 0.235294,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.571429,
+          "known_sentiment_share": 0.588235
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 4,
+    "review_ids": [
+      "G70-0114",
+      "G70-0194",
+      "G70-0316",
+      "G70-0778",
+      "G70-0939",
+      "G70-1024",
+      "G70-1094",
+      "G70-1582",
+      "G70-2078",
+      "G70-2120",
+      "G70-2345",
+      "G70-2476",
+      "G70-2528",
+      "G70-2937",
+      "G70-2984",
+      "G70-3143",
+      "G70-3261",
+      "G70-3269",
+      "G70-3328",
+      "G70-3420",
+      "G70-3568",
+      "G70-3668",
+      "G70-3673",
+      "G70-3696",
+      "G70-3707",
+      "G70-3846",
+      "G70-3956",
+      "G70-3998"
+    ],
+    "summary": "Feedback on the G70 head-up display centers on appreciation for the feature and navigation presentation, alongside complaints about daytime visibility and confusing graphics, with many fragments too brief or comparative to classify cleanly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Head-Up Display Experience",
+    "source_title": "display / head / heads",
+    "keywords": [
+      {
+        "term": "display",
+        "weight": 0.287968
+      },
+      {
+        "term": "head display",
+        "weight": 0.164308
+      },
+      {
+        "term": "head",
+        "weight": 0.148453
+      },
+      {
+        "term": "heads display",
+        "weight": 0.125177
+      },
+      {
+        "term": "heads",
+        "weight": 0.1227
+      },
+      {
+        "term": "stated head",
+        "weight": 0.074868
+      },
+      {
+        "term": "customer",
+        "weight": 0.071281
+      },
+      {
+        "term": "stated display",
+        "weight": 0.062138
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.060613
+      },
+      {
+        "term": "stated",
+        "weight": 0.059613
+      },
+      {
+        "term": "display key",
+        "weight": 0.054468
+      },
+      {
+        "term": "stated heads",
+        "weight": 0.034345
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006508",
+        "review_id": "G70-2345",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is pleased with the Head Up display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010977",
+        "review_id": "G70-3956",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Head-up display - DTU/display difficult to see: \"In the daytime it is hard to make out the head up display, especially with navigation on, you can barely see the directions",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002111",
+        "review_id": "G70-0778",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he would prefer that the same method used with the display key be applied to the iPhone, or that the current process be simplified so it is less complicated",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011082",
+        "review_id": "G70-3998",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his 2022 X7 was able to display more Apple Map information in the head-up display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004315",
+        "review_id": "G70-1582",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she really loves the head up display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009097",
+        "review_id": "G70-3269",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the info shown in the head-up display feels complicated, mainly because of how the graphics look and how the layout is arranged",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008732",
+        "review_id": "G70-3143",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the heads-up display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002582",
+        "review_id": "G70-0939",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes the Head-up Display feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010266",
+        "review_id": "G70-3696",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer noted she is pleased with the Head-Up Display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008171",
+        "review_id": "G70-2937",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that he really loves the Head-Up Display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010304",
+        "review_id": "G70-3707",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes the heads-up display in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000854",
+        "review_id": "G70-0316",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the heads up display in his vehicle is quite large and he would prefer something less obstructive,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008280",
+        "review_id": "G70-2984",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the Head Up Display is an improvement compared with the ones in their earlier BMWs",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000226",
+        "review_id": "G70-0114",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the head-up display sometimes does not show up after starting the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010200",
+        "review_id": "G70-3673",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer suggested it likely would not trigger so much if the display were closer to the center or shown in the heads up display",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009238",
+        "review_id": "G70-3328",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes that the Head-up Display presents the navigation directions along with the map, so he can see exactly where to turn",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 32,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are undetermined or very brief, which limits clear interpretation of customer sentiment.",
+      "The topic includes both head-up display performance and display key or phone-process comments, so the cluster is not fully uniform.",
+      "Only a subset of topic fragments is shown, so examples may be insufficient to capture the full range of feedback."
+    ]
+  }
+}

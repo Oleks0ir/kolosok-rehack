@@ -1,0 +1,49 @@
+{
+  "title": "Lane warning and assist controls",
+  "summary": "Feedback centers on lane warning and assist features, with complaints about annoyance and repeated switching alongside a few mentions of driver-aid and parking-assist technology without clear sentiment consistency.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention the presence of newer driver-aid technology and related assist features, though the examples are sparse and partly inconsistent in tone.",
+      "evidence_fragment_ids": [
+        "F004043",
+        "F005663",
+        "F006633"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews focus on lane warning and lane assist being annoying, potentially unsafe, and needing to be switched off repeatedly at startup or during use.",
+      "evidence_fragment_ids": [
+        "F001875",
+        "F003828",
+        "F002856",
+        "F005803",
+        "F007014"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention lane departure, reverse assist, park assist, or a warning disappearing, but the limited excerpts do not support a reliable sentiment summary.",
+      "evidence_fragment_ids": [
+        "F000692",
+        "F003844",
+        "F000919",
+        "F003556",
+        "F001115",
+        "F006588"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Several assigned sentiments appear inconsistent with the fragment wording, especially within the positive and undetermined samples.",
+    "The topic cluster mixes lane warning and lane assist with reverse assist and park assist, so it is not fully coherent.",
+    "Many excerpts are very short, which limits confidence about the exact issue or sentiment context."
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "topic_id": "T0147",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 18,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.055556,
+      "US": 0.944444
+    },
+    "engine_type": {
+      "BEVE": 0.277778,
+      "ICE": 0.722222
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 16,
+        "share": 0.888889,
+        "summary": "Negative reviews describe interior and exterior handles as awkward, unintuitive, uncomfortable, or hard to reach and use, including trouble with touch unlock and latch access.",
+        "evidence_fragment_ids": [
+          "F008315",
+          "F004014",
+          "F005771",
+          "F004091",
+          "F000920",
+          "F003888",
+          "F002727",
+          "F010797",
+          "F003318",
+          "F002928"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 2,
+        "share": 0.111111,
+        "summary": "Undetermined reviews mention door-handle operation or placement, but the limited examples do not clearly show whether the comments are favorable or unfavorable.",
+        "evidence_fragment_ids": [
+          "F000817",
+          "F003970"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 18,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0045,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 16,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.888889,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.111111
+          },
+          "negative_rate": 0.888889,
+          "negative_or_mixed_rate": 0.888889,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.888889
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0625,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 17,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.004709,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 15,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.882353,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.117647
+          },
+          "negative_rate": 0.882353,
+          "negative_or_mixed_rate": 0.882353,
+          "share_of_all_topic_negative_reviews": 0.9375,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.9375,
+          "known_sentiment_share": 0.882353
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.003668,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.8
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005755,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 12,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.923077,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.076923
+          },
+          "negative_rate": 0.923077,
+          "negative_or_mixed_rate": 0.923077,
+          "share_of_all_topic_negative_reviews": 0.75,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.75,
+          "known_sentiment_share": 0.923077
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0625,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.003934,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.8,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.2
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.8,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.25,
+          "known_sentiment_share": 0.8
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.005949,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 11,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.916667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.083333
+          },
+          "negative_rate": 0.916667,
+          "negative_or_mixed_rate": 0.916667,
+          "share_of_all_topic_negative_reviews": 0.6875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6875,
+          "known_sentiment_share": 0.916667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0293",
+      "G60-0331",
+      "G60-0343",
+      "G60-0969",
+      "G60-0973",
+      "G60-1042",
+      "G60-1183",
+      "G60-1401",
+      "G60-1428",
+      "G60-1446",
+      "G60-1467",
+      "G60-2060",
+      "G60-2666",
+      "G60-2818",
+      "G60-2855",
+      "G60-2982",
+      "G60-3730",
+      "G60-3876"
+    ],
+    "summary": "Reviews in this topic focus mainly on awkward door-handle and latch design that makes opening, closing, or locating handles difficult, with a few examples also touching on touch-unlock behavior and hood-latch access.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 12,
+        "denominator": 13,
+        "rate": 0.923077,
+        "comparison_numerator": 4,
+        "comparison_denominator": 5,
+        "comparison_rate": 0.8,
+        "gap_percentage_points": 12.308,
+        "statement": "In engine_type=ICE, 12 of 13 reviews (92.3%) are negative or mixed. The rest of this breakdown: 4 of 5 (80.0%).",
+        "interpretation": "ICE examples in this topic are associated with more negative-or-mixed feedback than the comparison engine group, but the comparison sample is limited and this is only exploratory.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S001"
+      },
+      {
+        "dimension": "country",
+        "value": "US",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 15,
+        "denominator": 17,
+        "rate": 0.882353,
+        "comparison_numerator": 1,
+        "comparison_denominator": 1,
+        "comparison_rate": 1.0,
+        "gap_percentage_points": -11.765,
+        "statement": "In country=US, 15 of 17 reviews (88.2%) are negative or mixed. The rest of this breakdown: 1 of 1 (100.0%).",
+        "interpretation": "US examples account for most of the topic's feedback and are largely negative-or-mixed, but the non-US comparison is too small for a reliable contrast.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S002"
+      }
+    ],
+    "title": "Door handle and latch usability",
+    "source_title": "handle / dtu / door",
+    "keywords": [
+      {
+        "term": "handle",
+        "weight": 0.26437
+      },
+      {
+        "term": "door handle",
+        "weight": 0.156549
+      },
+      {
+        "term": "dtu",
+        "weight": 0.130487
+      },
+      {
+        "term": "door",
+        "weight": 0.121136
+      },
+      {
+        "term": "handle latch",
+        "weight": 0.116789
+      },
+      {
+        "term": "latch release",
+        "weight": 0.116789
+      },
+      {
+        "term": "release dtu",
+        "weight": 0.116789
+      },
+      {
+        "term": "latch",
+        "weight": 0.111969
+      },
+      {
+        "term": "release",
+        "weight": 0.097585
+      },
+      {
+        "term": "problem",
+        "weight": 0.095763
+      },
+      {
+        "term": "dtu location",
+        "weight": 0.090696
+      },
+      {
+        "term": "problem door",
+        "weight": 0.074747
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008315",
+        "review_id": "G60-2982",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Doors - Handle/latch/release - DTU: \"the way the handle is positioned makes it hard to use propelry",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000817",
+        "review_id": "G60-0293",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that when the vehicle is stopped you should be able to pull the door handle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004014",
+        "review_id": "G60-1446",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Doors - Handle/latch/release - DTU: \"the interior lever for opening the driver's door is different from previous model years",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007476",
+        "review_id": "G60-2666",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Doors - Handle/latch/release - DTU: \"it really bugs me that when i step out and try to get something from the back seat",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010407",
+        "review_id": "G60-3730",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Doors - Handle/latch/release - DTU: \"Challenging desgin\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003970",
+        "review_id": "G60-1428",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the handle you use to pull them shut is set way too far in",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005771",
+        "review_id": "G60-2060",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Doors - Handle/latch/release - DTU: \"hard to open the door since you have to reach under it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004091",
+        "review_id": "G60-1467",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Driver/passenger assist handle - DTU/poor location: \"The interior door handle design is not intuitive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000920",
+        "review_id": "G60-0331",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Doors - Handle/latch/release - DTU: \"The touch unlock on the door handles is really tricky and almost never works on the first attempt",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003888",
+        "review_id": "G60-1401",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Driver/passenger assist handle - DTU/poor location: \"There's no regular pull handle to grab when closing the door, and figuring out where to close it is tough both day and night",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002727",
+        "review_id": "G60-0969",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Driver/passenger assist handle - DTU/poor location: \"When I first picked up the car I had to look around to figure out where the handle was",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007878",
+        "review_id": "G60-2818",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Hood - Handle/latch/release - DTU: \"i cant seem to find the hood latch or get my hand far enough in under the hood to feel it\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002736",
+        "review_id": "G60-0973",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Driver/passenger assist handle - DTU/poor location: \"What happened to real leather",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010797",
+        "review_id": "G60-3876",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Driver/passenger assist handle - DTU/poor location: \"Front inside door handles sit in a weird, awkward spot\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003318",
+        "review_id": "G60-1183",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the door handle is not comfortable to use",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002928",
+        "review_id": "G60-1042",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "interior door handle feels uncomfortable",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 25,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic includes a few potentially unrelated fragments, such as hood-latch access and one fragment whose quoted text does not clearly match handle-location issues.",
+      "Examples are sentiment-stratified and not a random sample, so they should not be treated as representative of all owners.",
+      "Undetermined evidence is sparse, so its meaning cannot be characterized beyond the limited examples shown."
+    ]
+  }
+}

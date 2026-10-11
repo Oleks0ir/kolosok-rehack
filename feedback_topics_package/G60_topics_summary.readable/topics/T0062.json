@@ -1,0 +1,634 @@
+{
+  "topic_id": "T0062",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 32,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.03125,
+      "US": 0.96875
+    },
+    "engine_type": {
+      "BEVE": 0.40625,
+      "ICE": 0.5625,
+      "PHEV": 0.03125
+    },
+    "sentiment": {
+      "positive": {
+        "count": 9,
+        "share": 0.28125,
+        "summary": "Positive reviews praise the ambient lighting as an appealing interior feature and highlight enjoyment of its color variety and customization.",
+        "evidence_fragment_ids": [
+          "F000014",
+          "F002510",
+          "F006755",
+          "F006521",
+          "F001226"
+        ]
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.03125,
+        "summary": "Negative feedback is limited to a complaint that expected ambient lighting colors, especially red and blue with the M package, are missing.",
+        "evidence_fragment_ids": [
+          "F001420"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No explicit neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 22,
+        "share": 0.6875,
+        "summary": "Undetermined mentions include brief references, feature descriptions, settings guidance, and ambiguous comments about lighting options, brightness, rear-seat lighting, or perceived quality.",
+        "evidence_fragment_ids": [
+          "F003178",
+          "F010629",
+          "F002811",
+          "F005473",
+          "F003099",
+          "F004976",
+          "F005671",
+          "F007064",
+          "F009282",
+          "F002405"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 32,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.008,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.28125,
+            "negative": 0.03125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.03125,
+          "negative_or_mixed_rate": 0.03125,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.3125
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 31,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.008587,
+          "sentiment_counts": {
+            "positive": 9,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.290323,
+            "negative": 0.032258,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.677419
+          },
+          "negative_rate": 0.032258,
+          "negative_or_mixed_rate": 0.032258,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.322581
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.009538,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.384615,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.615385
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.384615
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.007968,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.222222,
+            "negative": 0.055556,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.722222
+          },
+          "negative_rate": 0.055556,
+          "negative_or_mixed_rate": 0.055556,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.277778
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 13,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.010228,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.384615,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.615385
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.384615
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008428,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.235294,
+            "negative": 0.058824,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.705882
+          },
+          "negative_rate": 0.058824,
+          "negative_or_mixed_rate": 0.058824,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.294118
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G60-0007",
+      "G60-0166",
+      "G60-0436",
+      "G60-0499",
+      "G60-0854",
+      "G60-0890",
+      "G60-0926",
+      "G60-1001",
+      "G60-1117",
+      "G60-1139",
+      "G60-1218",
+      "G60-1252",
+      "G60-1392",
+      "G60-1426",
+      "G60-1778",
+      "G60-1846",
+      "G60-1946",
+      "G60-2022",
+      "G60-2214",
+      "G60-2288",
+      "G60-2331",
+      "G60-2416",
+      "G60-2495",
+      "G60-2528",
+      "G60-3132",
+      "G60-3298",
+      "G60-3323",
+      "G60-3560",
+      "G60-3716",
+      "G60-3776",
+      "G60-3818",
+      "G60-3833"
+    ],
+    "summary": "Feedback about ambient lighting centers on owners enjoying the interior lighting and color customization, with many other mentions being too brief or informational to determine clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Ambient Lighting Features",
+    "source_title": "ambient / lighting / customer stated",
+    "keywords": [
+      {
+        "term": "ambient",
+        "weight": 0.305471
+      },
+      {
+        "term": "lighting",
+        "weight": 0.236675
+      },
+      {
+        "term": "ambient lighting",
+        "weight": 0.221373
+      },
+      {
+        "term": "stated ambient",
+        "weight": 0.078198
+      },
+      {
+        "term": "ambient light",
+        "weight": 0.068297
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.066103
+      },
+      {
+        "term": "stated",
+        "weight": 0.064881
+      },
+      {
+        "term": "customer",
+        "weight": 0.06267
+      },
+      {
+        "term": "light",
+        "weight": 0.05256
+      },
+      {
+        "term": "color",
+        "weight": 0.048531
+      },
+      {
+        "term": "beeping",
+        "weight": 0.040673
+      },
+      {
+        "term": "lighting rear",
+        "weight": 0.039032
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000014",
+        "review_id": "G60-0007",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that they really love the ambient lighting in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001420",
+        "review_id": "G60-0499",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that red is missing from the ambient lighting color choices and expressed confusion about why both red and blue are not provided when the M package is selected, since red and blue are the recognizable signature colors of M",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003178",
+        "review_id": "G60-1139",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the ambient lighting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002510",
+        "review_id": "G60-0890",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really likes the ambient lighting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005473",
+        "review_id": "G60-1946",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the 520i interior is not overdone, with ambient lighting 7",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010629",
+        "review_id": "G60-3818",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the ambient lighting is his preferred feature in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002811",
+        "review_id": "G60-1001",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "wants more options for ambient lighting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006755",
+        "review_id": "G60-2416",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she enjoys the interior Ambient Lights and likes all of the different ambient lighting in the cabin",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006521",
+        "review_id": "G60-2331",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she enjoys the ambient lighting in the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003099",
+        "review_id": "G60-1117",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the ambient lighting feels cheaper than in my former 530i",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001226",
+        "review_id": "G60-0436",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned his daughter really likes the ambient lighting and, every time she gets in, she changes it to whatever color she wants for the day",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004976",
+        "review_id": "G60-1778",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his prior BMW 5 Series had Ambient Lighting in the rear seats,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005671",
+        "review_id": "G60-2022",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the ambient interior lighting in the car is nice",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007064",
+        "review_id": "G60-2528",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he located the setting to reduce the Ambient Lighting brightness",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009282",
+        "review_id": "G60-3323",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "smaller annoyances are not being able to set the ambient lighting to anything other than \"personal\" and not being able to have \"sport\" as the default start-up mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002405",
+        "review_id": "G60-0854",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that while inside the vehicle she should open the Apps Menu, choose Interior lighting, then select Ambient lighting, and from there adjust the color",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 36,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most topic mentions are assigned undetermined sentiment, which limits confidence in a fuller sentiment summary.",
+      "Several examples are very short or purely descriptive, so specific customer intent or evaluation cannot be determined from them alone.",
+      "Some undetermined fragments contain praise-like or complaint-like wording, but their supplied sentiment labels prevent reassigning them."
+    ]
+  }
+}

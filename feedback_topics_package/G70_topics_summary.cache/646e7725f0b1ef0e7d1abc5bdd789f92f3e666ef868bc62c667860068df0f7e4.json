@@ -1,0 +1,40 @@
+{
+  "title": "Customer response follow-ups and isolated issue notes",
+  "summary": "This topic groups disparate follow-up statements from customers and service notes, with only one clear complaint and several fragments that lack enough context for a firm sentiment reading.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clear negative review describes an ongoing issue that appears during low-speed turns.",
+      "evidence_fragment_ids": [
+        "F006796"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined reviews mention command success, a new vehicle, not wanting a hybrid, accurate displayed time, and a successful writer, but they are too context-limited to classify confidently.",
+      "evidence_fragment_ids": [
+        "F008107",
+        "F007131",
+        "F002557",
+        "F010657",
+        "F004954"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The sampled fragments mix unrelated subjects, including drivability, command performance, purchase preference, display accuracy, and service-process wording.",
+    "Most fragments are too brief or context-poor to determine whether the customer experience was positive, negative, or neutral.",
+    "The topic appears to be influenced by generic phrasing such as 'customer responded' and 'successful,' which reduces thematic coherence."
+  ]
+}

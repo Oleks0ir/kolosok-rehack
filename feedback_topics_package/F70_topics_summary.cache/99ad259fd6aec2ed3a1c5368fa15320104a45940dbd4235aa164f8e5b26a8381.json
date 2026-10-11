@@ -1,0 +1,51 @@
+{
+  "title": "Sudden faults and \"went\" purchase mentions",
+  "summary": "This topic is lexically broad and mixes sudden brake, steering, display, and support issues with unrelated phrases about choosing or buying the car, so the examples do not form a single coherent aspect.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention satisfaction with choosing the car and praise a dealership for resolving rusty brake discs.",
+      "evidence_fragment_ids": [
+        "F004902",
+        "F001657"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe a sudden hard brake activation in traffic and a return to BMW with many unresolved issues.",
+      "evidence_fragment_ids": [
+        "F002583",
+        "F003290"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mostly use \"went\" in varied contexts such as purchase decisions, dealer visits, support contact, and reported glitches, without enough context here to classify sentiment reliably.",
+      "evidence_fragment_ids": [
+        "F007131",
+        "F007145",
+        "F004457",
+        "F000097",
+        "F001327",
+        "F000417",
+        "F005904",
+        "F006908",
+        "F006948",
+        "F004678",
+        "F000273",
+        "F006500"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes unrelated subjects linked by the word \"went,\" including purchase wording, service interactions, and possible technical faults.",
+    "Most sampled fragments are undetermined, so the available examples are insufficient to define a clear single customer issue.",
+    "Some undetermined fragments mention possible problems, but the provided snippets do not give enough context to reassign sentiment."
+  ]
+}

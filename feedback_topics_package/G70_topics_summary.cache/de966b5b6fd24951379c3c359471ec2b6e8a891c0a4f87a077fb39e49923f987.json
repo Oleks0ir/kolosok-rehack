@@ -1,0 +1,45 @@
+{
+  "title": "Seat belt comfort and buckle issues",
+  "summary": "Reviews in this topic focus on seat belt discomfort around the neck, difficult buckling, warning or fault indications, and a few buckle or retractor repairs.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews describe seat belts rubbing or digging into the neck, being uncomfortable or hard to latch, and buckle fault codes involving open circuits.",
+      "evidence_fragment_ids": [
+        "F010712",
+        "F009600",
+        "F006570",
+        "F006641"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention suggested seat belt improvement, warning icons staying on, buckle or retractor service, and restraint behavior changes without enough context to confirm sentiment.",
+      "evidence_fragment_ids": [
+        "F005234",
+        "F002577",
+        "F003759",
+        "F000100",
+        "F003943",
+        "F009155",
+        "F000764"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are labeled undetermined, which limits confidence about overall sentiment beyond the clearly negative comfort and buckle-fault reports.",
+    "Some fragments appear to reference another vehicle name in the text, so model/topic attribution in the sample may be noisy.",
+    "The topic mixes comfort complaints with warning-light, wiring, buckle, and retractor service mentions rather than one single issue."
+  ]
+}

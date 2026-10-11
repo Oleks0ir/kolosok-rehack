@@ -1,0 +1,57 @@
+{
+  "title": "Brake feel, grabbing, and parking brake operation",
+  "summary": "Feedback on brakes centers on complaints about poor feel, grabbing, hardness, and rough operation, while many sampled mentions are service-style descriptions or operational notes with unclear sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention acceptable brake behavior or parking brake functionality, but the examples are sparse and partly procedural rather than strongly favorable.",
+      "evidence_fragment_ids": [
+        "F002923",
+        "F007360"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe poor brake quality, grabby or unsmooth pedal response, and difficulty modulating braking.",
+      "evidence_fragment_ids": [
+        "F008948",
+        "F009033",
+        "F002385"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews include ambiguous statements about brakes operating fine, hard or rough braking feel, parking brake instructions, and sudden braking events without enough context to classify sentiment reliably.",
+      "evidence_fragment_ids": [
+        "F006471",
+        "F006195",
+        "F003352",
+        "F003006",
+        "F004641",
+        "F005798"
+      ]
+    }
+  },
+  "signal_notes": [
+    {
+      "signal_id": "S001",
+      "interpretation": "The exploratory signal indicates ICE examples in this topic are more often labeled negative or mixed than the non-ICE examples within this dataset slice.",
+      "evidence_fragment_ids": [
+        "F008948",
+        "F009033",
+        "F006195",
+        "F005798"
+      ]
+    }
+  ],
+  "limitations": [
+    "Most sampled fragments are undetermined, so the observable sentiment pattern is based on limited clearly classified examples.",
+    "Several examples are service-writer notes or operational explanations about the parking brake rather than direct evaluations of brake quality.",
+    "The topic mixes driving feel complaints with parking brake operation and automated braking references, so it is not a fully uniform issue cluster."
+  ]
+}

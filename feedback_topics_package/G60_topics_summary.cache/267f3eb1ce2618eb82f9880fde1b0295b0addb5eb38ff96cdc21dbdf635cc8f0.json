@@ -1,0 +1,42 @@
+{
+  "title": "Service completion and outlet mentions",
+  "summary": "The fragments mainly contain procedural statements about work being done, requests about what can be done, and isolated mentions of charging, a 12-volt outlet, and engineer involvement without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments include brief statements about completed or pending work, customer questions, home charging via a 250 volt outlet, a console 12-volt outlet, and a BMW engineer examining the vehicle without clear evaluative context.",
+      "evidence_fragment_ids": [
+        "F005165",
+        "F007958",
+        "F001740",
+        "F005698",
+        "F004029",
+        "F000324",
+        "F000271",
+        "F007002",
+        "F004032"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so the topic lacks clear evaluative sentiment.",
+    "The cluster mixes unrelated subjects such as service status, charging setup, interior power outlets, seat controls, and engineer involvement.",
+    "Many fragments are short or procedural and do not provide enough context to infer customer satisfaction or dissatisfaction."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Brake noise, breakdown, and alarm reports",
+  "summary": "The sampled feedback combines brake noise and vehicle breakdown complaints with a few event descriptions whose sentiment cannot be determined from the fragment alone.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "Negative reviews mention noisy brakes and a vehicle breakdown.",
+      "evidence_fragment_ids": [
+        "F002922",
+        "F000311"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews describe a break-off sounding like a rear impact and an alarm sounding at night without enough context to judge satisfaction.",
+      "evidence_fragment_ids": [
+        "F006375",
+        "F008366"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic clusters several loosely related subjects, including brake noise, a breakdown, and alarm or impact-like sound descriptions.",
+    "The sample is very small, and the undetermined fragments do not provide enough context to assess customer sentiment beyond the stated events."
+  ]
+}

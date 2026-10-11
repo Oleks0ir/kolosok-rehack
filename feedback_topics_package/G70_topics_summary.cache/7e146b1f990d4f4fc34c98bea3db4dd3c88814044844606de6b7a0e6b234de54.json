@@ -1,0 +1,41 @@
+{
+  "title": "Timed Recording and Delay Mentions",
+  "summary": "The topic groups several time-based mentions, including impact recording lengths, lighting delay settings, creep delay, and slow drivetrain response, without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention concrete timing details such as pre- and post-impact recording windows, recording length, light shutoff delay, creep delay, and a drivetrain reaction delay.",
+      "evidence_fragment_ids": [
+        "F006323",
+        "F000054",
+        "F006320",
+        "F005083",
+        "F002927",
+        "F002063",
+        "F002065",
+        "F006915"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so the available examples do not establish clear customer sentiment.",
+    "This cluster mixes unrelated subjects such as impact recording, lighting delay settings, vehicle creep timing, and drivetrain response delay.",
+    "Several fragments are very short and lack enough context to clarify the underlying issue or user evaluation."
+  ]
+}

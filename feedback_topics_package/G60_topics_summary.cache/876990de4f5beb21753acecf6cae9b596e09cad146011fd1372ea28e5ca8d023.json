@@ -1,0 +1,51 @@
+{
+  "title": "Parts Department Orders and Germany Delays",
+  "summary": "This topic centers on parts ordering and dealership parts-department interactions, with several examples mentioning repairs delayed while waiting for parts from Germany but most sampled fragments lacking explicit sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say owners are pleased with most parts of the car, though the examples are broad rather than specific to parts service.",
+      "evidence_fragment_ids": [
+        "F005853",
+        "F003424"
+      ]
+    },
+    "negative": {
+      "summary": "The negative review describes a diagnosed issue whose repair is delayed because the needed part has not yet arrived.",
+      "evidence_fragment_ids": [
+        "F006274"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mostly mention parts being ordered, parts-department referrals, waiting for Germany-sourced parts, or vague dissatisfaction with part quality without a clearly assigned sentiment.",
+      "evidence_fragment_ids": [
+        "F004198",
+        "F000739",
+        "F009040",
+        "F005867",
+        "F010971",
+        "F008280",
+        "F006518",
+        "F001198",
+        "F003597",
+        "F005444",
+        "F009629",
+        "F002208",
+        "F004549"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are classified as undetermined, which limits confidence in a strong sentiment reading for this topic.",
+    "The cluster mixes dealership process comments, repair-status updates, parts availability delays, and product-quality remarks about interior or vehicle parts.",
+    "Positive examples are generic statements about liking parts of the car and do not provide much concrete detail about the parts department or ordering experience."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Confidence from Earlier BMW Ownership",
+  "summary": "Reviews mainly describe buyers feeling confident in the car based on prior BMW or earlier-version experience, with a smaller set of fragments that are too ambiguous or combine confidence with limited dealer explanation.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say prior ownership of a BMW or earlier version made buyers expect and recognize the car as a good choice.",
+      "evidence_fragment_ids": [
+        "F001567",
+        "F000972",
+        "F002263"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention immediate confidence in choosing the car or limited dealer explanation, but the overall sentiment is not clear enough to classify more specifically.",
+      "evidence_fragment_ids": [
+        "F005866",
+        "F003017"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The cluster mixes two subjects: confidence based on prior familiarity with BMWs and a separate comment about weak dealer explanation.",
+    "There are only a few example fragments, so finer-grained conclusions about purchase experience or feature usability are not supported.",
+    "One undetermined fragment appears positive in wording but remains classified as undetermined, so the summary follows the provided labels rather than reassigning sentiment."
+  ]
+}

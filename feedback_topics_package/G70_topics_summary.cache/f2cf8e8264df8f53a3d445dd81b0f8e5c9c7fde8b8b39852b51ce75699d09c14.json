@@ -1,0 +1,41 @@
+{
+  "title": "Installation and moving-related statements",
+  "summary": "The topic clusters short service-note fragments about installation timing, moving, and unrelated usage context, so the underlying customer sentiment cannot be determined from the examples alone.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention outlet or Wallbox installation, vehicle movement context, and unrelated feature comments without enough evaluative detail to assign a clear sentiment.",
+      "evidence_fragment_ids": [
+        "F007039",
+        "F006303",
+        "F002608",
+        "F008495",
+        "F004821",
+        "F011032",
+        "F010326",
+        "F006063"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so no clear positive, negative, mixed, or neutral stance can be summarized.",
+    "The cluster mixes several unrelated subjects, including charger or outlet installation, vehicle movement context, media-control behavior, fuel-economy comparison, and laminated glass.",
+    "Many fragments are very short service-note excerpts, which limits interpretability and leaves too little context to infer sentiment reliably."
+  ]
+}

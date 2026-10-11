@@ -1,0 +1,633 @@
+{
+  "topic_id": "T0061",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 32,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.03125,
+      "US": 0.96875
+    },
+    "engine_type": {
+      "BEVE": 0.375,
+      "ICE": 0.46875,
+      "PHEV": 0.15625
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.21875,
+        "summary": "Positive reviews praise lane change assist as natural and enjoyable and value lane departure alerts for notifying the driver.",
+        "evidence_fragment_ids": [
+          "F005414",
+          "F000703",
+          "F008969"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.15625,
+        "summary": "Negative reviews report lane departure warnings and lane keeping as inaccurate, overly sensitive, irritating, or feeling unsafe.",
+        "evidence_fragment_ids": [
+          "F006148",
+          "F002021",
+          "F003680",
+          "F000369",
+          "F004899"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 20,
+        "share": 0.625,
+        "summary": "Undetermined reviews mostly mention menu paths, disabling instructions, or brief references to lane departure or lane change assistant without clear evaluation.",
+        "evidence_fragment_ids": [
+          "F006559",
+          "F006239",
+          "F007288",
+          "F001588",
+          "F010495",
+          "F003906",
+          "F007998"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 32,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.008,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.21875,
+            "negative": 0.15625,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.15625,
+          "negative_or_mixed_rate": 0.15625,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 31,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.008587,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.225806,
+            "negative": 0.16129,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.612903
+          },
+          "negative_rate": 0.16129,
+          "negative_or_mixed_rate": 0.16129,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.387097
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.008804,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.416667,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.00664,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.266667
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.013228,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.009441,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.416667,
+            "negative": 0.25,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.25,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.666667
+        },
+        "ICE": {
+          "review_count": 14,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.006941,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.714286
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.285714
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.015528,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 5
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0143",
+      "G60-0244",
+      "G60-0250",
+      "G60-0424",
+      "G60-0542",
+      "G60-0563",
+      "G60-0595",
+      "G60-0690",
+      "G60-0716",
+      "G60-1010",
+      "G60-1139",
+      "G60-1315",
+      "G60-1378",
+      "G60-1408",
+      "G60-1710",
+      "G60-1743",
+      "G60-1930",
+      "G60-2129",
+      "G60-2203",
+      "G60-2238",
+      "G60-2313",
+      "G60-2347",
+      "G60-2599",
+      "G60-2607",
+      "G60-2822",
+      "G60-2859",
+      "G60-3210",
+      "G60-3504",
+      "G60-3654",
+      "G60-3767",
+      "G60-3792",
+      "G60-3831"
+    ],
+    "summary": "Feedback on lane-related driver assistance centers on appreciated automatic lane changes and alerts, alongside complaints about intrusive or inaccurate lane departure behavior, while many excerpts are merely feature mentions or setup guidance.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Lane departure warning and lane change assist",
+    "source_title": "lane / departure / change",
+    "keywords": [
+      {
+        "term": "lane",
+        "weight": 0.299008
+      },
+      {
+        "term": "lane change",
+        "weight": 0.089335
+      },
+      {
+        "term": "lane departure",
+        "weight": 0.086605
+      },
+      {
+        "term": "departure",
+        "weight": 0.084275
+      },
+      {
+        "term": "departure warning",
+        "weight": 0.067534
+      },
+      {
+        "term": "change",
+        "weight": 0.066502
+      },
+      {
+        "term": "warning",
+        "weight": 0.061685
+      },
+      {
+        "term": "assist",
+        "weight": 0.048839
+      },
+      {
+        "term": "lane control",
+        "weight": 0.043862
+      },
+      {
+        "term": "assistant",
+        "weight": 0.043495
+      },
+      {
+        "term": "lane changes",
+        "weight": 0.039791
+      },
+      {
+        "term": "stated lane",
+        "weight": 0.038496
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005414",
+        "review_id": "G60-1930",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes to use the lane departure warning feature because it gives him an alert whenever he gets too close to another lane",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006148",
+        "review_id": "G60-2203",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Lane departure warning/lane keeping assistance - Not working/inaccurate/inconsistent: \"At times the lane departure warning system decides I'm leaving the lane when I am actually not, especially around highway exits that are merging off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006559",
+        "review_id": "G60-2347",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Using RVG, writer advised that lane departure warning and steering intervention can be disabled, and instructed her to go to: Apps>Vehicle>Driving settings>Driver Assistance>Safety and Warnings>Lane Departure Warning, then switch it off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007307",
+        "review_id": "G60-2607",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the driver alerts like lane departure and car proximity warnings also need to function more reliably",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002021",
+        "review_id": "G60-0716",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they do not like how the lane departure warning tugs them back into the lane",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001588",
+        "review_id": "G60-0563",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that, with active guidance from the BWM system, if a lane change is available while using the assisted diving mode, she can just glance toward the proper direction n to confirm the lane change",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004899",
+        "review_id": "G60-1743",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Lane departure warning/lane keeping assistance - Not working/inaccurate/inconsistent: \"(Copied from DRA97): One time the lane departure and blind spot alerts quit working even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003680",
+        "review_id": "G60-1315",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Lane departure warning/lane keeping assistance - Not working/inaccurate/inconsistent: \"when I get near the lane line it starts beeping,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006239",
+        "review_id": "G60-2238",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer instead walked the customer through the path in the system: Apps menu>Vehicle>Driving settings>Driver Assistance>Driving>Assisted Driving>Lane Change Assistant: Turning the Lane Change Assistant on/off",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000369",
+        "review_id": "G60-0143",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the Lane Departure Warning feature is extremely irritating and does not feel safe to him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003906",
+        "review_id": "G60-1408",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the last one also mentioned lane departure warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007288",
+        "review_id": "G60-2599",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised this can be disabled in the vehicle apps under driving settings, driver assistance, safety and warnings, where the customer can switch off the lane departure warning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007998",
+        "review_id": "G60-2859",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the lane change assist works about 95% of the time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000703",
+        "review_id": "G60-0250",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated it feels very natural and intuitive to just turn his head and have the vehicle automatically execute the lane change",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010495",
+        "review_id": "G60-3767",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated when using the assisted driving and activating the lane change assistant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008969",
+        "review_id": "G60-3210",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really enjoys the automatic lane change feature with the highway assistant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 39,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled excerpts with this topic are undetermined, so the evaluative evidence is limited.",
+      "The topic combines lane departure warning, lane keeping, and lane change assistant, which are related but not identical features.",
+      "Several fragments are truncated or brief, limiting detail about the exact customer experience."
+    ]
+  }
+}

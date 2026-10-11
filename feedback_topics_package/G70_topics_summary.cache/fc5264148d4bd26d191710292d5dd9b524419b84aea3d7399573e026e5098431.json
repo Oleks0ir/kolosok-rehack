@@ -1,0 +1,43 @@
+{
+  "title": "Customer Intent to Contact Dealer or Take Follow-Up Action",
+  "summary": "These fragments mainly record customers’ stated plans to contact the dealer, return for service, or take another follow-up step, without enough outcome detail to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews describe intended next steps such as visiting the dealer, returning to service, checking an issue later, or making a purchase to enable a feature, but they do not state clear outcomes or evaluations.",
+      "evidence_fragment_ids": [
+        "F002184",
+        "F001486",
+        "F000656",
+        "F008297",
+        "F005887",
+        "F008016",
+        "F009468",
+        "F010356",
+        "F010960",
+        "F008470"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so the topic captures follow-up intentions rather than clear satisfaction or dissatisfaction.",
+    "The cluster mixes several unrelated situations, including dealer visits, service return plans, feature access, window tinting, wind noise, and later tracking, so a single coherent issue cannot be inferred.",
+    "Some fragments are too brief to identify the underlying problem or result, such as the statements about doing so shortly or trying to track it later."
+  ]
+}

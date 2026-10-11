@@ -1,0 +1,627 @@
+{
+  "topic_id": "T0084",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 27,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.074074,
+      "US": 0.925926
+    },
+    "engine_type": {
+      "BEVE": 0.703704,
+      "ICE": 0.111111,
+      "PHEV": 0.185185
+    },
+    "sentiment": {
+      "positive": {
+        "count": 8,
+        "share": 0.296296,
+        "summary": "Positive reviews praise the vehicle for being electric, highlight satisfaction with a first EV experience, and note favorable electric-only operation in the plug-in hybrid example.",
+        "evidence_fragment_ids": [
+          "F010509",
+          "F009388",
+          "F006448",
+          "F009735",
+          "F002661",
+          "F009294"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.111111,
+        "summary": "Negative reviews focus on resistance to the electric component in one plug-in hybrid comment and an electric fan failure in ICE context, with limited examples linking negativity to different subjects within the cluster.",
+        "evidence_fragment_ids": [
+          "F007230",
+          "F010696"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 16,
+        "share": 0.592593,
+        "summary": "Undetermined reviews often mention the vehicle being electric or a first EV experience without enough context to tell whether the customer saw that positively or negatively.",
+        "evidence_fragment_ids": [
+          "F004354",
+          "F007022",
+          "F010548",
+          "F008238",
+          "F007676",
+          "F000804"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 27,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00675,
+          "sentiment_counts": {
+            "positive": 8,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.296296,
+            "negative": 0.111111,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.592593
+          },
+          "negative_rate": 0.111111,
+          "negative_or_mixed_rate": 0.111111,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.407407
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.014599,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        },
+        "US": {
+          "review_count": 25,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006593,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.28,
+            "negative": 0.12,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.12,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.4
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 19,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.016829,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.315789,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.684211
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.315789
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.001168,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.666667
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.016502,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.4,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "BEVE": {
+          "review_count": 2,
+          "source_segment_review_count": 29,
+          "topic_prevalence_in_source_segment": 0.068966,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 17,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.015814,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.294118,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.705882
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.294118
+        },
+        "ICE": {
+          "review_count": 3,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.001232,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.666667,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.666667
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.01773,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.4,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.6
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0290",
+      "G70-0621",
+      "G70-0667",
+      "G70-0802",
+      "G70-0859",
+      "G70-0916",
+      "G70-0968",
+      "G70-1030",
+      "G70-1596",
+      "G70-1707",
+      "G70-2320",
+      "G70-2346",
+      "G70-2520",
+      "G70-2599",
+      "G70-2761",
+      "G70-2824",
+      "G70-2968",
+      "G70-3122",
+      "G70-3225",
+      "G70-3346",
+      "G70-3367",
+      "G70-3498",
+      "G70-3679",
+      "G70-3764",
+      "G70-3782",
+      "G70-3812",
+      "G70-3836"
+    ],
+    "summary": "Reviews in this topic mainly mention the vehicle being electric or operating in electric mode, with positive comments praising the EV experience and a few negative comments focused on wanting to avoid electrification or on an electric fan failure, while many fragments are too brief or contextual to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Electric powertrain and electric-mode reactions",
+    "source_title": "electric / customer stated / motor",
+    "keywords": [
+      {
+        "term": "electric",
+        "weight": 0.406712
+      },
+      {
+        "term": "stated electric",
+        "weight": 0.157421
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.060815
+      },
+      {
+        "term": "stated",
+        "weight": 0.059811
+      },
+      {
+        "term": "customer",
+        "weight": 0.059575
+      },
+      {
+        "term": "electric motor",
+        "weight": 0.045759
+      },
+      {
+        "term": "electric fan",
+        "weight": 0.04314
+      },
+      {
+        "term": "electric mode",
+        "weight": 0.042508
+      },
+      {
+        "term": "motor",
+        "weight": 0.041227
+      },
+      {
+        "term": "mentioned electric",
+        "weight": 0.040045
+      },
+      {
+        "term": "fact electric",
+        "weight": 0.03657
+      },
+      {
+        "term": "mode",
+        "weight": 0.034433
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010509",
+        "review_id": "G70-3764",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "and i love that it's electric",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007230",
+        "review_id": "G70-2599",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they wanted to know if the electric part of the vehicle could be turned off or removed so it would run only on gasoline",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F004354",
+        "review_id": "G70-1596",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Being electric",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009388",
+        "review_id": "G70-3367",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he loves that this is his first electric vehicle and his first BMW",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010696",
+        "review_id": "G70-3836",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Electric fan permanent failure",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007022",
+        "review_id": "G70-2520",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this is his first time owning an electric vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006448",
+        "review_id": "G70-2320",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated it is great that the vehicle is electric",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010548",
+        "review_id": "G70-3782",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated this is his first electric vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008238",
+        "review_id": "G70-2968",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he only found out it was an electric vehicle after the test drive, because it did not feel like an electric car to him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009735",
+        "review_id": "G70-3498",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer mentioned he is pleased with this electric BMW, noting that he has not owned an electric vehicle before",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007676",
+        "review_id": "G70-2761",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it doesnt feel like a big electric car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008972",
+        "review_id": "G70-3225",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "bmw basically just turned the 7 series electric, which is genius",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001804",
+        "review_id": "G70-0667",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he had an electric vehicle before that caused a lot of motion sickness",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002661",
+        "review_id": "G70-0968",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i'm happy with both the benefits of having an electric car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009294",
+        "review_id": "G70-3346",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated that in about two months of owning the vehicle they have not had to use any gas, showing they are pleased with using it in electric-only mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000804",
+        "review_id": "G70-0290",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that this is his first-ever electric vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 32,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The topic cluster mixes references to electric vehicles, electric-only mode, and an electric fan, so not all fragments describe the same vehicle aspect.",
+      "Most sampled undetermined fragments are brief statements with insufficient context for reliable sentiment interpretation.",
+      "Examples are limited for the negative sentiment, so the negative summary should not be generalized beyond the specific issues shown."
+    ]
+  }
+}

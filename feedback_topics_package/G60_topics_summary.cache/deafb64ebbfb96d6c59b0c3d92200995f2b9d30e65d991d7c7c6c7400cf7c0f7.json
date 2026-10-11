@@ -1,0 +1,37 @@
+{
+  "title": "Seen Messages and Feature Behavior Mentions",
+  "summary": "The fragments mention isolated observations, feature-learning behavior, vent position changes, and a road-related remark, but they do not provide enough context to determine a clear sentiment or a single coherent issue.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews describe one-time messages, configurable direction-learning behavior, air-vent position changes, and a road-professional comment without enough evaluative context to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F003997",
+        "F003453",
+        "F000041",
+        "F010154"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so sentiment cannot be resolved from the available examples.",
+    "The cluster mixes unrelated subjects, including message occurrence, learned driving-direction behavior, vent position changes, and a road-related remark.",
+    "The examples are brief and provide limited context, so a clearer topic interpretation is not possible from the supplied data alone."
+  ]
+}

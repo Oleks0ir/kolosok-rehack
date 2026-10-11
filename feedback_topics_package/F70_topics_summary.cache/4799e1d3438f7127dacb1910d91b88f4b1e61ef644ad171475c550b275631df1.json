@@ -1,0 +1,51 @@
+{
+  "title": "Recommendations and unclear explanations",
+  "summary": "This topic mostly captures fragments about telling others or being unable to explain features, with positive comments tied to recommendations and negative comments tied to confusion or intrusive driver prompts.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention recommending the car to others or being pleased enough to suggest it despite the topic wording being broad.",
+      "evidence_fragment_ids": [
+        "F004165",
+        "F004447",
+        "F002570"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe not recommending the model, not being able to explain how features work, or disliking the car telling the driver how to drive.",
+      "evidence_fragment_ids": [
+        "F006994",
+        "F002659",
+        "F000221"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments are dominated by partial or context-poor uses of words like tell and others, so their sentiment and exact aspect are often unclear.",
+      "evidence_fragment_ids": [
+        "F006171",
+        "F001487",
+        "F005751",
+        "F000899",
+        "F005174",
+        "F006157",
+        "F000025",
+        "F004591",
+        "F003689",
+        "F003387"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The keyword cluster is broad and mixes recommendation language with unrelated uses of words like tell, others, and characteristics.",
+    "Most sampled fragments are too short or incomplete to identify a clear aspect or sentiment beyond the presence of the cluster terms.",
+    "The examples are stratified samples rather than representative estimates of how often these themes appear in all reviews."
+  ]
+}

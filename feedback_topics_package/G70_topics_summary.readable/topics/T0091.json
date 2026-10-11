@@ -1,0 +1,626 @@
+{
+  "topic_id": "T0091",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 26,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.038462,
+      "US": 0.961538
+    },
+    "engine_type": {
+      "BEVE": 0.269231,
+      "ICE": 0.615385,
+      "PHEV": 0.115385
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.153846,
+        "summary": "Positive reviews praise the parking assistant as excellent and enjoyable, especially for parallel parking and learning how to use it effectively.",
+        "evidence_fragment_ids": [
+          "F000994",
+          "F002786",
+          "F005637"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.192308,
+        "summary": "Negative reviews describe active or remote parking as inconsistent, inaccurate, or limited by device compatibility requirements.",
+        "evidence_fragment_ids": [
+          "F010239",
+          "F008015"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 17,
+        "share": 0.653846,
+        "summary": "Undetermined reviews mention remote parking interest, sudden stops, confusion about triggers, cumbersome phone use, or desired longer operating distance, but the examples are often too incomplete or ambiguous to assign clear sentiment.",
+        "evidence_fragment_ids": [
+          "F009036",
+          "F001793",
+          "F006811",
+          "F007155",
+          "F000017",
+          "F002109",
+          "F004962",
+          "F000982",
+          "F003698"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 26,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0065,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.192308,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.653846
+          },
+          "negative_rate": 0.192308,
+          "negative_or_mixed_rate": 0.192308,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.346154
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 25,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.006593,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 16
+          },
+          "sentiment_shares": {
+            "positive": 0.16,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.64
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.36
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.0062,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.428571
+        },
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.006231,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.1875,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.1875,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.3125
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.009901,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 6,
+          "topic_prevalence_in_source_segment": 0.166667,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 7,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.006512,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.142857,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.142857,
+          "negative_or_mixed_rate": 0.142857,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.428571
+        },
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.006571,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.1875,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.1875,
+          "negative_or_mixed_rate": 0.1875,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.3125
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.2,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.5
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G70-0008",
+      "G70-0371",
+      "G70-0377",
+      "G70-0530",
+      "G70-0663",
+      "G70-0778",
+      "G70-0779",
+      "G70-0804",
+      "G70-0862",
+      "G70-0871",
+      "G70-1009",
+      "G70-1113",
+      "G70-1336",
+      "G70-1524",
+      "G70-1810",
+      "G70-1956",
+      "G70-1964",
+      "G70-2025",
+      "G70-2435",
+      "G70-2578",
+      "G70-2892",
+      "G70-3244",
+      "G70-3268",
+      "G70-3306",
+      "G70-3396",
+      "G70-3685"
+    ],
+    "summary": "Feedback centers on parking-assist and remote parking features, with clear praise for convenience and parallel parking but also complaints about inconsistent operation and setup or usability constraints, while many examples are too incomplete or ambiguous to classify confidently.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Parking Assistant and Remote Control Parking",
+    "source_title": "parking / remote / assistant",
+    "keywords": [
+      {
+        "term": "parking",
+        "weight": 0.272135
+      },
+      {
+        "term": "parking assistant",
+        "weight": 0.105237
+      },
+      {
+        "term": "remote",
+        "weight": 0.085942
+      },
+      {
+        "term": "assistant",
+        "weight": 0.081134
+      },
+      {
+        "term": "control parking",
+        "weight": 0.066461
+      },
+      {
+        "term": "remote control",
+        "weight": 0.065254
+      },
+      {
+        "term": "parking space",
+        "weight": 0.064787
+      },
+      {
+        "term": "customer",
+        "weight": 0.064753
+      },
+      {
+        "term": "space",
+        "weight": 0.061404
+      },
+      {
+        "term": "automatic parking",
+        "weight": 0.058371
+      },
+      {
+        "term": "stated remote",
+        "weight": 0.056732
+      },
+      {
+        "term": "parallel parking",
+        "weight": 0.050929
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000994",
+        "review_id": "G70-0377",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that he enjoys using the parking assistant, especially when doing parallel parking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008015",
+        "review_id": "G70-2892",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that Remote Control Parking requires a device with Ultra Wide Band technology and that an iPhone 11 or newer has this capability",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009036",
+        "review_id": "G70-3244",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has attempted to use the parking assistant to pull out of his parking space,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002786",
+        "review_id": "G70-1009",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the parking assistant is excellent",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010239",
+        "review_id": "G70-3685",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Active parking assistance - Not working/inaccurate/inconsistent: \"At times, when I return to a parking spot that was already saved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001793",
+        "review_id": "G70-0663",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he only recently started using the parking assistant because his parking space is very tight,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005637",
+        "review_id": "G70-2025",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer inquired about the best way to operate the parking assistant feature specifically for parallel parking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006811",
+        "review_id": "G70-2435",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that the Parking Assistant is his top feature on this car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007155",
+        "review_id": "G70-2578",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that while using the parking assistant the vehicle came to a very sudden stop as it pulled into a space, and he briefly thought it had hit the wall,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000017",
+        "review_id": "G70-0008",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my favorite function is using my phone for remote control parking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002109",
+        "review_id": "G70-0778",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated using his iPhone for the remote control parking feature feels cumbersome",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002359",
+        "review_id": "G70-0862",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he reverses into his parking space at work",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004962",
+        "review_id": "G70-1810",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer remarked that he is amazed the vehicle comes with remote control parking and said he is really looking forward to trying that feature out",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000982",
+        "review_id": "G70-0371",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the Remote Controlled Parking function to operate from farther away, so it can be used at a greater distance from the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005430",
+        "review_id": "G70-1964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that in the parking lot he did not hit anything",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003698",
+        "review_id": "G70-1336",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer was confused about what triggers the parking assistant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 28,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, which limits confidence in a more specific sentiment summary.",
+      "Several excerpts are truncated or incomplete, so some mentions of parking behavior or feature use cannot be classified reliably.",
+      "The topic groups related but distinct subjects, including automated parking performance, remote control parking, phone compatibility, and user confusion about operation."
+    ]
+  }
+}

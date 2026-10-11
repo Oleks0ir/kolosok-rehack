@@ -1,0 +1,623 @@
+{
+  "topic_id": "T0108",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 22,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "GB": 0.045455,
+      "US": 0.954545
+    },
+    "engine_type": {
+      "BEVE": 0.272727,
+      "ICE": 0.681818,
+      "PHEV": 0.045455
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 9,
+        "share": 0.409091,
+        "summary": "Negative reviews describe failed pairing or programming, inconsistent opener operation, and controls that are hard to locate or use.",
+        "evidence_fragment_ids": [
+          "F008577",
+          "F007424",
+          "F006071",
+          "F002026",
+          "F010996",
+          "F002728",
+          "F006339",
+          "F002114"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 13,
+        "share": 0.590909,
+        "summary": "Undetermined reviews mention unprogrammed or hard-to-set-up garage openers, requests for larger or illuminated buttons, and some unrelated garage references without clear sentiment.",
+        "evidence_fragment_ids": [
+          "F006678",
+          "F000824",
+          "F010542",
+          "F003886",
+          "F006346",
+          "F001632",
+          "F010202",
+          "F009711"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 22,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.409091,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.590909
+          },
+          "negative_rate": 0.409091,
+          "negative_or_mixed_rate": 0.409091,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.409091
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 21,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.005538,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.428571,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.571429
+          },
+          "negative_rate": 0.428571,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.428571
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 6,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.005314,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.5
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.005841,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 2,
+          "topic_prevalence_in_source_segment": 0.5,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 5,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.004651,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.6,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.6,
+          "negative_or_mixed_rate": 0.6,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.6
+        },
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.00616,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.4,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6
+          },
+          "negative_rate": 0.4,
+          "negative_or_mixed_rate": 0.4,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.4
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0297",
+      "G70-0593",
+      "G70-0751",
+      "G70-0780",
+      "G70-0988",
+      "G70-1225",
+      "G70-1422",
+      "G70-1620",
+      "G70-2180",
+      "G70-2190",
+      "G70-2286",
+      "G70-2288",
+      "G70-2390",
+      "G70-2464",
+      "G70-2667",
+      "G70-3100",
+      "G70-3353",
+      "G70-3406",
+      "G70-3488",
+      "G70-3674",
+      "G70-3780",
+      "G70-3964"
+    ],
+    "summary": "Feedback centers on difficulty pairing, programming, and locating the built-in garage door opener controls, while several other mentions are too vague or refer to unrelated garage contexts.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Built-in garage door opener setup and controls",
+    "source_title": "garage / door opener / opener control",
+    "keywords": [
+      {
+        "term": "garage",
+        "weight": 0.323413
+      },
+      {
+        "term": "garage door",
+        "weight": 0.18182
+      },
+      {
+        "term": "door opener",
+        "weight": 0.143511
+      },
+      {
+        "term": "opener",
+        "weight": 0.143008
+      },
+      {
+        "term": "door",
+        "weight": 0.11178
+      },
+      {
+        "term": "build garage",
+        "weight": 0.074434
+      },
+      {
+        "term": "opener control",
+        "weight": 0.06115
+      },
+      {
+        "term": "build",
+        "weight": 0.059306
+      },
+      {
+        "term": "elevator",
+        "weight": 0.059067
+      },
+      {
+        "term": "problem build",
+        "weight": 0.045569
+      },
+      {
+        "term": "garage elevator",
+        "weight": 0.041106
+      },
+      {
+        "term": "control dtu",
+        "weight": 0.039839
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008577",
+        "review_id": "G70-3100",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Built-in garage door opener - Controls DTU/poorly located: \"Having an issue getting the garage doors to sink properly with the car\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006678",
+        "review_id": "G70-2390",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has been unable to pair his Garage Door Opener with the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007424",
+        "review_id": "G70-2667",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Built-in garage door opener - Controls DTU/poorly located: \"As with every built in garage door opener",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000824",
+        "review_id": "G70-0297",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer indicated that the garage door opener is still not programmed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006071",
+        "review_id": "G70-2180",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Built-in garage door opener - Controls DTU/poorly located: \"I have made several attempts, using different methods, to program the garage door opener",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002026",
+        "review_id": "G70-0751",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Built-in garage door opener - Controls broken/work inconsistently: \"I am having a hard time getting the garage and gate openers to pair with the vehicle\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010996",
+        "review_id": "G70-3964",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Built-in garage door opener - Controls DTU/poorly located: \"exactly as stated already",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002728",
+        "review_id": "G70-0988",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Built-in garage door opener - Controls DTU/poorly located: \"Hard to figure out, ended up going to the gate opener control manual to sort out the inconsistencies",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010542",
+        "review_id": "G70-3780",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he was not certain how to set up the garage door opener and mentioned his garage door uses a rolling code",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010202",
+        "review_id": "G70-3674",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car has basically lived at the garage",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "GB",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006339",
+        "review_id": "G70-2286",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i dropped my car at the service center back in january for a problem with the garage door opener",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003886",
+        "review_id": "G70-1422",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he attempted to set up the garage door opener without having his handheld remote with him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006346",
+        "review_id": "G70-2288",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would prefer the garage door opener buttons to be slightly bigger and easier to locate",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001632",
+        "review_id": "G70-0593",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer commented it would be better if the garage door opener buttons had an LED light built into them so they are easier to locate at night",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009711",
+        "review_id": "G70-3488",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "then i go back down the garage elevator, up the high rise again to my office, call bmw assist, and they say i have to return to the car to troubleshoot…meaning sitting in a hot garage while they poke around and doing the elevator shuffle twice more",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002114",
+        "review_id": "G70-0780",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated she used parking assist twice to pull into her garage and it failed both times, and she believes the garage may be too small",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 26,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are undetermined, so the feedback often lacks a clear evaluation of the opener feature.",
+      "This topic cluster mixes garage door opener issues with unrelated mentions such as a service garage stay or a garage elevator.",
+      "Some negative examples are truncated or vague, limiting detail on the exact failure mode."
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Shop visits and foreman verification",
+  "summary": "The topic centers on vehicles being in the shop or inspected by a foreman, but the fragments do not provide enough context to determine a clear evaluative sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews describe repeated or extended shop stays and brief foreman confirmations without enough context to classify the overall sentiment.",
+      "evidence_fragment_ids": [
+        "F003947",
+        "F001129",
+        "F001120",
+        "F009834",
+        "F007324",
+        "F000918",
+        "F007327"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All available fragments are assigned undetermined sentiment, so no known-sentiment pattern can be summarized.",
+    "The cluster mixes shop-duration complaints with brief foreman verification notes, limiting a single coherent interpretation.",
+    "Several fragments are short and lack outcome details, so the underlying issue and customer evaluation remain unclear."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Primary reason and rating prompts",
+  "summary": "This topic is dominated by survey-prompt text about the primary reason for a rating, with only one clear complaint mentioning remote start and remote parking affecting the score.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only clear negative example says remote start and remote parking kept the reviewer from giving a perfect rating.",
+      "evidence_fragment_ids": [
+        "F003350"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Most examples are non-opinion survey wording or vague statements about a main reason for choosing or keeping a vehicle, so the underlying sentiment cannot be determined from the fragments alone.",
+      "evidence_fragment_ids": [
+        "F004619",
+        "F006617",
+        "F000019",
+        "F000107",
+        "F000809",
+        "F001612",
+        "F002479",
+        "F002718",
+        "F003033",
+        "F003038",
+        "F003170",
+        "F004076",
+        "F004265",
+        "F004427",
+        "F005579"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are generic survey prompts rather than substantive feedback, which limits interpretability.",
+    "The topic mixes prompt text with a small number of actual reason statements, so it is not a coherent vehicle-aspect theme.",
+    "Examples are insufficient to determine consistent customer sentiment beyond the single negative fragment."
+  ]
+}

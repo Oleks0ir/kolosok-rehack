@@ -1,0 +1,767 @@
+{
+  "topic_id": "T0021",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 62,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "DK": 0.048387,
+      "KR": 0.032258,
+      "NO": 0.016129,
+      "US": 0.903226
+    },
+    "engine_type": {
+      "BEVE": 0.580645,
+      "ICE": 0.322581,
+      "PHEV": 0.096774
+    },
+    "sentiment": {
+      "positive": {
+        "count": 4,
+        "share": 0.064516,
+        "summary": "Positive remarks highlight convenient touch-based opening and closing features, though examples are limited.",
+        "evidence_fragment_ids": [
+          "F006277",
+          "F009538"
+        ]
+      },
+      "negative": {
+        "count": 16,
+        "share": 0.258065,
+        "summary": "Negative feedback focuses on charging doors that fail to open or stay closed and cabin doors that require extra force or full closure to function properly.",
+        "evidence_fragment_ids": [
+          "F009841",
+          "F001516",
+          "F004500",
+          "F005837",
+          "F006818",
+          "F007357",
+          "F008110",
+          "F007570",
+          "F009043",
+          "F002932"
+        ]
+      },
+      "mixed": {
+        "count": 2,
+        "share": 0.032258,
+        "summary": "Mixed reviews combine appreciation for premium door-related features with disappointment that soft-close doors are missing on the current vehicle.",
+        "evidence_fragment_ids": [
+          "F010604",
+          "F005457"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 40,
+        "share": 0.645161,
+        "summary": "Undetermined excerpts mention opening and closing doors or the lack of soft-close doors without enough context to tell whether the customer viewed this positively or negatively.",
+        "evidence_fragment_ids": [
+          "F006809",
+          "F000656"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 62,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0155,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 16,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 40
+          },
+          "sentiment_shares": {
+            "positive": 0.064516,
+            "negative": 0.258065,
+            "mixed": 0.032258,
+            "neutral": 0.0,
+            "undetermined": 0.645161
+          },
+          "negative_rate": 0.258065,
+          "negative_or_mixed_rate": 0.290323,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.354839
+        }
+      },
+      "country": {
+        "DK": {
+          "review_count": 3,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.15,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.055556,
+          "known_sentiment_share": 0.666667
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "NO": {
+          "review_count": 1,
+          "source_segment_review_count": 8,
+          "topic_prevalence_in_source_segment": 0.125,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 56,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.015512,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 15,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 36
+          },
+          "sentiment_shares": {
+            "positive": 0.053571,
+            "negative": 0.267857,
+            "mixed": 0.035714,
+            "neutral": 0.0,
+            "undetermined": 0.642857
+          },
+          "negative_rate": 0.267857,
+          "negative_or_mixed_rate": 0.303571,
+          "share_of_all_topic_negative_reviews": 0.9375,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.944444,
+          "known_sentiment_share": 0.357143
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 36,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.026412,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 11,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.055556,
+            "negative": 0.305556,
+            "mixed": 0.027778,
+            "neutral": 0.0,
+            "undetermined": 0.611111
+          },
+          "negative_rate": 0.305556,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.6875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.388889
+        },
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.008853,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.15,
+            "mixed": 0.05,
+            "neutral": 0.0,
+            "undetermined": 0.7
+          },
+          "negative_rate": 0.15,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.1875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.222222,
+          "known_sentiment_share": 0.3
+        },
+        "PHEV": {
+          "review_count": 6,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.015873,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "country_engine_type": {
+      "DK": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 20,
+          "topic_prevalence_in_source_segment": 0.15,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.333333,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.0625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.055556,
+          "known_sentiment_share": 0.666667
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "NO": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 7,
+          "topic_prevalence_in_source_segment": 0.142857,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 32,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.025177,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 10,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.03125,
+            "negative": 0.3125,
+            "mixed": 0.03125,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.3125,
+          "negative_or_mixed_rate": 0.34375,
+          "share_of_all_topic_negative_reviews": 0.625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.611111,
+          "known_sentiment_share": 0.375
+        },
+        "ICE": {
+          "review_count": 18,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.008924,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.166667,
+            "mixed": 0.055556,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.166667,
+          "negative_or_mixed_rate": 0.222222,
+          "share_of_all_topic_negative_reviews": 0.1875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.222222,
+          "known_sentiment_share": 0.333333
+        },
+        "PHEV": {
+          "review_count": 6,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.018634,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 0.333333
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G60-0170",
+      "G60-0206",
+      "G60-0236",
+      "G60-0293",
+      "G60-0401",
+      "G60-0430",
+      "G60-0465",
+      "G60-0510",
+      "G60-0517",
+      "G60-0537",
+      "G60-0543",
+      "G60-0587",
+      "G60-0743",
+      "G60-0828",
+      "G60-0975",
+      "G60-0992",
+      "G60-1032",
+      "G60-1043",
+      "G60-1104",
+      "G60-1169",
+      "G60-1183",
+      "G60-1370",
+      "G60-1401",
+      "G60-1428",
+      "G60-1467",
+      "G60-1588",
+      "G60-1610",
+      "G60-1670",
+      "G60-1671",
+      "G60-1915",
+      "G60-1943",
+      "G60-2082",
+      "G60-2145",
+      "G60-2251",
+      "G60-2424",
+      "G60-2436",
+      "G60-2440",
+      "G60-2627",
+      "G60-2675",
+      "G60-2708",
+      "G60-2714",
+      "G60-2756",
+      "G60-2791",
+      "G60-2804",
+      "G60-2880",
+      "G60-2896",
+      "G60-2906",
+      "G60-2926",
+      "G60-2963",
+      "G60-3039",
+      "G60-3149",
+      "G60-3212",
+      "G60-3216",
+      "G60-3241",
+      "G60-3422",
+      "G60-3429",
+      "G60-3444",
+      "G60-3480",
+      "G60-3528",
+      "G60-3810",
+      "G60-3812",
+      "G60-3834"
+    ],
+    "summary": "Feedback in this topic centers on charge door opening and closing problems, heavier-than-expected door closing effort, and comments about the absence or desirability of soft-close doors.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Door closing effort and charge door operation",
+    "source_title": "open / close / door",
+    "keywords": [
+      {
+        "term": "open",
+        "weight": 0.190835
+      },
+      {
+        "term": "close",
+        "weight": 0.165385
+      },
+      {
+        "term": "door",
+        "weight": 0.158494
+      },
+      {
+        "term": "close door",
+        "weight": 0.071057
+      },
+      {
+        "term": "open close",
+        "weight": 0.063269
+      },
+      {
+        "term": "soft close",
+        "weight": 0.063123
+      },
+      {
+        "term": "charge door",
+        "weight": 0.060114
+      },
+      {
+        "term": "soft",
+        "weight": 0.058215
+      },
+      {
+        "term": "charge",
+        "weight": 0.054915
+      },
+      {
+        "term": "cap",
+        "weight": 0.053277
+      },
+      {
+        "term": "hard",
+        "weight": 0.048621
+      },
+      {
+        "term": "hard open",
+        "weight": 0.048536
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006277",
+        "review_id": "G60-2251",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they love that they can simply brush the tip of their finger to open and close the front vents",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009841",
+        "review_id": "G60-3528",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Charging door/cap - Hard to open/close: \"When I press on the charge door to open it, sometimes it wont open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010604",
+        "review_id": "G60-3810",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "Customer stated he enjoyed the Soft Close Automatic Door Function on his earlier BMWs and does not like that the current doors do not soft close",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006809",
+        "review_id": "G60-2436",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that at that point he needs to open and close the door again for the car to detect that he is inside, and then he can start the vehicle as usual",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009538",
+        "review_id": "G60-3429",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Writer recommended locking and unlocking the doors to see if that helps the charging door close",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001516",
+        "review_id": "G60-0537",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Charging door/cap - Hard to open/close: \"You tap on the door to open the car, and at times I have to tap it more than once\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005457",
+        "review_id": "G60-1943",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "i feel it's missing a few things that should really be there in a luxury vehicle, like a digital rearview mirror and soft close doors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000656",
+        "review_id": "G60-0236",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is no soft close door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004500",
+        "review_id": "G60-1610",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Charging door/cap - Hard to open/close: \"At one point the charging door refused to open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005837",
+        "review_id": "G60-2082",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Charging door/cap - Hard to open/close: \"with the car unlocked it ought to be a simple push on the charging cap to open it,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006818",
+        "review_id": "G60-2440",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a problem with Charging door/cap - Hard to open/close: \"at times the charging door just won't open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007357",
+        "review_id": "G60-2627",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Charging door/cap - Hard to open/close: \"Every so often it wont open properly,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008110",
+        "review_id": "G60-2906",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Charging door/cap - Hard to open/close: \"It randomly pops open sometims even after I've already shut it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007570",
+        "review_id": "G60-2708",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Doors - Hard to open/close: \"all 4 doors generally have to be slammed harder than i would expect to get them to latch",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002932",
+        "review_id": "G60-1043",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Which Door Hard to Open/Close",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009043",
+        "review_id": "G60-3241",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Doors - Hard to open/close: \"(Copied from PWR97): The car will not start unless the driver door is fully closed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 72,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled excerpts concern charge-door operation, but some refer to main cabin door latching or feature availability, so the topic mixes related but distinct door subjects.",
+      "A large share of reviews in this topic are undetermined, which limits confidence about the overall sentiment mix from the examples alone.",
+      "Positive examples are sparse, so the range of favorable door-related experiences is not well represented in the sampled fragments."
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Active Parking Assistance and Ongoing Problem Reports",
+  "summary": "The topic is dominated by complaint fragments about unresolved vehicle issues, with several examples tied to active parking assistance behavior, confusing guidance, or suspected sensor-related problems.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews mention the absence of further problems and smooth lane-change operation without issues.",
+      "evidence_fragment_ids": [
+        "F002823",
+        "F002873"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews focus on problems that persisted or remained unresolved, including inaccurate active parking assistance, unclear icons, A/C concerns, and possible sensor issues.",
+      "evidence_fragment_ids": [
+        "F008170",
+        "F009519",
+        "F008578",
+        "F004077",
+        "F004487",
+        "F008365",
+        "F008407",
+        "F002227",
+        "F005113",
+        "F009946",
+        "F011103"
+      ]
+    },
+    "mixed": {
+      "summary": "Mixed feedback describes a problem with active parking assistance while also asking for more how-to videos, indicating both difficulty and a constructive improvement request.",
+      "evidence_fragment_ids": [
+        "F007342"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined content is insufficient to identify a clear product sentiment because it only mentions the vehicle price.",
+      "evidence_fragment_ids": [
+        "F009078"
+      ]
+    }
+  },
+  "signal_notes": [
+    {
+      "signal_id": "S001",
+      "interpretation": "ICE examples in this topic are more often negative or mixed than the rest of the engine-type breakdown, but the sample is small and this is only an exploratory association.",
+      "evidence_fragment_ids": [
+        "F004487",
+        "F008365",
+        "F002227",
+        "F008170",
+        "F011103",
+        "F007342"
+      ]
+    },
+    {
+      "signal_id": "S002",
+      "interpretation": "Most sampled topic reviews come from the US and they are largely negative or mixed, but the non-US comparison is too limited for a meaningful contrast.",
+      "evidence_fragment_ids": [
+        "F004077",
+        "F008407",
+        "F005113",
+        "F009946",
+        "F004487",
+        "F008365",
+        "F002227",
+        "F008170",
+        "F011103",
+        "F007342"
+      ]
+    }
+  ],
+  "limitations": [
+    "Several negative fragments are generic statements that a problem existed or persisted without enough detail to identify the exact subsystem.",
+    "The cluster mixes active parking assistance with unrelated issues such as A/C concerns, so it is not fully coherent around a single defect.",
+    "The examples are stratified and non-random, so they should not be treated as representative of all G60 vehicles or owners.",
+    "Some fragments appear contradictory or low-context, such as a negative-assigned example stating there is no problem or need for repair, which limits precise interpretation."
+  ]
+}

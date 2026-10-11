@@ -1,0 +1,41 @@
+{
+  "title": "Pointed-out features and issue descriptions",
+  "summary": "This topic is loosely clustered around customers or staff pointing out features, missing storage, airflow direction, and one telematics-related issue rather than a single coherent vehicle concern.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "The only negative example describes symptoms being attributed toward an account-related telematics problem.",
+      "evidence_fragment_ids": [
+        "F002298"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined examples describe people pointing out missing or unclear features, storage details, airflow direction, and a video call view without enough sentiment evidence to classify them otherwise.",
+      "evidence_fragment_ids": [
+        "F004392",
+        "F010868",
+        "F000160",
+        "F008672",
+        "F005701",
+        "F002433"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The topic cluster mixes unrelated subjects, including telematics, sales communication, storage areas, HVAC airflow, and a video call interaction.",
+    "Most examples are undetermined, so the available evidence is limited for drawing a clear sentiment-based theme.",
+    "The keyword pattern is driven by the verb 'pointed,' which groups together fragments that may not reflect the same customer issue."
+  ]
+}

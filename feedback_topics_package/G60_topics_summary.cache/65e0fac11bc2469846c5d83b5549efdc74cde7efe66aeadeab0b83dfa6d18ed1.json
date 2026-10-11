@@ -1,0 +1,47 @@
+{
+  "title": "Sales staff and manager interactions",
+  "summary": "Reviews in this topic mainly mention interactions with sales staff or managers, with positive examples highlighting helpful, friendly, and competent support while many other fragments are too context-limited to classify.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise sales staff and managers for being helpful, friendly, competent, and effective at explaining pricing or lease details.",
+      "evidence_fragment_ids": [
+        "F005004",
+        "F008180",
+        "F006075",
+        "F004174",
+        "F005548",
+        "F000181"
+      ]
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention sales staff or managers in passing or provide too little context to reliably judge whether the interaction was good or bad.",
+      "evidence_fragment_ids": [
+        "F007392",
+        "F010845",
+        "F005610",
+        "F003712",
+        "F002461",
+        "F007654",
+        "F003465"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are brief or incomplete, so sentiment is often unclear.",
+    "Some examples include praise-like wording but are assigned undetermined, so the summary follows the supplied sentiment labels rather than reclassifying them.",
+    "The topic groups several kinds of sales-related mentions, from compliments to factual references and follow-up requests, which limits how specific the overall pattern can be."
+  ]
+}

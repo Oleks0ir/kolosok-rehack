@@ -1,0 +1,36 @@
+{
+  "title": "Collision and proximity beep alerts",
+  "summary": "The sampled fragments describe the vehicle emitting beep alerts for collision risk or when approaching an object, without enough context to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "The undetermined fragments mention beep warnings for collision risk and nearby objects but do not state whether owners viewed this behavior favorably or unfavorably.",
+      "evidence_fragment_ids": [
+        "F010626",
+        "F009486",
+        "F003500"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are undetermined, so sentiment cannot be inferred from this topic.",
+    "The examples are very short and provide limited context about when the beep occurs or how reviewers evaluated it.",
+    "The sample is small and stratified, so it should not be treated as representative of all G60 reviews."
+  ]
+}

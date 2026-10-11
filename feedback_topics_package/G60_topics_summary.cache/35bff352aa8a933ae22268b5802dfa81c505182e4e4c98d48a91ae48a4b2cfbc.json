@@ -1,0 +1,36 @@
+{
+  "title": "RO Dates and Initial Diagnosis Entries",
+  "summary": "The topic consists of sparse service-record fragments showing RO open and close dates and an initial diagnosis reference, without enough context to determine customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews contain administrative service-record details such as RO open and close dates and an initial diagnosis label, but they do not describe an evaluative customer experience.",
+      "evidence_fragment_ids": [
+        "F011065",
+        "F011066",
+        "F009894"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "The sample is very small and contains only administrative fragments rather than full review context.",
+    "The topic content is narrowly composed of service-record metadata, so concrete experience themes cannot be inferred.",
+    "Because all examples are undetermined, no sentiment-specific aspects beyond the literal record fields can be summarized."
+  ]
+}

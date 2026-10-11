@@ -1,0 +1,757 @@
+{
+  "topic_id": "T0027",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 53,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "JP": 0.018868,
+      "KR": 0.037736,
+      "SE": 0.018868,
+      "US": 0.924528
+    },
+    "engine_type": {
+      "BEVE": 0.207547,
+      "ICE": 0.698113,
+      "PHEV": 0.09434
+    },
+    "sentiment": {
+      "positive": {
+        "count": 14,
+        "share": 0.264151,
+        "summary": "Positive reviews praise the engine or motor as a favorite part of the vehicle and describe it as very good or very nice.",
+        "evidence_fragment_ids": [
+          "F006971",
+          "F000494",
+          "F001762",
+          "F002089",
+          "F003689",
+          "F006647",
+          "F007565",
+          "F007880",
+          "F008081"
+        ]
+      },
+      "negative": {
+        "count": 7,
+        "share": 0.132075,
+        "summary": "Negative reviews report specific engine issues including brief idle stumbles and complete no-start events that led to loss of electrical function and towing.",
+        "evidence_fragment_ids": [
+          "F009880",
+          "F008169"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 32,
+        "share": 0.603774,
+        "summary": "Undetermined reviews mostly mention engine size, configuration, or improvement prompts without enough detail to confirm a clear opinion.",
+        "evidence_fragment_ids": [
+          "F000749",
+          "F006511",
+          "F008093",
+          "F000501",
+          "F001527"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 53,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01325,
+          "sentiment_counts": {
+            "positive": 14,
+            "negative": 7,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 32
+          },
+          "sentiment_shares": {
+            "positive": 0.264151,
+            "negative": 0.132075,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.603774
+          },
+          "negative_rate": 0.132075,
+          "negative_or_mixed_rate": 0.132075,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.396226
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.009756,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.5
+        },
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 28,
+          "topic_prevalence_in_source_segment": 0.035714,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 49,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.013573,
+          "sentiment_counts": {
+            "positive": 13,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 30
+          },
+          "sentiment_shares": {
+            "positive": 0.265306,
+            "negative": 0.122449,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.612245
+          },
+          "negative_rate": 0.122449,
+          "negative_or_mixed_rate": 0.122449,
+          "share_of_all_topic_negative_reviews": 0.857143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.857143,
+          "known_sentiment_share": 0.387755
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 11,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.00807,
+          "sentiment_counts": {
+            "positive": 6,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.545455,
+            "negative": 0.090909,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.363636
+          },
+          "negative_rate": 0.090909,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.636364
+        },
+        "ICE": {
+          "review_count": 37,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.016379,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 24
+          },
+          "sentiment_shares": {
+            "positive": 0.189189,
+            "negative": 0.162162,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.648649
+          },
+          "negative_rate": 0.162162,
+          "negative_or_mixed_rate": 0.162162,
+          "share_of_all_topic_negative_reviews": 0.857143,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.857143,
+          "known_sentiment_share": 0.351351
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.013228,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.02381,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.012195,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "SE": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 14,
+          "topic_prevalence_in_source_segment": 0.071429,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007868,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.5,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.4
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.142857,
+          "known_sentiment_share": 0.6
+        },
+        "ICE": {
+          "review_count": 34,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.016857,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 22
+          },
+          "sentiment_shares": {
+            "positive": 0.205882,
+            "negative": 0.147059,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.647059
+          },
+          "negative_rate": 0.147059,
+          "negative_or_mixed_rate": 0.147059,
+          "share_of_all_topic_negative_reviews": 0.714286,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.714286,
+          "known_sentiment_share": 0.352941
+        },
+        "PHEV": {
+          "review_count": 5,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.015528,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.2,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0134",
+      "G60-0189",
+      "G60-0192",
+      "G60-0212",
+      "G60-0267",
+      "G60-0288",
+      "G60-0352",
+      "G60-0401",
+      "G60-0540",
+      "G60-0632",
+      "G60-0742",
+      "G60-0806",
+      "G60-0813",
+      "G60-0886",
+      "G60-0996",
+      "G60-1084",
+      "G60-1087",
+      "G60-1229",
+      "G60-1306",
+      "G60-1320",
+      "G60-1349",
+      "G60-1577",
+      "G60-1676",
+      "G60-1692",
+      "G60-1703",
+      "G60-2006",
+      "G60-2069",
+      "G60-2264",
+      "G60-2328",
+      "G60-2377",
+      "G60-2488",
+      "G60-2539",
+      "G60-2703",
+      "G60-2819",
+      "G60-2831",
+      "G60-2890",
+      "G60-2899",
+      "G60-2907",
+      "G60-2930",
+      "G60-2932",
+      "G60-3129",
+      "G60-3147",
+      "G60-3194",
+      "G60-3236",
+      "G60-3347",
+      "G60-3430",
+      "G60-3518",
+      "G60-3548",
+      "G60-3610",
+      "G60-3654",
+      "G60-3770",
+      "G60-3859",
+      "G60-3993"
+    ],
+    "summary": "Feedback on the G60 engine or motor combines strong praise for overall powertrain appeal with a few concrete complaints about stumbling at idle and failure to start, while many sampled mentions are too generic or descriptive to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Engine and Motor Performance",
+    "source_title": "engine / motor / cylinder",
+    "keywords": [
+      {
+        "term": "engine",
+        "weight": 0.329576
+      },
+      {
+        "term": "motor",
+        "weight": 0.08047
+      },
+      {
+        "term": "engine motor",
+        "weight": 0.072098
+      },
+      {
+        "term": "stated engine",
+        "weight": 0.06306
+      },
+      {
+        "term": "cylinder",
+        "weight": 0.060316
+      },
+      {
+        "term": "check engine",
+        "weight": 0.057124
+      },
+      {
+        "term": "engine light",
+        "weight": 0.057124
+      },
+      {
+        "term": "cylinder engine",
+        "weight": 0.048911
+      },
+      {
+        "term": "check",
+        "weight": 0.044644
+      },
+      {
+        "term": "stated",
+        "weight": 0.038116
+      },
+      {
+        "term": "customer",
+        "weight": 0.036806
+      },
+      {
+        "term": "light",
+        "weight": 0.036043
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006971",
+        "review_id": "G60-2488",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the engine is really good",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "SE",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009880",
+        "review_id": "G60-3548",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very minor problem with Engine/motor stumbles: \"At idle the engine has these small brief stumbles that happen a lot",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000749",
+        "review_id": "G60-0267",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the engine is only 2000cc",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000494",
+        "review_id": "G60-0189",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008169",
+        "review_id": "G60-2932",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a very serious problem with Engine/motor doesn't start/turn on at all: \"Car has already died twice in around 2 months, cutting off all electrical functions and needing a tow to the dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006511",
+        "review_id": "G60-2328",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer stated the 540i has a slant 6 engine, while the 530 uses a Twin Turbo 4 cylinder engine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001762",
+        "review_id": "G60-0632",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002089",
+        "review_id": "G60-0742",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003689",
+        "review_id": "G60-1320",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006647",
+        "review_id": "G60-2377",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007565",
+        "review_id": "G60-2703",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007880",
+        "review_id": "G60-2819",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008081",
+        "review_id": "G60-2890",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "That is the one thing I love most about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008093",
+        "review_id": "G60-2899",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the car has a very nice engine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F000501",
+        "review_id": "G60-0192",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "That is the one thing could be most improved about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001527",
+        "review_id": "G60-0540",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "That is the one thing could be most improved about the engine/motor of my vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 55,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many sampled fragments are generic prompts or brief statements, so the specific engine attributes behind the sentiment are often unclear.",
+      "The example set is dominated by repeated wording about loving the engine or motor, which limits detail on what concrete qualities were appreciated.",
+      "Undetermined fragments include both descriptive specifications and vague improvement statements, reducing clarity about the underlying experience."
+    ]
+  }
+}

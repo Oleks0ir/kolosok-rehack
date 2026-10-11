@@ -1,0 +1,578 @@
+{
+  "topic_id": "T0080",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 28,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.321429,
+      "ICE": 0.607143,
+      "PHEV": 0.071429
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.071429,
+        "summary": "Positive reviews praise the manual as easy to understand and express preference for having a printed book instead of using the online version.",
+        "evidence_fragment_ids": [
+          "F006091",
+          "F004712"
+        ]
+      },
+      "negative": {
+        "count": 5,
+        "share": 0.178571,
+        "summary": "Negative reviews say the owner's manual and online manual are unclear, awkwardly worded, and distracting or difficult to use.",
+        "evidence_fragment_ids": [
+          "F005744",
+          "F004841",
+          "F002123"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 21,
+        "share": 0.75,
+        "summary": "Undetermined excerpts mention online access, missing hard copies, requests for more examples, and difficulty finding information, but the sample does not always make the sentiment assignment explicit.",
+        "evidence_fragment_ids": [
+          "F001826",
+          "F004538",
+          "F008334",
+          "F005123",
+          "F000844",
+          "F002054",
+          "F007102",
+          "F005397",
+          "F009565",
+          "F000754"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 28,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.007,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.178571,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.178571,
+          "negative_or_mixed_rate": 0.178571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 28,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.007384,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.178571,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.178571,
+          "negative_or_mixed_rate": 0.178571,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.007972,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.00662,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.117647,
+            "negative": 0.117647,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.764706
+          },
+          "negative_rate": 0.117647,
+          "negative_or_mixed_rate": 0.117647,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.235294
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.006601,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 9,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.008372,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 6
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.6,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.333333
+        },
+        "ICE": {
+          "review_count": 17,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.006982,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 13
+          },
+          "sentiment_shares": {
+            "positive": 0.117647,
+            "negative": 0.117647,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.764706
+          },
+          "negative_rate": 0.117647,
+          "negative_or_mixed_rate": 0.117647,
+          "share_of_all_topic_negative_reviews": 0.4,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.4,
+          "known_sentiment_share": 0.235294
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.007092,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G70-0267",
+      "G70-0310",
+      "G70-0602",
+      "G70-0672",
+      "G70-0744",
+      "G70-0765",
+      "G70-0784",
+      "G70-0916",
+      "G70-1475",
+      "G70-1652",
+      "G70-1712",
+      "G70-1763",
+      "G70-1871",
+      "G70-1884",
+      "G70-1956",
+      "G70-2069",
+      "G70-2191",
+      "G70-2313",
+      "G70-2508",
+      "G70-2560",
+      "G70-2891",
+      "G70-3003",
+      "G70-3031",
+      "G70-3120",
+      "G70-3168",
+      "G70-3303",
+      "G70-3435",
+      "G70-3542"
+    ],
+    "summary": "Feedback centers on how easy the owner's manual is to understand and whether customers prefer printed or online access, with many excerpts lacking a clear sentiment label.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Owner's manual clarity and format",
+    "source_title": "manual / owner / online",
+    "keywords": [
+      {
+        "term": "manual",
+        "weight": 0.278508
+      },
+      {
+        "term": "owner",
+        "weight": 0.225519
+      },
+      {
+        "term": "owner manual",
+        "weight": 0.185275
+      },
+      {
+        "term": "online",
+        "weight": 0.081298
+      },
+      {
+        "term": "manual mode",
+        "weight": 0.055044
+      },
+      {
+        "term": "stated owner",
+        "weight": 0.051019
+      },
+      {
+        "term": "customer",
+        "weight": 0.039103
+      },
+      {
+        "term": "online owner",
+        "weight": 0.037565
+      },
+      {
+        "term": "mode",
+        "weight": 0.035881
+      },
+      {
+        "term": "writer",
+        "weight": 0.035564
+      },
+      {
+        "term": "unnatural",
+        "weight": 0.033935
+      },
+      {
+        "term": "understand",
+        "weight": 0.033628
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006091",
+        "review_id": "G70-2191",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer commented that the Owner's Manual is easy to understand and that he likes using the printed book instead of viewing it online",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005744",
+        "review_id": "G70-2069",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the Owner's Manual itself is also not user friendly or clear",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001826",
+        "review_id": "G70-0672",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that when using the online owner's manual",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004712",
+        "review_id": "G70-1712",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated they like a printed book manual and not the online verison",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004841",
+        "review_id": "G70-1763",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer mentioned that the wording of the explanations in the owner's manual feels unnatural, and that the numerous warnings mixed in with the information make it distracting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004538",
+        "review_id": "G70-1652",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his vehicle arrived without a hard-copy Owner's Manual",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002005",
+        "review_id": "G70-0744",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised, per the Owner's Manual",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008334",
+        "review_id": "G70-3003",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer said such a video going through every feature would be easier to follow than the standard Owner's Manual",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005123",
+        "review_id": "G70-1871",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like the Owner's Manual to provide more examples of IPA commands",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000844",
+        "review_id": "G70-0310",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the Owner's Manual is hard to follow and not straightforward to understand",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002054",
+        "review_id": "G70-0765",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer noted that the owner's manual does not give a specific sugesttion",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007102",
+        "review_id": "G70-2560",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the customer can access an owner's manual online at BMWUSA",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F005397",
+        "review_id": "G70-1956",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they followed the Owner's Manual to try and pair their gate,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009565",
+        "review_id": "G70-3435",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that the owner manual includes basic short commands",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000754",
+        "review_id": "G70-0267",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the owner's manual is so detailed that it is somewhat overwhelming, and he is having trouble finding specific information in it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002123",
+        "review_id": "G70-0784",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Describe Smartphone App DTU: App interferes with other phone or vehicle apps, Difficult to tell whether app is connected to vehicle, Online owner's manual is difficult to understand, Difficult to set up the app initially",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 31,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled excerpts are labeled undetermined, which limits clear interpretation of overall customer sentiment on this topic.",
+      "Several undetermined fragments describe apparent praise or criticism, so the labeled sample contains ambiguity between topic mention and explicit sentiment.",
+      "The topic includes related but distinct issues such as manual clarity, print versus online format, missing hard-copy manuals, and desired instructional examples."
+    ]
+  }
+}

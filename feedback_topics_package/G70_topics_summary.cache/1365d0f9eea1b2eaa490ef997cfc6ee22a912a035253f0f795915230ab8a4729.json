@@ -1,0 +1,38 @@
+{
+  "title": "Abnormal Conditions and Weather Mentions",
+  "summary": "The topic groups brief, context-light mentions of abnormal conditions, weather, condensation, and service conditions without enough detail to determine a clear customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mention condensation, snow or icy conditions, abnormal-condition checks, and required service conditions, but the fragments are too incomplete to classify sentiment reliably.",
+      "evidence_fragment_ids": [
+        "F003049",
+        "F010462",
+        "F000333",
+        "F000299",
+        "F002262"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so no clear positive, negative, mixed, or neutral interpretation is available.",
+    "The cluster mixes several loosely related subjects, including condensation, snow and icy performance, abnormal-condition status, and service-condition requirements.",
+    "Most fragments are very short or incomplete, which limits interpretation of the underlying issue or customer stance."
+  ]
+}

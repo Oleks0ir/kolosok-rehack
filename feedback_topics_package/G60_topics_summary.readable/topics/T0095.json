@@ -1,0 +1,685 @@
+{
+  "topic_id": "T0095",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 25,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.04,
+      "US": 0.96
+    },
+    "engine_type": {
+      "BEVE": 0.48,
+      "ICE": 0.48,
+      "PHEV": 0.04
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.12,
+        "summary": "Positive reviews mention the absence of further problems and smooth lane-change operation without issues.",
+        "evidence_fragment_ids": [
+          "F002823",
+          "F002873"
+        ]
+      },
+      "negative": {
+        "count": 20,
+        "share": 0.8,
+        "summary": "Negative reviews focus on problems that persisted or remained unresolved, including inaccurate active parking assistance, unclear icons, A/C concerns, and possible sensor issues.",
+        "evidence_fragment_ids": [
+          "F008170",
+          "F009519",
+          "F008578",
+          "F004077",
+          "F004487",
+          "F008365",
+          "F008407",
+          "F002227",
+          "F005113",
+          "F009946",
+          "F011103"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.04,
+        "summary": "Mixed feedback describes a problem with active parking assistance while also asking for more how-to videos, indicating both difficulty and a constructive improvement request.",
+        "evidence_fragment_ids": [
+          "F007342"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.04,
+        "summary": "Undetermined content is insufficient to identify a clear product sentiment because it only mentions the vehicle price.",
+        "evidence_fragment_ids": [
+          "F009078"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 25,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00625,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 20,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.12,
+            "negative": 0.8,
+            "mixed": 0.04,
+            "neutral": 0.0,
+            "undetermined": 0.04
+          },
+          "negative_rate": 0.8,
+          "negative_or_mixed_rate": 0.84,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.96
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 1,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.027778,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.05,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.047619,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 24,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.006648,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 19,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.125,
+            "negative": 0.791667,
+            "mixed": 0.041667,
+            "neutral": 0.0,
+            "undetermined": 0.041667
+          },
+          "negative_rate": 0.791667,
+          "negative_or_mixed_rate": 0.833333,
+          "share_of_all_topic_negative_reviews": 0.95,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.952381,
+          "known_sentiment_share": 0.958333
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.008804,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.75,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.75,
+          "negative_or_mixed_rate": 0.75,
+          "share_of_all_topic_negative_reviews": 0.45,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.428571,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005312,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 10,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.833333,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.083333
+          },
+          "negative_rate": 0.833333,
+          "negative_or_mixed_rate": 0.916667,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.52381,
+          "known_sentiment_share": 0.916667
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.002646,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.05,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.047619,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.043478,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.05,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.047619,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.009441,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 9,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.25,
+            "negative": 0.75,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.75,
+          "negative_or_mixed_rate": 0.75,
+          "share_of_all_topic_negative_reviews": 0.45,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.428571,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.005454,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 9,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.818182,
+            "mixed": 0.090909,
+            "neutral": 0.0,
+            "undetermined": 0.090909
+          },
+          "negative_rate": 0.818182,
+          "negative_or_mixed_rate": 0.909091,
+          "share_of_all_topic_negative_reviews": 0.45,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.47619,
+          "known_sentiment_share": 0.909091
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.003106,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.05,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.047619,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0320",
+      "G60-0795",
+      "G60-1004",
+      "G60-1010",
+      "G60-1025",
+      "G60-1085",
+      "G60-1136",
+      "G60-1336",
+      "G60-1463",
+      "G60-1602",
+      "G60-1819",
+      "G60-2551",
+      "G60-2618",
+      "G60-2932",
+      "G60-3001",
+      "G60-3013",
+      "G60-3073",
+      "G60-3198",
+      "G60-3248",
+      "G60-3424",
+      "G60-3578",
+      "G60-3671",
+      "G60-3914",
+      "G60-3915",
+      "G60-3993"
+    ],
+    "summary": "The topic is dominated by complaint fragments about unresolved vehicle issues, with several examples tied to active parking assistance behavior, confusing guidance, or suspected sensor-related problems.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "engine_type",
+        "value": "ICE",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 11,
+        "denominator": 12,
+        "rate": 0.916667,
+        "comparison_numerator": 10,
+        "comparison_denominator": 13,
+        "comparison_rate": 0.769231,
+        "gap_percentage_points": 14.744,
+        "statement": "In engine_type=ICE, 11 of 12 reviews (91.7%) are negative or mixed. The rest of this breakdown: 10 of 13 (76.9%).",
+        "interpretation": "ICE examples in this topic are more often negative or mixed than the rest of the engine-type breakdown, but the sample is small and this is only an exploratory association.",
+        "evidence_fragment_ids": [
+          "F004487",
+          "F008365",
+          "F002227",
+          "F008170",
+          "F011103",
+          "F007342"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": true,
+        "signal_id": "S001"
+      },
+      {
+        "dimension": "country",
+        "value": "US",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 20,
+        "denominator": 24,
+        "rate": 0.833333,
+        "comparison_numerator": 1,
+        "comparison_denominator": 1,
+        "comparison_rate": 1.0,
+        "gap_percentage_points": -16.667,
+        "statement": "In country=US, 20 of 24 reviews (83.3%) are negative or mixed. The rest of this breakdown: 1 of 1 (100.0%).",
+        "interpretation": "Most sampled topic reviews come from the US and they are largely negative or mixed, but the non-US comparison is too limited for a meaningful contrast.",
+        "evidence_fragment_ids": [
+          "F004077",
+          "F008407",
+          "F005113",
+          "F009946",
+          "F004487",
+          "F008365",
+          "F002227",
+          "F008170",
+          "F011103",
+          "F007342"
+        ],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S002"
+      }
+    ],
+    "title": "Active Parking Assistance and Ongoing Problem Reports",
+    "source_title": "problem / ran / active parking",
+    "keywords": [
+      {
+        "term": "problem",
+        "weight": 0.374401
+      },
+      {
+        "term": "ran",
+        "weight": 0.12266
+      },
+      {
+        "term": "stated problem",
+        "weight": 0.081851
+      },
+      {
+        "term": "active parking",
+        "weight": 0.053314
+      },
+      {
+        "term": "problem active",
+        "weight": 0.053314
+      },
+      {
+        "term": "serious problem",
+        "weight": 0.052284
+      },
+      {
+        "term": "serious",
+        "weight": 0.051514
+      },
+      {
+        "term": "parking assistance",
+        "weight": 0.049052
+      },
+      {
+        "term": "sensor problem",
+        "weight": 0.047947
+      },
+      {
+        "term": "ran problem",
+        "weight": 0.047569
+      },
+      {
+        "term": "assistance dtu",
+        "weight": 0.044296
+      },
+      {
+        "term": "active",
+        "weight": 0.040084
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F002823",
+        "review_id": "G60-1004",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "there are no further problems with it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F011103",
+        "review_id": "G60-3993",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "those are some problems with the car itself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007342",
+        "review_id": "G60-2618",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a problem with Active parking assistance - DTU: \"would really like more how-to videos for using it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009078",
+        "review_id": "G60-3248",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the five ran me roughly $80,000",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008170",
+        "review_id": "G60-2932",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Problem is still not reolved",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009519",
+        "review_id": "G60-3424",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the problem is still there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F002873",
+        "review_id": "G60-1025",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated there were no problems during the lane change itself",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008578",
+        "review_id": "G60-3073",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the problem is still there",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004077",
+        "review_id": "G60-1463",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the problem persisted",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008407",
+        "review_id": "G60-3013",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "customer stated there is a problem with the A/C",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005113",
+        "review_id": "G60-1819",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "with my last 6 BMWs I never ran into that problem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009946",
+        "review_id": "G60-3578",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated there was a single problem he ran into with the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004487",
+        "review_id": "G60-1602",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Active parking assistance - Not working/inaccurate/inconsistent: \"Sometimes it doesnt pick up the parking spots right so I end up doing it myself, and one time it almost crashed so I had to grab control, that was really scary",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008365",
+        "review_id": "G60-3001",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a serious problem with Active parking assistance - DTU: \"Initially I did not know what the icons meant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003031",
+        "review_id": "G60-1085",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he does not feel there is a problem or need for repair,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002227",
+        "review_id": "G60-0795",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated they first thought it might have been a sensor problem",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 25,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Several negative fragments are generic statements that a problem existed or persisted without enough detail to identify the exact subsystem.",
+      "The cluster mixes active parking assistance with unrelated issues such as A/C concerns, so it is not fully coherent around a single defect.",
+      "The examples are stratified and non-random, so they should not be treated as representative of all G60 vehicles or owners.",
+      "Some fragments appear contradictory or low-context, such as a negative-assigned example stating there is no problem or need for repair, which limits precise interpretation."
+    ]
+  }
+}

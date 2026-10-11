@@ -1,0 +1,42 @@
+{
+  "title": "Purchase refusal and acceptance remarks",
+  "summary": "The sampled fragments center on statements about not buying or recommending the car and on isolated remarks about accepting issues or charges, but the excerpts are too incomplete to determine consistent sentiment beyond the assigned undetermined label.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention refusing to buy or recommend the car alongside unrelated comments about accepting problems, finance, suitability, and billing issues without enough context for a firmer sentiment classification.",
+      "evidence_fragment_ids": [
+        "F006334",
+        "F000601",
+        "F005903",
+        "F005771",
+        "F006112",
+        "F007438",
+        "F005755",
+        "F001884",
+        "F007424"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are assigned undetermined sentiment, so the topic cannot support sentiment-specific conclusions beyond that label.",
+    "The cluster appears to mix at least two subjects: purchase or recommendation refusal and separate acceptance, finance, or billing remarks.",
+    "Several excerpts are very short or context-dependent, which limits confidence in interpreting the underlying issue or tone."
+  ]
+}

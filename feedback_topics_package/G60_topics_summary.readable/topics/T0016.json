@@ -1,0 +1,696 @@
+{
+  "topic_id": "T0016",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 70,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "JP": 0.042857,
+      "US": 0.957143
+    },
+    "engine_type": {
+      "BEVE": 0.342857,
+      "ICE": 0.614286,
+      "PHEV": 0.042857
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.1,
+        "summary": "Positive reviews describe dealers fixing issues or providing service-related help, though the examples are limited and sometimes phrased ambiguously.",
+        "evidence_fragment_ids": [
+          "F000910",
+          "F001104"
+        ]
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.085714,
+        "summary": "Negative reviews mention poor dealership quality, ongoing diagnosis, or dealer-related problem handling, though some sampled examples conflict with their assigned sentiment and limit specificity.",
+        "evidence_fragment_ids": [
+          "F003901",
+          "F005648",
+          "F004166",
+          "F004534"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 57,
+        "share": 0.814286,
+        "summary": "Undetermined reviews mostly note that the vehicle was brought to a dealer, was inspected or serviced, or involved waiting for parts or dealer follow-up without enough context to judge sentiment.",
+        "evidence_fragment_ids": [
+          "F008208",
+          "F005866",
+          "F004156",
+          "F003505",
+          "F010969",
+          "F000329",
+          "F001414",
+          "F004644",
+          "F005578",
+          "F007208"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 70,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0175,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 57
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.085714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.814286
+          },
+          "negative_rate": 0.085714,
+          "negative_or_mixed_rate": 0.085714,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.185714
+        }
+      },
+      "country": {
+        "JP": {
+          "review_count": 3,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.056604,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.333333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.666667
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.333333
+        },
+        "US": {
+          "review_count": 67,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.01856,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 55
+          },
+          "sentiment_shares": {
+            "positive": 0.104478,
+            "negative": 0.074627,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.820896
+          },
+          "negative_rate": 0.074627,
+          "negative_or_mixed_rate": 0.074627,
+          "share_of_all_topic_negative_reviews": 0.833333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.179104
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 24,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.017608,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.041667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.791667
+          },
+          "negative_rate": 0.041667,
+          "negative_or_mixed_rate": 0.041667,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.208333
+        },
+        "ICE": {
+          "review_count": 43,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.019035,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 35
+          },
+          "sentiment_shares": {
+            "positive": 0.069767,
+            "negative": 0.116279,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.813953
+          },
+          "negative_rate": 0.116279,
+          "negative_or_mixed_rate": 0.116279,
+          "share_of_all_topic_negative_reviews": 0.833333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.186047
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "JP": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 11,
+          "topic_prevalence_in_source_segment": 0.090909,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 42,
+          "topic_prevalence_in_source_segment": 0.047619,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.5
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.5
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 23,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.018096,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 18
+          },
+          "sentiment_shares": {
+            "positive": 0.173913,
+            "negative": 0.043478,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.782609
+          },
+          "negative_rate": 0.043478,
+          "negative_or_mixed_rate": 0.043478,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 0.217391
+        },
+        "ICE": {
+          "review_count": 41,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.020327,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 4,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 34
+          },
+          "sentiment_shares": {
+            "positive": 0.073171,
+            "negative": 0.097561,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.829268
+          },
+          "negative_rate": 0.097561,
+          "negative_or_mixed_rate": 0.097561,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.170732
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "G60-0126",
+      "G60-0219",
+      "G60-0328",
+      "G60-0385",
+      "G60-0396",
+      "G60-0398",
+      "G60-0403",
+      "G60-0464",
+      "G60-0497",
+      "G60-0526",
+      "G60-0683",
+      "G60-0772",
+      "G60-0967",
+      "G60-1059",
+      "G60-1136",
+      "G60-1189",
+      "G60-1254",
+      "G60-1269",
+      "G60-1312",
+      "G60-1327",
+      "G60-1363",
+      "G60-1406",
+      "G60-1411",
+      "G60-1422",
+      "G60-1453",
+      "G60-1463",
+      "G60-1493",
+      "G60-1495",
+      "G60-1519",
+      "G60-1554",
+      "G60-1562",
+      "G60-1598",
+      "G60-1624",
+      "G60-1631",
+      "G60-1665",
+      "G60-1733",
+      "G60-1866",
+      "G60-1931",
+      "G60-1932",
+      "G60-1983",
+      "G60-2009",
+      "G60-2092",
+      "G60-2094",
+      "G60-2385",
+      "G60-2468",
+      "G60-2567",
+      "G60-2780",
+      "G60-2795",
+      "G60-2826",
+      "G60-2829",
+      "G60-2847",
+      "G60-2951",
+      "G60-2975",
+      "G60-3098",
+      "G60-3189",
+      "G60-3242",
+      "G60-3382",
+      "G60-3479",
+      "G60-3504",
+      "G60-3550",
+      "G60-3578",
+      "G60-3619",
+      "G60-3645",
+      "G60-3684",
+      "G60-3774",
+      "G60-3778",
+      "G60-3806",
+      "G60-3860",
+      "G60-3954",
+      "G60-3992"
+    ],
+    "summary": "This topic centers on customers bringing vehicles to dealers for inspection, diagnosis, repairs, or explanations, with most sampled fragments describing the interaction without a clear evaluative outcome.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Dealer visits and dealership handling",
+    "source_title": "dealer / brought / stated",
+    "keywords": [
+      {
+        "term": "dealer",
+        "weight": 0.258767
+      },
+      {
+        "term": "brought",
+        "weight": 0.091563
+      },
+      {
+        "term": "stated dealer",
+        "weight": 0.082347
+      },
+      {
+        "term": "stated",
+        "weight": 0.076376
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.076183
+      },
+      {
+        "term": "customer",
+        "weight": 0.07413
+      },
+      {
+        "term": "brought dealer",
+        "weight": 0.059346
+      },
+      {
+        "term": "stated brought",
+        "weight": 0.053901
+      },
+      {
+        "term": "dealer advised",
+        "weight": 0.024722
+      },
+      {
+        "term": "dealer told",
+        "weight": 0.024129
+      },
+      {
+        "term": "reached",
+        "weight": 0.024012
+      },
+      {
+        "term": "local dealer",
+        "weight": 0.023337
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000910",
+        "review_id": "G60-0328",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated his dealership will not replace them because he did not mention the issue at the time of delivery",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003901",
+        "review_id": "G60-1406",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the dealership is really poor",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005578",
+        "review_id": "G60-1983",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the dealer is being really unhelpul about actually doing it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001104",
+        "review_id": "G60-0398",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated the dealership did not clearly explain how to get the best range, and that this is his first electric vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004534",
+        "review_id": "G60-1624",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated she brought the vehicle to the dealer, and they quickly fixed the squeaking noise",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007208",
+        "review_id": "G60-2567",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008208",
+        "review_id": "G60-2951",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she brought the vehicle to the dealership to be inspected",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005866",
+        "review_id": "G60-2094",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they brought the car to the dealership and had to wait around 2 weeks for new parts",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004156",
+        "review_id": "G60-1493",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they brought the vehicle to the dealer for service",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003505",
+        "review_id": "G60-1254",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he brought it to the dealer, who advised it was rust proofing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010969",
+        "review_id": "G60-3954",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he already brought the vehicle to the dealership to have it checked",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004644",
+        "review_id": "G60-1665",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the dealership seemed to know very little about this feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000329",
+        "review_id": "G60-0126",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer advised the vehicle was brought to the dealership,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001414",
+        "review_id": "G60-0497",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the dealer did not have a programmable keycard available at the time of purchase and that he is still waiting for the dealer to mail one to him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005648",
+        "review_id": "G60-2009",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the dealer has replaced the battery and they have not experienced any more issues",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004166",
+        "review_id": "G60-1495",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the dealer is working on diagnosing the problem at this time",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 77,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the topic is dominated by process descriptions rather than clear opinions.",
+      "Several supplied examples appear sentiment-ambiguous or inconsistent with their assigned labels, which limits confidence in summarizing concrete positive or negative themes.",
+      "The topic is broad and may combine routine dealer visits, repair progress updates, and dealership competence issues rather than a single coherent experience theme."
+    ]
+  }
+}

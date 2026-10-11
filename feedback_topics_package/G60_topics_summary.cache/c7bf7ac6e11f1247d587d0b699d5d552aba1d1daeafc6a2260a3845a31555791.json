@@ -1,0 +1,45 @@
+{
+  "title": "Immediate purchase impressions and vague customer-status notes",
+  "summary": "This topic combines enthusiastic first-impression purchase comments with many context-poor service or status statements about what the customer knew or had at the moment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews describe instant attraction to the vehicle’s appearance and confidence that it was the right car upon first seeing it.",
+      "evidence_fragment_ids": [
+        "F001235",
+        "F010580"
+      ]
+    },
+    "negative": {
+      "summary": "The negative review reports the customer contacting BMW about a known issue and being told an update would be sent to correct it.",
+      "evidence_fragment_ids": [
+        "F010391"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are mostly incomplete status notes about the customer not being with the vehicle or not having time, plus one unclear comment about feeling unrecognized on arrival.",
+      "evidence_fragment_ids": [
+        "F002023",
+        "F010427",
+        "F005816",
+        "F003508",
+        "F008919",
+        "F010771",
+        "F001668"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most examples are brief and lack enough context to determine a clear sentiment.",
+    "The cluster mixes showroom first-impression comments with service-log style status statements, so it is not a single coherent issue.",
+    "The undetermined examples are especially fragmentary, limiting reliable interpretation of the underlying customer experience."
+  ]
+}

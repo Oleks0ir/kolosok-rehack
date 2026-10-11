@@ -1,0 +1,51 @@
+{
+  "title": "Sales and service advisor interactions",
+  "summary": "Feedback on sales reps, advisors, and after-sales service is mostly either clearly positive about staff support and follow-up or too brief and context-limited to determine sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise sales staff and advisors for strong follow-up, helpful support, and an overall good service experience.",
+      "evidence_fragment_ids": [
+        "F010855",
+        "F006461",
+        "F005632",
+        "F003465",
+        "F007952",
+        "F001347"
+      ]
+    },
+    "negative": {
+      "summary": "The only negative review describes frustration with charging setup that was eventually addressed by a sales manager rather than criticizing routine sales service itself.",
+      "evidence_fragment_ids": [
+        "F003362"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews are mostly short mentions of sales reps, advisors, or service centers without enough context to confirm a clear sentiment, though one fragment mentions delayed after-sales service.",
+      "evidence_fragment_ids": [
+        "F005694",
+        "F003914",
+        "F004211",
+        "F004318",
+        "F003608",
+        "F010436",
+        "F008850",
+        "F007725",
+        "F002852"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are very short or lack context, which limits confident interpretation.",
+    "Some undetermined fragments contain evaluative wording, but the assigned sentiment must be preserved as undetermined.",
+    "The topic includes related but not identical subjects such as sales staff, service advisors, after-sales service, and service centers."
+  ]
+}

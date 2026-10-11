@@ -1,0 +1,710 @@
+{
+  "topic_id": "T0024",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 55,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "KR": 0.018182,
+      "SE": 0.018182,
+      "US": 0.963636
+    },
+    "engine_type": {
+      "BEVE": 0.345455,
+      "ICE": 0.527273,
+      "PHEV": 0.127273
+    },
+    "sentiment": {
+      "positive": {
+        "count": 8,
+        "share": 0.145455,
+        "summary": "Positive reviews mention loving the car, satisfaction with the BMW app, and becoming comfortable with the digital controls.",
+        "evidence_fragment_ids": [
+          "F001347",
+          "F011041"
+        ]
+      },
+      "negative": {
+        "count": 4,
+        "share": 0.072727,
+        "summary": "Negative reviews describe intermittent problems and a phone-related tray issue, but the sampled examples do not provide enough detail to identify a single concrete failure pattern.",
+        "evidence_fragment_ids": [
+          "F007588",
+          "F008668"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.018182,
+        "summary": "The mixed review says the customer needed time to adapt to the digital controls but ultimately was not bothered by the lack of physical buttons.",
+        "evidence_fragment_ids": [
+          "F005440"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 42,
+        "share": 0.763636,
+        "summary": "Undetermined reviews are largely fragmentary customer or workshop statements that hint at technology, heating, drivability, and repair concerns without enough context to assign clear sentiment consistently.",
+        "evidence_fragment_ids": [
+          "F003700",
+          "F008861",
+          "F000374",
+          "F003914",
+          "F010616",
+          "F009602",
+          "F002154",
+          "F010515",
+          "F002797",
+          "F009214",
+          "F003721"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 55,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01375,
+          "sentiment_counts": {
+            "positive": 8,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 42
+          },
+          "sentiment_shares": {
+            "positive": 0.145455,
+            "negative": 0.072727,
+            "mixed": 0.018182,
+            "neutral": 0.0,
+            "undetermined": 0.763636
+          },
+          "negative_rate": 0.072727,
+          "negative_or_mixed_rate": 0.090909,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.236364
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        },
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 28,
+          "topic_prevalence_in_source_segment": 0.035714,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 53,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.014681,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 4,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 41
+          },
+          "sentiment_shares": {
+            "positive": 0.132075,
+            "negative": 0.075472,
+            "mixed": 0.018868,
+            "neutral": 0.0,
+            "undetermined": 0.773585
+          },
+          "negative_rate": 0.075472,
+          "negative_or_mixed_rate": 0.09434,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.226415
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 19,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.01394,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.210526,
+            "negative": 0.052632,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.052632,
+          "negative_or_mixed_rate": 0.052632,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.263158
+        },
+        "ICE": {
+          "review_count": 29,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.012838,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.103448,
+            "negative": 0.034483,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.862069
+          },
+          "negative_rate": 0.034483,
+          "negative_or_mixed_rate": 0.034483,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.137931
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.018519,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.142857,
+            "negative": 0.285714,
+            "mixed": 0.142857,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.428571,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.571429
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 164,
+          "topic_prevalence_in_source_segment": 0.006098,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 1.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "SE": {
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 13,
+          "topic_prevalence_in_source_segment": 0.076923,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 19,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.014949,
+          "sentiment_counts": {
+            "positive": 4,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 14
+          },
+          "sentiment_shares": {
+            "positive": 0.210526,
+            "negative": 0.052632,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.736842
+          },
+          "negative_rate": 0.052632,
+          "negative_or_mixed_rate": 0.052632,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.263158
+        },
+        "ICE": {
+          "review_count": 28,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.013882,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 25
+          },
+          "sentiment_shares": {
+            "positive": 0.071429,
+            "negative": 0.035714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.892857
+          },
+          "negative_rate": 0.035714,
+          "negative_or_mixed_rate": 0.035714,
+          "share_of_all_topic_negative_reviews": 0.25,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.2,
+          "known_sentiment_share": 0.107143
+        },
+        "PHEV": {
+          "review_count": 6,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.018634,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 2,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.166667,
+            "negative": 0.333333,
+            "mixed": 0.166667,
+            "neutral": 0.0,
+            "undetermined": 0.333333
+          },
+          "negative_rate": 0.333333,
+          "negative_or_mixed_rate": 0.5,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.6,
+          "known_sentiment_share": 0.666667
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0068",
+      "G60-0145",
+      "G60-0164",
+      "G60-0225",
+      "G60-0363",
+      "G60-0416",
+      "G60-0477",
+      "G60-0593",
+      "G60-0771",
+      "G60-0888",
+      "G60-0996",
+      "G60-1120",
+      "G60-1140",
+      "G60-1293",
+      "G60-1324",
+      "G60-1329",
+      "G60-1349",
+      "G60-1378",
+      "G60-1385",
+      "G60-1411",
+      "G60-1624",
+      "G60-1634",
+      "G60-1860",
+      "G60-1875",
+      "G60-1879",
+      "G60-1902",
+      "G60-1924",
+      "G60-1940",
+      "G60-2211",
+      "G60-2230",
+      "G60-2299",
+      "G60-2344",
+      "G60-2466",
+      "G60-2523",
+      "G60-2576",
+      "G60-2596",
+      "G60-2653",
+      "G60-2660",
+      "G60-2712",
+      "G60-3012",
+      "G60-3022",
+      "G60-3107",
+      "G60-3108",
+      "G60-3142",
+      "G60-3167",
+      "G60-3295",
+      "G60-3448",
+      "G60-3671",
+      "G60-3698",
+      "G60-3778",
+      "G60-3786",
+      "G60-3812",
+      "G60-3827",
+      "G60-3848",
+      "G60-3984"
+    ],
+    "summary": "This topic is dominated by incomplete or uncertain customer-reported statements, with the clearer examples spanning general satisfaction, app and control usability, intermittent issues, and workshop-related concerns.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Customer-reported experiences and uncertain workshop issues",
+    "source_title": "customer reported / workshop / stated uncertain",
+    "keywords": [
+      {
+        "term": "customer reported",
+        "weight": 0.297877
+      },
+      {
+        "term": "reported",
+        "weight": 0.29539
+      },
+      {
+        "term": "customer",
+        "weight": 0.115331
+      },
+      {
+        "term": "workshop",
+        "weight": 0.044236
+      },
+      {
+        "term": "stated uncertain",
+        "weight": 0.031007
+      },
+      {
+        "term": "uncertain",
+        "weight": 0.029804
+      },
+      {
+        "term": "highway",
+        "weight": 0.021984
+      },
+      {
+        "term": "drive",
+        "weight": 0.021877
+      },
+      {
+        "term": "reported comfort",
+        "weight": 0.019484
+      },
+      {
+        "term": "reported highway",
+        "weight": 0.019456
+      },
+      {
+        "term": "reported engine",
+        "weight": 0.018525
+      },
+      {
+        "term": "reported drive",
+        "weight": 0.018207
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F001347",
+        "review_id": "G60-0477",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported everything is going well and said she really loves the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007588",
+        "review_id": "G60-2712",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported the issue as intermittent, occurring about 5 out of 10 times",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005440",
+        "review_id": "G60-1940",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "customer reported he is getting comfortable with the digital controls and that the lack of physical buttons does not bother him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F003700",
+        "review_id": "G60-1324",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that from the first day of having the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F011041",
+        "review_id": "G60-3984",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer reported he is pleased with the my bmw app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008668",
+        "review_id": "G60-3108",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported she removed her phone from the tray",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008861",
+        "review_id": "G60-3167",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the car did not do this",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000374",
+        "review_id": "G60-0145",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003914",
+        "review_id": "G60-1411",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he first collected the vehicle from the dealership",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010616",
+        "review_id": "G60-3812",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported it still did not work",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009602",
+        "review_id": "G60-3448",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that within the first day of owning the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002154",
+        "review_id": "G60-0771",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the vehicle feels overly governed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010515",
+        "review_id": "G60-3778",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported that when he first powers up the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002797",
+        "review_id": "G60-0996",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the car has been at the workshop for about two weeks",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009214",
+        "review_id": "G60-3295",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported she has struggled to get used to all of the technological features",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003721",
+        "review_id": "G60-1329",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer reported the heater seems to switch on by itself even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 57,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined or incomplete, which limits confident interpretation of the underlying issue or experience.",
+      "The examples mix unrelated subjects such as app satisfaction, digital control adaptation, intermittent issues, workshop time, heating behavior, and drivability impressions.",
+      "Negative examples are too sparse and underspecified to summarize a precise common complaint.",
+      "Samples are stratified and not representative estimates of the full population of G60 reviews."
+    ]
+  }
+}

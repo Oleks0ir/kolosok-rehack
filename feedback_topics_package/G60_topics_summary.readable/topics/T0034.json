@@ -1,0 +1,596 @@
+{
+  "topic_id": "T0034",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 45,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.444444,
+      "ICE": 0.511111,
+      "PHEV": 0.044444
+    },
+    "sentiment": {
+      "positive": {
+        "count": 5,
+        "share": 0.111111,
+        "summary": "Positive reviews describe customers being pleased with the vehicle’s technology or finding explanations about range behavior helpful.",
+        "evidence_fragment_ids": [
+          "F010046",
+          "F005240"
+        ]
+      },
+      "negative": {
+        "count": 2,
+        "share": 0.044444,
+        "summary": "Negative reviews mention uncomfortable driving behavior and intermittent internet connectivity that did not match expectations.",
+        "evidence_fragment_ids": [
+          "F003693",
+          "F001839"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 38,
+        "share": 0.844444,
+        "summary": "Undetermined reviews are mostly brief explanatory notes about modes, charging, app steps, messages, and interface instructions without enough context to infer sentiment.",
+        "evidence_fragment_ids": [
+          "F003741",
+          "F009217",
+          "F010422",
+          "F001059",
+          "F002515",
+          "F009813",
+          "F000067",
+          "F005571",
+          "F003991",
+          "F007254",
+          "F003104",
+          "F008677"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 45,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.01125,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 38
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.044444,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.844444
+          },
+          "negative_rate": 0.044444,
+          "negative_or_mixed_rate": 0.044444,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.155556
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 45,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.012465,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 38
+          },
+          "sentiment_shares": {
+            "positive": 0.111111,
+            "negative": 0.044444,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.844444
+          },
+          "negative_rate": 0.044444,
+          "negative_or_mixed_rate": 0.044444,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.155556
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 20,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.014674,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.15,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.85
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.15
+        },
+        "ICE": {
+          "review_count": 23,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.010181,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.086957,
+            "negative": 0.086957,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.826087
+          },
+          "negative_rate": 0.086957,
+          "negative_or_mixed_rate": 0.086957,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.173913
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.005291,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 20,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.015736,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 17
+          },
+          "sentiment_shares": {
+            "positive": 0.15,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.85
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.15
+        },
+        "ICE": {
+          "review_count": 23,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.011403,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 19
+          },
+          "sentiment_shares": {
+            "positive": 0.086957,
+            "negative": 0.086957,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.826087
+          },
+          "negative_rate": 0.086957,
+          "negative_or_mixed_rate": 0.086957,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.173913
+        },
+        "PHEV": {
+          "review_count": 2,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.006211,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0005",
+      "G60-0024",
+      "G60-0217",
+      "G60-0388",
+      "G60-0444",
+      "G60-0604",
+      "G60-0660",
+      "G60-0690",
+      "G60-0771",
+      "G60-0791",
+      "G60-0882",
+      "G60-0891",
+      "G60-1120",
+      "G60-1130",
+      "G60-1143",
+      "G60-1250",
+      "G60-1321",
+      "G60-1335",
+      "G60-1403",
+      "G60-1438",
+      "G60-1476",
+      "G60-1825",
+      "G60-1855",
+      "G60-1945",
+      "G60-1980",
+      "G60-1985",
+      "G60-2132",
+      "G60-2166",
+      "G60-2296",
+      "G60-2337",
+      "G60-2356",
+      "G60-2468",
+      "G60-2555",
+      "G60-2582",
+      "G60-2587",
+      "G60-2635",
+      "G60-2768",
+      "G60-2839",
+      "G60-3109",
+      "G60-3296",
+      "G60-3321",
+      "G60-3429",
+      "G60-3518",
+      "G60-3613",
+      "G60-3736"
+    ],
+    "summary": "This topic centers on service writers or customers explaining vehicle functions, settings, and driving behavior, with most examples lacking enough context to show a clear opinion.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Writer Explanations of Vehicle Features and Behavior",
+    "source_title": "explained / writer / customer",
+    "keywords": [
+      {
+        "term": "explained",
+        "weight": 0.275856
+      },
+      {
+        "term": "writer explained",
+        "weight": 0.196824
+      },
+      {
+        "term": "customer explained",
+        "weight": 0.12343
+      },
+      {
+        "term": "writer",
+        "weight": 0.122378
+      },
+      {
+        "term": "customer",
+        "weight": 0.0444
+      },
+      {
+        "term": "explained drive",
+        "weight": 0.03979
+      },
+      {
+        "term": "drive",
+        "weight": 0.03471
+      },
+      {
+        "term": "charge",
+        "weight": 0.033505
+      },
+      {
+        "term": "corner",
+        "weight": 0.031756
+      },
+      {
+        "term": "explained charge",
+        "weight": 0.028847
+      },
+      {
+        "term": "brake",
+        "weight": 0.022542
+      },
+      {
+        "term": "mode",
+        "weight": 0.022173
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F010046",
+        "review_id": "G60-3613",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer explained he is very happy with this vehicle and loves all of the technology it offers",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003693",
+        "review_id": "G60-1321",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer explained that this driving behavior makes the car feel uncomfortable and not consistent with the usual BMW driving experience",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003741",
+        "review_id": "G60-1335",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained it does not",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005240",
+        "review_id": "G60-1855",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that the range estimate reflects how the vehicle has been driven previously",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001839",
+        "review_id": "G60-0660",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer explained that the issue is constant, sometimes the internet will come on 10 to 15 minutes after starting the car and other times it will not come on at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009217",
+        "review_id": "G60-3296",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that as the vehicle is driven more",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010422",
+        "review_id": "G60-3736",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained how the speed is ajusted in that mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001059",
+        "review_id": "G60-0388",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained this step",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002515",
+        "review_id": "G60-0891",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained she is not doing anything incorrectly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009813",
+        "review_id": "G60-3518",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that once the message shows up",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000067",
+        "review_id": "G60-0024",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that if the vehicle is in sleep or standby mode",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005571",
+        "review_id": "G60-1980",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained one means the headlights are on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003991",
+        "review_id": "G60-1438",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that in the My BMW app",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007254",
+        "review_id": "G60-2587",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained the tiles on the left can be scrolled up and down, and that the infotainment tile should be close to the top of the list",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003104",
+        "review_id": "G60-1120",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained that when a charging time was set",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008677",
+        "review_id": "G60-3109",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer explained it took him some time to get used to this, because he feels like he should be doing the braking himself and now, when he is braking",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 48,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are terse explanatory statements with insufficient context to determine sentiment.",
+      "The topic mixes several unrelated subjects, including charging, app usage, infotainment navigation, driving modes, headlights, and braking behavior.",
+      "Known-sentiment examples are limited, so concrete conclusions about the broader topic are constrained."
+    ]
+  }
+}

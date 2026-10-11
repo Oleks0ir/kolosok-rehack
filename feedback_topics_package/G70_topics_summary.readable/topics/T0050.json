@@ -1,0 +1,591 @@
+{
+  "topic_id": "T0050",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 38,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.315789,
+      "ICE": 0.657895,
+      "PHEV": 0.026316
+    },
+    "sentiment": {
+      "positive": {
+        "count": 3,
+        "share": 0.078947,
+        "summary": "Positive reviews praise tire sidewall quality or express satisfaction with run-flat tire functionality.",
+        "evidence_fragment_ids": [
+          "F007548",
+          "F003964"
+        ]
+      },
+      "negative": {
+        "count": 7,
+        "share": 0.184211,
+        "summary": "Negative reviews describe dissatisfaction with missing or ineffective emergency tire support, sensor compatibility issues, or dissatisfaction tied to tire-related ownership experience.",
+        "evidence_fragment_ids": [
+          "F003845",
+          "F003772",
+          "F010173"
+        ]
+      },
+      "mixed": {
+        "count": 1,
+        "share": 0.026316,
+        "summary": "Mixed reviews mention a serious problem with the emergency tire repair kit while not providing enough additional detail to separate any offsetting positive aspect.",
+        "evidence_fragment_ids": [
+          "F009981"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 27,
+        "share": 0.710526,
+        "summary": "Undetermined reviews mainly describe flat tires, preferences for spare, run-flat, all-season, or winter tire options, and explanatory comments about the mobility kit without a clear evaluative stance.",
+        "evidence_fragment_ids": [
+          "F006228",
+          "F004542",
+          "F001033",
+          "F006624",
+          "F002655",
+          "F005097",
+          "F008093",
+          "F006475",
+          "F007733",
+          "F008673"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 38,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0095,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 27
+          },
+          "sentiment_shares": {
+            "positive": 0.078947,
+            "negative": 0.184211,
+            "mixed": 0.026316,
+            "neutral": 0.0,
+            "undetermined": 0.710526
+          },
+          "negative_rate": 0.184211,
+          "negative_or_mixed_rate": 0.210526,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.289474
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 38,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.010021,
+          "sentiment_counts": {
+            "positive": 3,
+            "negative": 7,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 27
+          },
+          "sentiment_shares": {
+            "positive": 0.078947,
+            "negative": 0.184211,
+            "mixed": 0.026316,
+            "neutral": 0.0,
+            "undetermined": 0.710526
+          },
+          "negative_rate": 0.184211,
+          "negative_or_mixed_rate": 0.210526,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.289474
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.010629,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.25,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.428571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.416667
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.009735,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.08,
+            "negative": 0.12,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.12,
+          "share_of_all_topic_negative_reviews": 0.428571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.375,
+          "known_sentiment_share": 0.2
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.0033,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.125,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 12,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.011163,
+          "sentiment_counts": {
+            "positive": 1,
+            "negative": 3,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.083333,
+            "negative": 0.25,
+            "mixed": 0.083333,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.25,
+          "negative_or_mixed_rate": 0.333333,
+          "share_of_all_topic_negative_reviews": 0.428571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.5,
+          "known_sentiment_share": 0.416667
+        },
+        "ICE": {
+          "review_count": 25,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.010267,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 20
+          },
+          "sentiment_shares": {
+            "positive": 0.08,
+            "negative": 0.12,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.12,
+          "negative_or_mixed_rate": 0.12,
+          "share_of_all_topic_negative_reviews": 0.428571,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.375,
+          "known_sentiment_share": 0.2
+        },
+        "PHEV": {
+          "review_count": 1,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.003546,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.142857,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.125,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 3,
+    "review_ids": [
+      "G70-0233",
+      "G70-0358",
+      "G70-0397",
+      "G70-0688",
+      "G70-0714",
+      "G70-0806",
+      "G70-0888",
+      "G70-0953",
+      "G70-0964",
+      "G70-1069",
+      "G70-1084",
+      "G70-1216",
+      "G70-1380",
+      "G70-1406",
+      "G70-1452",
+      "G70-1654",
+      "G70-1858",
+      "G70-1902",
+      "G70-1985",
+      "G70-2055",
+      "G70-2094",
+      "G70-2123",
+      "G70-2147",
+      "G70-2248",
+      "G70-2334",
+      "G70-2375",
+      "G70-2428",
+      "G70-2619",
+      "G70-2657",
+      "G70-2706",
+      "G70-2781",
+      "G70-2908",
+      "G70-2992",
+      "G70-3136",
+      "G70-3495",
+      "G70-3584",
+      "G70-3661",
+      "G70-3983"
+    ],
+    "summary": "Reviews in this topic focus on tire preferences, flat-tire handling, and the absence or performance of spare-tire and repair-kit provisions, with many fragments describing requests or situations without clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Tires, spare tire, and repair kit",
+    "source_title": "tyre / spare / flat",
+    "keywords": [
+      {
+        "term": "tyre",
+        "weight": 0.326808
+      },
+      {
+        "term": "spare",
+        "weight": 0.076731
+      },
+      {
+        "term": "spare tyre",
+        "weight": 0.057414
+      },
+      {
+        "term": "flat",
+        "weight": 0.053035
+      },
+      {
+        "term": "flat tyre",
+        "weight": 0.050821
+      },
+      {
+        "term": "tyre repair",
+        "weight": 0.050544
+      },
+      {
+        "term": "stated tyre",
+        "weight": 0.050383
+      },
+      {
+        "term": "kit",
+        "weight": 0.049973
+      },
+      {
+        "term": "customer",
+        "weight": 0.049915
+      },
+      {
+        "term": "repair kit",
+        "weight": 0.044338
+      },
+      {
+        "term": "repair",
+        "weight": 0.044168
+      },
+      {
+        "term": "stated",
+        "weight": 0.040946
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F007548",
+        "review_id": "G70-2706",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes the tires on this vehicle more because BMW equips it with tires that have a good sidewall",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003845",
+        "review_id": "G70-1406",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "it appeared to her that the tire was actually repairable, so she asked to keep that tire so she could repair it herself and use it as a spare,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F009981",
+        "review_id": "G70-3584",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "I had a very serious problem with Emergency tire repair kit - DTU/doesn't work: \"IS missing\"",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006228",
+        "review_id": "G70-2248",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his only complaint with the vehicle is that he has already experienced two flat tires and would like choices for run flat tires",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003964",
+        "review_id": "G70-1452",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i also relied on the runflat tires many times with my first bmw 7, and would really like to have them again, even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003772",
+        "review_id": "G70-1380",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his other vehicles without Bridgestone stay cleaner around the outer edge of the tire and do not diminish his tire shine",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004542",
+        "review_id": "G70-1654",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that he would like to have a spare tire",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001033",
+        "review_id": "G70-0397",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "cannot use the rear tires on the front, so he purchased a spare front tire to keep in the trunk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006624",
+        "review_id": "G70-2375",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would like all-season tires on the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002655",
+        "review_id": "G70-0964",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would have preferred all season tires instead of the summer tires",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005097",
+        "review_id": "G70-1858",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i was sold the car without run flat tires and only found out the hard way that there isn't a spare at all",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008093",
+        "review_id": "G70-2908",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated the tire was replaced,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006475",
+        "review_id": "G70-2334",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated that it seems kind of goofy that there isnt any spare tire included with the car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010173",
+        "review_id": "G70-3661",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "I had a minor problem with Tire pressure monitoring system - DTU: \"BMW keeps updating the tire monitor sensors, so the snow tires I bought for my old 760 three years ago no longer work on the current car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007733",
+        "review_id": "G70-2781",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "my other suggestion is to include an all season tire package with the car, or at least make sure dealers have plenty of winter tires available",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F008673",
+        "review_id": "G70-3136",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained it is the tire Mobility Kit, meant to temporarily repair a punctured tire so the customer can drive to the closest service center",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 47,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments in this topic are undetermined, which limits confidence in summarizing clear sentiment patterns.",
+      "The topic mixes several related but distinct subjects, including tire type preferences, missing spare tires, flat-tire incidents, repair kits, and tire sensor compatibility.",
+      "Some negative-assigned examples contain fragment text that is not explicitly negative on its own, so sentiment interpretation is constrained by limited excerpt context.",
+      "Only a subset of topic fragments was sampled, and the examples are stratified rather than representative."
+    ]
+  }
+}

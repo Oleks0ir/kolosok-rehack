@@ -1,0 +1,37 @@
+{
+  "title": "Re-entry behavior after shutdown",
+  "summary": "The sampled fragments discuss vehicle behavior after shutdown or re-entry, but they do not provide enough context to determine a clear customer sentiment.",
+  "sentiments": {
+    "positive": {
+      "summary": "No positive reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "negative": {
+      "summary": "No negative reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments mention needing to press a function again after shutdown, wanting shades to reopen on re-entry, and one separate emergency-procedure description without enough context to classify sentiment.",
+      "evidence_fragment_ids": [
+        "F006578",
+        "F004381",
+        "F000622",
+        "F001227"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "All sampled fragments are labeled undetermined, so the topic lacks directly classifiable sentiment evidence.",
+    "The examples appear to mix at least two subjects: re-entry or shutdown convenience behavior and a separate emergency-procedure scenario.",
+    "Several fragments are incomplete and provide too little context to identify the exact feature or customer stance."
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "topic_id": "T0057",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 33,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "GB": 0.060606,
+      "KR": 0.030303,
+      "US": 0.909091
+    },
+    "engine_type": {
+      "BEVE": 0.515152,
+      "ICE": 0.393939,
+      "PHEV": 0.090909
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "share": 0.212121,
+        "summary": "Positive reviews mention liking speed-related driving features or requesting automatic cruise adjustment to detected speed limits as part of an otherwise favorable experience.",
+        "evidence_fragment_ids": [
+          "F008494",
+          "F005351",
+          "F004080"
+        ]
+      },
+      "negative": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No negative reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 26,
+        "share": 0.787879,
+        "summary": "Undetermined reviews discuss speed limit sign recognition, warning annoyance, display accuracy, and feature operation, but the sample often lacks enough context or includes terse fragments that prevent a reliable sentiment label.",
+        "evidence_fragment_ids": [
+          "F000960",
+          "F001866",
+          "F000128",
+          "F001705",
+          "F000706",
+          "F001548",
+          "F002369",
+          "F002735",
+          "F010474",
+          "F009243",
+          "F003688"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 33,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.00825,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 26
+          },
+          "sentiment_shares": {
+            "positive": 0.212121,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.787879
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.212121
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 2,
+          "source_segment_review_count": 36,
+          "topic_prevalence_in_source_segment": 0.055556,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 205,
+          "topic_prevalence_in_source_segment": 0.004878,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 30,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.00831,
+          "sentiment_counts": {
+            "positive": 7,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 23
+          },
+          "sentiment_shares": {
+            "positive": 0.233333,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.766667
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.233333
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 17,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.012472,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 12
+          },
+          "sentiment_shares": {
+            "positive": 0.294118,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.705882
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.294118
+        },
+        "ICE": {
+          "review_count": 13,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.005755,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.153846,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.846154
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.153846
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.007937,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 23,
+          "topic_prevalence_in_source_segment": 0.086957,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "KR": {
+        "BEVE": {
+          "review_count": 1,
+          "source_segment_review_count": 19,
+          "topic_prevalence_in_source_segment": 0.052632,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 16,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.012589,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.3125,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.6875
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.3125
+        },
+        "ICE": {
+          "review_count": 11,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.005454,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.181818,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.818182
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.181818
+        },
+        "PHEV": {
+          "review_count": 3,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.009317,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": null,
+          "share_of_all_topic_negative_or_mixed_reviews": null,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 2,
+    "review_ids": [
+      "G60-0006",
+      "G60-0049",
+      "G60-0252",
+      "G60-0349",
+      "G60-0454",
+      "G60-0547",
+      "G60-0595",
+      "G60-0604",
+      "G60-0669",
+      "G60-0843",
+      "G60-0972",
+      "G60-1097",
+      "G60-1320",
+      "G60-1361",
+      "G60-1414",
+      "G60-1464",
+      "G60-1507",
+      "G60-1559",
+      "G60-1898",
+      "G60-1909",
+      "G60-2337",
+      "G60-2544",
+      "G60-2567",
+      "G60-2571",
+      "G60-2931",
+      "G60-2955",
+      "G60-3043",
+      "G60-3285",
+      "G60-3308",
+      "G60-3502",
+      "G60-3636",
+      "G60-3637",
+      "G60-3758"
+    ],
+    "summary": "This topic centers on speed limit display, warning, and cruise-control alignment features, but many sampled fragments are too brief or too mixed in subject to determine a clear sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Speed limit display and assistant",
+    "source_title": "speed / limit / school",
+    "keywords": [
+      {
+        "term": "speed",
+        "weight": 0.32236
+      },
+      {
+        "term": "limit",
+        "weight": 0.19199
+      },
+      {
+        "term": "speed limit",
+        "weight": 0.130359
+      },
+      {
+        "term": "school",
+        "weight": 0.069565
+      },
+      {
+        "term": "charge speed",
+        "weight": 0.044795
+      },
+      {
+        "term": "customer",
+        "weight": 0.037874
+      },
+      {
+        "term": "limit assistant",
+        "weight": 0.036122
+      },
+      {
+        "term": "warning",
+        "weight": 0.033974
+      },
+      {
+        "term": "stated speed",
+        "weight": 0.033758
+      },
+      {
+        "term": "charge",
+        "weight": 0.033302
+      },
+      {
+        "term": "signs",
+        "weight": 0.029227
+      },
+      {
+        "term": "writer",
+        "weight": 0.02701
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F004080",
+        "review_id": "G60-1464",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he has not had trouble with any other speed limit signs and mentioned there might be a bit of growth in front of one of those signs,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000960",
+        "review_id": "G60-0349",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated by email that on many streets near him the speed limit signs sit roughly 20 feet off the main roadway because of the bicycle lane and parked cars, and that the Speed Limit Assistant almost never reads those signs or changes the Speed Limit display properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F008494",
+        "review_id": "G60-3043",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i'd also like cruise control that automatically adjusts to the speed limit, and a steering wheel that lifts higher when the car is switched off to make getting in and out easier",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F009243",
+        "review_id": "G60-3308",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003688",
+        "review_id": "G60-1320",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001866",
+        "review_id": "G60-0669",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised the Customer to look at the settings for the speed limit assistant, as pressing the SET button may be using the speed the car reads on the road instead of the speed the Customer is trying to input",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000128",
+        "review_id": "G60-0049",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer explained that it recognizes when the speed limit changes and allows the customer to either automatically or manually apply the new limit as the driving speed while using features such as Dynamic Cruise Control or Distance Control",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001683",
+        "review_id": "G60-0595",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the speed limit warning drives me mad and is often wrong",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001705",
+        "review_id": "G60-0604",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the customer can press the set button once to resume Cruise Control, or press it twice so Cruise will align to the current speed limit including any changes set in the speed limit assistant",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000706",
+        "review_id": "G60-0252",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated they would like the speed limit indication on their display to be more accurate, as it is wrong more often than not",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F001548",
+        "review_id": "G60-0547",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he considers the speed limit warning to be bothersome",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002369",
+        "review_id": "G60-0843",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the speed warning gets on my nerves",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002735",
+        "review_id": "G60-0972",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he would prefer a simple layout that only shows the speed limit",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010474",
+        "review_id": "G60-3758",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer mentioned that in her Tesla she could turn on a sound that would play whenever she went over the speed limit",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006535",
+        "review_id": "G60-2337",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the fans never go up to full speed",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F005351",
+        "review_id": "G60-1898",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "the speed it has all make a great mix in one car",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 39,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled evidence is labeled undetermined, limiting confidence about clear customer attitude within this topic.",
+      "Several fragments are extremely short or vague, such as single-word mentions of speed, so they do not provide enough context for detailed thematic interpretation.",
+      "The cluster includes loosely related subjects such as speed limit assistant behavior, warning preferences, cruise-control setting behavior, and at least one unrelated speed reference, so it is not fully coherent."
+    ]
+  }
+}

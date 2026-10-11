@@ -1,0 +1,524 @@
+{
+  "topic_id": "T0091",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 20,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "GB": 0.75,
+      "JP": 0.25
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 2,
+        "share": 0.1,
+        "summary": "Positive reviews mention air con and heating working well in hot weather and appreciation for climate-related features, though examples are limited.",
+        "evidence_fragment_ids": [
+          "F005666",
+          "F001898"
+        ]
+      },
+      "negative": {
+        "count": 3,
+        "share": 0.15,
+        "summary": "Negative reviews criticize adjusting air conditioning through the screen as awkward or distracting, with one negative example appearing unrelated to climate performance.",
+        "evidence_fragment_ids": [
+          "F002867",
+          "F000465",
+          "F007091"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 15,
+        "share": 0.75,
+        "summary": "Undetermined excerpts mention weak cooling, lack of rear air vents or rear air conditioning, non-manual controls, and dual-zone configuration concerns, but several snippets are too brief or ambiguous to classify confidently.",
+        "evidence_fragment_ids": [
+          "F005799",
+          "F003771",
+          "F004491",
+          "F005476",
+          "F007069",
+          "F000285",
+          "F004155",
+          "F007338",
+          "F006498",
+          "F006794",
+          "F004070"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 20,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.009398,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.15,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.15,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      },
+      "country": {
+        "GB": {
+          "review_count": 15,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.011601,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.266667
+        },
+        "JP": {
+          "review_count": 5,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.00744,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.2
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 20,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.009398,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 15
+          },
+          "sentiment_shares": {
+            "positive": 0.1,
+            "negative": 0.15,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.75
+          },
+          "negative_rate": 0.15,
+          "negative_or_mixed_rate": 0.15,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.25
+        }
+      }
+    },
+    "country_engine_type": {
+      "GB": {
+        "ICE": {
+          "review_count": 15,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.011601,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 11
+          },
+          "sentiment_shares": {
+            "positive": 0.133333,
+            "negative": 0.133333,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.733333
+          },
+          "negative_rate": 0.133333,
+          "negative_or_mixed_rate": 0.133333,
+          "share_of_all_topic_negative_reviews": 0.666667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.666667,
+          "known_sentiment_share": 0.266667
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 5,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.00744,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.2,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.8
+          },
+          "negative_rate": 0.2,
+          "negative_or_mixed_rate": 0.2,
+          "share_of_all_topic_negative_reviews": 0.333333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.333333,
+          "known_sentiment_share": 0.2
+        }
+      }
+    },
+    "request_review_count": 1,
+    "review_ids": [
+      "F70-0081",
+      "F70-0126",
+      "F70-0157",
+      "F70-0520",
+      "F70-0626",
+      "F70-0787",
+      "F70-0817",
+      "F70-1060",
+      "F70-1138",
+      "F70-1165",
+      "F70-1257",
+      "F70-1535",
+      "F70-1582",
+      "F70-1618",
+      "F70-1714",
+      "F70-1810",
+      "F70-1904",
+      "F70-1985",
+      "F70-1990",
+      "F70-2060"
+    ],
+    "summary": "Feedback about air conditioning focuses mainly on touchscreen-based controls, cooling effectiveness, and the availability of rear or dual-zone ventilation, with many excerpts lacking clear overall sentiment labels.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Air conditioning controls and cooling",
+    "source_title": "air / con / conditioning",
+    "keywords": [
+      {
+        "term": "air",
+        "weight": 0.377822
+      },
+      {
+        "term": "con",
+        "weight": 0.158907
+      },
+      {
+        "term": "air conditioning",
+        "weight": 0.143336
+      },
+      {
+        "term": "conditioning",
+        "weight": 0.143336
+      },
+      {
+        "term": "air con",
+        "weight": 0.112102
+      },
+      {
+        "term": "air conditioner",
+        "weight": 0.056292
+      },
+      {
+        "term": "conditioner",
+        "weight": 0.056292
+      },
+      {
+        "term": "dual zone",
+        "weight": 0.049278
+      },
+      {
+        "term": "zone",
+        "weight": 0.047873
+      },
+      {
+        "term": "dual",
+        "weight": 0.043203
+      },
+      {
+        "term": "conditioning control",
+        "weight": 0.039347
+      },
+      {
+        "term": "zone air",
+        "weight": 0.038956
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F005666",
+        "review_id": "F70-1582",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "i would definitely rather have proper buttons for the air conditioning like the previous model, and a fan that actually directs air towards passengers in the back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002867",
+        "review_id": "F70-0787",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i am not happy that the air conditioning has to be adjusted on the screen, as trying to do that while driving feels potentially dangerous",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004070",
+        "review_id": "F70-1138",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it feels like you are gliding on air",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001898",
+        "review_id": "F70-0520",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": ", like for the heating and air con",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000465",
+        "review_id": "F70-0126",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "using the air con on the screen is awkward",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005799",
+        "review_id": "F70-1618",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the air conditioning vent layout is unsatisfying, and in this very hot summer the cool air from the air conditioner has a hard time reaching me properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003771",
+        "review_id": "F70-1060",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there is no air conditioning in the back",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004491",
+        "review_id": "F70-1257",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the air-con does not cool as well",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005476",
+        "review_id": "F70-1535",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it wasnt obvious when ordering that if you dont pick dual-zone air conditioning, you also lose the rear air vents",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007069",
+        "review_id": "F70-1985",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the only minor letdown is the air conditioning",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000285",
+        "review_id": "F70-0081",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i feel the air conditioning controls should be manual, same for the sat nav",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004155",
+        "review_id": "F70-1165",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "air con works realy well in this hot weather",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007338",
+        "review_id": "F70-2060",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "audio, navigation, and air conditioning controls rely too much on the touch panel",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F007091",
+        "review_id": "F70-1990",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "no i would not recommend a bmw one at norcaster as i am still waiting for my air fresheners three months later",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006498",
+        "review_id": "F70-1810",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "front storage is limited, and in the back seats there are no charger ports or separate air con",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006794",
+        "review_id": "F70-1904",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "dual-zone air should really be standard on an m model",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 20,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled excerpts in this topic are labeled undetermined, which limits confidence in sentiment-specific conclusions.",
+      "One negative example references air fresheners rather than air conditioning, so the topic cluster includes at least one loosely related fragment.",
+      "Several fragments are short or context-poor, so they cannot support stronger interpretation beyond the text shown."
+    ]
+  }
+}

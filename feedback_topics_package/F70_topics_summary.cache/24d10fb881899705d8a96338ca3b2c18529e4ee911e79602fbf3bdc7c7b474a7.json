@@ -1,0 +1,50 @@
+{
+  "title": "Qualified praise with minor issues",
+  "summary": "This topic is dominated by incomplete 'apart from' phrases, while the interpretable comments pair generally positive views with isolated issues such as a missing infotainment feature or other unspecified problems.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews say the car is very good overall, with praise framed as satisfaction despite minor exceptions.",
+      "evidence_fragment_ids": [
+        "F003110",
+        "F005205",
+        "F007018",
+        "F005223"
+      ]
+    },
+    "negative": {
+      "summary": "The negative review mentions unspecified issues while still giving a high score, so the exact complaint is not clear from the fragment alone.",
+      "evidence_fragment_ids": [
+        "F002268"
+      ]
+    },
+    "mixed": {
+      "summary": "The mixed review praises the new infotainment overall but notes one missing feature.",
+      "evidence_fragment_ids": [
+        "F001103"
+      ]
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined fragments are mostly too incomplete to interpret, though a few mention a puncture, a touchscreen monitor, or a rear seatbelt anchor splitting apart without enough context for reliable sentiment classification.",
+      "evidence_fragment_ids": [
+        "F005514",
+        "F001419",
+        "F003617",
+        "F004555",
+        "F006801",
+        "F006307",
+        "F004852",
+        "F000480"
+      ]
+    }
+  },
+  "signal_notes": [],
+  "limitations": [
+    "Most sampled fragments are incomplete 'apart from' snippets, which limits confidence in identifying the underlying issue or sentiment.",
+    "This cluster mixes vague exception phrasing with unrelated subjects such as infotainment, a puncture, touchscreen appeal, and a rear seatbelt anchor, so it is not a tightly coherent single theme.",
+    "Several complaints or praises are underspecified in the fragment text, so missing details cannot be recovered from the sample."
+  ]
+}

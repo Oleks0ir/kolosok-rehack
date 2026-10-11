@@ -1,0 +1,739 @@
+{
+  "topic_id": "T0003",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 137,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.007299,
+      "US": 0.992701
+    },
+    "engine_type": {
+      "BEVE": 0.29927,
+      "ICE": 0.649635,
+      "PHEV": 0.051095
+    },
+    "sentiment": {
+      "positive": {
+        "count": 26,
+        "share": 0.189781,
+        "summary": "Positive reviews praise the automatic doors for convenient self-opening operation and easy closing by pressing the brake.",
+        "evidence_fragment_ids": [
+          "F000667",
+          "F000458",
+          "F006327",
+          "F010575",
+          "F003260",
+          "F001258",
+          "F002339"
+        ]
+      },
+      "negative": {
+        "count": 18,
+        "share": 0.131387,
+        "summary": "Negative reviews describe automatic doors that sometimes fail to open or close properly and buttons placed in inconvenient locations.",
+        "evidence_fragment_ids": [
+          "F010498",
+          "F003720"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 93,
+        "share": 0.678832,
+        "summary": "Undetermined reviews mention doors opening, limited opening distance, sensor problems, or creaking, but the short or unclear wording makes sentiment hard to assign consistently.",
+        "evidence_fragment_ids": [
+          "F008393",
+          "F010739",
+          "F011076",
+          "F003198",
+          "F000055",
+          "F000091",
+          "F004820"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 137,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.03425,
+          "sentiment_counts": {
+            "positive": 26,
+            "negative": 18,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 93
+          },
+          "sentiment_shares": {
+            "positive": 0.189781,
+            "negative": 0.131387,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.678832
+          },
+          "negative_rate": 0.131387,
+          "negative_or_mixed_rate": 0.131387,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.321168
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 1,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.007299,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "US": {
+          "review_count": 136,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.035865,
+          "sentiment_counts": {
+            "positive": 26,
+            "negative": 18,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 92
+          },
+          "sentiment_shares": {
+            "positive": 0.191176,
+            "negative": 0.132353,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.676471
+          },
+          "negative_rate": 0.132353,
+          "negative_or_mixed_rate": 0.132353,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.323529
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 41,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.036315,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 31
+          },
+          "sentiment_shares": {
+            "positive": 0.121951,
+            "negative": 0.121951,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.756098
+          },
+          "negative_rate": 0.121951,
+          "negative_or_mixed_rate": 0.121951,
+          "share_of_all_topic_negative_reviews": 0.277778,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.277778,
+          "known_sentiment_share": 0.243902
+        },
+        "ICE": {
+          "review_count": 89,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.034657,
+          "sentiment_counts": {
+            "positive": 19,
+            "negative": 11,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 59
+          },
+          "sentiment_shares": {
+            "positive": 0.213483,
+            "negative": 0.123596,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.662921
+          },
+          "negative_rate": 0.123596,
+          "negative_or_mixed_rate": 0.123596,
+          "share_of_all_topic_negative_reviews": 0.611111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.611111,
+          "known_sentiment_share": 0.337079
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 303,
+          "topic_prevalence_in_source_segment": 0.023102,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.285714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 0.571429
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.010204,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 41,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.03814,
+          "sentiment_counts": {
+            "positive": 5,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 31
+          },
+          "sentiment_shares": {
+            "positive": 0.121951,
+            "negative": 0.121951,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.756098
+          },
+          "negative_rate": 0.121951,
+          "negative_or_mixed_rate": 0.121951,
+          "share_of_all_topic_negative_reviews": 0.277778,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.277778,
+          "known_sentiment_share": 0.243902
+        },
+        "ICE": {
+          "review_count": 88,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.03614,
+          "sentiment_counts": {
+            "positive": 19,
+            "negative": 11,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 58
+          },
+          "sentiment_shares": {
+            "positive": 0.215909,
+            "negative": 0.125,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.659091
+          },
+          "negative_rate": 0.125,
+          "negative_or_mixed_rate": 0.125,
+          "share_of_all_topic_negative_reviews": 0.611111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.611111,
+          "known_sentiment_share": 0.340909
+        },
+        "PHEV": {
+          "review_count": 7,
+          "source_segment_review_count": 282,
+          "topic_prevalence_in_source_segment": 0.024823,
+          "sentiment_counts": {
+            "positive": 2,
+            "negative": 2,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 3
+          },
+          "sentiment_shares": {
+            "positive": 0.285714,
+            "negative": 0.285714,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.428571
+          },
+          "negative_rate": 0.285714,
+          "negative_or_mixed_rate": 0.285714,
+          "share_of_all_topic_negative_reviews": 0.111111,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.111111,
+          "known_sentiment_share": 0.571429
+        }
+      }
+    },
+    "request_review_count": 7,
+    "review_ids": [
+      "G70-0027",
+      "G70-0037",
+      "G70-0047",
+      "G70-0098",
+      "G70-0101",
+      "G70-0127",
+      "G70-0181",
+      "G70-0191",
+      "G70-0196",
+      "G70-0205",
+      "G70-0207",
+      "G70-0226",
+      "G70-0227",
+      "G70-0241",
+      "G70-0257",
+      "G70-0272",
+      "G70-0382",
+      "G70-0415",
+      "G70-0429",
+      "G70-0464",
+      "G70-0467",
+      "G70-0526",
+      "G70-0583",
+      "G70-0634",
+      "G70-0713",
+      "G70-0773",
+      "G70-0795",
+      "G70-0815",
+      "G70-0853",
+      "G70-0855",
+      "G70-0857",
+      "G70-0870",
+      "G70-0881",
+      "G70-0898",
+      "G70-0908",
+      "G70-0924",
+      "G70-0974",
+      "G70-1000",
+      "G70-1058",
+      "G70-1134",
+      "G70-1142",
+      "G70-1159",
+      "G70-1162",
+      "G70-1192",
+      "G70-1252",
+      "G70-1255",
+      "G70-1324",
+      "G70-1351",
+      "G70-1391",
+      "G70-1420",
+      "G70-1429",
+      "G70-1501",
+      "G70-1514",
+      "G70-1579",
+      "G70-1657",
+      "G70-1701",
+      "G70-1744",
+      "G70-1754",
+      "G70-1823",
+      "G70-1834",
+      "G70-1845",
+      "G70-1855",
+      "G70-1876",
+      "G70-1924",
+      "G70-1925",
+      "G70-1930",
+      "G70-1945",
+      "G70-1993",
+      "G70-2026",
+      "G70-2027",
+      "G70-2096",
+      "G70-2232",
+      "G70-2257",
+      "G70-2261",
+      "G70-2281",
+      "G70-2291",
+      "G70-2312",
+      "G70-2335",
+      "G70-2342",
+      "G70-2357",
+      "G70-2380",
+      "G70-2396",
+      "G70-2414",
+      "G70-2443",
+      "G70-2446",
+      "G70-2450",
+      "G70-2471",
+      "G70-2478",
+      "G70-2567",
+      "G70-2597",
+      "G70-2654",
+      "G70-2799",
+      "G70-2824",
+      "G70-2848",
+      "G70-2898",
+      "G70-2918",
+      "G70-2924",
+      "G70-2939",
+      "G70-3018",
+      "G70-3019",
+      "G70-3079",
+      "G70-3083",
+      "G70-3095",
+      "G70-3120",
+      "G70-3197",
+      "G70-3200",
+      "G70-3228",
+      "G70-3245",
+      "G70-3296",
+      "G70-3309",
+      "G70-3321",
+      "G70-3344",
+      "G70-3435",
+      "G70-3540",
+      "G70-3563",
+      "G70-3591",
+      "G70-3604",
+      "G70-3623",
+      "G70-3715",
+      "G70-3720",
+      "G70-3759",
+      "G70-3767",
+      "G70-3769",
+      "G70-3785",
+      "G70-3794",
+      "G70-3808",
+      "G70-3821",
+      "G70-3852",
+      "G70-3865",
+      "G70-3877",
+      "G70-3880",
+      "G70-3929",
+      "G70-3945",
+      "G70-3959",
+      "G70-3963",
+      "G70-3970",
+      "G70-3996"
+    ],
+    "summary": "Feedback centers on the G70's automatic doors, with praise for convenient hands-free opening and brake-triggered closing alongside complaints about inconsistent operation and hard-to-reach controls, while many fragments are too brief or ambiguous to classify clearly.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Automatic Door Opening and Closing",
+    "source_title": "door / open / automatic",
+    "keywords": [
+      {
+        "term": "door",
+        "weight": 0.226589
+      },
+      {
+        "term": "automatic door",
+        "weight": 0.096474
+      },
+      {
+        "term": "open",
+        "weight": 0.094895
+      },
+      {
+        "term": "automatic",
+        "weight": 0.092756
+      },
+      {
+        "term": "close",
+        "weight": 0.06076
+      },
+      {
+        "term": "door open",
+        "weight": 0.045127
+      },
+      {
+        "term": "opening",
+        "weight": 0.042716
+      },
+      {
+        "term": "customer",
+        "weight": 0.040956
+      },
+      {
+        "term": "open close",
+        "weight": 0.038404
+      },
+      {
+        "term": "customer stated",
+        "weight": 0.03673
+      },
+      {
+        "term": "stated",
+        "weight": 0.036548
+      },
+      {
+        "term": "closing",
+        "weight": 0.033286
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F000667",
+        "review_id": "G70-0241",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he is very pleased with the automatic doors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010498",
+        "review_id": "G70-3759",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated that the automatic doors sometimes have issues opening and closing and that the whole setup does not really make sense to him",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008393",
+        "review_id": "G70-3019",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the doors did it again",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000458",
+        "review_id": "G70-0191",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really loves the automatic doors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003720",
+        "review_id": "G70-1351",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated the placement of the automatic doors buttons on the dashboard and on the rear doors makes them difficult to reach",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010739",
+        "review_id": "G70-3852",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "vacuum doors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F011076",
+        "review_id": "G70-3996",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the automatic doors only open about 6 inches",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006327",
+        "review_id": "G70-2281",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she is very happy with the automatic doors and with being able to close the door by pressing the brake",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F010575",
+        "review_id": "G70-3785",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she realy likes the Automatic Doors and that they open on their own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003198",
+        "review_id": "G70-1162",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated he appriciates the automatic door opening and closing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003260",
+        "review_id": "G70-1192",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he really loves having the Automatic Doors feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F001258",
+        "review_id": "G70-0467",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated he likes having the automatic doors feature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000055",
+        "review_id": "G70-0027",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated her automatic door sensor is not functioning on the passenger door",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000091",
+        "review_id": "G70-0047",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the doors creak, maybe because of the automatic doors",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002339",
+        "review_id": "G70-0853",
+        "assigned_sentiment": "positive",
+        "fragment_sentiment": "positive",
+        "text": "Customer stated she enjoys the way the automatic doors will open on their own",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004820",
+        "review_id": "G70-1754",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the door will open",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 165,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "The sampled examples are heavily dominated by undetermined fragments, so many mentions lack enough context to identify a clear evaluation.",
+      "Negative evidence is limited to a small number of examples, so the specific complaint themes may be incomplete.",
+      "Some undetermined fragments describe possible problems or features in very short phrases, which makes interpretation uncertain."
+    ]
+  }
+}

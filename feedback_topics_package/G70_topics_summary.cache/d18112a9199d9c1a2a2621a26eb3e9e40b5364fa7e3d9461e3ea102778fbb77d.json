@@ -1,0 +1,59 @@
+{
+  "title": "Engine performance and check engine light",
+  "summary": "This topic combines praise for engine performance with reports of check-engine-light events and a few explicit starting or fault complaints.",
+  "sentiments": {
+    "positive": {
+      "summary": "Positive reviews praise the engine as powerful, satisfying, or generally impressive.",
+      "evidence_fragment_ids": [
+        "F009504",
+        "F010915"
+      ]
+    },
+    "negative": {
+      "summary": "Negative reviews describe check-engine faults or an engine that failed to start, but the examples are limited.",
+      "evidence_fragment_ids": [
+        "F000669",
+        "F010127",
+        "F001049"
+      ]
+    },
+    "mixed": {
+      "summary": "No mixed reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "neutral": {
+      "summary": "No neutral reviews are present.",
+      "evidence_fragment_ids": []
+    },
+    "undetermined": {
+      "summary": "Undetermined reviews mostly note that the check engine light came on or required service without enough detail to judge the owner's sentiment.",
+      "evidence_fragment_ids": [
+        "F001492",
+        "F009239",
+        "F006153",
+        "F002680",
+        "F000310",
+        "F009695",
+        "F007007",
+        "F003941",
+        "F004069",
+        "F000540",
+        "F010365"
+      ]
+    }
+  },
+  "signal_notes": [
+    {
+      "signal_id": "S001",
+      "interpretation": "The exploratory signal indicates BEVE examples in this topic are more often tagged negative or mixed than the rest of the engine-type breakdown, based on a small set of reviewed examples.",
+      "evidence_fragment_ids": [
+        "F010127"
+      ]
+    }
+  ],
+  "limitations": [
+    "This cluster mixes two related but distinct subjects: general engine praise and check-engine-light incidents.",
+    "Most undetermined examples only state that a check engine light appeared, so the sample often lacks detail about severity, diagnosis, repair outcome, or owner sentiment.",
+    "The supplied examples are limited and stratified rather than representative, so they should not be used to infer broader defect rates or prevalence."
+  ]
+}

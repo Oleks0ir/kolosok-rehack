@@ -1,0 +1,572 @@
+{
+  "topic_id": "T0099",
+  "source_summary_sha256": "d74e0942e0d95bb7d947c70a9152f733cc1189b59555e37e09c6044ac97db762",
+  "topic": {
+    "review_count": 22,
+    "model": {
+      "G60": 1.0
+    },
+    "country": {
+      "US": 1.0
+    },
+    "engine_type": {
+      "BEVE": 0.454545,
+      "ICE": 0.363636,
+      "PHEV": 0.181818
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 1,
+        "share": 0.045455,
+        "summary": "The negative feedback describes keys not being recognized, which prevents the correct driver profile from loading.",
+        "evidence_fragment_ids": [
+          "F006661"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 21,
+        "share": 0.954545,
+        "summary": "Undetermined examples discuss profile login, guest-profile switching, key and device association, feature retention, and profile setup questions without a clear evaluative judgment.",
+        "evidence_fragment_ids": [
+          "F003629",
+          "F004059",
+          "F010909",
+          "F000278",
+          "F003816",
+          "F005060",
+          "F007768",
+          "F002137",
+          "F009853",
+          "F001803",
+          "F007981",
+          "F000875",
+          "F000537",
+          "F007037",
+          "F002616"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G60": {
+          "review_count": 22,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.0055,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.045455,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.954545
+          },
+          "negative_rate": 0.045455,
+          "negative_or_mixed_rate": 0.045455,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.045455
+        }
+      },
+      "country": {
+        "US": {
+          "review_count": 22,
+          "source_segment_review_count": 3610,
+          "topic_prevalence_in_source_segment": 0.006094,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 21
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.045455,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.954545
+          },
+          "negative_rate": 0.045455,
+          "negative_or_mixed_rate": 0.045455,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.045455
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1363,
+          "topic_prevalence_in_source_segment": 0.007337,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2259,
+          "topic_prevalence_in_source_segment": 0.003541,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 378,
+          "topic_prevalence_in_source_segment": 0.010582,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "country_engine_type": {
+      "US": {
+        "BEVE": {
+          "review_count": 10,
+          "source_segment_review_count": 1271,
+          "topic_prevalence_in_source_segment": 0.007868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 9
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.1,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.9
+          },
+          "negative_rate": 0.1,
+          "negative_or_mixed_rate": 0.1,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.1
+        },
+        "ICE": {
+          "review_count": 8,
+          "source_segment_review_count": 2017,
+          "topic_prevalence_in_source_segment": 0.003966,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 8
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "PHEV": {
+          "review_count": 4,
+          "source_segment_review_count": 322,
+          "topic_prevalence_in_source_segment": 0.012422,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 4
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G60-0106",
+      "G60-0203",
+      "G60-0316",
+      "G60-0645",
+      "G60-0765",
+      "G60-0831",
+      "G60-0929",
+      "G60-1301",
+      "G60-1368",
+      "G60-1460",
+      "G60-1464",
+      "G60-1807",
+      "G60-1877",
+      "G60-2384",
+      "G60-2433",
+      "G60-2521",
+      "G60-2782",
+      "G60-2853",
+      "G60-3167",
+      "G60-3502",
+      "G60-3536",
+      "G60-3920"
+    ],
+    "summary": "This topic centers on driver profiles being recognized, loaded, associated with keys or devices, or defaulting to guest mode, with most examples describing setup or troubleshooting rather than clear satisfaction or dissatisfaction.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Driver profile recognition and loading",
+    "source_title": "profile / driver / recognized",
+    "keywords": [
+      {
+        "term": "profile",
+        "weight": 0.361113
+      },
+      {
+        "term": "driver profile",
+        "weight": 0.179009
+      },
+      {
+        "term": "driver",
+        "weight": 0.142677
+      },
+      {
+        "term": "recognized",
+        "weight": 0.073982
+      },
+      {
+        "term": "signed",
+        "weight": 0.06291
+      },
+      {
+        "term": "writer",
+        "weight": 0.054191
+      },
+      {
+        "term": "guest profile",
+        "weight": 0.051321
+      },
+      {
+        "term": "guest",
+        "weight": 0.047842
+      },
+      {
+        "term": "load",
+        "weight": 0.046372
+      },
+      {
+        "term": "primary driver",
+        "weight": 0.04261
+      },
+      {
+        "term": "primary",
+        "weight": 0.037914
+      },
+      {
+        "term": "signed profile",
+        "weight": 0.037593
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006661",
+        "review_id": "G60-2384",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer stated he is experiencing problems with the keys being recognized, which is preventing his profile from loading properly",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F003629",
+        "review_id": "G60-1301",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he is logged into his profile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F004059",
+        "review_id": "G60-1460",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car's overall profile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F010909",
+        "review_id": "G60-3920",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the car will still sometimes load his driver profile even",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000278",
+        "review_id": "G60-0106",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the Driver Profile switches to the Guest profile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003816",
+        "review_id": "G60-1368",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer asked if he was signed in with his driver profile since favorites are not retained on the guest profile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005060",
+        "review_id": "G60-1807",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "he feels the phone connection should follow the driver profile, meaning it should connect to whoever gets in first and whose profile is active",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F007768",
+        "review_id": "G60-2782",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised the customer to make sure he is using a key associated with his Driver Profile / BMW ID so the vehicle detects the key and a profile where this function is turned on",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F002137",
+        "review_id": "G60-0765",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "suggested she could set up a second driver profile under a nickname and use that as her regular profile to address the privacy concern",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F009853",
+        "review_id": "G60-3536",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer inquired about how to add his driver profile to the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F001803",
+        "review_id": "G60-0645",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised this may be related to phone and watch digital keys not being properly associated with the driver profile, and walked the customer through checking profile settings and connecting mobile devices",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007981",
+        "review_id": "G60-2853",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated his driver profile sometimes did not load on its own when he unlocked the vehicle",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000875",
+        "review_id": "G60-0316",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised that these particular functions are not saved in the driver profile",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000537",
+        "review_id": "G60-0203",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Writer advised it can stop a valet from accessing his driver profile or the trunk",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "PHEV"
+        }
+      },
+      {
+        "fragment_id": "F007037",
+        "review_id": "G60-2521",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer initially assumed it was related to the guest profile and attempted to connect the key to his personal profile,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002616",
+        "review_id": "G60-0929",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "Customer stated she has not yet set up her personal profile and is currently using the same profile as her husband",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G60",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 28,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Most sampled fragments are undetermined, so the sentiment evidence is limited.",
+      "The cluster mixes several related but distinct subjects, including profile loading, guest-profile behavior, key recognition, device association, retained settings, privacy, and setup guidance.",
+      "Examples are insufficient to determine which specific profile behaviors are most common or most severe within the topic."
+    ]
+  }
+}

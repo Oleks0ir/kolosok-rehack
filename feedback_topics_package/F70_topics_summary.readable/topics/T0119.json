@@ -1,0 +1,621 @@
+{
+  "topic_id": "T0119",
+  "source_summary_sha256": "21acc33f5ccef1557fdad35f872a4a786d8b779d6b5abd0378616e9047594463",
+  "topic": {
+    "review_count": 16,
+    "model": {
+      "F70": 1.0
+    },
+    "country": {
+      "FR": 0.0625,
+      "GB": 0.75,
+      "JP": 0.125,
+      "SE": 0.0625
+    },
+    "engine_type": {
+      "ICE": 1.0
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 6,
+        "share": 0.375,
+        "summary": "Negative reviews describe clunky infotainment and screen controls, awkward setting changes while driving, and unintuitive button sequences for drive-related functions.",
+        "evidence_fragment_ids": [
+          "F005561",
+          "F005963",
+          "F005240",
+          "F005317",
+          "F004559",
+          "F006274"
+        ]
+      },
+      "mixed": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No mixed reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 10,
+        "share": 0.625,
+        "summary": "Undetermined fragments often mention changing cars, settings, voices, or gear behavior without enough context to confirm a clear positive, negative, mixed, or neutral sentiment.",
+        "evidence_fragment_ids": [
+          "F006191",
+          "F003136",
+          "F003026",
+          "F003976",
+          "F006872",
+          "F004181",
+          "F003385",
+          "F004885",
+          "F006621",
+          "F000464"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "F70": {
+          "review_count": 16,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007519,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.375,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.375,
+          "negative_or_mixed_rate": 0.375,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      },
+      "country": {
+        "FR": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "GB": {
+          "review_count": 12,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.009281,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.416667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.416667,
+          "negative_or_mixed_rate": 0.416667,
+          "share_of_all_topic_negative_reviews": 0.833333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.416667
+        },
+        "JP": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        },
+        "SE": {
+          "review_count": 1,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.014085,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "engine_type": {
+        "ICE": {
+          "review_count": 16,
+          "source_segment_review_count": 2128,
+          "topic_prevalence_in_source_segment": 0.007519,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 6,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 10
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.375,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.625
+          },
+          "negative_rate": 0.375,
+          "negative_or_mixed_rate": 0.375,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.375
+        }
+      }
+    },
+    "country_engine_type": {
+      "FR": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 53,
+          "topic_prevalence_in_source_segment": 0.018868,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "GB": {
+        "ICE": {
+          "review_count": 12,
+          "source_segment_review_count": 1293,
+          "topic_prevalence_in_source_segment": 0.009281,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 7
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.416667,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.583333
+          },
+          "negative_rate": 0.416667,
+          "negative_or_mixed_rate": 0.416667,
+          "share_of_all_topic_negative_reviews": 0.833333,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.833333,
+          "known_sentiment_share": 0.416667
+        }
+      },
+      "JP": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 672,
+          "topic_prevalence_in_source_segment": 0.002976,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 0,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 2
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 1.0
+          },
+          "negative_rate": 0.0,
+          "negative_or_mixed_rate": 0.0,
+          "share_of_all_topic_negative_reviews": 0.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.0,
+          "known_sentiment_share": 0.0
+        }
+      },
+      "SE": {
+        "ICE": {
+          "review_count": 1,
+          "source_segment_review_count": 71,
+          "topic_prevalence_in_source_segment": 0.014085,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.166667,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.166667,
+          "known_sentiment_share": 1.0
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "F70-0126",
+      "F70-0832",
+      "F70-0866",
+      "F70-0940",
+      "F70-1109",
+      "F70-1173",
+      "F70-1274",
+      "F70-1359",
+      "F70-1462",
+      "F70-1488",
+      "F70-1554",
+      "F70-1663",
+      "F70-1718",
+      "F70-1745",
+      "F70-1846",
+      "F70-1924"
+    ],
+    "summary": "This topic centers on awkward or distracting interactions when changing settings or drive functions through the screen and digital controls, while many other fragments mention change without enough context to determine sentiment.",
+    "summary_status": "complete",
+    "signals": [],
+    "title": "Clunky screen and settings changes",
+    "source_title": "change / disadvantages / clunky",
+    "keywords": [
+      {
+        "term": "change",
+        "weight": 0.440427
+      },
+      {
+        "term": "disadvantages",
+        "weight": 0.099091
+      },
+      {
+        "term": "change drive",
+        "weight": 0.085445
+      },
+      {
+        "term": "clunky",
+        "weight": 0.084959
+      },
+      {
+        "term": "change setting",
+        "weight": 0.063197
+      },
+      {
+        "term": "two",
+        "weight": 0.059639
+      },
+      {
+        "term": "together",
+        "weight": 0.055711
+      },
+      {
+        "term": "awkward",
+        "weight": 0.050667
+      },
+      {
+        "term": "setting",
+        "weight": 0.044437
+      },
+      {
+        "term": "screen",
+        "weight": 0.040834
+      },
+      {
+        "term": "drive",
+        "weight": 0.039061
+      },
+      {
+        "term": "cannot",
+        "weight": 0.037631
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F006274",
+        "review_id": "F70-1745",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "those two things together will probably change how i feel about getting another bmw, so i honestly couldn't recommend it",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006191",
+        "review_id": "F70-1718",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "there are a few things i would still change",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005561",
+        "review_id": "F70-1554",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the screen is extremely clunky for the things you change all the time, such as temperature",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "SE",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003136",
+        "review_id": "F70-0866",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "next time i change cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003026",
+        "review_id": "F70-0832",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it is my first time owning an automatic and i am still getting used to it, noticing both advantages and disadvantages with the change",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003976",
+        "review_id": "F70-1109",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "i am interested to see what the depreciation is after two years, as thats when i normally change cars",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006872",
+        "review_id": "F70-1924",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "and i also cannot change the voice of the ap",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "FR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005963",
+        "review_id": "F70-1663",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "i did not rate it 10 because it seems a bit over digitalised - having to glance at the screen to change something while driving can be distracting",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004181",
+        "review_id": "F70-1173",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "the gearbox is slow to change down and it almost feels like it is stalling",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F003385",
+        "review_id": "F70-0940",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "you are told not to change things while driving and i agree",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005240",
+        "review_id": "F70-1462",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "with no cockpit buttons it is really awkward to change settings while driving and i really do not like that setup",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004885",
+        "review_id": "F70-1359",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "not straightforward to change settings while on the move",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006621",
+        "review_id": "F70-1846",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "so if we are together the passenger does the adjustments, and if alone we pull over to change things",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005317",
+        "review_id": "F70-1488",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "having to press buttons several times to get limiter or cruise and change drive mode doesn't feel intuitive",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F004559",
+        "review_id": "F70-1274",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the informant system is awkward and clunky",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "GB",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000464",
+        "review_id": "F70-0126",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "disadvantages",
+        "text_truncated": false,
+        "metadata": {
+          "model": "F70",
+          "country": "JP",
+          "engine_type": "ICE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 16,
+      "total_topic_fragments": 16,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "Many fragments use the word 'change' in unrelated ways, so the cluster mixes interface complaints with vague or context-poor mentions of changing cars or functions.",
+      "Most sampled fragments are undetermined, which limits how specifically the topic can be characterized beyond the clearer interface-related negatives.",
+      "No positive, mixed, or neutral examples are available in the sample."
+    ]
+  }
+}

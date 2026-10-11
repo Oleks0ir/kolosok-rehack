@@ -1,0 +1,529 @@
+{
+  "topic_id": "T0244",
+  "source_summary_sha256": "a7f90a517d313007565b5b6a4bd9eea31797701cbed7210b435026f5c6261358",
+  "topic": {
+    "review_count": 12,
+    "model": {
+      "G70": 1.0
+    },
+    "country": {
+      "KR": 0.166667,
+      "US": 0.833333
+    },
+    "engine_type": {
+      "BEVE": 0.25,
+      "ICE": 0.75
+    },
+    "sentiment": {
+      "positive": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No positive reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "negative": {
+        "count": 8,
+        "share": 0.666667,
+        "summary": "Negative reviews focus on missing features or compartments, absent contacts integration, limited signal reception, and requests for clearer disclosure of what equipment is included.",
+        "evidence_fragment_ids": [
+          "F008248",
+          "F008257",
+          "F006860",
+          "F002840",
+          "F000772",
+          "F006337",
+          "F006614",
+          "F006266"
+        ]
+      },
+      "mixed": {
+        "count": 3,
+        "share": 0.25,
+        "summary": "Mixed reviews pair overall satisfaction with comments about missing items, road noise that suggests poor insulation, or reception problems in certain areas.",
+        "evidence_fragment_ids": [
+          "F005279",
+          "F000607",
+          "F006606"
+        ]
+      },
+      "neutral": {
+        "count": 0,
+        "share": 0.0,
+        "summary": "No neutral reviews are present.",
+        "evidence_fragment_ids": []
+      },
+      "undetermined": {
+        "count": 1,
+        "share": 0.083333,
+        "summary": "The undetermined review says the vehicle impresses in many areas but does not specify a concrete feature or issue tied to this topic.",
+        "evidence_fragment_ids": [
+          "F002637"
+        ]
+      }
+    },
+    "segments": {
+      "model": {
+        "G70": {
+          "review_count": 12,
+          "source_segment_review_count": 4000,
+          "topic_prevalence_in_source_segment": 0.003,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 8,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.666667,
+            "mixed": 0.25,
+            "neutral": 0.0,
+            "undetermined": 0.083333
+          },
+          "negative_rate": 0.666667,
+          "negative_or_mixed_rate": 0.916667,
+          "share_of_all_topic_negative_reviews": 1.0,
+          "share_of_all_topic_negative_or_mixed_reviews": 1.0,
+          "known_sentiment_share": 0.916667
+        }
+      },
+      "country": {
+        "KR": {
+          "review_count": 2,
+          "source_segment_review_count": 137,
+          "topic_prevalence_in_source_segment": 0.014599,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.5,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.181818,
+          "known_sentiment_share": 1.0
+        },
+        "US": {
+          "review_count": 10,
+          "source_segment_review_count": 3792,
+          "topic_prevalence_in_source_segment": 0.002637,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 7,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.7,
+            "mixed": 0.2,
+            "neutral": 0.0,
+            "undetermined": 0.1
+          },
+          "negative_rate": 0.7,
+          "negative_or_mixed_rate": 0.9,
+          "share_of_all_topic_negative_reviews": 0.875,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.818182,
+          "known_sentiment_share": 0.9
+        }
+      },
+      "engine_type": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1129,
+          "topic_prevalence_in_source_segment": 0.002657,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.375,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.272727,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 9,
+          "source_segment_review_count": 2568,
+          "topic_prevalence_in_source_segment": 0.003505,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 5,
+            "mixed": 3,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.555556,
+            "mixed": 0.333333,
+            "neutral": 0.0,
+            "undetermined": 0.111111
+          },
+          "negative_rate": 0.555556,
+          "negative_or_mixed_rate": 0.888889,
+          "share_of_all_topic_negative_reviews": 0.625,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.727273,
+          "known_sentiment_share": 0.888889
+        }
+      }
+    },
+    "country_engine_type": {
+      "KR": {
+        "ICE": {
+          "review_count": 2,
+          "source_segment_review_count": 98,
+          "topic_prevalence_in_source_segment": 0.020408,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 1,
+            "mixed": 1,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.5,
+            "mixed": 0.5,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 0.5,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.125,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.181818,
+          "known_sentiment_share": 1.0
+        }
+      },
+      "US": {
+        "BEVE": {
+          "review_count": 3,
+          "source_segment_review_count": 1075,
+          "topic_prevalence_in_source_segment": 0.002791,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 3,
+            "mixed": 0,
+            "neutral": 0,
+            "undetermined": 0
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 1.0,
+            "mixed": 0.0,
+            "neutral": 0.0,
+            "undetermined": 0.0
+          },
+          "negative_rate": 1.0,
+          "negative_or_mixed_rate": 1.0,
+          "share_of_all_topic_negative_reviews": 0.375,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.272727,
+          "known_sentiment_share": 1.0
+        },
+        "ICE": {
+          "review_count": 7,
+          "source_segment_review_count": 2435,
+          "topic_prevalence_in_source_segment": 0.002875,
+          "sentiment_counts": {
+            "positive": 0,
+            "negative": 4,
+            "mixed": 2,
+            "neutral": 0,
+            "undetermined": 1
+          },
+          "sentiment_shares": {
+            "positive": 0.0,
+            "negative": 0.571429,
+            "mixed": 0.285714,
+            "neutral": 0.0,
+            "undetermined": 0.142857
+          },
+          "negative_rate": 0.571429,
+          "negative_or_mixed_rate": 0.857143,
+          "share_of_all_topic_negative_reviews": 0.5,
+          "share_of_all_topic_negative_or_mixed_reviews": 0.545455,
+          "known_sentiment_share": 0.857143
+        }
+      }
+    },
+    "request_review_count": 0,
+    "review_ids": [
+      "G70-0226",
+      "G70-0274",
+      "G70-0957",
+      "G70-1029",
+      "G70-1916",
+      "G70-2262",
+      "G70-2284",
+      "G70-2369",
+      "G70-2373",
+      "G70-2458",
+      "G70-2972",
+      "G70-2977"
+    ],
+    "summary": "Reviews in this topic mainly describe missing features or storage elements, weak phone or signal connectivity, and cabin insulation concerns.",
+    "summary_status": "complete",
+    "signals": [
+      {
+        "dimension": "country",
+        "value": "US",
+        "kind": "high_negative_rate",
+        "metric": "negative_or_mixed_rate",
+        "numerator": 9,
+        "denominator": 10,
+        "rate": 0.9,
+        "comparison_numerator": 2,
+        "comparison_denominator": 2,
+        "comparison_rate": 1.0,
+        "gap_percentage_points": -10.0,
+        "statement": "In country=US, 9 of 10 reviews (90.0%) are negative or mixed. The rest of this breakdown: 2 of 2 (100.0%).",
+        "interpretation": "US-market examples in this topic are associated with negative or mixed feedback, but the comparison sample is insufficient for a broader segment conclusion.",
+        "evidence_fragment_ids": [],
+        "status": "exploratory_not_significance_test",
+        "comparison_sample_sufficient": false,
+        "signal_id": "S001"
+      }
+    ],
+    "title": "Missing features and weak connectivity",
+    "source_title": "missing / areas / contacts",
+    "keywords": [
+      {
+        "term": "missing",
+        "weight": 0.420487
+      },
+      {
+        "term": "areas",
+        "weight": 0.21368
+      },
+      {
+        "term": "feature missing",
+        "weight": 0.074229
+      },
+      {
+        "term": "contacts",
+        "weight": 0.063874
+      },
+      {
+        "term": "compartment",
+        "weight": 0.061015
+      },
+      {
+        "term": "cd",
+        "weight": 0.050596
+      },
+      {
+        "term": "limited",
+        "weight": 0.04912
+      },
+      {
+        "term": "sunroof",
+        "weight": 0.048592
+      },
+      {
+        "term": "opening",
+        "weight": 0.046105
+      },
+      {
+        "term": "signal",
+        "weight": 0.045549
+      },
+      {
+        "term": "insulation",
+        "weight": 0.045433
+      },
+      {
+        "term": "pass",
+        "weight": 0.045433
+      }
+    ],
+    "evidence": [
+      {
+        "fragment_id": "F008248",
+        "review_id": "G70-2972",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "also, missing the bmw fragrance",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F005279",
+        "review_id": "G70-1916",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "there are still a few areas that should be improved and some things that feel missing, yet overall i am very pleased with the design",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "KR",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002637",
+        "review_id": "G70-0957",
+        "assigned_sentiment": "undetermined",
+        "fragment_sentiment": "undetermined",
+        "text": "it impresses me in so many areas",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F008257",
+        "review_id": "G70-2977",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "this compartment is missing in the new 7 Series",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006860",
+        "review_id": "G70-2458",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "the contacts are still missing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F000607",
+        "review_id": "G70-0226",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "when other cars pass by you hear all of it, like there's missing insulation or something",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F002840",
+        "review_id": "G70-1029",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "missing an opening sunroof,",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F000772",
+        "review_id": "G70-0274",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer reported upgrading from a Mercedes and commented it would not have felt like less of an upgrade even if the newer features were missing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      },
+      {
+        "fragment_id": "F006337",
+        "review_id": "G70-2284",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "Customer mentioned missing the CD and DVD players that were in earlier 7 series models",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006614",
+        "review_id": "G70-2373",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "my one big suggestion is that buyers should be told exactly which features are on the car and which are missing",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006606",
+        "review_id": "G70-2369",
+        "assigned_sentiment": "mixed",
+        "fragment_sentiment": "mixed",
+        "text": "i am experiencing reception problems in certain areas when i travel, which was not an issue in my previous bmw",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "ICE"
+        }
+      },
+      {
+        "fragment_id": "F006266",
+        "review_id": "G70-2262",
+        "assigned_sentiment": "negative",
+        "fragment_sentiment": "negative",
+        "text": "it is still limited by areas with poor signal",
+        "text_truncated": false,
+        "metadata": {
+          "model": "G70",
+          "country": "US",
+          "engine_type": "BEVE"
+        }
+      }
+    ],
+    "sampling": {
+      "selected_fragments": 12,
+      "total_topic_fragments": 12,
+      "method": "sentiment-stratified, flagged segments, lexical centrality; not a random sample"
+    },
+    "limitations": [
+      "This topic mixes several loosely related subjects, including missing features, storage or equipment omissions, phone or signal connectivity, and insulation or noise concerns.",
+      "Several fragments are brief and lack enough context to identify the exact missing feature or system affected.",
+      "The samples are stratified and limited, so they should not be treated as representative of all G70 reviews."
+    ]
+  }
+}
