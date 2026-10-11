@@ -1,0 +1,111 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4MCG7MS0W2Q9KMTCQ952ZTC",
+  "session_id": "131737e0-3883-4510-907b-2ed4c8f8750c",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T02:26:09.632975Z",
+  "branch": "feat/agent-loop-llm",
+  "checkpoints_count": 3,
+  "save_step_count": 3,
+  "files_touched": [
+    "agent-loop/README.md",
+    "agent-loop/llm.py",
+    "agent-loop/loop.py",
+    "agent-loop/requirements.txt",
+    "agent-loop/test_llm.py",
+    "agent-loop/test_loop.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "ccd8cc5e58fc",
+  "checkpoint_transcript_start": 1715,
+  "transcript_lines_at_start": 1715,
+  "compact_transcript_start": 332,
+  "token_usage": {
+    "input_tokens": 88,
+    "cache_creation_tokens": 40372,
+    "cache_read_tokens": 12247947,
+    "output_tokens": 27304,
+    "api_call_count": 44
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-ponytail-audit-2026-10-11T01:22:20.0392986Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ponytail-audit"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "58ce1d5eae05",
+      "timestamp": "2026-10-11T01:22:20.0392986Z",
+      "native": {
+        "command": "/ponytail-audit"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ponytail-audit",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 38
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T02:26:09.4505186Z",
+    "agent_lines": 68,
+    "agent_removed": 3,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 4,
+    "total_committed": 68,
+    "total_lines_changed": 75,
+    "agent_percentage": 94.66666666666667,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 113,
+      "user_lines_removed": 4,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "agent-loop/llm.py": 74,
+        "agent-loop/loop.py": 15,
+        "agent-loop/requirements.txt": 1,
+        "agent-loop/test_llm.py": 22,
+        "agent-loop/test_loop.py": 1
+      },
+      "user_removed_per_file": {
+        "agent-loop/loop.py": 3,
+        "agent-loop/test_loop.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 122,
+      "agent_lines_removed": 4
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 1,
+      "user_lines_removed": 1,
+      "agent_lines_added": 122,
+      "agent_lines_removed": 4,
+      "user_added_per_file": {
+        ".env.example": 1
+      },
+      "user_removed_per_file": {
+        ".env.example": 1
+      }
+    }
+  ]
+}
