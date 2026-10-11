@@ -223,3 +223,35 @@ def test_edit_rejects_non_pm_and_already_replaced_nodes():
     tools.edit({"file": "y.csv"}, src.id, "PM:alex")
     with pytest.raises(ValueError):
         tools.edit({"file": "z.csv"}, src.id, "PM:alex")
+
+
+def test_revise_redoes_a_stale_chain_step_by_step_on_the_latest_inputs():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    evidence = tools.query_data({"row": "complaint"}, [src.id], "agent:researcher")
+    claim = tools.add_claim({"text": "c"}, [evidence.id], "agent:researcher")
+    requirement = tools.propose_requirement({"text": "r"}, [claim.id], "agent:researcher")
+    edited = tools.edit({"row": "sharper complaint"}, evidence.id, "PM:alex", rationale="typo")
+
+    from app.graph import list_edges
+
+    # the requirement has to wait: its claim is still stale
+    with pytest.raises(ValueError, match="first"):
+        tools.revise({"text": "r2"}, requirement.id, "agent:loop")
+    claim2 = tools.revise({"text": "c2"}, claim.id, "agent:loop", rationale="evidence changed")
+    assert claim2.replaces == claim.id and claim2.status == "ok"
+    assert [e["to_id"] for e in list_edges(claim2.id)] == [edited.id]
+    req2 = tools.revise({"text": "r2"}, requirement.id, "agent:loop")
+    assert [e["to_id"] for e in list_edges(req2.id)] == [claim2.id]
+    with pytest.raises(ValueError, match="newer version"):
+        tools.revise({"text": "again"}, claim.id, "agent:loop")
+
+
+def test_revise_refuses_fresh_nodes_and_decisions():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    evidence = tools.query_data({"row": "a"}, [src.id], "agent:researcher")
+    with pytest.raises(ValueError, match="not stale"):
+        tools.revise({"row": "b"}, evidence.id, "agent:loop")
+    decision = tools.decide({"verdict": "approve"}, evidence.id, "PM:alex", "fine")
+    tools.edit({"row": "a2"}, evidence.id, "PM:alex", rationale="fix")
+    with pytest.raises(ValueError, match="re-reviewed"):
+        tools.revise({"verdict": "approve"}, decision.id, "agent:loop")

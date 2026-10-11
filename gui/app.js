@@ -12,6 +12,20 @@ let lastPos = {}; // layout positions of the current render (drag-to-connect sna
 // Modes that turn graph clicks into picks instead of selection:
 let draft = null; // {type, inputs: [ids], relation}: the "new node" form is open
 let linking = null; // {from, to}: connect `from` as a new input of `to`
+// Focus mode: the graph shows only the chain of focusId (what it's built on + what's built on
+// it), so it stays readable at any size. Off = the whole graph with the chain highlighted.
+let focusMode = true;
+let focusId = null;
+let showOld = false; // old versions are hidden unless something current still builds on them
+let drawnSig = ""; // which nodes are drawn: refit the view only when that changes
+let sideTab = "inbox";
+
+const store = {
+  get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
+  set: (k, v) => { try { localStorage.setItem(k, v); } catch { /* storage blocked */ } },
+};
+let lastSeen = store.get("lastSeen"); // ISO time of the PM's last "mark as seen"; null = first visit
+const isBrief = (n) => n.type === "Note" && n.content?.kind === "brief";
 
 const COLORS = Object.fromEntries(
   Object.keys(STAGE).map((t) => [t, getComputedStyle(document.documentElement).getPropertyValue(`--${t}`).trim()]),
@@ -79,6 +93,10 @@ async function load() {
   load.sig = sig;
   graph = { nodes, edges };
   view = derive(nodes, edges);
+  if (lastSeen === null) { // first visit: what's there now counts as seen
+    lastSeen = nodes.length ? nodes.at(-1).timestamp : new Date(0).toISOString();
+    store.set("lastSeen", lastSeen);
+  }
   render();
 }
 
@@ -92,7 +110,40 @@ function derive(nodes, edges) {
     else (dependents[e.to_id] ??= []).push(e);
   }
   for (const n of nodes) if (n.replaces) supersededBy[n.replaces] = n.id;
-  return { byId, decisionsFor, supersededBy, inputs, dependents };
+  const brief = nodes.filter((n) => isBrief(n) && !supersededBy[n.id]).at(-1) ?? null;
+  return { byId, decisionsFor, supersededBy, inputs, dependents, brief };
+}
+
+const latestOf = (id) => { while (view.supersededBy[id]) id = view.supersededBy[id]; return id; };
+
+/** Everything id is (transitively) built on. */
+function upstream(id) {
+  const seen = new Set();
+  const todo = [id];
+  while (todo.length) {
+    for (const e of view.inputs[todo.pop()] || []) if (!seen.has(e.to_id)) { seen.add(e.to_id); todo.push(e.to_id); }
+  }
+  return seen;
+}
+
+/** id's chain: what it's built on, what's built on it, and the other versions of those. */
+function chainIds(id) {
+  const chain = new Set([id, ...upstream(id), ...builtOn(id)]);
+  for (const c of [...chain]) {
+    for (let v = c; view.supersededBy[v]; v = view.supersededBy[v]) chain.add(view.supersededBy[v]);
+    // older versions + what still hangs off them: the stale nodes an edit broke belong to its chain
+    for (let v = view.byId[c]?.replaces; v; v = view.byId[v]?.replaces) {
+      chain.add(v);
+      for (const d of builtOn(v)) chain.add(d);
+    }
+  }
+  return chain;
+}
+
+/** For a stale node: the edit upstream that broke it, as "EVD-001 was edited → EVD-005". */
+function brokenBy(id) {
+  const edited = [...upstream(id)].find((u) => view.supersededBy[u]);
+  return edited ? { old: edited, now: latestOf(edited) } : null;
 }
 
 const summary = (n) => {
@@ -104,11 +155,42 @@ const verdictOf = (id) => (view.decisionsFor[id] || []).at(-1)?.content?.verdict
 
 // ---- graph -------------------------------------------------------------
 
+function visibleNodes() {
+  let ns = graph.nodes.filter((n) => n.type in STAGE && !isBrief(n)); // the brief lives in the brief bar
+  if (!showOld) { // an old version stays only while something current still builds on it (explains a stale node)
+    ns = ns.filter((n) => !view.supersededBy[n.id] || n.id === focusId
+      || (view.dependents[n.id] || []).some((e) => !view.supersededBy[e.from_id]));
+  }
+  if (focusId && view.byId[focusId]) {
+    const chain = chainIds(focusId);
+    ns = ns.filter((n) => chain.has(n.id));
+  }
+  return ns;
+}
+
 function render() {
-  const drawn = graph.nodes.filter((n) => n.type in STAGE);
+  if (focusMode && selected && view.byId[selected]) focusId = selected;
+  else if (!draft && !linking) focusId = null;
+  renderGraph();
+  $("#start").hidden = graph.nodes.length > 0;
+  if (!graph.nodes.length) guard(renderStart)();
+  renderStats();
+  renderJump();
+  renderBrief();
+  renderSide();
+  if (draft || linking) markPicked(); // an open form must survive redraws (e.g. agent polling)
+  else if (selected && view.byId[selected]) highlight();
+  else showHint(false);
+  renderTimeline();
+}
+
+function renderGraph() {
+  const drawn = visibleNodes();
   const pos = layout(drawn, graph.edges);
   lastPos = pos;
-  const grew = drawn.length > cy.nodes().length; // new nodes (e.g. mid agent run) must stay in view
+  const sig = drawn.map((n) => n.id).join();
+  const changed = sig !== drawnSig; // new nodes (e.g. mid agent run) or a new focus must be in view
+  drawnSig = sig;
   cy.elements().remove();
   cy.add(drawn.map((n) => ({
     group: "nodes",
@@ -128,18 +210,24 @@ function render() {
   cy.add(drawn.filter((n) => n.replaces && isDrawn(n.replaces)).map((n) => ({
     group: "edges", data: { id: `v-${n.id}`, source: n.replaces, target: n.id }, classes: "version",
   })));
-  if (grew) {
-    cy.fit(undefined, 40);
-    if (cy.zoom() > 1) { cy.zoom(1); cy.center(); } // a 2-node graph shouldn't fill the screen
-  }
+  renderFocusbar(drawn.length);
+  if (changed) requestAnimationFrame(fitView); // after the page layout settled (first load, focus bar height)
+}
 
-  $("#empty").hidden = graph.nodes.length > 0;
-  renderStats();
-  renderJump();
-  if (draft || linking) markPicked(); // an open form must survive redraws (e.g. agent polling)
-  else if (selected && view.byId[selected]) select(selected);
-  else showHint();
-  renderTimeline();
+function fitView() {
+  cy.resize();
+  cy.fit(undefined, 40);
+  if (cy.zoom() > 1) { cy.zoom(1); cy.center(); } // a 2-node graph shouldn't fill the screen
+}
+
+function renderFocusbar(count) {
+  const old = `<label><input type="checkbox" id="showOld" ${showOld ? "checked" : ""}> show old versions</label>`;
+  $("#focusbar").innerHTML = focusId
+    ? `<span>Chain of <b>${esc(focusId)}</b>: what it's built on and what's built on it (${count} nodes)</span>
+       <button type="button" data-focus="off">Show whole graph</button>${old}`
+    : `<span>Whole graph · ${count} nodes</span>
+       ${selected ? `<button type="button" data-focus="on">Focus on ${esc(selected)}'s chain</button>`
+         : `<span>Click a node or an inbox item to see only its chain.</span>`}${old}`;
 }
 
 function renderStats() {
@@ -168,37 +256,216 @@ function renderJump() {
   $("#jump").innerHTML = nodeOptions(selected);
 }
 
+// ---- work lists: inbox + requirements ----------------------------------
+// The PM's loop: inbox -> click an item -> its chain -> act -> next item; empty inbox -> Run agent.
+
+function inboxGroups() {
+  const live = graph.nodes.filter((n) => !view.supersededBy[n.id] && !isBrief(n) && n.type !== "Decision");
+  const seen = new Date(lastSeen || 0);
+  const broke = (n) => {
+    const b = brokenBy(n.id);
+    return b ? `${esc(b.old)} was edited → ${esc(b.now)}` : "something it is built on changed";
+  };
+  return [
+    { key: "asks", title: "The agent asks you", hint: "Answer so it can continue.",
+      items: live.filter((n) => waitingOn(n) === "pm") },
+    { key: "broken", title: "Broken by an edit", hint: "Built on something that changed. The agent redoes them on its next run.",
+      items: live.filter((n) => n.status === "stale"), why: broke,
+      action: { label: "Let the agent redo these", run: runAgent, primary: true } },
+    { key: "decide", title: "Waiting for your decision", hint: "Proposed requirements: approve, reject or postpone.",
+      items: live.filter((n) => n.type === "Requirement" && n.status !== "stale" && !verdictOf(n.id)) },
+    { key: "agent", title: "Waiting for the agent", hint: "Your requests; handled first on the next run.",
+      items: live.filter((n) => waitingOn(n) === "agent"), action: { label: "Run agent", run: runAgent } },
+    { key: "new", title: "New since your last visit",
+      items: live.filter((n) => !n.created_by.startsWith("PM:") && new Date(n.timestamp) > seen),
+      why: (n) => esc(n.rationale ? short(n.rationale, 90) : ""), action: { label: "Mark all as seen", run: markSeen } },
+  ];
+}
+
+function itemHtml(n, why = "") {
+  const verdict = verdictOf(n.id);
+  return `<button type="button" class="item ${n.id === selected ? "current" : ""}" data-goto="${esc(n.id)}">
+    <span class="head"><span class="pill ${esc(n.type)}">${esc(n.id)}</span>
+      ${verdict ? `<span class="pill ${esc(verdict)}">${esc(verdict)}</span>` : ""}
+      ${n.status === "stale" ? `<span class="pill stale">stale</span>` : ""}</span>
+    <span class="text">${esc(short(summary(n), 110))}</span>
+    ${why ? `<span class="why">${why}</span>` : ""}</button>`;
+}
+
+const MAX_ITEMS = 8;
+
+function renderSide() {
+  const groups = inboxGroups();
+  renderSide.actions = Object.fromEntries(groups.filter((g) => g.action).map((g) => [g.key, g.action.run]));
+  const html = groups.filter((g) => g.items.length).map((g) => `
+    <section class="group ${g.key}">
+      <h3><span class="dot"></span>${esc(g.title)} (${g.items.length})</h3>
+      ${g.hint ? `<p class="hint">${esc(g.hint)}</p>` : ""}
+      ${g.items.slice(0, MAX_ITEMS).map((n) => itemHtml(n, g.why?.(n))).join("")}
+      ${g.items.length > MAX_ITEMS ? `<p class="meta">+${g.items.length - MAX_ITEMS} more</p>` : ""}
+      ${g.action ? `<button type="button" class="group-action ${g.action.primary ? "primary" : ""}" data-group="${g.key}">${esc(g.action.label)}</button>` : ""}
+    </section>`).join("");
+  $("#inbox").innerHTML = html || (graph.nodes.length
+    ? `<p class="hint">Nothing needs you right now.</p>
+       <button type="button" class="group-action primary" data-group="run">Run the agent to continue</button>`
+    : `<p class="hint">Start a project in the middle panel.</p>`);
+  const needsPm = groups.filter((g) => ["asks", "broken", "decide"].includes(g.key)).reduce((s, g) => s + g.items.length, 0);
+  $("#inboxCount").textContent = needsPm || "";
+  $("#inboxCount").classList.toggle("hot", needsPm > 0);
+  renderReqs();
+}
+
+const REQ_ORDER = { undecided: 0, postpone: 1, approve: 2, reject: 3 };
+
+function renderReqs() {
+  const reqs = graph.nodes.filter((n) => n.type === "Requirement" && !view.supersededBy[n.id])
+    .map((n) => ({ n, v: verdictOf(n.id) || "undecided" }))
+    .sort((a, b) => (b.n.status === "stale") - (a.n.status === "stale") || REQ_ORDER[a.v] - REQ_ORDER[b.v]);
+  $("#reqCount").textContent = reqs.length || "";
+  $("#reqs").innerHTML = reqs.map(({ n, v }) => {
+    const up = [...upstream(n.id)].map((id) => view.byId[id]);
+    const evidence = up.filter((u) => u.type === "Evidence").length;
+    const sources = up.filter((u) => u.type === "Source").length;
+    return itemHtml(n, `${v === "undecided" ? `<span class="pill none">undecided</span> ` : ""}${evidence} evidence · ${sources} source${sources === 1 ? "" : "s"}`);
+  }).join("") || `<p class="hint">No requirements yet. The agent proposes them from claims.</p>`;
+}
+
+function setTab(tab) {
+  sideTab = tab;
+  for (const b of document.querySelectorAll("[data-tab]")) b.setAttribute("aria-selected", String(b.dataset.tab === tab));
+  $("#inbox").hidden = tab !== "inbox";
+  $("#reqs").hidden = tab !== "reqs";
+}
+
+function markSeen() {
+  lastSeen = graph.nodes.length ? graph.nodes.at(-1).timestamp : new Date().toISOString();
+  store.set("lastSeen", lastSeen);
+  renderSide();
+}
+
+// ---- brief + start screen ----------------------------------------------
+
+function renderBrief() {
+  const b = view.brief;
+  $("#briefbar").innerHTML = !graph.nodes.length ? "" : b
+    ? `<b>Brief</b><span>${esc(b.content.vehicle ?? "")} · ${esc(b.content.market ?? "")}</span>
+       <span class="goal">${esc(b.content.text ?? "")}</span>
+       <button type="button" id="editBrief">Edit brief</button>`
+    : `<span class="meta">No brief yet: the agent doesn't know your goal.</span>
+       <button type="button" id="editBrief">Set a brief</button>`;
+}
+
+function openBrief() {
+  enterMode();
+  const c = view.brief?.content ?? {};
+  const opt = (values, cur) => values.map((v) => `<option ${v === cur ? "selected" : ""}>${esc(v)}</option>`).join("");
+  $("#detail").innerHTML = `
+    <h2>${view.brief ? "Edit the brief" : "Set a brief"}</h2>
+    <p class="meta">The agent reads the brief on every run and works towards it.
+      ${view.brief ? `Saving writes v${view.brief.version + 1} of ${esc(view.brief.id)}.` : ""}</p>
+    <div class="actions">
+      <label>Vehicle <select id="briefVehicle">${opt(["BMW 5 Series", "BMW 1 Series", "BMW 7 Series"], c.vehicle)}</select></label>
+      <label>Market <select id="briefMarket">${opt(["Europe", "China", "United States"], c.market)}</select></label>
+      <label for="briefText">What should the agent work out?</label>
+      <textarea id="briefText" rows="4">${esc(c.text ?? "")}</textarea>
+      <label for="reason">Why (optional)</label>
+      <textarea id="reason"></textarea>
+      <div class="row"><button type="button" id="saveBrief" class="primary">Save brief</button>
+        <button type="button" id="cancelMode">Cancel</button></div>
+    </div>`;
+}
+
+async function saveBrief() {
+  const content = { kind: "brief", vehicle: $("#briefVehicle").value, market: $("#briefMarket").value,
+    text: $("#briefText").value.trim() };
+  if (!content.text) throw new Error("Write what the agent should work out.");
+  const rationale = $("#reason").value.trim() || null;
+  const created = view.brief
+    ? await api("/edit", { content, target_id: view.brief.id, created_by: pmName(), rationale })
+    : await api("/nodes", { type: "Note", content, inputs: [], created_by: pmName(), rationale });
+  toast(`Brief saved (${created.id})`);
+  showHint();
+  await load();
+}
+
+async function renderStart() {
+  if (renderStart.done) return;
+  renderStart.done = true;
+  $("#startPm").value = $("#pm").value;
+  const datasets = await api("/datasets");
+  $("#startSources").innerHTML = datasets.map((d) => `
+    <label><input type="checkbox" name="dataset" value="${esc(d.name)}" checked> ${esc(d.name)}
+      <span class="meta">${d.rows} rows</span></label>`).join("")
+    + `<p class="meta">Other files: use “Import CSV…” above.</p>`;
+}
+
+async function startProject() {
+  const name = $("#startPm").value.trim();
+  if (!name) throw new Error("Enter your PM name: every step you take is recorded under it.");
+  $("#pm").value = name;
+  store.set("pmName", name);
+  const files = [...document.querySelectorAll("#startSources input[name=dataset]:checked")].map((i) => i.value);
+  if (!files.length) throw new Error("Pick at least one source.");
+  const text = $("#startGoal").value.trim();
+  if (!text) throw new Error("Write what the agent should work out.");
+  const by = `PM:${name}`;
+  await api("/nodes", { type: "Note", inputs: [], created_by: by, rationale: "project brief from the start screen",
+    content: { kind: "brief", vehicle: $("#startVehicle").value, market: $("#startMarket").value, text } });
+  for (const f of files) await api("/import/dataset", { name: f, created_by: by });
+  $("#actions").value = $("#startSteps").value;
+  await load();
+  await runAgent();
+  toast("Agent started: its work appears live; what needs you lands in your inbox.");
+}
+
 // ---- selection + detail panel ------------------------------------------
 
 function select(id) {
+  selected = id;
+  if (focusMode && focusId !== id) { focusId = id; renderGraph(); }
+  highlight();
+  renderSide();
+}
+
+/** Mark the selected node in the graph and show its details. */
+function highlight() {
+  const id = selected;
   // a redraw of the same node must not wipe what the PM is typing
-  const keep = id === selected && {
+  const keep = $("#detail").dataset.node === id && {
     reason: $("#reason")?.value, edit: $("#edit")?.value, open: $(".actions details")?.open,
   };
-  selected = id;
   cy.elements().removeClass("faded").unselect();
   const el = cy.getElementById(id);
   if (el.nonempty()) {
-    cy.elements().addClass("faded");
-    el.predecessors().union(el.successors()).union(el).removeClass("faded");
+    if (!focusId) { // focus mode already shows only the chain; the whole graph fades the rest
+      cy.elements().addClass("faded");
+      el.predecessors().union(el.successors()).union(el).removeClass("faded");
+    }
     el.select();
   }
   $("#jump").value = id;
   history.replaceState(null, "", `#${id}`); // shareable link to this node
   showDetail(view.byId[id]);
+  $("#detail").dataset.node = id;
+  renderFocusbar(cy.nodes().length);
   renderTimeline();
   if (keep && $("#reason")) {
     $("#reason").value = keep.reason ?? "";
-    if (keep.edit !== undefined) $("#edit").value = keep.edit;
-    $(".actions details").open = Boolean(keep.open);
+    if (keep.edit !== undefined && $("#edit")) $("#edit").value = keep.edit;
+    if ($(".actions details")) $(".actions details").open = Boolean(keep.open);
   }
 }
 
-function showHint() {
+/** Nothing selected: back to the whole graph (redraw=false when render() already drew it). */
+function showHint(redraw = true) {
   selected = null;
   history.replaceState(null, "", location.pathname);
   cy.elements().removeClass("faded");
-  $("#detail").innerHTML = `<p class="hint">Select a node to see its chain, content and decisions.</p>`;
+  $("#detail").dataset.node = "";
+  $("#detail").innerHTML = `<p class="hint">Select a node, or an item in your inbox, to see its chain, content and decisions.</p>`;
+  if (redraw && focusId) { focusId = null; renderGraph(); }
+  else renderFocusbar(cy.nodes().length);
+  if (redraw) renderSide();
 }
 
 const chip = (id, extra = "") => `<button type="button" class="chip" data-goto="${esc(id)}">${esc(id)}${extra}</button>`;
@@ -256,7 +523,8 @@ function showDetail(n) {
     <p class="meta">v${n.version} · ${esc(n.created_by)} · ${esc(new Date(n.timestamp).toLocaleString())}</p>
     ${newer ? `<p class="warn">Superseded by ${chip(newer)}</p>` : ""}
     ${n.replaces ? `<p class="meta">Previous version: ${chip(n.replaces)}</p>` : ""}
-    ${n.status === "stale" && !newer ? `<p class="warn">Something this is built on changed — the agent should redo or confirm it.</p>` : ""}
+    ${n.status === "stale" && !newer ? `<p class="warn">${brokenBy(n.id) ? `${chip(brokenBy(n.id).old)} was edited → ${chip(brokenBy(n.id).now)}, and this is built on it.` : "Something this is built on changed."}
+      <button type="button" class="chip" data-redo="1">Let the agent redo it</button></p>` : ""}
     ${steeringHtml(n)}
 
     <h3>Content</h3>${contentHtml(n)}
@@ -303,7 +571,7 @@ let currentView = "graph";
 function setView(v) {
   currentView = v;
   for (const b of document.querySelectorAll("[data-view]")) b.setAttribute("aria-pressed", String(b.dataset.view === v));
-  $("#graph").hidden = v !== "graph";
+  $("#graphwrap").hidden = v !== "graph";
   $("#timeline").hidden = v !== "timeline";
   hideMenu();
   if (v === "graph") cy.resize();
@@ -436,7 +704,7 @@ function pmInputDoneBy(n) {
 
 /** Who has to act: "agent" (open PM input), "pm" (unanswered agent question), else null. */
 function waitingOn(n) {
-  if (!["Question", "Note"].includes(n.type)) return null;
+  if (!["Question", "Note"].includes(n.type) || isBrief(n)) return null; // the brief is a goal, not a request
   if (n.created_by.startsWith("PM:")) return pmInputDoneBy(n) ? null : "agent";
   return n.type === "Question" && !(view.dependents[n.id] || []).length ? "pm" : null;
 }
@@ -444,6 +712,7 @@ function waitingOn(n) {
 function enterMode() {
   hideMenu();
   selected = null;
+  $("#detail").dataset.node = "";
   history.replaceState(null, "", location.pathname);
   cy.elements().removeClass("faded").unselect();
 }
@@ -570,8 +839,9 @@ function showMenu(x, y, items) {
   m.innerHTML = items.map((it, i) => `<button type="button" role="menuitem" data-i="${i}">${esc(it.label)}</button>`).join("");
   m.hidden = false;
   const box = $("#graph").getBoundingClientRect(); // keep the menu inside the graph area
-  m.style.left = `${Math.max(0, Math.min(x, box.width - m.offsetWidth - 8))}px`;
-  m.style.top = `${Math.max(0, Math.min(y, box.height - m.offsetHeight - 8))}px`;
+  const main = $("main").getBoundingClientRect(); // the menu is positioned in <main>, the graph is its 2nd column
+  m.style.left = `${box.left - main.left + Math.max(0, Math.min(x, box.width - m.offsetWidth - 8))}px`;
+  m.style.top = `${box.top - main.top + Math.max(0, Math.min(y, box.height - m.offsetHeight - 8))}px`;
   m.querySelector("button").focus();
 }
 
@@ -627,7 +897,10 @@ function poll() {
     showAgent(st);
     await load();
     if (st.running) poll();
-    else toast(st.exit_code === 0 ? "Agent run finished" : `Agent run failed (exit ${st.exit_code}), see log`, st.exit_code !== 0);
+    else {
+      setTab("inbox");
+      toast(st.exit_code === 0 ? "Agent run finished: check your inbox" : `Agent run failed (exit ${st.exit_code}), see log`, st.exit_code !== 0);
+    }
   }), 1500);
 }
 
@@ -641,6 +914,8 @@ $("#detail").addEventListener("click", guard(async (ev) => {
   else if (t.dataset.unpick) togglePick(t.dataset.unpick);
   else if (t.dataset.request) requestDraft(selected, t.dataset.request);
   else if (t.dataset.answer) openDraft("Note", [t.dataset.answer]);
+  else if (t.dataset.redo) await runAgent();
+  else if (t.id === "saveBrief") await saveBrief();
   else if (t.id === "saveEdit") await saveEdit();
   else if (t.id === "createNode") await createNode();
   else if (t.id === "doLink") await doLink();
@@ -719,6 +994,30 @@ $("#trail").addEventListener("click", (ev) => {
   if (target) select(target.dataset.goto || target.dataset.id);
 });
 $("#refresh").addEventListener("click", guard(load));
+$("#work").addEventListener("click", guard(async (ev) => {
+  const t = ev.target.closest("button");
+  if (!t) return;
+  if (t.dataset.tab) setTab(t.dataset.tab);
+  else if (t.dataset.goto) select(t.dataset.goto);
+  else if (t.dataset.group === "run") await runAgent();
+  else if (t.dataset.group) await renderSide.actions[t.dataset.group]();
+}));
+$("#focusbar").addEventListener("click", (ev) => {
+  const t = ev.target.closest("[data-focus]");
+  if (!t) return;
+  focusMode = t.dataset.focus === "on";
+  focusId = focusMode ? selected : null;
+  renderGraph();
+  if (selected) highlight();
+});
+$("#focusbar").addEventListener("change", (ev) => {
+  if (ev.target.id !== "showOld") return;
+  showOld = ev.target.checked;
+  renderGraph();
+  if (selected) highlight();
+});
+$("#briefbar").addEventListener("click", (ev) => { if (ev.target.id === "editBrief") openBrief(); });
+$("#startForm").addEventListener("submit", (ev) => { ev.preventDefault(); guard(startProject)(); });
 $("#importBtn").addEventListener("click", () => $("#csv").click());
 $("#csv").addEventListener("change", guard(async (ev) => {
   const file = ev.target.files[0];

@@ -12,6 +12,21 @@ the graph in the browser console for debugging.
 | `app.js` | Loads the graph, renders it, detail panel, PM actions |
 | `layout.js` | Column-per-stage layout (Source → Evidence → Claim → Requirement → Score). Self-check: `node gui/layout.test.mjs` |
 
+## The PM's loop
+
+1. **Empty graph → start screen:** brief (vehicle, market, what to work out), tick the data files
+   (`GET /datasets`, `POST /import/dataset`), Start. The brief is a PM Note with
+   `content.kind = "brief"`; it is shown in the brief bar, not drawn, and the agent reads it every run.
+2. **Inbox** (left): only what needs the PM — *the agent asks you*, *broken by an edit* (with the
+   edit that caused it), *waiting for your decision* (undecided requirements), *waiting for the
+   agent*, *new since your last visit* ("Mark all as seen" is remembered in this browser).
+3. **Click an item → focus mode:** the graph shows only that node's chain (what it's built on,
+   what's built on it, other versions). **Show whole graph** switches back; old versions are hidden
+   unless something current still builds on them.
+4. **Act** in the detail panel, then **Run agent** (or *Let the agent redo these*): it handles PM
+   input first, then redoes stale nodes, never builds on rejected ones, then continues.
+5. **Requirements** tab: the output — every current requirement with its status and evidence count.
+
 ## Using it
 
 - **Import CSV…** turns a file into one Source node with its rows (`POST /import/csv`; needs
@@ -83,6 +98,7 @@ A PM decision shows **re-review** when what it rests on changed afterwards: an e
 | 3b. Build by hand | Palette drag & drop, right-click menus, new-node form with click-to-pick inputs, connecting nodes (drag onto / menu / panel) as new versions | ✅ done |
 | 4. PM steering | "Ask the agent to challenge / dig deeper" (right-click or detail panel), answering agent questions, "waiting for the agent" / "needs your answer" status in graph, panel and stats; the agent handles PM input first (`agent-loop/README.md` → PM steering) | ✅ done |
 | 4b. Audit timeline | Who / when / what / why for every node, filters (who, type, selected node's chain), edits list what they made stale; approvals flagged "re-review" when counter-evidence arrives later | ✅ done |
+| 4c. PM loop | Start screen + brief, inbox, requirements tab, focus mode, old versions hidden, "build by hand" folded away; agent redoes stale nodes (`POST /tools/revise`) and skips rejected ones | ✅ done |
 | 5. Demo polish | Requirement scores in the graph once scoring exists (agent-loop open problem #1), demo script, screenshots as fallback | planned |
 
 Known limits:

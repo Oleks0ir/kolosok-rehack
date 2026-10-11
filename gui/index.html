@@ -20,19 +20,26 @@
     <label>PM name <input id="pm" size="10" autocomplete="name"></label>
     <button id="refresh" type="button">Refresh</button>
   </header>
+  <div id="briefbar" class="briefbar"></div>
   <div class="legend">
-    <span class="meta">Add — drag onto the graph (or onto a node to build on it), or click:</span>
-    <button type="button" class="sw Source" draggable="true" data-new="Source">Source</button>
-    <button type="button" class="sw Evidence" draggable="true" data-new="Evidence">Evidence</button>
-    <button type="button" class="sw Claim" draggable="true" data-new="Claim">Claim</button>
-    <button type="button" class="sw Assumption" draggable="true" data-new="Assumption">Assumption</button>
-    <button type="button" class="sw Requirement" draggable="true" data-new="Requirement">Requirement</button>
-    <button type="button" class="sw Question" draggable="true" data-new="Question">Question</button>
-    <button type="button" class="sw Note" draggable="true" data-new="Note">Note</button>
     <span class="legend-key" aria-hidden="true">
-      <span class="sw Score">Score</span><span class="sw approve">approved</span><span class="sw reject">rejected</span>
+      <span class="sw Source">Source</span><span class="sw Evidence">Evidence</span><span class="sw Claim">Claim</span>
+      <span class="sw Assumption">Assumption</span><span class="sw Requirement">Requirement</span><span class="sw Score">Score</span>
+      <span class="sw Question">Question</span><span class="sw Note">Note</span>
+      <span class="sw approve">approved</span><span class="sw reject">rejected</span>
       <span class="sw postpone">postponed</span><span class="sw stale">stale</span><span class="sw awaiting">waiting</span>
     </span>
+    <details class="palette">
+      <summary>Build by hand</summary>
+      <span class="meta">Drag onto the graph (or onto a node to build on it), or click:</span>
+      <button type="button" class="sw Source" draggable="true" data-new="Source">Source</button>
+      <button type="button" class="sw Evidence" draggable="true" data-new="Evidence">Evidence</button>
+      <button type="button" class="sw Claim" draggable="true" data-new="Claim">Claim</button>
+      <button type="button" class="sw Assumption" draggable="true" data-new="Assumption">Assumption</button>
+      <button type="button" class="sw Requirement" draggable="true" data-new="Requirement">Requirement</button>
+      <button type="button" class="sw Question" draggable="true" data-new="Question">Question</button>
+      <button type="button" class="sw Note" draggable="true" data-new="Note">Note</button>
+    </details>
   </div>
   <div class="agentbar">
     <button id="importBtn" type="button">Import CSV…</button>
@@ -43,7 +50,18 @@
     <details id="agentLog"><summary>Agent log</summary><pre></pre></details>
   </div>
   <main>
-    <div id="graph" role="img" aria-label="Decision graph; use 'Jump to' to select nodes by keyboard. Right-click for actions, drag a node onto another to connect them."></div>
+    <nav id="work" aria-label="Work lists">
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" data-tab="inbox" aria-selected="true">Inbox <span id="inboxCount" class="count"></span></button>
+        <button type="button" role="tab" data-tab="reqs" aria-selected="false">Requirements <span id="reqCount" class="count"></span></button>
+      </div>
+      <div id="inbox" role="tabpanel"></div>
+      <div id="reqs" role="tabpanel" hidden></div>
+    </nav>
+    <div id="graphwrap">
+      <div id="focusbar" class="focusbar"></div>
+      <div id="graph" role="img" aria-label="Decision graph; use 'Jump to' to select nodes by keyboard. Right-click for actions, drag a node onto another to connect them."></div>
+    </div>
     <section id="timeline" aria-label="Audit timeline" hidden>
       <div class="trail-filters">
         <label>Who <select id="trailActor">
@@ -55,11 +73,37 @@
       </div>
       <ol id="trail"></ol>
     </section>
+    <section id="start" class="start" aria-labelledby="startTitle" hidden>
+      <form id="startForm">
+        <h2 id="startTitle">New decision project</h2>
+        <p class="meta">Say what you want to decide and which data to use. The agent then builds the
+          reasoning step by step; you review and steer it from your inbox.</p>
+        <fieldset>
+          <legend><span class="step">1</span> Brief</legend>
+          <div class="row">
+            <label>Vehicle <select id="startVehicle">
+              <option>BMW 5 Series</option><option>BMW 1 Series</option><option>BMW 7 Series</option></select></label>
+            <label>Market <select id="startMarket">
+              <option>Europe</option><option>China</option><option>United States</option></select></label>
+          </div>
+          <label for="startGoal">What should the agent work out?</label>
+          <textarea id="startGoal" rows="3">Which customer requirements should the successor generation fulfil, based on what customers say about the current model?</textarea>
+        </fieldset>
+        <fieldset>
+          <legend><span class="step">2</span> Sources</legend>
+          <div id="startSources" class="sources"><span class="meta">loading…</span></div>
+        </fieldset>
+        <fieldset>
+          <legend><span class="step">3</span> Start</legend>
+          <div class="row">
+            <label>Your PM name <input id="startPm" size="12" autocomplete="name" required></label>
+            <label>Agent steps <input type="number" id="startSteps" min="1" max="20" value="8"></label>
+            <button type="submit" class="primary">Start agent ▶</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
     <div id="menu" class="menu" role="menu" hidden></div>
-    <div id="empty" class="empty" hidden>
-      <h2>The graph is empty</h2>
-      <p>Import a CSV (e.g. <code>agent-loop/sample_data/demo_feedback.csv</code>), then run the agent.</p>
-    </div>
     <aside id="detail" aria-live="polite">
       <p class="hint">Select a node to see its chain, content and decisions.</p>
     </aside>

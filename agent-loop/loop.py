@@ -27,9 +27,60 @@ def handled(pm: dict, dependents: list[dict], target_dependents: list[dict]) -> 
         datetime.fromisoformat(d["timestamp"]) > asked for d in by_agent)
 
 
+def is_brief(n: dict) -> bool:
+    """The PM's brief (start screen): a Note with content.kind = "brief", the goal of the graph."""
+    return n["type"] == "Note" and n["content"].get("kind") == "brief"
+
+
+def graph_state(nodes: list[dict], edges: list[dict]) -> dict:
+    """What the chain signals must respect besides the raw graph: the latest version of each
+    node, the PM's verdicts, the brief, and which stale nodes are ready to be redone."""
+    by_id = {n["id"]: n for n in nodes}
+    newer = {n["replaces"]: n["id"] for n in nodes if n["replaces"]}
+
+    def latest(node_id: str) -> str:
+        while node_id in newer:
+            node_id = newer[node_id]
+        return node_id
+
+    decisions = sorted((e for e in edges if e["relation"] == "decides"),
+                       key=lambda e: by_id[e["from_id"]]["timestamp"])
+    verdict = {e["to_id"]: by_id[e["from_id"]]["content"].get("verdict") for e in decisions}
+    inputs: dict[str, list[str]] = {}
+    for e in edges:
+        if e["relation"] != "decides":
+            inputs.setdefault(e["from_id"], []).append(e["to_id"])
+
+    # A stale node can be redone once every input's latest version is fine again: redo the
+    # chain from the edit downwards, one step per action.
+    stale_ready = []
+    for n in nodes:
+        if n["status"] != "stale" or n["id"] in newer or n["type"] in ("Decision", "Source", "Question", "Note"):
+            continue
+        now = [latest(i) for i in inputs.get(n["id"], [])]
+        if all(by_id[i]["status"] != "stale" for i in now):
+            stale_ready.append({**n, "inputs_now": [
+                {"id": i, "was": old, "content": by_id[i]["content"]} for old, i in zip(inputs.get(n["id"], []), now)]})
+
+    briefs = [n for n in nodes if is_brief(n) and n["id"] not in newer]
+    return {
+        "superseded": set(newer),
+        "rejected": {i for i, v in verdict.items() if v == "reject"},
+        "verdict": verdict,
+        "brief": briefs[-1] if briefs else None,
+        "stale_ready": stale_ready,
+    }
+
+
 def look() -> dict:
     """Read the graph and compute the signals Decide needs."""
-    nodes = requests.get(f"{API_BASE}/nodes").json()
+    all_nodes = requests.get(f"{API_BASE}/nodes").json()
+    state = graph_state(all_nodes, requests.get(f"{API_BASE}/edges").json())
+    # Build only on live ground: not an old version, not rejected by the PM, not stale (stale
+    # nodes are redone via stale_ready instead), and not what a pending redo will build on.
+    pending = {i["id"] for n in state["stale_ready"] for i in n["inputs_now"]}
+    skip = state["superseded"] | state["rejected"] | pending
+    nodes = [n for n in all_nodes if n["id"] not in skip and n["status"] != "stale"]
     by_type: dict[str, list] = {}
     for n in nodes:
         by_type.setdefault(n["type"], []).append(n)
@@ -63,7 +114,7 @@ def look() -> dict:
     # an agent Question) and other PM instructions that the agent hasn't acted on yet.
     pm_input = []
     for n in by_type.get("Question", []) + by_type.get("Note", []):
-        if not n["created_by"].startswith("PM:"):
+        if not n["created_by"].startswith("PM:") or is_brief(n):
             continue
         targets = requests.get(f"{API_BASE}/nodes/{n['id']}/inputs").json()
         if not handled(n, dependents(n["id"]), [d for t in targets for d in dependents(t["id"])]):
@@ -71,14 +122,18 @@ def look() -> dict:
     pm_input.sort(key=lambda n: datetime.fromisoformat(n["timestamp"]))  # oldest PM input first
 
     return {
+        # the PM's goal for the whole graph: every step should serve it
+        "brief": state["brief"] and state["brief"]["content"],
         "pm_input": pm_input,
+        # stale after a PM edit, inputs fine again: redo with revise (after pm_input)
+        "stale_ready": state["stale_ready"],
+        "rejected_by_pm": sorted(state["rejected"]),
         # shortcut: every source's full content goes into every prompt; chunk or summarize
         # once real files exceed a few hundred rows.
         "sources": by_type.get("Source", []),
         "sources_without_evidence": sources_without_evidence,
         "evidence_without_claim": evidence_without_claim,
         "claims_without_requirement": claims_without_requirement,
-        "stale": [n for n in nodes if n["status"] == "stale"],
         # the agent's own questions the PM hasn't answered yet
         "open_questions": [q for q in by_type.get("Question", [])
                            if not q["created_by"].startswith("PM:") and not dependents(q["id"])],
@@ -115,6 +170,13 @@ def decide_rule_based(signals: dict) -> tuple[str, dict]:
             "inputs": [item["id"]],
             "created_by": "agent:loop",
             "rationale": f"PM input {item['id']} needs judgement",
+        }
+    for node in signals.get("stale_ready", [])[:1]:  # then repair what a PM edit broke
+        return "revise", {
+            "content": node["content"],
+            "target_id": node["id"],
+            "created_by": "agent:loop",
+            "rationale": f"rebuilt on {', '.join(i['id'] for i in node['inputs_now'])} after an edit; content unchanged (rule-based)",
         }
     if signals["sources_without_evidence"]:
         src = signals["sources_without_evidence"][0]

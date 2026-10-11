@@ -123,3 +123,45 @@ def test_hybrid_keeps_rule_based_tool_and_ids_but_llm_content(monkeypatch):
     assert args["evidence_ids"] == ["EVD-001"]
     assert args["content"] == {"text": "real claim"}
     assert args["rationale"] == "because EVD-001"
+
+
+def _g(id, type, ts, status="ok", replaces=None, created_by="agent:loop", **content):
+    return {"id": id, "type": type, "timestamp": ts, "status": status, "replaces": replaces,
+            "created_by": created_by, "content": content or {"text": id}}
+
+
+def test_graph_state_finds_the_brief_the_rejections_and_what_to_redo_first():
+    nodes = [
+        _g("NOTE-001", "Note", "t1", created_by="PM:alex", kind="brief", text="5 Series EU"),
+        _g("SRC-001", "Source", "t2"),
+        _g("EVD-001", "Evidence", "t3", status="stale"),
+        _g("CLM-001", "Claim", "t4", status="stale"),
+        _g("REQ-001", "Requirement", "t5", status="stale"),
+        _g("EVD-002", "Evidence", "t6", replaces="EVD-001"),
+        _g("CLM-002", "Claim", "t7"),
+        _g("DEC-001", "Decision", "t8", created_by="PM:alex", verdict="reject"),
+    ]
+    edges = [
+        {"from_id": "EVD-001", "to_id": "SRC-001", "relation": "derived_from"},
+        {"from_id": "CLM-001", "to_id": "EVD-001", "relation": "derived_from"},
+        {"from_id": "REQ-001", "to_id": "CLM-001", "relation": "derived_from"},
+        {"from_id": "EVD-002", "to_id": "SRC-001", "relation": "derived_from"},
+        {"from_id": "CLM-002", "to_id": "EVD-002", "relation": "derived_from"},
+        {"from_id": "DEC-001", "to_id": "CLM-002", "relation": "decides"},
+    ]
+    state = loop.graph_state(nodes, edges)
+    assert state["brief"]["id"] == "NOTE-001"
+    assert state["rejected"] == {"CLM-002"}
+    assert state["superseded"] == {"EVD-001"}
+    # CLM-001 can be redone on EVD-002 now; REQ-001 waits until CLM-001 is fine again
+    assert [n["id"] for n in state["stale_ready"]] == ["CLM-001"]
+    assert state["stale_ready"][0]["inputs_now"][0] | {"content": None} == {"id": "EVD-002", "was": "EVD-001", "content": None}
+
+
+def test_rule_based_redoes_stale_nodes_after_pm_input_and_before_new_work():
+    stale = {"id": "CLM-001", "content": {"text": "c"}, "inputs_now": [{"id": "EVD-002"}]}
+    signals = {**EMPTY_SIGNALS, "stale_ready": [stale], "sources_without_evidence": [{"id": "SRC-001"}]}
+    tool, args = decide(signals)
+    assert (tool, args["target_id"], args["content"]) == ("revise", "CLM-001", {"text": "c"})
+    pm = {**_node("QST-001", "PM:alex", "t"), "targets": []}
+    assert decide({**signals, "pm_input": [pm]})[0] == "ask_pm"

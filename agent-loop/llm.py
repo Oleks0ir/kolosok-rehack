@@ -58,6 +58,15 @@ TOOLS = [
                         "properties": {"content": _CONTENT, "target_id": {"type": "string"}, "rationale": _RATIONALE},
                         "required": ["content", "target_id", "rationale"]}}},
     {"type": "function", "function": {
+        "name": "revise",
+        "description": "Redo a node from `stale_ready` after the PM edited something it is built on. "
+                       "Read its inputs_now (the current inputs; `was` is the old id) and write the "
+                       "node's content again so it matches them. If it still holds unchanged, keep the "
+                       "content and say so in the rationale. Only ids from stale_ready.",
+        "parameters": {"type": "object",
+                        "properties": {"content": _CONTENT, "target_id": {"type": "string"}, "rationale": _RATIONALE},
+                        "required": ["content", "target_id", "rationale"]}}},
+    {"type": "function", "function": {
         "name": "ask_pm", "description": "Stop and ask the PM a question when no good next step exists.",
         "parameters": {"type": "object",
                         "properties": {"content": _CONTENT, "inputs": _IDS, "rationale": _RATIONALE},
@@ -94,6 +103,11 @@ Rules:
      evidence_ids only NEXT TO real Evidence ids. Never make a claim that rests on the note alone.
    - anything else is an instruction: follow it. If you can't, call ask_pm with the item id in
      inputs and explain why.
+0b. `stale_ready` comes next: the PM edited something these nodes are built on. Redo the first
+   one with revise before any new work, so the chain the PM changed is whole again.
+0c. `brief` is the PM's goal (vehicle, market, what they want to decide). Prefer findings,
+   claims and requirements that serve it; skip rows that don't.
+0d. Never build on ids in `rejected_by_pm`: the PM rejected them.
 1. Evidence must contain real data. For query_data, read the source's content in `sources`
    and put one specific finding in content: {"text": "<finding>", "quote": "<exact row
    text>", "source_ref": "<row reference>"}. Never write an instruction, plan or request

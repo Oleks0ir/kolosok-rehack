@@ -121,6 +121,21 @@ VISION.md: "PM input becomes the agent's next priority." Convention in the graph
   then a "feedback is mixed" claim on both sides. gpt-4o-mini fabricated on both requests
   before the gates.
 
+## Brief, rejections and redoing stale nodes
+
+`look()` also reads the PM's verdicts and the versions (`graph_state()`):
+
+- `brief`: the PM's goal from the start screen (a PM Note with `content.kind = "brief"`). Not
+  PM input to "handle"; prompt rule 0c says to prefer work that serves it.
+- `rejected_by_pm`: never built on (rule 0d); rejected, superseded and stale nodes are also left
+  out of the chain signals, so the rule-based fallback can't build on them either.
+- `stale_ready`: stale nodes whose inputs' latest versions are fine again, with `inputs_now`
+  (`was` = the old id). Handled right after `pm_input` with the `revise` tool
+  (`POST /tools/revise`): a new version on the latest inputs. The chain is redone from the edit
+  downwards, one node per action; Decisions, Sources and the PM's own Questions/Notes are never
+  revised. Live (gpt-6-luna): PM edits an evidence → the next run revised the claim (picking up
+  the edit's wording), then the requirement, then went on with new work.
+
 ## Open problems (for whoever picks this up)
 
 Ordered by impact on the demo. 1–2 decide whether the output looks like prioritized

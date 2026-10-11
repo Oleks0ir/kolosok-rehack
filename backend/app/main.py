@@ -192,6 +192,19 @@ def api_ask_pm(req: AskPmRequest):
     return _handle(tools.ask_pm, **req.model_dump())
 
 
+class ReviseRequest(BaseModel):
+    content: dict[str, Any]
+    target_id: str
+    created_by: str
+    rationale: Optional[str] = None
+
+
+@app.post("/tools/revise", response_model=Node)
+def api_revise(req: ReviseRequest):
+    """Redo a stale node: new version on the latest versions of its inputs (after an edit)."""
+    return _handle(tools.revise, **req.model_dump())
+
+
 @app.post("/tools/import_source", response_model=Node)
 def api_import_source(req: ImportSourceRequest):
     return _handle(tools.import_source, **req.model_dump())
@@ -239,11 +252,41 @@ class ImportCsvRequest(BaseModel):
 @app.post("/import/csv", response_model=Node)
 def api_import_csv(req: ImportCsvRequest):
     """Record an uploaded CSV as one Source node with its rows (VISION.md: one Source per file)."""
-    rows = list(csv.DictReader(io.StringIO(req.text.lstrip("﻿"))))  # Excel adds a BOM
+    rows = _csv_rows(req.text)
     if not rows:
         raise HTTPException(400, "the CSV has no data rows")
     return _handle(tools.import_source, content={"file": req.filename, "rows": rows},
                    created_by=req.created_by, rationale="imported from the GUI")
+
+
+# Data files the start screen offers as Sources, so the PM ticks files instead of uploading.
+DATASETS = Path(__file__).resolve().parents[2] / "agent-loop" / "sample_data"
+
+
+def _csv_rows(text: str) -> list[dict]:
+    return list(csv.DictReader(io.StringIO(text.lstrip("﻿"))))  # Excel adds a BOM
+
+
+@app.get("/datasets")
+def api_list_datasets():
+    """CSV files available for import: [{name, rows}]."""
+    return [{"name": p.name, "rows": len(_csv_rows(p.read_text(encoding="utf-8")))}
+            for p in sorted(DATASETS.glob("*.csv"))]
+
+
+class ImportDatasetRequest(BaseModel):
+    name: str
+    created_by: str
+
+
+@app.post("/import/dataset", response_model=Node)
+def api_import_dataset(req: ImportDatasetRequest):
+    """Import one of /datasets as a Source node (same shape as /import/csv)."""
+    path = DATASETS / Path(req.name).name  # no paths outside the folder
+    if not path.is_file() or path.suffix != ".csv":
+        raise HTTPException(404, f"no such dataset: {req.name}")
+    return _handle(tools.import_source, content={"file": path.name, "rows": _csv_rows(path.read_text(encoding="utf-8"))},
+                   created_by=req.created_by, rationale="selected on the start screen")
 
 
 class AgentRunRequest(BaseModel):

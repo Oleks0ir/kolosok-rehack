@@ -79,6 +79,37 @@ def edit(content: dict[str, Any], target_id: str, created_by: str, rationale: Op
                     target.method, rationale, relation=relation, replaces=target_id)
 
 
+def revise(content: dict[str, Any], target_id: str, created_by: str, rationale: Optional[str] = None) -> Node:
+    """Redo a stale node (VISION.md "Going back"): a new version of target_id built on the
+    latest version of each of its inputs, so the chain is whole again after an edit.
+    Decisions are never redone — the PM re-reviews them."""
+    target = get_node(target_id)
+    if target is None:
+        raise ValueError(f"no such node: {target_id}")
+    if target.type == NodeType.DECISION:
+        raise ValueError("decisions are re-reviewed by the PM, not revised")
+    if target.status != "stale":
+        raise ValueError(f"{target_id} is not stale; nothing to redo")
+    nodes = list_nodes()
+    newer = {n.replaces: n.id for n in nodes if n.replaces}
+    if target_id in newer:
+        raise ValueError(f"{target_id} already has a newer version ({newer[target_id]})")
+
+    def latest(node_id: str) -> str:
+        while node_id in newer:
+            node_id = newer[node_id]
+        return node_id
+
+    edges = list_edges(target_id)
+    inputs = list(dict.fromkeys(latest(e["to_id"]) for e in edges))
+    stale_inputs = [i for i in inputs if get_node(i).status == "stale"]
+    if stale_inputs:
+        raise ValueError(f"redo {', '.join(stale_inputs)} first: {target_id} is built on them")
+    relation = Relation(edges[0]["relation"]) if edges else Relation.DERIVED_FROM
+    return add_node(target.type, content, inputs, created_by,
+                    target.method, rationale, relation=relation, replaces=target_id)
+
+
 PM_CREATABLE = {NodeType.SOURCE, NodeType.EVIDENCE, NodeType.CLAIM, NodeType.ASSUMPTION,
                 NodeType.REQUIREMENT, NodeType.QUESTION, NodeType.NOTE}
 
