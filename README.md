@@ -147,6 +147,19 @@ independent batches for the same part without reconciling category labels across
 Call `build_criticism_matrix(tables, category_column="Issue category")` to use those categories.
 The AI groups text; Python calculates both percentages. No AI calls are made by the matrix function.
 
+To calculate the percentage of each repeated comment label within the hashmap from `preparationNeo.py`:
+
+```python
+from data_preparation.preparation import read_csv_files
+from data_preparation.preparationNeo import readAndSample, calculateCommentProbabilities
+
+result = calculateCommentProbabilities(readAndSample(read_csv_files()))
+```
+
+Each key retains its original percentage; its comment list becomes a mapping of exact comment
+labels to percentages within that list. Empty lists become empty mappings; the input is unchanged.
+Run its check with `python3 -m unittest data_preparation.test_preparationNeo`.
+
 ## 7. Repo map
 
 | Path | Purpose |
