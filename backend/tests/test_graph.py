@@ -1,3 +1,5 @@
+from concurrent.futures import ThreadPoolExecutor
+
 import pytest
 
 from app import tools
@@ -99,6 +101,45 @@ def test_challenge_creates_contradicting_evidence():
 def test_ask_pm_allows_no_inputs():
     question = tools.ask_pm({"text": "which market first?"}, None, "agent:researcher")
     assert question.type == NodeType.QUESTION
+
+
+def test_double_versioning_marks_both_old_versions_stale():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    v1 = tools.query_data({"row": "v1"}, [src.id], "agent:researcher")
+    v2 = add_node(NodeType.EVIDENCE, {"row": "v2"}, [src.id], "agent:researcher", replaces=v1.id)
+    v3 = add_node(NodeType.EVIDENCE, {"row": "v3"}, [src.id], "agent:researcher", replaces=v2.id)
+
+    assert v2.version == 2
+    assert v3.version == 3
+    assert get_node(v1.id).status == "stale"
+    assert get_node(v2.id).status == "stale"
+    assert get_node(v3.id).status == "ok"
+
+
+def test_scoring_a_stale_node_is_still_allowed():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    evidence = tools.query_data({"row": "v1"}, [src.id], "agent:researcher")
+    claim = tools.add_claim({"text": "unmet need"}, [evidence.id], "agent:researcher")
+    requirement = tools.propose_requirement({"text": "fix it"}, [claim.id], "agent:researcher")
+
+    add_node(NodeType.EVIDENCE, {"row": "v2"}, [src.id], "agent:researcher", replaces=evidence.id)
+    assert get_node(requirement.id).status == "stale"
+
+    scored = tools.score({"value": 1}, requirement.id, "formula", "formula:v1")
+    assert scored.type == NodeType.SCORE
+    assert scored.status == "ok"
+
+
+def test_concurrent_add_node_gets_unique_ids():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+
+    def make_claim(i):
+        return tools.add_claim({"text": f"claim {i}"}, [src.id], "agent:researcher").id
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        ids = list(pool.map(make_claim, range(8)))
+
+    assert len(set(ids)) == 8
 
 
 def test_end_to_end_requirement_traces_to_source():
