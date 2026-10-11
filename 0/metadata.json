@@ -1,0 +1,70 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4MTS9BTZB52GHH23VGZXPT6",
+  "session_id": "d2bb8062-20f9-4316-b497-4ee6056d7855",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T06:35:44.633481Z",
+  "branch": "feat/pm-inbox",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "gui/README.md",
+    "gui/app.js",
+    "gui/index.html",
+    "gui/start.css",
+    "gui/start.js",
+    "gui/style.css"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "turn_id": "2d523d5edff5",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 118,
+    "cache_creation_tokens": 185504,
+    "cache_read_tokens": 9222947,
+    "output_tokens": 61390,
+    "api_call_count": 59
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T06:35:44.519194Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 377,
+    "human_modified": 146,
+    "human_removed": 0,
+    "total_committed": 377,
+    "total_lines_changed": 523,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 731,
+      "user_lines_removed": 73,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".gitignore": 2,
+        "gui/README.md": 5,
+        "gui/app.js": 13,
+        "gui/index.html": 3,
+        "gui/start.css": 113,
+        "gui/start.js": 385,
+        "gui/style.css": 2,
+        "handoff-decision-graph-20261011-013615.md": 78,
+        "handoff-pm-workbench-design-20261011-074435.md": 130
+      },
+      "user_removed_per_file": {
+        "gui/README.md": 2,
+        "gui/app.js": 23,
+        "gui/index.html": 30,
+        "gui/style.css": 18
+      }
+    }
+  ]
+}
