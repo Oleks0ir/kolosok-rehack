@@ -1,0 +1,37 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4MQNPBGMC12N0RSC813RDQZ",
+  "strategy": "manual-commit",
+  "branch": "feat/pm-inbox",
+  "checkpoints_count": 9,
+  "files_touched": [
+    "agent-loop/README.md",
+    "agent-loop/llm.py",
+    "agent-loop/loop.py",
+    "agent-loop/test_loop.py",
+    "backend/app/main.py",
+    "backend/app/tools.py",
+    "backend/tests/test_api.py",
+    "backend/tests/test_graph.py",
+    "gui/README.md",
+    "gui/app.js",
+    "gui/index.html",
+    "gui/style.css"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 182,
+    "cache_creation_tokens": 273069,
+    "cache_read_tokens": 16248220,
+    "output_tokens": 80848,
+    "api_call_count": 91
+  }
+}

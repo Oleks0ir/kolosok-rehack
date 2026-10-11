@@ -1,0 +1,78 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4MQNPBGMC12N0RSC813RDQZ",
+  "session_id": "a89ce5b6-0c5f-4f63-a563-0c0d427b1038",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T05:41:21.407016Z",
+  "branch": "feat/pm-inbox",
+  "checkpoints_count": 9,
+  "files_touched": [
+    "agent-loop/README.md",
+    "agent-loop/llm.py",
+    "agent-loop/loop.py",
+    "agent-loop/test_loop.py",
+    "backend/app/main.py",
+    "backend/app/tools.py",
+    "backend/tests/test_api.py",
+    "backend/tests/test_graph.py",
+    "gui/README.md",
+    "gui/app.js",
+    "gui/index.html",
+    "gui/style.css"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "turn_id": "3a9b1cd804f5",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 182,
+    "cache_creation_tokens": 273069,
+    "cache_read_tokens": 16248220,
+    "output_tokens": 80848,
+    "api_call_count": 91
+  },
+  "session_metrics": {
+    "turn_count": 9
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T05:41:21.140432Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 2944,
+    "human_modified": 53,
+    "human_removed": 0,
+    "total_committed": 2944,
+    "total_lines_changed": 2997,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 757,
+      "user_lines_removed": 53,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "agent-loop/llm.py": 14,
+        "agent-loop/loop.py": 65,
+        "agent-loop/test_loop.py": 42,
+        "backend/app/main.py": 44,
+        "backend/app/tools.py": 31,
+        "backend/tests/test_api.py": 10,
+        "backend/tests/test_graph.py": 32,
+        "gui/app.js": 317,
+        "gui/index.html": 58,
+        "gui/style.css": 66,
+        "handoff-decision-graph-20261011-013615.md": 78
+      },
+      "user_removed_per_file": {
+        "agent-loop/loop.py": 3,
+        "backend/app/main.py": 1,
+        "gui/app.js": 25,
+        "gui/index.html": 14,
+        "gui/style.css": 10
+      }
+    }
+  ]
+}
