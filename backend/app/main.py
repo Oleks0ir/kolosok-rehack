@@ -135,6 +135,7 @@ def api_query_data(req: QueryDataRequest):
 
 @app.post("/tools/web_search", response_model=Node)
 def api_web_search(req: WebSearchRequest):
+    """Record a web search result (content must include its source url) as Evidence."""
     return _handle(tools.web_search, **req.model_dump())
 
 
@@ -145,11 +146,13 @@ def api_add_claim(req: AddClaimRequest):
 
 @app.post("/tools/add_assumption", response_model=Node)
 def api_add_assumption(req: AddAssumptionRequest):
+    """Record a forward-looking guess, explicitly marked as not evidence."""
     return _handle(tools.add_assumption, **req.model_dump())
 
 
 @app.post("/tools/propose_requirement", response_model=Node)
 def api_propose_requirement(req: ProposeRequirementRequest):
+    """Turn one or more claims into a customer requirement proposal."""
     return _handle(tools.propose_requirement, **req.model_dump())
 
 
@@ -160,11 +163,13 @@ def api_score(req: ScoreRequest):
 
 @app.post("/tools/challenge", response_model=Node)
 def api_challenge(req: ChallengeRequest):
+    """Look for counter-evidence to an existing node; writes Evidence that contradicts it."""
     return _handle(tools.challenge, **req.model_dump())
 
 
 @app.post("/tools/ask_pm", response_model=Node)
 def api_ask_pm(req: AskPmRequest):
+    """Stop and ask the PM a question; writes a Question node (no inputs required)."""
     return _handle(tools.ask_pm, **req.model_dump())
 
 

@@ -12,6 +12,7 @@ def clean_db():
     with get_conn() as conn:
         with conn.cursor() as cur:
             cur.execute("TRUNCATE edges, nodes CASCADE")
+            cur.execute("UPDATE node_counters SET next = 1")
     yield
 
 
@@ -64,6 +65,40 @@ def test_stale_propagates_to_dependents():
 def test_add_claim_rejects_missing_input():
     with pytest.raises(ValueError):
         tools.add_claim({"text": "x"}, ["EVD-999"], "agent:researcher")
+
+
+def test_web_search_creates_evidence_with_url():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    found = tools.web_search({"url": "https://example.com", "quote": "trend"}, [src.id], "agent:researcher")
+    assert found.type == NodeType.EVIDENCE
+    assert found.content["url"] == "https://example.com"
+
+
+def test_add_assumption_requires_inputs():
+    with pytest.raises(ValueError):
+        tools.add_assumption({"text": "guess"}, [], "agent:researcher")
+
+
+def test_propose_requirement_links_to_claim():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    evidence = tools.query_data({"row": "complaint"}, [src.id], "agent:researcher")
+    claim = tools.add_claim({"text": "unmet need"}, [evidence.id], "agent:researcher")
+    requirement = tools.propose_requirement({"text": "fix it"}, [claim.id], "agent:researcher")
+    assert requirement.type == NodeType.REQUIREMENT
+
+
+def test_challenge_creates_contradicting_evidence():
+    src = add_node(NodeType.SOURCE, {"file": "x.csv"}, [], "tool:import")
+    claim = add_node(NodeType.CLAIM, {"text": "unmet need"}, [src.id], "agent:researcher")
+    counter = tools.challenge({"row": "actually fine"}, claim.id, "agent:researcher")
+    assert counter.type == NodeType.EVIDENCE
+    from app.graph import get_dependents
+    assert any(d.id == counter.id for d in get_dependents(claim.id))
+
+
+def test_ask_pm_allows_no_inputs():
+    question = tools.ask_pm({"text": "which market first?"}, None, "agent:researcher")
+    assert question.type == NodeType.QUESTION
 
 
 def test_end_to_end_requirement_traces_to_source():
