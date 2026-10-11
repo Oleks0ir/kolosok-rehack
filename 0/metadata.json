@@ -1,0 +1,81 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4MKC2AKRKNT1PA88Y0FE2HJ",
+  "session_id": "131737e0-3883-4510-907b-2ed4c8f8750c",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T04:26:13.0697339Z",
+  "branch": "feat/gui",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "agent-loop/README.md",
+    "agent-loop/llm.py",
+    "agent-loop/loop.py",
+    "gui/README.md",
+    "gui/app.js",
+    "gui/index.html",
+    "gui/style.css"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "34082dbd64b8",
+  "checkpoint_transcript_start": 3449,
+  "transcript_lines_at_start": 3449,
+  "compact_transcript_start": 560,
+  "token_usage": {
+    "input_tokens": 34,
+    "cache_creation_tokens": 35258,
+    "cache_read_tokens": 6477095,
+    "output_tokens": 25033,
+    "api_call_count": 17
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-ponytail-audit-2026-10-11T01:22:20.0392986Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ponytail-audit"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "58ce1d5eae05",
+      "timestamp": "2026-10-11T01:22:20.0392986Z",
+      "native": {
+        "command": "/ponytail-audit"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ponytail-audit",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 50
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T04:26:12.6881286Z",
+    "agent_lines": 146,
+    "agent_removed": 18,
+    "human_added": 0,
+    "human_modified": 528,
+    "human_removed": 0,
+    "total_committed": 674,
+    "total_lines_changed": 692,
+    "agent_percentage": 23.699421965317917,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}
