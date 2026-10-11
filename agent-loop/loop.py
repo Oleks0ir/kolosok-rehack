@@ -68,6 +68,7 @@ def look() -> dict:
         targets = requests.get(f"{API_BASE}/nodes/{n['id']}/inputs").json()
         if not handled(n, dependents(n["id"]), [d for t in targets for d in dependents(t["id"])]):
             pm_input.append({**n, "targets": targets})
+    pm_input.sort(key=lambda n: datetime.fromisoformat(n["timestamp"]))  # oldest PM input first
 
     return {
         "pm_input": pm_input,

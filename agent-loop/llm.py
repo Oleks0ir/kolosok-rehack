@@ -12,7 +12,7 @@ MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 _CONTENT = {
     "type": "object",
     "description": "the node's content. Always a JSON object, e.g. {\"text\": \"...\"} or "
-                   "{\"quote\": \"...\", \"url\": \"...\"} — never a plain string.",
+                   "{\"text\": \"...\", \"quote\": \"...\", \"source_ref\": \"...\"} — never a plain string.",
     "properties": {"text": {"type": "string"}, "quote": {"type": "string"},
                    "source_ref": {"type": "string"}},
 }
@@ -25,11 +25,8 @@ TOOLS = [
         "parameters": {"type": "object",
                         "properties": {"content": _CONTENT, "source_ids": _IDS, "rationale": _RATIONALE},
                         "required": ["content", "source_ids", "rationale"]}}},
-    {"type": "function", "function": {
-        "name": "web_search", "description": "Find competitor info/trends; content must include a url.",
-        "parameters": {"type": "object",
-                        "properties": {"content": _CONTENT, "inputs": _IDS, "rationale": _RATIONALE},
-                        "required": ["content", "inputs", "rationale"]}}},
+    # shortcut: no web_search tool — the loop has no real search behind it, so the LLM could only
+    # invent results and URLs. Add it back (backend /tools/web_search exists) with a real search call.
     {"type": "function", "function": {
         "name": "add_claim", "description": "State a finding, linked to its evidence.",
         "parameters": {"type": "object",
@@ -92,8 +89,9 @@ Rules:
    - request "dig_deeper": find another source row about the SAME topic as its target
      (query_data), or a claim that refines it. Rows on other topics don't count; if there are
      none, call ask_pm and say so.
-   - a PM Note built on one of your Questions is the PM's answer: build on it (e.g. add_claim
-     or add_assumption with the note among the inputs).
+   - a PM Note built on one of your Questions is the PM's answer. It is the PM's judgement, not
+     evidence: record it with add_assumption (the note among the inputs), or add the note to
+     evidence_ids only NEXT TO real Evidence ids. Never make a claim that rests on the note alone.
    - anything else is an instruction: follow it. If you can't, call ask_pm with the item id in
      inputs and explain why.
 1. Evidence must contain real data. For query_data, read the source's content in `sources`

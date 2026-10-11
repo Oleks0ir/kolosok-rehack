@@ -16,8 +16,9 @@ Look → Decide → Act → Pause
    them, which nodes are `stale`, which Questions are still open. This is the "what's known,
    open, weak or contradictory" read VISION.md describes.
 2. **Decide** — given the signals and this run's recent actions, pick exactly one next
-   action: one of the 8 tools (`query_data`, `web_search`, `add_claim`, `add_assumption`,
-   `propose_requirement`, `score`, `challenge`, `ask_pm`) plus its arguments, and a `rationale`
+   action: one of the agent tools (`query_data`, `add_claim`, `add_assumption`,
+   `propose_requirement`, `score`, `challenge`, `ask_pm`; `web_search` is withheld until a real
+   search exists — see open problem 7) plus its arguments, and a `rationale`
    string explaining why. `llm.py` does this with OpenAI tool-calling; `DECIDE_MODE` picks how:
    - `llm` (default): the LLM picks the tool and writes everything.
    - `hybrid`: `decide_rule_based()` picks the tool and input ids (guaranteed progress), the
@@ -111,9 +112,14 @@ VISION.md: "PM input becomes the agent's next priority." Convention in the graph
   target's own row — gpt-4o-mini recorded the claim's own row as counter-evidence, luna
   recorded "none found". A rejected call lands in history; the model then hands back via
   `ask_pm` ("no counter-evidence found"), which pauses the run.
-- Live (gpt-6-luna, demo CSV): challenge → honest "none found" question to the PM; dig deeper
-  → one gated off-topic attempt, then an honest question; PM answer Note → `add_assumption`
-  built on it. gpt-4o-mini fabricated on both requests before the gates.
+- Items are handled oldest first. A PM answer is judgement, not evidence: the prompt asks for
+  `add_assumption` or the note next to real evidence ids (luna once built a claim on a note
+  alone while its rationale called that invalid).
+- Live (gpt-6-luna): demo CSV — challenge → honest "none found" question to the PM; dig deeper
+  → one gated off-topic attempt, then an honest question; PM answer Note → `add_assumption`.
+  Seat data with a real contradicting row — challenge → `EVD` with `contradicts` quoting it,
+  then a "feedback is mixed" claim on both sides. gpt-4o-mini fabricated on both requests
+  before the gates.
 
 ## Open problems (for whoever picks this up)
 
@@ -140,8 +146,11 @@ requirements or a list of one-verbatim paraphrases.
 6. **Prompt size grows with the source.** ~2.7k input tokens per call for 12 rows, mostly the
    CSV (`sources` signal in `look()`, marked `shortcut:`). Real verbatim files need chunking or
    per-call row selection before they're seeded.
-7. **Unused tools.** No run called `web_search`, `challenge` or `add_assumption` — Look has no
-   signal that would trigger them (e.g. "requirement with only one evidence" → `challenge`).
+7. **No real web search.** `web_search` is not offered to the LLM (`llm.py`): with no search
+   API behind it, the model could only invent results and URLs. Wire a real search call into
+   the loop, then add the tool back. `challenge` and `add_assumption` now get used through PM
+   steering (below); unprompted, Look still has no signal for them (e.g. "requirement with only
+   one evidence" → `challenge`).
 
 ## What's intentionally not here (teammate's call)
 

@@ -139,6 +139,7 @@ function render() {
   if (draft || linking) markPicked(); // an open form must survive redraws (e.g. agent polling)
   else if (selected && view.byId[selected]) select(selected);
   else showHint();
+  renderTimeline();
 }
 
 function renderStats() {
@@ -185,6 +186,7 @@ function select(id) {
   $("#jump").value = id;
   history.replaceState(null, "", `#${id}`); // shareable link to this node
   showDetail(view.byId[id]);
+  renderTimeline();
   if (keep && $("#reason")) {
     $("#reason").value = keep.reason ?? "";
     if (keep.edit !== undefined) $("#edit").value = keep.edit;
@@ -234,6 +236,11 @@ function steeringHtml(n) {
 function showDetail(n) {
   const decisions = view.decisionsFor[n.id] || [];
   const verdict = verdictOf(n.id);
+  // counter-evidence on this node that arrived after decision d: its evidence changed, re-review
+  const newerCounter = (d) => (view.dependents[n.id] || [])
+    .filter((e) => e.relation === "contradicts" && new Date(view.byId[e.from_id].timestamp) > new Date(d.timestamp))
+    .map((e) => e.from_id);
+  const reReview = decisions.length > 0 && (decisions.at(-1).status === "stale" || newerCounter(decisions.at(-1)).length > 0);
   const newer = view.supersededBy[n.id];
   const ins = view.inputs[n.id] || [];
   const deps = view.dependents[n.id] || [];
@@ -244,6 +251,7 @@ function showDetail(n) {
   $("#detail").innerHTML = `
     <h2>${esc(n.id)} <span class="pill ${esc(n.type)}">${esc(n.type)}</span>
       ${verdict ? `<span class="pill ${esc(verdict)}">${esc(verdict)}</span>` : ""}
+      ${reReview ? `<span class="pill stale">re-review</span>` : ""}
       ${n.status === "stale" ? `<span class="pill stale">stale</span>` : ""}</h2>
     <p class="meta">v${n.version} · ${esc(n.created_by)} · ${esc(new Date(n.timestamp).toLocaleString())}</p>
     ${newer ? `<p class="warn">Superseded by ${chip(newer)}</p>` : ""}
@@ -265,6 +273,7 @@ function showDetail(n) {
         <span class="pill ${esc(d.content?.verdict)}">${esc(d.content?.verdict)}</span>
         ${esc(d.created_by)} · ${esc(new Date(d.timestamp).toLocaleString())}
         ${d.status === "stale" ? `<span class="warn"> · re-review: evidence changed</span>` : ""}
+        ${newerCounter(d).length ? `<span class="warn"> · re-review: counter-evidence ${newerCounter(d).map((id) => chip(id)).join(" ")} came in after this</span>` : ""}
         ${d.rationale ? `<div>${esc(d.rationale)}</div>` : ""}</div>`).join("") || `<p class="meta">No PM decision yet.</p>`}
 
     ${editable ? `
@@ -284,6 +293,87 @@ function showDetail(n) {
       </details>
       <label>Connect: add an input to ${esc(n.id)} <select id="addInput">${nodeOptions()}</select></label>
     </div>` : ""}`;
+}
+
+// ---- audit timeline ----------------------------------------------------
+// Every node is one audit entry (append-only graph = the audit trail, VISION.md write rule 2).
+
+let currentView = "graph";
+
+function setView(v) {
+  currentView = v;
+  for (const b of document.querySelectorAll("[data-view]")) b.setAttribute("aria-pressed", String(b.dataset.view === v));
+  $("#graph").hidden = v !== "graph";
+  $("#timeline").hidden = v !== "timeline";
+  hideMenu();
+  if (v === "graph") cy.resize();
+  else renderTimeline();
+}
+
+/** Everything (transitively) built on id, including PM decisions on those nodes. */
+function builtOn(id) {
+  const seen = new Set();
+  const todo = [id];
+  while (todo.length) {
+    const cur = todo.pop();
+    const next = [...(view.dependents[cur] || []).map((e) => e.from_id), ...(view.decisionsFor[cur] || []).map((d) => d.id)];
+    for (const d of next) if (!seen.has(d)) { seen.add(d); todo.push(d); }
+  }
+  return [...seen];
+}
+
+/** One line saying what happened, in PM language. */
+function describe(n) {
+  const ins = view.inputs[n.id] || [];
+  const ids = (rel) => ins.filter((e) => !rel || e.relation === rel).map((e) => chip(e.to_id)).join(" ");
+  const request = n.content?.request;
+  if (n.type === "Decision") return `<b>${esc(n.content?.verdict ?? "decided")}</b> ${ids()}`;
+  if (n.replaces) {
+    const old = view.byId[n.replaces];
+    const sameContent = old && JSON.stringify(old.content) === JSON.stringify(n.content);
+    const stale = builtOn(n.replaces).filter((id) => view.byId[id]?.status === "stale");
+    return `${sameContent ? "connected a new input to" : "edited"} ${chip(n.replaces)} → v${n.version} ${chip(n.id)}`
+      + (stale.length ? `<div class="why">now stale because of this: ${stale.map((id) => chip(id)).join(" ")}</div>` : "");
+  }
+  if (n.type === "Source") return `imported ${chip(n.id)}`;
+  if (request) return `asked the agent to <b>${esc(REQUESTS[request])}</b> ${ids()} ${chip(n.id)}`;
+  if (n.type === "Question") return `asked ${n.created_by.startsWith("PM:") ? "the agent" : "the PM"} ${chip(n.id)}${ins.length ? ` about ${ids()}` : ""}`;
+  if (n.type === "Note" && ins.some((e) => view.byId[e.to_id]?.type === "Question")) return `answered ${ids()} with ${chip(n.id)}`;
+  if (ins.some((e) => e.relation === "contradicts")) return `recorded counter-evidence ${chip(n.id)} against ${ids("contradicts")}`;
+  if (n.type === "Score") return `scored ${ids()} → ${chip(n.id)}`;
+  return `added ${esc(n.type)} ${chip(n.id)}${ins.length ? ` from ${ids()}` : ""}`;
+}
+
+const actorClass = (by) => (by.startsWith("PM:") ? "pm" : by.startsWith("agent:") ? "agent" : "other");
+
+function renderTimeline() {
+  if (currentView !== "timeline") return;
+  const types = [...new Set(graph.nodes.map((n) => n.type))];
+  const typeSel = $("#trailType");
+  if (typeSel.options.length !== types.length + 1) {
+    typeSel.innerHTML = `<option value="">all</option>` + types.map((t) => `<option>${esc(t)}</option>`).join("");
+  }
+  const actor = $("#trailActor").value;
+  const type = typeSel.value;
+  let chain = null;
+  if ($("#trailChain").checked && selected) {
+    const el = cy.getElementById(selected);
+    chain = new Set([selected, ...(el.nonempty() ? el.predecessors().union(el.successors()).nodes().map((x) => x.id()) : [])]);
+    for (const id of [...chain]) for (const d of view.decisionsFor[id] || []) chain.add(d.id);
+  }
+  const shown = graph.nodes.filter((n) =>
+    (!actor || (actor === "other" ? actorClass(n.created_by) === "other" : n.created_by.startsWith(actor)))
+    && (!type || n.type === type) && (!chain || chain.has(n.id))).reverse();
+  $("#trail").innerHTML = shown.map((n) => `
+    <li class="entry ${n.id === selected ? "current" : ""}" data-id="${esc(n.id)}">
+      <time datetime="${esc(n.timestamp)}">${esc(new Date(n.timestamp).toLocaleString())}</time>
+      <span class="actor ${actorClass(n.created_by)}">${esc(n.created_by)}</span>
+      <div class="body">
+        <div>${describe(n)}</div>
+        ${n.type === "Decision" ? "" : `<div class="text">${esc(short(summary(n), 160))}</div>`}
+        ${n.rationale ? `<div class="why">Why: ${esc(n.rationale)}</div>` : ""}
+      </div>
+    </li>`).join("") || `<li class="meta">Nothing matches these filters.</li>`;
 }
 
 // ---- PM actions --------------------------------------------------------
@@ -622,6 +712,12 @@ $("#graph").addEventListener("drop", (ev) => {
   openDraft(type, target ? [target.id()] : []);
 });
 $("#jump").addEventListener("change", (ev) => (ev.target.value ? select(ev.target.value) : showHint()));
+for (const b of document.querySelectorAll("[data-view]")) b.addEventListener("click", () => setView(b.dataset.view));
+for (const id of ["#trailActor", "#trailType", "#trailChain"]) $(id).addEventListener("change", renderTimeline);
+$("#trail").addEventListener("click", (ev) => {
+  const target = ev.target.closest("[data-goto]") || ev.target.closest("[data-id]");
+  if (target) select(target.dataset.goto || target.dataset.id);
+});
 $("#refresh").addEventListener("click", guard(load));
 $("#importBtn").addEventListener("click", () => $("#csv").click());
 $("#csv").addEventListener("change", guard(async (ev) => {

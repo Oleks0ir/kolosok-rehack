@@ -11,6 +11,10 @@
 <body>
   <header class="topbar">
     <h1>Decision Graph</h1>
+    <div class="viewswitch" role="group" aria-label="View">
+      <button type="button" data-view="graph" aria-pressed="true">Graph</button>
+      <button type="button" data-view="timeline" aria-pressed="false">Audit timeline</button>
+    </div>
     <span id="stats" class="stats"></span>
     <label>Jump to <select id="jump"><option value="">—</option></select></label>
     <label>PM name <input id="pm" size="10" autocomplete="name"></label>
@@ -40,6 +44,17 @@
   </div>
   <main>
     <div id="graph" role="img" aria-label="Decision graph; use 'Jump to' to select nodes by keyboard. Right-click for actions, drag a node onto another to connect them."></div>
+    <section id="timeline" aria-label="Audit timeline" hidden>
+      <div class="trail-filters">
+        <label>Who <select id="trailActor">
+          <option value="">everyone</option><option value="PM:">PM</option><option value="agent:">agent</option>
+          <option value="other">import / tools</option></select></label>
+        <label>Type <select id="trailType"><option value="">all</option></select></label>
+        <label><input type="checkbox" id="trailChain"> only the selected node's chain</label>
+        <span class="meta">newest first · every entry is a node, nothing is ever deleted</span>
+      </div>
+      <ol id="trail"></ol>
+    </section>
     <div id="menu" class="menu" role="menu" hidden></div>
     <div id="empty" class="empty" hidden>
       <h2>The graph is empty</h2>

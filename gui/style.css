@@ -53,7 +53,25 @@ button, input, select, textarea { font: inherit; }
 #agentLog pre { margin: 6px 0 0; max-height: 160px; overflow: auto; white-space: pre-wrap; font-size: 12px; background: var(--bg); padding: 8px; border-radius: 6px; }
 
 main { display: grid; grid-template-columns: 1fr 400px; min-height: 0; position: relative; }
-#graph { min-height: 0; }
+#graph, #timeline { grid-column: 1; grid-row: 1; min-height: 0; }
+#detail { grid-column: 2; grid-row: 1; }
+
+.viewswitch { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.viewswitch button { border: 0; background: var(--panel); padding: 4px 12px; cursor: pointer; }
+.viewswitch button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+
+#timeline { overflow-y: auto; padding: 12px 16px; }
+#timeline[hidden] { display: none; }
+.trail-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-bottom: 8px; }
+#trail { list-style: none; margin: 0; padding: 0; }
+.entry { display: grid; grid-template-columns: 150px 1fr; gap: 2px 12px; padding: 10px 8px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.entry:hover, .entry.current { background: var(--panel); }
+.entry time { color: var(--muted); font-size: 12px; }
+.entry .actor { font-size: 12px; font-weight: 600; }
+.entry .actor.pm { color: var(--accent); } .entry .actor.agent { color: #7c3aed; }
+.entry .body { grid-column: 2; grid-row: 1 / span 2; }
+.entry .text { color: #334155; margin-top: 2px; }
+.entry .why { color: var(--muted); font-size: 13px; margin-top: 2px; }
 .empty { position: absolute; inset: 0 400px 0 0; display: grid; place-content: center; text-align: center; color: var(--muted); }
 .empty[hidden] { display: none; }
 
@@ -97,6 +115,7 @@ pre.json { white-space: pre-wrap; word-break: break-word; background: var(--bg);
 @media (max-width: 800px) {
   body { height: auto; }
   main { grid-template-columns: minmax(0, 1fr); grid-template-rows: 55vh auto; }
-  #detail { border-left: 0; border-top: 1px solid var(--line); }
+  #detail { border-left: 0; border-top: 1px solid var(--line); grid-column: 1; grid-row: 2; }
+  .entry { grid-template-columns: 1fr; } .entry .body { grid-column: 1; grid-row: auto; }
   .empty { inset: 0; }
 }

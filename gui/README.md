@@ -48,6 +48,19 @@ the graph in the browser console for debugging.
   create a loop are refused.
 - New nodes land in their type's column, not where they were dropped (the layout is computed).
 
+### Audit timeline
+
+**Audit timeline** (top bar) swaps the graph for the full trail, newest first. Every node is
+one entry — the graph is append-only, so it *is* the audit trail: who (PM / agent / import),
+when, what in plain words ("edited CLM-001 → v2", "asked the agent to challenge CLM-001",
+"recorded counter-evidence EVD-002 against CLM-001", "approve CLM-001"), the node's text and
+the documented why. Edits list the nodes that went stale because of them. Filter by who, by
+type, or to the selected node's chain (e.g. one requirement's whole history incl. decisions).
+Clicking an entry or an id selects that node; switching back to the graph keeps the selection.
+
+A PM decision shows **re-review** when what it rests on changed afterwards: an edit upstream
+(stale) or counter-evidence against the node that arrived after the decision.
+
 ### Steering the agent
 
 - **Ask the agent to challenge / dig deeper** on any node (right-click, or the buttons in its
@@ -69,7 +82,7 @@ the graph in the browser console for debugging.
 | 3. Agent control | Import CSV, Run agent (backend starts `agent-loop` as a subprocess), live status + log, auto-refresh while it runs | ✅ done |
 | 3b. Build by hand | Palette drag & drop, right-click menus, new-node form with click-to-pick inputs, connecting nodes (drag onto / menu / panel) as new versions | ✅ done |
 | 4. PM steering | "Ask the agent to challenge / dig deeper" (right-click or detail panel), answering agent questions, "waiting for the agent" / "needs your answer" status in graph, panel and stats; the agent handles PM input first (`agent-loop/README.md` → PM steering) | ✅ done |
-| 4b. Audit timeline | Chronological who / when / what / why view, filterable by type and actor | next |
+| 4b. Audit timeline | Who / when / what / why for every node, filters (who, type, selected node's chain), edits list what they made stale; approvals flagged "re-review" when counter-evidence arrives later | ✅ done |
 | 5. Demo polish | Requirement scores in the graph once scoring exists (agent-loop open problem #1), demo script, screenshots as fallback | planned |
 
 Known limits: the graph only auto-refreshes during an agent run (use **Refresh** after
