@@ -1,7 +1,8 @@
 from collections import Counter
-
+import instructor
 import pandas as pd
 from pathlib import Path
+from openai import OpenAI
 
 
 def readAndSample(tables, category_col3="Vfc level2 3 Name"):
