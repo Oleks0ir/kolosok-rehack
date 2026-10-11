@@ -33,8 +33,10 @@ def look() -> dict:
             for d in requests.get(f"{API_BASE}/nodes/{c['id']}/dependents").json()
         )
     ]
+    # Each evidence carries its input ids, so Decide can see which source it came from
+    # instead of guessing ids once the source has dropped out of sources_without_evidence.
     evidence_without_claim = [
-        e
+        {**e, "inputs": [i["id"] for i in requests.get(f"{API_BASE}/nodes/{e['id']}/inputs").json()]}
         for e in by_type.get("Evidence", [])
         if not any(
             d["type"] == "Claim"
@@ -43,6 +45,9 @@ def look() -> dict:
     ]
 
     return {
+        # shortcut: every source's full content goes into every prompt; chunk or summarize
+        # once real files exceed a few hundred rows.
+        "sources": by_type.get("Source", []),
         "sources_without_evidence": sources_without_evidence,
         "evidence_without_claim": evidence_without_claim,
         "claims_without_requirement": claims_without_requirement,
@@ -51,16 +56,23 @@ def look() -> dict:
     }
 
 
-def decide(signals: dict) -> tuple[str, dict]:
+def decide(signals: dict, history: list[dict] | None = None) -> tuple[str, dict]:
     """Pick the next tool call and its arguments.
 
-    Uses a real LLM (see llm.py) when OPENAI_API_KEY is set, otherwise falls
-    back to decide_rule_based() below — keeps tests and offline runs working
-    without network/API-key access.
+    Without OPENAI_API_KEY: decide_rule_based() alone (tests, offline runs).
+    DECIDE_MODE=llm (default): the LLM picks the tool and writes everything.
+    DECIDE_MODE=hybrid: decide_rule_based() picks the tool and input ids, so the
+    loop always progresses; the LLM only writes content + rationale.
     """
-    if os.environ.get("OPENAI_API_KEY"):
-        return decide_with_llm(signals)
-    return decide_rule_based(signals)
+    if not os.environ.get("OPENAI_API_KEY"):
+        return decide_rule_based(signals)
+    if os.environ.get("DECIDE_MODE", "llm") != "hybrid":
+        return decide_with_llm(signals, history)
+    tool, args = decide_rule_based(signals)
+    ids = {k: v for k, v in args.items() if k not in ("content", "rationale", "created_by")}
+    _, written = decide_with_llm(signals, history, forced=(tool, ids))
+    return tool, {**args, "content": written["content"],
+                  "rationale": written.get("rationale", args["rationale"])}
 
 
 def decide_rule_based(signals: dict) -> tuple[str, dict]:
@@ -112,10 +124,13 @@ def act(tool: str, args: dict) -> dict:
 def run(max_actions: int = 5) -> list[dict]:
     """Look -> Decide -> Act up to max_actions times, or until ask_pm succeeds."""
     summary = []
+    history = []  # what Decide did this run, so it can see repeats and its own errors
     for _ in range(max_actions):
-        tool, args = decide(look())
+        tool, args = decide(look(), history[-5:])
         result = act(tool, args)
         summary.append(result)
+        history.append({"tool": tool, "content": args.get("content"),
+                        "result": result.get("error") or result.get("id")})
         if tool == "ask_pm" and "error" not in result:
             break
     return summary
@@ -123,4 +138,5 @@ def run(max_actions: int = 5) -> list[dict]:
 
 if __name__ == "__main__":
     for node in run():
-        print(node["id"], node["type"], node.get("rationale"))
+        print(node.get("id", "ERROR"), node.get("type", node.get("tool")),
+              node.get("rationale") or node.get("error"))

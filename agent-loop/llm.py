@@ -13,7 +13,8 @@ _CONTENT = {
     "type": "object",
     "description": "the node's content. Always a JSON object, e.g. {\"text\": \"...\"} or "
                    "{\"quote\": \"...\", \"url\": \"...\"} — never a plain string.",
-    "properties": {"text": {"type": "string"}},
+    "properties": {"text": {"type": "string"}, "quote": {"type": "string"},
+                   "source_ref": {"type": "string"}},
 }
 _IDS = {"type": "array", "items": {"type": "string"}}
 _RATIONALE = {"type": "string", "description": "why this action, for the node's rationale field"}
@@ -62,26 +63,54 @@ TOOLS = [
                         "required": ["content", "rationale"]}}},
 ]
 
-SYSTEM_PROMPT = (
-    "You are the agent building a product-decision graph (VISION.md). You are given the "
-    "current graph's signals (sources without evidence, evidence without a claim, claims "
-    "without a requirement, stale nodes, open questions). Pick exactly one tool call that "
-    "makes the most progress right "
-    "now, and fill in its 'rationale' argument explaining why. If nothing useful can be done, "
-    "call ask_pm."
-)
+SYSTEM_PROMPT = """\
+You are the agent building a product-decision graph for BMW product managers (PMs).
+The graph grows along one chain: Source (a data file) -> Evidence (query_data: one concrete
+finding from a source) -> Claim (add_claim) -> Requirement (propose_requirement) -> score.
+Each turn you get the graph's signals and your recent_actions; pick exactly ONE tool call.
+
+Rules:
+1. Evidence must contain real data. For query_data, read the source's content in `sources`
+   and put one specific finding in content: {"text": "<finding>", "quote": "<exact row
+   text>", "source_ref": "<row reference>"}. Never write an instruction, plan or request
+   ("inspect the file...") as evidence. If a source has no usable content, call ask_pm.
+2. Never invent data. Claims summarize evidence; requirements build on claims.
+3. Only use node ids that appear in the signals. Ids are never guessed.
+4. Move down the chain: if evidence_without_claim is non-empty, prefer add_claim over another
+   query_data; if claims_without_requirement is non-empty, prefer propose_requirement.
+5. Read recent_actions. Do not repeat a finding you already recorded, do not retry a call
+   that just errored with the same arguments, and do not pick the same tool a third time in
+   a row unless it records a genuinely new finding.
+6. Always fill 'rationale' with why this step, citing the ids it builds on.
+7. If no step makes real progress, call ask_pm with a specific question.
+8. If `required_action` is given, call exactly that tool with those ids and write its
+   content and rationale.
+"""
 
 
-def decide_with_llm(signals: dict, client: OpenAI | None = None) -> tuple[str, dict]:
+def decide_with_llm(
+    signals: dict,
+    history: list[dict] | None = None,
+    forced: tuple[str, dict] | None = None,
+    client: OpenAI | None = None,
+) -> tuple[str, dict]:
+    """forced=(tool, ids) pins the tool and its input ids (hybrid mode); the LLM then only
+    writes content + rationale."""
     client = client or OpenAI()
+    payload = {"signals": signals, "recent_actions": history or []}
+    tool_choice = "required"
+    if forced:
+        tool, ids = forced
+        payload["required_action"] = {"tool": tool, **ids}
+        tool_choice = {"type": "function", "function": {"name": tool}}
     resp = client.chat.completions.create(
         model=MODEL,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": json.dumps(signals, default=str)},
+            {"role": "user", "content": json.dumps(payload, default=str)},
         ],
         tools=TOOLS,
-        tool_choice="required",
+        tool_choice=tool_choice,
     )
     call = resp.choices[0].message.tool_calls[0]
     args = json.loads(call.function.arguments)

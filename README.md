@@ -127,15 +127,16 @@ API docs once running: http://localhost:8000/docs. Endpoints: `GET /nodes`, `GET
 ### Agent loop (concept + runnable skeleton)
 
 `agent-loop/README.md` has the design for the Look → Decide → Act → Pause loop from `VISION.md`.
-`agent-loop/loop.py` is a thin, runnable skeleton of it: `decide()` is a stubbed rule-based
-placeholder (clearly marked) for where a real LLM call goes; the rest already talks to the
-real API. Run it with the backend up:
+`agent-loop/loop.py` runs it against the real API; `llm.py` is the OpenAI-backed Decide step
+(`OPENAI_API_KEY` set → LLM, unset → rule-based fallback; `DECIDE_MODE=hybrid` → rules pick the
+tool, LLM writes the content). Run it with the backend up:
 
 ```bash
 cd agent-loop
 python -m venv .venv && .venv/Scripts/activate
 pip install -r requirements.txt
-python loop.py          # or: pytest (tests decide()'s logic without a server)
+python seed.py sample_data/demo_feedback.csv   # a Source with real rows to work from
+python loop.py          # or: pytest (no server or API key needed)
 ```
 
 ### For teammates building GUI / agent-loop / ingestion

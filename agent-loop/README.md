@@ -15,11 +15,15 @@ Look → Decide → Act → Pause
    graph state: which Sources have no Evidence yet, which Claims have no Requirement built on
    them, which nodes are `stale`, which Questions are still open. This is the "what's known,
    open, weak or contradictory" read VISION.md describes.
-2. **Decide** — given the signals, pick exactly one next action: one of the 8 tools
-   (`query_data`, `web_search`, `add_claim`, `add_assumption`, `propose_requirement`, `score`,
-   `challenge`, `ask_pm`) plus its arguments, and a `rationale` string explaining why. **This is
-   the one step that needs a real LLM call** — the skeleton in `loop.py` stubs it with a fixed
-   priority rule so the rest of the loop is runnable and testable today.
+2. **Decide** — given the signals and this run's recent actions, pick exactly one next
+   action: one of the 8 tools (`query_data`, `web_search`, `add_claim`, `add_assumption`,
+   `propose_requirement`, `score`, `challenge`, `ask_pm`) plus its arguments, and a `rationale`
+   string explaining why. `llm.py` does this with OpenAI tool-calling; `DECIDE_MODE` picks how:
+   - `llm` (default): the LLM picks the tool and writes everything.
+   - `hybrid`: `decide_rule_based()` picks the tool and input ids (guaranteed progress), the
+     LLM only writes content + rationale. Limit: only one `query_data` per source, so it
+     extracts one finding per file and then walks that finding to `ask_pm`.
+   - No `OPENAI_API_KEY`: `decide_rule_based()` alone (tests, offline).
 3. **Act** — call the chosen tool's endpoint. The API is the single write path, so a failed
    call (400) means the decision was invalid (e.g. a dangling input id) — log it and let Decide
    pick something else next iteration, don't crash the loop.
@@ -31,23 +35,34 @@ Look → Decide → Act → Pause
 ## State the loop needs between pauses
 
 - `max_actions`: the pause budget (VISION.md: "after N actions").
-- Nothing else needs to persist in the loop process itself — the graph *is* the state. Each
-  resume re-runs Look from scratch, which is why stale/open-question signals must be computed
-  from the graph, not from loop memory.
+- The last 5 actions of the current run (`history` in `run()`), so Decide sees its own repeats
+  and rejected calls. Not kept across pauses — the graph *is* the state. Each resume re-runs
+  Look from scratch, which is why stale/open-question signals must be computed from the graph,
+  not from loop memory.
 
-## Known limitation (observed in a live test run)
+## Running it with data
 
-With `gpt-4o-mini`, Decide sometimes keeps calling `query_data` for the same source instead of
-moving on to `add_claim` once evidence already exists — the `evidence_without_claim` signal is
-there, but the model doesn't always act on it. The loop itself doesn't break (a rejected call
-now logs an error and lets Decide try again, see `act()`), so this is prompt-quality tuning,
-not a correctness bug. Worth revisiting the system prompt or trying a stronger model if it
-matters for the demo.
+The loop needs a Source with real content, or there is nothing to extract evidence from.
+Until the ingestion module exists, seed one from a CSV (backend running):
+
+```bash
+python seed.py sample_data/demo_feedback.csv   # 12 synthetic 5 Series rows (from alex_demo1)
+python loop.py                                 # needs OPENAI_API_KEY in the env for the LLM
+```
+
+## Why it used to stall (fixed)
+
+Early live runs (gpt-4o-mini, then gpt-6-luna: 1 of 3 clean) kept calling `query_data` and
+never reached a claim. Causes: the seeded Source held only a filename, so evidence was the
+model's own "inspect the file" request and it rightly refused to build claims on it; Decide had
+no memory of its last actions; and once a source had evidence it vanished from the signals,
+so the model guessed ids. Fixed by real rows in Sources (`seed.py`), the `sources` signal plus
+`inputs` on each evidence node, recent-action history, and a stricter prompt. Live result after
+the fix: 8/8 actions without errors, Source → Evidence → Claim → Requirement → Score, then the
+next finding.
 
 ## What's intentionally not here (teammate's call)
 
-- The real Decide step (LLM prompt, tool-call parsing) — `loop.py`'s `decide()` is a stub, see
-  its `shortcut:` comment.
 - Any UI/CLI for the PM to review a pause's summary — that's the GUI module's job; this loop
   just returns/prints the summary.
 - Detecting "PM answered a Question" to resume faster — out of scope for the first pass; Look
