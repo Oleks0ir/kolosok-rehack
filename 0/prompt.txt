@@ -1,0 +1,87 @@
+the pitch is soon. its going to be 3 min with demo being most of it probably.  What i need for that: the understanding of how our program works. how does the workflow look like when i open the project that already exists. my understanding so far: our feature: graph that allows us to look back how the decision was made. simple. now, the workflow: it all starts with for example an agent report about user feedback. is summorizes and proposes directions to move forward. they become separate nodes at the start of a chain. then the pm can on iteration decide what he needs next: a meeting to discuss the topic, a tool, an agent to make a report, a study ... each one creates a new node thats added to the chain. is that the understanding?
+
+---
+
+yes, set up a clean database for the rehearsal and lets run it, i want to see on the example that makes sense how a decision (or a small step somewhere in the middle looks like in our workflow) take me through it
+
+---
+
+<task-notification>
+<task-id>b12m8jz0s</task-id>
+<tool-use-id>toolu_018kA1xhk3LSALCQ7uRn1aNi</tool-use-id>
+<output-file>/private/tmp/claude-501/-Users-nikolaikravchenko-Desktop-ehl-hackathon-kolosok-rehack/a89ce5b6-0c5f-4f63-a563-0c0d427b1038/tasks/b12m8jz0s.output</output-file>
+<status>failed</status>
+<summary>Background command "Start the backend server with the new code and the OpenAI key" failed with exit code 144</summary>
+</task-notification>
+
+---
+
+why did it add the nodes to the left of my request though? [Image #1]
+
+---
+
+but i whought we are making a long chain of using different tools and asking questions and building ontop of each other, why does it make sense that we have fixed columns?
+
+---
+
+change to showing the chain how its saved: growing from left to right
+
+---
+
+open it again and let me go through it
+
+---
+
+without the go deeper, i want to test it out dont i?
+
+---
+
+<task-notification>
+<task-id>b38zbjrem</task-id>
+<tool-use-id>toolu_017tkyYpQhgmQ7DuKLuc5Zs5</tool-use-id>
+<output-file>/private/tmp/claude-501/-Users-nikolaikravchenko-Desktop-ehl-hackathon-kolosok-rehack/a89ce5b6-0c5f-4f63-a563-0c0d427b1038/tasks/b38zbjrem.output</output-file>
+<status>failed</status>
+<summary>Background command "Start the server on the clean demo database" failed with exit code 144</summary>
+</task-notification>
+
+---
+
+after i click challenge it and send the queston, the agent dosnt go off by itself, i have to click run agent above, correct?
+
+---
+
+note it somewhere: we need to visually emphasise new nodes that came from the last agent run
+
+---
+
+also: [Image #2] agent said no additional info, i said reject. what should happen to the chain? now only the last node is crossed out. may be we throuw the whole chain away from the interface if that happens? or what is the reason it stays?
+
+---
+
+rerun the app so i check how new nodes are marked, and then i want to mark the finished or dead ends too, on the next step
+
+---
+
+do that and reopen with dead end and finished examples
+
+---
+
+run the demo
+
+---
+
+<task-notification>
+<task-id>bphnezr1p</task-id>
+<tool-use-id>REDACTED</tool-use-id>
+<output-file>/private/tmp/claude-501/-Users-nikolaikravchenko-Desktop-ehl-hackathon-kolosok-rehack/a89ce5b6-0c5f-4f63-a563-0c0d427b1038/tasks/bphnezr1p.output</output-file>
+<status>failed</status>
+<summary>Background command "Start the server on the fresh demo database" failed with exit code 144</summary>
+</task-notification>
+
+---
+
+how can i go back to home and create a new project?
+
+---
+
+besides the start of the project, we would like to show a complex one with a big about of nodes to showcase the connections. if we dont have different project, what is the the way to show it?
