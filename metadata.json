@@ -1,0 +1,34 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4MDYS4DRPF0GSXSQH5S31TW",
+  "strategy": "manual-commit",
+  "branch": "feat/agent-loop-unstall",
+  "checkpoints_count": 4,
+  "files_touched": [
+    ".env.example",
+    "README.md",
+    "agent-loop/README.md",
+    "agent-loop/llm.py",
+    "agent-loop/loop.py",
+    "agent-loop/sample_data/demo_feedback.csv",
+    "agent-loop/seed.py",
+    "agent-loop/test_llm.py",
+    "agent-loop/test_loop.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 76,
+    "cache_creation_tokens": 90524,
+    "cache_read_tokens": 6692489,
+    "output_tokens": 36364,
+    "api_call_count": 38
+  }
+}
